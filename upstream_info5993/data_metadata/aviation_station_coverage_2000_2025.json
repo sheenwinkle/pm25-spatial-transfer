@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-08-22T13:24:43.728140+00:00",
+  "study_period": [
+    2000,
+    2025
+  ],
+  "isd_max_distance_km": 100.0,
+  "igra_max_distance_km": 150.0,
+  "isd_candidate_records": 797,
+  "isd_unique_stations": 797,
+  "isd_icao_stations": 102,
+  "isd_recommended_stations": 587,
+  "isd_candidate_station_year_files": 15420,
+  "igra_candidate_stations": 137,
+  "igra_recommended_stations": 100,
+  "country_fua_summary": [
+    {
+      "country_iso": "AUS",
+      "fua_count": 20,
+      "fua_with_isd": 20,
+      "fua_with_icao": 17,
+      "fua_with_igra": 11,
+      "fua_with_any_aviation": 20,
+      "fua_with_isd_pct": 100.0,
+      "fua_with_icao_pct": 85.0,
+      "fua_with_igra_pct": 55.0,
+      "fua_with_any_aviation_pct": 100.0,
+      "population_with_isd_pct": 100.0,
+      "population_with_icao_pct": 97.53347947293075,
+      "population_with_igra_pct": 88.29231840874625,
+      "population_with_any_aviation_pct": 100.0
+    },
+    {
+      "country_iso": "CHN",
+      "fua_count": 1539,
+      "fua_with_isd": 398,
+      "fua_with_icao": 66,
+      "fua_with_igra": 115,
+      "fua_with_any_aviation": 404,
+      "fua_with_isd_pct": 25.860948667966213,
+      "fua_with_icao_pct": 4.288499025341131,
+      "fua_with_igra_pct": 7.472384665367121,
+      "fua_with_any_aviation_pct": 26.250812215724498,
+      "population_with_isd_pct": 52.069104073630335,
+      "population_with_icao_pct": 32.28206986243728,
+      "population_with_igra_pct": 32.231764685294756,
+      "population_with_any_aviation_pct": 53.123083711280714
+    }
+  ],
+  "outputs": [
+    "data\\interim\\aviation\\isd_station_candidates_2000_2025.csv",
+    "data\\interim\\aviation\\igra_station_candidates_2000_2025.csv",
+    "data\\interim\\aviation\\fua_aviation_source_coverage_2000_2025.csv"
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        23
+      ]
+    ],
+    "date-time": "2026-08-23T04:58:18Z",
+    "timestamp": 1787461098541,
+    "version": "build-2736575974"
+  },
+  "reference-count": 53,
+  "publisher": "American Meteorological Society",
+  "issue": "9",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        9
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>The Integrated Global Radiosonde Archive (IGRA) is a collection of historical and near-real-time radiosonde and pilot balloon observations from around the globe. Consisting of a foundational dataset of individual soundings, a set of sounding-derived parameters, and monthly means, the collection is maintained and distributed by the National Oceanic and Atmospheric Administration’s National Centers for Environmental Information (NCEI). It has been used in a variety of applications, including reanalysis projects, assessments of tropospheric and stratospheric temperature and moisture trends, a wide range of studies of atmospheric processes and structures, and as validation of observations from other observing platforms. In 2016, NCEI released version 2 of the dataset, IGRA 2, which incorporates data from a considerably greater number of data sources, thus increasing the data volume by 30%, extending the data back in time to as early as 1905, and improving the spatial coverage. To create IGRA 2, 40 data sources were converted into a common data format and merged into one coherent dataset using a newly designed suite of algorithms. Then, an overhauled version of the IGRA 1 quality-assurance system was applied to the integrated data. Last, monthly means and sounding-by-sounding moisture and stability parameters were derived from the new dataset. All of these components are updated on a regular basis and made available for download free of charge on the NCEI website.</jats:p>",
+  "DOI": "10.1175/jtech-d-17-0223.1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        17
+      ]
+    ],
+    "date-time": "2018-08-17T19:39:51Z",
+    "timestamp": 1534534791000
+  },
+  "page": "1753-1770",
+  "source": "Crossref",
+  "is-referenced-by-count": 147,
+  "title": [
+    "Enhancing the Data Coverage in the Integrated Global Radiosonde Archive"
+  ],
+  "prefix": "10.1175",
+  "volume": "35",
+  "author": [
+    {
+      "given": "Imke",
+      "family": "Durre",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xungang",
+      "family": "Yin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ERT, Inc., Asheville, North Carolina"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Russell S.",
+      "family": "Vose",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Scott",
+      "family": "Applequist",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jeff",
+      "family": "Arnfield",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "12",
+  "reference": [
+    {
+      "key": "2020061616350754300_bib1",
+      "author": "Air Force Weather Agency/U.S. Air Force/U.S. Department of Defense",
+      "year": "1980"
+    },
+    {
+      "key": "2020061616350754300_bib2",
+      "doi-asserted-by": "crossref",
+      "first-page": "661",
+      "DOI": "10.1002/joc.3370060607",
+      "article-title": "A homogeneity test applied to precipitation data",
+      "volume": "6",
+      "author": "Alexandersson",
+      "year": "1986",
+      "journal-title": "J. Climatol."
+    },
+    {
+      "key": "2020061616350754300_bib3",
+      "doi-asserted-by": "crossref",
+      "first-page": "L06709",
+      "DOI": "10.1029/2006GL029224",
+      "article-title": "Global statistics of multiple tropopauses from the IGRA database",
+      "volume": "34",
+      "author": "Añel",
+      "year": "2007",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "issue": "8",
+      "key": "2020061616350754300_bib4",
+      "doi-asserted-by": "crossref",
+      "first-page": "S1",
+      "DOI": "10.1175/2015BAMSStateoftheClimate.1.2016.1.test",
+      "article-title": "State of the climate in 2015",
+      "volume": "97",
+      "author": "Blunden",
+      "year": "2016",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib5",
+      "author": "Brönnimann",
+      "year": "2013"
+    },
+    {
+      "key": "2020061616350754300_bib6",
+      "author": "Colwell",
+      "year": "2002"
+    },
+    {
+      "key": "2020061616350754300_bib7",
+      "doi-asserted-by": "crossref",
+      "first-page": "966",
+      "DOI": "10.1175/2010JCLI3816.1",
+      "article-title": "A new approach to homogenize daily radiosonde humidity data",
+      "volume": "24",
+      "author": "Dai",
+      "year": "2011",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib8",
+      "doi-asserted-by": "crossref",
+      "first-page": "1015",
+      "DOI": "10.1175/BAMS-88-7-1015",
+      "article-title": "NOAA’s Climate Database Modernization Program: Rescuing, archiving, and digitizing history",
+      "volume": "88",
+      "author": "Dupigny-Giroux",
+      "year": "2007",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib9",
+      "doi-asserted-by": "crossref",
+      "first-page": "1257",
+      "DOI": "10.1175/2008BAMS2603.1",
+      "article-title": "Enhanced radiosonde data for studies of vertical structure",
+      "volume": "89",
+      "author": "Durre",
+      "year": "2008",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib10",
+      "author": "Durre",
+      "year": "2011"
+    },
+    {
+      "key": "2020061616350754300_bib11",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1175/JCLI3594.1",
+      "article-title": "Overview of the Integrated Global Radiosonde Archive",
+      "volume": "19",
+      "author": "Durre",
+      "year": "2006",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1785",
+      "DOI": "10.1175/2007JAMC1706.1",
+      "article-title": "Strategies for evaluating quality assurance procedures",
+      "volume": "47",
+      "author": "Durre",
+      "year": "2008",
+      "journal-title": "J. Appl. Meteor. Climatol."
+    },
+    {
+      "key": "2020061616350754300_bib13",
+      "doi-asserted-by": "crossref",
+      "first-page": "2081",
+      "DOI": "10.1175/2008JAMC1809.1",
+      "article-title": "Robust automated quality assurance of radiosonde temperatures",
+      "volume": "47",
+      "author": "Durre",
+      "year": "2008",
+      "journal-title": "J. Appl. Meteor. Climatol."
+    },
+    {
+      "key": "2020061616350754300_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "D05112",
+      "DOI": "10.1029/2008JD010989",
+      "article-title": "Radiosonde-based trends in precipitable water over the Northern Hemisphere: An update",
+      "volume": "114",
+      "author": "Durre",
+      "year": "2009",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib16",
+      "author": "Durre",
+      "year": "2016"
+    },
+    {
+      "key": "2020061616350754300_bib17",
+      "author": "Durre",
+      "year": "2016"
+    },
+    {
+      "key": "2020061616350754300_bib18",
+      "doi-asserted-by": "crossref",
+      "first-page": "1507",
+      "DOI": "10.1175/1520-0477(1991)072<1507:OTUORH>2.0.CO;2",
+      "article-title": "On the utility of radiosonde humidity archives for climate studies",
+      "volume": "72",
+      "author": "Elliott",
+      "year": "1991",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib19",
+      "doi-asserted-by": "crossref",
+      "first-page": "1323",
+      "DOI": "10.1175/1520-0477(1993)074<1323:EOCAOR>2.0.CO;2",
+      "article-title": "Effects of conversion algorithms on reported upper-air dewpoint depressions",
+      "volume": "74",
+      "author": "Elliott",
+      "year": "1993",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib20",
+      "doi-asserted-by": "crossref",
+      "first-page": "2424",
+      "DOI": "10.1175/1520-0442(1998)011<2424:EOCROC>2.0.CO;2",
+      "article-title": "Effects on climate records of changes in National Weather Service humidity processing procedures",
+      "volume": "11",
+      "author": "Elliott",
+      "year": "1998",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1759",
+      "DOI": "10.1175/1520-0477(1995)076<1759:ACARDS>2.0.CO;2",
+      "article-title": "A Comprehensive Aerological Reference Data Set (CARDS): Rough and systematic errors",
+      "volume": "76",
+      "author": "Eskridge",
+      "year": "1995",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib23",
+      "doi-asserted-by": "crossref",
+      "first-page": "D22101",
+      "DOI": "10.1029/2005JD006169",
+      "article-title": "Radiosonde atmospheric temperature products for assessing climate (RATPAC): A new data set of large-area anomaly time series",
+      "volume": "110",
+      "author": "Free",
+      "year": "2005",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib24",
+      "author": "Gaffen",
+      "year": "1993"
+    },
+    {
+      "key": "2020061616350754300_bib25",
+      "doi-asserted-by": "crossref",
+      "first-page": "8108",
+      "DOI": "10.1175/JCLI-D-11-00668.1",
+      "article-title": "Homogenization of the global radiosonde temperature dataset through combined comparison with reanalysis background series and neighboring stations",
+      "volume": "25",
+      "author": "Haimberger",
+      "year": "2012",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1320",
+      "DOI": "10.3390/rs2051320",
+      "article-title": "Global evaluation of radiosonde water vapor systematic biases using GPS radio occultation from COSMIC and ECMWF analysis",
+      "volume": "2",
+      "author": "Ho",
+      "year": "2010",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "2020061616350754300_bib27",
+      "doi-asserted-by": "crossref",
+      "first-page": "5327",
+      "DOI": "10.1002/grl.50885",
+      "article-title": "Global variation of COSMIC precipitable water over land: Comparisons with ground-based GPS measurements and NCEP reanalyses",
+      "volume": "40",
+      "author": "Huang",
+      "year": "2013",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "2020061616350754300_bib28",
+      "author": "IPCC",
+      "year": "2007"
+    },
+    {
+      "key": "2020061616350754300_bib29",
+      "author": "IPCC",
+      "year": "2013"
+    },
+    {
+      "key": "2020061616350754300_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "1824",
+      "DOI": "10.1175/1520-0477(1992)073<1824:ISMSAF>2.0.CO;2",
+      "article-title": "In situ meteorological sounding archives for Arctic studies",
+      "volume": "73",
+      "author": "Kahl",
+      "year": "1992",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib31",
+      "doi-asserted-by": "crossref",
+      "first-page": "2019",
+      "DOI": "10.1175/1520-0477(1999)080<2019:ROFTFS>2.0.CO;2",
+      "article-title": "Radiosonde observations from the former Soviet “North Pole” series of drifting ice stations, 1954–90",
+      "volume": "80",
+      "author": "Kahl",
+      "year": "1999",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib32",
+      "doi-asserted-by": "crossref",
+      "first-page": "5",
+      "DOI": "10.2151/jmsj.2015-001",
+      "article-title": "The JRA-55 Reanalysis: General specifications and basic characteristics",
+      "volume": "93",
+      "author": "Kobayashi",
+      "year": "2015",
+      "journal-title": "J. Meteor. Soc. Japan"
+    },
+    {
+      "key": "2020061616350754300_bib33",
+      "doi-asserted-by": "crossref",
+      "first-page": "5820",
+      "DOI": "10.1175/2009JCLI2879.1",
+      "article-title": "An analysis of tropospheric humidity trends from radiosondes",
+      "volume": "22",
+      "author": "McCarthy",
+      "year": "2009",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib34",
+      "author": "MIT and U. Missouri",
+      "year": "1980"
+    },
+    {
+      "key": "2020061616350754300_bib35",
+      "doi-asserted-by": "crossref",
+      "first-page": "8040",
+      "DOI": "10.1002/jgrd.50589",
+      "article-title": "Assessing the quality of humidity measurements from global operational radiosonde sensors",
+      "volume": "118",
+      "author": "Moradi",
+      "year": "2013",
+      "journal-title": "J. Geophys. Res. Atmos."
+    },
+    {
+      "key": "2020061616350754300_bib36",
+      "doi-asserted-by": "crossref",
+      "first-page": "829",
+      "DOI": "10.2151/jmsj.81.829",
+      "article-title": "Seasonal variations of tropospheric wind over Indonesia: Comparison between collected operational rawinsonde data and NCEP Reanalysis for 1992-99",
+      "volume": "81",
+      "author": "Okamoto",
+      "year": "2003",
+      "journal-title": "J. Meteor. Soc. Japan"
+    },
+    {
+      "key": "2020061616350754300_bib37",
+      "doi-asserted-by": "crossref",
+      "first-page": "297",
+      "DOI": "10.5194/essd-6-297-2014",
+      "article-title": "A “Global Radiosonde and tracked-balloon Archive on Sixteen Pressure levels” (GRASP) going back to 1905—Part 2: Homogeneity adjustments for pilot balloon and radiosonde wind data",
+      "volume": "6",
+      "author": "Ramella Pralungo",
+      "year": "2014",
+      "journal-title": "Earth Syst. Sci. Data"
+    },
+    {
+      "key": "2020061616350754300_bib38",
+      "doi-asserted-by": "crossref",
+      "first-page": "D23210",
+      "DOI": "10.1029/2011JD016143",
+      "article-title": "Interactions between warm rain clouds and atmospheric preconditioning for deep convection in the tropics",
+      "volume": "116",
+      "author": "Rapp",
+      "year": "2011",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib39",
+      "doi-asserted-by": "crossref",
+      "first-page": "629",
+      "DOI": "10.1175/JTECH-D-11-00072.1",
+      "article-title": "The NOAA Products Validation System (NPROVS)",
+      "volume": "29",
+      "author": "Reale",
+      "year": "2012",
+      "journal-title": "J. Atmos. Oceanic Technol."
+    },
+    {
+      "key": "2020061616350754300_bib40",
+      "doi-asserted-by": "crossref",
+      "first-page": "1633",
+      "DOI": "10.1175/JAMC-D-15-0304.1",
+      "article-title": "The GEWEX Water Vapor Assessment: Results from intercomparison, trend and homogeneity analysis of total column water vapor",
+      "volume": "55",
+      "author": "Schröder",
+      "year": "2016",
+      "journal-title": "J. Appl. Meteor. Climatol"
+    },
+    {
+      "key": "2020061616350754300_bib41",
+      "doi-asserted-by": "crossref",
+      "first-page": "D16113",
+      "DOI": "10.1029/2009JD013680",
+      "article-title": "Estimating climatological planetary boundary layer heights from radiosonde observations: Comparison of methods and uncertainty analysis",
+      "volume": "115",
+      "author": "Seidel",
+      "year": "2010",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib42",
+      "doi-asserted-by": "crossref",
+      "first-page": "D17106",
+      "DOI": "10.1029/2012JD018143",
+      "article-title": "Climatology of the planetary boundary layer over the continental United States and Europe",
+      "volume": "117",
+      "author": "Seidel",
+      "year": "2012",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib43",
+      "author": "Serreze",
+      "year": "1997"
+    },
+    {
+      "key": "2020061616350754300_bib44",
+      "doi-asserted-by": "crossref",
+      "first-page": "D10104",
+      "DOI": "10.1029/2011JD017421",
+      "article-title": "Recent changes in tropospheric water vapor over the Arctic as assessed from radiosondes and atmospheric reanalyses",
+      "volume": "117",
+      "author": "Serreze",
+      "year": "2012",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib45",
+      "doi-asserted-by": "crossref",
+      "first-page": "054007",
+      "DOI": "10.1088/1748-9326/10/5/054007",
+      "article-title": "Atmospheric changes through 2012 as shown by iteratively homogenized radiosonde temperature and wind data (IUKv2)",
+      "volume": "10",
+      "author": "Sherwood",
+      "year": "2015",
+      "journal-title": "Environ. Res. Lett."
+    },
+    {
+      "key": "2020061616350754300_bib46",
+      "doi-asserted-by": "crossref",
+      "first-page": "572",
+      "DOI": "10.1134/S0001433811050112",
+      "article-title": "Meridional energy flux in the Arctic from data of the radiosonde archive IGRA",
+      "volume": "47",
+      "author": "Sorokina",
+      "year": "2011",
+      "journal-title": "Izv., Atmos. Oceanic Phys."
+    },
+    {
+      "key": "2020061616350754300_bib47",
+      "doi-asserted-by": "crossref",
+      "first-page": "741",
+      "DOI": "10.1175/2009BAMS2852.1",
+      "article-title": "The Comprehensive Historical Upper-Air Network",
+      "volume": "91",
+      "author": "Stickler",
+      "year": "2010",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "2020061616350754300_bib48",
+      "doi-asserted-by": "crossref",
+      "first-page": "29",
+      "DOI": "10.5194/essd-6-29-2014",
+      "article-title": "Description of the ERA-CLIM historical upper-air data",
+      "volume": "6",
+      "author": "Stickler",
+      "year": "2014",
+      "journal-title": "Earth Syst. Sci. Data"
+    },
+    {
+      "key": "2020061616350754300_bib49",
+      "doi-asserted-by": "crossref",
+      "first-page": "4785",
+      "DOI": "10.1175/JCLI3585.1",
+      "article-title": "Recent stratospheric climate trends as evidenced in radiosonde data: Global structure and tropospheric linkages",
+      "volume": "18",
+      "author": "Thompson",
+      "year": "2005",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061616350754300_bib50",
+      "doi-asserted-by": "crossref",
+      "first-page": "D18105",
+      "DOI": "10.1029/2004JD005753",
+      "article-title": "Revisiting radiosonde upper air temperatures from 1958 to 2002",
+      "volume": "110",
+      "author": "Thorne",
+      "year": "2005",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061616350754300_bib51",
+      "author": "UCAR",
+      "year": "1971"
+    },
+    {
+      "key": "2020061616350754300_bib52",
+      "doi-asserted-by": "crossref",
+      "first-page": "2487",
+      "DOI": "10.5194/amt-7-2487-2014",
+      "article-title": "A multi-site intercomparison of integrated water vapour observations for climate change analysis",
+      "volume": "7",
+      "author": "Van Malderen",
+      "year": "2014",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "2020061616350754300_bib53",
+      "author": "WMO",
+      "year": "2016"
+    },
+    {
+      "key": "2020061616350754300_bib54",
+      "author": "WMO",
+      "year": "2016"
+    },
+    {
+      "key": "2020061616350754300_bib55",
+      "author": "WMO",
+      "year": "2016"
+    }
+  ],
+  "container-title": [
+    "Journal of Atmospheric and Oceanic Technology"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://journals.ametsoc.org/view/journals/atot/35/9/jtech-d-17-0223.1.xml",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://journals.ametsoc.org/jtech/article-pdf/35/9/1753/3413510/jtech-d-17-0223_1.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://journals.ametsoc.org/downloadpdf/journals/atot/35/9/jtech-d-17-0223.1.xml",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        12,
+        29
+      ]
+    ],
+    "date-time": "2020-12-29T15:22:57Z",
+    "timestamp": 1609255377000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://journals.ametsoc.org/view/journals/atot/35/9/jtech-d-17-0223.1.xml"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        9
+      ]
+    ]
+  },
+  "references-count": 53,
+  "journal-issue": {
+    "issue": "9"
+  },
+  "URL": "https://doi.org/10.1175/jtech-d-17-0223.1",
+  "relation": {},
+  "ISSN": [
+    "0739-0572",
+    "1520-0426"
+  ],
+  "issn-type": [
+    {
+      "value": "0739-0572",
+      "type": "print"
+    },
+    {
+      "value": "1520-0426",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        9
+      ]
+    ]
+  }
+}

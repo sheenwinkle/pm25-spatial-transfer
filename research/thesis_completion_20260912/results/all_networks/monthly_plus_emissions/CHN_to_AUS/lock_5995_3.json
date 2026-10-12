@@ -1,0 +1,20 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 4.02
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 0.41200000000000003
+    }
+  ],
+  "reference": "shuffled_kernel_5994",
+  "gain": 0.004231958817849879,
+  "coverage": 0.4358974358974359,
+  "complexity": 2,
+  "discovery_pass": false
+}

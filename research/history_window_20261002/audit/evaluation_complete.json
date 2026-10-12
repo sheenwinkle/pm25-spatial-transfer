@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-02T07:39:30.290470+00:00",
+  "metric_rows": 12960,
+  "primary_rows": 480,
+  "joint_rows": 48,
+  "primary_window": 3,
+  "primary_model": "regional_kernel",
+  "fresh_confirmation": false,
+  "fixed_global_label_budget": false
+}

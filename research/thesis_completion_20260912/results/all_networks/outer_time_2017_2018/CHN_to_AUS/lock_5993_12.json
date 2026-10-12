@@ -1,0 +1,20 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": "<=",
+      "threshold": 22.9825
+    },
+    {
+      "feature": "humidity_pct",
+      "op": ">=",
+      "threshold": 61.586
+    }
+  ],
+  "reference": "target_rbf",
+  "gain": 0.019336119261191387,
+  "coverage": 0.6666666666666666,
+  "complexity": 2,
+  "discovery_pass": false
+}

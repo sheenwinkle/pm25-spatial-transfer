@@ -1,0 +1,949 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T09:59:04Z",
+    "timestamp": 1789207144823,
+    "version": "build-2803163510"
+  },
+  "reference-count": 101,
+  "publisher": "Wiley",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2017-03-03T00:00:00Z",
+        "timestamp": 1488499200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "nsojournals.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Ecography"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2017,
+        8
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Ecological data often show temporal, spatial, hierarchical (random effects), or phylogenetic structure. Modern statistical approaches are increasingly accounting for such dependencies. However, when performing cross‐validation, these structures are regularly ignored, resulting in serious underestimation of predictive error. One cause for the poor performance of uncorrected (random) cross‐validation, noted often by modellers, are dependence structures in the data that persist as dependence structures in model residuals, violating the assumption of independence. Even more concerning, because often overlooked, is that structured data also provides ample opportunity for overfitting with non‐causal predictors. This problem can persist even if remedies such as autoregressive models, generalized least squares, or mixed models are used. Block cross‐validation, where data are split strategically rather than randomly, can address these issues. However, the blocking strategy must be carefully considered. Blocking in space, time, random effects or phylogenetic distance, while accounting for dependencies in the data, may also unwittingly induce extrapolations by restricting the ranges or combinations of predictor variables available for model training, thus overestimating interpolation errors. On the other hand, deliberate blocking in predictor space may also improve error estimates when extrapolation is the modelling goal. Here, we review the ecological literature on non‐random and blocked cross‐validation approaches. We also provide a series of simulations and case studies, in which we show that, for all instances tested, block cross‐validation is nearly universally more appropriate than random cross‐validation if the goal is predicting to new data or predictor space, or for selecting causal predictors. We recommend that block cross‐validation be used wherever dependence structures exist in a dataset, even if no correlation structure is visible in the fitted model residuals, or if the fitted models account for such correlations.</jats:p>",
+  "DOI": "10.1111/ecog.02881",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        12,
+        8
+      ]
+    ],
+    "date-time": "2016-12-08T23:52:39Z",
+    "timestamp": 1481241159000
+  },
+  "page": "913-929",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 2865,
+  "title": [
+    "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+  ],
+  "prefix": "10.1111",
+  "volume": "40",
+  "author": [
+    {
+      "given": "David R.",
+      "family": "Roberts",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Volker",
+      "family": "Bahn",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Simone",
+      "family": "Ciuti",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mark S.",
+      "family": "Boyce",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jane",
+      "family": "Elith",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gurutzeta",
+      "family": "Guillera‐Arroita",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Severin",
+      "family": "Hauenstein",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "José J.",
+      "family": "Lahoz‐Monfort",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Boris",
+      "family": "Schröder",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wilfried",
+      "family": "Thuiller",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David I.",
+      "family": "Warton",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Brendan A.",
+      "family": "Wintle",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Florian",
+      "family": "Hartig",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        },
+        {
+          "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Carsten F.",
+      "family": "Dormann",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_2_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/jqs.2584"
+    },
+    {
+      "key": "e_1_2_2_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/nyas.12264"
+    },
+    {
+      "key": "e_1_2_2_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2486.2005.01000.x"
+    },
+    {
+      "key": "e_1_2_2_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1214/09-SS054"
+    },
+    {
+      "key": "e_1_2_2_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-3800(02)00205-3"
+    },
+    {
+      "key": "e_1_2_2_7_1",
+      "unstructured": "A new method for evaluating species distribution models"
+    },
+    {
+      "key": "e_1_2_2_8_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "733",
+      "DOI": "10.1111/j.1466-8238.2007.00331.x",
+      "article-title": "Can niche‐based distribution models outperform spatial interpolation? – Global Ecol",
+      "volume": "16",
+      "author": "Bahn V.",
+      "year": "2007",
+      "journal-title": "Biogeogr"
+    },
+    {
+      "key": "e_1_2_2_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1600-0706.2012.00299.x"
+    },
+    {
+      "key": "e_1_2_2_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ins.2011.12.028"
+    },
+    {
+      "key": "e_1_2_2_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.1062226"
+    },
+    {
+      "key": "e_1_2_2_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1220228110"
+    },
+    {
+      "key": "e_1_2_2_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-3800(02)00200-4"
+    },
+    {
+      "key": "e_1_2_2_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1023/A:1010933404324"
+    },
+    {
+      "key": "e_1_2_2_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2290687"
+    },
+    {
+      "key": "e_1_2_2_16_1",
+      "unstructured": "Introduction to time series and forecasting"
+    },
+    {
+      "key": "e_1_2_2_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1466-8238.2011.00698.x"
+    },
+    {
+      "key": "e_1_2_2_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1466-822X.2006.00170.x"
+    },
+    {
+      "key": "e_1_2_2_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/biomet/81.2.351"
+    },
+    {
+      "key": "e_1_2_2_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2656.2011.01803.x"
+    },
+    {
+      "key": "e_1_2_2_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10530-012-0187-z"
+    },
+    {
+      "key": "e_1_2_2_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/13658816.2012.717628"
+    },
+    {
+      "key": "e_1_2_2_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/jwmg.10"
+    },
+    {
+      "key": "e_1_2_2_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/0012-9658(2006)87[1465:ATTFHF]2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_2_25_1",
+      "unstructured": "Statistics for spatial data"
+    },
+    {
+      "key": "e_1_2_2_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2007.0906-7590.05171.x"
+    },
+    {
+      "key": "e_1_2_2_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep01164"
+    },
+    {
+      "key": "e_1_2_2_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1600-0587.2008.05505.x"
+    },
+    {
+      "key": "e_1_2_2_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2006.0906-7590.04596.x"
+    },
+    {
+      "key": "e_1_2_2_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2656.2008.01390.x"
+    },
+    {
+      "key": "e_1_2_2_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2041-210X.2010.00036.x"
+    },
+    {
+      "key": "e_1_2_2_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/284325"
+    },
+    {
+      "key": "e_1_2_2_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1017/S0376892997000088"
+    },
+    {
+      "key": "e_1_2_2_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/2041-210X.12242"
+    },
+    {
+      "key": "e_1_2_2_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2699.2009.02089.x"
+    },
+    {
+      "key": "e_1_2_2_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2011.05.033"
+    },
+    {
+      "key": "e_1_2_2_37_1",
+      "unstructured": "Geographically weighted regression: the analysis of spatially varying relationships"
+    },
+    {
+      "key": "e_1_2_2_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1098/rstb.1989.0106"
+    },
+    {
+      "key": "e_1_2_2_39_1",
+      "unstructured": "The comparative method in evolutionary biology"
+    },
+    {
+      "key": "e_1_2_2_40_1",
+      "unstructured": "The elements of statistical learning: data mining inference and prediction"
+    },
+    {
+      "key": "e_1_2_2_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ci0342472"
+    },
+    {
+      "key": "e_1_2_2_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1600-0587.2011.06999.x"
+    },
+    {
+      "key": "e_1_2_2_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/04-0702"
+    },
+    {
+      "key": "e_1_2_2_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00401706.1969.10490666"
+    },
+    {
+      "key": "e_1_2_2_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0169-5347(98)01533-X"
+    },
+    {
+      "key": "e_1_2_2_46_1",
+      "unstructured": "A study of cross‐validation and bootstrap for accuracy estimation and model selection"
+    },
+    {
+      "key": "e_1_2_2_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2664.2009.01642.x"
+    },
+    {
+      "key": "e_1_2_2_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1472-4642.2006.00293.x"
+    },
+    {
+      "key": "e_1_2_2_49_1",
+      "unstructured": "Applied predictive modeling"
+    },
+    {
+      "key": "e_1_2_2_50_1",
+      "first-page": "167",
+      "article-title": "The problem of overfitting data",
+      "volume": "10",
+      "author": "Larimore W. E.",
+      "year": "1985",
+      "journal-title": "Byte"
+    },
+    {
+      "key": "e_1_2_2_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/geb.12161"
+    },
+    {
+      "key": "e_1_2_2_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1577/1548-8659(1997)126<0725:FIBATO>2.3.CO;2"
+    },
+    {
+      "key": "e_1_2_2_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/1939924"
+    },
+    {
+      "key": "e_1_2_2_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF00048036"
+    },
+    {
+      "key": "e_1_2_2_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/1365-2656.12141"
+    },
+    {
+      "key": "e_1_2_2_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3808/jei.201100191"
+    },
+    {
+      "key": "e_1_2_2_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0169-5347(00)01981-9"
+    },
+    {
+      "key": "e_1_2_2_58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1046/j.1365-2699.2001.00626.x"
+    },
+    {
+      "key": "e_1_2_2_59_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev-ecolsys-112414-054441"
+    },
+    {
+      "key": "e_1_2_2_60_1",
+      "first-page": "Innis",
+      "article-title": "The importance of validation in ecosystem analysis",
+      "author": "Mankin J. B.",
+      "year": "1977",
+      "journal-title": "New directions in the analysis of ecological systems"
+    },
+    {
+      "key": "e_1_2_2_61_1",
+      "unstructured": "Resource selection by animals: statistical design and analysis for field studies"
+    },
+    {
+      "key": "e_1_2_2_62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ddi.12209"
+    },
+    {
+      "key": "e_1_2_2_63_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ecolmodel.2006.12.012"
+    },
+    {
+      "key": "e_1_2_2_64_1",
+      "unstructured": "Data analysis and regression: a second course in statistics"
+    },
+    {
+      "key": "e_1_2_2_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature14324"
+    },
+    {
+      "key": "e_1_2_2_66_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2491416"
+    },
+    {
+      "key": "e_1_2_2_67_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1577/1548-8659(2002)131<0329:PMOFSD>2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_2_68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/3802819"
+    },
+    {
+      "key": "e_1_2_2_69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.tree.2005.11.022"
+    },
+    {
+      "key": "e_1_2_2_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ele.12443"
+    },
+    {
+      "key": "e_1_2_2_71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/01621459.1984.10478083"
+    },
+    {
+      "key": "e_1_2_2_72_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0304-3800(93)90106-3"
+    },
+    {
+      "key": "e_1_2_2_73_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-4076(00)00030-0"
+    },
+    {
+      "key": "e_1_2_2_74_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/jbi.12227"
+    },
+    {
+      "key": "e_1_2_2_75_1",
+      "first-page": "Breckling",
+      "article-title": "Computer‐intensive methods in the analysis of species–habitat relationships",
+      "author": "Reineking B.",
+      "year": "2003",
+      "journal-title": "Gene Bits und Ökosysteme: Implikationen neuer Technologien für die ökologische Theorie"
+    },
+    {
+      "key": "e_1_2_2_76_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2041-210X.2010.00044.x"
+    },
+    {
+      "key": "e_1_2_2_77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1600-0587.2011.07147.x"
+    },
+    {
+      "key": "e_1_2_2_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1466-8238.2011.00657.x"
+    },
+    {
+      "key": "e_1_2_2_79_1",
+      "unstructured": "Data from: Cross‐validation strategies for data with temporal spatial hierarchical or phylogenetic structure"
+    },
+    {
+      "key": "e_1_2_2_80_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1046/j.1365-2907.1998.00028.x"
+    },
+    {
+      "key": "e_1_2_2_81_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-9868.2008.00700.x"
+    },
+    {
+      "key": "e_1_2_2_82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0304-3800(95)00152-2"
+    },
+    {
+      "key": "e_1_2_2_83_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1600-0587.2013.00368.x"
+    },
+    {
+      "key": "e_1_2_2_84_1",
+      "first-page": "195",
+      "article-title": "Are habitat models transferable in space and time? – J. Nat",
+      "volume": "8",
+      "author": "Schröder B.",
+      "year": "2000",
+      "journal-title": "Conserv"
+    },
+    {
+      "key": "e_1_2_2_85_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/01621459.1993.10476299"
+    },
+    {
+      "key": "e_1_2_2_86_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00401706.1977.10489581"
+    },
+    {
+      "key": "e_1_2_2_87_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aac4858"
+    },
+    {
+      "key": "e_1_2_2_88_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "111",
+      "DOI": "10.1111/j.2517-6161.1974.tb00994.x",
+      "article-title": "Cross‐validatory choice and assessment of statistical predictions",
+      "volume": "36",
+      "author": "Stone M",
+      "year": "1974",
+      "journal-title": "J. R. Stat. Soc. B"
+    },
+    {
+      "key": "e_1_2_2_89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1098/rstb.2005.1733"
+    },
+    {
+      "key": "e_1_2_2_90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.quascirev.2008.12.020"
+    },
+    {
+      "key": "e_1_2_2_91_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2004PA001072"
+    },
+    {
+      "key": "e_1_2_2_92_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/rrr.3450080307"
+    },
+    {
+      "key": "e_1_2_2_93_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.0906-7590.2004.03673.x"
+    },
+    {
+      "key": "e_1_2_2_94_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/cp-12-1215-2016"
+    },
+    {
+      "key": "e_1_2_2_95_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2699.2009.02174.x"
+    },
+    {
+      "key": "e_1_2_2_96_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01868317"
+    },
+    {
+      "key": "e_1_2_2_97_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2041-210X.2011.00170.x"
+    },
+    {
+      "key": "e_1_2_2_98_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ecolmodel.2007.10.005"
+    },
+    {
+      "key": "e_1_2_2_99_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/070037"
+    },
+    {
+      "key": "e_1_2_2_100_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/0012-9658(2001)082[3346:DAOLQV]2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_2_101_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-3800(01)00499-9"
+    },
+    {
+      "key": "e_1_2_2_102_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1472-4642.2012.00887.x"
+    }
+  ],
+  "container-title": [
+    "Ecography"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fecog.02881",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://nsojournals.onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        31
+      ]
+    ],
+    "date-time": "2025-10-31T00:37:36Z",
+    "timestamp": 1761871056000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "references-count": 101,
+  "journal-issue": {
+    "issue": "8",
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/ecog.02881"
+  ],
+  "URL": "https://doi.org/10.1111/ecog.02881",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0906-7590",
+    "1600-0587"
+  ],
+  "issn-type": [
+    {
+      "value": "0906-7590",
+      "type": "print"
+    },
+    {
+      "value": "1600-0587",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        3
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2016-12-07",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2017-03-03",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 5.11
+    }
+  ],
+  "reference": "shuffled_kernel_5994",
+  "gain": 0.07609836473799203,
+  "coverage": 0.2571428571428571,
+  "complexity": 1,
+  "discovery_pass": true
+}

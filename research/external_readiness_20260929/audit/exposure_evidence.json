@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-29T12:15:06.030263+00:00",
+  "files": [
+    {
+      "id": "au2025_manifest",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\australia_2025_external_test_20260829\\metadata\\run_metadata.json",
+      "bytes": 9268,
+      "sha256": "870bb01944a777f1e6aa6a9dfeb0413fc59f9bb0d109a6b53447d61bf61791b6"
+    },
+    {
+      "id": "au2025_code",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\thesis_workspace\\run_australia_2025_external_test.py",
+      "bytes": 24905,
+      "sha256": "3ac9eb577cae7181d2b4283cdeb22696aa9a121847cc39d1cbb543d3c71baa6a"
+    },
+    {
+      "id": "au2025_predictions",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\australia_2025_external_test_20260829\\tables\\external_2025_static_predictions.csv.gz",
+      "bytes": 464259,
+      "sha256": "3fea363d2581fef6bcdad3b007b30652dbe1648be8726b16b5594f0292af84a7"
+    },
+    {
+      "id": "au2021_2024_predictions",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\australia_multistate_refinement_20260824\\static_test_predictions_2021_2024.csv.gz",
+      "bytes": 197123,
+      "sha256": "e9aa2031bc8d186ec42eb47a82f756b9b39cd9451a7d8a78246ac3be2c61e929"
+    },
+    {
+      "id": "cn_yrd_code",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\thesis_workspace\\run_yrd_reference_alignment_audit.py",
+      "bytes": 31886,
+      "sha256": "9a7a1a496bcf1d770c94b9c907cf24885084966dc01ef26a7eced160efef73a6"
+    },
+    {
+      "id": "cn_yrd_metrics",
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\yrd_reference_alignment_20260823\\tables\\yrd_final_monthly_model_metrics_2021_2024.csv",
+      "bytes": 244,
+      "sha256": "2923954675e341ab41cc92134906578f57861ed382a4405701aef3be1b284e60"
+    },
+    {
+      "id": "current_model_protocol",
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\PROTOCOL.md",
+      "bytes": 7577,
+      "sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026"
+    },
+    {
+      "id": "current_model_code",
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\run_regional.py",
+      "bytes": 11559,
+      "sha256": "584b43ec65f99de4246ca8a5f2f0b1ed368c5c67fa99df427513885f4c451d5a"
+    }
+  ],
+  "earlier_2025_test_run": {
+    "created_at_utc": "2026-08-29T12:40:05.441618+00:00",
+    "training_rows": 21807,
+    "external_rows": 3000,
+    "external_stations": 62,
+    "external_states": [
+      "NSW",
+      "QLD",
+      "VIC"
+    ]
+  },
+  "old_test_claim_not_retroactively_invalidated": true,
+  "correction": "The 2025 test may have been untouched before its first evaluation on 2026-08-29, but cannot be reused as fresh confirmation after subsequent adaptive research."
+}

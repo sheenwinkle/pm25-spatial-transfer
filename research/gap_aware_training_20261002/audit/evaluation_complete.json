@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-10-03T02:14:16.404165+00:00",
+  "metric_rows": 16200,
+  "primary_rows": 600,
+  "paired_metric_rows": 3240,
+  "primary_width": 3,
+  "primary_model": "regional_kernel",
+  "fresh_external_confirmation": false,
+  "targets_imputed": false
+}

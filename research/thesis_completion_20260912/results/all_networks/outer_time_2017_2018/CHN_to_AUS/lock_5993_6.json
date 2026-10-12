@@ -1,0 +1,20 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": "<=",
+      "threshold": 4.36
+    },
+    {
+      "feature": "humidity_pct",
+      "op": ">=",
+      "threshold": 61.586
+    }
+  ],
+  "reference": "target_extra",
+  "gain": 0.050283161116860486,
+  "coverage": 0.7777777777777778,
+  "complexity": 2,
+  "discovery_pass": true
+}

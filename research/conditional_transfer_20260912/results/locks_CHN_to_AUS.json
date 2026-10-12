@@ -1,0 +1,526 @@
+[
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5993,
+    "budget_months": 1,
+    "fit_labels": 10,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      360,
+      510,
+      1043,
+      1266,
+      1369,
+      1562,
+      1830,
+      1991,
+      2066,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 16.587860107421875
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 8.34633215539463,
+    "baseline_rmse": 8.95289915658586,
+    "relative_improvement": 0.06775090287318053,
+    "min_year_improvement": 0.1682578657529179,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5993,
+    "budget_months": 3,
+    "fit_labels": 30,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      360,
+      510,
+      1043,
+      1266,
+      1369,
+      1562,
+      1830,
+      1991,
+      2066,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 16.587860107421875
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 8.119450746012086,
+    "baseline_rmse": 9.210707854363807,
+    "relative_improvement": 0.11847700802221295,
+    "min_year_improvement": 1.0657576802784732,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5993,
+    "budget_months": 6,
+    "fit_labels": 60,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      360,
+      510,
+      1043,
+      1266,
+      1369,
+      1562,
+      1830,
+      1991,
+      2066,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "log_fire_count_100km",
+        "operator": ">=",
+        "threshold": 4.131134470381702
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.25,
+    "rmse": 10.626158389596853,
+    "baseline_rmse": 12.00561659001934,
+    "relative_improvement": 0.11490107068463906,
+    "min_year_improvement": 1.089594963790482,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5993,
+    "budget_months": 12,
+    "fit_labels": 120,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      360,
+      510,
+      1043,
+      1266,
+      1369,
+      1562,
+      1830,
+      1991,
+      2066,
+      2355
+    ],
+    "model": "source_weighted_residual_ridge",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "distance_to_coast_km",
+        "operator": ">=",
+        "threshold": 10.81091022491455
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.8,
+    "rmse": 6.594348409134793,
+    "baseline_rmse": 7.0476010525822135,
+    "relative_improvement": 0.06431303929744303,
+    "min_year_improvement": 0.25060382857460617,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5993,
+    "budget_months": 24,
+    "fit_labels": 240,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      360,
+      510,
+      1043,
+      1266,
+      1369,
+      1562,
+      1830,
+      1991,
+      2066,
+      2355
+    ],
+    "model": "source_weighted_residual_ridge",
+    "baseline": "target_lgbm",
+    "rule": [
+      {
+        "feature": "log_population_density",
+        "operator": ">=",
+        "threshold": 5.434131908416749
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.9,
+    "rmse": 6.372937709561619,
+    "baseline_rmse": 6.737249537413207,
+    "relative_improvement": 0.05407426663187942,
+    "min_year_improvement": 0.3627407007921235,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5994,
+    "budget_months": 1,
+    "fit_labels": 10,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      7,
+      510,
+      789,
+      1043,
+      1369,
+      1653,
+      1991,
+      2066,
+      2141,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_mean",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 17.51360034942627
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 8.332471493794335,
+    "baseline_rmse": 9.79788589477539,
+    "relative_improvement": 0.1495643465048384,
+    "min_year_improvement": 0.31841081717819186,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5994,
+    "budget_months": 3,
+    "fit_labels": 30,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      7,
+      510,
+      789,
+      1043,
+      1369,
+      1653,
+      1991,
+      2066,
+      2141,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 17.51360034942627
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 8.138341446436232,
+    "baseline_rmse": 9.714442899030779,
+    "relative_improvement": 0.16224311254655643,
+    "min_year_improvement": 1.1436554907234981,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5994,
+    "budget_months": 6,
+    "fit_labels": 60,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      7,
+      510,
+      789,
+      1043,
+      1369,
+      1653,
+      1991,
+      2066,
+      2141,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "log_fire_count_100km",
+        "operator": ">=",
+        "threshold": 3.091042453358316
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5041666666666667,
+    "rmse": 8.314477039403984,
+    "baseline_rmse": 9.194209844496623,
+    "relative_improvement": 0.09568335071438683,
+    "min_year_improvement": 0.4159266538609945,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5994,
+    "budget_months": 12,
+    "fit_labels": 120,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      7,
+      510,
+      789,
+      1043,
+      1369,
+      1653,
+      1991,
+      2066,
+      2141,
+      2355
+    ],
+    "model": "source_weighted_residual_ridge",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "distance_to_coast_km",
+        "operator": ">=",
+        "threshold": 3.3117620944976807
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.8,
+    "rmse": 7.121046036725408,
+    "baseline_rmse": 7.5103847540538355,
+    "relative_improvement": 0.05184004948858001,
+    "min_year_improvement": 0.32743742812758114,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5994,
+    "budget_months": 24,
+    "fit_labels": 240,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      7,
+      510,
+      789,
+      1043,
+      1369,
+      1653,
+      1991,
+      2066,
+      2141,
+      2355
+    ],
+    "model": "source_weighted_residual_ridge",
+    "baseline": "target_lgbm",
+    "rule": [],
+    "conditions": 0,
+    "coverage": 1.0,
+    "rmse": 6.464221709636778,
+    "baseline_rmse": 6.844380519661381,
+    "relative_improvement": 0.05554320203743013,
+    "min_year_improvement": 0.38672428634576583,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5995,
+    "budget_months": 1,
+    "fit_labels": 10,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      198,
+      789,
+      1468,
+      1562,
+      1653,
+      1912,
+      2066,
+      2141,
+      2286,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_mean",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 19.304369926452637
+      },
+      {
+        "feature": "dry_visibility_km",
+        "operator": "<=",
+        "threshold": 9.977932929992676
+      }
+    ],
+    "conditions": 2,
+    "coverage": 0.39166666666666666,
+    "rmse": 8.31061192464621,
+    "baseline_rmse": 11.043036460876465,
+    "relative_improvement": 0.24743416775909,
+    "min_year_improvement": 0.7206207682195549,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5995,
+    "budget_months": 3,
+    "fit_labels": 30,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      198,
+      789,
+      1468,
+      1562,
+      1653,
+      1912,
+      2066,
+      2141,
+      2286,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 19.304369926452637
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 7.9032843291507,
+    "baseline_rmse": 9.895794020638892,
+    "relative_improvement": 0.20134914766137701,
+    "min_year_improvement": 1.0585597504121447,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5995,
+    "budget_months": 6,
+    "fit_labels": 60,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      198,
+      789,
+      1468,
+      1562,
+      1653,
+      1912,
+      2066,
+      2141,
+      2286,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "log_fire_count_100km",
+        "operator": ">=",
+        "threshold": 4.114938994391256
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.25,
+    "rmse": 12.04403674677034,
+    "baseline_rmse": 13.519453709664173,
+    "relative_improvement": 0.10913288321991543,
+    "min_year_improvement": 1.3014179611461252,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5995,
+    "budget_months": 12,
+    "fit_labels": 120,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      198,
+      789,
+      1468,
+      1562,
+      1653,
+      1912,
+      2066,
+      2141,
+      2286,
+      2355
+    ],
+    "model": "source_weighted_bias",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "temperature_c",
+        "operator": ">=",
+        "threshold": 19.304369926452637
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.5,
+    "rmse": 9.000663207964168,
+    "baseline_rmse": 9.623789114852407,
+    "relative_improvement": 0.06474849972830021,
+    "min_year_improvement": 0.1435330658192635,
+    "discovery_pass": true
+  },
+  {
+    "direction": "CHN_to_AUS",
+    "seed": 5995,
+    "budget_months": 24,
+    "fit_labels": 240,
+    "gate_labels": 240,
+    "discovery_fuas": [
+      198,
+      789,
+      1468,
+      1562,
+      1653,
+      1912,
+      2066,
+      2141,
+      2286,
+      2355
+    ],
+    "model": "source_weighted_residual_ridge",
+    "baseline": "target_ridge",
+    "rule": [
+      {
+        "feature": "wind_mps",
+        "operator": "<=",
+        "threshold": 5.139893484115601
+      }
+    ],
+    "conditions": 1,
+    "coverage": 0.9,
+    "rmse": 6.9390823437603295,
+    "baseline_rmse": 7.328883372840302,
+    "relative_improvement": 0.05318696031165049,
+    "min_year_improvement": 0.17123739215901157,
+    "discovery_pass": true
+  }
+]

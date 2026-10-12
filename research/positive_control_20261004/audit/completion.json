@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "configurations": 9,
+  "discovery_passes": 9,
+  "temporal_passes": 0,
+  "new_city_passes": 2,
+  "joint_passes": 0,
+  "protocol_sha256": "9126be7d2e9396351658278b5c2661566a7e46f80787f5554d8e8d29cde3194e",
+  "script_sha256": "0075f4a21b6ef622b4678ff356443770e5850733445e50421b6fcc5c640d0575"
+}

@@ -1,0 +1,205 @@
+{
+  "status": "complete",
+  "configurations": 48,
+  "metric_rows": 1344,
+  "model_refits_on_monitor_labels": 0,
+  "rule_reselections_on_monitor_labels": 0,
+  "protocol_sha256": "8f9b42a8e91dc7376b6bed57045313893bfa18051ff8d3ce8079b0f074b8c4ff",
+  "script_sha256": "6c6b0fdcfb9ab04c91631c0b9fdf7b0af6fdb20e2abf4bd6ed8f99e8a54eb81e",
+  "input_sha256": "65ed7a0ee7af801bbc753303a41dbf0265b0987b2d11d92ae84c724b0b780dff",
+  "prediction_files": [
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5993_1.csv.gz",
+      "sha256": "e6aba8a2e44b79fda6dc05f1458e95611d0684452d6c1329a2979463b8096ce6"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5993_12.csv.gz",
+      "sha256": "4f48a5d029a29b6357ca89c664e5436e13971bff004b17041555fefa4de5fe6c"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5993_3.csv.gz",
+      "sha256": "4c7433ef1ffedac58bffea069fa6439b505400a83ea95ddd5952239032949f4e"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5993_6.csv.gz",
+      "sha256": "1305cc719d0bb0d76de1d706fc678d18b76ed90e54446df2a0a830852781d9ac"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5994_1.csv.gz",
+      "sha256": "7bc8dd1c69e321c665fc2a1a2e018f6949070a1ceb59f3a59ce93c7d711339f1"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5994_12.csv.gz",
+      "sha256": "c171cf84f0f3a865bbc38d94e4d17448937671935e1574d45fed46abb9493f3a"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5994_3.csv.gz",
+      "sha256": "50648843f287222bd300a0a9026225e5c4c6a6199bc2d356e000d3b04e6007dc"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5994_6.csv.gz",
+      "sha256": "fddb8d3ba88dcb6eb705ca7243ccf159b18fc43d196b0619a9eb4eea3cc91dfe"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5995_1.csv.gz",
+      "sha256": "1701c9f01eea51a7d9d555ce1dabf002aa435d87894971531301dcb8f3ced0f8"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5995_12.csv.gz",
+      "sha256": "d0188e8fd065ddd76701cc063dffeaeb540fa983ca2f0684f04217f26c75a48b"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5995_3.csv.gz",
+      "sha256": "274ebd02150c03549f627b172627af46e80f81fbb1cddeb092f574c8b0153953"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\legacy_annual\\CHN_to_AUS\\predictions_5995_6.csv.gz",
+      "sha256": "3b06f55ce5df492af8162cb6fe45debd3ebcff624ffbfd6495be3dbfbe905a2b"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5993_1.csv.gz",
+      "sha256": "30b4375fcc131e4c219d1738f7f2482b22dd306f879cef4631cf7fcd0fcea4e3"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5993_12.csv.gz",
+      "sha256": "d57919a2e3fc8889de0ad17947c1ba8b6b6315b753b6219ecdc2359ae6f99151"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5993_3.csv.gz",
+      "sha256": "229e14b3f6149518b8307dceb014c403c939d52f81bb13a5e8fde6a44c3b0a99"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5993_6.csv.gz",
+      "sha256": "30ba33644f4273aac32a1168b458fe283e40e70d5916cf408bc6e7efc5868c3e"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5994_1.csv.gz",
+      "sha256": "6d1fa93c9a981665b4c1b33c8614b2c71dd2dd9248a47800c204f442305e0fff"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5994_12.csv.gz",
+      "sha256": "a6d35200ba30444c3016b9e46fc2054fa7824aa493271b8cc2a6ad453d75c146"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5994_3.csv.gz",
+      "sha256": "fef4fc7e60e13ff801890143cf6a9db20cd3e48659f90329ba3e01a56267ec06"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5994_6.csv.gz",
+      "sha256": "f38249fa4cd3ebfca323eff5b660ce436674e95a78109031c07130786d823c44"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5995_1.csv.gz",
+      "sha256": "7f08920361668e3f0992d33315a2433c59ccdebe17708710f7eb5ad7f3416cad"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5995_12.csv.gz",
+      "sha256": "8815271ff8ce3de705700f06c8317edf3db206fc0160aa73cb5159be6fa51b15"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5995_3.csv.gz",
+      "sha256": "f60aad6dceb7d4816fc1de8b6e1427dac28cc23faabb7e70793d6814d5c8cc5b"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_common\\CHN_to_AUS\\predictions_5995_6.csv.gz",
+      "sha256": "d4e4891103af36646f6603111ac4c59e92f57f9feb6de78ec6edaae3d5fd0074"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5993_1.csv.gz",
+      "sha256": "de60452017efbc905c99dcb8890e348d78128c4197116844e67096b39066c4b1"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5993_12.csv.gz",
+      "sha256": "17a36581286a962a4ef61e2a606cf8a8fc21eb5c41004b156488fb297b868f86"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5993_3.csv.gz",
+      "sha256": "2fefed6bd7ad7de8850bd912c6818fa99dd1547001ab04650c7b8ac27c9d2d8d"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5993_6.csv.gz",
+      "sha256": "ad7f56d86aced2b757a4bc5dffd1c24f044c8435bb66498a5914c492679156b0"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5994_1.csv.gz",
+      "sha256": "481c61ec86d09bf5f131bdd66e38ab6ca3903008e9fcf92424cfb909f30e0a59"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5994_12.csv.gz",
+      "sha256": "d09b7006d94c8c2b27693f3ece529eb7467271a8d74363381f567346a187581e"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5994_3.csv.gz",
+      "sha256": "b502d346751dc3bc5007e2d2853ead955eb66f3d12cebd71fc00c0718eee1d3b"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5994_6.csv.gz",
+      "sha256": "c74a906a89961bcb7b218e81751090043a298f71b1ebad254435cc5072cf98f0"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5995_1.csv.gz",
+      "sha256": "2cd5305ae3629f747fd0d602df70e24af4554f7eb7182e8b19e42dc1b3f0b95f"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5995_12.csv.gz",
+      "sha256": "285305ae5e209869cf966b1b0d3d74beffffb25721cf216c1f9717461840abed"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5995_3.csv.gz",
+      "sha256": "a8357161d677df7cdbcec72642807bb59b33e09e1d48493cb7c9ac66f829a32e"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\monthly_with_aviation\\CHN_to_AUS\\predictions_5995_6.csv.gz",
+      "sha256": "8d7374e665cf4b0309226842492600f30d8e8bb117e9d29ace004d9d6c51de08"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5993_1.csv.gz",
+      "sha256": "26f0d7631b1d3653f8e942cc6e9c450bb3b5f15d2162fe80790677bfb8d43391"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5993_12.csv.gz",
+      "sha256": "482acf1a014f33451f86bc11a9b1915b58da97d97a86faee657c7b0b39e6baa0"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5993_3.csv.gz",
+      "sha256": "7ca86047b2ded8e90499716affbcfc78fd70404a6ed674200c5765158ca94f3a"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5993_6.csv.gz",
+      "sha256": "13a274bafde2b5c66d4118047ddead4e79ebf837b89c4da356c1fbf5fe217cb5"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5994_1.csv.gz",
+      "sha256": "983ee4c01aae604c7ead02cbfc7ee755c1462c3bff379b82607493c7f43739fd"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5994_12.csv.gz",
+      "sha256": "b2aa5311437f0d66cf8f9c2bfc7729e143d14d0ca248d54c66c68fdd69c112c6"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5994_3.csv.gz",
+      "sha256": "2ccaee6b8e392bf07f6435c2971590ac21681caf4a1a2d4dee69a31fc72dfbbf"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5994_6.csv.gz",
+      "sha256": "180d24b13536aebd27cebc7d99a7e4f4321a194fe5007e2183ea228ed326b0c3"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5995_1.csv.gz",
+      "sha256": "dcdc4d389065e1e24d7964b0ed64210ef9b2ac3c7dde6195261cfd68692019b0"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5995_12.csv.gz",
+      "sha256": "dff046d85f7dd2defe5f70123f789f42fc93ff20f9b3479dbbd731eef4ad3490"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5995_3.csv.gz",
+      "sha256": "d3f10547d059bc7eddd03bbbb2dfa75af538efa592d856bb61d801ffbb96cab1"
+    },
+    {
+      "file": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\common_monthly_transfer_20260912\\results\\updated_annual\\CHN_to_AUS\\predictions_5995_6.csv.gz",
+      "sha256": "0864addf5873f4881b4c53e52c90fb8ff418e8345359068dddf214b1edffdd37"
+    }
+  ],
+  "limitations": "Exploratory station-to-area label audit; NSW lacks day counts; upstream SatPM monitor overlap unknown. Cohort coverage uses matched monitor-available rows; also report denominator including every held target row."
+}

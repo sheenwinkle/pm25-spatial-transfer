@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-07-27T15:25:23.073283+00:00",
+  "boundary_source": "data\\raw\\boundaries\\ghs_fua_r2019a\\GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+  "pm25_source_dir": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual",
+  "method": "Point-in-polygon mean over 0.1 degree SatPM grid-cell centres within selected GHS-FUA polygons. PM25 values < 0 treated as missing.",
+  "sample_fua_ids": {
+    "10097.0": "Shanghai",
+    "7704.0": "Beijing",
+    "9711.0": "Guangzhou",
+    "1830.0": "Sydney",
+    "1266.0": "Melbourne",
+    "2355.0": "Brisbane"
+  },
+  "output_panel": "data\\processed\\modelling_panel\\pilot_pm25_ghs_fua_2012_2022.csv",
+  "output_summary": "data\\processed\\modelling_panel\\pilot_pm25_ghs_fua_2012_2022_summary.csv",
+  "rows": 66
+}

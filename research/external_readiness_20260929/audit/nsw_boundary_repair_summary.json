@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-30T09:01:02.689170+00:00",
+  "source_files": [
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2015.json.gz",
+      "original_sha256": "0b9050b4742a0234890a74e5285d77eb2ee2cf129df293b56230864eabf5f17a",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2015.json",
+      "patch_sha256": "9a82fe64a245a44d8582ec025ffab2cd396cfbe8b373d786af4b04d34154adec",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2015_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2016.json.gz",
+      "original_sha256": "a3c393f6d790bdc87b18ec640827dc8e6df37f286a65529e3844e66867e6ebed",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2016.json",
+      "patch_sha256": "ea0d1dc24d5660e8b4af2a2612c0969960bf1f6ef82d517bf21081bfcf754f1e",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2016_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2017.json.gz",
+      "original_sha256": "3d306c862c99b79aa0f54789344250feafa58219aada78facbb4c901bb76e14a",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2017.json",
+      "patch_sha256": "7c4bbd71164e683b733431580f75fcd42818d6b8a9e4120c603d94db103c0572",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2017_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2018.json.gz",
+      "original_sha256": "0729f962f67d3cfa5dd0e71c7d6cd9e5ec2cb7bb9a9022c34eb7834cb1a5c2c1",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2018.json",
+      "patch_sha256": "1223c83b5d1216b9f5ce93231d5584d17c30bfeb7505eb8164417b4a882c66af",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2018_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2019.json.gz",
+      "original_sha256": "33f7ef459395d99e4a6b1d24745faaff488bedc3beecaf959e137559a559a887",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2019.json",
+      "patch_sha256": "a0a317a68abd90ac5f241b08aa768548c2ce7d92bc133908e20db3a0b0a17042",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2019_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2020.json.gz",
+      "original_sha256": "e5d15a7d579ab0d6d7536ca21c9c7b8da3a8863467c76183ee129aac351b8163",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2020.json",
+      "patch_sha256": "30d591c0b73207fd0b9131bfeb3bca8e0f50d185c0b25df273ea707a169deb53",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2020_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2021.json.gz",
+      "original_sha256": "76f7dc6381e6b805d8253efa7e4b5486c54b0c8f1330e9dd97d0a51348c5c5f4",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2021.json",
+      "patch_sha256": "ab6b93d306b1d2b80609b6fba0e5d4eca8aa0d479b69f72c4847cfcbc6c0313d",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2021_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2022.json.gz",
+      "original_sha256": "e2595475914b5d10dbfc27575aa8d6f173529a259ce1f5a6e821645a7751f745",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2022.json",
+      "patch_sha256": "4526c5515dc4ca3c903a883f923e741ff225a6f6c9b7d28f459c310eff8eb5ad",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2022_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2023.json.gz",
+      "original_sha256": "85442beb69cdf8fb586a076013692d053b0c67c46af02ecd4b5598ec5d319801",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2023.json",
+      "patch_sha256": "8cec71e68069c02ed9db6181d33ab0f260d137b8404e384ddbf968bc86c18710",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2023_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2024.json.gz",
+      "original_sha256": "a73eec7271b040e914c98f2702821ce15c393081a5fd8b5e46438da39df1684e",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2024.json",
+      "patch_sha256": "6ee772ef6c5f19d6470bd91bc681b10a545d957608ccd52c57f22c3760f21201",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2024_request.json"
+    },
+    {
+      "original_path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2025.json.gz",
+      "original_sha256": "f39f8a6a33123129a53aca592c5ef870160525db079b24caf85228d72630f937",
+      "patch_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2025.json",
+      "patch_sha256": "1e581a30fe8af6935e088272d8ae9270df73dc6b2f938f45fb0812690fb62971",
+      "request_path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\external_readiness_20260929\\data\\nsw_boundary_raw\\nsw_year_end_2025_request.json"
+    }
+  ],
+  "baseline_sha256": "e4594132b955a919c8c0eae5a248b4584dca52ced01091a7bc323f9bba9b298b",
+  "added_station_day_slots": 341,
+  "added_valid_daily_pm25": 284,
+  "changed_december_means": 284,
+  "newly_eligible_december_months": 5,
+  "overlap_revision_count": 0,
+  "original_inputs_modified": false,
+  "old_model_results_recomputed": false,
+  "corrected_old_table_scope": "existing rows only; old filtered-out months are not reinstated here; rebuild full old cohort before modelling"
+}

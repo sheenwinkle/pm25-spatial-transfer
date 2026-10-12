@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-07-27T16:07:16.426449+00:00",
+  "source": "NASA POWER Monthly and Annual API",
+  "api_url": "https://power.larc.nasa.gov/api/temporal/monthly/regional",
+  "parameters": [
+    "T2M",
+    "T2M_MAX",
+    "T2M_MIN",
+    "PRECTOTCORR",
+    "WS10M",
+    "RH2M"
+  ],
+  "community": "SB",
+  "years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "countries": [
+    "CHN",
+    "AUS"
+  ],
+  "regional_tile_rule": "Tiles are <=10 degrees latitude by <=10 degrees longitude, matching NASA POWER regional API limits.",
+  "fua_assignment_method": "Each FUA uses its GHS-FUA geometric centroid assigned to the nearest downloaded NASA POWER meteorology grid point.",
+  "raw_tile_count": 216,
+  "annual_grid_output": "data\\interim\\meteorology\\nasa_power_annual_grid_china_australia_2012_2022.csv",
+  "fua_grid_mapping_output": "data\\interim\\meteorology\\ghs_fua_to_nasa_power_grid_mapping.csv",
+  "fua_annual_climate_output": "data\\interim\\meteorology\\nasa_power_fua_centroid_annual_2012_2022.csv",
+  "panel_outputs": {
+    "full": "data\\processed\\modelling_panel\\full_china_australia_pm25_edgar_power_ghs_fua_2012_2022.csv",
+    "complete": "data\\processed\\modelling_panel\\analysis_ready_complete_pm25_china_australia_ghs_fua_2012_2022_with_power.csv"
+  },
+  "coverage_summary": "data\\interim\\meteorology\\nasa_power_fua_centroid_coverage_summary.csv"
+}

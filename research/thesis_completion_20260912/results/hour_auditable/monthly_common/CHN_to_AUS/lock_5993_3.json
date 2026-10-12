@@ -1,0 +1,15 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": ">=",
+      "threshold": 61.663
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.1110787424396138,
+  "coverage": 0.8970588235294118,
+  "complexity": 1,
+  "discovery_pass": true
+}

@@ -1,0 +1,26 @@
+{
+  "feature_set": "monthly_with_aviation",
+  "direction": "CHN_to_AUS",
+  "seed": 5993,
+  "window_months": 3,
+  "labels_per_fit": 30,
+  "model": "source_partition_kernel",
+  "baseline": "shuffled_source_kernel",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "operator": ">=",
+      "threshold": 64.025
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.75,
+  "rmse": 2.899320367327627,
+  "baseline_rmse": 3.0555648714753514,
+  "relative_improvement": 0.05113440909283762,
+  "min_year_improvement": 0.04437254571873961,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 740,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 740
+}

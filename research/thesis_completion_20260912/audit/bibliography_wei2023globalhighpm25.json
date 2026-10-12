@@ -1,0 +1,1165 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        10
+      ]
+    ],
+    "date-time": "2026-09-10T20:33:33Z",
+    "timestamp": 1789072413911,
+    "version": "build-2803163510"
+  },
+  "reference-count": 72,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ],
+        "date-time": "2023-12-15T00:00:00Z",
+        "timestamp": 1702598400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            15
+          ]
+        ],
+        "date-time": "2023-12-15T00:00:00Z",
+        "timestamp": 1702598400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000104",
+      "name": "National Aeronautics and Space Administration",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "80NSSC21K1980"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "80NSSC21K1980"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000104",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000104",
+      "name": "National Aeronautics and Space Administration",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "80NSSC21K0428"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "80NSSC21K0428"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000104",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nat Commun"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Here we retrieve global daily 1 km gapless PM\n                    <jats:sub>2.5</jats:sub>\n                    concentrations via machine learning and big data, revealing its spatiotemporal variability at an exceptionally detailed level everywhere every day from 2017 to 2022, valuable for air quality monitoring, climate change, and public health studies. We find that 96%, 82%, and 53% of Earth’s populated areas are exposed to unhealthy air for at least one day, one week, and one month in 2022, respectively. Strong disparities in exposure risks and duration are exhibited between developed and developing countries, urban and rural areas, and different parts of cities. Wave-like dramatic changes in air quality are clearly seen around the world before, during, and after the COVID-19 lockdowns, as is the mortality burden linked to fluctuating air pollution events. Encouragingly, only approximately one-third of all countries return to pre-pandemic pollution levels. Many nature-induced air pollution episodes are also revealed, such as biomass burning.\n                  </jats:p>",
+  "DOI": "10.1038/s41467-023-43862-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        12,
+        15
+      ]
+    ],
+    "date-time": "2023-12-15T05:02:11Z",
+    "timestamp": 1702616531000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 194,
+  "title": [
+    "First close insight into global daily gapless 1 km PM2.5 pollution, variability, and health impact"
+  ],
+  "prefix": "10.1038",
+  "volume": "14",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-8803-7056",
+      "authenticated-orcid": false,
+      "given": "Jing",
+      "family": "Wei",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6737-382X",
+      "authenticated-orcid": false,
+      "given": "Zhanqing",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alexei",
+      "family": "Lyapustin",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7334-0490",
+      "authenticated-orcid": false,
+      "given": "Jun",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3482-6460",
+      "authenticated-orcid": false,
+      "given": "Oleg",
+      "family": "Dubovik",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Joel",
+      "family": "Schwartz",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lin",
+      "family": "Sun",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8992-7026",
+      "authenticated-orcid": false,
+      "given": "Chi",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Song",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2752-7924",
+      "authenticated-orcid": false,
+      "given": "Tong",
+      "family": "Zhu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        12,
+        15
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "43862_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "1223",
+      "DOI": "10.1016/S0140-6736(20)30752-2",
+      "volume": "396",
+      "author": "CJL Murray",
+      "year": "2020",
+      "unstructured": "Murray, C. J. L. et al. Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet 396, 1223–1249 (2020).",
+      "journal-title": "Lancet"
+    },
+    {
+      "key": "43862_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "e139",
+      "DOI": "10.1016/S2542-5196(21)00350-8",
+      "volume": "6",
+      "author": "VA Southerland",
+      "year": "2022",
+      "unstructured": "Southerland, V. A. et al. Global urban temporal trends in fine particulate matter (PM2.5) and attributable health burdens: estimates from global datasets. Lancet Planet. Health 6, e139–e146 (2022).",
+      "journal-title": "Lancet Planet. Health"
+    },
+    {
+      "key": "43862_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "e301",
+      "DOI": "10.1016/S2542-5196(18)30140-2",
+      "volume": "2",
+      "author": "B Bowe",
+      "year": "2018",
+      "unstructured": "Bowe, B. et al. The 2016 global and national burden of diabetes mellitus attributable to PM2.5 air pollution. Lancet Planet. Health 2, e301–e312 (2018).",
+      "journal-title": "Lancet Planet. Health"
+    },
+    {
+      "key": "43862_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1616",
+      "DOI": "10.1289/ehp.1103639",
+      "volume": "119",
+      "author": "CA Pope",
+      "year": "2011",
+      "unstructured": "Pope, C. A. et al. Lung cancer and cardiovascular disease mortality associated with ambient air pollution and cigarette smoke: shape of the exposure-response relationships. Environ. Health Perspect. 119, 1616–1621 (2011).",
+      "journal-title": "Environ. Health Perspect."
+    },
+    {
+      "key": "43862_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "460",
+      "DOI": "10.3322/caac.21632",
+      "volume": "70",
+      "author": "MC Turner",
+      "year": "2020",
+      "unstructured": "Turner, M. C. et al. Outdoor air pollution and cancer: an overview of the current evidence and public health recommendations. CA Cancer J. Clin. 70, 460–479 (2020).",
+      "journal-title": "CA Cancer J. Clin."
+    },
+    {
+      "key": "43862_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "311",
+      "DOI": "10.1038/s12276-020-0403-3",
+      "volume": "52",
+      "author": "DE Schraufnagel",
+      "year": "2020",
+      "unstructured": "Schraufnagel, D. E. The health effects of ultrafine particles. Exp. Mol. Med. 52, 311–317 (2020).",
+      "journal-title": "Exp. Mol. Med."
+    },
+    {
+      "key": "43862_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "339",
+      "DOI": "10.1016/S0140-6736(17)32643-0",
+      "volume": "391",
+      "author": "R Sinharay",
+      "year": "2018",
+      "unstructured": "Sinharay, R. et al. Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study. Lancet 391, 339–349 (2018).",
+      "journal-title": "Lancet"
+    },
+    {
+      "key": "43862_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "e579",
+      "DOI": "10.1016/S2542-5196(21)00200-X",
+      "volume": "5",
+      "author": "G Chen",
+      "year": "2021",
+      "unstructured": "Chen, G. et al. Mortality risk attributable to wildfire-related PM2.5 pollution: a global time series study in 749 locations. Lancet Planet. Health 5, e579–e587 (2021).",
+      "journal-title": "Lancet Planet. Health"
+    },
+    {
+      "key": "43862_CR9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-021-21708-0",
+      "volume": "12",
+      "author": "R Aguilera",
+      "year": "2021",
+      "unstructured": "Aguilera, R., Corringham, T., Gershunov, A. & Benmarhnia, T. Wildfire smoke impacts respiratory health more than fine particles from other sources: observational evidence from Southern California. Nat. Commun. 12, 1493 (2021).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "43862_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "73",
+      "DOI": "10.1164/rccm.201609-1862OC",
+      "volume": "196",
+      "author": "R Chen",
+      "year": "2017",
+      "unstructured": "Chen, R. et al. Fine particulate air pollution and daily mortality. a nationwide analysis in 272 Chinese cities. Am. J. Respir. Crit. Care. Med. 196, 73–81 (2017).",
+      "journal-title": "Am. J. Respir. Crit. Care. Med."
+    },
+    {
+      "key": "43862_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "2446",
+      "DOI": "10.1001/jama.2017.17923",
+      "volume": "318",
+      "author": "Q Di",
+      "year": "2017",
+      "unstructured": "Di, Q. et al. Association of short-term exposure to air pollution with mortality in older adults. JAMA 318, 2446–2456 (2017).",
+      "journal-title": "JAMA"
+    },
+    {
+      "key": "43862_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kloog, I., Ridgway, B., Koutrakis, P., Coull, B. A. & Schwartz, J. D. Long- and short-term exposure to PM2.5 and mortality: using novel exposure models. Epidemiology 24, 555–561 (2013).",
+      "DOI": "10.1097/EDE.0b013e318294beaa"
+    },
+    {
+      "key": "43862_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "705",
+      "DOI": "10.1056/NEJMoa1817364",
+      "volume": "381",
+      "author": "C Liu",
+      "year": "2019",
+      "unstructured": "Liu, C. et al. Ambient particulate air pollution and daily mortality in 652 cities. N. Engl. J. Med. 381, 705–715 (2019).",
+      "journal-title": "N. Engl. J. Med."
+    },
+    {
+      "key": "43862_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "105876",
+      "DOI": "10.1016/j.envint.2020.105876",
+      "volume": "142",
+      "author": "P Orellano",
+      "year": "2020",
+      "unstructured": "Orellano, P., Reynoso, J., Quaranta, N., Bardach, A. & Ciapponi, A. Short-term exposure to particulate matter (PM10 and PM2.5), nitrogen dioxide (NO2), and ozone (O3) and all-cause and cause-specific mortality: Systematic review and meta-analysis. Environ. Int. 142, 105876 (2020).",
+      "journal-title": "Environ. Int."
+    },
+    {
+      "key": "43862_CR15",
+      "unstructured": "WHO. WHO global air quality guidelines. Particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. Geneva: World Health Organization. (2021)."
+    },
+    {
+      "key": "43862_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "72",
+      "DOI": "10.1007/s40726-020-00170-4",
+      "volume": "7",
+      "author": "Y Li",
+      "year": "2021",
+      "unstructured": "Li, Y. et al. Satellite remote sensing for estimating PM2.5 and its components. Curr. Pollut. Rep. 7, 72–87 (2021).",
+      "journal-title": "Curr. Pollut. Rep."
+    },
+    {
+      "key": "43862_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "174",
+      "DOI": "10.1080/15481603.2019.1703288",
+      "volume": "57",
+      "author": "M Shin",
+      "year": "2020",
+      "unstructured": "Shin, M. et al. Estimating ground-level particulate matter concentrations using satellite-based data: a review. GIScience Remote Sens. 57, 174–189 (2020).",
+      "journal-title": "GIScience Remote Sens."
+    },
+    {
+      "key": "43862_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "118302",
+      "DOI": "10.1016/j.atmosenv.2021.118302",
+      "volume": "256",
+      "author": "X Xu",
+      "year": "2021",
+      "unstructured": "Xu, X., Zhang, C. & Liang, Y. Review of satellite-driven statistical models PM2.5 concentration estimation with comprehensive information. Atmos. Environ. 256, 118302 (2021).",
+      "journal-title": "Atmos. Environ."
+    },
+    {
+      "key": "43862_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "112136",
+      "DOI": "10.1016/j.rse.2020.112136",
+      "volume": "252",
+      "author": "J Wei",
+      "year": "2021",
+      "unstructured": "Wei, J. et al. Reconstructing 1-km-resolution high-quality PM2.5 data records from 2000 to 2018 in China: spatiotemporal variations and policy implications. Remote Sens. Environ. 252, 112136 (2021).",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "43862_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "S611",
+      "DOI": "10.4081/gh.2014.292",
+      "volume": "8",
+      "author": "DJ Lary",
+      "year": "2014",
+      "unstructured": "Lary, D. J. et al. Estimating the global abundance of ground level presence of particulate matter (PM2.5). Geospat. Health 8, S611–S630 (2014).",
+      "journal-title": "Geospat. Health"
+    },
+    {
+      "key": "43862_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "847",
+      "DOI": "10.1289/ehp.0901623",
+      "volume": "118",
+      "author": "AV Donkelaar",
+      "year": "2010",
+      "unstructured": "Donkelaar, A. V. et al. Global estimates of ambient fine particulate matter concentrations from satellite-based aerosol optical depth: development and application. Environ. Health Perspect. 118, 847–855 (2010).",
+      "journal-title": "Environ. Health Perspect."
+    },
+    {
+      "key": "43862_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "e209",
+      "DOI": "10.1016/S2542-5196(23)00008-6",
+      "volume": "7",
+      "author": "W Yu",
+      "year": "2023",
+      "unstructured": "Yu, W. et al. Global estimates of daily ambient fine particulate matter concentrations and unequal spatiotemporal distribution of population exposure: a machine learning modelling study. Lancet Planet Health 7, e209–e218 (2023).",
+      "journal-title": "Lancet Planet Health"
+    },
+    {
+      "key": "43862_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "5741",
+      "DOI": "10.5194/amt-11-5741-2018",
+      "volume": "11",
+      "author": "A Lyapustin",
+      "year": "2018",
+      "unstructured": "Lyapustin, A., Wang, Y., Korkin, S. & Huang, D. MODIS collection 6 MAIAC algorithm. Atmos. Meas. Tech. 11, 5741–5765 (2018).",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "43862_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "3762",
+      "DOI": "10.1021/acs.est.5b05833",
+      "volume": "50",
+      "author": "A van Donkelaar",
+      "year": "2016",
+      "unstructured": "van Donkelaar, A. et al. Global estimates of fine particulate matter using a combined geophysical-statistical method with information from satellites, models, and monitors. Environ. Sci. Technol. 50, 3762–3772 (2016).",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "43862_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "7879",
+      "DOI": "10.1021/acs.est.0c01764",
+      "volume": "54",
+      "author": "MS Hammer",
+      "year": "2020",
+      "unstructured": "Hammer, M. S. et al. Global estimates and long-term trends of fine particulate matter concentrations (1998-2018). Environ. Sci. Technol. 54, 7879–7890 (2020).",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "43862_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "15287",
+      "DOI": "10.1021/acs.est.1c05309",
+      "volume": "55",
+      "author": "A van Donkelaar",
+      "year": "2021",
+      "unstructured": "van Donkelaar, A. et al. Monthly global estimates of fine particulate matter and their uncertainty. Environ. Sci. Technol. 55, 15287–15300 (2021).",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "43862_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "9988",
+      "DOI": "10.1021/acs.est.2c03834",
+      "volume": "56",
+      "author": "J Wei",
+      "year": "2022",
+      "unstructured": "Wei, J. et al. Ground-Level NO2 surveillance from space across China for high resolution using interpretable spatiotemporally weighted artificial intelligence. Environ. Sci. Technol. 56, 9988–9998 (2022).",
+      "journal-title": "Environ. Sci. Technol"
+    },
+    {
+      "key": "43862_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "25601",
+      "DOI": "10.1073/pnas.1919641117",
+      "volume": "117",
+      "author": "FC Liang",
+      "year": "2020",
+      "unstructured": "Liang, F. C. et al. The 17-y spatiotemporal trend of PM2.5 and its mortality burden in China. Proc. Natl. Acad. Sci. USA 117, 25601–25608 (2020).",
+      "journal-title": "Proc. Natl. Acad. Sci. USA"
+    },
+    {
+      "key": "43862_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "596",
+      "DOI": "10.3155/1047-3289.60.5.596",
+      "volume": "60",
+      "author": "SA Christopher",
+      "year": "2010",
+      "unstructured": "Christopher, S. A. & Gupta, P. Satellite remote sensing of particulate matter air quality: the cloud-cover problem. J. Air Waste Manag. Assoc. 60, 596–602 (2010).",
+      "journal-title": "J. Air Waste Manag. Assoc."
+    },
+    {
+      "key": "43862_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "810",
+      "DOI": "10.1093/nsr/nwx117",
+      "volume": "4",
+      "author": "Z Li",
+      "year": "2017",
+      "unstructured": "Li, Z. et al. Aerosol and boundary-layer interactions and impact on air quality. Natl. Sci. Rev. 4, 810–833 (2017).",
+      "journal-title": "Natl. Sci. Rev."
+    },
+    {
+      "key": "43862_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "1577",
+      "DOI": "10.1183/13993003.01865-2014",
+      "volume": "46",
+      "author": "T Sigsgaard",
+      "year": "2015",
+      "unstructured": "Sigsgaard, T. et al. Health impacts of anthropogenic biomass burning in the developed world. Eur. Respir. J. 46, 1577–1588 (2015).",
+      "journal-title": "Eur. Respir. J."
+    },
+    {
+      "key": "43862_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "146739",
+      "DOI": "10.1016/j.scitotenv.2021.146739",
+      "volume": "781",
+      "author": "A Karanasiou",
+      "year": "2021",
+      "unstructured": "Karanasiou, A. et al. Short-term health effects from outdoor exposure to biomass burning emissions: a review. Sci. Total. Environ. 781, 146739 (2021).",
+      "journal-title": "Sci. Total. Environ."
+    },
+    {
+      "key": "43862_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022GL099308",
+      "DOI": "10.1029/2022GL099308",
+      "volume": "49",
+      "author": "L Ren",
+      "year": "2022",
+      "unstructured": "Ren, L. et al. Widespread wildfires over the western United States in 2020 linked to emissions reductions during COVID-19. Geophys. Res. Lett. 49, e2022GL099308 (2022).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "43862_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "118",
+      "DOI": "10.1038/s41558-022-01292-x",
+      "volume": "12",
+      "author": "A Findlay",
+      "year": "2022",
+      "unstructured": "Findlay, A. Pantanal fires. Nat. Clim. Chang. 12, 118–118 (2022).",
+      "journal-title": "Nat. Clim. Chang."
+    },
+    {
+      "key": "43862_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "eabi8789",
+      "DOI": "10.1126/sciadv.abi8789",
+      "volume": "7",
+      "author": "X Zhou",
+      "year": "2021",
+      "unstructured": "Zhou, X. et al. Excess of COVID-19 cases and deaths due to fine particulate matter exposure during the 2020 wildfires in the United States. Sci. Adv. 7, eabi8789 (2021).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "43862_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "366",
+      "DOI": "10.1038/s41586-021-03712-y",
+      "volume": "597",
+      "author": "IR van der Velde",
+      "year": "2021",
+      "unstructured": "van der Velde, I. R. et al. Vast CO2 release from Australian fires in 2019–2020 constrained by satellite. Nature 597, 366–369 (2021).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "43862_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "1321",
+      "DOI": "10.1038/s41559-020-1251-1",
+      "volume": "4",
+      "author": "M Ward",
+      "year": "2020",
+      "unstructured": "Ward, M. et al. Impact of 2019–2020 mega-fires on Australian fauna habitat. Nat. Ecol. Evol. 4, 1321–1326 (2020).",
+      "journal-title": "Nat. Ecol. Evol."
+    },
+    {
+      "key": "43862_CR38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-021-21266-5",
+      "volume": "12",
+      "author": "RC Godfree",
+      "year": "2021",
+      "unstructured": "Godfree, R. C. et al. Implications of the 2019–2020 megafires for the biogeography and conservation of Australian vegetation. Nat. Commun. 12, 1023 (2021).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "43862_CR39",
+      "doi-asserted-by": "publisher",
+      "first-page": "eabc2992",
+      "DOI": "10.1126/sciadv.abc2992",
+      "volume": "6",
+      "author": "F Liu",
+      "year": "2020",
+      "unstructured": "Liu, F. et al. Abrupt decline in tropospheric nitrogen dioxide over China after the outbreak of COVID-19. Sci. Adv. 6, eabc2992 (2020).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "43862_CR40",
+      "doi-asserted-by": "publisher",
+      "first-page": "12044",
+      "DOI": "10.1007/s10668-020-01156-4",
+      "volume": "23",
+      "author": "P Soni",
+      "year": "2021",
+      "unstructured": "Soni, P. Effects of COVID-19 lockdown phases in India: an atmospheric perspective. Environ. Dev. Sustain. 23, 12044–12055 (2021).",
+      "journal-title": "Environ. Dev. Sustain."
+    },
+    {
+      "key": "43862_CR41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-023-39638-4",
+      "volume": "14",
+      "author": "EE Goldberg",
+      "year": "2023",
+      "unstructured": "Goldberg, E. E., Lin, Q., Romero-Severson, E. O. & Ke, R. Swift and extensive Omicron outbreak in China after sudden exit from ‘zero-COVID’ policy. Nat. Commun. 14, 3888 (2023).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "43862_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "2279",
+      "DOI": "10.5194/essd-15-2279-2023",
+      "volume": "15",
+      "author": "S Li",
+      "year": "2023",
+      "unstructured": "Li, S. et al. Emission trends of air pollutants and CO2 in China from 2005 to 2021. Earth Syst. Sci. Data 15, 2279–2294 (2023).",
+      "journal-title": "Earth Syst. Sci. Data"
+    },
+    {
+      "key": "43862_CR43",
+      "doi-asserted-by": "publisher",
+      "first-page": "380",
+      "DOI": "10.1038/s41586-021-04229-0",
+      "volume": "601",
+      "author": "MJ Cooper",
+      "year": "2022",
+      "unstructured": "Cooper, M. J. et al. Global fine-scale changes in ambient NO2 during COVID-19 lockdowns. Nature 601, 380–387 (2022).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "43862_CR44",
+      "doi-asserted-by": "publisher",
+      "first-page": "18984",
+      "DOI": "10.1073/pnas.2006853117",
+      "volume": "117",
+      "author": "ZS Venter",
+      "year": "2020",
+      "unstructured": "Venter, Z. S., Aunan, K., Chowdhury, S. & Lelieveld, J. COVID-19 lockdowns cause global air pollution declines. Proc. Natl; Acad. Sci. USA 117, 18984–18990 (2020).",
+      "journal-title": "Proc. Natl; Acad. Sci. USA"
+    },
+    {
+      "key": "43862_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "110403",
+      "DOI": "10.1016/j.envres.2020.110403",
+      "volume": "192",
+      "author": "ZS Venter",
+      "year": "2021",
+      "unstructured": "Venter, Z. S., Aunan, K., Chowdhury, S. & Lelieveld, J. Air pollution declines during COVID-19 lockdowns mitigate the global health burden. Environ. Res. 192, 110403 (2021).",
+      "journal-title": "Environ. Res."
+    },
+    {
+      "key": "43862_CR46",
+      "doi-asserted-by": "publisher",
+      "first-page": "142533",
+      "DOI": "10.1016/j.scitotenv.2020.142533",
+      "volume": "755",
+      "author": "F Liu",
+      "year": "2021",
+      "unstructured": "Liu, F., Wang, M. & Zheng, M. Effects of COVID-19 lockdown on global air quality and health. Sci. Total. Environ. 755, 142533 (2021).",
+      "journal-title": "Sci. Total. Environ."
+    },
+    {
+      "key": "43862_CR47",
+      "doi-asserted-by": "publisher",
+      "first-page": "136",
+      "DOI": "10.1016/j.apr.2021.02.002",
+      "volume": "12",
+      "author": "C He",
+      "year": "2021",
+      "unstructured": "He, C. et al. Global, continental, and national variation in PM2.5, O3, and NO2 concentrations during the early 2020 COVID-19 lockdown. Atmos. Pollut. Res. 12, 136–145 (2021).",
+      "journal-title": "Atmos. Pollut. Res."
+    },
+    {
+      "key": "43862_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "eabg7670",
+      "DOI": "10.1126/sciadv.abg7670",
+      "volume": "7",
+      "author": "MS Hammer",
+      "year": "2021",
+      "unstructured": "Hammer, M. S. et al. Effects of COVID-19 lockdowns on fine particulate matter concentrations. Sci. Adv. 7, eabg7670 (2021).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "43862_CR49",
+      "doi-asserted-by": "publisher",
+      "first-page": "1513",
+      "DOI": "10.1016/S0140-6736(21)02796-3",
+      "volume": "399",
+      "author": "H Wang",
+      "year": "2022",
+      "unstructured": "Wang, H. et al. Estimating excess mortality due to the COVID-19 pandemic: a systematic analysis of COVID-19-related mortality, 2020–21. Lancet 399, 1513–1536 (2022).",
+      "journal-title": "Lancet"
+    },
+    {
+      "key": "43862_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "436",
+      "DOI": "10.1021/acs.estlett.8b00279",
+      "volume": "5",
+      "author": "DA Paolella",
+      "year": "2018",
+      "unstructured": "Paolella, D. A. et al. Effect of model spatial resolution on estimates of fine particulate matter exposure and exposure disparities in the United States. Environ. Sci. Technol. Lett. 5, 436–441 (2018).",
+      "journal-title": "Environ. Sci. Technol. Lett."
+    },
+    {
+      "key": "43862_CR51",
+      "doi-asserted-by": "publisher",
+      "first-page": "705",
+      "DOI": "10.1007/s11869-019-00690-z",
+      "volume": "12",
+      "author": "A Korhonen",
+      "year": "2019",
+      "unstructured": "Korhonen, A. et al. Influence of spatial resolution on population PM2.5 exposure and health impacts. Air Qual. Atmos. Health 12, 705–718 (2019).",
+      "journal-title": "Air Qual. Atmos. Health"
+    },
+    {
+      "key": "43862_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "121505",
+      "DOI": "10.1016/j.envpol.2023.121505",
+      "volume": "326",
+      "author": "H Bai",
+      "year": "2023",
+      "unstructured": "Bai, H., Wu, H., Gao, W., Wang, S. & Cao, Y. Influence of spatial resolution of PM2.5 concentrations and population on health impact assessment from 2010 to 2020 in China. Environ. Pollut. 326, 121505 (2023).",
+      "journal-title": "Environ. Pollut."
+    },
+    {
+      "key": "43862_CR53",
+      "doi-asserted-by": "publisher",
+      "first-page": "111221",
+      "DOI": "10.1016/j.rse.2019.111221",
+      "volume": "231",
+      "author": "J Wei",
+      "year": "2019",
+      "unstructured": "Wei, J. et al. Estimating 1-km-resolution PM2.5 concentrations across China using the space-time random forest approach. Remote Sens. Environ. 231, 111221 (2019).",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "43862_CR54",
+      "doi-asserted-by": "publisher",
+      "first-page": "3780",
+      "DOI": "10.3390/rs15153780",
+      "volume": "15",
+      "author": "Z Tian",
+      "year": "2023",
+      "unstructured": "Tian, Z., Wei, J. & Li, Z. How important is satellite-retrieved aerosol optical depth in deriving surface PM2.5 using machine learning? Remote Sens. 15, 3780 (2023).",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "43862_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "169",
+      "DOI": "10.5194/amt-12-169-2019",
+      "volume": "12",
+      "author": "DM Giles",
+      "year": "2019",
+      "unstructured": "Giles, D. M. et al. Advancements in the Aerosol Robotic Network (AERONET) Version 3 database – automated near-real-time quality control algorithm with improved cloud screening for Sun photometer aerosol optical depth (AOD) measurements. Atmos. Meas. Tech. 12, 169–209 (2019).",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "43862_CR56",
+      "doi-asserted-by": "publisher",
+      "first-page": "117768",
+      "DOI": "10.1016/j.atmosenv.2020.117768",
+      "volume": "240",
+      "author": "J Wei",
+      "year": "2020",
+      "unstructured": "Wei, J. et al. MODIS Collection 6.1 3 km resolution aerosol optical depth product: global evaluation and uncertainty analysis. Atmos. Environ. 240, 117768 (2020).",
+      "journal-title": "Atmos. Environ."
+    },
+    {
+      "key": "43862_CR57",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2020MS002413",
+      "DOI": "10.1029/2020MS002413",
+      "volume": "13",
+      "author": "CA Keller",
+      "year": "2021",
+      "unstructured": "Keller, C. A. et al. Description of the NASA GEOS composition forecast modeling system GEOS-CF v1.0. J. Adv. Model Earth Syst. 13, e2020MS002413 (2021).",
+      "journal-title": "J. Adv. Model Earth Syst."
+    },
+    {
+      "key": "43862_CR58",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Granier, C. et al. The Copernicus Atmosphere Monitoring Service global and regional emissions (April 2019 version) Copernicus Atmosphere Monitoring Service (CAMS) report. https://doi.org/10.24380/dObn-kx24316 (2019).",
+      "DOI": "10.24380/dObn-kx24316"
+    },
+    {
+      "key": "43862_CR59",
+      "doi-asserted-by": "publisher",
+      "first-page": "1999",
+      "DOI": "10.1002/qj.3803",
+      "volume": "146",
+      "author": "H Hersbach",
+      "year": "2020",
+      "unstructured": "Hersbach, H. et al. The ERA5 global reanalysis. Q. J. R. Meteorol. Soc. 146, 1999–2049 (2020).",
+      "journal-title": "Q. J. R. Meteorol. Soc."
+    },
+    {
+      "key": "43862_CR60",
+      "doi-asserted-by": "publisher",
+      "first-page": "4349",
+      "DOI": "10.5194/essd-13-4349-2021",
+      "volume": "13",
+      "author": "J Muñoz-Sabater",
+      "year": "2021",
+      "unstructured": "Muñoz-Sabater, J. et al. ERA5-Land: a state-of-the-art global reanalysis dataset for land applications. Earth Syst. Sci. Data 13, 4349–4383 (2021).",
+      "journal-title": "Earth Syst. Sci. Data"
+    },
+    {
+      "key": "43862_CR61",
+      "doi-asserted-by": "publisher",
+      "first-page": "108",
+      "DOI": "10.1080/20964471.2019.1625151",
+      "volume": "3",
+      "author": "CT Lloyd",
+      "year": "2019",
+      "unstructured": "Lloyd, C. T. et al. Global spatio-temporally harmonised datasets for producing high-resolution gridded population distribution datasets. Big Earth Data 3, 108–139 (2019).",
+      "journal-title": "Big Earth Data"
+    },
+    {
+      "key": "43862_CR62",
+      "doi-asserted-by": "publisher",
+      "first-page": "922",
+      "DOI": "10.3390/rs13050922",
+      "volume": "13",
+      "author": "CD Elvidge",
+      "year": "2021",
+      "unstructured": "Elvidge, C. D., Zhizhin, M., Ghosh, T., Hsu, F.-C. & Taneja, J. Annual time series of global VIIRS nighttime lights derived from monthly averages: 2012 to 2019. Remote Sens. 13, 922 (2021).",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "43862_CR63",
+      "doi-asserted-by": "publisher",
+      "first-page": "3",
+      "DOI": "10.1007/s10994-006-6226-1",
+      "volume": "63",
+      "author": "P Geurts",
+      "year": "2006",
+      "unstructured": "Geurts, P., Ernst, D. & Wehenkel, L. Extremely randomized trees. Mach. Learn. 63, 3–42 (2006).",
+      "journal-title": "Mach. Learn."
+    },
+    {
+      "key": "43862_CR64",
+      "doi-asserted-by": "publisher",
+      "first-page": "7863",
+      "DOI": "10.5194/acp-21-7863-2021",
+      "volume": "21",
+      "author": "J Wei",
+      "year": "2021",
+      "unstructured": "Wei, J. et al. Himawari-8-derived diurnal variations in ground-level PM2.5 pollution across China using the fast space-time Light Gradient Boosting Machine (LightGBM). Atmos. Chem. Phys. 21, 7863–7880 (2021).",
+      "journal-title": "Atmos. Chem. Phys."
+    },
+    {
+      "key": "43862_CR65",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wei, J. et al. Separating daily 1 km PM2.5 inorganic chemical composition in China since 2000 via deep learning integrating ground, satellite, and model data. Environ. Sci. Technol. 57, 18282–18295 (2023).",
+      "DOI": "10.1021/acs.est.3c00272"
+    },
+    {
+      "key": "43862_CR66",
+      "doi-asserted-by": "publisher",
+      "first-page": "569",
+      "DOI": "10.1109/TPAMI.2009.187",
+      "volume": "32",
+      "author": "JD Rodriguez",
+      "year": "2010",
+      "unstructured": "Rodriguez, J. D., Perez, A. & Lozano, J. A. Sensitivity analysis of k-fold cross validation in prediction error estimation. IEEE Trans. Pattern Anal. Mach. Intell. 32, 569–575 (2010).",
+      "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+    },
+    {
+      "key": "43862_CR67",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/j.envsoft.2017.12.001",
+      "volume": "101",
+      "author": "H Meyer",
+      "year": "2018",
+      "unstructured": "Meyer, H., Reudenbach, C., Hengl, T., Katurji, M. & Nauss, T. Improving performance of spatio-temporal machine learning models using forward feature selection and target-oriented validation. Environ. Model. Softw. 101, 1–9 (2018).",
+      "journal-title": "Environ. Model. Softw."
+    },
+    {
+      "key": "43862_CR68",
+      "doi-asserted-by": "publisher",
+      "first-page": "13607",
+      "DOI": "10.1021/acs.est.2c02934",
+      "volume": "56",
+      "author": "ML Childs",
+      "year": "2022",
+      "unstructured": "Childs, M. L. et al. Daily local-level estimates of ambient wildfire smoke PM2.5 for the contiguous US. Environ. Sci. Technol. 56, 13607–13621 (2022).",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "43862_CR69",
+      "doi-asserted-by": "publisher",
+      "first-page": "14877",
+      "DOI": "10.1021/acs.est.0c03098",
+      "volume": "54",
+      "author": "T Xue",
+      "year": "2020",
+      "unstructured": "Xue, T. et al. Estimating spatiotemporal variation in ambient ozone exposure during 2013–2017 using a data-fusion model. Environ. Sci. Technol. 54, 14877–14888 (2020).",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "43862_CR70",
+      "unstructured": "WHO. Coronavirus Disease (COVID-19) Pandemic. The World Health Organization (2020)."
+    },
+    {
+      "key": "43862_CR71",
+      "doi-asserted-by": "publisher",
+      "first-page": "529",
+      "DOI": "10.1038/s41562-021-01079-8",
+      "volume": "5",
+      "author": "T Hale",
+      "year": "2021",
+      "unstructured": "Hale, T. et al. A global panel database of pandemic policies (Oxford COVID-19 government response tracker). Nat. Hum. Behav. 5, 529–538 (2021).",
+      "journal-title": "Nat. Hum. Behav."
+    },
+    {
+      "key": "43862_CR72",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2020GL089269",
+      "DOI": "10.1029/2020GL089269",
+      "volume": "47",
+      "author": "DL Goldberg",
+      "year": "2020",
+      "unstructured": "Goldberg, D. L. et al. Disentangling the impact of the COVID-19 lockdowns on urban NO2 from natural variability. Geophys. Res. Lett. 47, e2020GL089269 (2020).",
+      "journal-title": "Geophys. Res. Lett."
+    }
+  ],
+  "container-title": [
+    "Nature Communications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41467-023-43862-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41467-023-43862-3",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41467-023-43862-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        12,
+        15
+      ]
+    ],
+    "date-time": "2023-12-15T05:06:54Z",
+    "timestamp": 1702616814000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41467-023-43862-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        12,
+        15
+      ]
+    ]
+  },
+  "references-count": 72,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "43862"
+  ],
+  "URL": "https://doi.org/10.1038/s41467-023-43862-3",
+  "relation": {},
+  "ISSN": [
+    "2041-1723"
+  ],
+  "issn-type": [
+    {
+      "value": "2041-1723",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        12,
+        15
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "30 April 2023",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "22 November 2023",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "15 December 2023",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "8349"
+}

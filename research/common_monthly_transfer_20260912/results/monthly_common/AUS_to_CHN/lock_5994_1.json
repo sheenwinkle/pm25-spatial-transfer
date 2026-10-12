@@ -1,0 +1,20 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "AUS_to_CHN",
+  "seed": 5994,
+  "window_months": 1,
+  "labels_per_fit": 10,
+  "model": "source_partition_kernel",
+  "baseline": "target_rbf",
+  "rule": [],
+  "conditions": 0,
+  "coverage": 1.0,
+  "rmse": 15.086582500153325,
+  "baseline_rmse": 14.530746919419803,
+  "relative_improvement": -0.03825237503728518,
+  "min_year_improvement": -0.8976955248364593,
+  "discovery_pass": false,
+  "cumulative_fitted_labels": 720,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 720
+}

@@ -1,0 +1,11 @@
+{
+  "qld_overlapping_station_months": 1844,
+  "qld_mean_abs_difference": 0.05385413906825577,
+  "qld_max_abs_difference": 1.0641414141414156,
+  "qld_note": "Descriptive time-basis perturbation, not a verified correction; annual-file edges may lose a cross-year day.",
+  "station_composition_consecutive_pairs": 33231,
+  "station_composition_unchanged_fraction": {
+    "AUS": 0.751660026560425,
+    "CHN": 0.8652010591785209
+  }
+}

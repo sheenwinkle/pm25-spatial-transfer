@@ -1,0 +1,1975 @@
+{
+  "2015": {
+    "sheets": [
+      "Data",
+      "Data Info Panel"
+    ],
+    "Data Info Panel": [
+      [
+        "Dataset Information Panel (DIP)",
+        ""
+      ],
+      [
+        "Part A - Data Identity",
+        ""
+      ],
+      [
+        "Type the Data Start date ",
+        ""
+      ],
+      [
+        "Type the Data End date",
+        "20170721"
+      ],
+      [
+        "Title",
+        "Coolaroo Indicative Air Monitoring Results"
+      ],
+      [
+        "Discipline",
+        "Air"
+      ],
+      [
+        "Copyright",
+        "EPA and/or partners without copyright"
+      ],
+      [
+        "Security Classification",
+        "Unclassified - not confidential, controlled sharing internal/external to EPA"
+      ],
+      [
+        "Data Status",
+        "Final - No further changes expected"
+      ],
+      [
+        "Supplying Validation",
+        "Validated  - Supplying validation done"
+      ],
+      [
+        "Data Quality Indicator",
+        "Not calculated / not applicable"
+      ],
+      [
+        "Data Asset Value",
+        "1 Significant: Legislation mandates the data be maintained and/or accessible"
+      ],
+      [
+        "Original data source",
+        "Stored in specialist system / Database"
+      ],
+      [
+        "Business Impact rating",
+        "Very high business impact severity"
+      ],
+      [
+        "Estimated confidence Rating",
+        "Significant confidence in scientific accuracy"
+      ],
+      [
+        "Specialist marking",
+        "Emergency response data"
+      ],
+      [
+        "Unused",
+        ""
+      ],
+      [
+        "Dataset Unique ID filename:",
+        "2015-All sites air quality hourly avg. AIR-I- F-V-VH-O-S1-DB-M2-4-0 "
+      ],
+      [
+        "Part B - Data Ownership",
+        ""
+      ],
+      [
+        "Organisation",
+        "Environment Protection Authority (EPA) Victoria"
+      ],
+      [
+        "EPA Data Owner (Manager)",
+        "Manager, Environmental Solutions Unit"
+      ],
+      [
+        "EPA Data Contact  (Team Lead)",
+        "Team Leader, Air, Noise & Odour Team"
+      ],
+      [
+        "EPA Subject Matter Expert (non-mgmt)",
+        "Principal Expert (Air)"
+      ],
+      [
+        "Part C - Data Source",
+        ""
+      ],
+      [
+        "Organisation and Team",
+        "Environment Protection Authority (EPA) Victoria and Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Owner (Manager / Lead)",
+        "Manger, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Contact  (Operator)",
+        "Operations Officer - Response, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Original source of data",
+        "Air Quality Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "Part D - Data Integrity indicators",
+        ""
+      ],
+      [
+        "Quality Assurance",
+        "Operational validation completed"
+      ],
+      [
+        "Data Completeness",
+        "Varies by parameter: gaps exist due to equipment technical issues and maintenance downtime"
+      ],
+      [
+        "Data Consistency",
+        "Inline with data validation/business rules."
+      ],
+      [
+        "Data Accuracy",
+        "Measurement uncertainty varies by parameter, and can be provided on request"
+      ],
+      [
+        "Duplicate error limits (%)",
+        ""
+      ],
+      [
+        "Comparability",
+        ""
+      ],
+      [
+        "Representativeness",
+        "Representative of air quality in the local region"
+      ],
+      [
+        "Aggregation",
+        "5min data aggregated into hourly averages where >75% data available"
+      ],
+      [
+        "Part E - Parameters and Standards",
+        ""
+      ],
+      [
+        "Sample Medium",
+        "Air"
+      ],
+      [
+        "Sample Method",
+        "Grab"
+      ]
+    ],
+    "sample": [
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2015-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "API",
+        "param_name": "Airborne particle index",
+        "value": 0.629999995231628,
+        "param_std_unit_of_measure": "none",
+        "param_short_name": "Visibility Reduction"
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2015-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "BPM2.5",
+        "param_name": "BAM  Particles < 2.5 micron",
+        "value": 6.0,
+        "param_std_unit_of_measure": "ug/m3",
+        "param_short_name": "PM2.5"
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2015-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "CO",
+        "param_name": "Carbon Monoxide",
+        "value": 0.200000002980232,
+        "param_std_unit_of_measure": "ppm",
+        "param_short_name": "CO"
+      }
+    ]
+  },
+  "2018": {
+    "sheets": [
+      "2018",
+      "Data Info Panel"
+    ],
+    "Data Info Panel": [
+      [
+        "Dataset Information Panel (DIP)",
+        ""
+      ],
+      [
+        "Part A - Data Identity",
+        ""
+      ],
+      [
+        "Type the Data Start date ",
+        ""
+      ],
+      [
+        "Type the Data End date",
+        "20170721"
+      ],
+      [
+        "Title",
+        "Coolaroo Indicative Air Monitoring Results"
+      ],
+      [
+        "Discipline",
+        "Air"
+      ],
+      [
+        "Copyright",
+        "EPA and/or partners without copyright"
+      ],
+      [
+        "Security Classification",
+        "Unclassified - not confidential, controlled sharing internal/external to EPA"
+      ],
+      [
+        "Data Status",
+        "Final - No further changes expected"
+      ],
+      [
+        "Supplying Validation",
+        "Validated  - Supplying validation done"
+      ],
+      [
+        "Data Quality Indicator",
+        "Not calculated / not applicable"
+      ],
+      [
+        "Data Asset Value",
+        "1 Significant: Legislation mandates the data be maintained and/or accessible"
+      ],
+      [
+        "Original data source",
+        "Stored in specialist system / Database"
+      ],
+      [
+        "Business Impact rating",
+        "Very high business impact severity"
+      ],
+      [
+        "Estimated confidence Rating",
+        "Significant confidence in scientific accuracy"
+      ],
+      [
+        "Specialist marking",
+        "Emergency response data"
+      ],
+      [
+        "Unused",
+        ""
+      ],
+      [
+        "Dataset Unique ID filename:",
+        "2018-All sites air quality hourly avg. AIR-I- F-V-VH-O-S1-DB-M2-4-0 "
+      ],
+      [
+        "Part B - Data Ownership",
+        ""
+      ],
+      [
+        "Organisation",
+        "Environment Protection Authority (EPA) Victoria"
+      ],
+      [
+        "EPA Data Owner (Manager)",
+        "Manager, Environmental Solutions Unit"
+      ],
+      [
+        "EPA Data Contact  (Team Lead)",
+        "Team Leader, Air, Noise & Odour Team"
+      ],
+      [
+        "EPA Subject Matter Expert (non-mgmt)",
+        "Principal Expert (Air)"
+      ],
+      [
+        "Part C - Data Source",
+        ""
+      ],
+      [
+        "Organisation and Team",
+        "Environment Protection Authority (EPA) Victoria and Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Owner (Manager / Lead)",
+        "Manger, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Contact  (Operator)",
+        "Operations Officer - Response, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Original source of data",
+        "Air Quality Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "Part D - Data Integrity indicators",
+        ""
+      ],
+      [
+        "Quality Assurance",
+        "Operational validation completed"
+      ],
+      [
+        "Data Completeness",
+        "Varies by parameter: gaps exist due to equipment technical issues and maintenance downtime"
+      ],
+      [
+        "Data Consistency",
+        "Inline with data validation/business rules."
+      ],
+      [
+        "Data Accuracy",
+        "Measurement uncertainty varies by parameter, and can be provided on request"
+      ],
+      [
+        "Duplicate error limits (%)",
+        ""
+      ],
+      [
+        "Comparability",
+        ""
+      ],
+      [
+        "Representativeness",
+        "Representative of air quality in the local region"
+      ],
+      [
+        "Aggregation",
+        "5min data aggregated into hourly averages where >75% data available"
+      ],
+      [
+        "Part E - Parameters and Standards",
+        ""
+      ],
+      [
+        "Sample Medium",
+        "Air"
+      ],
+      [
+        "Sample Method",
+        "Grab"
+      ]
+    ],
+    "sample": [
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.77840805,
+        "longitude": 145.0305939,
+        "sample_datetime": "2018-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "API",
+        "param_name": "Airborne particle index",
+        "value": 0.50999999,
+        "param_std_unit_of_measure": "none",
+        "param_short_name": "Visibility Reduction"
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.77840805,
+        "longitude": 145.0305939,
+        "sample_datetime": "2018-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "BPM2.5",
+        "param_name": "BAM  Particles < 2.5 micron",
+        "value": 3.700000048,
+        "param_std_unit_of_measure": "ug/m3",
+        "param_short_name": "PM2.5"
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.77840805,
+        "longitude": 145.0305939,
+        "sample_datetime": "2018-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "CO",
+        "param_name": "Carbon Monoxide",
+        "value": 0.100000001,
+        "param_std_unit_of_measure": "ppm",
+        "param_short_name": "CO"
+      }
+    ]
+  },
+  "2020": {
+    "sheets": [
+      "Data Info Panel",
+      "2020"
+    ],
+    "Data Info Panel": [
+      [
+        "Dataset Information Panel (DIP)",
+        ""
+      ],
+      [
+        "Part A - Data Identity",
+        ""
+      ],
+      [
+        "Dataset Unique ID filename:",
+        "2020-All sites air quality hourly avg. AIR-I- F-V-VH-O-S1-DB-M2-4-0 "
+      ],
+      [
+        "Part B - Data Ownership",
+        ""
+      ],
+      [
+        "Organisation",
+        "Environment Protection Authority (EPA) Victoria"
+      ],
+      [
+        "EPA Data Owner (Manager)",
+        "Manager, Environmental Solutions Unit"
+      ],
+      [
+        "EPA Data Contact  (Team Lead)",
+        "Team Leader, Air, Noise & Odour Team"
+      ],
+      [
+        "EPA Subject Matter Expert (non-mgmt)",
+        "Principal Expert (Air)"
+      ],
+      [
+        "Part C - Data Source",
+        ""
+      ],
+      [
+        "Organisation and Team",
+        "Environment Protection Authority (EPA) Victoria and Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Owner (Manager / Lead)",
+        "Manger, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Data Supply Contact  (Operator)",
+        "Operations Officer - Response, Programs, Quality & Operations Unit"
+      ],
+      [
+        "Original source of data",
+        "Air Quality Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "Part D - Data Integrity indicators",
+        ""
+      ],
+      [
+        "Quality Assurance",
+        "Operational validation completed"
+      ],
+      [
+        "Data Completeness",
+        "Varies by parameter: gaps exist due to equipment technical issues and maintenance downtime"
+      ],
+      [
+        "Data Consistency",
+        "Inline with data validation/business rules."
+      ],
+      [
+        "Data Accuracy",
+        "Measurement uncertainty varies by parameter, and can be provided on request"
+      ],
+      [
+        "Duplicate error limits (%)",
+        ""
+      ],
+      [
+        "Comparability",
+        ""
+      ],
+      [
+        "Representativeness",
+        "Representative of air quality in the local region"
+      ],
+      [
+        "Aggregation",
+        "5min data aggregated into hourly averages where >75% data available"
+      ],
+      [
+        "Part E - Parameters and Standards",
+        ""
+      ],
+      [
+        "Sample Medium",
+        "Air"
+      ],
+      [
+        "Sample Method",
+        "Grab"
+      ],
+      [
+        "Sample Duration",
+        "Continuous, except for for Partisol and HiVol which are 24hr samples"
+      ],
+      [
+        "Sampling frequency ",
+        "As above"
+      ],
+      [
+        "Sample Duplicate",
+        ""
+      ],
+      [
+        "Sample Parameters ",
+        "See param_name column in data"
+      ],
+      [
+        "Unit of measure",
+        "See unit column in data"
+      ],
+      [
+        "Limits of reporting / detection methods",
+        "http://www.epa.vic.gov.au/our-work/monitoring-the-environment/monitoring-victorias-air/how-epa-monitors-victorias-air/epa-air-monitoring-network\n \n"
+      ],
+      [
+        "Analysis method",
+        "Air monitoring"
+      ],
+      [
+        "Analysis machine",
+        "As above"
+      ],
+      [
+        "Measure duplicate number",
+        ""
+      ],
+      [
+        "Standards/Certification",
+        "AS 3580.1.1"
+      ],
+      [
+        "Part F - Field, Context and Analysis ",
+        ""
+      ],
+      [
+        "Purpose / Abstract",
+        "To understand the air quality levels across Victoria at strategic sites."
+      ],
+      [
+        "Intended audience",
+        "Victorian public, researchers"
+      ],
+      [
+        "Original source of data",
+        "Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "File Media Type(s)",
+        ""
+      ]
+    ],
+    "sample": [
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2020-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "API",
+        "param_name": "Airborne particle index",
+        "value": 0.579999983310699,
+        "param_std_unit_of_measure": "none",
+        "param_short_name": "Visibility Reduction"
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2020-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "BSP",
+        "param_name": "Particle scattering at 520nm",
+        "value": 27.0599994659424,
+        "param_std_unit_of_measure": "1/Mm",
+        "param_short_name": NaN
+      },
+      {
+        "sample_point_id": 10001,
+        "sp_name": "Alphington",
+        "latitude": -37.7784080505371,
+        "longitude": 145.03059387207,
+        "sample_datetime": "2020-01-01 00:00:00",
+        "time_basis_id": "1HR_AV",
+        "param_id": "CO",
+        "param_name": "Carbon Monoxide",
+        "value": 0.100000001490116,
+        "param_std_unit_of_measure": "ppm",
+        "param_short_name": "CO"
+      }
+    ]
+  },
+  "2022": {
+    "sheets": [
+      "Data Info Panel",
+      "Metadata",
+      "AllData",
+      "Morwell East_10017",
+      "Altona North_10006",
+      "Dandenong_10022",
+      "Point Cook_10005",
+      "Brooklyn_10213",
+      "Geelong South_10107",
+      "Mooroolbark_10136",
+      "Footscray_10451",
+      "Traralgon_10011",
+      "Alphington_10001",
+      "Churchill_10219",
+      "Melton_10169",
+      "Moe_10218",
+      "Newborough_10352",
+      "Campbellfield_10425",
+      "Box Hill_10042",
+      "Melbourne CBD_10239",
+      "Brighton_10007",
+      "Morwell South_10217",
+      "Bendigo_10432"
+    ],
+    "Data Info Panel": [
+      [
+        "Dataset Information Panel (DIP)",
+        ""
+      ],
+      [
+        "Part A - Data Identity",
+        "x"
+      ],
+      [
+        "Dataset Unique ID filename:",
+        "2022-01-01_to_2023-01-01_Air_Data_Validated_2023-05-29"
+      ],
+      [
+        "Part B - Data Ownership",
+        ""
+      ],
+      [
+        "Organisation",
+        "Environment Protection Authority (EPA) Victoria"
+      ],
+      [
+        "EPA Data Owner (Manager)",
+        "Manager, Air, Odour & Noise Unit"
+      ],
+      [
+        "EPA Data Contact  (Team Lead)",
+        "Team Leader, Air, Noise & Odour Team"
+      ],
+      [
+        "EPA Subject Matter Expert (non-mgmt)",
+        "Principal Expert (Air)"
+      ],
+      [
+        "Part C - Data Source",
+        ""
+      ],
+      [
+        "Organisation and Team",
+        "Environment Protection Authority (EPA) Victoria and Air, Odour & Noise Unit"
+      ],
+      [
+        "Data Supply Owner (Manager / Lead)",
+        "Manager, Air, Odour & Noise Unit"
+      ],
+      [
+        "Data Supply Contact  (Operator)",
+        "Operations Officer - Air, Air, Odour & Noise Unit"
+      ],
+      [
+        "Original source of data",
+        "Air Quality Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "Part D - Data Integrity indicators",
+        ""
+      ],
+      [
+        "Quality Assurance",
+        "Validated data"
+      ],
+      [
+        "Data Completeness",
+        "Varies by parameter: gaps exist due to equipment technical issues and maintenance downtime"
+      ],
+      [
+        "Data Consistency",
+        "Inline with data validation/business rules."
+      ],
+      [
+        "Data Accuracy",
+        "Measurement uncertainty varies by parameter, and can be provided on request"
+      ],
+      [
+        "Duplicate error limits (%)",
+        ""
+      ],
+      [
+        "Comparability",
+        ""
+      ],
+      [
+        "Representativeness",
+        "Representative of air quality in the local region"
+      ],
+      [
+        "Aggregation",
+        "5min data aggregated into hourly averages where >75% data available"
+      ],
+      [
+        "Part E - Parameters and Standards",
+        ""
+      ],
+      [
+        "Sample Medium",
+        "Air"
+      ],
+      [
+        "Sample Method",
+        "Grab"
+      ],
+      [
+        "Sample Duration",
+        "Continuous, except for for Partisol and HiVol which are 24hr samples"
+      ],
+      [
+        "Sampling frequency ",
+        "As above"
+      ],
+      [
+        "Sample Duplicate",
+        ""
+      ],
+      [
+        "Sample Parameters ",
+        "See param_name column in data"
+      ],
+      [
+        "Unit of measure",
+        "See unit column in data"
+      ],
+      [
+        "Limits of reporting / detection methods",
+        "http://www.epa.vic.gov.au/our-work/monitoring-the-environment/monitoring-victorias-air/how-epa-monitors-victorias-air/epa-air-monitoring-network\n \n"
+      ],
+      [
+        "Analysis method",
+        "Air monitoring"
+      ],
+      [
+        "Analysis machine",
+        "As above"
+      ],
+      [
+        "Measure duplicate number",
+        ""
+      ],
+      [
+        "Standards/Certification",
+        "https://www.epa.vic.gov.au/for-community/monitoring-your-environment/about-epa-airwatch/accreditation-of-epa-air-quality-monitoring"
+      ],
+      [
+        "Part F - Field, Context and Analysis ",
+        ""
+      ],
+      [
+        "Purpose / Abstract",
+        "To understand the air quality levels across Victoria at strategic sites."
+      ],
+      [
+        "Intended audience",
+        "Victorian public, researchers"
+      ],
+      [
+        "Original source of data",
+        "Monitoring (Envista/MONSYS)"
+      ],
+      [
+        "File Media Type(s)",
+        ""
+      ]
+    ],
+    "Metadata": [
+      [
+        "Report created  2023-05-29",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Validated data",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Parameter Information",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "parameter_method_name",
+        "parameter_name",
+        "parameter_description",
+        "analysis_method_name",
+        "method_quality",
+        "unit_of_measure",
+        "Alphington",
+        "Altona North",
+        "Bendigo",
+        "Box Hill",
+        "Brighton",
+        "Brooklyn",
+        "Campbellfield",
+        "Churchill",
+        "Dandenong",
+        "Footscray",
+        "Geelong South",
+        "Melbourne CBD",
+        "Melton",
+        "Moe",
+        "Mooroolbark",
+        "Morwell East",
+        "Morwell South",
+        "Newborough",
+        "Point Cook",
+        "Traralgon"
+      ],
+      [
+        "BPM2.5",
+        "PM2.5",
+        "Particulate Matter of 2.5 microns or less",
+        "Beta attenuation monitor",
+        "Equivalence Method",
+        "ug/m3",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "BSP",
+        "BSP",
+        "Scattering coefficent of light due to particles",
+        "Light scattering method - Nephelometer",
+        "Equivalence Method",
+        "1/Mm",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "CO",
+        "CO",
+        "Carbon Monoxide",
+        "Direct reading - Infrared",
+        "Equivalence Method",
+        "ppm",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "DBT",
+        "DBT",
+        "Dry Bulb Temperature",
+        "Dry Bulb Temperature",
+        "Equivalence Method",
+        "deg.C",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "NO2",
+        "NO2",
+        "Nitrogen Dioxide",
+        "Direct reading - Chemilluminescence",
+        "Equivalence Method",
+        "ppb",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "O3",
+        "O3",
+        "Ozone",
+        "Direct reading - UV Photometer",
+        "Equivalence Method",
+        "ppb",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "PM10",
+        "PM10",
+        "Particulate Matter of 10 microns or less",
+        "Tapered element oscillating microbalance",
+        "Equivalence Method",
+        "ug/m3",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "SBPM25",
+        "PM2.5",
+        "Particulate Matter of 2.5 microns or less",
+        "BAM corrected to standard temperature and pressure",
+        "Equivalence Method",
+        "ug/m3",
+        "Present",
+        "Not present",
+        "Present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "Sigma05",
+        "SIG05",
+        "Sigma Theta for Wind Direction",
+        "Ultrasound anemometer",
+        "Equivalence Method",
+        "deg",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "SO2",
+        "SO2",
+        "Sulphur Dioxide",
+        "Direct reading - UV Fluorescence",
+        "Equivalence Method",
+        "ppb",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Present"
+      ],
+      [
+        "SWS",
+        "SWS",
+        "Scalar Wind Speed",
+        "Ultrasound anemometer",
+        "Equivalence Method",
+        "m/s",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "VWD",
+        "VWD",
+        "Vector Wind Direction",
+        "Ultrasound anemometer",
+        "Equivalence Method",
+        "deg",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "VWS",
+        "VWS",
+        "Vector Wind Speed",
+        "Ultrasound anemometer",
+        "Equivalence Method",
+        "m/s",
+        "Present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Present",
+        "Not present",
+        "Not present",
+        "Not present",
+        "Present",
+        "Present"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Location Information",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "location_id",
+        "location_name",
+        "latitude",
+        "longitude",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10017",
+        "Morwell East",
+        "-38.229393",
+        "146.424454",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10006",
+        "Altona North",
+        "-37.84455",
+        "144.8629",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10022",
+        "Dandenong",
+        "-37.98576",
+        "145.1987",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10005",
+        "Point Cook",
+        "-37.9263153",
+        "144.7567",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10213",
+        "Brooklyn",
+        "-37.8220978",
+        "144.8471",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10107",
+        "Geelong South",
+        "-38.17356",
+        "144.3703",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10136",
+        "Mooroolbark",
+        "-37.7749672",
+        "145.3285",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10451",
+        "Footscray",
+        "-37.803709",
+        "144.869342",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10011",
+        "Traralgon",
+        "-38.1942825",
+        "146.531464",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10001",
+        "Alphington",
+        "-37.7784081",
+        "145.0306",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10219",
+        "Churchill",
+        "-38.3043137",
+        "146.414932",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10169",
+        "Melton",
+        "-37.7064552",
+        "144.5669",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10218",
+        "Moe",
+        "-38.1864662",
+        "146.258331",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10352",
+        "Newborough",
+        "-38.18772",
+        "146.2927",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10425",
+        "Campbellfield",
+        "-37.679276",
+        "144.965717",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "sample": [
+      {
+        "datetime_AEST": "2021-12-31 23:00:00",
+        "datetime_local": "2022-01-01 00:00:00",
+        "location_id": 10017,
+        "location_name": "Morwell East",
+        "BPM2.5": 3.327,
+        "BSP": 49.072,
+        "CO": 0.356,
+        "DBT": 21.958,
+        "SO2": 0.748
+      },
+      {
+        "datetime_AEST": "2022-01-01 00:00:00",
+        "datetime_local": "2022-01-01 01:00:00",
+        "location_id": 10017,
+        "location_name": "Morwell East",
+        "BPM2.5": 4.929,
+        "BSP": NaN,
+        "CO": NaN,
+        "DBT": 21.27,
+        "SO2": NaN
+      },
+      {
+        "datetime_AEST": "2022-01-01 01:00:00",
+        "datetime_local": "2022-01-01 02:00:00",
+        "location_id": 10017,
+        "location_name": "Morwell East",
+        "BPM2.5": 4.546,
+        "BSP": 26.717,
+        "CO": -0.215,
+        "DBT": 19.952,
+        "SO2": 0.563
+      }
+    ]
+  }
+}

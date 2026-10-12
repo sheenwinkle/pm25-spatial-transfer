@@ -1,0 +1,14 @@
+{
+ "m": 3,
+ "train_t_window": [
+  24250,
+  24252
+ ],
+ "test_years": [
+  2021,
+  2022
+ ],
+ "source_years": "<=2020",
+ "source_rows": 22709,
+ "eligible": 30
+}

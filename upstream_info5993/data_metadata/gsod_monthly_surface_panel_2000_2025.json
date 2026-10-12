@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-08-22T14:09:07.800740+00:00",
+  "source": "NOAA NCEI Global Summary of the Day, derived from Integrated Surface Hourly",
+  "source_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/",
+  "study_period": [
+    2000,
+    2025
+  ],
+  "candidate_stations": 797,
+  "expected_station_year_files": 15420,
+  "available_station_year_files": 13343,
+  "download_status_counts": {
+    "existing": 13343,
+    "missing": 2077
+  },
+  "station_month_rows": 155700,
+  "fua_month_rows_with_surface_source": 99983,
+  "fua_count_with_surface_source": 334,
+  "minimum_valid_days": 15,
+  "dry_visibility_rule": "visibility present; RH < 80%; no fog, rain/drizzle, or snow/ice flag",
+  "outputs": [
+    "data\\interim\\aviation\\gsod_station_month_2000_2025.csv.gz",
+    "data\\interim\\aviation\\gsod_fua_month_2000_2025.csv.gz",
+    "data\\metadata\\gsod_download_manifest_2000_2025.csv"
+  ],
+  "fua_aggregation": "vectorised daily-record-count-weighted means across eligible stations"
+}

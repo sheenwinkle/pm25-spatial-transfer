@@ -1,0 +1,7 @@
+{
+  "all_checks_passed": true,
+  "rolling_month_refits": 12,
+  "model_comparisons": 324,
+  "maximum_absolute_error": 2.842170943040401e-14,
+  "scope": "refit target calibration and local models for first available 2021 month per configuration; source fits loaded unchanged"
+}

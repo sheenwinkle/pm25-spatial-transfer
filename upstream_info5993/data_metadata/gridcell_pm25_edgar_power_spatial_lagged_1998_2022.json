@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-07-28T11:58:11.130044+00:00",
+  "source": "SatPM/ACAG V6.GL.03 0.1 degree PM2.5 + EDGAR v8.1 air-pollutant grids + FUA-level NASA POWER/spatial features",
+  "full_output": "data\\processed\\modelling_panel\\gridcell_pm25_edgar_power_spatial_lagged_1998_2022.csv",
+  "model_ready_output": "data\\processed\\modelling_panel\\gridcell_pm25_edgar_power_spatial_lagged_model_ready_2001_2022.csv",
+  "full_rows": 109975,
+  "model_ready_rows": 96778,
+  "cell_count": 4399,
+  "fua_count": 1559,
+  "country_rows_full": {
+    "CHN": 101625,
+    "AUS": 8350
+  },
+  "country_cells": {
+    "CHN": 4065,
+    "AUS": 334
+  },
+  "years": [
+    1998,
+    2022
+  ]
+}

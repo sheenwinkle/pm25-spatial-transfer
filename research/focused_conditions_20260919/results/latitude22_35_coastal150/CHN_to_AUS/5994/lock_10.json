@@ -1,0 +1,43 @@
+{
+  "model": "national_kernel",
+  "rule": [
+    {
+      "feature": "monthly_power_temperature_c",
+      "op": ">=",
+      "threshold": 13.55
+    },
+    {
+      "feature": "monthly_power_humidity_pct",
+      "op": ">=",
+      "threshold": 60.0
+    },
+    {
+      "feature": "monthly_power_humidity_pct",
+      "op": "<=",
+      "threshold": 80.0
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 0.30500000000000005
+    }
+  ],
+  "complexity": 4,
+  "gain_2019": -0.12237948086614825,
+  "coverage_2019": 0.6944444444444444,
+  "reference_2019": "target_ridge",
+  "n_2019": 25,
+  "fuas_2019": 3,
+  "gain_2020": -0.19107501178288677,
+  "coverage_2020": 0.7222222222222222,
+  "reference_2020": "target_rf",
+  "support_2020": true,
+  "worst_gain": -0.19107501178288677,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.1,
+  "scope": "latitude22_35_coastal150",
+  "direction": "CHN_to_AUS",
+  "seed": 5994,
+  "protocol_sha256": "f1dc75478632f94459164bc9a08bcc9d96cb0642d028c2538c880e4090b4c305"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "main",
+    "pages": 41,
+    "pdf_sha256": "d90cda6be3805ac084331271c4384bec5c62377583f25f345ee13a0245055672",
+    "placeholder_remaining": false,
+    "unparsed_table_markup": false,
+    "missing_glyph_warning": false,
+    "undefined_citations": false,
+    "overfull_lines": [],
+    "out_of_page_text": [],
+    "extracted_chinese_characters": 0,
+    "all_fonts_embedded": true
+  },
+  {
+    "name": "main_zh",
+    "pages": 32,
+    "pdf_sha256": "146ae69935052d55252dd800c20bf0b79086ee29c0c0a49fc09f84f41bae614b",
+    "placeholder_remaining": false,
+    "unparsed_table_markup": false,
+    "missing_glyph_warning": false,
+    "undefined_citations": false,
+    "overfull_lines": [],
+    "out_of_page_text": [],
+    "extracted_chinese_characters": 20629,
+    "all_fonts_embedded": true
+  },
+  {
+    "name": "journal",
+    "pages": 15,
+    "pdf_sha256": "43cb5219add872c8a483460e9e3b65c421683d210a4dfc87db47f6bee918fed7",
+    "placeholder_remaining": false,
+    "unparsed_table_markup": false,
+    "missing_glyph_warning": false,
+    "undefined_citations": false,
+    "overfull_lines": [],
+    "out_of_page_text": [],
+    "extracted_chinese_characters": 0,
+    "all_fonts_embedded": true
+  }
+]

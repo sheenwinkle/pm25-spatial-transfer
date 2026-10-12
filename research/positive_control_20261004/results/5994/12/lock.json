@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": ">=",
+      "threshold": 79.07
+    }
+  ],
+  "reference": "target_ridge",
+  "gain": 0.06877560024177831,
+  "coverage": 0.5022222222222222,
+  "complexity": 1,
+  "discovery_pass": true
+}

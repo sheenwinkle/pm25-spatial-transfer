@@ -1,0 +1,21 @@
+{
+  "completed": "2026-10-04T22:36:10",
+  "seed": 5995,
+  "window_months": 6,
+  "development_fuas": [
+    10090.0,
+    10136.0,
+    10118.0,
+    9939.0,
+    9969.0,
+    10097.0,
+    9893.0,
+    9801.0,
+    9855.0,
+    9669.0
+  ],
+  "unique_target_calibration_labels": 419,
+  "protocol_sha256": "9126be7d2e9396351658278b5c2661566a7e46f80787f5554d8e8d29cde3194e",
+  "script_sha256": "0075f4a21b6ef622b4678ff356443770e5850733445e50421b6fcc5c640d0575",
+  "predictions_sha256": "d9f6f146ccdf207e3e8b2300bae7e9709fca5f7f828a9db38ebf3c4f839ce1d9"
+}

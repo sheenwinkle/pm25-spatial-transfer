@@ -1,0 +1,766 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T08:28:12Z",
+    "timestamp": 1789201692600,
+    "version": "build-2803163510"
+  },
+  "reference-count": 58,
+  "publisher": "American Chemical Society (ACS)",
+  "issue": "22",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2021-11-01T00:00:00Z",
+        "timestamp": 1635724800000
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000104",
+      "name": "National Aeronautics and Space Administration",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "80NSSC21K0508"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "80NSSC21K0508"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000104",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000038",
+      "name": "Natural Sciences and Engineering Research Council of Canada",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "RGPIN-2019-04670"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RGPIN-2019-04670"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000038",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100007268",
+      "name": "Washington University in St. Louis",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/100007268",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Canadian Urban Environmental Health Research Consortium"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Environ. Sci. Technol."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        16
+      ]
+    ]
+  },
+  "DOI": "10.1021/acs.est.1c05309",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ],
+    "date-time": "2021-11-01T19:42:56Z",
+    "timestamp": 1635795776000
+  },
+  "page": "15287-15300",
+  "source": "Crossref",
+  "is-referenced-by-count": 685,
+  "title": [
+    "Monthly Global Estimates of Fine Particulate Matter and Their Uncertainty"
+  ],
+  "prefix": "10.1021",
+  "volume": "55",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2998-8521",
+      "authenticated-orcid": true,
+      "given": "Aaron",
+      "family": "van Donkelaar",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+        },
+        {
+          "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8443-7979",
+      "authenticated-orcid": true,
+      "given": "Melanie S.",
+      "family": "Hammer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Liam",
+      "family": "Bindle",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9103-9343",
+      "authenticated-orcid": true,
+      "given": "Michael",
+      "family": "Brauer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Population and Public Health, University of British Columbia, Vancouver, British Columbia V6T 1Z3, Canada"
+        },
+        {
+          "name": "Institute for Health Metrics and Evaluation, University of Washington, Seattle, Washington 98195, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jeffery R.",
+      "family": "Brook",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario M5T 1P8, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael J.",
+      "family": "Garay",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California 91109, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "N. Christina",
+      "family": "Hsu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Olga V.",
+      "family": "Kalashnikova",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California 91109, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ralph A.",
+      "family": "Kahn",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Colin",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Robert C.",
+      "family": "Levy",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alexei",
+      "family": "Lyapustin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Andrew M.",
+      "family": "Sayer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+        },
+        {
+          "name": "Goddard Earth Sciences Technology and Research, Universities Space Research Association, Columbia, Maryland 21046, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Randall V.",
+      "family": "Martin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+        },
+        {
+          "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "316",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1/cit1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0140-6736(20)30752-2"
+    },
+    {
+      "key": "ref2/cit2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aeaoa.2019.100040"
+    },
+    {
+      "key": "ref3/cit3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.0c01764"
+    },
+    {
+      "key": "ref4/cit4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.8b02864"
+    },
+    {
+      "key": "ref5/cit5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.8b06392"
+    },
+    {
+      "key": "ref6/cit6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.0c05815"
+    },
+    {
+      "key": "ref7/cit7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envint.2019.104909"
+    },
+    {
+      "key": "ref8/cit8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.7b01210"
+    },
+    {
+      "key": "ref9/cit9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b02076"
+    },
+    {
+      "key": "ref10/cit10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envint.2019.105004"
+    },
+    {
+      "key": "ref11/cit11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/EHP5204"
+    },
+    {
+      "key": "ref12/cit12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1803222115"
+    },
+    {
+      "key": "ref13/cit13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp3766"
+    },
+    {
+      "key": "ref14/cit14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envint.2019.105148"
+    },
+    {
+      "key": "ref15/cit15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1097/ee9.0000000000000130"
+    },
+    {
+      "key": "ref16/cit16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1001/jama.2017.17923"
+    },
+    {
+      "key": "ref17/cit17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00128-011-0466-x"
+    },
+    {
+      "key": "ref18/cit18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2011.11.026"
+    },
+    {
+      "key": "ref19/cit19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11434-014-0607-9"
+    },
+    {
+      "key": "ref20/cit20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-16-3499-2016"
+    },
+    {
+      "key": "ref21/cit21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-19-295-2019"
+    },
+    {
+      "key": "ref22/cit22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b05833"
+    },
+    {
+      "key": "ref23/cit23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2001JD000807"
+    },
+    {
+      "key": "ref24/cit24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2019.01.049"
+    },
+    {
+      "key": "ref25/cit25",
+      "unstructured": "World Health Organization\nGlobal Ambient Air Quality Database (Update 2018); https://www.who.int/airpollution/data/en/."
+    },
+    {
+      "key": "ref26/cit26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-16-9629-2016"
+    },
+    {
+      "key": "ref27/cit27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/amt-8-505-2015"
+    },
+    {
+      "key": "ref28/cit28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1538-4632.1996.tb00936.x"
+    },
+    {
+      "key": "ref29/cit29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/amt-12-169-2019"
+    },
+    {
+      "key": "ref30/cit30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/jgrd.50600"
+    },
+    {
+      "key": "ref31/cit31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/amt-5-1761-2012"
+    },
+    {
+      "key": "ref32/cit32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/amt-6-2989-2013"
+    },
+    {
+      "key": "ref33/cit33",
+      "unstructured": "SEDAC http://sedac.ciesin.columbia.edu/data/collection/gpw-v4. (Jan\n5, 2016),"
+    },
+    {
+      "key": "ref34/cit34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2015.02.054"
+    },
+    {
+      "key": "ref35/cit35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2018.12.068"
+    },
+    {
+      "key": "ref36/cit36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10661-017-5859-9"
+    },
+    {
+      "key": "ref37/cit37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4236/ojap.2020.91001"
+    },
+    {
+      "key": "ref38/cit38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-019-52799-x"
+    },
+    {
+      "key": "ref39/cit39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2020.136729"
+    },
+    {
+      "key": "ref40/cit40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envpol.2020.115199"
+    },
+    {
+      "key": "ref41/cit41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s40726-019-00124-5"
+    },
+    {
+      "key": "ref42/cit42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-13-1927-2013"
+    },
+    {
+      "key": "ref43/cit43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11869-020-00953-0"
+    },
+    {
+      "key": "ref44/cit44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-19-11105-2019"
+    },
+    {
+      "key": "ref45/cit45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/rs8120986"
+    },
+    {
+      "key": "ref46/cit46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2007.11.013"
+    },
+    {
+      "key": "ref47/cit47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c3fd00052d"
+    },
+    {
+      "key": "ref48/cit48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10661-019-7259-9"
+    },
+    {
+      "key": "ref49/cit49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2007JD009484"
+    },
+    {
+      "key": "ref50/cit50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosres.2019.104833"
+    },
+    {
+      "key": "ref51/cit51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/acp-21-3803-2021"
+    },
+    {
+      "key": "ref52/cit52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-017-14639-8"
+    },
+    {
+      "key": "ref53/cit53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2019.04.388"
+    },
+    {
+      "key": "ref54/cit54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2017.11.055"
+    },
+    {
+      "key": "ref55/cit55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1700387115"
+    },
+    {
+      "key": "ref56/cit56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es903276s"
+    },
+    {
+      "key": "ref57/cit57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2018JD029336"
+    },
+    {
+      "key": "ref58/cit58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b01236"
+    }
+  ],
+  "container-title": [
+    "Environmental Science &amp; Technology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.1c05309",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "unspecified"
+    },
+    {
+      "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.1c05309",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        26
+      ]
+    ],
+    "date-time": "2023-04-26T06:44:36Z",
+    "timestamp": 1682491476000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.acs.org/doi/10.1021/acs.est.1c05309"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  },
+  "references-count": 58,
+  "journal-issue": {
+    "issue": "22",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          16
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1021/acs.est.1c05309"
+  ],
+  "URL": "https://doi.org/10.1021/acs.est.1c05309",
+  "relation": {},
+  "ISSN": [
+    "0013-936X",
+    "1520-5851"
+  ],
+  "issn-type": [
+    {
+      "value": "0013-936X",
+      "type": "print"
+    },
+    {
+      "value": "1520-5851",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  }
+}

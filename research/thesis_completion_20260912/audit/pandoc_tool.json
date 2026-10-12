@@ -1,0 +1,5 @@
+{
+  "version": "3.11",
+  "source": "https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-windows-x86_64.zip",
+  "sha256": "e0057eaf640d08ba028b70721d4f7b63a685c30430de9db89aea84de2d4a1912"
+}

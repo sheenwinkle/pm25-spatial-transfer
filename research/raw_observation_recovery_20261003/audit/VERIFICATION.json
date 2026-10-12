@@ -1,0 +1,27 @@
+{
+  "completed_client_date": "2026-10-04",
+  "verified_utc": "2026-10-03T22:04:54.521288+00:00",
+  "passed": true,
+  "time_gate_tests": 7,
+  "original_model_inputs_unchanged": 33,
+  "request_receipts_verified": 29,
+  "independent_candidate_recheck": {
+    "overlap": 787040,
+    "equal": 787010,
+    "conflicts": 30,
+    "candidate_additions": 5,
+    "added_eligible_station_days": 0,
+    "added_eligible_station_months": 0,
+    "timestamp_slots": 596,
+    "original_archive_sha256": "b7653a23aa024cee07c9f62fe98192ee5732f43af1b688fdfef12d3555aceb43",
+    "source_sha256": "75884a827a4adcdb81c0e16b4cffd8cfb900717bacbe480105f170699a8eaaf9"
+  },
+  "priority_dates": 20,
+  "accepted_new_station_hours": 0,
+  "added_eligible_station_days": 0,
+  "added_eligible_station_months": 0,
+  "models_refit_this_branch": 0,
+  "original_inputs_modified": false,
+  "recovery_resolved": false,
+  "bounded_search_and_audit_complete": true
+}

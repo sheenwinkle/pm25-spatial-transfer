@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": "<=",
+      "threshold": 19.55
+    },
+    {
+      "feature": "support_distance",
+      "op": ">=",
+      "threshold": 0.2811662748865309
+    }
+  ],
+  "reference": "target_rf",
+  "gain": -0.04862642910676729,
+  "coverage": 0.31092436974789917,
+  "complexity": 2,
+  "discovery_pass": false
+}

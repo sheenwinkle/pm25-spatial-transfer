@@ -1,0 +1,33 @@
+{
+  "source_rows": 4560,
+  "source_fuas": 20,
+  "source_weather_grids": 19,
+  "source_cross_grid_distance_95": 0.8715677811497702,
+  "target_support_fraction_2023_2024": 0.4104396794455274,
+  "features": [
+    "legacy_annual_monthly_power_temperature_c",
+    "legacy_annual_monthly_power_temperature_max_c",
+    "legacy_annual_monthly_power_temperature_min_c",
+    "legacy_annual_monthly_power_humidity_pct",
+    "legacy_annual_monthly_power_wind_mps",
+    "legacy_annual_monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km"
+  ],
+  "source_only_2023_2024": {
+    "n": 36936,
+    "fuas": 1539,
+    "months": 24,
+    "coverage": 1.0,
+    "fua_coverage": 1.0,
+    "rmse": 29.865599343294402,
+    "mae": 25.3503647417509,
+    "r2": -2.4707119767799877,
+    "bias": -25.350068754417727,
+    "fua_macro_rmse": 28.19300521423802
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": "<=",
+      "threshold": 15.1
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.019863038546966028,
+  "coverage": 0.2564102564102564,
+  "complexity": 1,
+  "discovery_pass": false
+}

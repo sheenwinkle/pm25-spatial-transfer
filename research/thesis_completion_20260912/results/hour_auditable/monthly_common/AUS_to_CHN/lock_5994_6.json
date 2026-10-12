@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": ">=",
+      "threshold": 10.64
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 1.16
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.03046022943224902,
+  "coverage": 0.6359447004608295,
+  "complexity": 2,
+  "discovery_pass": false
+}

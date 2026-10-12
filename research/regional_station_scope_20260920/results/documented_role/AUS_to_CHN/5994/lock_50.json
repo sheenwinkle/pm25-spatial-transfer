@@ -1,0 +1,44 @@
+{
+  "model": "matched_residual",
+  "rule": [
+    {
+      "feature": "era5_pbl_mean_m",
+      "op": ">=",
+      "threshold": 386.690684
+    },
+    {
+      "feature": "era5_pbl_low_fraction",
+      "op": "<=",
+      "threshold": 0.7112903225806452
+    },
+    {
+      "feature": "distance_to_coast_km",
+      "op": ">=",
+      "threshold": 11.7974
+    },
+    {
+      "feature": "gate_log_fire",
+      "op": ">=",
+      "threshold": 1.9459101490553132
+    }
+  ],
+  "complexity": 4,
+  "gain_2019": 0.018787803612703824,
+  "coverage_2019": 0.5798319327731093,
+  "reference_2019": "target_extra",
+  "n_2019": 69,
+  "fuas_2019": 9,
+  "gain_2020": 0.01913527560243866,
+  "coverage_2020": 0.5583333333333333,
+  "reference_2020": "target_lgbm",
+  "support_2020": true,
+  "worst_gain": 0.018787803612703824,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.5,
+  "scope": "documented_role",
+  "cohort": "documented_role",
+  "direction": "AUS_to_CHN",
+  "seed": 5994,
+  "protocol_sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026"
+}

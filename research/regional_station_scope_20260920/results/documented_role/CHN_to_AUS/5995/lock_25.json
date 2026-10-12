@@ -1,0 +1,34 @@
+{
+  "model": "national_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_wind_mps",
+      "op": ">=",
+      "threshold": 3.465
+    },
+    {
+      "feature": "era5_surface_ventilation_mean_m2_s",
+      "op": ">=",
+      "threshold": 2755.9895
+    }
+  ],
+  "complexity": 2,
+  "gain_2019": 0.3733031651460882,
+  "coverage_2019": 0.4067796610169492,
+  "reference_2019": "target_ridge",
+  "n_2019": 24,
+  "fuas_2019": 4,
+  "gain_2020": 0.1331050756926062,
+  "coverage_2020": 0.41379310344827586,
+  "reference_2020": "target_rf",
+  "support_2020": true,
+  "worst_gain": 0.1331050756926062,
+  "discovery_pass": true,
+  "status": "locked",
+  "floor": 0.25,
+  "scope": "documented_role",
+  "cohort": "documented_role",
+  "direction": "CHN_to_AUS",
+  "seed": 5995,
+  "protocol_sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026"
+}

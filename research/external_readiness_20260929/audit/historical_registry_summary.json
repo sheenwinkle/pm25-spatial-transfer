@@ -1,0 +1,11 @@
+{
+  "observed_station_years": 1752,
+  "year_specific_supported_station_years": 263,
+  "previously_excluded_neighbourhood_station_years": 29,
+  "previously_excluded_neighbourhood_sites": 6,
+  "nsw_annual_table_rows": 202,
+  "nsw_pm25_designated_rows": 199,
+  "qld_same_year_source_class_discrepancies": 4,
+  "china_full_annual_role_verification_complete": false,
+  "old_cohorts_modified": false
+}

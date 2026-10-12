@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": "<=",
+      "threshold": 78.075
+    },
+    {
+      "feature": "distance_to_coast_km",
+      "op": "<=",
+      "threshold": 10.81091
+    }
+  ],
+  "reference": "shuffled_kernel_5994",
+  "gain": 0.06249246325747804,
+  "coverage": 0.4260869565217391,
+  "complexity": 2,
+  "discovery_pass": true
+}

@@ -1,0 +1,31 @@
+{
+  "feature_set": "updated_annual",
+  "direction": "CHN_to_AUS",
+  "seed": 5995,
+  "window_months": 12,
+  "labels_per_fit": 120,
+  "model": "source_partition_kernel",
+  "baseline": "shuffled_source_kernel",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "operator": ">=",
+      "threshold": 64.455
+    },
+    {
+      "feature": "support_distance",
+      "operator": ">=",
+      "threshold": 0.33063733401417766
+    }
+  ],
+  "conditions": 2,
+  "coverage": 0.6625,
+  "rmse": 2.337759419797423,
+  "baseline_rmse": 2.4697709957674756,
+  "relative_improvement": 0.05345093783848176,
+  "min_year_improvement": 0.023754130501074666,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 830,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 830
+}

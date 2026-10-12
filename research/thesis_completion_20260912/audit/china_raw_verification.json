@@ -1,0 +1,7 @@
+{
+  "archive_hashes_verified": 9,
+  "daily_members_checked": 2920,
+  "station_months_recomputed": 183,
+  "max_abs_difference": 1.4210854715202004e-14,
+  "scope": "Every PM2.5 date-hour header checked; 12 deterministically spaced station codes per year, January/July values reaggregated. Not all values independently reaggregated."
+}

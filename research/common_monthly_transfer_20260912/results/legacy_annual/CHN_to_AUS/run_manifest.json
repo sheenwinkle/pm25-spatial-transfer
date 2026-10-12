@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "script_sha256": "6b180e2971aa37593659c8812da7a5a2b6c67872880d769c6f7f364496e0ccc3",
+  "protocol_sha256": "e2e59ce5c40f85f0a8375e835ea93bf5f8163e6cebffa3f2764e813e3dec4e72",
+  "base_helper_sha256": "7a3e08e6e2744ddd823860ccf441d7c31993a01df0848acf7fa4cf40cb738acc",
+  "data_manifest_sha256": "248ae14f318efd5a66a9bc057b2d231d4e0766e9a542f25d96ad7c25ade83f0e",
+  "source_rows": 350892,
+  "configurations": 12,
+  "held_city_label_fit_violations": 0,
+  "future_label_fit_violations": 0
+}

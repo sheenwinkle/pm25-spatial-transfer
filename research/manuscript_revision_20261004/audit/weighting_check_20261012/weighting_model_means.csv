@@ -1,0 +1,121 @@
+window,k,ldf_seed_offset,model,mean_rmse,rank
+2020Q4,5,0,RF (target-only),11.7038,6
+2020Q4,5,0,GBR (target-only),10.4001,5
+2020Q4,5,0,Local mean,15.9460,9
+2020Q4,5,0,Local ridge,26.2400,12
+2020Q4,5,0,Local RBF,16.8892,10
+2020Q4,5,0,Local RF,11.7395,7
+2020Q4,5,0,Local Extra Trees,12.6604,8
+2020Q4,5,0,Local LightGBM,20.2559,11
+2020Q4,5,0,Source-affine (ours),6.7233,2
+2020Q4,5,0,NNW[LDF],7.8404,4
+2020Q4,5,0,NNW[LDF] (sample-weight),7.2481,3
+2020Q4,5,0,Source-affine[LDF] (ours),5.7783,1
+2020Q2,5,0,RF (target-only),11.2769,6
+2020Q2,5,0,GBR (target-only),10.9496,5
+2020Q2,5,0,Local mean,13.1747,10
+2020Q2,5,0,Local ridge,21.7211,12
+2020Q2,5,0,Local RBF,13.2400,11
+2020Q2,5,0,Local RF,11.4827,7
+2020Q2,5,0,Local Extra Trees,12.1357,9
+2020Q2,5,0,Local LightGBM,11.7226,8
+2020Q2,5,0,Source-affine (ours),7.3381,2
+2020Q2,5,0,NNW[LDF],9.9210,4
+2020Q2,5,0,NNW[LDF] (sample-weight),8.9965,3
+2020Q2,5,0,Source-affine[LDF] (ours),6.6353,1
+2020Q3,5,0,RF (target-only),13.8251,6
+2020Q3,5,0,GBR (target-only),13.6285,5
+2020Q3,5,0,Local mean,15.4803,12
+2020Q3,5,0,Local ridge,10.3482,3
+2020Q3,5,0,Local RBF,15.4125,11
+2020Q3,5,0,Local RF,13.9306,8
+2020Q3,5,0,Local Extra Trees,13.8991,7
+2020Q3,5,0,Local LightGBM,14.2185,9
+2020Q3,5,0,Source-affine (ours),7.5326,2
+2020Q3,5,0,NNW[LDF],10.9371,4
+2020Q3,5,0,NNW[LDF] (sample-weight),14.5688,10
+2020Q3,5,0,Source-affine[LDF] (ours),6.5830,1
+2019Q4,5,0,RF (target-only),15.3172,6
+2019Q4,5,0,GBR (target-only),14.6021,5
+2019Q4,5,0,Local mean,17.9272,9
+2019Q4,5,0,Local ridge,35.3888,12
+2019Q4,5,0,Local RBF,18.0730,11
+2019Q4,5,0,Local RF,15.8351,7
+2019Q4,5,0,Local Extra Trees,17.0586,8
+2019Q4,5,0,Local LightGBM,18.0426,10
+2019Q4,5,0,Source-affine (ours),12.1153,4
+2019Q4,5,0,NNW[LDF],9.8559,2
+2019Q4,5,0,NNW[LDF] (sample-weight),9.1831,1
+2019Q4,5,0,Source-affine[LDF] (ours),9.8782,3
+2020Q4,5,10000,RF (target-only),11.7038,6
+2020Q4,5,10000,GBR (target-only),10.4001,5
+2020Q4,5,10000,Local mean,15.9460,9
+2020Q4,5,10000,Local ridge,26.2400,12
+2020Q4,5,10000,Local RBF,16.8892,10
+2020Q4,5,10000,Local RF,11.7395,7
+2020Q4,5,10000,Local Extra Trees,12.6604,8
+2020Q4,5,10000,Local LightGBM,20.2559,11
+2020Q4,5,10000,Source-affine (ours),6.7233,2
+2020Q4,5,10000,NNW[LDF],8.3900,4
+2020Q4,5,10000,NNW[LDF] (sample-weight),7.7279,3
+2020Q4,5,10000,Source-affine[LDF] (ours),5.7338,1
+2020Q4,11,0,RF (target-only),9.0552,7
+2020Q4,11,0,GBR (target-only),7.8585,5
+2020Q4,11,0,Local mean,16.1633,10
+2020Q4,11,0,Local ridge,24.4567,12
+2020Q4,11,0,Local RBF,16.7814,11
+2020Q4,11,0,Local RF,8.9853,6
+2020Q4,11,0,Local Extra Trees,10.1423,8
+2020Q4,11,0,Local LightGBM,10.9027,9
+2020Q4,11,0,Source-affine (ours),6.4643,2
+2020Q4,11,0,NNW[LDF],7.2776,4
+2020Q4,11,0,NNW[LDF] (sample-weight),7.1236,3
+2020Q4,11,0,Source-affine[LDF] (ours),5.6841,1
+2020Q2,11,0,RF (target-only),10.9187,7
+2020Q2,11,0,GBR (target-only),10.8211,5
+2020Q2,11,0,Local mean,13.0703,10
+2020Q2,11,0,Local ridge,22.9586,12
+2020Q2,11,0,Local RBF,13.1832,11
+2020Q2,11,0,Local RF,10.8517,6
+2020Q2,11,0,Local Extra Trees,11.6740,9
+2020Q2,11,0,Local LightGBM,11.0730,8
+2020Q2,11,0,Source-affine (ours),7.0977,2
+2020Q2,11,0,NNW[LDF],10.1118,4
+2020Q2,11,0,NNW[LDF] (sample-weight),8.9906,3
+2020Q2,11,0,Source-affine[LDF] (ours),6.1981,1
+2020Q3,11,0,RF (target-only),13.1361,6
+2020Q3,11,0,GBR (target-only),13.4559,7
+2020Q3,11,0,Local mean,15.2376,11
+2020Q3,11,0,Local ridge,9.4738,3
+2020Q3,11,0,Local RBF,15.4181,12
+2020Q3,11,0,Local RF,13.0819,5
+2020Q3,11,0,Local Extra Trees,13.4881,8
+2020Q3,11,0,Local LightGBM,13.8661,9
+2020Q3,11,0,Source-affine (ours),6.9919,2
+2020Q3,11,0,NNW[LDF],10.8356,4
+2020Q3,11,0,NNW[LDF] (sample-weight),14.2454,10
+2020Q3,11,0,Source-affine[LDF] (ours),6.4113,1
+2019Q4,11,0,RF (target-only),14.2184,6
+2019Q4,11,0,GBR (target-only),14.1316,5
+2019Q4,11,0,Local mean,18.3511,11
+2019Q4,11,0,Local ridge,39.3599,12
+2019Q4,11,0,Local RBF,17.8086,10
+2019Q4,11,0,Local RF,14.2232,7
+2019Q4,11,0,Local Extra Trees,15.9887,9
+2019Q4,11,0,Local LightGBM,15.8316,8
+2019Q4,11,0,Source-affine (ours),10.6147,4
+2019Q4,11,0,NNW[LDF],8.9681,3
+2019Q4,11,0,NNW[LDF] (sample-weight),7.7425,1
+2019Q4,11,0,Source-affine[LDF] (ours),8.1682,2
+2020Q4,11,10000,RF (target-only),9.0552,7
+2020Q4,11,10000,GBR (target-only),7.8585,5
+2020Q4,11,10000,Local mean,16.1633,10
+2020Q4,11,10000,Local ridge,24.4567,12
+2020Q4,11,10000,Local RBF,16.7814,11
+2020Q4,11,10000,Local RF,8.9853,6
+2020Q4,11,10000,Local Extra Trees,10.1423,8
+2020Q4,11,10000,Local LightGBM,10.9027,9
+2020Q4,11,10000,Source-affine (ours),6.4643,2
+2020Q4,11,10000,NNW[LDF],7.3926,4
+2020Q4,11,10000,NNW[LDF] (sample-weight),7.1028,3
+2020Q4,11,10000,Source-affine[LDF] (ours),5.6893,1

@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "141590093e2ef5fcd0bacbd420bbba35cdfcdbae62a787d76785a251222b8158",
+  "script_sha256": "977ba37a6634341e482b6446a4f60129b2132eb66492aa4dfd1dd4636abcdfa5",
+  "all_network_panel_sha256": "5b5bdcc6b3ec2295f4942cd1f146c6f0aa3aacfa7678c09fb06a46d24193de31",
+  "membership_panel_sha256": "0c1ffabd223cc7ed055a913d6fac46c614761045d5eed5f373f0908f23cabd57",
+  "label_sha256": "43ddf2c7ee0dd6b50099c213cfdca1873731b87df47ff9ca92e6d6a9537ba798",
+  "generator_seed": 5993,
+  "noise_seed": 2701,
+  "noise_sd_fraction": 0.25,
+  "signal_sd": 16.423095551216022,
+  "noise_sd": 4.1057738878040055,
+  "target_rows": 3453
+}

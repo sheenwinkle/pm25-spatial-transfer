@@ -1,0 +1,13 @@
+{
+  "version": "2026-09-12-range-support-v1",
+  "status": "Exploratory extension motivated by unstable extrapolation in the third round; not an untouched confirmatory study",
+  "question": "Do the already selected weather-anomaly transfer rules become usable when source scores must lie inside the recent target calibration score range?",
+  "models_and_rules": "Reuse all 72 frozen third-round configurations; no model refitting or reselection",
+  "additional_condition": "For every prediction month, require minimum <= source score <= maximum of that model's scores on the same strictly earlier sentinel rows used for calibration",
+  "threshold_origin": "Rolling calibration predictors only; no current target outcomes and no validation-dependent quantile tuning",
+  "gate_complexity": "Original mandatory weather-quality requirements, at most two original learned inequalities, plus two dynamic score-range bounds",
+  "comparators": "Both the previously frozen local comparator and the arithmetic local mean fitted on the identical past-only labels",
+  "success": "At least 5 percent lower RMSE than both comparators, at least 25 percent of all rows and all FUAs, at least 5 FUAs and 12 months, positive paired cluster-bootstrap lower bounds against both comparators in temporal confirmation and other-city audit; discovery improvement must hold in both discovery years",
+  "inference": "Report failures and retained coverage; do not claim causality, a globally minimal condition, or rigorous post-selection coverage",
+  "target": "Existing SatPM FUA-month product means"
+}

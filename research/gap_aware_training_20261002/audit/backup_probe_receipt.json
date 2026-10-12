@@ -1,0 +1,8 @@
+{
+  "probe_count": 6,
+  "valid_csvs": 4,
+  "recovered_candidate_station_hours": 0,
+  "automatic_merge": false,
+  "exhaustive_source_search": false,
+  "independent_measurement_source": false
+}

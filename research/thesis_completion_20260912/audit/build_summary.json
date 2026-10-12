@@ -1,0 +1,23 @@
+{
+  "station_months": 144655,
+  "stations": 1754,
+  "valid_station_months": 135763,
+  "polygon_matched_valid_station_months": 124100,
+  "unmatched_station_months": 12924,
+  "features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km"
+  ],
+  "protocol_sha256": "df8640b5d1f26bf90d97ef706f29ae8f6c25dd4cbd877041a802b547a8c4d3ec",
+  "script_sha256": "d705e5b1460894c0e5a65e7d635ca149d663e04879bb754f3b44d0d05f7241f4"
+}

@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 2.75
+    },
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 1.8109632833995406
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.03379640685996499,
+  "coverage": 0.3824884792626728,
+  "complexity": 2,
+  "discovery_pass": false
+}

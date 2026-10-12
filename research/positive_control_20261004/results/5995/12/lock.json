@@ -1,0 +1,15 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "distance_to_coast_km",
+      "op": "<=",
+      "threshold": 47.52537
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.11742828040748743,
+  "coverage": 0.5566037735849056,
+  "complexity": 1,
+  "discovery_pass": true
+}

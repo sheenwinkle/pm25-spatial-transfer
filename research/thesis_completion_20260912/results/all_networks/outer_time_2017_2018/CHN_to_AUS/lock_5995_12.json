@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": ">=",
+      "threshold": 14.9775
+    },
+    {
+      "feature": "humidity_pct",
+      "op": "<=",
+      "threshold": 73.57249999999999
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.05466893367323766,
+  "coverage": 0.5555555555555556,
+  "complexity": 2,
+  "discovery_pass": true
+}

@@ -1,0 +1,11 @@
+{
+  "source": "https://storage.googleapis.com/weatherbench2/datasets/era5/1959-2023_01_10-6h-240x121_equiangular_with_poles_conservative.zarr",
+  "rows": 149664,
+  "fuas": 1559,
+  "raw_chunk_count": 4383,
+  "downloaded_bytes": 3520521340,
+  "resolution": "1.5 degree first-order conservative remapping; nearest remapped cell; six-hourly UTC",
+  "interpretation": "Coarse contextual mixing proxy, not local boundary-layer measurement or vertically integrated ventilation.",
+  "panel_sha256": "97f2f57af247bf3f3919f91bb734da7bed18269b16ecc549d5cb3ecb3dd2f02b",
+  "script_sha256": "09c7bc6a21b7d0174e5878f0e8ab52f0d075dfd7ee9391dfcd1168dc39ba045d"
+}

@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": "<=",
+      "threshold": 74.935
+    },
+    {
+      "feature": "log_fire_count_100km",
+      "op": "<=",
+      "threshold": 5.290219877450433
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.006275217960655888,
+  "coverage": 0.6638655462184874,
+  "complexity": 2,
+  "discovery_pass": false
+}

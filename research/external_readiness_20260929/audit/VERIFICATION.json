@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-09-30T09:03:19.504237+00:00",
+  "passed": true,
+  "source_and_frozen_files_verified": 27,
+  "station_month_rows": 2916,
+  "fua_month_rows": 425,
+  "fua_aggregation_max_error": 1.7763568394002505e-15,
+  "independent_raw_station_month_checks": 12,
+  "max_raw_monthly_error": 1.7763568394002505e-15,
+  "historical_registry_rows": 1752,
+  "sa_archive_count": 18,
+  "sa_pm25_archives": 18,
+  "sa_pm25_timestamp_rows": 152040,
+  "sa_nonempty_pm25_rows": 79096,
+  "sa_predicted_or_scored": false,
+  "model_selection_performed": false,
+  "untouched_validation_certified": false
+}

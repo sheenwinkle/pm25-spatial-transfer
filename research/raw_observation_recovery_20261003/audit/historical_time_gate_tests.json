@@ -1,0 +1,37 @@
+[
+  {
+    "test": "in_range",
+    "expected": true,
+    "passed": true
+  },
+  {
+    "test": "wrong_year",
+    "expected": false,
+    "passed": true
+  },
+  {
+    "test": "malformed",
+    "expected": false,
+    "passed": true
+  },
+  {
+    "test": "empty",
+    "expected": false,
+    "passed": true
+  },
+  {
+    "test": "mixed_years",
+    "expected": false,
+    "passed": true
+  },
+  {
+    "test": "before_day",
+    "expected": false,
+    "passed": true
+  },
+  {
+    "test": "after_day",
+    "expected": false,
+    "passed": true
+  }
+]

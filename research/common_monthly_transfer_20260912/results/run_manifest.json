@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 540.3392753601074,
+  "script_sha256": "6b180e2971aa37593659c8812da7a5a2b6c67872880d769c6f7f364496e0ccc3",
+  "protocol_sha256": "e2e59ce5c40f85f0a8375e835ea93bf5f8163e6cebffa3f2764e813e3dec4e72",
+  "configurations": 96,
+  "data_provenance": {
+    "original": {
+      "panel": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\processed\\modelling_panel\\gridcell_monthly_pm25_multisource_2000_2024.csv.gz",
+      "panel_sha256": "b6ea0feaf964f9b67fdc0dae6ce907c24b2aabcb2a2ae79ee14941bb59e806ba",
+      "fire_sha256": "10f898ad2f162586aabed156c66afc76d6ed25dca4fd610b96cc75835f137550"
+    },
+    "recovered_weather_manifest_sha256": "248ae14f318efd5a66a9bc057b2d231d4e0766e9a542f25d96ad7c25ade83f0e",
+    "fua_monthly_sha256": "4533b587de2046de5bd774354377536fc5527e902605602e517b4847c50f96ec",
+    "feature_sets": {
+      "legacy_annual": [
+        "legacy_annual_monthly_power_temperature_c",
+        "legacy_annual_monthly_power_temperature_max_c",
+        "legacy_annual_monthly_power_temperature_min_c",
+        "legacy_annual_monthly_power_humidity_pct",
+        "legacy_annual_monthly_power_wind_mps",
+        "legacy_annual_monthly_power_precip_mm_day",
+        "local_season_sin",
+        "local_season_cos",
+        "log_population_density",
+        "distance_to_coast_km",
+        "urban_centre_area_share",
+        "log_fire_count_100km"
+      ],
+      "updated_annual": [
+        "updated_annual_monthly_power_temperature_c",
+        "updated_annual_monthly_power_temperature_max_c",
+        "updated_annual_monthly_power_temperature_min_c",
+        "updated_annual_monthly_power_humidity_pct",
+        "updated_annual_monthly_power_wind_mps",
+        "updated_annual_monthly_power_precip_mm_day",
+        "local_season_sin",
+        "local_season_cos",
+        "log_population_density",
+        "distance_to_coast_km",
+        "urban_centre_area_share",
+        "log_fire_count_100km"
+      ],
+      "monthly_common": [
+        "monthly_power_temperature_c",
+        "monthly_power_temperature_max_c",
+        "monthly_power_temperature_min_c",
+        "monthly_power_humidity_pct",
+        "monthly_power_wind_mps",
+        "monthly_power_precip_mm_day",
+        "local_season_sin",
+        "local_season_cos",
+        "log_population_density",
+        "distance_to_coast_km",
+        "urban_centre_area_share",
+        "log_fire_count_100km"
+      ],
+      "monthly_with_aviation": [
+        "monthly_power_temperature_c",
+        "monthly_power_temperature_max_c",
+        "monthly_power_temperature_min_c",
+        "monthly_power_humidity_pct",
+        "monthly_power_wind_mps",
+        "monthly_power_precip_mm_day",
+        "local_season_sin",
+        "local_season_cos",
+        "log_population_density",
+        "distance_to_coast_km",
+        "urban_centre_area_share",
+        "log_fire_count_100km",
+        "surface_temperature_mean_c",
+        "surface_relative_humidity_mean_pct",
+        "surface_wind_mean_mps",
+        "surface_dry_visibility_harmonic_mean_km",
+        "surface_visibility_harmonic_mean_km",
+        "surface_stagnant_day_fraction",
+        "surface_precipitation_sum_mm",
+        "surface_sea_level_pressure_mean_hpa",
+        "surface_dry_visibility_valid_days",
+        "surface_source_available"
+      ]
+    },
+    "pm25_labels_changed": 0
+  },
+  "base_helper_sha256": "7a3e08e6e2744ddd823860ccf441d7c31993a01df0848acf7fa4cf40cb738acc"
+}

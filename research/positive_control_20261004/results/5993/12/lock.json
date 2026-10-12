@@ -1,0 +1,15 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 2.71
+    }
+  ],
+  "reference": "target_ridge",
+  "gain": 0.08628930946979185,
+  "coverage": 0.9043062200956937,
+  "complexity": 1,
+  "discovery_pass": true
+}

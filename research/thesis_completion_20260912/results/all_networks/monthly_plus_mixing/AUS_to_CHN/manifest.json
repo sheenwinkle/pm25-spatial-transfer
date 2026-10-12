@@ -1,0 +1,29 @@
+{
+  "source_rows": 326,
+  "source_fuas": 9,
+  "target_rows": 33859,
+  "features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km",
+    "log_era5_pbl_mean_m",
+    "log_era5_surface_ventilation_mean_m2_s",
+    "era5_pbl_low_fraction"
+  ],
+  "source_end": 2018,
+  "discovery_first": 2019,
+  "audit_first": 2021,
+  "audit_end": 2022,
+  "protocol_sha256": "7eddf13b1109e7612929e34aa64f3f6c70f6011a4206d38918549d243fe266b7",
+  "script_sha256": "dc6dbd14f49c6c6faf636b0c36d4f66bb81fabb8f40c58b79a02f0dd8bb7562c",
+  "status": "complete"
+}

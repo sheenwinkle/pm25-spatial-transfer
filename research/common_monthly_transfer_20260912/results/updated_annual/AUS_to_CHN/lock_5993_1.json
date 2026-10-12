@@ -1,0 +1,20 @@
+{
+  "feature_set": "updated_annual",
+  "direction": "AUS_to_CHN",
+  "seed": 5993,
+  "window_months": 1,
+  "labels_per_fit": 10,
+  "model": "source_augmented_ridge",
+  "baseline": "target_ridge",
+  "rule": [],
+  "conditions": 0,
+  "coverage": 1.0,
+  "rmse": 17.207385660137604,
+  "baseline_rmse": 17.227946141965024,
+  "relative_improvement": 0.0011934377817294228,
+  "min_year_improvement": -0.12997796777150228,
+  "discovery_pass": false,
+  "cumulative_fitted_labels": 720,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 720
+}

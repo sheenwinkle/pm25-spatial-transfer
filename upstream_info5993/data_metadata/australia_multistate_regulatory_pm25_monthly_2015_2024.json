@@ -1,0 +1,94 @@
+{
+  "created_at_utc": "2026-08-24T11:16:46.058031+00:00",
+  "output": "data/processed/modelling_panel/australia_multistate_regulatory_pm25_monthly_2015_2024.csv.gz",
+  "rows": 4886,
+  "strict_rows": 4739,
+  "stations": 68,
+  "states": [
+    "NSW",
+    "QLD",
+    "VIC"
+  ],
+  "fuas": [
+    "Aitkenvale",
+    "Brisbane",
+    "Cairns",
+    "Campbelltown",
+    "Geelong",
+    "Gold Coast",
+    "Maroochydore",
+    "Melbourne",
+    "Newcastle",
+    "Sydney",
+    "Toowoomba",
+    "Wollongong"
+  ],
+  "quality_rule": {
+    "minimum_valid_hours_per_day": 18,
+    "minimum_valid_day_fraction_per_month": 0.75,
+    "plausible_hourly_range_ug_m3": [
+      -10.0,
+      1000.0
+    ],
+    "target_based_test_trimming": false
+  },
+  "amlb_australia_coverage": 0.0,
+  "source_files": {
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2015.csv": "9ac4c00561b3bad3bcca0281280565413bcfdf5fd96fccd7776ef36f6491047b",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2016.csv": "3198086b0469769e143edb8c835a8878bb95f306d23b90dae1377b1f14d23fae",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2017.csv": "c6a819abbad05e7a4eb3c4ec282c265fad1c454d2cbbd9c0f1a358407a970aac",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2018.csv": "edadc5978dec0835094588ce3131fba1f509bb88a1a4834b5640eb7013df41ca",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2019.csv": "b6d6680d281c529d5652aa186033f18aab48e62619e25374e8e97ec8e00e3a6d",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2020.csv": "b79e42b56744beca3269c7de2cba585cdb290e239bd844fb05f4094c6d4937f9",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2021.csv": "5ec16ffae563de4d816a53c3432b1187544d3f66116b5b00a76cd0f1b3c61a80",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2022.csv": "1ac250a3f5d221354c0ad509ef63d7047b8594d00ef5f5b46800ae5d5cde405e",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2023.csv": "6800c49fea5826328b9896c65e1e7899e1ddd08d67bb57285178c1fcbb204ac4",
+    "data/raw/australia_ground_monitoring/qld/hourly_pm25/pm2-5-qld-2024.csv": "90424398af70134dffad252c41a7b56fdecc112816b890bb860b5ec7a78378c1",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2015_All_sites_air_quality_hourly_avg.xlsx": "6fd979c7688052b4e9b3f69e532b7dece5a4b76082f7f76a91c034b2b43b9dbd",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2016_All_sites_air_quality_hourly_avg.xlsx": "9b176edce57d522acd1edd38802ff67f95e99da6642d9686be65b983e8daac71",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2017_All_sites_air_quality_hourly_avg.xlsx": "b6330e51b702efee4591c37dd4b02c6a89dff443f4203994b8059b95ad3d1484",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2018_All_sites_air_quality_hourly_avg.xlsx": "fff83cd31937e8a8a8108157f7ab2a75ceccf319b9aac5ce095a50abc1395118",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2019_All_sites_air_quality_hourly_avg.xlsx": "8cae9c4cbcdc8c276abd688f1ee9e9208d97751226bf7ba740c1bf3c7137382d",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2020_All_sites_air_quality_hourly_avg.xlsx": "1a6a634221beaef4bb541db4d2ac88bfda117d5dd677fab0dd5a97e103a9867a",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2021_All_sites_air_quality_hourly_avg.xlsx": "4862f35314a45f2400bf75910bcb5467c4d77d182c67106d735ea6e441ae8568",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2022_All_sites_air_quality_hourly_avg.xlsx": "a4ae1a1014a7cc3de5b762a3e8978c2906f49a6ed49c38b39ce4673a5cde7c99",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2023_All_sites_air_quality_hourly_avg.xlsx": "7c6de9697a80ba97a90e4848c346da3721ee8b07ed0c25dee6e4a6dacfefe258",
+    "data/raw/australia_ground_monitoring/vic/hourly_airwatch/2024_All_sites_air_quality_hourly_avg.xlsx": "354980c237b222a49d1072b15d3837fab228e4506430c905a969ba0a6e786bcd"
+  },
+  "source_summary": [
+    {
+      "network_state": "NSW",
+      "station_months": 2678,
+      "strict_station_months": 2678,
+      "stations": 31,
+      "fuas": 4,
+      "first_year": 2015,
+      "last_year": 2024,
+      "target_mean": 7.072299605675877,
+      "target_sd": 2.758258184418348
+    },
+    {
+      "network_state": "QLD",
+      "station_months": 1624,
+      "strict_station_months": 1540,
+      "stations": 25,
+      "fuas": 6,
+      "first_year": 2015,
+      "last_year": 2024,
+      "target_mean": 5.763388612675161,
+      "target_sd": 2.3694553175638506
+    },
+    {
+      "network_state": "VIC",
+      "station_months": 584,
+      "strict_station_months": 521,
+      "stations": 12,
+      "fuas": 2,
+      "first_year": 2015,
+      "last_year": 2024,
+      "target_mean": 6.607928527327894,
+      "target_sd": 2.477556791026067
+    }
+  ],
+  "unmatched_source_station_names": 5
+}

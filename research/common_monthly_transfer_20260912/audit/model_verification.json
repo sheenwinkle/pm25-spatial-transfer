@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "configurations": 96,
+  "prediction_metric_records_recomputed": 5760,
+  "gate_stage_records_recomputed": 480,
+  "direct_bootstrap_intervals_recomputed": 32,
+  "confirmation_and_new_cities_pass": 0,
+  "scope": "Selected prediction and all five saved comparators; other unselected candidate prediction arrays were not retained and are not independently recomputed here.",
+  "script_sha256": "6c6b0fdcfb9ab04c91631c0b9fdf7b0af6fdb20e2abf4bd6ed8f99e8a54eb81e"
+}

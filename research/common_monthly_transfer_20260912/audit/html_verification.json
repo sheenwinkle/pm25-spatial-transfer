@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "中澳PM2.5条件迁移研究更新",
+      "headings": 19,
+      "images": [
+        {
+          "complete": true,
+          "width": 2160,
+          "height": 990
+        },
+        {
+          "complete": true,
+          "width": 2070,
+          "height": 990
+        },
+        {
+          "complete": true,
+          "width": 2070,
+          "height": 900
+        }
+      ],
+      "width": 1440,
+      "scrollWidth": 1440,
+      "containsConclusion": true,
+      "hasReplacementCharacters": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "中澳PM2.5条件迁移研究更新",
+      "headings": 19,
+      "images": [
+        {
+          "complete": true,
+          "width": 2160,
+          "height": 990
+        },
+        {
+          "complete": true,
+          "width": 2070,
+          "height": 990
+        },
+        {
+          "complete": true,
+          "width": 2070,
+          "height": 900
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "containsConclusion": true,
+      "hasReplacementCharacters": false
+    }
+  ]
+}

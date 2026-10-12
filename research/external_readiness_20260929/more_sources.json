@@ -1,0 +1,14 @@
+{
+  "cnemc_zenodo_latest": "https://zenodo.org/api/records/10836299/versions/latest",
+  "qld_reports_landing": "https://www.qld.gov.au/environment/management/monitoring/air/air-reports",
+  "wa_data_portal": "https://www.der.wa.gov.au/your-environment/air/air-quality-data",
+  "wa_reports_landing": "https://www.wa.gov.au/government/document-collections/air-quality-publications",
+  "qld_coal_corridor_history": "https://www.qld.gov.au/environment/management/monitoring/air/air-programs/management/monitoring",
+  "qld_catalogue_2024": "https://www.data.qld.gov.au/api/3/action/package_show?id=air-quality-monitoring-2024",
+  "qld_catalogue_2025": "https://www.data.qld.gov.au/api/3/action/package_show?id=air-quality-monitoring-2025",
+  "nsw_nepm_2015": "https://nswdpe.intersearch.com.au/nswdpejspui/bitstream/1/14498/1/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2015-170211.pdf",
+  "nsw_nepm_2017": "https://www.environment.nsw.gov.au/sites/default/files/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2017-180635.pdf",
+  "nsw_nepm_2018": "https://www.environment.nsw.gov.au/sites/default/files/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2018-200278.pdf",
+  "nsw_nepm_2020": "https://www.environment.nsw.gov.au/sites/default/files/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2020-210479.pdf",
+  "nsw_nepm_2021": "https://www.environment.nsw.gov.au/sites/default/files/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2021-230223.pdf"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": "<=",
+      "threshold": 2.93
+    }
+  ],
+  "reference": "target_rf",
+  "gain": 0.11017032714393504,
+  "coverage": 0.7606837606837606,
+  "complexity": 1,
+  "discovery_pass": true
+}

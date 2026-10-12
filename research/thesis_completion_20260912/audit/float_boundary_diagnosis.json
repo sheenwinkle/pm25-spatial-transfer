@@ -1,0 +1,14 @@
+{
+  "reproduced_default_parser_mismatches": 4,
+  "round_trip_mismatches": 0,
+  "configurations_scanned": 90,
+  "example_threshold": 1.8109632833995406,
+  "default_parsed_value": 1.8109632833995408,
+  "changed": "Saved prediction reading in independent audit; no fitted models, gates or scores changed.",
+  "regression_test": "test_saved_csv_preserves_inclusive_gate_boundary",
+  "diagnostic_hypotheses": [
+    "CSV decimal round-trip precision (confirmed by differential parser test)",
+    "Serialized inequality or threshold change (not supported: same JSON rule reproduces)",
+    "Row or city-split misalignment (not supported by full key/split checks)"
+  ]
+}

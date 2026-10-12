@@ -1,0 +1,549 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T10:18:02Z",
+    "timestamp": 1789208282862,
+    "version": "build-2803163510"
+  },
+  "reference-count": 47,
+  "publisher": "Wiley",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ],
+        "date-time": "2021-07-26T00:00:00Z",
+        "timestamp": 1627257600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "besjournals.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Methods Ecol Evol"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        9
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    <jats:list>\n                      <jats:list-item>\n                        <jats:p>Machine learning algorithms have become very popular for spatial mapping of the environment due to their ability to fit nonlinear and complex relationships. However, this ability comes with the disadvantage that they can only be applied to new data if these are similar to the training data. Since spatial mapping requires predictions to new geographic space which in many cases goes along with new predictor properties, a method to assess the area to which a prediction model can be reliably applied is required.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Here, we suggest a methodology that delineates the ‘area of applicability’ (AOA) that we define as the area where we enabled the model to learn about relationships based on the training data, and where the estimated cross‐validation performance holds. We first propose a ‘dissimilarity index’ (DI) that is based on the minimum distance to the training data in the multidimensional predictor space, with predictors being weighted by their respective importance in the model. The AOA is then derived by applying a threshold which is the (outlier‐removed) maximum DI of the training data derived via cross‐validation. We further use the relationship between the DI and the cross‐validation performance to map the estimated performance of predictions. We illustrate the approach in a simulated case study chosen to mimic ecological realities and test the credibility by using a large set of simulated data.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>The simulation studies showed that the prediction error within the AOA is comparable to the cross‐validation error of the trained model, while the cross‐validation error does not apply outside the AOA. This applies to models being trained with randomly distributed training data, as well as when training data are clustered in space and where spatial cross‐validation is applied. Using the relationship between DI and cross‐validation performance showed potential to limit predictions to the area where a user‐defined performance applies.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We suggest to add the AOA computation to the modeller's standard toolkit and to present predictions for the AOA only. We further suggest to report a map of DI‐dependent performance estimates alongside prediction maps and complementary to (cross‐)validation performance measures and the common uncertainty estimates.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:p>",
+  "DOI": "10.1111/2041-210x.13650",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2021-06-01T13:42:35Z",
+    "timestamp": 1622554955000
+  },
+  "page": "1620-1633",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 492,
+  "title": [
+    "Predicting into unknown space? Estimating the area of applicability of spatial prediction models"
+  ],
+  "prefix": "10.1111",
+  "volume": "12",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0556-0210",
+      "authenticated-orcid": false,
+      "given": "Hanna",
+      "family": "Meyer",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Institute of Landscape Ecology Westfälische Wilhelms‐Universität Münster Münster Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8049-7069",
+      "authenticated-orcid": false,
+      "given": "Edzer",
+      "family": "Pebesma",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Institute for Geoinformatics Westfälische Wilhelms‐Universität Münster Münster Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        26
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s13321‐016‐0182‐y"
+    },
+    {
+      "key": "e_1_2_9_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aax0848"
+    },
+    {
+      "key": "e_1_2_9_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1023/A:1010933404324"
+    },
+    {
+      "key": "e_1_2_9_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IGARSS.2012.6352393"
+    },
+    {
+      "key": "e_1_2_9_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/14772000.2012.705357"
+    },
+    {
+      "key": "e_1_2_9_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14358/PERS.82.3.189"
+    },
+    {
+      "key": "e_1_2_9_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aap9516"
+    },
+    {
+      "key": "e_1_2_9_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2041‐210X.2010.00036.x"
+    },
+    {
+      "key": "e_1_2_9_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4018/IJQSPR.2016010102"
+    },
+    {
+      "key": "e_1_2_9_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0169748"
+    },
+    {
+      "key": "e_1_2_9_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.7717/peerj.5518"
+    },
+    {
+      "key": "e_1_2_9_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1071/SR03005"
+    },
+    {
+      "key": "e_1_2_9_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/joc.1276"
+    },
+    {
+      "key": "e_1_2_9_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C9SC02298H"
+    },
+    {
+      "key": "e_1_2_9_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/02‐5364"
+    },
+    {
+      "key": "e_1_2_9_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18637/jss.v028.i05"
+    },
+    {
+      "key": "e_1_2_9_18_1",
+      "volume-title": "caret: Classification and regression training",
+      "author": "Kuhn M.",
+      "year": "2019"
+    },
+    {
+      "key": "e_1_2_9_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ecog.01388"
+    },
+    {
+      "issue": "3",
+      "key": "e_1_2_9_20_1",
+      "first-page": "18",
+      "article-title": "Classification and regression by random forest",
+      "volume": "2",
+      "author": "Liaw A.",
+      "year": "2002",
+      "journal-title": "R News"
+    },
+    {
+      "key": "e_1_2_9_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/minf.201501019"
+    },
+    {
+      "key": "e_1_2_9_22_1",
+      "first-page": "983",
+      "article-title": "Quantile regression forests",
+      "volume": "7",
+      "author": "Meinshausen N.",
+      "year": "2006",
+      "journal-title": "Journal of Machine Learning Research"
+    },
+    {
+      "key": "e_1_2_9_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ddi.12209"
+    },
+    {
+      "key": "e_1_2_9_24_1",
+      "volume-title": "CAST: ‘caret’ applications for spatial‐temporal models",
+      "author": "Meyer H.",
+      "year": "2021"
+    },
+    {
+      "key": "e_1_2_9_25_1",
+      "volume-title": "MEE_AOA: code to run the case study for the estimation of the area of applicability published in MEE",
+      "author": "Meyer H.",
+      "year": "2021"
+    },
+    {
+      "key": "e_1_2_9_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envsoft.2017.12.001"
+    },
+    {
+      "key": "e_1_2_9_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ecolmodel.2019.108815"
+    },
+    {
+      "key": "e_1_2_9_28_1",
+      "volume-title": "Introduction to linear regression analysis",
+      "author": "Montgomery D. C.",
+      "year": "2012"
+    },
+    {
+      "key": "e_1_2_9_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/026119290503300209"
+    },
+    {
+      "key": "e_1_2_9_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1804098115"
+    },
+    {
+      "key": "e_1_2_9_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ele.12443"
+    },
+    {
+      "key": "e_1_2_9_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467‐020‐18321‐y"
+    },
+    {
+      "key": "e_1_2_9_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/13658816.2017.1346255"
+    },
+    {
+      "key": "e_1_2_9_34_1",
+      "volume-title": "scam: Shape constrained additive models",
+      "author": "Pya N.",
+      "year": "2020"
+    },
+    {
+      "key": "e_1_2_9_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11222‐013‐9448‐7"
+    },
+    {
+      "key": "e_1_2_9_36_1",
+      "volume-title": "R: A language and environment for statistical computing",
+      "author": "R Core Team",
+      "year": "2020"
+    },
+    {
+      "key": "e_1_2_9_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ecog.02881"
+    },
+    {
+      "key": "e_1_2_9_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1758‐2946‐5‐27"
+    },
+    {
+      "key": "e_1_2_9_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ecolmodel.2019.06.002"
+    },
+    {
+      "key": "e_1_2_9_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ci049782w"
+    },
+    {
+      "key": "e_1_2_9_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ci4006595"
+    },
+    {
+      "key": "e_1_2_9_42_1",
+      "article-title": "blockcv: An R package for generating spatially or environmentally separated folds for k‐fold cross‐validation of species distribution models",
+      "author": "Valavi R.",
+      "year": "2018",
+      "journal-title": "bioRxiv"
+    },
+    {
+      "key": "e_1_2_9_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586‐019‐1418‐6"
+    },
+    {
+      "key": "e_1_2_9_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.geoderma.2016.12.017"
+    },
+    {
+      "key": "e_1_2_9_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.tree.2018.08.001"
+    },
+    {
+      "key": "e_1_2_9_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/ejss.12244"
+    },
+    {
+      "key": "e_1_2_9_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1920816117"
+    },
+    {
+      "key": "e_1_2_9_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1472‐4642.2012.00887.x"
+    }
+  ],
+  "container-title": [
+    "Methods in Ecology and Evolution"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.13650",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/2041-210X.13650",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.13650",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        8,
+        25
+      ]
+    ],
+    "date-time": "2023-08-25T19:47:46Z",
+    "timestamp": 1692992866000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13650"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        26
+      ]
+    ]
+  },
+  "references-count": 47,
+  "journal-issue": {
+    "issue": "9",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/2041-210X.13650"
+  ],
+  "URL": "https://doi.org/10.1111/2041-210x.13650",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v1/decision1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v3/response1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v2/response1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v3/decision1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v2/decision1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v1/review1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v1/review2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1111/2041-210X.13650/v2/review1",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "2041-210X",
+    "2041-210X"
+  ],
+  "issn-type": [
+    {
+      "value": "2041-210X",
+      "type": "print"
+    },
+    {
+      "value": "2041-210X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        26
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2020-05-16",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-05-06",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-07-26",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

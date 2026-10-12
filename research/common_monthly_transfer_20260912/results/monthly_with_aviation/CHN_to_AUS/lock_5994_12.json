@@ -1,0 +1,20 @@
+{
+  "feature_set": "monthly_with_aviation",
+  "direction": "CHN_to_AUS",
+  "seed": 5994,
+  "window_months": 12,
+  "labels_per_fit": 120,
+  "model": "source_partition_kernel",
+  "baseline": "target_rbf",
+  "rule": [],
+  "conditions": 0,
+  "coverage": 1.0,
+  "rmse": 5.992275390197617,
+  "baseline_rmse": 5.677217181192427,
+  "relative_improvement": -0.05549518345870563,
+  "min_year_improvement": -0.5806810237744813,
+  "discovery_pass": false,
+  "cumulative_fitted_labels": 830,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 830
+}

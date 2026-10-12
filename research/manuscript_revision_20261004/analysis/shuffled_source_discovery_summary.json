@@ -1,0 +1,22 @@
+{
+  "status": "exploratory diagnostic",
+  "input": "saved pre-NSW-correction prediction files",
+  "configuration_count": 90,
+  "permutation_count": 3,
+  "search_count": 270,
+  "joint_permutation_runs_with_any_discovery_pass": 17,
+  "candidate_rules_median": 97.0,
+  "candidate_rules_range": [
+    69,
+    124
+  ],
+  "null_search_passes": 23,
+  "null_search_pass_rate": 0.08518518518518518,
+  "caveats": [
+    "The prediction archive predates the corrected NSW December replay.",
+    "Only three row-wise source-label permutations are available; these are not independent 270 experiments.",
+    "For each null candidate, the other two shuffled kernels and six local learners form the comparator set; the candidate is excluded to avoid self-comparison.",
+    "The source-label shuffle breaks source spatial and temporal label structure, so this is a sharp independence null, not a block-preserving null.",
+    "Do not interpret the pass rate as an estimate of the fraction of the primary 26/90 discoveries that are false."
+  ]
+}

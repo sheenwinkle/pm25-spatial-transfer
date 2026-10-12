@@ -1,0 +1,191 @@
+[
+  {
+    "file": "manuscript\\main.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\main_round7.tex",
+    "before_sha256": "DE7D42ECB810AF8943C20165594D42C6ED5150A09D86432C2AD9FBDEC94FF552",
+    "after_sha256": "EE48D758366869214CC74764324687A7AC282DB477804381E2B7C02A22D5CF05",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\references.bib",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\references.bib",
+    "before_sha256": "DEE2DA23F50C07901FB111EFD77B28A057902B24B73E0921F582ED5A93FC7FCC",
+    "after_sha256": "F74B1AE3ACFFC947EF0C1D098D6E2F1A3EB12A4AAA31667B379A612CE45E82BB",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\audit_resolution.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\audit_resolution.png",
+    "before_sha256": "9C5F5D8C1C4D44049A8A7E9E4117814DD14C1D15C8E768B76C88FE279433E38A",
+    "after_sha256": "AA0FE5CAA65CC953E3685B27DCE4636366D0D3442F4686AFB0BEB8C1335031C3",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\australia_coverage.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\australia_coverage.png",
+    "before_sha256": "50E4E009C86CBD1393690B3B703429515A8D1696440FCCFD3E1362D3E5B61FE9",
+    "after_sha256": "50E4E009C86CBD1393690B3B703429515A8D1696440FCCFD3E1362D3E5B61FE9",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\australia_signal_ceiling.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\australia_signal_ceiling.png",
+    "before_sha256": "8551F3B137E0ED8F11F64CB5357354259043C3E8587D050E596DDDC4EB5B4439",
+    "after_sha256": "6581B15CE91AC1F962D294CE3C7E56878A51DD551EEE70C77713F394F1F43A8B",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\fig_history_ablation.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\fig_history_ablation.png",
+    "before_sha256": "801BA66EBD3B954AFA8DCB2A9A68E5BDD71222F6E9E5FE295FB711C64359E8A4",
+    "after_sha256": "801BA66EBD3B954AFA8DCB2A9A68E5BDD71222F6E9E5FE295FB711C64359E8A4",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\fig_k_ablation.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\fig_k_ablation.png",
+    "before_sha256": "4F26EF9D58608896092FB2BE0E6078DAD04809EF7D67203097D588BBD2771C95",
+    "after_sha256": "4F26EF9D58608896092FB2BE0E6078DAD04809EF7D67203097D588BBD2771C95",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\gate_coverage_skill.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\gate_coverage_skill.png",
+    "before_sha256": "ABD6548F7A649C1FC46101A3E7EBD28C60CFA3202B02D88348D091F5F344B9E0",
+    "after_sha256": "5F7903980EFC09BAE772A3C6A500F1152024CA21DDC0D49EE0A46F24040D9D43",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\map_aus.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\map_aus.png",
+    "before_sha256": "FC3306D28BE48F72A4042CA47222CEE5868682D88C37490826D8B2E9801067F3",
+    "after_sha256": "FC3306D28BE48F72A4042CA47222CEE5868682D88C37490826D8B2E9801067F3",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\map_chn.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\map_chn.png",
+    "before_sha256": "E85E5BB0A587161289EBDD41C437B1B6B77FE48C96875DBC5EA34E5E007FB0FB",
+    "after_sha256": "E85E5BB0A587161289EBDD41C437B1B6B77FE48C96875DBC5EA34E5E007FB0FB",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\model_comparison.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\model_comparison.png",
+    "before_sha256": "40E4DE7D8A512845F6DB01507EAEDBB50FC70D09821F4177626891EA1E0121A2",
+    "after_sha256": "B7263CB16E3644CB76334D68AA67241D7ECCDA5749B20183160599AEDDC051DC",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\observed_label_workflow.pdf",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\observed_label_workflow.pdf",
+    "before_sha256": "CA53321F4924F2A7FDFB45C8FDA44FE630F3DB7209315A6EB10DC0B90A747E65",
+    "after_sha256": "CA53321F4924F2A7FDFB45C8FDA44FE630F3DB7209315A6EB10DC0B90A747E65",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\observed_label_workflow.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\observed_label_workflow.png",
+    "before_sha256": "073BEEFAC1417967A5DE559BBCF0451EB7018DB5C2D738876E100C711A2CC134",
+    "after_sha256": "073BEEFAC1417967A5DE559BBCF0451EB7018DB5C2D738876E100C711A2CC134",
+    "changed": false
+  },
+  {
+    "file": "manuscript\\figures\\observed_yearly_distribution.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\observed_yearly_distribution.png",
+    "before_sha256": "6B856127091DF52CD1C4D0B67FBDAE9B0C06140C3F5649124A1A8DE461C8988D",
+    "after_sha256": "37FDDC29F99737EAC52A52A5EA72C77417419C09CFFDC2E044B430E47883340B",
+    "changed": true
+  },
+  {
+    "file": "manuscript\\figures\\target_variance_decomposition.png",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\manuscript\\figures\\target_variance_decomposition.png",
+    "before_sha256": "61366267C937740974AE69D0AC9D0D1BCD12E7F1A4BA32877C634C5C8B64ED47",
+    "after_sha256": "41517DB5C986812D8088AE9EBCA10DC962C12A7C62C8CE90F92C9C383204F8E7",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\paths.py",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\paths.py",
+    "before_sha256": "0D21BFFFCBB228CC5D687A28602C009074595988B3734AAAF23F157070608DF1",
+    "after_sha256": "D817EC6918D96A2D77B077BFF8F42C6DE769AF2AED54C4E89FAA5B2A8B05A944",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\make_tables.py",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\make_tables.py",
+    "before_sha256": "ADDB02848E458AF08FD211D1B5E5E7967530ECF8B8DE3AD8AC67138589BACBE6",
+    "after_sha256": "6F1721F38CC0804A1F0F4F33B39D679898B5402E69FF21A579085C3433E1BED8",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\check_claims.py",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\check_claims.py",
+    "before_sha256": "3AA6296CEF950F0AEADBA7662E6525A200C284648A4C1E12F2262B651016857F",
+    "after_sha256": "4896C56F3B24F20205E6797CD373BB49D1D999072132B759FC7DC4EF20E39BC5",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\README.md",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\README.md",
+    "before_sha256": "70CEE0EC72920265C92539DC97B91B98F1598FA1DE2E58F2EF853ABCB4AF6D38",
+    "after_sha256": "BEBA4CCDA2F1E58E372AF555D4D649F9AFC753A5A4EE3F6BA1A57EE95DBE8479",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\data\\all_networks_model_panel_corrected.csv.gz",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\data\\all_networks_model_panel_corrected.csv.gz",
+    "before_sha256": null,
+    "after_sha256": "9026749A73704D45E218A4AEB96D79704280EDC98AD8E6DAB3ED34BB627F2A03",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\numbers.json",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\numbers.json",
+    "before_sha256": "9437A5791D1ED93B600F58B3AB161560DB6388F02F203B799F69E342A8CA7AC4",
+    "after_sha256": "5142B6D93BAAEE2134B228180858DCA46B17E8983DB4BFCC51FC705ACBC43D21",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\paired_selected.csv",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\paired_selected.csv",
+    "before_sha256": "3D08133DE34C242F33D0072A5BA5DA1C7C983BA753941074A04EF0ACE7AB996A",
+    "after_sha256": "85F10BF9EAFCFB4190F6DB092456910CB991D7A4D143F737F2D835E9B1EF6B6B",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\tab_history.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\tab_history.tex",
+    "before_sha256": "4858F75C7507E0827387F60217C2C2E981BAC1227BA823224BE8B5084EA861F8",
+    "after_sha256": "3D35C448EEDE2E6A5BE6A31F18E2E53E4D81DD61A1A3487896256D2F91F3BEBC",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\tab_nocontemp.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\tab_nocontemp.tex",
+    "before_sha256": "245BE4C0671BA43A52F10CD64A49F858336726AB1677F6BA2E7770A757F3A9B3",
+    "after_sha256": "1E7656593671A07377828E162BBAB82422336D88290E382C1B3E5901E96DEDB3",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\tab_T1_B.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\tab_T1_B.tex",
+    "before_sha256": "86C0B4E534894A47A3E9D1A15631278F22E15F5639D9FE23B3BB58DA388ACFA2",
+    "after_sha256": "0944DEE9243BD25A1F09366C8F9A2AFECE3C2747968CB99CB10FAAA50D54E4D4",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\tab_T1_S.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\tab_T1_S.tex",
+    "before_sha256": "EB5B09D11F1D394A8CEFF38E0FC4EF96A5A19501AA8D7E544FDB46C1F8C4FB70",
+    "after_sha256": "599519B557BCB8957096FE210ACF72D8E75C42518E8C336630DFD272AE6D7267",
+    "changed": true
+  },
+  {
+    "file": "benchmark_replication_20261008\\benchmark_experiment\\generated\\tab_T2.tex",
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\manuscript_revision_20261004\\integrated_revision_20261009\\benchmark_experiment_fixes\\generated\\tab_T2.tex",
+    "before_sha256": "30FD607F8BB33D0D94AD5BA1B770C46443498B3375CC36F97560B1A9D0226E49",
+    "after_sha256": "06A4E5ACEBD57F9DF3C04906941B04C0C65814CE5B83676CCAEDF5CA7FAE197C",
+    "changed": true
+  }
+]

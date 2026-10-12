@@ -1,0 +1,42 @@
+[
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/audit/qld_plus10_hour_monthly.csv.gz",
+    "link_target": "/home/researcher/data/thesis_completion_20260912/audit/qld_plus10_hour_monthly.csv.gz"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/results/all_networks/monthly_plus_mixing",
+    "link_target": "/home/researcher/work/round2/replay/results/all_networks/monthly_plus_mixing"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/results/all_networks/monthly_plus_emissions",
+    "link_target": "/home/researcher/work/round2/replay/results/all_networks/monthly_plus_emissions"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/results/all_networks/outer_time_2017_2018",
+    "link_target": "/home/researcher/work/round2/replay/results/all_networks/outer_time_2017_2018"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/results/all_networks/monthly_common",
+    "link_target": "/home/researcher/work/round2/replay/results/all_networks/monthly_common"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/results/hour_auditable/monthly_common",
+    "link_target": "/home/researcher/data/thesis_completion_20260912/results/hour_auditable/monthly_common"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/data/all_networks_model_panel.csv.gz",
+    "link_target": "/home/researcher/work/round2/replay/data/all_networks_model_panel_corrected.csv.gz"
+  },
+  {
+    "archive": "round2_replay.tar.gz",
+    "member": "replay/verify_audit/data/regulatory_station_month_2015_2022.csv.gz",
+    "link_target": "/home/researcher/work/round2/replay/data/regulatory_station_month_2015_2022_corrected.csv.gz"
+  }
+]

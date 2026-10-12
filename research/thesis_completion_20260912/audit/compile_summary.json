@@ -1,0 +1,17 @@
+[
+  {
+    "document": "main",
+    "returncode": 0,
+    "pdf_bytes": 1497734
+  },
+  {
+    "document": "main_zh",
+    "returncode": 0,
+    "pdf_bytes": 1949763
+  },
+  {
+    "document": "journal",
+    "returncode": 0,
+    "pdf_bytes": 1392062
+  }
+]

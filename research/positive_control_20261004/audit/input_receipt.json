@@ -1,0 +1,24 @@
+{
+  "all_network_panel_sha256": "5b5bdcc6b3ec2295f4942cd1f146c6f0aa3aacfa7678c09fb06a46d24193de31",
+  "membership_panel_sha256": "0c1ffabd223cc7ed055a913d6fac46c614761045d5eed5f373f0908f23cabd57",
+  "protocol_sha256": "9126be7d2e9396351658278b5c2661566a7e46f80787f5554d8e8d29cde3194e",
+  "source_rows": 15010,
+  "source_fuas": 330,
+  "target_rows": 3453,
+  "target_fuas": 43,
+  "source_target_overlap": 0,
+  "features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km"
+  ]
+}

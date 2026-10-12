@@ -1,0 +1,10 @@
+{
+  "qld_resource_records": 517,
+  "qld_canonical_station_years": 496,
+  "qld_conflicting_resource_records": 0,
+  "qld_metadata_changes": 107,
+  "china_annotation_leads": 17,
+  "china_annotation_sites": 17,
+  "china_unmatched_membership_sites": 73,
+  "role_snapshots_backfilled": false
+}

@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": ">=",
+      "threshold": 1.9073724790984983
+    },
+    {
+      "feature": "log_fire_count_100km",
+      "op": "<=",
+      "threshold": 2.833213344056216
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.023835029948047537,
+  "coverage": 0.2974137931034483,
+  "complexity": 2,
+  "discovery_pass": false
+}

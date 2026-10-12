@@ -1,0 +1,31 @@
+{
+  "feature_set": "monthly_with_aviation",
+  "direction": "AUS_to_CHN",
+  "seed": 5995,
+  "window_months": 6,
+  "labels_per_fit": 60,
+  "model": "source_partition_kernel",
+  "baseline": "target_lgbm",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "operator": ">=",
+      "threshold": 12.627500000000001
+    },
+    {
+      "feature": "temperature_c",
+      "operator": "<=",
+      "threshold": 25.125
+    }
+  ],
+  "conditions": 2,
+  "coverage": 0.5,
+  "rmse": 7.411585398552339,
+  "baseline_rmse": 8.059715697316623,
+  "relative_improvement": 0.08041602496972322,
+  "min_year_improvement": 0.026872800070426806,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 770,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 770
+}

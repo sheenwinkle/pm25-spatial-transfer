@@ -1,0 +1,187 @@
+[
+  {
+    "key": "breiman2001",
+    "url": "https://doi.org/10.1023/A:1010933404324",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "cawley2010",
+    "url": "https://jmlr.org/papers/v11/cawley10a.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "cnemc2024zenodo",
+    "url": "https://doi.org/10.5281/zenodo.10836299",
+    "scope": "DataCite registered creator/title and archived data content checked"
+  },
+  {
+    "key": "davies2014",
+    "url": "https://doi.org/10.48550/arXiv.1402.4293",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "durre2018igra",
+    "url": "https://doi.org/10.1175/JTECH-D-17-0223.1",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "edgar2024ap81",
+    "url": "https://edgar.jrc.ec.europa.eu/dataset_ap81",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger; primary page checked in this revision"
+  },
+  {
+    "key": "ganin2016dann",
+    "url": "https://jmlr.org/papers/v17/15-239.html",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "geurts2006",
+    "url": "https://doi.org/10.1007/s10994-006-6226-1",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "ghsfua2019",
+    "url": "https://data.europa.eu/89h/347f0337-f2da-4592-87b3-e25975ec2c95",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger; primary page checked in this revision"
+  },
+  {
+    "key": "giglio2016modis",
+    "url": "https://doi.org/10.1016/j.rse.2016.02.054",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "grinsztajn2022tabular",
+    "url": "https://doi.org/10.52202/068431-0037",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "hersbach2020era5",
+    "url": "https://doi.org/10.1002/qj.3803",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "hollmann2025tabpfn",
+    "url": "https://doi.org/10.1038/s41586-024-08328-6",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "hou2025urbandrivers",
+    "url": "https://doi.org/10.1016/j.wasman.2024.11.025",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "izzo2023",
+    "url": "https://proceedings.mlr.press/v202/izzo23a.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "ke2017lightgbm",
+    "url": "https://proceedings.neurips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "knibbs2018australia",
+    "url": "https://doi.org/10.1021/acs.est.8b02328",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "li2022airportvisibility",
+    "url": "https://doi.org/10.1038/s41370-022-00480-3",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "mcelfresh2023tabular",
+    "url": "https://doi.org/10.52202/075280-3337",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "meyer2021aoa",
+    "url": "https://doi.org/10.1111/2041-210X.13650",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "naturalearth",
+    "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "nsw2026airqualityapi",
+    "url": "https://data.airquality.nsw.gov.au/docs/index.html",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger; primary page checked in this revision"
+  },
+  {
+    "key": "openmeteo_history",
+    "url": "https://open-meteo.com/en/docs/historical-weather-api",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "power_method",
+    "url": "https://power.larc.nasa.gov/docs/methodology/meteorology/",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "power_monthly",
+    "url": "https://power.larc.nasa.gov/docs/services/api/temporal/monthly/",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "qld2026airquality",
+    "url": "https://apps.des.qld.gov.au/air-quality/download/",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger; primary page checked in this revision"
+  },
+  {
+    "key": "roberts2017cv",
+    "url": "https://doi.org/10.1111/ecog.02881",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "smith2011isd",
+    "url": "https://doi.org/10.1175/2011BAMS3015.1",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "su2022yrd",
+    "url": "https://doi.org/10.1007/s10661-022-09934-5",
+    "scope": "Crossref_registered_metadata_checked; publisher abstract read, full methods not independently accessed"
+  },
+  {
+    "key": "sugiyama2007",
+    "url": "https://jmlr.org/papers/v8/sugiyama07a.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "usyd5702",
+    "url": "https://www.sydney.edu.au/units/COMP5702/2026-S2C-SU-CC",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "usydai",
+    "url": "https://www.sydney.edu.au/students/academic-integrity/artificial-intelligence.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "vandonkelaar2021satpm",
+    "url": "https://doi.org/10.1021/acs.est.1c05309",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "vic2026airwatch",
+    "url": "https://discover.data.vic.gov.au/en_AU/dataset/epa-air-watch-all-sites-air-quality-hourly-averages-yearly",
+    "scope": "primary_web_or_inherited_metadata_see_source_ledger; primary page checked in this revision"
+  },
+  {
+    "key": "weatherbench_data",
+    "url": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  },
+  {
+    "key": "wei2023globalhighpm25",
+    "url": "https://doi.org/10.1038/s41467-023-43862-3",
+    "scope": "Crossref_registered_metadata_checked"
+  },
+  {
+    "key": "zhao2019",
+    "url": "https://proceedings.mlr.press/v97/zhao19a.html",
+    "scope": "curated primary metadata; primary page checked in this revision"
+  }
+]

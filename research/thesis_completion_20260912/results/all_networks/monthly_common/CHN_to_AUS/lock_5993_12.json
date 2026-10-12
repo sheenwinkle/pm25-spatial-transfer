@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": ">=",
+      "threshold": 3.725620842493838
+    }
+  ],
+  "reference": "target_rf",
+  "gain": 0.3665978282286142,
+  "coverage": 0.25210084033613445,
+  "complexity": 1,
+  "discovery_pass": true
+}

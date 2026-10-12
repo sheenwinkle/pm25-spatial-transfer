@@ -1,0 +1,20 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": ">=",
+      "threshold": 1.9459101490553128
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": "<=",
+      "threshold": 2.92
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.051428043843014026,
+  "coverage": 0.6527777777777778,
+  "complexity": 2,
+  "discovery_pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": "<=",
+      "threshold": 69.775
+    },
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 3.37
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.020753351771998885,
+  "coverage": 0.27155172413793105,
+  "complexity": 2,
+  "discovery_pass": false
+}

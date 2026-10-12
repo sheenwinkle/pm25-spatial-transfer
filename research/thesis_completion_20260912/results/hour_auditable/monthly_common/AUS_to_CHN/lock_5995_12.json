@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": ">=",
+      "threshold": 2.833213344056216
+    },
+    {
+      "feature": "distance_to_coast_km",
+      "op": "<=",
+      "threshold": 397.0795
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.018431039403172367,
+  "coverage": 0.41810344827586204,
+  "complexity": 2,
+  "discovery_pass": false
+}

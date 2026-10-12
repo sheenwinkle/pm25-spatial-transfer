@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": ">=",
+      "threshold": 20.055
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.15290668637878269,
+  "coverage": 0.2571428571428571,
+  "complexity": 1,
+  "discovery_pass": false
+}

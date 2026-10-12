@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "log_population_density",
+      "op": ">=",
+      "threshold": 7.4866114
+    },
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 1.8109632833995406
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.009571201356513237,
+  "coverage": 0.4423963133640553,
+  "complexity": 2,
+  "discovery_pass": false
+}

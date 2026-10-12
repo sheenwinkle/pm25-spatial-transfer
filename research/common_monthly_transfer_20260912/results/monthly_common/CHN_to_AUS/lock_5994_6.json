@@ -1,0 +1,26 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "CHN_to_AUS",
+  "seed": 5994,
+  "window_months": 6,
+  "labels_per_fit": 60,
+  "model": "source_partition_kernel",
+  "baseline": "target_lgbm",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "operator": "<=",
+      "threshold": 1.6094379124341003
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.25833333333333336,
+  "rmse": 1.78363949703084,
+  "baseline_rmse": 1.8919112441414625,
+  "relative_improvement": 0.05722876664848808,
+  "min_year_improvement": 0.09103103933536971,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 770,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 770
+}

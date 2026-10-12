@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 3.99
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.014661551699991837,
+  "coverage": 0.25316455696202533,
+  "complexity": 1,
+  "discovery_pass": false
+}

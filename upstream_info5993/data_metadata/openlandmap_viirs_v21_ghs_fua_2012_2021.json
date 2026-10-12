@@ -1,0 +1,107 @@
+{
+  "created_at_utc": "2026-07-27T16:14:20.756543+00:00",
+  "source": "OpenLandMap static STAC VIIRS annual nighttime lights v2.1",
+  "stac_collection": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/collection.json",
+  "years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "method": "Zonal raster summary of 500 m VIIRS annual nighttime light values within GHS-FUA polygons. Outputs mean, max, lit fraction, and pixel count.",
+  "source_records": [
+    {
+      "year": 2012,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20120101_20121231/nightlights.average_viirs.v21_20120101_20121231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20120101_20121231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20120101_20121231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 66024638,
+      "sha256": "d7ddfa992f0990606165c8991f2a1ae07de6ebdbb69eea32fee8b60a852f46a2"
+    },
+    {
+      "year": 2013,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20130101_20131231/nightlights.average_viirs.v21_20130101_20131231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20130101_20131231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20130101_20131231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 69375670,
+      "sha256": "c55152801ddf2dcec8f6337ee469028860224a12c2357741e7a5b7014757aaff"
+    },
+    {
+      "year": 2014,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20140101_20141231/nightlights.average_viirs.v21_20140101_20141231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20140101_20141231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20140101_20141231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 68100345,
+      "sha256": "f194e49028b21d5c448d5fa7b452961d2815c33e32b43137ab02556fcb3cfd09"
+    },
+    {
+      "year": 2015,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20150101_20151231/nightlights.average_viirs.v21_20150101_20151231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20150101_20151231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20150101_20151231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 67444400,
+      "sha256": "7ea70b1d667bc3308bc90550b4ab1e823688579318b75df69590a461b5611c9f"
+    },
+    {
+      "year": 2016,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20160101_20161231/nightlights.average_viirs.v21_20160101_20161231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20160101_20161231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20160101_20161231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 67163229,
+      "sha256": "5b74509563766b3990c531b3efeadb389681a1ab1fcebd209d9ae006c63dc1a6"
+    },
+    {
+      "year": 2017,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20170101_20171231/nightlights.average_viirs.v21_20170101_20171231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20170101_20171231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20170101_20171231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 75400174,
+      "sha256": "f3330a26fdb389df7c7f750fd89293780ba52635bffac8a1a790ef103700a362"
+    },
+    {
+      "year": 2018,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20180101_20181231/nightlights.average_viirs.v21_20180101_20181231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20180101_20181231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20180101_20181231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 76332243,
+      "sha256": "31714cfdfd7deebec42f9e30217c20c9df8ed305e19ca23b1cd2829da67d014f"
+    },
+    {
+      "year": 2019,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20190101_20191231/nightlights.average_viirs.v21_20190101_20191231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20190101_20191231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20190101_20191231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 76480954,
+      "sha256": "a70d90a292927944e363ab62264a8efecb72b8817c9228f38b39bc8d3dacf019"
+    },
+    {
+      "year": 2020,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20200101_20201231/nightlights.average_viirs.v21_20200101_20201231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20200101_20201231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20200101_20201231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 79279978,
+      "sha256": "b151df0618ab607da2a3305884c31bc0daa2a320de70524c07db5bec3c2ba0c4"
+    },
+    {
+      "year": 2021,
+      "item_url": "https://s3.eu-central-1.wasabisys.com/stac/openlandmap/nightlights.average_viirs.v21/nightlights.average_viirs.v21_20210101_20211231/nightlights.average_viirs.v21_20210101_20211231.json",
+      "asset_url": "https://s3.openlandmap.org/arco/nightlights.average_viirs.v21_m_500m_s_20210101_20211231_go_epsg.4326_v20230823.tif",
+      "local_path": "data\\raw\\lights\\openlandmap_viirs_v21\\nightlights.average_viirs.v21_m_500m_s_20210101_20211231_go_epsg.4326_v20230823.tif",
+      "size_bytes": 83922780,
+      "sha256": "2332fd3e7d3f846915b02d9da964c212279a82b575b63023423a1b66139899a0"
+    }
+  ],
+  "nightlights_output": "data\\interim\\lights\\openlandmap_viirs_v21_ghs_fua_2012_2021.csv",
+  "summary_output": "data\\interim\\lights\\openlandmap_viirs_v21_ghs_fua_coverage_summary.csv",
+  "merged_panel_outputs": {
+    "full_spatial": "data\\processed\\modelling_panel\\full_china_australia_pm25_edgar_power_precursors_spatial_lights_ghs_fua_2012_2021.csv",
+    "complete_spatial": "data\\processed\\modelling_panel\\analysis_ready_complete_pm25_china_australia_ghs_fua_2012_2021_with_power_precursors_spatial_lights.csv"
+  },
+  "note": "This enhancement covers 2012-2021. It is not forced into the 2022 main panel because this OpenLandMap v2.1 source does not provide 2022."
+}

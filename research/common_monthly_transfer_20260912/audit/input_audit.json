@@ -1,0 +1,22 @@
+{
+  "raw_files": 216,
+  "example_has_months": true,
+  "mapping": [
+    {
+      "country": "AUS",
+      "fuas": 20,
+      "unique_weather_cells": 19,
+      "median_centroid_distance_km": 22.804553704347335,
+      "max_centroid_distance_km": 36.29254455351803
+    },
+    {
+      "country": "CHN",
+      "fuas": 1539,
+      "unique_weather_cells": 940,
+      "median_centroid_distance_km": 22.93899524032411,
+      "max_centroid_distance_km": 41.02542035947018
+    }
+  ],
+  "annual_extractor": "parse_annual_grid reads year + '13'; original raw responses retain months 01-12",
+  "distance_note": "Existing grid assignment retained for comparability; distance recomputed geodesically, not in Web Mercator"
+}

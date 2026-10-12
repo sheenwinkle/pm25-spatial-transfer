@@ -1,0 +1,177 @@
+[
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2015.csv.gz",
+    "bytes": 330871,
+    "sha256": "2095b0be1929b46dd03b478bbac89e8b33d778c544c4b4bc8bcba4060ead0685"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2016.csv.gz",
+    "bytes": 320497,
+    "sha256": "918dc9c7bff8869cd162a003e9053c60d9cf1303751c9d6767c8dc433fe15835"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2017.csv.gz",
+    "bytes": 320520,
+    "sha256": "671fd45e06da20575d301366a606285c855427d917dcba0a843868f99a729572"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2018.csv.gz",
+    "bytes": 329946,
+    "sha256": "460798f92307fae406b56898bb82fdef6f95a4d97d527fa52000cfdf4e0b7b31"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2019.csv.gz",
+    "bytes": 331295,
+    "sha256": "69af88fca0f4a5ce212a164dd33cf44f5417c2af792d06348a61c837f99184c3"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2020.csv.gz",
+    "bytes": 320070,
+    "sha256": "47fece7d9779a1d64ad04ad005b1952109490ffd4da901948b7d4cb6dca14205"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2021.csv.gz",
+    "bytes": 307352,
+    "sha256": "83efef83e37a3fbb5ea717284f59c4125c2295359834c79937264eacebbafa6c"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2022.csv.gz",
+    "bytes": 293516,
+    "sha256": "5ce3096439b7115c5d008065661b1a886d538ba4c2e7b9b6791f0bde253269bd"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\qld_air_quality_station_year_metadata_2015_2024.csv",
+    "bytes": 116608,
+    "sha256": "92d8543d309685b0e12f6ecf00a312922b31f585a1ebdb40790e594cdb37f986"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2015.csv",
+    "bytes": 634115,
+    "sha256": "9ac4c00561b3bad3bcca0281280565413bcfdf5fd96fccd7776ef36f6491047b"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2016.csv",
+    "bytes": 645340,
+    "sha256": "3198086b0469769e143edb8c835a8878bb95f306d23b90dae1377b1f14d23fae"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2017.csv",
+    "bytes": 642996,
+    "sha256": "c6a819abbad05e7a4eb3c4ec282c265fad1c454d2cbbd9c0f1a358407a970aac"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2018.csv",
+    "bytes": 769265,
+    "sha256": "edadc5978dec0835094588ce3131fba1f509bb88a1a4834b5640eb7013df41ca"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2019.csv",
+    "bytes": 909260,
+    "sha256": "b6d6680d281c529d5652aa186033f18aab48e62619e25374e8e97ec8e00e3a6d"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2020.csv",
+    "bytes": 1081741,
+    "sha256": "b79e42b56744beca3269c7de2cba585cdb290e239bd844fb05f4094c6d4937f9"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2021.csv",
+    "bytes": 1277972,
+    "sha256": "5ec16ffae563de4d816a53c3432b1187544d3f66116b5b00a76cd0f1b3c61a80"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\qld\\hourly_pm25\\pm2-5-qld-2022.csv",
+    "bytes": 1426476,
+    "sha256": "1ac250a3f5d221354c0ad509ef63d7047b8594d00ef5f5b46800ae5d5cde405e"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2015_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 22279301,
+    "sha256": "6fd979c7688052b4e9b3f69e532b7dece5a4b76082f7f76a91c034b2b43b9dbd"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2016_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 19450622,
+    "sha256": "9b176edce57d522acd1edd38802ff67f95e99da6642d9686be65b983e8daac71"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2017_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 19550079,
+    "sha256": "b6330e51b702efee4591c37dd4b02c6a89dff443f4203994b8059b95ad3d1484"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2018_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 23391802,
+    "sha256": "fff83cd31937e8a8a8108157f7ab2a75ceccf319b9aac5ce095a50abc1395118"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2019_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 35776259,
+    "sha256": "8cae9c4cbcdc8c276abd688f1ee9e9208d97751226bf7ba740c1bf3c7137382d"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2020_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 40623629,
+    "sha256": "1a6a634221beaef4bb541db4d2ac88bfda117d5dd677fab0dd5a97e103a9867a"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2021_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 11713766,
+    "sha256": "4862f35314a45f2400bf75910bcb5467c4d77d182c67106d735ea6e441ae8568"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\vic\\hourly_airwatch\\2022_All_sites_air_quality_hourly_avg.xlsx",
+    "bytes": 68994357,
+    "sha256": "a4ae1a1014a7cc3de5b762a3e8978c2906f49a6ed49c38b39ce4673a5cde7c99"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\nsw_air_quality_site_details.json",
+    "bytes": 16317,
+    "sha256": "d6f386c48f2678e8f11bb03359317f8d8244e63ed2a33ba271eee0aa8ebf164e"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2015.json.gz",
+    "bytes": 75031,
+    "sha256": "0b9050b4742a0234890a74e5285d77eb2ee2cf129df293b56230864eabf5f17a"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2016.json.gz",
+    "bytes": 79936,
+    "sha256": "a3c393f6d790bdc87b18ec640827dc8e6df37f286a65529e3844e66867e6ebed"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2017.json.gz",
+    "bytes": 83952,
+    "sha256": "3d306c862c99b79aa0f54789344250feafa58219aada78facbb4c901bb76e14a"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2018.json.gz",
+    "bytes": 87273,
+    "sha256": "0729f962f67d3cfa5dd0e71c7d6cd9e5ec2cb7bb9a9022c34eb7834cb1a5c2c1"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2019.json.gz",
+    "bytes": 92259,
+    "sha256": "33f7ef459395d99e4a6b1d24745faaff488bedc3beecaf959e137559a559a887"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2020.json.gz",
+    "bytes": 93486,
+    "sha256": "e5d15a7d579ab0d6d7536ca21c9c7b8da3a8863467c76183ee129aac351b8163"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2021.json.gz",
+    "bytes": 94964,
+    "sha256": "76f7dc6381e6b805d8253efa7e4b5486c54b0c8f1330e9dd97d0a51348c5c5f4"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\australia_ground_monitoring\\nsw\\daily_pm25\\nsw_pm25_daily_2022.json.gz",
+    "bytes": 94799,
+    "sha256": "e2595475914b5d10dbfc27575aa8d6f173529a259ce1f5a6e821645a7751f745"
+  },
+  {
+    "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\boundaries\\ghs_fua_r2019a\\GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+    "bytes": 3059037,
+    "sha256": "d54de59b82b8c4d64a710f90ccd554975a3be92233f14115ac154094c3549979"
+  }
+]

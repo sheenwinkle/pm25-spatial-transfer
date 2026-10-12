@@ -1,0 +1,43 @@
+{
+  "portable": [
+    "power_t2m_c",
+    "power_rh2m_percent",
+    "power_ws10m_m_s",
+    "power_prectotcorr_mm_day",
+    "power_elevation_m",
+    "surface_temperature_mean_c",
+    "surface_relative_humidity_mean_pct",
+    "surface_wind_mean_mps",
+    "surface_dry_visibility_harmonic_mean_km",
+    "surface_visibility_harmonic_mean_km",
+    "surface_stagnant_day_fraction",
+    "surface_precipitation_sum_mm",
+    "surface_sea_level_pressure_mean_hpa",
+    "surface_dry_visibility_valid_days",
+    "surface_source_available",
+    "upper_lower_tropospheric_stability_850_1000_c",
+    "upper_ventilation_proxy_1000_850_m2_s",
+    "igra_source_available",
+    "log_edgar_pm25_emissions_tonnes_gridcell",
+    "log_edgar_nox_emissions_tonnes_gridcell",
+    "log_edgar_so2_emissions_tonnes_gridcell",
+    "log_edgar_nh3_emissions_tonnes_gridcell",
+    "log_edgar_nmvoc_emissions_tonnes_gridcell",
+    "urban_centre_area_share",
+    "distance_to_coast_km",
+    "log_population_density",
+    "log_population",
+    "log_fua_area",
+    "log_fire_count_100km",
+    "fire_source_available",
+    "local_season_sin",
+    "local_season_cos"
+  ],
+  "geographic_additions": [
+    "fua_centroid_lon",
+    "fua_centroid_lat",
+    "year",
+    "month"
+  ],
+  "note": "POWER is annual context, not monthly weather. FUA means are not area-weighted exposure estimates."
+}

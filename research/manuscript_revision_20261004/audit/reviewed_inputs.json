@@ -1,0 +1,30 @@
+[
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\manuscript\\main.tex",
+    "sha256": "eb38aa04b248790fe2dcd4e4e49dbc1a52a3164c1c375b4fa64c006344ded5c0"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\manuscript\\journal.tex",
+    "sha256": "75cac321c2b2b3559477af0fc2b54ca3a95610b2060255d87a04d6484ca91f5f"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\manuscript\\references.bib",
+    "sha256": "18534e15d5ad930cbd9827afaa56fd3bca7ca1d0f6ba96edc1e56f5a4b5c3f2f"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\manuscript\\.latexmkrc",
+    "sha256": "71fb3775d5ff406d11679f257d97fd30c4772d248acae7d3050871973921bfac"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\manuscript\\reader.css",
+    "sha256": "791157c43587ceddbcdb8827d5eafd107849b2fbd9bc0b5096787cf1f6472a75"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\output\\independent_review_20261004\\round2\\round2_diagnostics.tar.gz",
+    "sha256": "2b03ccb10caaa6eaf905138e5fad8828388d994a2c5eda49fc3a4ac099edb730"
+  },
+  {
+    "source": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\output\\independent_review_20261004\\round2\\round2_replay.tar.gz",
+    "sha256": "48a3da5581781f49185de45393e9d0fb1c1b1450d023b7e9a64395f86f91a2ec"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "all_checks_passed": true,
+  "configurations": 12,
+  "settings": 48,
+  "joint_screens": 0,
+  "metric_rows_recomputed": 12960,
+  "gate_stages_recomputed": 240,
+  "rolling_fit_windows_checked": 576,
+  "maximum_numeric_difference": 0.0,
+  "metadata_year_verification_complete": false,
+  "checks": [
+    "station-month uniqueness",
+    "exact target aggregation",
+    "role and membership exclusions",
+    "paired development cities",
+    "source chronology",
+    "target chronology and city isolation",
+    "features unchanged",
+    "all model metrics",
+    "per-year gate support",
+    "bootstrap reproducibility"
+  ]
+}

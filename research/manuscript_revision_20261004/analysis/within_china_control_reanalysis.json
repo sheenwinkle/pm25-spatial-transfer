@@ -1,0 +1,37 @@
+{
+  "status": "post-hoc descriptive positive-control reanalysis",
+  "control": "nonYRD_to_YRD",
+  "window_months": 6,
+  "rows": 30,
+  "per_seed_table": "within_china_ungated_6month_by_seed.csv",
+  "summary_table": "within_china_ungated_6month_summary.csv",
+  "discovery_selected_model_counts_all_9_configs": {
+    "source_residual": 5,
+    "source_affine": 4
+  },
+  "six_month_discovery_selections": [
+    {
+      "seed": 5993,
+      "selected_model": "source_affine",
+      "discovery_pass": true,
+      "relative_gain": 0.2637218115732239,
+      "best_comparator": "target_ridge"
+    },
+    {
+      "seed": 5994,
+      "selected_model": "source_affine",
+      "discovery_pass": true,
+      "relative_gain": 0.2637641886868529,
+      "best_comparator": "target_lgbm"
+    },
+    {
+      "seed": 5995,
+      "selected_model": "source_residual",
+      "discovery_pass": true,
+      "relative_gain": 0.3241278108157032,
+      "best_comparator": "target_rf"
+    }
+  ],
+  "interpretation": "Ungated estimator-level RMSE gains do not equal a validated positive result for the full adaptive gate and joint-audit procedure.",
+  "new_south_wales_correction_affects_this_control": false
+}

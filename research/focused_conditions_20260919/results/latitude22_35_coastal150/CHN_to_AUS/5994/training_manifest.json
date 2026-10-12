@@ -1,0 +1,49 @@
+{
+  "scope": "latitude22_35_coastal150",
+  "direction": "CHN_to_AUS",
+  "seed": 5994,
+  "window_months": 12,
+  "development_cities": [
+    2355.0,
+    1830.0,
+    1562.0
+  ],
+  "source_rows": 3262,
+  "matched_source_rows": 1631,
+  "source_fuas": 74,
+  "matched_source_fuas": 71,
+  "source_matching_cutoff": 2.8439383858857217,
+  "source_matching_features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "log_era5_pbl_mean_m",
+    "log_era5_surface_ventilation_mean_m2_s",
+    "era5_pbl_low_fraction"
+  ],
+  "target_rows": 568,
+  "target_fuas": 8,
+  "unique_target_calibration_labels": 177,
+  "features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km",
+    "log_era5_pbl_mean_m",
+    "log_era5_surface_ventilation_mean_m2_s",
+    "era5_pbl_low_fraction"
+  ],
+  "protocol_sha256": "f1dc75478632f94459164bc9a08bcc9d96cb0642d028c2538c880e4090b4c305",
+  "script_sha256": "4044303303465a35ffc0a9059b1eaee524caeb16540726fba652af71d7ce7ebd"
+}

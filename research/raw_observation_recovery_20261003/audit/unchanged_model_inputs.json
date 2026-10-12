@@ -1,0 +1,167 @@
+[
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\run_regional.py",
+    "sha256": "584b43ec65f99de4246ca8a5f2f0b1ed368c5c67fa99df427513885f4c451d5a",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\focused_conditions_20260919\\run_focused.py",
+    "sha256": "4044303303465a35ffc0a9059b1eaee524caeb16540726fba652af71d7ce7ebd",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\run_monitor_models.py",
+    "sha256": "02e20047c35d6b6892fcd2bf6bea03fdab19eaab301c80449f3e1f42bf12d7a5",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\audit\\fixed_city_splits.json",
+    "sha256": "d43f5c9a737625f933ee05f097d493591cc1374e200459b6d2dc9b6e57d0c580",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\corrected_australian_national_models.joblib",
+    "sha256": "8e2137161db3dedb0b65cfc77bcc2b7542bf2be6d456078185fd19acf82907cd",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\results\\all_networks\\monthly_plus_mixing\\CHN_to_AUS\\source_models.joblib",
+    "sha256": "064960f7c89b9decddee42559453c4cf9e24fdb9ffee51fccc4ee3ad2408d9b9",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\all_networks_panel.csv.gz",
+    "sha256": "5b5bdcc6b3ec2295f4942cd1f146c6f0aa3aacfa7678c09fb06a46d24193de31",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\documented_role_panel.csv.gz",
+    "sha256": "e02fb62ef870350894600eb5e09684ccdabdbd3a2e0946a0f7a435a888aa577a",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\membership_all_panel.csv.gz",
+    "sha256": "0c1ffabd223cc7ed055a913d6fac46c614761045d5eed5f373f0908f23cabd57",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\AUS_to_CHN\\5993\\predictions.csv.gz",
+    "sha256": "e1adac62144ae5be648a8512b9fda2854622534ebd84a678b93cdc5ed869dfc6",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\AUS_to_CHN\\5994\\predictions.csv.gz",
+    "sha256": "22ff28a31edd362e81d9fa9cc8fb8dc127f6ceaf0cf4e01b07732a6288304636",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\AUS_to_CHN\\5995\\predictions.csv.gz",
+    "sha256": "df9788b2ee12a96040b0d0c414dcfb683b3a5d962451b5aad5fd1fd6ea77345e",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\CHN_to_AUS\\5993\\predictions.csv.gz",
+    "sha256": "1ebdac587963c70043772e8916e22b5f9b7ba69e2c1a1fa25fcf1e25a6075abc",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\CHN_to_AUS\\5994\\predictions.csv.gz",
+    "sha256": "57531227fe5884dd4830cc1a4174b3b15478e0b45477256b7371cb3025035478",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\documented_role\\CHN_to_AUS\\5995\\predictions.csv.gz",
+    "sha256": "a64c7ffed5472be0bae36a076281db56d83050dd63aeaf263cf985c93c1b3aae",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\AUS_to_CHN\\5993\\predictions.csv.gz",
+    "sha256": "768b84d9e7c28d30c2d16f9f8a458d7bd633ab9253266a3ab94c20dd8a27f155",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\AUS_to_CHN\\5994\\predictions.csv.gz",
+    "sha256": "3b622a661f90f286e8343fdabdac4eb3097caab3dddaf1b46b421ba4ea352d17",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\AUS_to_CHN\\5995\\predictions.csv.gz",
+    "sha256": "e37039663fba696aa132aec7a1ae317f5767c1b4bee2d67b0cbdda7f1ebb5ce4",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\CHN_to_AUS\\5993\\predictions.csv.gz",
+    "sha256": "de69193b7e16278d47a4b3b5700ce70d7e5a060ce3fb34db4dc1ff9e3e6337df",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\CHN_to_AUS\\5994\\predictions.csv.gz",
+    "sha256": "136c71834b2681ef0f8132108749074dc48b56bc0af953023962a565f89395aa",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_1\\results\\membership_all\\CHN_to_AUS\\5995\\predictions.csv.gz",
+    "sha256": "8ec57c0b3fdd808c0b029c96869202493096561adb3983612c94cc511d24e2be",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\AUS_to_CHN\\5993\\predictions.csv.gz",
+    "sha256": "0d3a8a9354cb4ae2f77ee76628d2068a4d542fc17d9ad11920896dc5c06644e4",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\AUS_to_CHN\\5994\\predictions.csv.gz",
+    "sha256": "e7845531ed20aa0404574ad313fcd91aea00b2c6a636735ff3c628d17cb10be7",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\AUS_to_CHN\\5995\\predictions.csv.gz",
+    "sha256": "86ec3e015353d4305f9568c5907ff834e6441e2dcda6951a2eaa45bb88ab406f",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\CHN_to_AUS\\5993\\predictions.csv.gz",
+    "sha256": "1a4d9ad355969d6116f68ed799ecce7b2c2898c3540260669faeaaf7a0609365",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\CHN_to_AUS\\5994\\predictions.csv.gz",
+    "sha256": "466456571820a7fc0bfdb6a02fc34497c56ad4acd532bccc8df01ec67a8fcfa2",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\documented_role\\CHN_to_AUS\\5995\\predictions.csv.gz",
+    "sha256": "bef518a92ff0bf723160699a5a9da40e25e50a46c8f3705e093981e0cb7e3f19",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\AUS_to_CHN\\5993\\predictions.csv.gz",
+    "sha256": "1420bd98f5808f27f9b50f3796b4ac7d38bf92d6b145012f94322c76d6334b4d",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\AUS_to_CHN\\5994\\predictions.csv.gz",
+    "sha256": "d6803a522bec945fe1a0875e44450c1660285b4423a88c97a08401df26d51f84",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\AUS_to_CHN\\5995\\predictions.csv.gz",
+    "sha256": "f95c4e780fadd3b39df25a6ae0f6f53eb87a8ca6a4a578e7bc8fb13f628e2b9d",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\CHN_to_AUS\\5993\\predictions.csv.gz",
+    "sha256": "0e5de2cec9df3047f75ffdb3c42a1df4b919f15b363e9cb1eab1bf479c08215d",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\CHN_to_AUS\\5994\\predictions.csv.gz",
+    "sha256": "93ac9429ca7c3f76cf87c809299a09dc52bb4f09331cce2c2954b54bb0e672d2",
+    "verified_unchanged": true
+  },
+  {
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\history_window_20261002\\window_3\\results\\membership_all\\CHN_to_AUS\\5995\\predictions.csv.gz",
+    "sha256": "d8839e8222ca5010c5fcad9dc7c90362a01b40342161fcd889ca1769d4dd12ea",
+    "verified_unchanged": true
+  }
+]

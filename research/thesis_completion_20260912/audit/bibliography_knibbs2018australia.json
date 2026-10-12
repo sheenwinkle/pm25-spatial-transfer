@@ -1,0 +1,926 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ],
+    "date-time": "2026-07-20T23:01:39Z",
+    "timestamp": 1784588499712,
+    "version": "3.55.0"
+  },
+  "reference-count": 71,
+  "publisher": "American Chemical Society (ACS)",
+  "issue": "21",
+  "funder": [
+    {
+      "DOI": "10.13039/501100000925",
+      "name": "National Health and Medical Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "1030259"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "1030259"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000925",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000925",
+      "name": "National Health and Medical Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "1099655"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "1099655"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000925",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000925",
+      "name": "National Health and Medical Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "1141510"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "1141510"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000925",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000139",
+      "name": "U.S. Environmental Protection Agency",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "RD83587301"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RD83587301"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000139",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Environ. Sci. Technol."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        11,
+        6
+      ]
+    ]
+  },
+  "DOI": "10.1021/acs.est.8b02328",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2018-10-02T09:17:40Z",
+    "timestamp": 1538471860000
+  },
+  "page": "12445-12455",
+  "source": "Crossref",
+  "is-referenced-by-count": 93,
+  "title": [
+    "Satellite-Based Land-Use Regression for Continental-Scale Long-Term Ambient PM<sub>2.5</sub> Exposure Assessment in Australia"
+  ],
+  "prefix": "10.1021",
+  "volume": "52",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-0399-2370",
+      "authenticated-orcid": true,
+      "given": "Luke D.",
+      "family": "Knibbs",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Faculty of Medicine, School of Public Health, The University of Queensland, Herston, Queensland 4006, Australia"
+        },
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Aaron",
+      "family": "van Donkelaar",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 4R2, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Randall V.",
+      "family": "Martin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 4R2, Canada"
+        },
+        {
+          "name": "Smithsonian Astrophysical Observatory, Harvard-Smithsonian Center for Astrophysics, Cambridge, Massachusetts 02138, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8076-5457",
+      "authenticated-orcid": true,
+      "given": "Matthew J.",
+      "family": "Bechle",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, Washington 98195, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9103-9343",
+      "authenticated-orcid": true,
+      "given": "Michael",
+      "family": "Brauer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Population and Public Health, The University of British Columbia, Vancouver, British Columbia V6T 1Z3, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David D.",
+      "family": "Cohen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Accelerator Science, Australian Nuclear Science and Technology Organisation, Locked Bag 2001, Kirrawee DC, New South Wales 2232, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Christine T.",
+      "family": "Cowie",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "South Western Sydney Clinical School, The University of New South Wales, Liverpool, New South Wales 2170, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mila",
+      "family": "Dirgawati",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Population and Global Health, The University of Western Australia, Perth, Western Australia 6009, Australia"
+        },
+        {
+          "name": "Environmental Engineering, Institut Teknologi Nasional, Bandung, Jawa Barat 40213, Indonesia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yuming",
+      "family": "Guo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "Department of Epidemiology and Biostatistics, School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ivan C.",
+      "family": "Hanigan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "School of Public Health, The University of Sydney, Sydney, New South Wales 2006, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Fay H.",
+      "family": "Johnston",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "Menzies Institute for Medical Research, The University of Tasmania, Hobart, Tasmania 7000, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Guy B.",
+      "family": "Marks",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "South Western Sydney Clinical School, The University of New South Wales, Liverpool, New South Wales 2170, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Julian D.",
+      "family": "Marshall",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, Washington 98195, United States"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gavin",
+      "family": "Pereira",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Public Health, Curtin University, Bentley, Washington 6102, Australia"
+        },
+        {
+          "name": "Telethon Kids Institute, The University of Western Australia, Perth, Western Australia 6008, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Bin",
+      "family": "Jalaludin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "Population Health, South Western Sydney Local Health District, Liverpool, New South Wales 2170, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jane S.",
+      "family": "Heyworth",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "School of Population and Global Health, The University of Western Australia, Perth, Western Australia 6009, Australia"
+        },
+        {
+          "name": "Clean Air and Urban Landscapes Hub, National Environmental Science Programme, Melbourne, Victoria 3010, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Geoffrey G.",
+      "family": "Morgan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+        },
+        {
+          "name": "School of Public Health, The University of Sydney, Sydney, New South Wales 2006, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Adrian G.",
+      "family": "Barnett",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Public Health and Social Work, Queensland University of Technology, Kelvin Grove, Queensland 4059, Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "316",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        2
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "10100",
+      "key": "ref1/cit1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1345",
+      "DOI": "10.1016/S0140-6736(17)32366-8",
+      "volume": "390",
+      "year": "2017",
+      "journal-title": "Lancet"
+    },
+    {
+      "key": "ref2/cit2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.0800360"
+    },
+    {
+      "key": "ref3/cit3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.0901623"
+    },
+    {
+      "key": "ref4/cit4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/EHP575"
+    },
+    {
+      "key": "ref5/cit5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s40572-017-0169-5"
+    },
+    {
+      "key": "ref6/cit6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2011.08.066"
+    },
+    {
+      "key": "ref7/cit7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es302673e"
+    },
+    {
+      "key": "ref8/cit8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b03709"
+    },
+    {
+      "key": "ref9/cit9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.7b01148"
+    },
+    {
+      "key": "ref10/cit10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/rssc.12227"
+    },
+    {
+      "key": "ref11/cit11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1104049"
+    },
+    {
+      "key": "ref12/cit12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1097/EDE.0b013e318294beaa"
+    },
+    {
+      "key": "ref13/cit13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2012.11.046"
+    },
+    {
+      "key": "ref14/cit14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2010JD014986"
+    },
+    {
+      "key": "ref15/cit15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es204021h"
+    },
+    {
+      "key": "ref16/cit16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es400039u"
+    },
+    {
+      "key": "ref17/cit17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1002976"
+    },
+    {
+      "key": "ref18/cit18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envres.2016.07.005"
+    },
+    {
+      "key": "ref19/cit19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es5009399"
+    },
+    {
+      "key": "ref20/cit20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1409481"
+    },
+    {
+      "key": "ref21/cit21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2018.04.251"
+    },
+    {
+      "key": "ref22/cit22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1205006"
+    },
+    {
+      "key": "ref23/cit23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b06121"
+    },
+    {
+      "key": "ref24/cit24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2007.09.030"
+    },
+    {
+      "key": "ref25/cit25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2015.08.087"
+    },
+    {
+      "key": "ref26/cit26",
+      "unstructured": "National\nEnvironment Protection (Ambient Air Quality)\nMeasure, 2016. https://www.legislation.gov.au/Details/F2016C00215 (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref27/cit27",
+      "unstructured": "National Environment Protection\nCouncil, 2014. Draft Variation\nto the National Environment protection (Ambient Air Quality) Measure\nImpact Statement. http://www.environment.gov.au/protection/nepc/nepms/ambient-air-quality/variation-2014/impact-statement (accessed 10 April 2018)."
+    },
+    {
+      "key": "ref28/cit28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S1352-2310(99)00125-9"
+    },
+    {
+      "key": "ref29/cit29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b05833"
+    },
+    {
+      "key": "ref30/cit30",
+      "unstructured": "Atmospheric Composition Analysis Group, Dalhousie University http://fizz.phys.dal.ca/~atmos/martin/?page_id=140http://fizz.phys.dal.ca/~atmos/martin/?page_id=140 (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref31/cit31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envres.2014.09.011"
+    },
+    {
+      "key": "ref32/cit32",
+      "unstructured": "Cohen, D. D., Antanacio, A. J., Stelcer, E., Garton, D. Sydney Particle Characterisation Study: PM2.5 Source Apportionment in the Sydney Region between 2000 and 2014, 2016. New South Wales Office of Environment and Heritage. http://www.environment.nsw.gov.au/research-and-publications/publications-search/sydney-particle-characterisation-study-pm25-source-apportionment-sydney-region-2000-14 (accessed 10 Feb 2018)."
+    },
+    {
+      "key": "ref33/cit33",
+      "unstructured": "Cope, M., Keywood, M., Emmerson, K., Galbally, I., Boast, K., Chambers, S., Cheng, M., Crumeyrolle, S., Dunne, E., Fedele, R.,  Sydney Particle Study- Stage-II. The Centre for Australian Weather and Climate Research, 2014. http://www.environment.nsw.gov.au/~/media/82F9E2CEF1F54FA2B0AC65EA6FC4D542.ashxhttp://www.environment.nsw.gov.au/~/media/82F9E2CEF1F54FA2B0AC65EA6FC4D542.ashx (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref34/cit34",
+      "unstructured": "Hibberd, M.; Selleck, P.; Keywood, M.; Cohen, D.; Stelcer, E.; Atanacio, A. Upper Hunter Valley Particle Characterization Study, 2013. CSIRO, Australia. http://www.environment.nsw.gov.au/~/media/7947058EDB2E4FEFBD5598C23BB7B4FF.ashxhttp://www.environment.nsw.gov.au/~/media/7947058EDB2E4FEFBD5598C23BB7B4FF.ashx (accessed 15 March 2018)."
+    },
+    {
+      "key": "ref35/cit35",
+      "unstructured": "Hibberd, M.; Keywood, M.; Selleck, P.; Cohen, D., Stelcer, E.; Scorgie, Y.; Chang, L. Lower Hunter Particle Characterisation Study, 2016. NSW Office of Environment and Heritage. http://www.environment.nsw.gov.au/~/media/1FA980C928AA4E9183DCF3B6861B48B7.ashxhttp://www.environment.nsw.gov.au/~/media/1FA980C928AA4E9183DCF3B6861B48B7.ashx (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref36/cit36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1071/EN11056"
+    },
+    {
+      "key": "ref37/cit37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.0900840"
+    },
+    {
+      "key": "ref38/cit38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es403089q"
+    },
+    {
+      "key": "ref39/cit39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3155/1047-3289.61.4.390"
+    },
+    {
+      "key": "ref40/cit40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0047327"
+    },
+    {
+      "key": "ref41/cit41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envres.2017.07.044"
+    },
+    {
+      "key": "ref42/cit42",
+      "unstructured": "2008. http://www.escapeproject.eu/manuals/ESCAPEStudy-manual_x007E_final.pdf (accessed July 2016)."
+    },
+    {
+      "key": "ref43/cit43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es301948k"
+    },
+    {
+      "key": "ref44/cit44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2009.11.016"
+    },
+    {
+      "key": "ref45/cit45",
+      "unstructured": "Canty, A., Ripley, B. (2017). boot: Bootstrap R (S-Plus) Functions. R package version 1.3. https://cran.r-project.org/web/packages/boot/index.html (accessed July 25, 2018)."
+    },
+    {
+      "key": "ref46/cit46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2012.01.064"
+    },
+    {
+      "key": "ref47/cit47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/aje/kwt127"
+    },
+    {
+      "key": "ref48/cit48",
+      "doi-asserted-by": "crossref",
+      "first-page": "271",
+      "DOI": "10.1093/med/9780199378784.003.0013",
+      "volume-title": "Exposure Assessment in Environmental Epidemiology",
+      "author": "Hoek G.",
+      "year": "2015",
+      "edition": "2"
+    },
+    {
+      "key": "ref49/cit49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.atmosenv.2010.06.041"
+    },
+    {
+      "key": "ref50/cit50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es204183v"
+    },
+    {
+      "key": "ref51/cit51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es4008849"
+    },
+    {
+      "key": "ref52/cit52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1097/EDE.0b013e3182254cc6"
+    },
+    {
+      "key": "ref53/cit53",
+      "unstructured": "Australian Bureau\nof Statistics, 2011.  Australian Statistical\nGeography Standard (ASGS): Volume 1, http://www.ausstats.abs.gov.au/ausstats/subscriber.nsf/0/D3DC26F35A8AF579CA257801000DCD7D/$File/1270055001_july%202011.pdf (accessed 1 Mar 2018)."
+    },
+    {
+      "key": "ref54/cit54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envint.2016.03.037"
+    },
+    {
+      "key": "ref55/cit55",
+      "unstructured": "Australian Bureau\nof Statistics, 2011 Energy\nUse and Conservation\nSurvey, http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/4602.0.55.001Mar%202011?OpenDocument (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref56/cit56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/EHP131"
+    },
+    {
+      "key": "ref57/cit57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1476-069X-13-63"
+    },
+    {
+      "key": "ref58/cit58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envpol.2017.10.025"
+    },
+    {
+      "key": "ref59/cit59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.5b02882"
+    },
+    {
+      "key": "ref60/cit60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es103578x"
+    },
+    {
+      "key": "ref61/cit61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s12940-016-0111-6"
+    },
+    {
+      "key": "ref62/cit62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0140-6736(17)30505-6"
+    },
+    {
+      "key": "ref63/cit63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1307049"
+    },
+    {
+      "key": "ref64/cit64",
+      "unstructured": "Health\nEffects Institute, 2010. Traffic-Related\nAir Pollution: A Critical Review of the Literature on Emissions, Exposure,\nand Health Effects. Special Report 17. https://www.healtheffects.org/publication/traffic-related-air-pollution-critical-review-literature-emissions-exposure-and-health (accessed Feb 12 2018)."
+    },
+    {
+      "key": "ref65/cit65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1164/rccm.201303-0609OC"
+    },
+    {
+      "key": "ref66/cit66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1289/ehp.1409276"
+    },
+    {
+      "key": "ref67/cit67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/jes.2010.14"
+    },
+    {
+      "key": "ref68/cit68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/jes.2014.83"
+    },
+    {
+      "key": "ref69/cit69",
+      "unstructured": "Australian Government,\nDepartment of the Environment and Energy. State of the Environment, Australia, 2016. https://soe.environment.gov.au/theme/ambient-air-quality/topic/2016/fine-particulate-matter-pm25 (accessed 30 April 2018)."
+    },
+    {
+      "key": "ref70/cit70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1476-069X-11-22"
+    },
+    {
+      "key": "ref71/cit71",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envres.2018.01.046"
+    }
+  ],
+  "container-title": [
+    "Environmental Science &amp; Technology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b02328",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        26
+      ]
+    ],
+    "date-time": "2023-04-26T14:43:16Z",
+    "timestamp": 1682520196000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.acs.org/doi/10.1021/acs.est.8b02328"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        2
+      ]
+    ]
+  },
+  "references-count": 71,
+  "journal-issue": {
+    "issue": "21",
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1021/acs.est.8b02328"
+  ],
+  "URL": "https://doi.org/10.1021/acs.est.8b02328",
+  "relation": {},
+  "ISSN": [
+    "0013-936X",
+    "1520-5851"
+  ],
+  "issn-type": [
+    {
+      "value": "0013-936X",
+      "type": "print"
+    },
+    {
+      "value": "1520-5851",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        2
+      ]
+    ]
+  }
+}

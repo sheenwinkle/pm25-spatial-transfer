@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "raw_hash_checks": 264,
+  "direct_raw_month_value_checks": 2772,
+  "fua_monthly_rows": 523824,
+  "six_field_grid_to_fua_checks": 3142944,
+  "pm25_label_rows_unchanged": 467700,
+  "new_weather_2025_rows": 18708,
+  "regulatory_input_sha256": "6412ba30b6e8e6b215e55313e7657c1d74d8219c2a875a16a05d68a03141145e",
+  "regulatory_quality_cohorts": [
+    {
+      "network_state": "NSW",
+      "audit_cohort": "official_monthly_no_day_counts",
+      "station_months": 2678,
+      "stations": 31,
+      "fuas": 4
+    },
+    {
+      "network_state": "QLD",
+      "audit_cohort": "below_completeness",
+      "station_months": 84,
+      "stations": 21,
+      "fuas": 5
+    },
+    {
+      "network_state": "QLD",
+      "audit_cohort": "recomputable_75pct",
+      "station_months": 1540,
+      "stations": 25,
+      "fuas": 6
+    },
+    {
+      "network_state": "VIC",
+      "audit_cohort": "below_completeness",
+      "station_months": 63,
+      "stations": 11,
+      "fuas": 2
+    },
+    {
+      "network_state": "VIC",
+      "audit_cohort": "recomputable_75pct",
+      "station_months": 521,
+      "stations": 12,
+      "fuas": 2
+    }
+  ],
+  "observation_note": "Official NSW monthly values have no valid-day counts in the inherited table; their legacy strict=True flag is not evidence of a locally verified 75% completeness threshold"
+}

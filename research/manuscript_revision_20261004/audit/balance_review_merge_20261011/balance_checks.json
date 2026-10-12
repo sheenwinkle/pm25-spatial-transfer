@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "name": "all previously reported summary fields unchanged",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "30 comparison cells match independent four-decimal calculation",
+      "pass": true,
+      "detail": {
+        "values": 120,
+        "max_rounding_error": 4.988391869176212e-05
+      }
+    },
+    {
+      "name": "alternate bootstrap seed preserves every interval-sign conclusion",
+      "pass": true,
+      "detail": {
+        "maximum_endpoint_shift_pct": 2.5429000000000004,
+        "note": "The independent review's stated 1.5-point bound was not reproduced; the maximum is 2.54."
+      }
+    },
+    {
+      "name": "best-eight gains 13.7-32.7 percent and seven of eight positive intervals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hybrid gains 20.8-39.4 percent and all six 2020 intervals positive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "only original window has second seed and both hybrid intervals are positive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "three of four original-window primary intervals include zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "2019 hybrid intervals do not resolve the difference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seed-sensitivity magnitudes independently reconstructed from row predictions",
+      "pass": true,
+      "detail": [
+        {
+          "k": 5,
+          "model": "NNW[LDF]",
+          "mean_seed0": 7.840446524316081,
+          "mean_seed10000": 8.389997050726103,
+          "max_split_change": 6.374269702815984,
+          "changes_above_one": 10
+        },
+        {
+          "k": 5,
+          "model": "Source-affine[LDF] (ours)",
+          "mean_seed0": 5.778293293663183,
+          "mean_seed10000": 5.73383821962043,
+          "max_split_change": 0.41408823533472194,
+          "changes_above_one": 0
+        },
+        {
+          "k": 11,
+          "model": "NNW[LDF]",
+          "mean_seed0": 7.2775896741552675,
+          "mean_seed10000": 7.392597369336566,
+          "max_split_change": 2.7681741395737944,
+          "changes_above_one": 6
+        },
+        {
+          "k": 11,
+          "model": "Source-affine[LDF] (ours)",
+          "mean_seed0": 5.684078624414729,
+          "mean_seed10000": 5.689270176265596,
+          "max_split_change": 0.33084183838433656,
+          "changes_above_one": 0
+        }
+      ]
+    },
+    {
+      "name": "hybrid has lowest mean RMSE in seven cells and misses eighth by 0.02",
+      "pass": true,
+      "detail": {
+        "best_cells": 7,
+        "largest_gap": 0.02230093603181693
+      }
+    },
+    {
+      "name": "NNW against best-eight ranges from 15.1 percent worse to 33.1 percent better",
+      "pass": true,
+      "detail": [
+        17.111945014712376,
+        3.067742278852009,
+        7.966770672744531,
+        4.148931690260757,
+        -9.19775639295885,
+        -15.052910660371627,
+        28.50580703310249,
+        33.06538105109575
+      ]
+    },
+    {
+      "name": "all model means and descriptive biases match independent reconstruction",
+      "pass": true,
+      "detail": {
+        "model_cells": 110,
+        "max_rmse_error": 4.998371548836644e-05,
+        "max_bias_error": 4.9312276529905885e-05
+      }
+    },
+    {
+      "name": "review-supplied Linux replay non-LDF results match within 5e-7",
+      "pass": true,
+      "detail": 4.993786717477633e-09
+    },
+    {
+      "name": "review-supplied Linux replay confirms primary 2019 reversal",
+      "pass": true,
+      "detail": {
+        "5": -22.135876170746112,
+        "11": -18.371033965822775
+      }
+    },
+    {
+      "name": "abstract and conclusion both report positive target-only and hybrid comparisons",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "AI use dates and independent recomputation disclosed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "primary candidate and secondary comparison retained",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 17,
+  "total": 17,
+  "manuscript_sha256": "b3de4315abc8b7676ea9191b7b7fb933e5da9be636e44a22c6bace69b6f17716",
+  "linux_replay_provenance": "Independent reviewer-supplied run; no new Linux fitting in this audit",
+  "linux_csv_sha256": "bcf2d196424500eeb594d28896402eddc2a0ef54a1f880ad4213ebcdfd43d3d6"
+}

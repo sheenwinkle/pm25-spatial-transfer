@@ -1,0 +1,12 @@
+{
+  "dataset": "GHS-FUA R2019A - GHS functional urban areas, derived from GHS-UCDB R2019A (2015)",
+  "source_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_FUA_UCDB2015_GLOBE_R2019A/V1-0/GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+  "downloaded_at_utc": "2026-07-27T15:24:16.717692+00:00",
+  "local_path": "data\\raw\\boundaries\\ghs_fua_r2019a\\GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+  "size_bytes": 3059037,
+  "bytes_expected": 3059037,
+  "bytes_downloaded": 3059037,
+  "sha256": "d54de59b82b8c4d64a710f90ccd554975a3be92233f14115ac154094c3549979",
+  "citation": "Schiavina, Marcello; Moreno-Monroy, Ana; Maffenini, Luca; Veneri, Paolo (2019/2026): GHS-FUA R2019A. European Commission, Joint Research Centre.",
+  "doi": "10.2905/347F0337-F2DA-4592-87B3-E25975EC2C95"
+}

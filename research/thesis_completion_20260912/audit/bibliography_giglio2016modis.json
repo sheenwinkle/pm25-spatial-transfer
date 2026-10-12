@@ -1,0 +1,805 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T07:35:40Z",
+    "timestamp": 1789198540260,
+    "version": "build-2803163510"
+  },
+  "reference-count": 48,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2016-06-01T00:00:00Z",
+        "timestamp": 1464739200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2016-03-04T00:00:00Z",
+        "timestamp": 1457049600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000104",
+      "name": "NASA",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "NNX11AG42G"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "NNX11AG42G"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000104",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000104",
+      "name": "NASA",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "NNX14AI68G"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "NNX14AI68G"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000104",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Remote Sensing of Environment"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        6
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.rse.2016.02.054",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        10
+      ]
+    ],
+    "date-time": "2016-03-10T21:15:24Z",
+    "timestamp": 1457644524000
+  },
+  "page": "31-41",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1318,
+  "special_numbering": "C",
+  "title": [
+    "The collection 6 MODIS active fire detection algorithm and fire products"
+  ],
+  "prefix": "10.1016",
+  "volume": "178",
+  "author": [
+    {
+      "given": "Louis",
+      "family": "Giglio",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wilfrid",
+      "family": "Schroeder",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Christopher O.",
+      "family": "Justice",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "2277",
+      "DOI": "10.1080/01431160902953909",
+      "article-title": "Relating violence to MODIS fire detections in Darfur, Sudan",
+      "volume": "31",
+      "author": "Bromley",
+      "year": "2010",
+      "journal-title": "International Journal of Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "495",
+      "DOI": "10.1002/jgrg.20046",
+      "article-title": "Satellite observations of terrestrial water storage provide early warning information about drought and fire season severity in the Amazon",
+      "volume": "118",
+      "author": "Chen",
+      "year": "2013",
+      "journal-title": "Journal of Geophysical Research: Biogeosciences"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "455",
+      "DOI": "10.1080/2150704X.2012.749360",
+      "article-title": "Evaluating MODIS active fire products in subtropical Yucatán forest",
+      "volume": "4",
+      "author": "Cheng",
+      "year": "2013",
+      "journal-title": "Remote Sensing Letters"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "1488",
+      "DOI": "10.1111/j.1365-2486.2008.01585.x",
+      "article-title": "Global characterization of fire activity: towards defining fire regimes from earth observation data",
+      "volume": "14",
+      "author": "Chuvieco",
+      "year": "2008",
+      "journal-title": "Global Change Biology"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "248",
+      "DOI": "10.1109/JSTARS.2008.2011377",
+      "article-title": "Short-term observation of the temporal development of active fires from consecutive same-day ETM+ and ASTER imagery in the Amazon: implications for active fire product validation",
+      "volume": "1",
+      "author": "Csiszar",
+      "year": "2008",
+      "journal-title": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "1757",
+      "DOI": "10.1109/TGRS.2006.875941",
+      "article-title": "Validation of active fire detection from moderate resolution satellite sensors: the MODIS example in Northern Eurasia",
+      "volume": "44",
+      "author": "Csiszar",
+      "year": "2006",
+      "journal-title": "IEEE Transactions on Geoscience and Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "803",
+      "DOI": "10.1002/2013JD020453",
+      "article-title": "Active fires from the Suomi NPP visible infrared imaging radiometer suite: product status and first evaluation results",
+      "volume": "119",
+      "author": "Csiszar",
+      "year": "2014",
+      "journal-title": "Journal of Geophysical Research: Atmospheres"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "475",
+      "DOI": "10.1016/j.rse.2010.09.017",
+      "article-title": "Addressing the spatiotemporal sampling design of MODIS to provide estimates of the fire radiative energy emitted from Africa",
+      "volume": "115",
+      "author": "Freeborn",
+      "year": "2010",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "1988",
+      "DOI": "10.1002/2013GL059086",
+      "article-title": "Quantification of MODIS fire radiative power (FRP) measurement uncertainty for use in satellite-based active fire characterization and biomass burning estimation",
+      "volume": "141",
+      "author": "Freeborn",
+      "year": "2014",
+      "journal-title": "Geophysical Research Letters"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0050",
+      "series-title": "Technical Report",
+      "article-title": "MODIS collection 6 active fire product user's guide, revision A",
+      "author": "Giglio",
+      "year": "2015"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "3055",
+      "DOI": "10.1016/j.rse.2008.03.003",
+      "article-title": "Active fire detection and characterization with the advanced spaceborne thermal emission and reflection radiometer (ASTER)",
+      "volume": "112",
+      "author": "Giglio",
+      "year": "2008",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "273",
+      "DOI": "10.1016/S0034-4257(03)00184-6",
+      "article-title": "An enhanced contextual fire detection algorithm for MODIS",
+      "volume": "87",
+      "author": "Giglio",
+      "year": "2003",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "1171",
+      "DOI": "10.5194/bg-7-1171-2010",
+      "article-title": "Assessing variability and long-term trends in burned area by merging multiple satellite fire products",
+      "volume": "7",
+      "author": "Giglio",
+      "year": "2010",
+      "journal-title": "Biogeosciences"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0070",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1175/1087-3562(2003)007<0001:GPTCAA>2.0.CO;2",
+      "article-title": "Global percent tree cover at a spatial resolution of 500 meters: first results of the MODIS vegetation continuous fields algorithm",
+      "volume": "7",
+      "author": "Hansen",
+      "year": "2003",
+      "journal-title": "Earth Interactions"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "152",
+      "DOI": "10.1016/j.rse.2012.12.004",
+      "article-title": "Strengths and weaknesses of MODIS hotspots to characterize global fire occurrence",
+      "volume": "131",
+      "author": "Hantson",
+      "year": "2013",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0080",
+      "doi-asserted-by": "crossref",
+      "first-page": "2656",
+      "DOI": "10.1016/j.rse.2007.12.008",
+      "article-title": "Detection rates of the MODIS active fire product in the United States",
+      "volume": "112",
+      "author": "Hawbaker",
+      "year": "2008",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0085",
+      "doi-asserted-by": "crossref",
+      "first-page": "6273",
+      "DOI": "10.1080/01431161.2010.508057",
+      "article-title": "Enhancement of a fire-detection algorithm by eliminating solar contamination effects and atmospheric path radiance: application to MODIS data",
+      "volume": "32",
+      "author": "He",
+      "year": "2011",
+      "journal-title": "International Journal of Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0090",
+      "doi-asserted-by": "crossref",
+      "first-page": "2636",
+      "DOI": "10.1109/TGRS.2005.857328",
+      "article-title": "A method to derive smoke emission rates from MODIS fire radiative energy measurements",
+      "volume": "43",
+      "author": "Ichoku",
+      "year": "2005",
+      "journal-title": "IEEE Transactions on Geoscience and Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0095",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1016/S0034-4257(02)00084-6",
+      "article-title": "An overview of MODIS land data processing and product status",
+      "volume": "83",
+      "author": "Justice",
+      "year": "2002",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0100",
+      "doi-asserted-by": "crossref",
+      "first-page": "527",
+      "DOI": "10.5194/bg-9-527-2012",
+      "article-title": "Biomass burning emissions estimated with a global fire assimilation system based on observed fire radiative power",
+      "volume": "9",
+      "author": "Kaiser",
+      "year": "2012",
+      "journal-title": "Biogeosciences"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0105",
+      "doi-asserted-by": "crossref",
+      "first-page": "32215",
+      "DOI": "10.1029/98JD01644",
+      "article-title": "Potential global fire monitoring from EOS-MODIS",
+      "volume": "103",
+      "author": "Kaufman",
+      "year": "1998",
+      "journal-title": "Journal of Geophysical Research"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0110",
+      "doi-asserted-by": "crossref",
+      "first-page": "166",
+      "DOI": "10.1071/WF06040",
+      "article-title": "A pragmatic assessment of the usefulness of the MODIS (Terra and Aqua) 1-km active fire (MOD14A2 and MYD14A2) products for mapping fires in the fynbos biome",
+      "volume": "17",
+      "author": "de Klerk",
+      "year": "2008",
+      "journal-title": "International Journal of Wildland Fire"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0115",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2007GL031530",
+      "article-title": "Reversal of trend of biomass burning in the Amazon",
+      "volume": "34",
+      "author": "Koren",
+      "year": "2007",
+      "journal-title": "Geophysical Research Letters"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0120",
+      "doi-asserted-by": "crossref",
+      "first-page": "5785",
+      "DOI": "10.5194/acp-10-5785-2010",
+      "article-title": "The coupled aerosol and tracer transport model to the Brazilian developments on the regional atmospheric modeling system (CATT-BRAMS) — part 2: model sensitivity to the biomass burning inventories",
+      "volume": "10",
+      "author": "Longo",
+      "year": "2010",
+      "journal-title": "Atmospheric Chemistry and Physics"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "11",
+      "DOI": "10.1016/j.isprsjprs.2012.11.005",
+      "article-title": "Sensitivity of the MODIS fire detection algorithm (MOD14) in the savanna region of the Northern Territory, Australia",
+      "volume": "76",
+      "author": "Maier",
+      "year": "2013",
+      "journal-title": "ISPRS Journal of Photogrammetry and Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0130",
+      "doi-asserted-by": "crossref",
+      "first-page": "151",
+      "DOI": "10.1016/j.rse.2006.03.020",
+      "article-title": "Agricultural burning in the Southeastern United States detected by MODIS",
+      "volume": "108",
+      "author": "McCarty",
+      "year": "2007",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0135",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1038/440436a",
+      "article-title": "Human role in Russian wild fires",
+      "volume": "440",
+      "author": "Mollicone",
+      "year": "2006",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0140",
+      "doi-asserted-by": "crossref",
+      "first-page": "4239",
+      "DOI": "10.1080/01431160500113526",
+      "article-title": "Validation of the MODIS active fire product over southern Africa with ASTER data",
+      "volume": "26",
+      "author": "Morisette",
+      "year": "2005",
+      "journal-title": "International Journal of Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0145",
+      "doi-asserted-by": "crossref",
+      "first-page": "231",
+      "DOI": "10.1016/j.rse.2012.10.020",
+      "article-title": "A sub-pixel-based calculation of the fire radiative power from MODIS observations: 2. Sensitivity analysis and potential fire weather application",
+      "volume": "129",
+      "author": "Peterson",
+      "year": "2013",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "3401",
+      "DOI": "10.1002/2013JD021067",
+      "article-title": "Quantifying the potential for high-altitude smoke injection in the North American boreal forest using the standard MODIS fire products and subpixel-based methods",
+      "volume": "119",
+      "author": "Peterson",
+      "year": "2014",
+      "journal-title": "Journal of Geophysical Research: Atmospheres"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "144",
+      "DOI": "10.1109/JSTARS.2009.2027443",
+      "article-title": "Global monitoring and forecasting of biomass-burning smoke: description of and lessons from the fire locating and modeling of burning emissions (FLAMBE) program",
+      "volume": "2",
+      "author": "Reid",
+      "year": "2009",
+      "journal-title": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0160",
+      "doi-asserted-by": "crossref",
+      "first-page": "1113",
+      "DOI": "10.1016/j.rse.2008.10.016",
+      "article-title": "Operational active fire mapping and burnt area identification applicable to Mexican nature protection areas using MODIS and NOAA-AVHRR direct readout data",
+      "volume": "113",
+      "author": "Ressl",
+      "year": "2009",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0165",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2005JD006018",
+      "article-title": "Retrieval of biomass combustion rates and totals from fire radiative power observations: application to southern Africa using geostationary SEVIRI imagery",
+      "volume": "110",
+      "author": "Roberts",
+      "year": "2005",
+      "journal-title": "Journal of Geophysical Research"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0170",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2009JD013769",
+      "article-title": "On the use of fire radiative power, area, and temperature estimates to characterize biomass burning via moderate to coarse spatial resolution remote sensing data in the Brazilian Amazon",
+      "volume": "115",
+      "author": "Schroeder",
+      "year": "2010",
+      "journal-title": "Journal of Geophysical Research"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0175",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2008GL035659",
+      "article-title": "Comment on ‘Reversal of trend of biomass burning in the Amazon’ by Ilan Koren, Lorraine A. Remer, and Karla Longo",
+      "volume": "36",
+      "author": "Schroeder",
+      "year": "2009",
+      "journal-title": "Geophysical Research Letters"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0180",
+      "doi-asserted-by": "crossref",
+      "first-page": "85",
+      "DOI": "10.1016/j.rse.2013.12.008",
+      "article-title": "The new VIIRS 375m active fire detection data product: algorithm description and initial assessment",
+      "volume": "143",
+      "author": "Schroeder",
+      "year": "2014",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0185",
+      "doi-asserted-by": "crossref",
+      "first-page": "2711",
+      "DOI": "10.1016/j.rse.2008.01.005",
+      "article-title": "Validation of GOES and MODIS active fire detection products using ASTER and ETM+ data",
+      "volume": "112",
+      "author": "Schroeder",
+      "year": "2008",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0190",
+      "doi-asserted-by": "crossref",
+      "first-page": "6833",
+      "DOI": "10.5194/acp-9-6833-2009",
+      "article-title": "An operational system for the assimilation of the satellite information on wild-land fires for the needs of air quality modelling and forecasting",
+      "volume": "9",
+      "author": "Sofiev",
+      "year": "2009",
+      "journal-title": "Atmospheric Chemistry and Physics"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0195",
+      "doi-asserted-by": "crossref",
+      "first-page": "1043",
+      "DOI": "10.3390/rs1041043",
+      "article-title": "MODIS hotspot validation over Thailand",
+      "volume": "1",
+      "author": "Tanpipat",
+      "year": "2009",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0200",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1016/j.atmosenv.2011.11.009",
+      "article-title": "Vegetation fires in the himalayan region — aerosol load, black carbon emissions and smoke plume heights",
+      "volume": "47",
+      "author": "Vadrevu",
+      "year": "2012",
+      "journal-title": "Atmospheric Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0205",
+      "doi-asserted-by": "crossref",
+      "first-page": "031502",
+      "DOI": "10.1117/1.3078426",
+      "article-title": "Analysis of the moderate resolution imaging spectroradiometer contextual algorithm for small fire detection",
+      "volume": "3",
+      "author": "Wang",
+      "year": "2009",
+      "journal-title": "Journal of Applied Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0210",
+      "doi-asserted-by": "crossref",
+      "first-page": "163",
+      "DOI": "10.1016/j.rse.2006.11.009",
+      "article-title": "An improved algorithm for small and cool fire detection using MODIS data: A preliminary study in the Southeastern United States",
+      "volume": "108",
+      "author": "Wang",
+      "year": "2007",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0215",
+      "doi-asserted-by": "crossref",
+      "first-page": "625",
+      "DOI": "10.5194/gmd-4-625-2011",
+      "article-title": "The fire INventory from NCAR (FINN): a high resolution global model to estimate the emissions from open burning",
+      "volume": "4",
+      "author": "Wiedinmyer",
+      "year": "2011",
+      "journal-title": "Geoscientific Model Development"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0220",
+      "doi-asserted-by": "crossref",
+      "first-page": "31",
+      "DOI": "10.1016/S0034-4257(02)00085-8",
+      "article-title": "Achieving sub-pixel geolocation accuracy in support of MODIS land science",
+      "volume": "83",
+      "author": "Wolfe",
+      "year": "2002",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0225",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2004GL020805",
+      "article-title": "Boreal forest fires burn less intensely in Russia than in North America",
+      "volume": "31",
+      "author": "Wooster",
+      "year": "2004",
+      "journal-title": "Geophysical Research Letters"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0230",
+      "doi-asserted-by": "crossref",
+      "first-page": "236",
+      "DOI": "10.1016/j.rse.2011.09.033",
+      "article-title": "Sentinel-3 SLSTR active fire detection and FRP product: pre-launch algorithm development and performance evaluation using MODIS and ASTER datasets",
+      "volume": "120",
+      "author": "Wooster",
+      "year": "2012",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0235",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1016/S0034-4257(03)00070-1",
+      "article-title": "Fire radiative energy for quantitative study of biomass burning: derivation from the BIRD experimental satellite and comparison to MODIS fire products",
+      "volume": "86",
+      "author": "Wooster",
+      "year": "2003",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "10.1016/j.rse.2016.02.054_bb0240",
+      "doi-asserted-by": "crossref",
+      "first-page": "29",
+      "DOI": "10.1016/j.rse.2005.09.019",
+      "article-title": "Spaceborne detection and characterization of fires during the bi-spectral infrared detection (BIRD) experimental small satellite mission (2001-2004)",
+      "volume": "100",
+      "author": "Zhukov",
+      "year": "2006",
+      "journal-title": "Remote Sensing of Environment"
+    }
+  ],
+  "container-title": [
+    "Remote Sensing of Environment"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425716300827?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425716300827?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        6,
+        14
+      ]
+    ],
+    "date-time": "2022-06-14T19:14:59Z",
+    "timestamp": 1655234099000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0034425716300827"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6
+      ]
+    ]
+  },
+  "references-count": 48,
+  "alternative-id": [
+    "S0034425716300827"
+  ],
+  "URL": "https://doi.org/10.1016/j.rse.2016.02.054",
+  "relation": {
+    "has-part": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/acp-23-7781-2023",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "0034-4257"
+  ],
+  "issn-type": [
+    {
+      "value": "0034-4257",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2016,
+        6
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "The collection 6 MODIS active fire detection algorithm and fire products",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Remote Sensing of Environment",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.rse.2016.02.054",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2016 The Authors. Published by Elsevier Inc.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

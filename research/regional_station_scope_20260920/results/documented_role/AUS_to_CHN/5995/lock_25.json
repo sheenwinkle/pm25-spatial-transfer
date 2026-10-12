@@ -1,0 +1,44 @@
+{
+  "model": "matched_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_humidity_pct",
+      "op": ">=",
+      "threshold": 80.0
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 1.9049999999999998
+    },
+    {
+      "feature": "era5_pbl_mean_m",
+      "op": ">=",
+      "threshold": 382.107436
+    },
+    {
+      "feature": "era5_pbl_low_fraction",
+      "op": "<=",
+      "threshold": 0.7333333333333333
+    }
+  ],
+  "complexity": 4,
+  "gain_2019": 0.04346779482848062,
+  "coverage_2019": 0.25210084033613445,
+  "reference_2019": "target_lgbm",
+  "n_2019": 30,
+  "fuas_2019": 10,
+  "gain_2020": -0.028221112126192827,
+  "coverage_2020": 0.42857142857142855,
+  "reference_2020": "target_extra",
+  "support_2020": true,
+  "worst_gain": -0.028221112126192827,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.25,
+  "scope": "documented_role",
+  "cohort": "documented_role",
+  "direction": "AUS_to_CHN",
+  "seed": 5995,
+  "protocol_sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026"
+}

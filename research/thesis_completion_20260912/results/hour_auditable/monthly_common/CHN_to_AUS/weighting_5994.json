@@ -1,0 +1,12 @@
+{
+  "min": 0.1,
+  "max": 0.6962396382303742,
+  "effective_source_rows": 16476.085937510485,
+  "source_rows": 16764,
+  "unlabelled_target_rows": 77,
+  "development_fuas": [
+    2066.0,
+    920.0,
+    1266.0
+  ]
+}

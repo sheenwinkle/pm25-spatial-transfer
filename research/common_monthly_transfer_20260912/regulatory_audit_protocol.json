@@ -1,0 +1,12 @@
+{
+  "version": "2026-09-12-regulatory-target-check-v1",
+  "status": "Secondary retrospective label-source audit, not a new independent station-validation study",
+  "model_policy": "Use every China-to-Australia configuration and its already frozen SatPM-development rule. No refitting or model/rule selection using regulatory outcomes.",
+  "target": "Unweighted mean of eligible regulatory station-month values within the inherited matched FUA; not an area-weighted FUA truth estimate",
+  "cohorts": ["QLD/VIC station-months with recomputable valid-day fraction >=0.75", "NSW official monthly values without locally available valid-day counts, reported separately"],
+  "period": [2023,2024],
+  "space": "Other FUAs not used by each model's target-development network; keep the same row selection as the frozen prediction gate",
+  "comparators": "Frozen source-informed prediction and saved equal-budget target-only predictions, all fitted to SatPM labels. Also report contemporaneous SatPM product vs monitors as a label-agreement diagnostic, not a deployable predictor or new baseline training.",
+  "limits": "Station-month eligibility and existing geographic matching are inherited and audited where available; point-to-area support differs and possible upstream SatPM calibration overlap is unknown. No China regulatory validation, new 2025 target, or universal observed-PM2.5 transfer claim.",
+  "sources": ["https://www.airquality.nsw.gov.au/", "https://www.data.qld.gov.au/dataset/air-quality-monitoring-2015", "https://www.epa.vic.gov.au/for-community/airwatch"]
+}

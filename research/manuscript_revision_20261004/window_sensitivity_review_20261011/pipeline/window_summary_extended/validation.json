@@ -1,0 +1,9 @@
+{
+  "completed_fits": 200,
+  "recomputed_rmse": 2200,
+  "panel_sha256": "9026749a73704d45e218a4aeb96d79704280edc98ad8e6dab3ed34bb627f2a03",
+  "summary_cells": 10,
+  "valid_bootstrap_draws_per_cell": 1000,
+  "aligned_test_rows": true,
+  "unchanged_non_ldf_predictions_across_seeds": true
+}

@@ -1,0 +1,132 @@
+{
+  "passed": 25,
+  "total": 25,
+  "main_tex_sha256": "1c4057b47bb06c52fb7e4e9d7137667362dfcc356ba5a8c56f617ee8d1816eba",
+  "checks": [
+    {
+      "name": "generated table exactly matches manuscript: tab_history.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated table exactly matches manuscript: tab_nocontemp.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated table exactly matches manuscript: tab_T1_B.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated table exactly matches manuscript: tab_T1_S.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated table exactly matches manuscript: tab_T2.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated table exactly matches manuscript: tab_window_sensitivity.tex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated figure matches manuscript: fig_k_ablation.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "generated figure matches manuscript: fig_history_ablation.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no duplicate labels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all cross-references defined",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no Figure W/X/Y/Z placeholders",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no duplicate long prose paragraphs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "AI writing and new analyses disclosed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agreed defensive sentences removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "incorrect retention wording absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "archived result CSVs unchanged",
+      "pass": true,
+      "detail": 601
+    },
+    {
+      "name": "200 complete fits and 2200 reconstructed RMSEs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "corrected panel hash retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all planned summary cells present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "label counts fixed across all windows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "1000 valid crossed draws for each cell",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original-window replay intervals include zero at both budgets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "July-September intervals above zero at both budgets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "2019 same-season comparison reverses at both budgets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all tested windows retain positive point gains versus eight-model reference",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

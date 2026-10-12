@@ -1,0 +1,31 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "AUS_to_CHN",
+  "seed": 5995,
+  "window_months": 1,
+  "labels_per_fit": 10,
+  "model": "source_affine",
+  "baseline": "target_rbf",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "operator": ">=",
+      "threshold": 3.0549999999999997
+    },
+    {
+      "feature": "temperature_c",
+      "operator": "<=",
+      "threshold": 25.125
+    }
+  ],
+  "conditions": 2,
+  "coverage": 0.2916666666666667,
+  "rmse": 6.694901579730064,
+  "baseline_rmse": 7.4204857745258845,
+  "relative_improvement": 0.09778122576377835,
+  "min_year_improvement": 0.5739956283833028,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 720,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 720
+}

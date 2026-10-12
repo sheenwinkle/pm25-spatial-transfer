@@ -1,0 +1,6 @@
+{
+  "source": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/",
+  "download": "https://naciscdn.org/naturalearth/50m/cultural/ne_50m_admin_0_countries.zip",
+  "sha256": "5fed433373581fa648920435f937d95f2d3c0200e067409c6478dcdf1b853139",
+  "note": "Display basemap, not analytical FUA assignment; boundaries imply no position on jurisdiction."
+}

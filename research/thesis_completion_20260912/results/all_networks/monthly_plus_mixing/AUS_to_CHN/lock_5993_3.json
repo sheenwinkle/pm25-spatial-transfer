@@ -1,0 +1,15 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 0.9333494905723007
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.021487876772017356,
+  "coverage": 0.25316455696202533,
+  "complexity": 1,
+  "discovery_pass": false
+}

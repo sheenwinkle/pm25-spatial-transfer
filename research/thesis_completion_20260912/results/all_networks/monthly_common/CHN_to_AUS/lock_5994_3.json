@@ -1,0 +1,20 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 1.59
+    },
+    {
+      "feature": "distance_to_coast_km",
+      "op": ">=",
+      "threshold": 6.551818
+    }
+  ],
+  "reference": "shuffled_kernel_5994",
+  "gain": 0.019270593352620713,
+  "coverage": 0.3739130434782609,
+  "complexity": 2,
+  "discovery_pass": false
+}

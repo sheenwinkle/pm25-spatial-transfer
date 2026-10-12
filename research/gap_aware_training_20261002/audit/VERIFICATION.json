@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-10-03T02:16:37.260260+00:00",
+  "passed": true,
+  "new_configurations": 24,
+  "rolling_fits_checked": 2268,
+  "new_gap_rolling_fits_checked": 1152,
+  "metric_rows_recomputed": 16200,
+  "max_metric_error": 0.0,
+  "prediction_label_rows_equal_to_input": 44999,
+  "paired_model_rows_checked": 3240,
+  "original_input_hashes_verified": 33,
+  "fixed_path_regression_max_error": 3.552713678800501e-15,
+  "primary_valid3_joint_passes": 0,
+  "all_valid_joint_passes": 0,
+  "fresh_external_validation": false,
+  "synthetic_targets_used": false
+}

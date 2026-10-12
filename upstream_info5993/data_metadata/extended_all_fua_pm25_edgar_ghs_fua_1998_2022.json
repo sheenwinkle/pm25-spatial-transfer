@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-07-27T16:22:25.055921+00:00",
+  "years": [
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "countries": [
+    "CHN",
+    "AUS"
+  ],
+  "fua_count": 1559,
+  "rows": 38975,
+  "method": "Extended all-FUA panel. PM2.5 uses polygon grid-centre means when available and nearest centroid grid-cell fallback for small FUAs. EDGAR pollutant emissions are summed over positive 0.1 degree grid-cell centres inside each FUA.",
+  "output_panel": "data\\processed\\modelling_panel\\extended_all_fua_pm25_edgar_ghs_fua_1998_2022.csv",
+  "summary_output": "data\\processed\\modelling_panel\\extended_all_fua_pm25_edgar_ghs_fua_1998_2022_summary.csv"
+}

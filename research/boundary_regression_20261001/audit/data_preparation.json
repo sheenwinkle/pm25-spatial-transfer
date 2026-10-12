@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-01T02:05:56.068332+00:00",
+  "original_station_months": 144655,
+  "corrected_station_months": 144655,
+  "new_station_months": 0,
+  "original_role_snapshots_preserved": true,
+  "covariates_preserved": true,
+  "national_rows": 34639,
+  "panels": [
+    {
+      "cohort": "membership_all",
+      "country_iso": "AUS",
+      "old_rows": 780,
+      "new_rows": 780,
+      "changed_target_rows": 32,
+      "max_absolute_target_change": 0.8473188660690028,
+      "changed_station_counts": 2
+    },
+    {
+      "cohort": "membership_all",
+      "country_iso": "CHN",
+      "old_rows": 3453,
+      "new_rows": 3453,
+      "changed_target_rows": 0,
+      "max_absolute_target_change": 0.0,
+      "changed_station_counts": 0
+    },
+    {
+      "cohort": "documented_role",
+      "country_iso": "AUS",
+      "old_rows": 779,
+      "new_rows": 779,
+      "changed_target_rows": 32,
+      "max_absolute_target_change": 0.8473188660690028,
+      "changed_station_counts": 2
+    },
+    {
+      "cohort": "documented_role",
+      "country_iso": "CHN",
+      "old_rows": 2346,
+      "new_rows": 2346,
+      "changed_target_rows": 0,
+      "max_absolute_target_change": 0.0,
+      "changed_station_counts": 0
+    }
+  ]
+}

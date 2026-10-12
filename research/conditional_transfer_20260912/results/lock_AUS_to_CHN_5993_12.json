@@ -1,0 +1,29 @@
+{
+  "direction": "AUS_to_CHN",
+  "seed": 5993,
+  "budget_months": 12,
+  "fit_labels": 120,
+  "gate_labels": 240,
+  "discovery_fuas": [
+    6576,
+    7279,
+    8099,
+    8243,
+    8566,
+    8608,
+    8683,
+    8977,
+    9176,
+    10024
+  ],
+  "model": "source_weighted_residual_ridge",
+  "baseline": "target_lgbm",
+  "rule": [],
+  "conditions": 0,
+  "coverage": 1.0,
+  "rmse": 14.287868800645622,
+  "baseline_rmse": 10.066966006443165,
+  "relative_improvement": -0.4192825118810326,
+  "min_year_improvement": -5.394553900522519,
+  "discovery_pass": false
+}

@@ -1,0 +1,9 @@
+{
+  "input": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\station_month_with_roles.csv.gz",
+  "sha256": "0f25ea05a454f488ccf52604a8628110e80fb64c6fb521c5afbd104791cdb46e",
+  "rows": 144655,
+  "calendar_threshold_verified": true,
+  "denominator": "retained archive station-month records, not all expected station-months",
+  "nsw_daily_hour_counts_verified": false,
+  "absent_station_months_counted": false
+}

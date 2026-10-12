@@ -1,0 +1,121 @@
+{
+  "created_at_utc": "2026-07-27T16:08:44.750335+00:00",
+  "source": "EDGAR v8.1 Global Air Pollutant Emissions, TOTALS annual NetCDF emissions",
+  "pollutants": {
+    "NOx": "nox",
+    "SO2": "so2",
+    "NH3": "nh3",
+    "NMVOC": "nmvoc"
+  },
+  "countries": [
+    "CHN",
+    "AUS"
+  ],
+  "years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "method": "Positive EDGAR 0.1 degree grid-cell centre emissions are summed inside each GHS-FUA polygon. Density divides tonnes by GHS-FUA area in km2.",
+  "source_records": [
+    {
+      "pollutant": "NOx",
+      "slug": "nox",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v81_FT2022_AP_new/NOx/TOTALS/TOTALS_emi_nc.zip",
+      "zip_path": "data\\raw\\emissions\\edgar_v81_nox_totals\\TOTALS_emi_nc.zip",
+      "zip_size_bytes": 846872359,
+      "zip_sha256": "7c20889089d062f7b5cd77d60f480f39201313f7a6c5920a18bb412a3425206d",
+      "extracted_files": [
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2012_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2013_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2014_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2015_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2016_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2017_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2018_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2019_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2020_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2021_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nox_totals_2012_2022\\v8.1_FT2022_AP_NOx_2022_TOTALS_emi.nc"
+      ]
+    },
+    {
+      "pollutant": "SO2",
+      "slug": "so2",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v81_FT2022_AP_new/SO2/TOTALS/TOTALS_emi_nc.zip",
+      "zip_path": "data\\raw\\emissions\\edgar_v81_so2_totals\\TOTALS_emi_nc.zip",
+      "zip_size_bytes": 832843970,
+      "zip_sha256": "9187074d693996e7a9fae54a7642a971fff9ed02de046958fee5511678757577",
+      "extracted_files": [
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2012_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2013_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2014_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2015_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2016_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2017_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2018_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2019_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2020_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2021_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_so2_totals_2012_2022\\v8.1_FT2022_AP_SO2_2022_TOTALS_emi.nc"
+      ]
+    },
+    {
+      "pollutant": "NH3",
+      "slug": "nh3",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v81_FT2022_AP_new/NH3/TOTALS/TOTALS_emi_nc.zip",
+      "zip_path": "data\\raw\\emissions\\edgar_v81_nh3_totals\\TOTALS_emi_nc.zip",
+      "zip_size_bytes": 861495611,
+      "zip_sha256": "fed8807660ed77e761ccd644ffed17927ba15842ee4ae1c72c1928c222297247",
+      "extracted_files": [
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2012_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2013_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2014_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2015_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2016_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2017_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2018_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2019_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2020_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2021_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nh3_totals_2012_2022\\v8.1_FT2022_AP_NH3_2022_TOTALS_emi.nc"
+      ]
+    },
+    {
+      "pollutant": "NMVOC",
+      "slug": "nmvoc",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v81_FT2022_AP_new/NMVOC/TOTALS/TOTALS_emi_nc.zip",
+      "zip_path": "data\\raw\\emissions\\edgar_v81_nmvoc_totals\\TOTALS_emi_nc.zip",
+      "zip_size_bytes": 856488167,
+      "zip_sha256": "4c6b8e41b84e5d14c0ebb0d2e283bc89e25a69c776ffbe024ac84d726022a68d",
+      "extracted_files": [
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2012_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2013_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2014_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2015_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2016_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2017_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2018_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2019_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2020_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2021_TOTALS_emi.nc",
+        "data\\interim\\emissions\\edgar_v81_nmvoc_totals_2012_2022\\v8.1_FT2022_AP_NMVOC_2022_TOTALS_emi.nc"
+      ]
+    }
+  ],
+  "precursor_panel": "data\\processed\\modelling_panel\\edgar_precursor_emissions_ghs_fua_2012_2022.csv",
+  "merged_panel_outputs": {
+    "full": "data\\processed\\modelling_panel\\full_china_australia_pm25_edgar_power_precursors_ghs_fua_2012_2022.csv",
+    "complete": "data\\processed\\modelling_panel\\analysis_ready_complete_pm25_china_australia_ghs_fua_2012_2022_with_power_precursors.csv"
+  },
+  "summary_output": "data\\processed\\modelling_panel\\edgar_precursor_emissions_ghs_fua_2012_2022_summary.csv",
+  "rows": 17149
+}

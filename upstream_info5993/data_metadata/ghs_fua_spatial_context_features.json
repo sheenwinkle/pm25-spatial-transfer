@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-07-27T16:28:57.319634+00:00",
+  "boundary_source": "data\\raw\\boundaries\\ghs_fua_r2019a\\GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+  "coastline_source_url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_coastline.zip",
+  "coastline_zip": "data\\raw\\physical\\natural_earth\\ne_10m_coastline.zip",
+  "coastline_sha256": "bfa04cdbcbef07ef90dfca1dabb48062eca29900a113df0f389303e255484017",
+  "method": "Spatial context features derived from GHS-FUA attributes and geodesic centroid-to-coastline distance using Natural Earth 1:10m coastline.",
+  "feature_output": "data\\interim\\spatial_context\\ghs_fua_spatial_context_features.csv",
+  "summary_output": "data\\interim\\spatial_context\\ghs_fua_spatial_context_summary.csv",
+  "merged_panel_outputs": {
+    "extended": "data\\processed\\modelling_panel\\extended_all_fua_pm25_edgar_power_spatial_ghs_fua_1998_2022.csv",
+    "full": "data\\processed\\modelling_panel\\full_china_australia_pm25_edgar_power_precursors_spatial_ghs_fua_2012_2022.csv",
+    "complete": "data\\processed\\modelling_panel\\analysis_ready_complete_pm25_china_australia_ghs_fua_2012_2022_with_power_precursors_spatial.csv"
+  },
+  "rows": 1559
+}

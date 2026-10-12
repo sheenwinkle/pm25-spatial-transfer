@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-07-28T08:06:17.945405+00:00",
+  "source": "data\\processed\\modelling_panel\\extended_all_fua_pm25_edgar_power_spatial_ghs_fua_1998_2022.csv",
+  "output": "data\\processed\\modelling_panel\\extended_all_fua_pm25_edgar_power_spatial_lagged_1998_2022.csv",
+  "rows_before_lag_drop": 38975,
+  "rows_after_lag_drop": 35857,
+  "fua_count": 1559,
+  "year_min": 2000,
+  "year_max": 2022,
+  "lag_columns": [
+    "pm25_lag1",
+    "pm25_lag2",
+    "pm25_lag3",
+    "pm25_roll3_mean_lag1",
+    "pm25_roll5_mean_lag1",
+    "pm25_change_lag1",
+    "pm25_change_lag2",
+    "edgar_pm25_emissions_tonnes_per_km2_lag1",
+    "edgar_pm25_emissions_tonnes_per_km2_change_lag1",
+    "edgar_nox_emissions_tonnes_per_km2_lag1",
+    "edgar_nox_emissions_tonnes_per_km2_change_lag1",
+    "edgar_so2_emissions_tonnes_per_km2_lag1",
+    "edgar_so2_emissions_tonnes_per_km2_change_lag1",
+    "edgar_nh3_emissions_tonnes_per_km2_lag1",
+    "edgar_nh3_emissions_tonnes_per_km2_change_lag1",
+    "edgar_nmvoc_emissions_tonnes_per_km2_lag1",
+    "edgar_nmvoc_emissions_tonnes_per_km2_change_lag1"
+  ],
+  "leakage_note": "All PM2.5 lag and rolling features use only prior-year values within each FUA."
+}

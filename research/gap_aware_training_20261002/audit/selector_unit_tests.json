@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": [
+    "skips_missing_months",
+    "no_future_labels",
+    "no_held_out_city",
+    "age_bound_12",
+    "outcome_invariance",
+    "per_city_count_cap",
+    "complete_history_equivalence"
+  ]
+}

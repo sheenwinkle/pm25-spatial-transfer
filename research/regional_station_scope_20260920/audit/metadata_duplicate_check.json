@@ -1,0 +1,4 @@
+{
+  "exact_duplicate_rows": 1,
+  "action": "collapse only entirely identical metadata rows; no measurements removed"
+}

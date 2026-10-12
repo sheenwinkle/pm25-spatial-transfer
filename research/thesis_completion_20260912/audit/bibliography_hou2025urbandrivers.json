@@ -1,0 +1,819 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        11
+      ]
+    ],
+    "date-time": "2026-07-11T04:59:44Z",
+    "timestamp": 1783745984458,
+    "version": "3.55.0"
+  },
+  "reference-count": 53,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Waste Management"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.wasman.2024.11.025",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        1
+      ]
+    ],
+    "date-time": "2024-12-01T21:42:32Z",
+    "timestamp": 1733089352000
+  },
+  "page": "114-124",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 28,
+  "special_numbering": "C",
+  "title": [
+    "Evaluating drivers of PM2.5 air pollution at urban scales using interpretable machine learning"
+  ],
+  "prefix": "10.1016",
+  "volume": "192",
+  "author": [
+    {
+      "given": "Yali",
+      "family": "Hou",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Qunwei",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tao",
+      "family": "Tan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0005",
+      "unstructured": "ACAG. 2024. https://sites.wustl.edu/acag/datasets/surface-pm2-5/."
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "745",
+      "DOI": "10.1016/j.istruc.2023.02.080",
+      "article-title": "Prediction model for rice husk ash concrete using AI approach: Boosting and bagging algorithms",
+      "volume": "50",
+      "author": "Amin",
+      "year": "2023",
+      "journal-title": "Structures"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0015",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.eswa.2022.119453",
+      "article-title": "Data to intelligence: The role of data-driven models in wastewater treatment",
+      "volume": "217",
+      "author": "Bahramian",
+      "year": "2023",
+      "journal-title": "Expert Systems with Applications"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0020",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jclepro.2023.137969",
+      "article-title": "The effects of socioeconomic factors on particulate matter concentration in China's: New evidence from spatial econometric model",
+      "volume": "417",
+      "author": "Bhatti",
+      "year": "2023",
+      "journal-title": "Journal of Cleaner Production"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "5047",
+      "DOI": "10.1007/s10668-023-02923-9",
+      "article-title": "Energy consumption, energy intensity, economic growth, FDI, urbanization, PM2.5 concentrations nexus",
+      "volume": "26",
+      "author": "Bildirici",
+      "year": "2024",
+      "journal-title": "Environment Development and Sustainability"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0030",
+      "first-page": "8977",
+      "article-title": "PM2.5 concentration prediction and its health effect in the Pearl River Delta of China",
+      "volume": "41",
+      "author": "Cai",
+      "year": "2021",
+      "journal-title": "Acta Ecologica Sinica"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "5549",
+      "DOI": "10.5194/acp-21-5549-2021",
+      "article-title": "Atmospheric conditions and composition that influence PM2.5 oxidative potential in Beijing, China",
+      "volume": "21",
+      "author": "Campbell",
+      "year": "2021",
+      "journal-title": "Atmospheric Chemistry and Physics"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "6348",
+      "DOI": "10.1016/j.jmrt.2023.04.223",
+      "article-title": "Data-driven based estimation of waste-derived ceramic concrete from experimental results with its environmental assessment",
+      "volume": "24",
+      "author": "Chang",
+      "year": "2023",
+      "journal-title": "Journal of Materials Research and Technology-Jmr&t"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0045",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.153440",
+      "article-title": "Influence of soil properties, topography, and land cover on soil organic carbon and total nitrogen concentration: A case study in Qinghai-Tibet plateau based on random forest regression and structural equation modeling",
+      "volume": "821",
+      "author": "Dai",
+      "year": "2022",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0050",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2024.170210",
+      "article-title": "Policy implications for synergistic management of PM2.5 and O3 pollution from a pattern-process-sustainability perspective in China",
+      "volume": "916",
+      "author": "Du",
+      "year": "2024",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0060",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.enpol.2020.112017",
+      "article-title": "Driving mechanism and decoupling effect of PM2.5 emissions: Empirical evidence from China's industrial sector",
+      "volume": "149",
+      "author": "Fang",
+      "year": "2021",
+      "journal-title": "Energy Policy"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0065",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jenvman.2022.116953",
+      "article-title": "Effect of urban form on PM2.5 concentrations in urban agglomerations of China: Insights from different urbanization levels and seasons",
+      "volume": "327",
+      "author": "Gao",
+      "year": "2023",
+      "journal-title": "Journal of Environmental Management"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0070",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jenvman.2022.115812",
+      "article-title": "Do socio-economic factors matter? A comprehensive evaluation of tourism eco-efficiency determinants in China based on the Geographical Detector Model",
+      "volume": "320",
+      "author": "Guo",
+      "year": "2022",
+      "journal-title": "Journal of Environmental Management"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0075",
+      "article-title": "Machine-learning-based prediction and optimization of emerging contaminants' adsorption capacity on biochar materials",
+      "volume": "466",
+      "author": "Jaffari",
+      "year": "2023",
+      "journal-title": "Chemical Engineering Journal"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0080",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.atmosenv.2023.119860",
+      "article-title": "Quantifying the pollution characteristics of chemical components in PM2.5 in the North China Plain, China: Spatiotemporal variation and health risk",
+      "volume": "307",
+      "author": "Ke",
+      "year": "2023",
+      "journal-title": "Atmospheric Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0090",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.atmosres.2023.106623",
+      "article-title": "Drivers of 2015–2021 trends in cold winter surface PM2.5 in the Harbin-Changchun megalopolis in China: Meteorology vs. anthropogenic emission",
+      "volume": "285",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Atmospheric Research"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0095",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2023.161476",
+      "article-title": "Quantitative estimation of the PM2.5 removal capacity and influencing factors of urban green infrastructure",
+      "volume": "867",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0100",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.envint.2023.107861",
+      "article-title": "Contributions of various driving factors to air pollution events: Interpretability analysis from Machine learning perspective",
+      "volume": "173",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Environment International"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0110",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scs.2022.104023",
+      "article-title": "The socioeconomic factors influencing the PM2.5 levels of 160 cities in China",
+      "volume": "84",
+      "author": "Li",
+      "year": "2022",
+      "journal-title": "Sustainable Cities and Society"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0105",
+      "article-title": "Chemical characteristics and source apportionment of PM2.5 using PMF modelling coupled with 1-hr resolution online air pollutant dataset for Linfen",
+      "volume": "263",
+      "author": "Li",
+      "year": "2020",
+      "journal-title": "China. Environmental Pollution"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0085",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.apenergy.2021.116668",
+      "article-title": "Drivers of energy-related PM2.5 emissions in the Jing-Jin-Ji region between 2002 and 2015",
+      "volume": "288.",
+      "author": "Li",
+      "year": "2021",
+      "journal-title": "Applied Energy"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0115",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2023.162788",
+      "article-title": "Governance matters: Urban expansion, environmental regulation, and PM2.5 pollution",
+      "volume": "876",
+      "author": "Liu",
+      "year": "2023",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0120",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.156312",
+      "article-title": "Seasonal changes in the recent decline of combined high PM2.5 and O3 pollution and associated chemical and meteorological drivers in the Beijing-Tianjin-Hebei region",
+      "volume": "838",
+      "author": "Luo",
+      "year": "2022",
+      "journal-title": "China. Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0125",
+      "article-title": "Drivers of PM2.5 in the urban agglomeration on the northern slope of the Tianshan Mountains",
+      "volume": "309",
+      "author": "Ma",
+      "year": "2022",
+      "journal-title": "China. Environmental Pollution"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0130",
+      "unstructured": "Mark. 2024. https://www.macrodatas.cn/article/1147466885."
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0135",
+      "doi-asserted-by": "crossref",
+      "first-page": "14470",
+      "DOI": "10.1109/ACCESS.2021.3050437",
+      "article-title": "Neural-Based Ensembles for Particulate Matter Forecasting",
+      "volume": "9",
+      "author": "Neto",
+      "year": "2021",
+      "journal-title": "Ieee Access"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0140",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2021.152836",
+      "article-title": "Fine-scale modeling of the urban heat island: A comparison of multiple linear regression and random forest approaches",
+      "volume": "815",
+      "author": "Oukawa",
+      "year": "2022",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0145",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.155056",
+      "article-title": "Source apportionment of PM2.5 in Seoul, South Korea and Beijing, China using dispersion normalized PMF",
+      "volume": "833",
+      "author": "Park",
+      "year": "2022",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0150",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.eswa.2023.120576",
+      "article-title": "A novel study on forecasting the airfoil self-noise, using a hybrid model based on the combination of CatBoost and Arithmetic Optimization Algorithm",
+      "volume": "229",
+      "author": "Rastgoo",
+      "year": "2023",
+      "journal-title": "Expert Systems with Applications"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0155",
+      "unstructured": "SC (The State Council). Action Plan for Continuous Improvement of Air Quality. 2023."
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0160",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.watres.2022.119540",
+      "article-title": "Remote sensing of fluorescent humification levels and its potential environmental linkages in lakes across China",
+      "volume": "230",
+      "author": "Shang",
+      "year": "2023",
+      "journal-title": "Water Research"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0165",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1088/1748-9326/ac1df8",
+      "article-title": "Combined impacts of climate and air pollution on human health and agricultural productivity",
+      "volume": "16",
+      "author": "Sillmann",
+      "year": "2021",
+      "journal-title": "Environmental Research Letters"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0170",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/s10661-022-09934-5",
+      "article-title": "Understanding the distribution and drivers of PM2.5 concentrations in the Yangtze River Delta from 2015 to 2020 using Random Forest Regression",
+      "volume": "194",
+      "author": "Su",
+      "year": "2022",
+      "journal-title": "Environmental Monitoring and Assessment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0175",
+      "doi-asserted-by": "crossref",
+      "first-page": "10209",
+      "DOI": "10.1007/s10668-021-01862-7",
+      "article-title": "Driving factors of consumption-based PM2.5 emissions in China: an application of the generalized Divisia index",
+      "volume": "24",
+      "author": "Sun",
+      "year": "2022",
+      "journal-title": "Environment Development and Sustainability"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0180",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jclepro.2021.129088",
+      "article-title": "Factor decomposition, reduction potential, and rebound effect of energy consumption related PM2.5 in China",
+      "volume": "322",
+      "author": "Sun",
+      "year": "2021",
+      "journal-title": "Journal of Cleaner Production"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0190",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.envpol.2023.122951",
+      "article-title": "Enhancement of atmospheric oxidation capacity induced co-pollution of the O3 and PM2.5 in Lanzhou, northwest China",
+      "volume": "341",
+      "author": "Wang",
+      "year": "2024",
+      "journal-title": "Environmental Pollution"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0185",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jclepro.2023.140153",
+      "article-title": "Spatial-temporal differentiation characteristics and driving factors of China's energy eco-efficiency based on geographical detector model",
+      "volume": "434",
+      "author": "Wang",
+      "year": "2024",
+      "journal-title": "Journal of Cleaner Production"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0195",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.apr.2023.101881",
+      "article-title": "Detection of PM2.5 spatiotemporal patterns and driving factors in urban agglomerations in China",
+      "volume": "14",
+      "author": "Wu",
+      "year": "2023",
+      "journal-title": "Atmospheric Pollution Research"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0200",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.atmosres.2023.107019",
+      "article-title": "Machine learning reveals the effects of drivers on PM2.5 and CO2 based on ensemble source apportionment method",
+      "volume": "295",
+      "author": "Xu",
+      "year": "2023",
+      "journal-title": "Atmospheric Research"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0205",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.161244",
+      "article-title": "How does vehicle emission control policy affect air pollution emissions? Evidence from Hainan Province, China",
+      "volume": "866",
+      "author": "Xu",
+      "year": "2023",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0210",
+      "doi-asserted-by": "crossref",
+      "first-page": "198",
+      "DOI": "10.1016/j.gr.2022.05.012",
+      "article-title": "Machine learning-based landslide susceptibility assessment with optimized ratio of landslide to non-landslide samples",
+      "volume": "123",
+      "author": "Yang",
+      "year": "2023",
+      "journal-title": "Gondwana Research"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0215",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jhydrol.2022.128465",
+      "article-title": "TPE-CatBoost: An adaptive model for soil moisture spatial estimation in the main maize-producing areas of China with multiple environment covariates",
+      "volume": "613",
+      "author": "Yu",
+      "year": "2022",
+      "journal-title": "Journal of Hydrology"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0220",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scs.2022.104103",
+      "article-title": "The imprint of urbanization on PM2.5 concentrations in China: The urban-rural gradient study",
+      "volume": "86",
+      "author": "Yun",
+      "year": "2022",
+      "journal-title": "Sustainable Cities and Society"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0225",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2023.163189",
+      "article-title": "Machine learning assesses drivers of PM2.5 air pollution trend in the Tibetan Plateau from 2015 to 2022",
+      "volume": "878",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0235",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jenvman.2023.117357",
+      "article-title": "Insights into geospatial heterogeneity of landslide susceptibility based on the SHAP-XGBoost model",
+      "volume": "332",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "Journal of Environmental Management"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0230",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jclepro.2022.130988",
+      "article-title": "Linking urbanization and air quality together: A review and a perspective on the future sustainable urban development",
+      "volume": "346",
+      "author": "Zhang",
+      "year": "2022",
+      "journal-title": "Journal of Cleaner Production"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0240",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jenvman.2023.118698",
+      "article-title": "Spatiotemporal heterogeneity of the relationships between PM2.5 concentrations and their drivers in China’s coastal ports",
+      "volume": "345",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "Journal of Environmental Management"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0245",
+      "article-title": "Identifying Spatiotemporal Heterogeneity of PM2.5 Concentrations and the Key Influencing Factors in the Middle and Lower Reaches of the Yellow River",
+      "volume": "14",
+      "author": "Zhao",
+      "year": "2022",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0250",
+      "doi-asserted-by": "crossref",
+      "first-page": "853",
+      "DOI": "10.1007/s11442-022-1975-8",
+      "article-title": "Regional variation of urban air quality in China and its dominant factors",
+      "volume": "32",
+      "author": "Zhao",
+      "year": "2022",
+      "journal-title": "Journal of Geographical Sciences"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0255",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1038/s41612-023-00536-7",
+      "article-title": "An intercomparison of weather normalization of PM2.5 concentration using traditional statistical methods, machine learning, and chemistry transport models",
+      "volume": "6",
+      "author": "Zheng",
+      "year": "2023",
+      "journal-title": "Npj Climate and Atmospheric Science"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0260",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2023.162371",
+      "article-title": "Quantitative source apportionment and driver identification of soil heavy metals using advanced machine learning techniques",
+      "volume": "873",
+      "author": "Zheng",
+      "year": "2023",
+      "journal-title": "Science of the Total Environment"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0265",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2021GH000532",
+      "article-title": "Spatial Distribution of PM2.5-Related Premature Mortality in China",
+      "volume": "5",
+      "author": "Zheng",
+      "year": "2021",
+      "journal-title": "Geohealth"
+    },
+    {
+      "key": "10.1016/j.wasman.2024.11.025_b0270",
+      "unstructured": "Zhongli, 2024. https://zldatas.com/all."
+    }
+  ],
+  "container-title": [
+    "Waste Management"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0956053X2400583X?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0956053X2400583X?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        6
+      ]
+    ],
+    "date-time": "2024-12-06T08:09:50Z",
+    "timestamp": 1733472590000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0956053X2400583X"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  },
+  "references-count": 53,
+  "alternative-id": [
+    "S0956053X2400583X"
+  ],
+  "URL": "https://doi.org/10.1016/j.wasman.2024.11.025",
+  "relation": {},
+  "ISSN": [
+    "0956-053X"
+  ],
+  "issn-type": [
+    {
+      "value": "0956-053X",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Evaluating drivers of PM2.5 air pollution at urban scales using interpretable machine learning",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Waste Management",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.wasman.2024.11.025",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

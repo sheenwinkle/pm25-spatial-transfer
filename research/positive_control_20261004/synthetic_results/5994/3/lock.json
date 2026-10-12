@@ -1,0 +1,9 @@
+{
+  "model": "source_residual",
+  "rule": [],
+  "reference": "target_ridge",
+  "gain": 0.5468121316951047,
+  "coverage": 1.0,
+  "complexity": 0,
+  "discovery_pass": true
+}

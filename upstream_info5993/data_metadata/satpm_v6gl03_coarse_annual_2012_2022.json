@@ -1,0 +1,119 @@
+{
+  "dataset": "SatPM / ACAG V6.GL.03 coarse-resolution global annual PM2.5",
+  "source_bucket": "https://satpmdata.s3.amazonaws.com",
+  "s3_prefix": "V6GL03/CoarseResolution/GL/Annual/",
+  "downloaded_at_utc": "2026-07-27T15:20:40.409232+00:00",
+  "licence_note": "See SatPM/AWS Open Data Registry source metadata; recorded as CC BY 4.0 in data catalog.",
+  "records": [
+    {
+      "year": 2012,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201201-201212.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201201-201212.nc",
+      "size_bytes": 5204955,
+      "sha256": "af845f3f8dbeb8e75488cb9995e3aae74d4bb7e1bd39f604d909962e50365c50",
+      "bytes_expected": 5204955,
+      "bytes_downloaded": 5204955
+    },
+    {
+      "year": 2013,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201301-201312.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201301-201312.nc",
+      "size_bytes": 5226616,
+      "sha256": "bc28ba825969d97dbc08ac8b64f63f4ff72e7e338bfc16c37a63a0a3c44e9f62",
+      "bytes_expected": 5226616,
+      "bytes_downloaded": 5226616
+    },
+    {
+      "year": 2014,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201401-201412.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201401-201412.nc",
+      "size_bytes": 5213232,
+      "sha256": "d470de30ad00d26abbb4cc6c083ab44b39470d7c3c4c1a18153990c2217442a5",
+      "bytes_expected": 5213232,
+      "bytes_downloaded": 5213232
+    },
+    {
+      "year": 2015,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201501-201512.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201501-201512.nc",
+      "size_bytes": 5186960,
+      "sha256": "39c2cb5a7cf88ef55f8b57fbd8e5d5a2fc8d6b6fc4cef36c23d23972f82279e4",
+      "bytes_expected": 5186960,
+      "bytes_downloaded": 5186960
+    },
+    {
+      "year": 2016,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201601-201612.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201601-201612.nc",
+      "size_bytes": 5198663,
+      "sha256": "922990c7a1ad62830340b22099a26101568e0beb8ee3743c7457857e0b109a96",
+      "bytes_expected": 5198663,
+      "bytes_downloaded": 5198663
+    },
+    {
+      "year": 2017,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201701-201712.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201701-201712.nc",
+      "size_bytes": 5226115,
+      "sha256": "faa7a2241dc9e6cf328a7684f2051c4e0e09f28b422c6a3cdd8beb4f10b95669",
+      "bytes_expected": 5226115,
+      "bytes_downloaded": 5226115
+    },
+    {
+      "year": 2018,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201801-201812.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201801-201812.nc",
+      "size_bytes": 5204360,
+      "sha256": "7e7b112ab28c7d3a30fa12d53ba4e2fd524ef855f31002b2ba752b738b0c35ec",
+      "bytes_expected": 5204360,
+      "bytes_downloaded": 5204360
+    },
+    {
+      "year": 2019,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.201901-201912.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.201901-201912.nc",
+      "size_bytes": 5204718,
+      "sha256": "b16bcef4bb26d937366727bfc8b2d8634b3ffed4f13fe5f1e1b5a9a0feb6e570",
+      "bytes_expected": 5204718,
+      "bytes_downloaded": 5204718
+    },
+    {
+      "year": 2020,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.202001-202012.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.202001-202012.nc",
+      "size_bytes": 5180163,
+      "sha256": "16871a040fbcc43de5d8f9ebac374f75ba3a5387b1a66ecbb551d0791004ce64",
+      "bytes_expected": 5180163,
+      "bytes_downloaded": 5180163
+    },
+    {
+      "year": 2021,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.202101-202112.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.202101-202112.nc",
+      "size_bytes": 5217831,
+      "sha256": "179be14da6e2f2ffb78d18158b290f7b4c4e2be1744020c0f8843a81c85d7403",
+      "bytes_expected": 5217831,
+      "bytes_downloaded": 5217831
+    },
+    {
+      "year": 2022,
+      "status": "downloaded",
+      "source_url": "https://satpmdata.s3.amazonaws.com/V6GL03/CoarseResolution/GL/Annual/V6GL03.CNNPM25.0p10.GL.202201-202212.nc",
+      "local_path": "data\\raw\\pm25\\satpm_v6gl03_coarse_annual\\V6GL03.CNNPM25.0p10.GL.202201-202212.nc",
+      "size_bytes": 5222698,
+      "sha256": "e8cb495762c85f913ec398e82dcf2975086b93e9a535ce54d4f136663e521902",
+      "bytes_expected": 5222698,
+      "bytes_downloaded": 5222698
+    }
+  ]
+}

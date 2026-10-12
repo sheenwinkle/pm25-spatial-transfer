@@ -1,0 +1,1764 @@
+[
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/90a17490-86c3-4901-8343-af10aca850e6/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "90a17490-86c3-4901-8343-af10aca850e6",
+    "catalogue_modified": "2024-02-19T05:13:58.153374",
+    "retrieved_at": "2026-09-29T12:10:04.148885+00:00",
+    "status": "downloaded",
+    "bytes": 57410,
+    "sha256": "d49fce39fb830352532fb284eedc095f3fe638544d36c31b6d17e3fd73649745",
+    "path": "data\\candidate_raw\\90a17490-86c3-4901-8343-af10aca850e6.zip",
+    "members": [
+      {
+        "name": "NET01p_1hr202301.csv",
+        "bytes": 21411,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202302.csv",
+        "bytes": 19443,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202303.csv",
+        "bytes": 21372,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202304.csv",
+        "bytes": 20702,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202305.csv",
+        "bytes": 21418,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202306.csv",
+        "bytes": 20678,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202307.csv",
+        "bytes": 21354,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202308.csv",
+        "bytes": 21348,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202309.csv",
+        "bytes": 20711,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202310.csv",
+        "bytes": 21399,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202311.csv",
+        "bytes": 20744,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202312.csv",
+        "bytes": 21391,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/0b8246d4-1fdd-474d-8ea7-ce8d910d48b4/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "0b8246d4-1fdd-474d-8ea7-ce8d910d48b4",
+    "catalogue_modified": "2024-06-14T06:05:20.916984",
+    "retrieved_at": "2026-09-29T12:10:04.633185+00:00",
+    "status": "downloaded",
+    "bytes": 24151,
+    "sha256": "9389979382895867f21fd0389bf7571f51a3c4324c15b2499ced77592183f554",
+    "path": "data\\candidate_raw\\0b8246d4-1fdd-474d-8ea7-ce8d910d48b4.zip",
+    "members": [
+      {
+        "name": "NET01p_1hr202401.csv",
+        "bytes": 21325,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202402.csv",
+        "bytes": 20160,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202403.csv",
+        "bytes": 21397,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202404.csv",
+        "bytes": 20587,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NET01p_1hr202405.csv",
+        "bytes": 21827,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/a9555f29-9567-4063-986a-e24d2501c5f2/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "a9555f29-9567-4063-986a-e24d2501c5f2",
+    "catalogue_modified": "2024-02-19T04:44:50.776590",
+    "retrieved_at": "2026-09-29T12:10:05.059440+00:00",
+    "status": "downloaded",
+    "bytes": 79840,
+    "sha256": "1480dc14fb2b019a1523a8367da8f3c2f6fb94e9f851504baeb752b309108835",
+    "path": "data\\candidate_raw\\a9555f29-9567-4063-986a-e24d2501c5f2.zip",
+    "members": [
+      {
+        "name": "ELI01p_1hr202301.csv",
+        "bytes": 27547,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202302.csv",
+        "bytes": 25241,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202303.csv",
+        "bytes": 27830,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202304.csv",
+        "bytes": 26953,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202305.csv",
+        "bytes": 27952,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202306.csv",
+        "bytes": 26929,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202307.csv",
+        "bytes": 27833,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202308.csv",
+        "bytes": 27906,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202309.csv",
+        "bytes": 27002,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202310.csv",
+        "bytes": 28267,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202311.csv",
+        "bytes": 27140,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202312.csv",
+        "bytes": 28204,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/22b8f632-1dae-4299-820f-2db13011f52a/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "22b8f632-1dae-4299-820f-2db13011f52a",
+    "catalogue_modified": "2025-01-15T02:03:21.052657",
+    "retrieved_at": "2026-09-29T12:10:05.475773+00:00",
+    "status": "downloaded",
+    "bytes": 80936,
+    "sha256": "82d7973d81ed762dc963084df3b0efe88c9e18d9eff541c63090a0be566f8d12",
+    "path": "data\\candidate_raw\\22b8f632-1dae-4299-820f-2db13011f52a.zip",
+    "members": [
+      {
+        "name": "ELI01p_1hr202401.csv",
+        "bytes": 28315,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202402.csv",
+        "bytes": 26535,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202403.csv",
+        "bytes": 28296,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202404.csv",
+        "bytes": 27245,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202405.csv",
+        "bytes": 28302,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202406.csv",
+        "bytes": 26908,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202407.csv",
+        "bytes": 26948,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202408.csv",
+        "bytes": 27304,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202409.csv",
+        "bytes": 26890,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202410.csv",
+        "bytes": 28133,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202411.csv",
+        "bytes": 27379,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ELI01p_1hr202412.csv",
+        "bytes": 28171,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/06d8a978-03c1-4738-a420-613180b3594f/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "06d8a978-03c1-4738-a420-613180b3594f",
+    "catalogue_modified": "2024-02-19T03:25:07.478135",
+    "retrieved_at": "2026-09-29T12:10:05.899632+00:00",
+    "status": "downloaded",
+    "bytes": 80690,
+    "sha256": "14da0b325532a1a387b8e9db03e6e68e402ed26cd83a77c5612b0f8fa0e1fbcd",
+    "path": "data\\candidate_raw\\06d8a978-03c1-4738-a420-613180b3594f.zip",
+    "members": [
+      {
+        "name": "ADL07p_1hr202301.csv",
+        "bytes": 27986,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202302.csv",
+        "bytes": 25436,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202303.csv",
+        "bytes": 28011,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202304.csv",
+        "bytes": 26984,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202305.csv",
+        "bytes": 28036,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202306.csv",
+        "bytes": 27080,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202307.csv",
+        "bytes": 27902,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202308.csv",
+        "bytes": 27925,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202309.csv",
+        "bytes": 27179,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202310.csv",
+        "bytes": 28254,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202311.csv",
+        "bytes": 27374,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202312.csv",
+        "bytes": 28004,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/f0900b81-9a63-40a8-9b86-8d94d1c3a2bf/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "f0900b81-9a63-40a8-9b86-8d94d1c3a2bf",
+    "catalogue_modified": "2025-01-15T01:57:39.177974",
+    "retrieved_at": "2026-09-29T12:10:06.308514+00:00",
+    "status": "downloaded",
+    "bytes": 80684,
+    "sha256": "4059f4e6f61f159770bc247eb8b28aa27a573c1362f679178aa02138ce8d2916",
+    "path": "data\\candidate_raw\\f0900b81-9a63-40a8-9b86-8d94d1c3a2bf.zip",
+    "members": [
+      {
+        "name": "ADL07p_1hr202401.csv",
+        "bytes": 27678,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202402.csv",
+        "bytes": 26394,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202403.csv",
+        "bytes": 27802,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202404.csv",
+        "bytes": 27174,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202405.csv",
+        "bytes": 28371,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202406.csv",
+        "bytes": 26992,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202407.csv",
+        "bytes": 27922,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202408.csv",
+        "bytes": 28169,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202409.csv",
+        "bytes": 27294,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202410.csv",
+        "bytes": 28243,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202411.csv",
+        "bytes": 27358,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "ADL07p_1hr202412.csv",
+        "bytes": 28255,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/a8f59e2d-16f2-416f-a140-e83b6ae62e52/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "a8f59e2d-16f2-416f-a140-e83b6ae62e52",
+    "catalogue_modified": "2024-02-19T04:07:39.807390",
+    "retrieved_at": "2026-09-29T12:10:06.747797+00:00",
+    "status": "downloaded",
+    "bytes": 54396,
+    "sha256": "03de4b0f61df48096c3f842f9de1b2f1366788fe39598c07a1108e1c0709f4f9",
+    "path": "data\\candidate_raw\\a8f59e2d-16f2-416f-a140-e83b6ae62e52.zip",
+    "members": [
+      {
+        "name": "CHD01p_1hr202301.csv",
+        "bytes": 24698,
+        "schema_lines": [
+          "Date/Time,PM10 BAM/TEOM ug/m3,PM2.5 TEOM ug/m3,Temperature Deg C,Barometric Pressure atm"
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202302.csv",
+        "bytes": 23458,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202303.csv",
+        "bytes": 25864,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202304.csv",
+        "bytes": 25009,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202305.csv",
+        "bytes": 19554,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202307.csv",
+        "bytes": 19589,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202308.csv",
+        "bytes": 25111,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202309.csv",
+        "bytes": 25031,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202310.csv",
+        "bytes": 25985,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202311.csv",
+        "bytes": 25134,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202312.csv",
+        "bytes": 25653,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/bbc8d770-b391-42c6-b2b6-b0a8c1c13997/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "bbc8d770-b391-42c6-b2b6-b0a8c1c13997",
+    "catalogue_modified": "2025-01-15T02:01:17.090888",
+    "retrieved_at": "2026-09-29T12:10:07.166268+00:00",
+    "status": "downloaded",
+    "bytes": 64677,
+    "sha256": "9786c099e6d62fb60b2215d20f6b99c89c4ae9c6b8c87d4c7e2f3865303fb828",
+    "path": "data\\candidate_raw\\bbc8d770-b391-42c6-b2b6-b0a8c1c13997.zip",
+    "members": [
+      {
+        "name": "CHD01p_1hr202401.csv",
+        "bytes": 25860,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202402.csv",
+        "bytes": 24352,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202403.csv",
+        "bytes": 26032,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202404.csv",
+        "bytes": 24913,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202405.csv",
+        "bytes": 26011,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202406.csv",
+        "bytes": 24849,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202407.csv",
+        "bytes": 25653,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202408.csv",
+        "bytes": 25920,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202409.csv",
+        "bytes": 24437,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202410.csv",
+        "bytes": 26008,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202411.csv",
+        "bytes": 25155,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "CHD01p_1hr202412.csv",
+        "bytes": 26000,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/dcb57941-1022-41b1-956f-295ac6bbfe99/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "dcb57941-1022-41b1-956f-295ac6bbfe99",
+    "catalogue_modified": "2024-02-19T06:15:20.778646",
+    "retrieved_at": "2026-09-29T12:10:07.584059+00:00",
+    "status": "downloaded",
+    "bytes": 65475,
+    "sha256": "58d2d0267e9e6405965192ed148afcb0454150bd690a6f4bd88689a0ed906298",
+    "path": "data\\candidate_raw\\dcb57941-1022-41b1-956f-295ac6bbfe99.zip",
+    "members": [
+      {
+        "name": "WHY07p_1hr202301.csv",
+        "bytes": 26033,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202302.csv",
+        "bytes": 23553,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202303.csv",
+        "bytes": 25924,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202304.csv",
+        "bytes": 24992,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202305.csv",
+        "bytes": 25585,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202306.csv",
+        "bytes": 24615,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202307.csv",
+        "bytes": 25451,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202308.csv",
+        "bytes": 25610,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202309.csv",
+        "bytes": 24628,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202310.csv",
+        "bytes": 25919,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202311.csv",
+        "bytes": 25221,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202312.csv",
+        "bytes": 25897,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/e1c21987-f180-42be-b88e-c14aa3cde64a/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "e1c21987-f180-42be-b88e-c14aa3cde64a",
+    "catalogue_modified": "2025-01-15T02:15:32.245332",
+    "retrieved_at": "2026-09-29T12:10:08.004558+00:00",
+    "status": "downloaded",
+    "bytes": 63420,
+    "sha256": "adf70fff73a745060fc78be202e0b8a8dcc0e80d31ec983c26b1325e25446458",
+    "path": "data\\candidate_raw\\e1c21987-f180-42be-b88e-c14aa3cde64a.zip",
+    "members": [
+      {
+        "name": "WHY07p_1hr202401.csv",
+        "bytes": 26052,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202402.csv",
+        "bytes": 24389,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202403.csv",
+        "bytes": 25808,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202404.csv",
+        "bytes": 24957,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202405.csv",
+        "bytes": 25406,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202406.csv",
+        "bytes": 23955,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202407.csv",
+        "bytes": 25240,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202408.csv",
+        "bytes": 25766,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202409.csv",
+        "bytes": 25040,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202410.csv",
+        "bytes": 25698,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202411.csv",
+        "bytes": 19426,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY07p_1hr202412.csv",
+        "bytes": 26021,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/20a15014-fd6a-42e5-bfc7-f843b65e2018/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "20a15014-fd6a-42e5-bfc7-f843b65e2018",
+    "catalogue_modified": "2024-02-19T06:09:01.375602",
+    "retrieved_at": "2026-09-29T12:10:08.423734+00:00",
+    "status": "downloaded",
+    "bytes": 64977,
+    "sha256": "33e0249f7a47630ea4c69c541dfff1315b9e297f8255312ebfc8bd1aa9696652",
+    "path": "data\\candidate_raw\\20a15014-fd6a-42e5-bfc7-f843b65e2018.zip",
+    "members": [
+      {
+        "name": "WHY04p_1hr202301.csv",
+        "bytes": 25947,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202302.csv",
+        "bytes": 23455,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202303.csv",
+        "bytes": 25156,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202304.csv",
+        "bytes": 25107,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202305.csv",
+        "bytes": 25821,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202306.csv",
+        "bytes": 24925,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202307.csv",
+        "bytes": 25633,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202308.csv",
+        "bytes": 25775,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202309.csv",
+        "bytes": 25150,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202310.csv",
+        "bytes": 26029,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202311.csv",
+        "bytes": 25227,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202312.csv",
+        "bytes": 25966,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/29204189-c5e2-4921-bdb8-a19fe29b8bdf/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "29204189-c5e2-4921-bdb8-a19fe29b8bdf",
+    "catalogue_modified": "2025-01-15T02:13:54.955181",
+    "retrieved_at": "2026-09-29T12:10:08.836412+00:00",
+    "status": "downloaded",
+    "bytes": 65501,
+    "sha256": "8ea18eefe6564f88352e1f8737fb8b3c37f5521a5c0db136883bd654ba40a203",
+    "path": "data\\candidate_raw\\29204189-c5e2-4921-bdb8-a19fe29b8bdf.zip",
+    "members": [
+      {
+        "name": "WHY04p_1hr202401.csv",
+        "bytes": 26074,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202402.csv",
+        "bytes": 24424,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202403.csv",
+        "bytes": 26070,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202404.csv",
+        "bytes": 25069,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202405.csv",
+        "bytes": 26048,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202406.csv",
+        "bytes": 23980,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202407.csv",
+        "bytes": 25648,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202408.csv",
+        "bytes": 25971,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202409.csv",
+        "bytes": 25106,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202410.csv",
+        "bytes": 26053,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202411.csv",
+        "bytes": 25189,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "WHY04p_1hr202412.csv",
+        "bytes": 26015,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/529ca9a8-b7e3-408b-a8de-1cb0f808ea8b/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "529ca9a8-b7e3-408b-a8de-1cb0f808ea8b",
+    "catalogue_modified": "2024-02-19T06:00:19.770973",
+    "retrieved_at": "2026-09-29T12:10:09.278290+00:00",
+    "status": "downloaded",
+    "bytes": 66127,
+    "sha256": "45f56b80d27d552022c40fa9fb626189a496c439b6bbf967d85815506c82340d",
+    "path": "data\\candidate_raw\\529ca9a8-b7e3-408b-a8de-1cb0f808ea8b.zip",
+    "members": [
+      {
+        "name": "PTP01p_1hr202301.csv",
+        "bytes": 26064,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202302.csv",
+        "bytes": 23474,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202303.csv",
+        "bytes": 25969,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202304.csv",
+        "bytes": 24940,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202305.csv",
+        "bytes": 25627,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202306.csv",
+        "bytes": 24891,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202307.csv",
+        "bytes": 25519,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202308.csv",
+        "bytes": 25589,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202309.csv",
+        "bytes": 24978,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202310.csv",
+        "bytes": 25925,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202311.csv",
+        "bytes": 25218,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202312.csv",
+        "bytes": 24997,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/fa33c94e-63cb-48ea-b7ee-bda600e5f016/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "fa33c94e-63cb-48ea-b7ee-bda600e5f016",
+    "catalogue_modified": "2025-01-15T02:11:42.059383",
+    "retrieved_at": "2026-09-29T12:10:09.712196+00:00",
+    "status": "downloaded",
+    "bytes": 67152,
+    "sha256": "67cb8289d26635d0658669406064da76332b16994b32cc5dd42d6ef46208b965",
+    "path": "data\\candidate_raw\\fa33c94e-63cb-48ea-b7ee-bda600e5f016.zip",
+    "members": [
+      {
+        "name": "PTP01p_1hr202401.csv",
+        "bytes": 25012,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202402.csv",
+        "bytes": 24409,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202403.csv",
+        "bytes": 26101,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202404.csv",
+        "bytes": 25040,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202405.csv",
+        "bytes": 25868,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202406.csv",
+        "bytes": 24702,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202407.csv",
+        "bytes": 25579,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202408.csv",
+        "bytes": 25800,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202409.csv",
+        "bytes": 24972,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202410.csv",
+        "bytes": 25968,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202411.csv",
+        "bytes": 25157,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "PTP01p_1hr202412.csv",
+        "bytes": 26039,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 TEOM ug/m3\",\"PM2.5 TEOM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/7b8d3bdc-5288-45f2-b9ca-cbaf5d5bf814/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "7b8d3bdc-5288-45f2-b9ca-cbaf5d5bf814",
+    "catalogue_modified": "2024-02-19T05:32:13.663127",
+    "retrieved_at": "2026-09-29T12:10:10.128125+00:00",
+    "status": "downloaded",
+    "bytes": 56038,
+    "sha256": "8e3132822fe7f9ab044524c8c30f50dbc54bead258678b9cc60d876c23c3b3c9",
+    "path": "data\\candidate_raw\\7b8d3bdc-5288-45f2-b9ca-cbaf5d5bf814.zip",
+    "members": [
+      {
+        "name": "NHV01p_1hr202301.csv",
+        "bytes": 21383,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202302.csv",
+        "bytes": 19442,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202303.csv",
+        "bytes": 21405,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202304.csv",
+        "bytes": 20527,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202305.csv",
+        "bytes": 21316,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202306.csv",
+        "bytes": 20588,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202307.csv",
+        "bytes": 21137,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202308.csv",
+        "bytes": 21171,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202309.csv",
+        "bytes": 20518,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202310.csv",
+        "bytes": 21529,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202311.csv",
+        "bytes": 20814,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202312.csv",
+        "bytes": 21402,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/98a0bd92-d1b3-41c4-a9a6-c4d09bbaa186/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "98a0bd92-d1b3-41c4-a9a6-c4d09bbaa186",
+    "catalogue_modified": "2025-01-15T02:06:04.531439",
+    "retrieved_at": "2026-09-29T12:10:10.562495+00:00",
+    "status": "downloaded",
+    "bytes": 57264,
+    "sha256": "1be2714bdb6fd9a3569b11f8a183c7a50419e4421cdbe842c47bfe315701e331",
+    "path": "data\\candidate_raw\\98a0bd92-d1b3-41c4-a9a6-c4d09bbaa186.zip",
+    "members": [
+      {
+        "name": "NHV01p_1hr202401.csv",
+        "bytes": 21448,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202402.csv",
+        "bytes": 20196,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202403.csv",
+        "bytes": 21604,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202404.csv",
+        "bytes": 20767,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202405.csv",
+        "bytes": 21624,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202406.csv",
+        "bytes": 20462,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202407.csv",
+        "bytes": 21279,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202408.csv",
+        "bytes": 21494,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202409.csv",
+        "bytes": 20697,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202410.csv",
+        "bytes": 21577,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202411.csv",
+        "bytes": 20882,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "NHV01p_1hr202412.csv",
+        "bytes": 21582,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/b0847256-5917-4e87-951b-e2f9b5e6a78c/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "b0847256-5917-4e87-951b-e2f9b5e6a78c",
+    "catalogue_modified": "2024-02-19T03:32:47.663526",
+    "retrieved_at": "2026-09-29T12:10:10.988123+00:00",
+    "status": "downloaded",
+    "bytes": 56955,
+    "sha256": "0722d6ac3dd97bfb5a8eb7d7cc004f0a16e18b673ccfae39f6cf8d00ae758479",
+    "path": "data\\candidate_raw\\b0847256-5917-4e87-951b-e2f9b5e6a78c.zip",
+    "members": [
+      {
+        "name": "BIR02p_1hr202301.csv",
+        "bytes": 21596,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202302.csv",
+        "bytes": 19477,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202303.csv",
+        "bytes": 21277,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202304.csv",
+        "bytes": 20749,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202305.csv",
+        "bytes": 21357,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202306.csv",
+        "bytes": 20679,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202307.csv",
+        "bytes": 21246,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202308.csv",
+        "bytes": 21361,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202309.csv",
+        "bytes": 20672,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202310.csv",
+        "bytes": 21468,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202311.csv",
+        "bytes": 20817,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202312.csv",
+        "bytes": 21385,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/2b99044e-5ede-47dc-9437-b11a14912ee0/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "2b99044e-5ede-47dc-9437-b11a14912ee0",
+    "catalogue_modified": "2025-01-15T01:58:47.995764",
+    "retrieved_at": "2026-09-29T12:10:11.408646+00:00",
+    "status": "downloaded",
+    "bytes": 57855,
+    "sha256": "58c0f8c342a4600de737fbbcaf03c4dfecab1f324fe126754f0df5d29b7622d6",
+    "path": "data\\candidate_raw\\2b99044e-5ede-47dc-9437-b11a14912ee0.zip",
+    "members": [
+      {
+        "name": "BIR02p_1hr202401.csv",
+        "bytes": 21387,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202402.csv",
+        "bytes": 20198,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202403.csv",
+        "bytes": 21590,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202404.csv",
+        "bytes": 20655,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202405.csv",
+        "bytes": 21687,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202406.csv",
+        "bytes": 20615,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202407.csv",
+        "bytes": 21262,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202408.csv",
+        "bytes": 21582,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202409.csv",
+        "bytes": 20777,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202410.csv",
+        "bytes": 21555,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202411.csv",
+        "bytes": 20887,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      },
+      {
+        "name": "BIR02p_1hr202412.csv",
+        "bytes": 21597,
+        "schema_lines": [
+          "\"Date/Time\",\"PM10 BAM ug/m3\",\"PM2.5 BAM ug/m3\",\"Temperature Deg C\",\"Barometric Pressure atm\""
+        ]
+      }
+    ],
+    "outcome_use": "schema_only_no_predictive_evaluation"
+  }
+]

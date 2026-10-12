@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-10-02T07:40:04.721901+00:00",
+  "passed": true,
+  "configurations": 48,
+  "new_fitted_configurations": 37,
+  "reused_configurations": 11,
+  "rolling_windows_checked": 2268,
+  "metric_rows_recomputed": 12960,
+  "max_metric_error": 0.0,
+  "12month_regression_max_error": 7.105427357601002e-15,
+  "original_input_hashes_verified": 21,
+  "primary_3month_joint_passes": 0,
+  "all_window_joint_passes": 0,
+  "fresh_external_validation": false,
+  "global_label_budget_reduction_demonstrated": false
+}

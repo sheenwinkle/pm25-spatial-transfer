@@ -1,0 +1,19 @@
+{
+  "source_rows": 15010,
+  "unlabelled_target_rows": 423,
+  "development_fuas": [
+    10014.0,
+    9883.0,
+    10042.0,
+    9865.0,
+    10078.0,
+    9831.0,
+    9987.0,
+    10220.0,
+    9769.0,
+    10090.0
+  ],
+  "weight_min": 0.1,
+  "weight_max": 10.0,
+  "effective_source_rows": 1856.924384766541
+}

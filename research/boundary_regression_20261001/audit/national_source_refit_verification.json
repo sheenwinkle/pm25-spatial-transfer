@@ -1,0 +1,26 @@
+[
+  {
+    "model": "source",
+    "old_refit_max_error": 0.0,
+    "old_source_rows": 326,
+    "new_source_rows": 326
+  },
+  {
+    "model": "shuffle_5993",
+    "old_refit_max_error": 0.0,
+    "old_source_rows": 326,
+    "new_source_rows": 326
+  },
+  {
+    "model": "shuffle_5994",
+    "old_refit_max_error": 0.0,
+    "old_source_rows": 326,
+    "new_source_rows": 326
+  },
+  {
+    "model": "shuffle_5995",
+    "old_refit_max_error": 0.0,
+    "old_source_rows": 326,
+    "new_source_rows": 326
+  }
+]

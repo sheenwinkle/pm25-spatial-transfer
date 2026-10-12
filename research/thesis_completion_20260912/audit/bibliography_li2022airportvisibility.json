@@ -1,0 +1,590 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        21
+      ]
+    ],
+    "date-time": "2026-07-21T00:08:54Z",
+    "timestamp": 1784592534024,
+    "version": "3.55.0"
+  },
+  "reference-count": 28,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2022-09-23T00:00:00Z",
+        "timestamp": 1663891200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2022-09-23T00:00:00Z",
+        "timestamp": 1663891200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "J Expo Sci Environ Epidemiol"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1038/s41370-022-00480-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2022-09-23T12:03:58Z",
+    "timestamp": 1663934638000
+  },
+  "page": "926-931",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 14,
+  "title": [
+    "Estimation of fine particulate matter in an arid area from visibility based on machine learning"
+  ],
+  "prefix": "10.1038",
+  "volume": "32",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7682-4311",
+      "authenticated-orcid": false,
+      "given": "Jing",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Choong-Min",
+      "family": "Kang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jack M.",
+      "family": "Wolfson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Barrak",
+      "family": "Alahmad",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ali",
+      "family": "Al-Hemoud",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Eric",
+      "family": "Garshick",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Petros",
+      "family": "Koutrakis",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        9,
+        23
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "480_CR1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al-Hemoud A, Al-Dousari A, Al-Dashti H, Petrov P, Al-Saleh A, Al-Khafaji S et al., Sand and dust storm trajectories from Iraq Mesopotamian flood plain to Kuwait. Sci Total Environ. 2019;710:136291.",
+      "DOI": "10.1016/j.scitotenv.2019.136291"
+    },
+    {
+      "key": "480_CR2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Li J, Garshick E, Al-Hemoud A, Huang S, Koutrakis P. Impacts of meteorology and vegetation on surface dust concentrations in Middle Eastern countries. Sci Total Environ. 2020;712:136597.",
+      "DOI": "10.1016/j.scitotenv.2020.136597"
+    },
+    {
+      "key": "480_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "898",
+      "DOI": "10.1289/ehp.0800108",
+      "volume": "117",
+      "author": "A Zanobetti",
+      "year": "2009",
+      "unstructured": "Zanobetti A, Schwartz J. The effect of fine and coarse particulate air pollution on mortality: a national analysis. Environ Health Perspect. 2009;117:898–903.",
+      "journal-title": "Environ Health Perspect"
+    },
+    {
+      "key": "480_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1180",
+      "DOI": "10.1289/ehp.1409276",
+      "volume": "123",
+      "author": "DL Crouse",
+      "year": "2015",
+      "unstructured": "Crouse DL, Peters PA, Hystad P, Brook JR, van Donkelaar A, Martin RV, et al. Ambient PM2.5, O(3), and NO(2) exposures and associations with mortality over 16 years of follow-up in the canadian census health and environment cohort (CanCHEC). Environ Health Perspect. 2015;123:1180–6.",
+      "journal-title": "Environ Health Perspect"
+    },
+    {
+      "key": "480_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "2513",
+      "DOI": "10.1056/NEJMoa1702747",
+      "volume": "376",
+      "author": "Q Di",
+      "year": "2017",
+      "unstructured": "Di Q, Wang Y, Zanobetti A, Wang Y, Koutrakis P, Choirat C, et al. Air pollution and mortality in the medicare population. N Engl J Med. 2017;376:2513–22.",
+      "journal-title": "N Engl J Med"
+    },
+    {
+      "key": "480_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "137793",
+      "DOI": "10.1016/j.scitotenv.2020.137793",
+      "volume": "721",
+      "author": "S Huang",
+      "year": "2020",
+      "unstructured": "Huang S, Xiong J, Vieira CLZ, Blomberg AJ, Gold DR, Coull BA, et al. Short-term exposure to ambient particle gamma radioactivity is associated with increased risk for all-cause non-accidental and cardiovascular mortality. Sci Total Environ. 2020;721:137793.",
+      "journal-title": "Sci Total Environ"
+    },
+    {
+      "key": "480_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "79",
+      "DOI": "10.1016/j.annepidem.2020.09.012",
+      "volume": "54",
+      "author": "E van Wijngaarden",
+      "year": "2021",
+      "unstructured": "van Wijngaarden E, Rich DQ, Zhang W, Thurston SW, Lin S, Croft DP, et al. Neurodegenerative hospital admissions and long-term exposure to ambient fine particle air pollution. Ann Epidemiol. 2021;54:79–86.",
+      "journal-title": "Ann Epidemiol"
+    },
+    {
+      "key": "480_CR8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Li J, Wang Y, Steenland K, Liu P, van Donkelaar A, Martin RV et al., Long-term effects of PM2.5 components on incident dementia in the northeastern United States. The Innovation. 2022;3:100208.",
+      "DOI": "10.1016/j.xinn.2022.100208"
+    },
+    {
+      "key": "480_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "994",
+      "DOI": "10.3155/1047-3289.58.8.994",
+      "volume": "58",
+      "author": "KW Brown",
+      "year": "2008",
+      "unstructured": "Brown KW, Bouhamra W, Lamoureux DP, Evans JS, Koutrakis P. Characterization of particulate matter for three sites in Kuwait. J Air Waste Manag. 2008;58:994–1003.",
+      "journal-title": "J Air Waste Manag"
+    },
+    {
+      "key": "480_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "297",
+      "DOI": "10.1080/08958370802464273",
+      "volume": "21",
+      "author": "JP Engelbrecht",
+      "year": "2009",
+      "unstructured": "Engelbrecht JP, McDonald EV, Gillies JA, Jayanty RKM, Casuccio G, Gertler AW. Characterizing mineral dusts and other aerosols from the Middle East—Part 1: ambient sampling. Inhal Toxicol. 2009;21:297–326.",
+      "journal-title": "Inhal Toxicol"
+    },
+    {
+      "key": "480_CR11",
+      "unstructured": "NationalResearchCouncil, Review of the Department of Defense enhanced particulate matter surveillance program report. Appendix D - Final report of the Department of Defense enhanced particulate matter surveillance program. National Academies Press: Washington, DC, 2010."
+    },
+    {
+      "key": "480_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "14",
+      "DOI": "10.1016/j.scitotenv.2012.11.090",
+      "volume": "448",
+      "author": "MA Alolayan",
+      "year": "2013",
+      "unstructured": "Alolayan MA, Brown KW, Evans JS, Bouhamra WS, Koutrakis P. Source apportionment of fine particles in Kuwait City. Sci Total Environ. 2013;448:14–25.",
+      "journal-title": "Sci Total Environ"
+    },
+    {
+      "key": "480_CR13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al-Hemoud A, Al-Dousari A, Al-Shatti A, Al-Khayat A, Behbehani W, Malak M. Health Impact assessment associated with exposure to PM10 and dust storms in Kuwait. Atmosphere 2018;9:6.",
+      "DOI": "10.3390/atmos9010006"
+    },
+    {
+      "key": "480_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "108730",
+      "DOI": "10.1016/j.envres.2019.108730",
+      "volume": "179",
+      "author": "A Al-Hemoud",
+      "year": "2019",
+      "unstructured": "Al-Hemoud A, Gasana J, Al-Dabbous A, Alajeel A, Al-Shatti A, Behbehani W, et al. Exposure levels of air pollution (PM2.5) and associated health risk in Kuwait. Environ Res. 2019;179:108730.",
+      "journal-title": "Environ Res"
+    },
+    {
+      "key": "480_CR15",
+      "first-page": "161",
+      "volume": "5",
+      "author": "DE Abbey",
+      "year": "1995",
+      "unstructured": "Abbey DE, Ostro BE, Fraser G, Vancuren T, Burchette RJ. Estimating fine particulates less-than 2.5 microns in aerodynamic diameter (PM 2.5) from airport visibility data in California. J Expo Anal Env Epid. 1995;5:161–80.",
+      "journal-title": "J Expo Anal Env Epid"
+    },
+    {
+      "key": "480_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "97",
+      "DOI": "10.1038/sj.jea.7500148",
+      "volume": "11",
+      "author": "N Vajanapoom",
+      "year": "2001",
+      "unstructured": "Vajanapoom N, Shy CM, Neas LM, Loomis D. Estimation of particulate matter from visibility in Bangkok. Thail J Expo Anal Env Epid. 2001;11:97–102.",
+      "journal-title": "Thail J Expo Anal Env Epid"
+    },
+    {
+      "key": "480_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "458",
+      "DOI": "10.1016/j.scitotenv.2016.09.173",
+      "volume": "575",
+      "author": "T Zhao",
+      "year": "2017",
+      "unstructured": "Zhao T, Yang L, Yan W, Zhang J, Lu W, Yang Y, et al. Chemical characteristics of PM1/PM2.5 and influence on visual range at the summit of Mount Tai, North China. Sci Total Environ. 2017;575:458–66.",
+      "journal-title": "Sci Total Environ"
+    },
+    {
+      "key": "480_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "13161",
+      "DOI": "10.1021/acs.est.7b03468",
+      "volume": "51",
+      "author": "M Liu",
+      "year": "2017",
+      "unstructured": "Liu M, Bi J, Ma Z. Visibility-based PM2.5 concentrations in China: 1957-64 and 1973-2014. Environ Sci Technol. 2017;51:13161–9.",
+      "journal-title": "Environ Sci Technol"
+    },
+    {
+      "key": "480_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "75",
+      "DOI": "10.1080/10962247.2016.1243169",
+      "volume": "67",
+      "author": "S Masri",
+      "year": "2017",
+      "unstructured": "Masri S, Garshick E, Hart J, Bouhamra W, Koutrakis P. Use of visual range measurements to predict fine particulate matter exposures in Southwest Asia and Afghanistan. J Air Waste Manag Assoc. 2017;67:75–85.",
+      "journal-title": "J Air Waste Manag Assoc"
+    },
+    {
+      "key": "480_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "106445",
+      "DOI": "10.1016/j.envint.2021.106445",
+      "volume": "151",
+      "author": "J Li",
+      "year": "2021",
+      "unstructured": "Li J, Garshick E, Hart JE, Li L, Shi L, Al-Hemoud A, et al. Estimation of ambient PM2.5 in Iraq and Kuwait from 2001 to 2018 using machine learning and remote sensing. Environ Int. 2021;151:106445.",
+      "journal-title": "Environ Int"
+    },
+    {
+      "key": "480_CR21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zhao G, Hu M, Zhang Z, Tang L, Shang D, Ren J et al., Current challenges in visibility improvement in Sichuan basin. Geophys Res Lett. 2022;49:1–7.",
+      "DOI": "10.1029/2022GL098836"
+    },
+    {
+      "key": "480_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "86",
+      "DOI": "10.1080/10962247.2016.1230079",
+      "volume": "67",
+      "author": "S Masri",
+      "year": "2017",
+      "unstructured": "Masri S, Garshick E, Coull BA, Koutrakis P. A novel calibration approach using satellite and visibility observations to estimate fine particulate matter exposures in Southwest Asia and Afghanistan. J Air Waste Manag Assoc. 2017;67:86–95.",
+      "journal-title": "J Air Waste Manag Assoc"
+    },
+    {
+      "key": "480_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "117016",
+      "DOI": "10.1016/j.envpol.2021.117016",
+      "volume": "282",
+      "author": "B Alahmad",
+      "year": "2021",
+      "unstructured": "Alahmad B, Al-Hemoud A, Kang CM, Almarri F, Kommula V, Wolfson JM, et al. A two-year assessment of particulate air pollution and sources in Kuwait. Environ Pollut. 2021;282:117016.",
+      "journal-title": "Environ Pollut"
+    },
+    {
+      "key": "480_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "4712",
+      "DOI": "10.1021/acs.est.5b06121",
+      "volume": "50",
+      "author": "Q Di",
+      "year": "2016",
+      "unstructured": "Di Q, Kloog I, Koutrakis P, Lyapustin A, Wang Y, Schwartz J. Assessing PM2.5 exposures with high spatiotemporal resolution across the continental United States. Environ Sci Technol. 2016;50:4712–21.",
+      "journal-title": "Environ Sci Technol"
+    },
+    {
+      "key": "480_CR25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Joharestani MZ, Cao C, Ni X, Bashir B, Talebiesfandarani SJA. PM2.5 prediction based on random forest, XGBoost, and deep learning using multisource remote sensing data. 2019;10:373.",
+      "DOI": "10.3390/atmos10070373"
+    },
+    {
+      "key": "480_CR26",
+      "unstructured": "Bishop CM. Pattern Recognition and Machine Learning. Springer 2006, 1."
+    },
+    {
+      "key": "480_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "11037",
+      "DOI": "10.1021/acs.est.0c01791",
+      "volume": "54",
+      "author": "WJ Requia",
+      "year": "2020",
+      "unstructured": "Requia WJ, Di Q, Silvern R, Kelly JT, Koutrakis P, Mickley LJ, et al. An ensemble learning approach for estimating high spatiotemporal resolution of ground-level ozone in the contiguous United States. Environ Sci Technol. 2020;54:11037–47.",
+      "journal-title": "Environ Sci Technol"
+    },
+    {
+      "key": "480_CR28",
+      "unstructured": "WHO, WHO Global Air Quality Guidelines: Particulate Matter PM2.5 and PM10), Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide. 2021."
+    }
+  ],
+  "container-title": [
+    "Journal of Exposure Science &amp; Environmental Epidemiology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41370-022-00480-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41370-022-00480-3",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41370-022-00480-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        8
+      ]
+    ],
+    "date-time": "2022-12-08T19:09:05Z",
+    "timestamp": 1670526545000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41370-022-00480-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        9,
+        23
+      ]
+    ]
+  },
+  "references-count": 28,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "480"
+  ],
+  "URL": "https://doi.org/10.1038/s41370-022-00480-3",
+  "relation": {},
+  "ISSN": [
+    "1559-0631",
+    "1559-064X"
+  ],
+  "issn-type": [
+    {
+      "value": "1559-0631",
+      "type": "print"
+    },
+    {
+      "value": "1559-064X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        9,
+        23
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "24 April 2022",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "12 September 2022",
+      "order": 2,
+      "name": "revised",
+      "label": "Revised",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "13 September 2022",
+      "order": 3,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "23 September 2022",
+      "order": 4,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "provider": "SA_EPA",
+    "dataset": "cowandilla-air-quality-monitoring-station-particle-data",
+    "title": "Cowandilla Station (Particle data) - 2025",
+    "url": "https://data.sa.gov.au/data/dataset/38e725dd-6734-4d9f-9b22-272d76a79616/resource/67c50fe3-dc5c-45e7-ad1e-9acc35da4d04/download/cow01p.zip",
+    "license": "cc-by",
+    "resource_id": "67c50fe3-dc5c-45e7-ad1e-9acc35da4d04",
+    "catalogue_modified": "2026-03-30T01:28:11.861116"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "cowandilla-air-quality-monitoring-station-particle-data",
+    "title": "Cowandilla Station (Particle data) - 2026",
+    "url": "https://data.sa.gov.au/data/dataset/38e725dd-6734-4d9f-9b22-272d76a79616/resource/b8bd6d60-870c-4c8d-9065-c4061e75efdc/download/cow01p.zip",
+    "license": "cc-by",
+    "resource_id": "b8bd6d60-870c-4c8d-9065-c4061e75efdc",
+    "catalogue_modified": "2026-08-18T02:28:39.397969"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "kensington-air-quality-monitoring-station-particle-data",
+    "title": "Kensington Station (Particle Data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T14%3A09%3A39.206Z/ken01p.zip",
+    "license": "cc-by",
+    "resource_id": "36347dbd-71e0-4af1-9bcb-80a920818d05",
+    "catalogue_modified": "2014-10-30T09:01:35"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "kensington-air-quality-monitoring-station-particle-data",
+    "title": "Kensington Station (Particle Data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/3ba1c4dd-e52f-4c28-858a-21284c3ee458/resource/19458c61-6d96-4b88-b2c8-744d5fbbe10b/download/ken01p.zip",
+    "license": "cc-by",
+    "resource_id": "19458c61-6d96-4b88-b2c8-744d5fbbe10b",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "kensington-air-quality-monitoring-station-particle-data",
+    "title": "Kensington Station (Particle Data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/3ba1c4dd-e52f-4c28-858a-21284c3ee458/resource/c78fc6da-baa4-47cc-b4df-a97f452bbf9a/download/ken01_p.zip",
+    "license": "cc-by",
+    "resource_id": "c78fc6da-baa4-47cc-b4df-a97f452bbf9a",
+    "catalogue_modified": "2020-01-17T03:39:01.194336"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "kensington-air-quality-monitoring-station-particle-data",
+    "title": "Kensington Station (Particle Data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/3ba1c4dd-e52f-4c28-858a-21284c3ee458/resource/994e37ea-f623-43e2-999f-3fda1f0eed1f/download/ken01p.zip",
+    "license": "cc-by",
+    "resource_id": "994e37ea-f623-43e2-999f-3fda1f0eed1f",
+    "catalogue_modified": "2020-02-25T04:59:04.305856"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T14%3A33%3A33.913Z/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "bfcf3d83-9318-4b36-81e3-023e9c766bf9",
+    "catalogue_modified": "2014-10-30T09:01:23"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/7e4cd34a-f817-444a-9263-071d10716b3c/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "7e4cd34a-f817-444a-9263-071d10716b3c",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/0630cda0-a85b-494b-b393-a54d8709f1e2/download/net01particle.zip",
+    "license": "cc-by",
+    "resource_id": "0630cda0-a85b-494b-b393-a54d8709f1e2",
+    "catalogue_modified": "2020-01-17T03:42:48.580972"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/bcd0b0ee-a3bb-448b-bdd0-a1fb5d101a66/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "bcd0b0ee-a3bb-448b-bdd0-a1fb5d101a66",
+    "catalogue_modified": "2021-02-10T04:56:17.269460"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/75bb382b-d012-4809-a68d-d52ff58c8286/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "75bb382b-d012-4809-a68d-d52ff58c8286",
+    "catalogue_modified": "2022-01-20T05:54:47.440265"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/448bec8e-6c6c-491c-b236-136ba51b187d/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "448bec8e-6c6c-491c-b236-136ba51b187d",
+    "catalogue_modified": "2023-01-23T02:56:16.045389"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/90a17490-86c3-4901-8343-af10aca850e6/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "90a17490-86c3-4901-8343-af10aca850e6",
+    "catalogue_modified": "2024-02-19T05:13:58.153374"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "netley-air-quality-monitoring-station-particle-data",
+    "title": "Netley Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/b46ea120-ed9c-484e-9473-bb5cbe8fd1c8/resource/0b8246d4-1fdd-474d-8ea7-ce8d910d48b4/download/net01p.zip",
+    "license": "cc-by",
+    "resource_id": "0b8246d4-1fdd-474d-8ea7-ce8d910d48b4",
+    "catalogue_modified": "2024-06-14T06:05:20.916984"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle Data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T13%3A46%3A22.444Z/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "62cafa26-008e-45d0-a10a-b2cca110aa77",
+    "catalogue_modified": "2014-10-30T09:01:13"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle Data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/829ed5dc-be2b-45c5-869a-5a16457276fa/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "829ed5dc-be2b-45c5-869a-5a16457276fa",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle Data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/79021367-9bcb-42c6-b3db-41e9f1fbe172/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "79021367-9bcb-42c6-b3db-41e9f1fbe172",
+    "catalogue_modified": "2020-01-17T03:35:26.535437"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle Data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/424ee426-4ebc-4a0b-9c30-113c72ebfe73/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "424ee426-4ebc-4a0b-9c30-113c72ebfe73",
+    "catalogue_modified": "2020-03-19T05:11:27.802126"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/7f3d7994-6ac8-49a1-ad15-f9f4f2a893a2/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "7f3d7994-6ac8-49a1-ad15-f9f4f2a893a2",
+    "catalogue_modified": "2023-01-23T02:47:54.587670"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/a9555f29-9567-4063-986a-e24d2501c5f2/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "a9555f29-9567-4063-986a-e24d2501c5f2",
+    "catalogue_modified": "2024-02-19T04:44:50.776590"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/22b8f632-1dae-4299-820f-2db13011f52a/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "22b8f632-1dae-4299-820f-2db13011f52a",
+    "catalogue_modified": "2025-01-15T02:03:21.052657"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/25ca47e5-9c6c-4db0-8c68-34190edd4b7c/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "25ca47e5-9c6c-4db0-8c68-34190edd4b7c",
+    "catalogue_modified": "2026-01-09T00:39:53.173860"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "elizabeth-air-quality-monitoring-station-particle-data",
+    "title": "Elizabeth Station (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/57f10148-cf98-47e0-9ed6-405c9d29545d/resource/aad0d40a-0eee-4807-801a-0b735b9ebe8e/download/eli01p.zip",
+    "license": "cc-by",
+    "resource_id": "aad0d40a-0eee-4807-801a-0b735b9ebe8e",
+    "catalogue_modified": "2026-08-18T02:30:02.244299"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "peterhead-air-quality-monitoring-station-particle-data",
+    "title": "Peterhead Station (particle data)",
+    "url": "https://data.sa.gov.au/data/dataset/7ec2b05a-45d5-47f5-8622-b414cbdedec1/resource/75ace3a5-5910-4fc0-a399-14e5c6c74a8b/download/pet02p.zip",
+    "license": "cc-by",
+    "resource_id": "75ace3a5-5910-4fc0-a399-14e5c6c74a8b",
+    "catalogue_modified": "2026-06-04T00:43:50.937360"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-augusta-air-quality-monitoring-station-particle-data",
+    "title": "Port Augusta (Particle) - 2017 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/f4cc5baf-8801-43b7-be00-6a0983cb36da/resource/d95d518c-5006-4ef8-a5c8-2677669f631f/download/pta06p.zip",
+    "license": "cc-by",
+    "resource_id": "d95d518c-5006-4ef8-a5c8-2677669f631f",
+    "catalogue_modified": "2020-01-17T04:01:31.160525"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-augusta-air-quality-monitoring-station-particle-data",
+    "title": "Port Augusta (Particle) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/f4cc5baf-8801-43b7-be00-6a0983cb36da/resource/9d3a2ffc-b041-481c-9032-0b7c0e95a399/download/pta06p.zip",
+    "license": "cc-by",
+    "resource_id": "9d3a2ffc-b041-481c-9032-0b7c0e95a399",
+    "catalogue_modified": "2020-06-19T07:04:53.272744"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "mt-barker-air-quality-monitoring-particle-data",
+    "title": "Mount Barker station (particle data)",
+    "url": "https://data.sa.gov.au/data/dataset/e426e515-4309-43aa-9915-2c28f2e84417/resource/a4f21a8b-ffd7-4c2c-9a46-d192ce827e04/download/mtb01p.zip",
+    "license": "cc-by",
+    "resource_id": "a4f21a8b-ffd7-4c2c-9a46-d192ce827e04",
+    "catalogue_modified": "2023-09-27T07:39:40.136056"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (Particle data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/534f77f5-5fa8-4369-88d2-5b9274d3a1e5/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "534f77f5-5fa8-4369-88d2-5b9274d3a1e5",
+    "catalogue_modified": "2016-06-30T23:50:39.320942"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (Particle Data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/a0fa35fb-fedf-4db6-8bbb-668f9959fe42/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "a0fa35fb-fedf-4db6-8bbb-668f9959fe42",
+    "catalogue_modified": "2020-01-17T03:00:18.920461"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (Particle Data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/3a4f2611-499a-4923-9fc6-b6b11d6f2c09/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "3a4f2611-499a-4923-9fc6-b6b11d6f2c09",
+    "catalogue_modified": "2021-02-10T04:16:31.744855"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (Particle Data) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/4f23493f-ce01-4eb0-a915-d4b6499b954f/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "4f23493f-ce01-4eb0-a915-d4b6499b954f",
+    "catalogue_modified": "2022-01-20T05:33:45.225896"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/e0fd745d-806a-4a9e-8b89-c2716dcbddfe/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "e0fd745d-806a-4a9e-8b89-c2716dcbddfe",
+    "catalogue_modified": "2023-01-23T01:57:13.463754"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/06d8a978-03c1-4738-a420-613180b3594f/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "06d8a978-03c1-4738-a420-613180b3594f",
+    "catalogue_modified": "2024-02-19T03:25:07.478135"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/f0900b81-9a63-40a8-9b86-8d94d1c3a2bf/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "f0900b81-9a63-40a8-9b86-8d94d1c3a2bf",
+    "catalogue_modified": "2025-01-15T01:57:39.177974"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/b07d4e24-fdd5-4e45-87b2-2d7b2f79296b/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "b07d4e24-fdd5-4e45-87b2-2d7b2f79296b",
+    "catalogue_modified": "2026-01-09T00:01:16.393878"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "adelaide-cbd-air-quality-monitoring-station-particle",
+    "title": "Adelaide CBD (particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/9fd65c8d-a3bc-474e-9cf2-03a58a837fc0/resource/44c8da62-2e5b-47f5-ba09-5972c46e65a2/download/adl07p.zip",
+    "license": "cc-by",
+    "resource_id": "44c8da62-2e5b-47f5-ba09-5972c46e65a2",
+    "catalogue_modified": "2026-08-18T02:16:07.101661"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle Data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T13%3A17%3A33.850Z/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "221a5cf1-e4b5-4a1d-8fb9-e7d2adb49285",
+    "catalogue_modified": "2014-10-30T09:00:59"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle Data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/fd2e2a5d-9da3-4551-bb36-461d2c0e551f/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "fd2e2a5d-9da3-4551-bb36-461d2c0e551f",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle Data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/ab8893c7-e2e4-48a3-a02b-964089e05418/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "ab8893c7-e2e4-48a3-a02b-964089e05418",
+    "catalogue_modified": "2020-01-17T03:05:51.088033"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle Data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/8d8f3e40-7a03-43c5-87da-8c5ce777911a/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "8d8f3e40-7a03-43c5-87da-8c5ce777911a",
+    "catalogue_modified": "2021-02-10T04:49:48.188004"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle Data) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/de79e96e-1bc4-4f98-81e0-1426ca582f08/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "de79e96e-1bc4-4f98-81e0-1426ca582f08",
+    "catalogue_modified": "2022-01-20T05:50:35.225262"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/b6970ee9-2640-4e81-84a0-4c0a889951d2/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "b6970ee9-2640-4e81-84a0-4c0a889951d2",
+    "catalogue_modified": "2023-01-23T02:40:35.063559"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/a8f59e2d-16f2-416f-a140-e83b6ae62e52/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "a8f59e2d-16f2-416f-a140-e83b6ae62e52",
+    "catalogue_modified": "2024-02-19T04:07:39.807390"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/bbc8d770-b391-42c6-b2b6-b0a8c1c13997/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "bbc8d770-b391-42c6-b2b6-b0a8c1c13997",
+    "catalogue_modified": "2025-01-15T02:01:17.090888"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/a81aaff7-5f9f-41bf-bb5c-de19cabdcfea/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "a81aaff7-5f9f-41bf-bb5c-de19cabdcfea",
+    "catalogue_modified": "2026-01-09T00:38:07.737068"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "christie-downs-air-quality-monitoring-station-particle-data",
+    "title": "Christie Downs (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa/resource/ab3b7887-04a4-471a-bca6-b2c254ed44a1/download/chd01p.zip",
+    "license": "cc-by",
+    "resource_id": "ab3b7887-04a4-471a-bca6-b2c254ed44a1",
+    "catalogue_modified": "2026-08-18T02:27:07.565391"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "sellicks-beach-air-quality-monitoring-station-particle-data",
+    "title": "Sellicks Beach (Particle) – July 2016 to February 2017",
+    "url": "https://data.sa.gov.au/data/dataset/004e54b2-5254-4bd5-84c1-603fff34e344/resource/7e1aa6e0-f800-4074-8ee6-f514a5fbaca1/download/seb01p.zip",
+    "license": "cc-by",
+    "resource_id": "7e1aa6e0-f800-4074-8ee6-f514a5fbaca1",
+    "catalogue_modified": "2017-04-21T05:46:41.761237"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "golden-grove-air-quality-monitoring-station-particle-data",
+    "title": "Golden Grove (Particle) - October 2014 to May 2015",
+    "url": "https://data.sa.gov.au/data/dataset/bc915c44-f5a7-46cd-b3ed-7aa8041544b6/resource/ec15f9f4-59e4-4c37-b56a-b4904bdd0afc/download/ggr01p.zip",
+    "license": "cc-by",
+    "resource_id": "ec15f9f4-59e4-4c37-b56a-b4904bdd0afc",
+    "catalogue_modified": "2019-01-31T00:17:14.727890"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T15%3A55%3A16.754Z/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "f206e6b1-cb91-457f-81ab-6b5fa784eac6",
+    "catalogue_modified": "2014-10-30T09:00:59"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/d2754614-aa65-48a8-96a2-a0bca73cd31c/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "d2754614-aa65-48a8-96a2-a0bca73cd31c",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/b88f1c78-2033-4dcd-866e-88047c57e106/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "b88f1c78-2033-4dcd-866e-88047c57e106",
+    "catalogue_modified": "2020-01-17T04:27:01.533600"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/53ad9cc8-1f2b-47bb-8a70-d0850daa4a6a/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "53ad9cc8-1f2b-47bb-8a70-d0850daa4a6a",
+    "catalogue_modified": "2021-02-10T05:16:50.086302"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/f26bec9f-cf51-4c0b-b220-3a5fb9f7c95f/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "f26bec9f-cf51-4c0b-b220-3a5fb9f7c95f",
+    "catalogue_modified": "2022-01-20T06:15:17.843040"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/cddfeb95-25bf-4bbd-8f42-d35794edfaa4/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "cddfeb95-25bf-4bbd-8f42-d35794edfaa4",
+    "catalogue_modified": "2023-01-23T03:39:42.357652"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/dcb57941-1022-41b1-956f-295ac6bbfe99/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "dcb57941-1022-41b1-956f-295ac6bbfe99",
+    "catalogue_modified": "2024-02-19T06:15:20.778646"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/e1c21987-f180-42be-b88e-c14aa3cde64a/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "e1c21987-f180-42be-b88e-c14aa3cde64a",
+    "catalogue_modified": "2025-01-15T02:15:32.245332"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/118e501b-be54-4aea-a99d-fb860c972242/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "118e501b-be54-4aea-a99d-fb860c972242",
+    "catalogue_modified": "2026-01-09T00:51:12.624323"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-schulz-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Schulz Reserve (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/a29987d5-d3ac-4935-90c3-6871cbdbafde/resource/58aa644d-0e1e-4e5a-8965-206015e699a2/download/why07p.zip",
+    "license": "cc-by",
+    "resource_id": "58aa644d-0e1e-4e5a-8965-206015e699a2",
+    "catalogue_modified": "2026-08-18T02:38:01.540266"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T15%3A47%3A26.169Z/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "83fa2bc9-2af0-41eb-a82d-e3700987b693",
+    "catalogue_modified": "2014-10-30T09:00:56"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/9af823ff-52a7-4a04-a479-65d90ab6ebe2/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "9af823ff-52a7-4a04-a479-65d90ab6ebe2",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/bb5858ec-e72a-40a6-b28b-aa55e81ce814/download/why04_p.zip",
+    "license": "cc-by",
+    "resource_id": "bb5858ec-e72a-40a6-b28b-aa55e81ce814",
+    "catalogue_modified": "2020-01-17T04:25:35.991529"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/b0852c77-aaca-4d85-8f75-89ae56f053c4/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "b0852c77-aaca-4d85-8f75-89ae56f053c4",
+    "catalogue_modified": "2021-02-10T05:14:16.481151"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/356b6afa-635b-43bd-b7d3-72ce07aff9d4/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "356b6afa-635b-43bd-b7d3-72ce07aff9d4",
+    "catalogue_modified": "2022-01-20T06:12:13.859741"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/f781b4d1-410c-4218-8e43-1ec9750cac32/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "f781b4d1-410c-4218-8e43-1ec9750cac32",
+    "catalogue_modified": "2023-01-23T03:34:37.379849"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/20a15014-fd6a-42e5-bfc7-f843b65e2018/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "20a15014-fd6a-42e5-bfc7-f843b65e2018",
+    "catalogue_modified": "2024-02-19T06:09:01.375602"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/29204189-c5e2-4921-bdb8-a19fe29b8bdf/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "29204189-c5e2-4921-bdb8-a19fe29b8bdf",
+    "catalogue_modified": "2025-01-15T02:13:54.955181"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/4fe75ad8-5f35-41b5-83e1-0ffcac712144/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "4fe75ad8-5f35-41b5-83e1-0ffcac712144",
+    "catalogue_modified": "2026-01-09T00:50:11.755547"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "whyalla-walls-street-air-quality-monitoring-station-particle-data",
+    "title": "Whyalla, Walls St (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/0c085f98-5cc4-41f0-9eb9-5be42df73cdb/resource/7b5e6f4e-aef9-45ce-83bb-3f90eb38cc49/download/why04p.zip",
+    "license": "cc-by",
+    "resource_id": "7b5e6f4e-aef9-45ce-83bb-3f90eb38cc49",
+    "catalogue_modified": "2026-08-18T02:37:04.793340"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "birkenhead-naval-reserve-air-quality-monitoring-station-particle-data",
+    "title": "Birkenhead Naval Reserve Station (particle data)",
+    "url": "https://data.sa.gov.au/data/dataset/141f68ca-74fe-42f2-a6a0-20f8496ea033/resource/4d09962d-a5e1-46e8-a5f0-57efab149c3b/download/bir04p.zip",
+    "license": "cc-by",
+    "resource_id": "4d09962d-a5e1-46e8-a5f0-57efab149c3b",
+    "catalogue_modified": "2026-06-04T00:42:37.972655"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T15%3A36%3A01.641Z/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "840c446d-3eb2-47c2-a584-25a904acc1f8",
+    "catalogue_modified": "2014-10-30T09:01:30"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/2617bc4a-235f-46bb-9257-05beea418201/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "2617bc4a-235f-46bb-9257-05beea418201",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/b761ac08-a628-42c1-b72b-8593a309625a/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "b761ac08-a628-42c1-b72b-8593a309625a",
+    "catalogue_modified": "2020-01-17T04:23:51.435672"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/e57a8613-77e2-42c5-a48b-fba55ed1eed0/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "e57a8613-77e2-42c5-a48b-fba55ed1eed0",
+    "catalogue_modified": "2021-02-10T05:11:16.804014"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/2ea62c50-c598-4512-995a-720b03cd53ef/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "2ea62c50-c598-4512-995a-720b03cd53ef",
+    "catalogue_modified": "2022-01-20T06:08:24.018186"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/0a694229-f0ad-4ffb-ae61-82cde03ffd80/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "0a694229-f0ad-4ffb-ae61-82cde03ffd80",
+    "catalogue_modified": "2023-01-23T03:22:36.319771"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/529ca9a8-b7e3-408b-a8de-1cb0f808ea8b/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "529ca9a8-b7e3-408b-a8de-1cb0f808ea8b",
+    "catalogue_modified": "2024-02-19T06:00:19.770973"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/fa33c94e-63cb-48ea-b7ee-bda600e5f016/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "fa33c94e-63cb-48ea-b7ee-bda600e5f016",
+    "catalogue_modified": "2025-01-15T02:11:42.059383"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/abdf4a73-af4e-4b22-b3b4-14b17d83cfa2/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "abdf4a73-af4e-4b22-b3b4-14b17d83cfa2",
+    "catalogue_modified": "2026-01-09T00:45:56.455691"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "port-pirie-oliver-street-air-quality-monitoring-station-particle-data",
+    "title": "Port Pirie, Oliver St (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/d618faaa-c14c-4014-afde-5929b0a96eef/resource/9ab0cdbd-d7b9-4d21-b4dd-b1bff323e891/download/ptp01p.zip",
+    "license": "cc-by",
+    "resource_id": "9ab0cdbd-d7b9-4d21-b4dd-b1bff323e891",
+    "catalogue_modified": "2026-08-18T02:34:45.000460"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T15%3A05%3A43.964Z/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "d2f8046b-391a-4377-a443-0925f95db241",
+    "catalogue_modified": "2014-10-30T09:00:44"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/3fd62a77-8ce3-4fb6-9af5-80d64651e6bf/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "3fd62a77-8ce3-4fb6-9af5-80d64651e6bf",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/2383f0f3-aab3-410e-b698-5c1d745ac0a9/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "2383f0f3-aab3-410e-b698-5c1d745ac0a9",
+    "catalogue_modified": "2020-01-17T03:57:30.203690"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/8b02bc84-7b16-4275-a6ca-06f63559c3c6/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "8b02bc84-7b16-4275-a6ca-06f63559c3c6",
+    "catalogue_modified": "2021-02-10T05:03:55.789503"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/3b0ae7a7-95d2-4fa2-b9dd-192abdbb9b40/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "3b0ae7a7-95d2-4fa2-b9dd-192abdbb9b40",
+    "catalogue_modified": "2022-01-20T05:58:34.265324"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/002f93c6-bf3d-4677-9ee0-8610eeaaedfc/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "002f93c6-bf3d-4677-9ee0-8610eeaaedfc",
+    "catalogue_modified": "2023-01-23T03:05:45.868342"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/7b8d3bdc-5288-45f2-b9ca-cbaf5d5bf814/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "7b8d3bdc-5288-45f2-b9ca-cbaf5d5bf814",
+    "catalogue_modified": "2024-02-19T05:32:13.663127"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/98a0bd92-d1b3-41c4-a9a6-c4d09bbaa186/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "98a0bd92-d1b3-41c4-a9a6-c4d09bbaa186",
+    "catalogue_modified": "2025-01-15T02:06:04.531439"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/5540ce88-a144-43f1-a506-c973d81c597e/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "5540ce88-a144-43f1-a506-c973d81c597e",
+    "catalogue_modified": "2026-01-09T00:41:52.878501"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-2-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 2 Station (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/5a8050ca-da03-4ab4-b174-52fde6b33d01/resource/bc8658d9-f577-45c8-b236-2a766fee1e83/download/nhv01p.zip",
+    "license": "cc-by",
+    "resource_id": "bc8658d9-f577-45c8-b236-2a766fee1e83",
+    "catalogue_modified": "2026-08-18T02:32:22.691956"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "sellicks-beach-lurline-blvd-air-quality-monitoring-station-particle-data",
+    "title": "Sellicks Beach - Lurline Blvd particle data",
+    "url": "https://data.sa.gov.au/data/dataset/dffb4ff1-c4ee-4fcc-97ec-9a5205e9de3f/resource/88cb4da7-79ba-4799-b94d-b7cae50d67c3/download/seb02p.zip",
+    "license": "cc-by",
+    "resource_id": "88cb4da7-79ba-4799-b94d-b7cae50d67c3",
+    "catalogue_modified": "2026-07-24T05:05:08.167344"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) - 2013",
+    "url": "https://data.sa.gov.au/data/storage/f/2014-06-22T12%3A42%3A53.788Z/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "0c2b835b-42b6-41e9-8f86-a28b9ad9368c",
+    "catalogue_modified": "2014-10-30T09:01:19"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) - 2014",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/1919bd06-124f-41ac-8d2f-7e82ae6162b2/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "1919bd06-124f-41ac-8d2f-7e82ae6162b2",
+    "catalogue_modified": null
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) - 2015 to 2019",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/3c3393b3-1577-4639-897b-70c6115bc29d/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "3c3393b3-1577-4639-897b-70c6115bc29d",
+    "catalogue_modified": "2020-01-17T03:02:44.620882"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) - 2020",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/f1e92fe7-d315-474c-ae3d-06ee26619da4/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "f1e92fe7-d315-474c-ae3d-06ee26619da4",
+    "catalogue_modified": "2021-02-10T04:43:56.110695"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2021",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/0676cdac-0359-427c-aa13-75135157bad7/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "0676cdac-0359-427c-aa13-75135157bad7",
+    "catalogue_modified": "2022-01-20T05:41:27.347666"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) - 2022",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/beda7378-406b-4429-9fb3-e747c4278584/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "beda7378-406b-4429-9fb3-e747c4278584",
+    "catalogue_modified": "2023-01-23T02:32:37.059900"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2023",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/b0847256-5917-4e87-951b-e2f9b5e6a78c/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "b0847256-5917-4e87-951b-e2f9b5e6a78c",
+    "catalogue_modified": "2024-02-19T03:32:47.663526"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2024",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/2b99044e-5ede-47dc-9437-b11a14912ee0/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "2b99044e-5ede-47dc-9437-b11a14912ee0",
+    "catalogue_modified": "2025-01-15T01:58:47.995764"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2025",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/24fc656e-f8c0-4ea0-a8f9-35a5b2b85a13/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "24fc656e-f8c0-4ea0-a8f9-35a5b2b85a13",
+    "catalogue_modified": "2026-01-09T00:34:39.727706"
+  },
+  {
+    "provider": "SA_EPA",
+    "dataset": "le-fevre-1-air-quality-monitoring-station-particle-data",
+    "title": "Le Fevre 1 (Particle data) – 2026",
+    "url": "https://data.sa.gov.au/data/dataset/8d65c278-b1e0-44f2-8545-e908681fe2e4/resource/2a4c70b4-25b0-490d-a4b1-0fd2c677f168/download/bir02p.zip",
+    "license": "cc-by",
+    "resource_id": "2a4c70b4-25b0-490d-a4b1-0fd2c677f168",
+    "catalogue_modified": "2026-08-18T02:25:49.601365"
+  }
+]

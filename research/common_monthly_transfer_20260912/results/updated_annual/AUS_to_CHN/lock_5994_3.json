@@ -1,0 +1,26 @@
+{
+  "feature_set": "updated_annual",
+  "direction": "AUS_to_CHN",
+  "seed": 5994,
+  "window_months": 3,
+  "labels_per_fit": 30,
+  "model": "source_partition_kernel",
+  "baseline": "shuffled_source_kernel",
+  "rule": [
+    {
+      "feature": "support_distance",
+      "operator": ">=",
+      "threshold": 1.5912348695629324
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.25,
+  "rmse": 13.317886594387302,
+  "baseline_rmse": 14.559093726476364,
+  "relative_improvement": 0.08525304908449571,
+  "min_year_improvement": 0.06894528544346912,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 740,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 740
+}

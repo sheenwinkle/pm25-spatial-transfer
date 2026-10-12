@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "system": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.3.0",
+    "catboost": "1.2.10",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2",
+    "pyogrio": "0.13.0",
+    "joblib": "1.5.3",
+    "requests": "2.34.2",
+    "matplotlib": "3.11.1",
+    "python-calamine": "0.3.2",
+    "xarray": "2026.7.0",
+    "zarr": "3.3.0",
+    "numcodecs": "0.16.5",
+    "bibtexparser": "1.4.3",
+    "Pillow": "12.3.0"
+  }
+}

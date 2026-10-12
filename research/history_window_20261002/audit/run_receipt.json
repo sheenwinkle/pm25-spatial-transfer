@@ -1,0 +1,90 @@
+{
+  "protocol_sha256": "2eefc012731dfb2450385dd5d82fd83a525c871ee2386050910a6d8ae9cd9d3d",
+  "script_sha256": "6a4bf85d324bf5c095420379d32a843f852ce58006951fd58ff24ee2d0207e08",
+  "inputs": [
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\run_regional.py",
+      "sha256": "584b43ec65f99de4246ca8a5f2f0b1ed368c5c67fa99df427513885f4c451d5a"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\focused_conditions_20260919\\run_focused.py",
+      "sha256": "4044303303465a35ffc0a9059b1eaee524caeb16540726fba652af71d7ce7ebd"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\run_monitor_models.py",
+      "sha256": "02e20047c35d6b6892fcd2bf6bea03fdab19eaab301c80449f3e1f42bf12d7a5"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\regional_station_scope_20260920\\audit\\fixed_city_splits.json",
+      "sha256": "d43f5c9a737625f933ee05f097d493591cc1374e200459b6d2dc9b6e57d0c580"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\corrected_australian_national_models.joblib",
+      "sha256": "8e2137161db3dedb0b65cfc77bcc2b7542bf2be6d456078185fd19acf82907cd"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\results\\all_networks\\monthly_plus_mixing\\CHN_to_AUS\\source_models.joblib",
+      "sha256": "064960f7c89b9decddee42559453c4cf9e24fdb9ffee51fccc4ee3ad2408d9b9"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\all_networks_panel.csv.gz",
+      "sha256": "5b5bdcc6b3ec2295f4942cd1f146c6f0aa3aacfa7678c09fb06a46d24193de31"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\documented_role_panel.csv.gz",
+      "sha256": "e02fb62ef870350894600eb5e09684ccdabdbd3a2e0946a0f7a435a888aa577a"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\data\\membership_all_panel.csv.gz",
+      "sha256": "0c1ffabd223cc7ed055a913d6fac46c614761045d5eed5f373f0908f23cabd57"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\AUS_to_CHN\\5993\\predictions.csv.gz",
+      "sha256": "ad3e311695eeceeb0efee2074cbe31916f93cf9e90a0f25a3b7cd818d227d804"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\AUS_to_CHN\\5994\\predictions.csv.gz",
+      "sha256": "5394bb5c9ec913ba299e12c5c9e50ad83b9158253328c30261141f8c46ab9913"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\AUS_to_CHN\\5995\\predictions.csv.gz",
+      "sha256": "f9f8c8ef3264a1342f68aeef660a529496410b3808a12d22c7a8713e4681c5b2"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\CHN_to_AUS\\5993\\predictions.csv.gz",
+      "sha256": "b44bb013ffbf8b1783804b933d86532689ae3c92acca1e66c750b61c5e56957e"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\CHN_to_AUS\\5994\\predictions.csv.gz",
+      "sha256": "5a49d84c307fbcc11a9a216115126c434f71b975bd9d877d9c9465dcd635e66d"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\documented_role\\CHN_to_AUS\\5995\\predictions.csv.gz",
+      "sha256": "58a752a9271bca3b8afbcf3104e507134d1a61710bb0e87a08110b4f505318ea"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\AUS_to_CHN\\5993\\predictions.csv.gz",
+      "sha256": "327eb15353791195b01e96e9d09d5c1f07314147e17f47cc2d1b3ed318d83a91"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\AUS_to_CHN\\5994\\predictions.csv.gz",
+      "sha256": "fcb466585b6c40ce5b9f451523b916e21b6f3be6044f4463e5bbc9ae28b071bb"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\AUS_to_CHN\\5995\\predictions.csv.gz",
+      "sha256": "42a172566138c9880bbd4447405c03a4fcaf0dd40a375d91556c836defee047b"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\CHN_to_AUS\\5993\\predictions.csv.gz",
+      "sha256": "556cf28b34442f019993c7b3649a9ef76719239def16e370f6752114d251ec6a"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\CHN_to_AUS\\5994\\predictions.csv.gz",
+      "sha256": "e12ef1cb33f67443af354755a579b88e10e05b5ef2cee37546afcfe033ef2c5c"
+    },
+    {
+      "path": "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\boundary_regression_20261001\\results\\membership_all\\CHN_to_AUS\\5995\\predictions.csv.gz",
+      "sha256": "7329b1c58cb7d253bf5f5a5642d802f37bd767d1778f4d58e8da6dd65128030e"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "CHN_to_AUS",
+  "seed": 5993,
+  "window_months": 6,
+  "labels_per_fit": 60,
+  "model": "source_partition_kernel",
+  "baseline": "shuffled_source_kernel",
+  "rule": [
+    {
+      "feature": "distance_to_coast_km",
+      "operator": "<=",
+      "threshold": 80.54060363769531
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.8,
+  "rmse": 3.128221324988077,
+  "baseline_rmse": 3.4175214706119315,
+  "relative_improvement": 0.0846520345553391,
+  "min_year_improvement": 0.20267708331373235,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 770,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 770
+}

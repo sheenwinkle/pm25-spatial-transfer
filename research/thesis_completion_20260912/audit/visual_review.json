@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-09-13",
+  "scope": "All-page contact sheets and representative full-page renders, including maps, model tables, references and repaired overflow locations; not a claim of independent substantive peer review.",
+  "pdf_pages": {"main": 41, "main_zh": 32, "journal": 15},
+  "visual_findings_fixed": [
+    "Crowded logarithmic chart ticks replaced with fixed readable ticks and point comparisons",
+    "Longtable and deferred figure interaction repaired with explicit figure placement",
+    "Missing blank paragraph between Markdown table captions and the next table repaired",
+    "Chinese figure and table labels localized",
+    "Sparse third contents page removed with compact contents spacing"
+  ],
+  "remaining_layout_defects_observed": [],
+  "machine_checks": "See pdf_qa.json and html_qa.json for all-page bounds, embedding and browser checks."
+}

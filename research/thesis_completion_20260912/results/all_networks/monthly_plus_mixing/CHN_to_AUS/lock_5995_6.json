@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 0.465973663711297
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": ">=",
+      "threshold": 1.85
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.061894754715401734,
+  "coverage": 0.39316239316239315,
+  "complexity": 2,
+  "discovery_pass": true
+}

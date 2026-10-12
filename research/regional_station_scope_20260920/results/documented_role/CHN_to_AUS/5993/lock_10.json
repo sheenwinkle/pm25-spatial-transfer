@@ -1,0 +1,34 @@
+{
+  "model": "national_kernel",
+  "rule": [
+    {
+      "feature": "era5_pbl_mean_m",
+      "op": ">=",
+      "threshold": 535.2301
+    },
+    {
+      "feature": "era5_surface_ventilation_mean_m2_s",
+      "op": "<=",
+      "threshold": 3125.8193
+    }
+  ],
+  "complexity": 2,
+  "gain_2019": 0.02901882970055225,
+  "coverage_2019": 0.4067796610169492,
+  "reference_2019": "target_ridge",
+  "n_2019": 24,
+  "fuas_2019": 5,
+  "gain_2020": -0.24441305975069483,
+  "coverage_2020": 0.4166666666666667,
+  "reference_2020": "target_rf",
+  "support_2020": true,
+  "worst_gain": -0.24441305975069483,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.1,
+  "scope": "documented_role",
+  "cohort": "documented_role",
+  "direction": "CHN_to_AUS",
+  "seed": 5993,
+  "protocol_sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026"
+}

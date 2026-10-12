@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "35437acaebb9e26e61afdbdeb46f737bc94de0d7a4828277bfad74affb4995fb",
+  "documents": [
+    {
+      "document": "main",
+      "pages": 41,
+      "returncode": 0,
+      "page_text_identical": true
+    },
+    {
+      "document": "main_zh",
+      "pages": 32,
+      "returncode": 0,
+      "page_text_identical": true
+    },
+    {
+      "document": "journal",
+      "pages": 15,
+      "returncode": 0,
+      "page_text_identical": true
+    }
+  ],
+  "scope": "Fresh local TeX Live compilation of delivered source archive; not a claim of testing inside the user Overleaf account."
+}

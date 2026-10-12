@@ -1,0 +1,34 @@
+{
+  "members": [
+    {
+      "path": "PM2.5 data in China/",
+      "bytes": 0
+    },
+    {
+      "path": "PM2.5 data in China/Homogenized_PM25_data.txt",
+      "bytes": 16769682
+    },
+    {
+      "path": "PM2.5 data in China/Goelocation.txt",
+      "bytes": 36804
+    }
+  ],
+  "daily_rows": 1826,
+  "station_columns": 1309,
+  "geolocation_rows": 1309,
+  "date_min": "2015-01-01",
+  "date_max": "2019-12-31",
+  "columns_first": [
+    "Date",
+    "S0001",
+    "S0002",
+    "S0003",
+    "S0004",
+    "S0005"
+  ],
+  "observed_imputed_cell_flags_in_public_zip": false,
+  "raw_hourly_files_in_public_zip": false,
+  "admitted_as_raw": false,
+  "reason": "Homogenized daily product, not flag-resolved raw hourly measurements.",
+  "sha256": "06e65ca68d7826fa7169bce96f6557356927d30c89f0ab35be8a91e6c90577b5"
+}

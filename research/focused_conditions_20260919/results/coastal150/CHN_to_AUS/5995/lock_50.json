@@ -1,0 +1,38 @@
+{
+  "model": "national_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_wind_mps",
+      "op": ">=",
+      "threshold": 3.465
+    },
+    {
+      "feature": "era5_surface_ventilation_mean_m2_s",
+      "op": ">=",
+      "threshold": 1934.76754
+    },
+    {
+      "feature": "regional_support_distance",
+      "op": ">=",
+      "threshold": 0.8456977305435518
+    }
+  ],
+  "complexity": 3,
+  "gain_2019": 0.24540564673740928,
+  "coverage_2019": 0.5084745762711864,
+  "reference_2019": "target_ridge",
+  "n_2019": 30,
+  "fuas_2019": 4,
+  "gain_2020": -0.0406773892031016,
+  "coverage_2020": 0.5,
+  "reference_2020": "regional_shuffle_5994",
+  "support_2020": true,
+  "worst_gain": -0.0406773892031016,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.5,
+  "scope": "coastal150",
+  "direction": "CHN_to_AUS",
+  "seed": 5995,
+  "protocol_sha256": "f1dc75478632f94459164bc9a08bcc9d96cb0642d028c2538c880e4090b4c305"
+}

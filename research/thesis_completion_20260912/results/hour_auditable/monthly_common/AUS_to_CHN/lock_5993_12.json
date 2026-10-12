@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "op": ">=",
+      "threshold": 9.42
+    },
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 3.084582521005852
+    }
+  ],
+  "reference": "target_rbf",
+  "gain": 0.05558493452044988,
+  "coverage": 0.6286919831223629,
+  "complexity": 2,
+  "discovery_pass": false
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "provider": "quotsoft_secondary_CNEMC_archive",
+    "date": "20231231",
+    "url": "https://quotsoft.net/air/data/china_sites_20231231.csv",
+    "retrieved_at": "2026-09-29T12:10:11.869174+00:00",
+    "status": "downloaded",
+    "bytes": 1896959,
+    "sha256": "4e1c5f87f1abc78e5589cce1f8c2d323a13993fe52b380295677f954eda40dc7",
+    "path": "data\\candidate_raw\\china_sites_20231231.csv",
+    "station_columns": 2026,
+    "pm25_hour_rows": 24,
+    "unique_pm25_hours": 24,
+    "outcome_use": "date_hour_type_only_no_concentration_analysis"
+  },
+  {
+    "provider": "quotsoft_secondary_CNEMC_archive",
+    "date": "20241231",
+    "url": "https://quotsoft.net/air/data/china_sites_20241231.csv",
+    "retrieved_at": "2026-09-29T12:10:14.738318+00:00",
+    "status": "downloaded",
+    "bytes": 1875260,
+    "sha256": "0ce78bf2edfc17c2c7dd5c9298f9b5364ff0b0ac42d6d3dcc2ff20189c791168",
+    "path": "data\\candidate_raw\\china_sites_20241231.csv",
+    "station_columns": 2026,
+    "pm25_hour_rows": 24,
+    "unique_pm25_hours": 24,
+    "outcome_use": "date_hour_type_only_no_concentration_analysis"
+  },
+  {
+    "provider": "quotsoft_secondary_CNEMC_archive",
+    "date": "20251231",
+    "url": "https://quotsoft.net/air/data/china_sites_20251231.csv",
+    "retrieved_at": "2026-09-29T12:10:17.251261+00:00",
+    "status": "downloaded",
+    "bytes": 1687417,
+    "sha256": "0cf94556fd051bb3530a06452924030fe11dfd4e8ab584a55064f46f59914297",
+    "path": "data\\candidate_raw\\china_sites_20251231.csv",
+    "station_columns": 2026,
+    "pm25_hour_rows": 24,
+    "unique_pm25_hours": 24,
+    "outcome_use": "date_hour_type_only_no_concentration_analysis"
+  }
+]

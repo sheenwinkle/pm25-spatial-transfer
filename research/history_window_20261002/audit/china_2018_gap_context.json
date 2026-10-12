@@ -1,0 +1,8 @@
+{
+  "source": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2018.csv.gz",
+  "sha256": "460798f92307fae406b56898bb82fdef6f95a4d97d527fa52000cfdf4e0b7b31",
+  "august_max_valid_days": 19,
+  "december_max_valid_days": 23,
+  "required_days_in_these_months": 24,
+  "raw_archive_cause_resolved": false
+}

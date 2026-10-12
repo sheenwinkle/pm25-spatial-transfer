@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-07-27T15:31:33.317175+00:00",
+  "boundary_source": "data\\raw\\boundaries\\ghs_fua_r2019a\\GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+  "edgar_zip": "data\\raw\\emissions\\edgar_v81_pm25_totals\\TOTALS_emi_nc.zip",
+  "extracted_dir": "data\\interim\\emissions\\edgar_v81_pm25_totals_2012_2022",
+  "edgar_dataset_attrs": {
+    "institution": "European Commission, Joint Research Centre",
+    "source": "https://edgar.jrc.ec.europa.eu/dataset_ap81",
+    "how_to_cite": "https://edgar.jrc.ec.europa.eu/dataset_ap81#howtocite",
+    "copyright_notice": "https://edgar.jrc.ec.europa.eu/dataset_ap81#conditions",
+    "contacts": "https://edgar.jrc.ec.europa.eu/dataset_ap81#info JRC-EDGAR@ec.europa.eu"
+  },
+  "edgar_variable_attrs": {
+    "global_total": "37.93Mt",
+    "substance": "PM2.5",
+    "year": "2012",
+    "units": "Tonnes",
+    "release": "EDGARv8.1",
+    "long_name": "TOTALS",
+    "description": "TOTALS",
+    "ChunkSizes": [
+      1,
+      1800,
+      3600
+    ]
+  },
+  "method": "Point-in-polygon aggregation over positive EDGAR 0.1 degree grid-cell centres within selected GHS-FUA polygons. Total emissions are summed in tonnes; density divides tonnes by GHS-FUA area in km2.",
+  "sample_fua_ids": {
+    "10097.0": "Shanghai",
+    "7704.0": "Beijing",
+    "9711.0": "Guangzhou",
+    "1830.0": "Sydney",
+    "1266.0": "Melbourne",
+    "2355.0": "Brisbane"
+  },
+  "output_panel": "data\\processed\\modelling_panel\\pilot_edgar_pm25_emissions_ghs_fua_2012_2022.csv",
+  "output_summary": "data\\processed\\modelling_panel\\pilot_edgar_pm25_emissions_ghs_fua_2012_2022_summary.csv",
+  "output_merged_panel": "data\\processed\\modelling_panel\\pilot_pm25_edgar_emissions_ghs_fua_2012_2022.csv",
+  "rows": 66
+}

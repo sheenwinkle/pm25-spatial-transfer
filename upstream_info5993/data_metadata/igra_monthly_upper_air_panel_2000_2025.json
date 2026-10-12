@@ -1,0 +1,89 @@
+{
+  "created_at_utc": "2026-08-22T13:42:37.393913+00:00",
+  "source": "NOAA NCEI Integrated Global Radiosonde Archive v2.2 monthly means",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/",
+  "format_url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/igra2-monthly-format.txt",
+  "study_period": [
+    2000,
+    2025
+  ],
+  "pressure_levels_hpa": [
+    9999,
+    1000,
+    925,
+    850,
+    700,
+    500
+  ],
+  "minimum_observations_per_nominal_hour_mean": 10,
+  "candidate_stations": 137,
+  "station_month_rows": 30533,
+  "fua_month_rows": 30313,
+  "fua_count": 126,
+  "archive_records": [
+    {
+      "file": "ghgt_12z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 50043123,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/ghgt_12z-mly.txt.zip"
+    },
+    {
+      "file": "ghgt_00z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 52399459,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/ghgt_00z-mly.txt.zip"
+    },
+    {
+      "file": "temp_12z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 49131385,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/temp_12z-mly.txt.zip"
+    },
+    {
+      "file": "uwnd_00z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 51005081,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/uwnd_00z-mly.txt.zip"
+    },
+    {
+      "file": "temp_00z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 51497014,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/temp_00z-mly.txt.zip"
+    },
+    {
+      "file": "uwnd_12z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 50220373,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/uwnd_12z-mly.txt.zip"
+    },
+    {
+      "file": "vapr_00z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 38606680,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/vapr_00z-mly.txt.zip"
+    },
+    {
+      "file": "vapr_12z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 36555661,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/vapr_12z-mly.txt.zip"
+    },
+    {
+      "file": "vwnd_12z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 48682551,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/vwnd_12z-mly.txt.zip"
+    },
+    {
+      "file": "vwnd_00z-mly.txt.zip",
+      "status": "downloaded",
+      "size_bytes": 49404672,
+      "url": "https://www.ncei.noaa.gov/pub/data/igra/monthly/monthly-por/vwnd_00z-mly.txt.zip"
+    }
+  ],
+  "outputs": [
+    "data\\interim\\aviation\\igra_station_month_2000_2025.csv.gz",
+    "data\\interim\\aviation\\igra_fua_month_2000_2025.csv.gz"
+  ]
+}

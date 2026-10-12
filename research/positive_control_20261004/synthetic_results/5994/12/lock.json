@@ -1,0 +1,9 @@
+{
+  "model": "source_affine",
+  "rule": [],
+  "reference": "target_lgbm",
+  "gain": 0.41471417505498265,
+  "coverage": 1.0,
+  "complexity": 0,
+  "discovery_pass": true
+}

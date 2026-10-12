@@ -1,0 +1,12 @@
+{
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "lightgbm": "4.7.0",
+  "torch": "2.14.1",
+  "adapt": "0.4.5",
+  "tensorflow": "2.21.0",
+  "python": "3.12.14",
+  "system": "Windows-11-10.0.26200-SP0"
+}

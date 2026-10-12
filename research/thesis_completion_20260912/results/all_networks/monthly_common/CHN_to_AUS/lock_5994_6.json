@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 3.855
+    },
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "op": "<=",
+      "threshold": 2.63
+    }
+  ],
+  "reference": "shuffled_kernel_5993",
+  "gain": 0.02386789783644161,
+  "coverage": 0.5652173913043478,
+  "complexity": 2,
+  "discovery_pass": false
+}

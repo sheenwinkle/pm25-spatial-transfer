@@ -1,0 +1,22 @@
+{
+  "source_rows": 326,
+  "source_fuas": 9,
+  "target_rows": 33859,
+  "features": [
+    "monthly_power_temperature_c",
+    "monthly_power_temperature_max_c",
+    "monthly_power_temperature_min_c",
+    "monthly_power_humidity_pct",
+    "monthly_power_wind_mps",
+    "monthly_power_precip_mm_day",
+    "local_season_sin",
+    "local_season_cos",
+    "log_population_density",
+    "distance_to_coast_km",
+    "urban_centre_area_share",
+    "log_fire_count_100km"
+  ],
+  "protocol_sha256": "bb6a49f012049112f1ed5f858109cced28f41172ef4dd0b37a4cf7b656693fe5",
+  "script_sha256": "02e20047c35d6b6892fcd2bf6bea03fdab19eaab301c80449f3e1f42bf12d7a5",
+  "status": "complete"
+}

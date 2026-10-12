@@ -1,0 +1,18 @@
+{
+  "version": "2026-09-12-sequential-v1",
+  "motivation": "Static gates and pre-2019 calibration failed the first retrospective audit; test calibration recency as a separately declared exploratory extension.",
+  "source_models": "Reuse models trained on source data through 2018; no retraining on target audit labels",
+  "sentinel_cities": "Same 10 development FUAs per country and seed as the static experiment",
+  "rolling_target_windows_months": [1, 3, 6, 12, 24],
+  "per_prediction_fitting_labels": "10 times rolling window length, from development cities only and strictly earlier calendar months",
+  "gate_discovery": "2019-2020 development-city predictions, each generated using only earlier development-city labels",
+  "confirmation": "2021-2022 development cities; continue updating using prior labels",
+  "spatial_temporal_audit": "2023-2024 other cities; their targets never enter fitting or rule selection",
+  "models": ["local rolling mean", "local rolling Ridge", "local rolling LightGBM", "source portable affine", "source weighted affine", "source portable augmented Ridge", "source weighted augmented Ridge", "source portable residual Ridge", "source weighted residual Ridge"],
+  "gate_search_and_success": "Unchanged from protocol.json; all windows and seeds reported, no test-selected threshold",
+  "accounting": "Report both labels in each rolling window and distinct labels used across the entire sequence. Do not describe 10 labels per month as only 10 labels for the complete study.",
+  "method_status": "Simple baseline implementations informed by domain adaptation, not implementations of DDGroup, RSD, KMM-CP or CAP",
+  "uncertainty": "Paired clustered bootstrap of fixed-policy errors; not a formal adaptive conformal guarantee",
+  "target": "SatPM FUA-month pseudo-observations, not regulatory monitor values",
+  "claim": "Assess whether recent target-domain calibration permits stable positive transfer, not merely whether updating a local predictor reduces error."
+}

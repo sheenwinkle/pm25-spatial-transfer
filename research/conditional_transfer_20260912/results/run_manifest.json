@@ -1,0 +1,17 @@
+{
+  "protocol_sha256": "69d256f0bf1c60bea0a054f1031cef435cedea307ba6022b8999ff51db68bf09",
+  "script_sha256": "7a3e08e6e2744ddd823860ccf441d7c31993a01df0848acf7fa4cf40cb738acc",
+  "input_provenance": {
+    "panel": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\processed\\modelling_panel\\gridcell_monthly_pm25_multisource_2000_2024.csv.gz",
+    "panel_sha256": "b6ea0feaf964f9b67fdc0dae6ce907c24b2aabcb2a2ae79ee14941bb59e806ba",
+    "fire_sha256": "10f898ad2f162586aabed156c66afc76d6ed25dca4fd610b96cc75835f137550"
+  },
+  "elapsed_seconds": 86.35644626617432,
+  "seeds": [
+    5993,
+    5994,
+    5995
+  ],
+  "status": "completed",
+  "label": "retrospective exploratory"
+}

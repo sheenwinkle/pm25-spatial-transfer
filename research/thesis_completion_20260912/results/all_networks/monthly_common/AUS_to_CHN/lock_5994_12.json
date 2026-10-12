@@ -1,0 +1,20 @@
+{
+  "model": "source_residual",
+  "rule": [
+    {
+      "feature": "support_distance",
+      "op": "<=",
+      "threshold": 1.8109632833995406
+    },
+    {
+      "feature": "distance_to_coast_km",
+      "op": "<=",
+      "threshold": 261.314
+    }
+  ],
+  "reference": "target_lgbm",
+  "gain": 0.026331158863943327,
+  "coverage": 0.3640552995391705,
+  "complexity": 2,
+  "discovery_pass": false
+}

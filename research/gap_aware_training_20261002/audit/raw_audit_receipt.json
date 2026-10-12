@@ -1,0 +1,40 @@
+{
+  "archive": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\data\\raw\\cnemc_zenodo_10836299\\20180101-20181231_CNEMC.zip",
+  "archive_sha256": "b7653a23aa024cee07c9f62fe98192ee5732f43af1b688fdfef12d3555aceb43",
+  "archive_md5_verified": true,
+  "all_365_daily_members_present": true,
+  "inspected_days": 62,
+  "cached_monthly_file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-69aaacd3007481919301f520a145f3f4\\model_outputs\\national_cnemc_validation_20260824\\tables\\national_cnemc_station_monthly_2018.csv.gz",
+  "cached_sha256": "460798f92307fae406b56898bb82fdef6f95a4d97d527fa52000cfdf4e0b7b31",
+  "compared_station_months": 2960,
+  "maximum_mean_error": 2.842170943040401e-14,
+  "daily_duplicate_hours": 0,
+  "invalid_hour_codes": 0,
+  "summary": [
+    {
+      "month": 8,
+      "daily_files": 31,
+      "days_with_20_pm25_hour_rows": 19,
+      "days_with_any_20h_station": 19,
+      "pm25_hour_rows": 573,
+      "required_valid_days": 24,
+      "maximum_cached_station_valid_days": 19,
+      "global_hour_row_deficit_days": 12,
+      "invalid_header_files": 0,
+      "html_404_files": 0
+    },
+    {
+      "month": 12,
+      "daily_files": 31,
+      "days_with_20_pm25_hour_rows": 24,
+      "days_with_any_20h_station": 23,
+      "pm25_hour_rows": 597,
+      "required_valid_days": 24,
+      "maximum_cached_station_valid_days": 23,
+      "global_hour_row_deficit_days": 7,
+      "invalid_header_files": 5,
+      "html_404_files": 5
+    }
+  ],
+  "original_files_modified": false
+}

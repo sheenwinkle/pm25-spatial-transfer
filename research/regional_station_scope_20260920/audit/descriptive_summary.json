@@ -1,0 +1,30 @@
+{
+  "settings": 48,
+  "distinct_rule_model_split_combinations": 30,
+  "selection_passes": 19,
+  "joint_passes": 0,
+  "target_changes": [
+    {
+      "country_iso": "AUS",
+      "common_months": 779,
+      "removed_months": 1,
+      "added_months": 0,
+      "mean_delta": -0.03337362136641434,
+      "mean_absolute_delta": 0.1824073557056892,
+      "max_absolute_delta": 3.9298647502006574,
+      "changed_months": 282
+    },
+    {
+      "country_iso": "CHN",
+      "common_months": 2346,
+      "removed_months": 1107,
+      "added_months": 0,
+      "mean_delta": -0.029080514466342654,
+      "mean_absolute_delta": 0.7102571349485022,
+      "max_absolute_delta": 12.316800609144764,
+      "changed_months": 1406
+    }
+  ],
+  "same_row_comparison_is_postfit_descriptive": true,
+  "comparison_method_spotlight": "regional_kernel (fixed, not selected using audit outcomes)"
+}

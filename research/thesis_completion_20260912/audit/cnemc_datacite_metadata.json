@@ -1,0 +1,151 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.10836299",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.10836299",
+      "prefix": "10.5281",
+      "suffix": "zenodo.10836299",
+      "identifiers": [
+        {
+          "identifier": "oai:zenodo.org:10836299",
+          "identifierType": "oai"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "oai",
+          "alternateIdentifier": "oai:zenodo.org:10836299"
+        }
+      ],
+      "creators": [
+        {
+          "name": "CNEMC (China National Environmental Monitoring Centre)",
+          "nameType": "Organizational",
+          "nameIdentifiers": [],
+          "affiliation": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Hourly surface ozone observations across China"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2024,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2024-03-18",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.10610402",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Historical monitoring data of air quality sites across China (2014-2022) obtained by the China National Environmental Monitoring Center (CNEMC; https://air.cnemc.cn:18007/). Station_information.csv file provides information about the city of the station, as well as latitude and longitude.  In the YYYYMMDD_CNEMC.zip files, the first row is the column names, which are the date, hour, data type, and code for each monitoring point; each of the following rows is for one type of data at a particular moment in time. More information about the data comes from scholar Xiaolei Wang, who has also made other data information available for download on his personal webpage (https://quotsoft.net/air/).",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTI4MS9aRU5PRE8uMTA4MzYyOTk8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iT3JnYW5pemF0aW9uYWwiPkNORU1DIChDaGluYSBOYXRpb25hbCBFbnZpcm9ubWVudGFsIE1vbml0b3JpbmcgQ2VudHJlKTwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkhvdXJseSBzdXJmYWNlIG96b25lIG9ic2VydmF0aW9ucyBhY3Jvc3MgQ2hpbmE8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+WmVub2RvPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI0PC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ii8+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyNC0wMy0xODwvZGF0ZT4KICA8L2RhdGVzPgogIDxhbHRlcm5hdGVJZGVudGlmaWVycz4KICAgIDxhbHRlcm5hdGVJZGVudGlmaWVyIGFsdGVybmF0ZUlkZW50aWZpZXJUeXBlPSJvYWkiPm9haTp6ZW5vZG8ub3JnOjEwODM2Mjk5PC9hbHRlcm5hdGVJZGVudGlmaWVyPgogIDwvYWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1ZlcnNpb25PZiI+MTAuNTI4MS96ZW5vZG8uMTA2MTA0MDI8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJzcGR4Ij5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+SGlzdG9yaWNhbCBtb25pdG9yaW5nIGRhdGEgb2YgYWlyIHF1YWxpdHkgc2l0ZXMgYWNyb3NzIENoaW5hICgyMDE0LTIwMjIpIG9idGFpbmVkIGJ5IHRoZSBDaGluYSBOYXRpb25hbCBFbnZpcm9ubWVudGFsIE1vbml0b3JpbmcgQ2VudGVyIChDTkVNQzsgaHR0cHM6Ly9haXIuY25lbWMuY246MTgwMDcvKS7CoFN0YXRpb25faW5mb3JtYXRpb24uY3N2IGZpbGUgcHJvdmlkZXMgaW5mb3JtYXRpb24gYWJvdXQgdGhlIGNpdHkgb2YgdGhlIHN0YXRpb24sIGFzIHdlbGwgYXMgbGF0aXR1ZGUgYW5kIGxvbmdpdHVkZS4gwqBJbiB0aGUgWVlZWU1NRERfQ05FTUMuemlwIGZpbGVzLCB0aGUgZmlyc3Qgcm93IGlzIHRoZSBjb2x1bW4gbmFtZXMsIHdoaWNoIGFyZSB0aGUgZGF0ZSwgaG91ciwgZGF0YSB0eXBlLCBhbmQgY29kZSBmb3IgZWFjaCBtb25pdG9yaW5nIHBvaW50OyBlYWNoIG9mIHRoZSBmb2xsb3dpbmcgcm93cyBpcyBmb3Igb25lIHR5cGUgb2YgZGF0YSBhdCBhIHBhcnRpY3VsYXIgbW9tZW50IGluIHRpbWUuIE1vcmUgaW5mb3JtYXRpb24gYWJvdXQgdGhlIGRhdGEgY29tZXMgZnJvbSBzY2hvbGFyIFhpYW9sZWkgV2FuZywgd2hvIGhhcyBhbHNvIG1hZGUgb3RoZXIgZGF0YSBpbmZvcm1hdGlvbiBhdmFpbGFibGUgZm9yIGRvd25sb2FkIG9uIGhpcyBwZXJzb25hbCB3ZWJwYWdlIChodHRwczovL3F1b3Rzb2Z0Lm5ldC9haXIvKS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.10836299",
+      "contentUrl": null,
+      "metadataVersion": 0,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 1,
+      "created": "2024-03-19T01:34:08.000Z",
+      "registered": "2024-03-19T01:34:09.000Z",
+      "published": "2024",
+      "updated": "2024-04-03T08:07:11.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.10836299",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": [
+          {
+            "id": "10.5281/zenodo.10610402",
+            "type": "dois"
+          }
+        ]
+      }
+    }
+  }
+}

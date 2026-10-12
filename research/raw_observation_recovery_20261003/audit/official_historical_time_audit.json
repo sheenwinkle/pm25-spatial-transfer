@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "reason": "wrong_period",
+  "rows": 1601,
+  "rows_in_requested_period": 0,
+  "returned_min_asia_shanghai": "2026-10-03 15:00:00+08:00",
+  "returned_max_asia_shanghai": "2026-10-03 15:00:00+08:00",
+  "request_date_parameter": "2018-12-22 12:00:00",
+  "response_sha256": "793877694d0bab02c8ba2f021b67afc07a622c970ea4a64c9dfa1b8a5ba04272",
+  "scope": "Only the tested public request; not a claim that no historical service exists."
+}

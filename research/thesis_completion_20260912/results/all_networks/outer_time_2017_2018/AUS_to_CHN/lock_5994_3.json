@@ -1,0 +1,15 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "wind_mps",
+      "op": ">=",
+      "threshold": 4.335
+    }
+  ],
+  "reference": "target_rbf",
+  "gain": 0.19121631031277486,
+  "coverage": 0.2511415525114155,
+  "complexity": 1,
+  "discovery_pass": true
+}

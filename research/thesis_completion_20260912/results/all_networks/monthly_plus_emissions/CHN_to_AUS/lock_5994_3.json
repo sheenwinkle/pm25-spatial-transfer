@@ -1,0 +1,20 @@
+{
+  "model": "source_kernel",
+  "rule": [
+    {
+      "feature": "log_population_density",
+      "op": ">=",
+      "threshold": 6.2843604
+    },
+    {
+      "feature": "support_distance",
+      "op": ">=",
+      "threshold": 0.4023817224784323
+    }
+  ],
+  "reference": "shuffled_kernel_5995",
+  "gain": -0.004759811298757244,
+  "coverage": 0.2782608695652174,
+  "complexity": 2,
+  "discovery_pass": false
+}

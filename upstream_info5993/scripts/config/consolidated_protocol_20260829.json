@@ -1,0 +1,44 @@
+{
+  "protocol_version": "2026-08-29-v1",
+  "locked_before_2025_target_parsing": true,
+  "registration_scope": "local prospective analysis protocol, not a public preregistration",
+  "primary_claim": "Source-aware predictors can add conditional value within domains, but zero-label China-to-Australia transfer is outside the empirical area of applicability.",
+  "primary_monthly_task": {
+    "target": "SatPM V6.GL.03 monthly PM2.5",
+    "period": [2000, 2024],
+    "selection_period": [2000, 2020],
+    "challenge_period": [2021, 2024],
+    "estimator": "LightGBM regression with parameters fixed from the pre-2021 validation workflow",
+    "source_sets": [
+      "structural_core",
+      "structural_core_plus_aviation",
+      "structural_core_plus_fire",
+      "structural_core_plus_aviation_plus_fire",
+      "history_enhanced_full"
+    ],
+    "primary_metrics": ["RMSE", "MAE", "R2", "FUA-macro RMSE"],
+    "required_strata": ["pooled", "China", "Australia"],
+    "target_based_outlier_trimming": false
+  },
+  "australia_2025_external_task": {
+    "target": "NSW, Queensland and Victoria regulatory weekly PM2.5",
+    "train_period": [2015, 2024],
+    "external_test_period": [2025, 2025],
+    "primary_estimator": "HistGradientBoostingRegressor with fixed hyperparameters",
+    "primary_information_set": "structural station/FUA attributes, calendar, weekly aviation weather, MODIS fire and ERA5 boundary-layer height; no current or lagged regulatory target and no 2025 SatPM",
+    "secondary_information_set": "same predictors with a one-week regulatory target lag, evaluated and labelled as conditional updating",
+    "baselines": ["station-month climatology through 2024", "state-month climatology through 2024"],
+    "primary_metrics": ["RMSE", "MAE", "R2", "station-macro RMSE", "state-macro RMSE"],
+    "target_based_outlier_trimming": false,
+    "minimum_valid_days_per_week": 5,
+    "note": "Queensland and Victoria source files were retrieved before this protocol file was written, but no 2025 PM2.5 values were parsed and no 2025 metric was computed before locking this protocol."
+  },
+  "interpretation_boundaries": [
+    "SatPM is a modelled exposure surface rather than regulatory ground truth.",
+    "Current-period meteorology defines retrospective reconstruction or nowcasting, not ex-ante forecasting.",
+    "Feature attribution is predictive and not causal.",
+    "MODIS active-fire detections are hotspots, not unique fire events or burned area.",
+    "AOD is excluded from the primary SatPM predictor set to reduce target circularity.",
+    "All 2000-2014 Australian weekly values remain labelled model hindcasts rather than observations."
+  ]
+}

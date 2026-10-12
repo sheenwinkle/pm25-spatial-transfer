@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "configurations": 90,
+  "metric_records_recomputed": 10080,
+  "max_metric_abs_difference": 2.2737367544323206e-13,
+  "frozen_rule_rows_checked": 783306,
+  "chronological_fits_checked": 4302,
+  "both_audits_pass": 0,
+  "scope": "Saved predictions, exact rules, split identities and fitting-time bounds checked; model internals not independently reimplemented."
+}

@@ -1,0 +1,9 @@
+{
+  "started": "2026-09-19T19:41:23",
+  "protocol_sha256": "f1dc75478632f94459164bc9a08bcc9d96cb0642d028c2538c880e4090b4c305",
+  "script_sha256": "4044303303465a35ffc0a9059b1eaee524caeb16540726fba652af71d7ce7ebd",
+  "inputs": {
+    "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\data\\all_networks_model_panel.csv.gz": "f23d7bad381de2f8b252567656b01085de48d79dfa33c02c92774679966179d2",
+    "C:\\Users\\USER\\Documents\\ChatGPT\\Dissertation Program\\research\\thesis_completion_20260912\\data\\common_era5_month_2015_2022.csv.gz": "97f2f57af247bf3f3919f91bb734da7bed18269b16ecc549d5cb3ecb3dd2f02b"
+  }
+}

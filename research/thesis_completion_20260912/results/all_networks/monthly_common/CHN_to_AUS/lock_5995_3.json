@@ -1,0 +1,20 @@
+{
+  "model": "weighted_source_kernel",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": "<=",
+      "threshold": 2.70805020110221
+    },
+    {
+      "feature": "log_population_density",
+      "op": ">=",
+      "threshold": 6.1015954
+    }
+  ],
+  "reference": "target_rf",
+  "gain": 0.030612328883765194,
+  "coverage": 0.29914529914529914,
+  "complexity": 2,
+  "discovery_pass": false
+}

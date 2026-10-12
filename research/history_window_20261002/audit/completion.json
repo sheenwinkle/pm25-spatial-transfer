@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-10-02T02:44:52.614816+00:00",
+  "configurations": 48,
+  "new_fitted_configurations": 37,
+  "reused_configurations": 11,
+  "primary_window": 3,
+  "primary_model": "regional_kernel",
+  "new_external_labels_used": false,
+  "new_condition_search": false
+}

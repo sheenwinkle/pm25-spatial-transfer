@@ -1,0 +1,15 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "op": "<=",
+      "threshold": 1.9459101490553128
+    }
+  ],
+  "reference": "target_ridge",
+  "gain": 0.04462936888416669,
+  "coverage": 0.2689075630252101,
+  "complexity": 1,
+  "discovery_pass": false
+}

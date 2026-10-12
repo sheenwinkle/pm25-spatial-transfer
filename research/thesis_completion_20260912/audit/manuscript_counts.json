@@ -1,0 +1,17 @@
+{
+  "thesis_en": {
+    "english_alphabetic_words": 12727,
+    "chinese_characters": 0,
+    "citation_keys": 31
+  },
+  "thesis_zh": {
+    "english_alphabetic_words": 126,
+    "chinese_characters": 19756,
+    "citation_keys": 30
+  },
+  "journal_en": {
+    "english_alphabetic_words": 3019,
+    "chinese_characters": 0,
+    "citation_keys": 21
+  }
+}

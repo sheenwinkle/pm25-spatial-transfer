@@ -1,0 +1,33 @@
+{
+  "dataset": "EDGAR v8.1 PM2.5 TOTALS NetCDF emissions",
+  "source_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/v81_FT2022_AP_new/PM2.5/TOTALS/TOTALS_emi_nc.zip",
+  "local_path": "data\\raw\\emissions\\edgar_v81_pm25_totals\\TOTALS_emi_nc.zip",
+  "size_bytes": 856268462,
+  "sha256": "a0d4c3553030926e7c41d75d26a416a82e797308ed0c1d0498ebe53d488f5367",
+  "created_at_utc": "2026-07-27T15:28:20.266219+00:00",
+  "zip_file_count": 54,
+  "first_files": [
+    "v8.1_FT2022_AP_PM2.5_1970_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1971_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1972_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1973_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1974_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1975_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1976_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1977_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1978_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_1979_TOTALS_emi.nc"
+  ],
+  "last_files": [
+    "v8.1_FT2022_AP_PM2.5_2014_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2015_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2016_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2017_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2018_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2019_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2020_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2021_TOTALS_emi.nc",
+    "v8.1_FT2022_AP_PM2.5_2022_TOTALS_emi.nc",
+    "_readme.html"
+  ]
+}

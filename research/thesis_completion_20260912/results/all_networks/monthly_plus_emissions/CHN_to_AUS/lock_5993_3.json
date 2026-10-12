@@ -1,0 +1,20 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "humidity_pct",
+      "op": "<=",
+      "threshold": 74.935
+    },
+    {
+      "feature": "log_fire_count_100km",
+      "op": "<=",
+      "threshold": 2.772588722239781
+    }
+  ],
+  "reference": "shuffled_kernel_5994",
+  "gain": 0.007324603639315308,
+  "coverage": 0.31932773109243695,
+  "complexity": 2,
+  "discovery_pass": false
+}

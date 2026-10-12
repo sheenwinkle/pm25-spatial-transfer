@@ -1,0 +1,48 @@
+{
+  "model": "national_residual",
+  "rule": [
+    {
+      "feature": "monthly_power_temperature_c",
+      "op": ">=",
+      "threshold": 4.352
+    },
+    {
+      "feature": "monthly_power_humidity_pct",
+      "op": ">=",
+      "threshold": 68.863
+    },
+    {
+      "feature": "era5_pbl_low_fraction",
+      "op": "<=",
+      "threshold": 0.7
+    },
+    {
+      "feature": "log_population_density",
+      "op": ">=",
+      "threshold": 7.2856355
+    }
+  ],
+  "complexity": 4,
+  "gain_2019": 0.02682123777036116,
+  "coverage_2019": 0.5416666666666666,
+  "reference_2019": "target_lgbm",
+  "n_2019": 65,
+  "fuas_2019": 8,
+  "gain_2020": 0.006197260221658674,
+  "coverage_2020": 0.5833333333333334,
+  "reference_2020": "target_extra",
+  "support_2020": true,
+  "worst_gain": 0.006197260221658674,
+  "discovery_pass": false,
+  "status": "locked",
+  "floor": 0.5,
+  "scope": "membership_all",
+  "cohort": "membership_all",
+  "direction": "AUS_to_CHN",
+  "seed": 5995,
+  "protocol_sha256": "e2652a4afefb3b351b80a9db6d8872f9a9700e7203266148298802ddf59a8026",
+  "original_discovery_pass": false,
+  "corrected_gain_2019": 0.02748360968253194,
+  "corrected_gain_2020": 0.002053835646297686,
+  "original_lock_sha256": "bfe4b55390de619ea1c85a76893b00326a0212fe2aa21537ed13dd9f6c85377f"
+}

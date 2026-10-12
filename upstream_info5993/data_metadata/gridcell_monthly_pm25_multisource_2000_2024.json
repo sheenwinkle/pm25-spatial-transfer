@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-08-22T14:30:24.892555+00:00",
+  "study_period": [
+    2000,
+    2024
+  ],
+  "temporal_unit": "month",
+  "rows": 1319700,
+  "cell_count": 4399,
+  "fua_count": 1559,
+  "month_count": 300,
+  "country_rows": {
+    "CHN": 1219500,
+    "AUS": 100200
+  },
+  "surface_source_rows": 510629,
+  "aviation_icao_source_rows": 304603,
+  "igra_source_rows": 304521,
+  "annual_covariate_policy": "Observed annual covariates are repeated within year through 2022; 2022 is explicitly carried forward to 2023-2024 with a provenance flag.",
+  "annual_auxiliary_consistency": {
+    "comparable_rows": 101177,
+    "mean_difference_ug_m3": 3.741252303869687e-06,
+    "mae_ug_m3": 6.116053727979484e-06,
+    "rmse_ug_m3": 0.0005370747408338036,
+    "correlation": 0.9999999995615053
+  },
+  "outputs": [
+    "data\\processed\\modelling_panel\\gridcell_monthly_pm25_multisource_2000_2024.csv.gz",
+    "data\\processed\\modelling_panel\\gridcell_annual_auxiliary_from_monthly_2000_2024.csv.gz"
+  ]
+}

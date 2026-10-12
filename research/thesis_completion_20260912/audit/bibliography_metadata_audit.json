@@ -1,0 +1,2396 @@
+[
+  {
+    "key": "vandonkelaar2021satpm",
+    "original_title": "Monthly global estimates of fine particulate matter and their uncertainty",
+    "doi": "10.1021/acs.est.1c05309",
+    "url": null,
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Monthly Global Estimates of Fine Particulate Matter and Their Uncertainty"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2998-8521",
+        "authenticated-orcid": true,
+        "given": "Aaron",
+        "family": "van Donkelaar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+          },
+          {
+            "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8443-7979",
+        "authenticated-orcid": true,
+        "given": "Melanie S.",
+        "family": "Hammer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liam",
+        "family": "Bindle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9103-9343",
+        "authenticated-orcid": true,
+        "given": "Michael",
+        "family": "Brauer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Population and Public Health, University of British Columbia, Vancouver, British Columbia V6T 1Z3, Canada"
+          },
+          {
+            "name": "Institute for Health Metrics and Evaluation, University of Washington, Seattle, Washington 98195, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffery R.",
+        "family": "Brook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario M5T 1P8, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael J.",
+        "family": "Garay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California 91109, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N. Christina",
+        "family": "Hsu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olga V.",
+        "family": "Kalashnikova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California 91109, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ralph A.",
+        "family": "Kahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Colin",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert C.",
+        "family": "Levy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexei",
+        "family": "Lyapustin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew M.",
+        "family": "Sayer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth Sciences Division, NASA Goddard Space Flight Center, Greenbelt, Maryland 20771, United States"
+          },
+          {
+            "name": "Goddard Earth Sciences Technology and Research, Universities Space Research Association, Columbia, Maryland 21046, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Randall V.",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy, Environmental, and Chemical Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, United States"
+          },
+          {
+            "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 3J5, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "wei2023globalhighpm25",
+    "original_title": "First close insight into global daily gapless 1 km {PM2.5} pollution, variability, and health impact",
+    "doi": "10.1038/s41467-023-43862-3",
+    "url": null,
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "First close insight into global daily gapless 1 km PM2.5 pollution, variability, and health impact"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8803-7056",
+        "authenticated-orcid": false,
+        "given": "Jing",
+        "family": "Wei",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6737-382X",
+        "authenticated-orcid": false,
+        "given": "Zhanqing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexei",
+        "family": "Lyapustin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7334-0490",
+        "authenticated-orcid": false,
+        "given": "Jun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3482-6460",
+        "authenticated-orcid": false,
+        "given": "Oleg",
+        "family": "Dubovik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel",
+        "family": "Schwartz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8992-7026",
+        "authenticated-orcid": false,
+        "given": "Chi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Song",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2752-7924",
+        "authenticated-orcid": false,
+        "given": "Tong",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "knibbs2018australia",
+    "original_title": "Satellite-based land-use regression for continental-scale long-term ambient {PM2.5} exposure assessment in Australia",
+    "doi": "10.1021/acs.est.8b02328",
+    "url": null,
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Satellite-Based Land-Use Regression for Continental-Scale Long-Term Ambient PM<sub>2.5</sub> Exposure Assessment in Australia"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0399-2370",
+        "authenticated-orcid": true,
+        "given": "Luke D.",
+        "family": "Knibbs",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Medicine, School of Public Health, The University of Queensland, Herston, Queensland 4006, Australia"
+          },
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aaron",
+        "family": "van Donkelaar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 4R2, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Randall V.",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Atmospheric Science, Dalhousie University, Halifax, Nova Scotia B3H 4R2, Canada"
+          },
+          {
+            "name": "Smithsonian Astrophysical Observatory, Harvard-Smithsonian Center for Astrophysics, Cambridge, Massachusetts 02138, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8076-5457",
+        "authenticated-orcid": true,
+        "given": "Matthew J.",
+        "family": "Bechle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, Washington 98195, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9103-9343",
+        "authenticated-orcid": true,
+        "given": "Michael",
+        "family": "Brauer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Population and Public Health, The University of British Columbia, Vancouver, British Columbia V6T 1Z3, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David D.",
+        "family": "Cohen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Accelerator Science, Australian Nuclear Science and Technology Organisation, Locked Bag 2001, Kirrawee DC, New South Wales 2232, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christine T.",
+        "family": "Cowie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "South Western Sydney Clinical School, The University of New South Wales, Liverpool, New South Wales 2170, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mila",
+        "family": "Dirgawati",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Population and Global Health, The University of Western Australia, Perth, Western Australia 6009, Australia"
+          },
+          {
+            "name": "Environmental Engineering, Institut Teknologi Nasional, Bandung, Jawa Barat 40213, Indonesia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuming",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "Department of Epidemiology and Biostatistics, School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ivan C.",
+        "family": "Hanigan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "School of Public Health, The University of Sydney, Sydney, New South Wales 2006, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fay H.",
+        "family": "Johnston",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "Menzies Institute for Medical Research, The University of Tasmania, Hobart, Tasmania 7000, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guy B.",
+        "family": "Marks",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "South Western Sydney Clinical School, The University of New South Wales, Liverpool, New South Wales 2170, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julian D.",
+        "family": "Marshall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Washington, Seattle, Washington 98195, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gavin",
+        "family": "Pereira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Public Health, Curtin University, Bentley, Washington 6102, Australia"
+          },
+          {
+            "name": "Telethon Kids Institute, The University of Western Australia, Perth, Western Australia 6008, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bin",
+        "family": "Jalaludin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "Population Health, South Western Sydney Local Health District, Liverpool, New South Wales 2170, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane S.",
+        "family": "Heyworth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "School of Population and Global Health, The University of Western Australia, Perth, Western Australia 6009, Australia"
+          },
+          {
+            "name": "Clean Air and Urban Landscapes Hub, National Environmental Science Programme, Melbourne, Victoria 3010, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geoffrey G.",
+        "family": "Morgan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Air Pollution, Energy and Health Research, Glebe, New South Wales 2037, Australia"
+          },
+          {
+            "name": "School of Public Health, The University of Sydney, Sydney, New South Wales 2006, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adrian G.",
+        "family": "Barnett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Public Health and Social Work, Queensland University of Technology, Kelvin Grove, Queensland 4059, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "li2022airportvisibility",
+    "original_title": "Estimation of Fine Particulate Matter in an Arid Area from Visibility Based on Machine Learning",
+    "doi": "10.1038/s41370-022-00480-3",
+    "url": "https://www.nature.com/articles/s41370-022-00480-3",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Estimation of fine particulate matter in an arid area from visibility based on machine learning"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7682-4311",
+        "authenticated-orcid": false,
+        "given": "Jing",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Choong-Min",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jack M.",
+        "family": "Wolfson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Barrak",
+        "family": "Alahmad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ali",
+        "family": "Al-Hemoud",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Garshick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Petros",
+        "family": "Koutrakis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "su2022yrd",
+    "original_title": "Understanding the Distribution and Drivers of {PM2.5} Concentrations in the Yangtze River Delta from 2015 to 2020 Using Random Forest Regression",
+    "doi": "10.1007/s10661-022-09934-5",
+    "url": "https://link.springer.com/article/10.1007/s10661-022-09934-5",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Understanding the distribution and drivers of PM2.5 concentrations in the Yangtze River Delta from 2015 to 2020 using Random Forest Regression"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0890-7198",
+        "authenticated-orcid": false,
+        "given": "Zhangwen",
+        "family": "Su",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lin",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yimin",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Honghao",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "hou2025urbandrivers",
+    "original_title": "Evaluating Drivers of {PM2.5} Air Pollution at Urban Scales Using Interpretable Machine Learning",
+    "doi": "10.1016/j.wasman.2024.11.025",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0956053X2400583X",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Evaluating drivers of PM2.5 air pollution at urban scales using interpretable machine learning"
+    ],
+    "registered_authors": [
+      {
+        "given": "Yali",
+        "family": "Hou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qunwei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "roberts2017cv",
+    "original_title": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "doi": "10.1111/ecog.02881",
+    "url": null,
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "registered_authors": [
+      {
+        "given": "David R.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane",
+        "family": "Elith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Schröder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Warton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          },
+          {
+            "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "meyer2021aoa",
+    "original_title": "Predicting into unknown space? Estimating the area of applicability of spatial prediction models",
+    "doi": "10.1111/2041-210X.13650",
+    "url": null,
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Predicting into unknown space? Estimating the area of applicability of spatial prediction models"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0556-0210",
+        "authenticated-orcid": false,
+        "given": "Hanna",
+        "family": "Meyer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Landscape Ecology Westfälische Wilhelms‐Universität Münster Münster Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8049-7069",
+        "authenticated-orcid": false,
+        "given": "Edzer",
+        "family": "Pebesma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Geoinformatics Westfälische Wilhelms‐Universität Münster Münster Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ke2017lightgbm",
+    "original_title": "{LightGBM}: A highly efficient gradient boosting decision tree",
+    "doi": null,
+    "url": "https://proceedings.neurips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "grinsztajn2022tabular",
+    "original_title": "Why Do Tree-Based Models Still Outperform Deep Learning on Typical Tabular Data?",
+    "doi": "10.52202/068431-0037",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/0378c7692da36807bdec87ab043cdadc-Abstract-Datasets_and_Benchmarks.html",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Why Do Tree-Based Models Still Outperform Deep Learning on Typical Tabular Data?"
+    ],
+    "registered_authors": [
+      {
+        "given": "Leo",
+        "family": "Grinsztajn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edouard",
+        "family": "Oyallon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gael",
+        "family": "Varoquaux",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "mcelfresh2023tabular",
+    "original_title": "When Do Neural Nets Outperform Boosted Trees on Tabular Data?",
+    "doi": "10.52202/075280-3337",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f06d5ebd4ff40b40dd97e30cee632123-Abstract-Datasets_and_Benchmarks.html",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "When Do Neural Nets Outperform Boosted Trees on Tabular Data?"
+    ],
+    "registered_authors": [
+      {
+        "given": "Duncan",
+        "family": "McElfresh",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sujay",
+        "family": "Khandagale",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Valverde",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vishak Prasad",
+        "family": "C",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ganesh",
+        "family": "Ramakrishnan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Micah",
+        "family": "Goldblum",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Colin",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ganin2016dann",
+    "original_title": "Domain-adversarial training of neural networks",
+    "doi": null,
+    "url": "https://jmlr.org/papers/v17/15-239.html",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "giglio2016modis",
+    "original_title": "The Collection 6 {MODIS} Active Fire Detection Algorithm and Fire Products",
+    "doi": "10.1016/j.rse.2016.02.054",
+    "url": "https://doi.org/10.1016/j.rse.2016.02.054",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "The collection 6 MODIS active fire detection algorithm and fire products"
+    ],
+    "registered_authors": [
+      {
+        "given": "Louis",
+        "family": "Giglio",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfrid",
+        "family": "Schroeder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher O.",
+        "family": "Justice",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "hersbach2020era5",
+    "original_title": "The {ERA5} Global Reanalysis",
+    "doi": "10.1002/qj.3803",
+    "url": "https://doi.org/10.1002/qj.3803",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "The ERA5 global reanalysis"
+    ],
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5330-7071",
+        "authenticated-orcid": false,
+        "given": "Hans",
+        "family": "Hersbach",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bill",
+        "family": "Bell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul",
+        "family": "Berrisford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shoji",
+        "family": "Hirahara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Japan Meteorological Agency  Tokyo Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "András",
+        "family": "Horányi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5997-290X",
+        "authenticated-orcid": false,
+        "given": "Joaquín",
+        "family": "Muñoz‐Sabater",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0518-100X",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Nicolas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carole",
+        "family": "Peubey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Raluca",
+        "family": "Radu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2611-487X",
+        "authenticated-orcid": false,
+        "given": "Dinand",
+        "family": "Schepers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7327-6310",
+        "authenticated-orcid": false,
+        "given": "Adrian",
+        "family": "Simmons",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cornel",
+        "family": "Soci",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4469-7949",
+        "authenticated-orcid": false,
+        "given": "Saleh",
+        "family": "Abdalla",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1999-1823",
+        "authenticated-orcid": false,
+        "given": "Xavier",
+        "family": "Abellan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1745-3634",
+        "authenticated-orcid": false,
+        "given": "Gianpaolo",
+        "family": "Balsamo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1967-3382",
+        "authenticated-orcid": false,
+        "given": "Peter",
+        "family": "Bechtold",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1675-6967",
+        "authenticated-orcid": false,
+        "given": "Gionata",
+        "family": "Biavati",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7423-5118",
+        "authenticated-orcid": false,
+        "given": "Jean",
+        "family": "Bidlot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimo",
+        "family": "Bonavita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4540-0687",
+        "authenticated-orcid": false,
+        "given": "Giovanna",
+        "family": "De Chiara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Per",
+        "family": "Dahlgren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Norwegian Meteorological Institute  Oslo Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8321-9125",
+        "authenticated-orcid": false,
+        "given": "Dick",
+        "family": "Dee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2279-9717",
+        "authenticated-orcid": false,
+        "given": "Michail",
+        "family": "Diamantakis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rossana",
+        "family": "Dragani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4880-5329",
+        "authenticated-orcid": false,
+        "given": "Johannes",
+        "family": "Flemming",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3596-8287",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Forbes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1544-9612",
+        "authenticated-orcid": false,
+        "given": "Manuel",
+        "family": "Fuentes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Geer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0379-6353",
+        "authenticated-orcid": false,
+        "given": "Leo",
+        "family": "Haimberger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Meteorology and Geophysics Universität Wien  Vienna Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4810-9593",
+        "authenticated-orcid": false,
+        "given": "Sean",
+        "family": "Healy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3180-5157",
+        "authenticated-orcid": false,
+        "given": "Robin J.",
+        "family": "Hogan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elías",
+        "family": "Hólm",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2644-8068",
+        "authenticated-orcid": false,
+        "given": "Marta",
+        "family": "Janisková",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8046-765X",
+        "authenticated-orcid": false,
+        "given": "Sarah",
+        "family": "Keeley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2808-0463",
+        "authenticated-orcid": false,
+        "given": "Patrick",
+        "family": "Laloyaux",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philippe",
+        "family": "Lopez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3530-8104",
+        "authenticated-orcid": false,
+        "given": "Cristina",
+        "family": "Lupu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabor",
+        "family": "Radnoti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7374-3820",
+        "authenticated-orcid": false,
+        "given": "Patricia",
+        "family": "de Rosnay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Iryna",
+        "family": "Rozum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3092-0775",
+        "authenticated-orcid": false,
+        "given": "Freja",
+        "family": "Vamborg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3041-076X",
+        "authenticated-orcid": false,
+        "given": "Sebastien",
+        "family": "Villaume",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3214-5266",
+        "authenticated-orcid": false,
+        "given": "Jean‐Noël",
+        "family": "Thépaut",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Centre for Medium‐Range Weather Forecasts  Reading UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "edgar2024ap81",
+    "original_title": "{EDGAR} v8.1 global air pollutant emissions",
+    "doi": null,
+    "url": "https://edgar.jrc.ec.europa.eu/dataset_ap81",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "ghsfua2019",
+    "original_title": "{GHS} functional urban areas {R2019A}",
+    "doi": null,
+    "url": "https://data.europa.eu/89h/347f0337-f2da-4592-87b3-e25975ec2c95",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "durre2018igra",
+    "original_title": "Enhancing the Data Coverage in the Integrated Global Radiosonde Archive",
+    "doi": "10.1175/JTECH-D-17-0223.1",
+    "url": "https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "Enhancing the Data Coverage in the Integrated Global Radiosonde Archive"
+    ],
+    "registered_authors": [
+      {
+        "given": "Imke",
+        "family": "Durre",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xungang",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ERT, Inc., Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Russell S.",
+        "family": "Vose",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott",
+        "family": "Applequist",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeff",
+        "family": "Arnfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/National Centers for Environmental Information, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "smith2011isd",
+    "original_title": "The Integrated Surface Database: Recent Developments and Partnerships",
+    "doi": "10.1175/2011BAMS3015.1",
+    "url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+    "status": "Crossref_registered_metadata_checked",
+    "registered_title": [
+      "The Integrated Surface Database: Recent Developments and Partnerships"
+    ],
+    "registered_authors": [
+      {
+        "given": "Adam",
+        "family": "Smith",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "NOAA's National Climatic Data Center, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Neal",
+        "family": "Lott",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "NOAA's National Climatic Data Center, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Russ",
+        "family": "Vose",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "NOAA's National Climatic Data Center, Asheville, North Carolina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "cnemc2024zenodo",
+    "original_title": "Hourly Surface Ozone Observations across China",
+    "doi": "10.5281/zenodo.10836299",
+    "url": "https://doi.org/10.5281/zenodo.10836299",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "nsw2026airqualityapi",
+    "original_title": "Air Quality Data API",
+    "doi": null,
+    "url": "https://data.airquality.nsw.gov.au/docs/index.html",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "qld2026airquality",
+    "original_title": "Air Quality Monitoring Data Download",
+    "doi": null,
+    "url": "https://apps.des.qld.gov.au/air-quality/download/",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  },
+  {
+    "key": "vic2026airwatch",
+    "original_title": "EPA AirWatch: All Sites Air Quality Hourly Averages",
+    "doi": null,
+    "url": "https://discover.data.vic.gov.au/en_AU/dataset/epa-air-watch-all-sites-air-quality-hourly-averages-yearly",
+    "status": "primary_web_or_inherited_metadata_see_source_ledger"
+  }
+]

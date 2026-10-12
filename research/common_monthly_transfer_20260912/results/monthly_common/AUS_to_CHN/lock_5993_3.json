@@ -1,0 +1,26 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "AUS_to_CHN",
+  "seed": 5993,
+  "window_months": 3,
+  "labels_per_fit": 30,
+  "model": "source_partition_kernel",
+  "baseline": "shuffled_source_kernel",
+  "rule": [
+    {
+      "feature": "monthly_power_precip_mm_day",
+      "operator": ">=",
+      "threshold": 4.21
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.25416666666666665,
+  "rmse": 8.408307432393606,
+  "baseline_rmse": 9.374534733946787,
+  "relative_improvement": 0.10306936066430128,
+  "min_year_improvement": 0.6342270181147516,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 740,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 740
+}

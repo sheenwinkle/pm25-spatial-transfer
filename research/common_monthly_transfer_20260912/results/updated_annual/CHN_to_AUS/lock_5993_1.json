@@ -1,0 +1,31 @@
+{
+  "feature_set": "updated_annual",
+  "direction": "CHN_to_AUS",
+  "seed": 5993,
+  "window_months": 1,
+  "labels_per_fit": 10,
+  "model": "source_augmented_ridge",
+  "baseline": "target_rbf",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "operator": "<=",
+      "threshold": 4.131134470381702
+    },
+    {
+      "feature": "wind_mps",
+      "operator": "<=",
+      "threshold": 4.27
+    }
+  ],
+  "conditions": 2,
+  "coverage": 0.375,
+  "rmse": 2.4029196672526365,
+  "baseline_rmse": 2.530816847951758,
+  "relative_improvement": 0.05053592906283644,
+  "min_year_improvement": 0.009370912718253521,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 720,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 720
+}

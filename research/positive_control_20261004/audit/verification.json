@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "families": [
+    {
+      "family": "within_china_procedural",
+      "gate_stage_records_checked": 36,
+      "status": "complete",
+      "configurations": 9,
+      "discovery_passes": 9,
+      "temporal_passes": 0,
+      "new_city_passes": 2,
+      "joint_passes": 0,
+      "protocol_sha256": "9126be7d2e9396351658278b5c2661566a7e46f80787f5554d8e8d29cde3194e",
+      "script_sha256": "0075f4a21b6ef622b4678ff356443770e5850733445e50421b6fcc5c640d0575"
+    },
+    {
+      "family": "synthetic_known_effect",
+      "gate_stage_records_checked": 36,
+      "status": "complete",
+      "configurations": 9,
+      "discovery_passes": 9,
+      "temporal_passes": 9,
+      "new_city_passes": 9,
+      "joint_passes": 9,
+      "protocol_sha256": "141590093e2ef5fcd0bacbd420bbba35cdfcdbae62a787d76785a251222b8158",
+      "script_sha256": "977ba37a6634341e482b6446a4f60129b2132eb66492aa4dfd1dd4636abcdfa5",
+      "label_sha256": "43ddf2c7ee0dd6b50099c213cfdca1873731b87df47ff9ca92e6d6a9537ba798"
+    }
+  ]
+}

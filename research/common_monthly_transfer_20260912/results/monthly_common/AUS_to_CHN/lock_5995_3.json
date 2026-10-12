@@ -1,0 +1,20 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "AUS_to_CHN",
+  "seed": 5995,
+  "window_months": 3,
+  "labels_per_fit": 30,
+  "model": "source_residual_lgbm",
+  "baseline": "target_lgbm",
+  "rule": [],
+  "conditions": 0,
+  "coverage": 1.0,
+  "rmse": 10.35596081492738,
+  "baseline_rmse": 10.462394506102466,
+  "relative_improvement": 0.01017297628310665,
+  "min_year_improvement": 0.10062977201334888,
+  "discovery_pass": false,
+  "cumulative_fitted_labels": 740,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 740
+}

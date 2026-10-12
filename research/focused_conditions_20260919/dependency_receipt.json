@@ -1,0 +1,8 @@
+{
+  "common.py": "df3dd96e30ac950d3ee6e1b6b934c787fe3b549c613d7257961a64edefe36c4f",
+  "run_monitor_models.py": "02e20047c35d6b6892fcd2bf6bea03fdab19eaab301c80449f3e1f42bf12d7a5",
+  "data\\all_networks_model_panel.csv.gz": "f23d7bad381de2f8b252567656b01085de48d79dfa33c02c92774679966179d2",
+  "data\\common_era5_month_2015_2022.csv.gz": "97f2f57af247bf3f3919f91bb734da7bed18269b16ecc549d5cb3ecb3dd2f02b",
+  "results\\all_networks\\monthly_plus_mixing\\CHN_to_AUS\\source_models.joblib": "064960f7c89b9decddee42559453c4cf9e24fdb9ffee51fccc4ee3ad2408d9b9",
+  "results\\all_networks\\monthly_plus_mixing\\AUS_to_CHN\\source_models.joblib": "6e57e21d69bc41ff7b3fb9964f39889e823adead769e59e6316674901308984b"
+}

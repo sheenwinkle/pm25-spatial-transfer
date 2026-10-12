@@ -1,0 +1,26 @@
+{
+  "feature_set": "monthly_common",
+  "direction": "AUS_to_CHN",
+  "seed": 5994,
+  "window_months": 3,
+  "labels_per_fit": 30,
+  "model": "source_residual_lgbm",
+  "baseline": "target_lgbm",
+  "rule": [
+    {
+      "feature": "log_fire_count_100km",
+      "operator": ">=",
+      "threshold": 3.4011973816621555
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.25833333333333336,
+  "rmse": 9.823048595803824,
+  "baseline_rmse": 10.528462527423303,
+  "relative_improvement": 0.06700065938232669,
+  "min_year_improvement": 0.36443057175978133,
+  "discovery_pass": true,
+  "cumulative_fitted_labels": 740,
+  "gate_labels": 240,
+  "fit_and_gate_unique_labels": 740
+}

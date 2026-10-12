@@ -1,0 +1,14 @@
+{
+  "dates": [
+    "20180817",
+    "20180821",
+    "20181222",
+    "20181223",
+    "20180801",
+    "20181201"
+  ],
+  "selected_without_model_results": true,
+  "selection": "first two valid-header hour deficits, first two 404s, first complete control per month",
+  "independent_measurement_source": false,
+  "automatic_merge": false
+}

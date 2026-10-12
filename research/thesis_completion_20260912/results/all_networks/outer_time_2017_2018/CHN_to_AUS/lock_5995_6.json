@@ -1,0 +1,15 @@
+{
+  "model": "source_affine",
+  "rule": [
+    {
+      "feature": "support_distance",
+      "op": ">=",
+      "threshold": 0.5359425213550373
+    }
+  ],
+  "reference": "target_rbf",
+  "gain": 0.05485244962296287,
+  "coverage": 0.25,
+  "complexity": 1,
+  "discovery_pass": true
+}

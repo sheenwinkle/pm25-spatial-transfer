@@ -1,0 +1,35 @@
+{
+  "direction": "CHN_to_AUS",
+  "seed": 5995,
+  "budget_months": 3,
+  "fit_labels": 30,
+  "gate_labels": 240,
+  "discovery_fuas": [
+    198,
+    789,
+    1468,
+    1562,
+    1653,
+    1912,
+    2066,
+    2141,
+    2286,
+    2355
+  ],
+  "model": "source_weighted_bias",
+  "baseline": "target_ridge",
+  "rule": [
+    {
+      "feature": "temperature_c",
+      "operator": ">=",
+      "threshold": 19.304369926452637
+    }
+  ],
+  "conditions": 1,
+  "coverage": 0.5,
+  "rmse": 7.9032843291507,
+  "baseline_rmse": 9.895794020638892,
+  "relative_improvement": 0.20134914766137701,
+  "min_year_improvement": 1.0585597504121447,
+  "discovery_pass": true
+}

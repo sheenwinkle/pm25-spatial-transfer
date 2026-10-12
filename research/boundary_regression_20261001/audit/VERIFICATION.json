@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-01T03:20:02.807020+00:00",
+  "passed": true,
+  "frozen_files_verified": 298,
+  "raw_input_and_patch_hashes_checked": 22,
+  "configurations": 12,
+  "rolling_fits": 576,
+  "fixed_condition_settings": 48,
+  "metrics_recomputed": 12960,
+  "prediction_rows_across_configurations": 11367,
+  "max_metric_error": 6.821210263296962e-13,
+  "joint_passes_before": 0,
+  "joint_passes_after": 0,
+  "early_passes_before": 19,
+  "early_passes_after": 16,
+  "all_new_city_positive_gains_after": 0,
+  "new_condition_search": false,
+  "fresh_external_test": false,
+  "versions": {
+    "pandas": "3.0.5",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.0"
+  }
+}
