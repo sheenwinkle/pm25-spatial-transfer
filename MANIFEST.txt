@@ -1,4 +1,7 @@
-3329	README.md
+54	.gitignore
+3590	README.md
+2985	reproducibility/README.md
+5011	reproducibility/verify_weighting.py
 3694	research/boundary_regression_20261001/PROTOCOL.md
 3039	research/boundary_regression_20261001/README.md
 742	research/boundary_regression_20261001/audit/VERIFICATION.json
@@ -465,7 +468,7 @@
 4743	research/manuscript_revision_20261004/audit/weighting_check_20261012/weighting_model_means.csv
 5420	research/manuscript_revision_20261004/audit/weighting_check_20261012/window_weighting_summary.py
 8038	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/PROTOCOL.md
-7701	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/README.md
+8002	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/README.md
 3336	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/RUN_LOG.md
 8605	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/aggregate.py
 20951	research/manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/bench_harness.py

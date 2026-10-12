@@ -1,7 +1,7 @@
 # Benchmark-aligned experiment
 
-The saved per-split results are in `results_per_split.zip`. Extract that
-archive beside the scripts so that the files appear under `results/`, then run:
+The saved per-split results are already in `results/` beside the scripts.
+No ZIP extraction is required in this repository. From this directory, run:
 
 ```text
 python check_claims.py
@@ -26,18 +26,23 @@ changes three things in it:
   up to 4.9 µg/m³.
 
 Refitting the models (`bench_harness.py`, `bench_m.py`, `bench_n.py`) and
-`diagnostics.py` also need the corrected modelling panel. It is shipped as
-`data/all_networks_model_panel_corrected.csv.gz`:
+`diagnostics.py` also need the corrected modelling panel. It is not distributed
+in this repository. Supply it through `BENCH_PANEL`, or place it at the default
+path `data/all_networks_model_panel_corrected.csv.gz`:
 
 - 34,639 FUA-months;
 - SHA-256 `9026749a73704d45e218a4aeb96d79704280edc98ad8e6dab3ed34bb627f2a03`;
-- built by the round-2 replay, `review_evidence/replay/prepare_panels.py`.
+- built during the round-2 replay. The exact panel-building script referenced
+  in the local replay log is not included in this public repository; the
+  upstream acquisition and panel-preparation scripts are under
+  `upstream_info5993/`.
 
-Refitting additionally reads two existing project files, which `paths.py`
-locates relative to the `Dissertation Program` folder:
+Refitting additionally reads two project inputs. `paths.py` locates them
+relative to the repository root by default:
 
 - the earlier estimator module, `research/thesis_completion_20260912/run_monitor_models.py`;
-- the FUA membership file, `research/boundary_regression_20261001/data/membership_all_panel.csv.gz`.
+- the FUA membership file, `research/boundary_regression_20261001/data/membership_all_panel.csv.gz`
+  (not distributed; supply it through `BENCH_MEMBERSHIP`).
 
 Round 7 fixes `paths.py`, which pointed one folder too high. Any path can be
 overridden with these environment variables:
