@@ -22,7 +22,13 @@ source for 30 YRD target FUAs, and all Chinese FUAs for nine Australian FUAs.
 | `upstream_info5993/` | Data-acquisition and panel-building scripts and download records (with checksums) from the preceding project, including SatPM2.5 V6.GL.03, GHS-FUA, EDGAR and NASA POWER | Chapter 3 |
 | `research/manuscript_revision_20261004/submission/build_thesis.py` | Wraps the manuscript in the School thesis template | – |
 
-## Data
+## Verification entry point
+
+See [reproducibility/README.md](reproducibility/README.md) for the saved-result
+check and the optional row-level weighting verification. The latter requires
+prediction archives that are not included in the repository.
+
+## Data access
 
 Raw and derived data are not included. The sources are the CNEMC archive on Zenodo
 (doi:10.5281/zenodo.10836299); the New South Wales, Queensland and Victorian air-quality
