@@ -17,6 +17,7 @@ those labels cover? Protocol and its two amendments: `PROTOCOL.md`; checksums fr
 | `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/` |
 | `aoa/di_probe.py` | covariate-only area-of-applicability shares (no PM2.5 read) |
 | `aoa/distance_check.py` | exploratory, after T3: distance from the source data against the gain from recalibration in the nine development regions (thesis Table 7.3) |
+| `explore/` | exploratory, after T3: condition groups, a hybrid label strategy, a label-window scan and the mechanism figure (thesis Figure 7.2 and Tables C.1-C.3); see `explore/README.md` |
 | `results/` | per-split metrics and row-level predictions for T1 (yrd), T2 (aus) and T3 (locked) |
 
 Run order (paths in `env.sh.example`; the benchmark harness is `research/manuscript_revision_20261004/benchmark_replication_20261008/
@@ -32,6 +33,13 @@ python run_q2.py <yrd|aus|locked> meta/theta.json meta/theta2.json results
 python summarise.py results yrd,aus,locked summary
 python make_adapt_report.py results summary report
 python aoa/distance_check.py <panel> regions.json meta/meta2_tasks.csv aoa/distance_check.json report/tab_adapt_distance.tex
+python explore/ablate_groups.py explore
+python explore/hybrid_labels.py <yrd|aus|locked> meta/theta.json meta/theta2.json explore
+python explore/hybrid_summary.py . explore
+python explore/window_scan.py meta/theta.json meta/theta2.json explore
+python explore/mechanism_figures.py meta/theta.json explore
+python explore/condition_overlap.py explore
+python explore/make_explore_report.py explore
 python check_adapt_claims.py . <main.tex>
 ```
 

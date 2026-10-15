@@ -1,0 +1,136 @@
+{
+ "note": "exploratory, after the T3 run; region-held-out cross-validation over the 216 pseudo-transfers",
+ "folds": [
+  [
+   0,
+   3,
+   6
+  ],
+  [
+   1,
+   4,
+   7
+  ],
+  [
+   2,
+   5,
+   9
+  ]
+ ],
+ "full_cv_matches_theta2": false,
+ "variants": {
+  "full": {
+   "held_out_objective_by_fold": [
+    -0.1139,
+    -0.1536,
+    -0.0388
+   ],
+   "mean_gain_vs_direct": 3.79
+  },
+  "no meteorology": {
+   "held_out_objective_by_fold": [
+    -0.1494,
+    -0.1361,
+    -0.0086
+   ],
+   "mean_gain_vs_direct": 3.4,
+   "full_vs_variant_gain": 0.09,
+   "lo": -1.14,
+   "hi": 1.49,
+   "tasks_full_better": 104,
+   "tasks": 216,
+   "regions_full_better": 4,
+   "regions": 9,
+   "by_region": {
+    "0": -1.53,
+    "1": 0.03,
+    "2": 0.99,
+    "3": -2.02,
+    "4": -1.18,
+    "5": 3.29,
+    "6": -2.32,
+    "7": 3.56,
+    "9": -0.01
+   }
+  },
+  "no fire": {
+   "held_out_objective_by_fold": [
+    -0.097,
+    -0.1116,
+    -0.1027
+   ],
+   "mean_gain_vs_direct": 4.1,
+   "full_vs_variant_gain": -0.2,
+   "lo": -2.22,
+   "hi": 1.67,
+   "tasks_full_better": 116,
+   "tasks": 216,
+   "regions_full_better": 5,
+   "regions": 9,
+   "by_region": {
+    "0": -0.72,
+    "1": 0.51,
+    "2": -5.71,
+    "3": 1.55,
+    "4": 4.09,
+    "5": -4.03,
+    "6": 1.62,
+    "7": 1.41,
+    "9": -0.54
+   }
+  },
+  "no season": {
+   "held_out_objective_by_fold": [
+    -0.1467,
+    -0.1574,
+    -0.0305
+   ],
+   "mean_gain_vs_direct": 4.3,
+   "full_vs_variant_gain": -0.49,
+   "lo": -1.51,
+   "hi": 0.33,
+   "tasks_full_better": 111,
+   "tasks": 216,
+   "regions_full_better": 4,
+   "regions": 9,
+   "by_region": {
+    "0": -0.32,
+    "1": 0.37,
+    "2": -0.07,
+    "3": -0.92,
+    "4": 0.89,
+    "5": 0.26,
+    "6": -3.82,
+    "7": -1.88,
+    "9": 1.05
+   }
+  },
+  "no conditions": {
+   "held_out_objective_by_fold": [
+    -0.1069,
+    -0.0817,
+    -0.0728
+   ],
+   "mean_gain_vs_direct": 3.48,
+   "full_vs_variant_gain": 0.52,
+   "lo": -1.18,
+   "hi": 2.33,
+   "tasks_full_better": 126,
+   "tasks": 216,
+   "regions_full_better": 4,
+   "regions": 9,
+   "by_region": {
+    "0": -1.81,
+    "1": 5.5,
+    "2": -2.53,
+    "3": 1.37,
+    "4": 4.61,
+    "5": -0.56,
+    "6": 1.01,
+    "7": -0.39,
+    "9": -2.5
+   }
+  }
+ },
+ "seconds": 1211
+}

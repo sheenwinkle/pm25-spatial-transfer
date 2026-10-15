@@ -1,0 +1,174 @@
+{
+ "note": "exploratory, after the T3 run",
+ "bias": {
+  "yrd": {
+   "test_mean_bias": 2.0381,
+   "oct_dec_2020_bias": 0.565,
+   "gap_last3": 1.47,
+   "median_gap_candidate_months": 5.19,
+   "rank_of_dec_2020_gap": 21,
+   "mean_bias_2019": -2.1207,
+   "mean_bias_2020": 0.2981,
+   "m3_last_gap": 1.47,
+   "m3_share_random_subsets_with_larger_gap": 0.775,
+   "m6_last_gap": 3.74,
+   "m6_share_random_subsets_with_larger_gap": 0.353
+  },
+  "locked": {
+   "test_mean_bias": 4.3701,
+   "oct_dec_2020_bias": 8.3246,
+   "gap_last3": 3.95,
+   "median_gap_candidate_months": 3.47,
+   "rank_of_dec_2020_gap": 16,
+   "mean_bias_2019": 11.1985,
+   "mean_bias_2020": 8.1693,
+   "m3_last_gap": 3.95,
+   "m3_share_random_subsets_with_larger_gap": 0.598,
+   "m6_last_gap": 1.74,
+   "m6_share_random_subsets_with_larger_gap": 0.866
+  },
+  "aus": {
+   "test_mean_bias": 13.5021,
+   "oct_dec_2020_bias": 11.1917,
+   "gap_last3": 2.31,
+   "median_gap_candidate_months": 4.38,
+   "rank_of_dec_2020_gap": 12,
+   "mean_bias_2019": 13.252,
+   "mean_bias_2020": 13.1122,
+   "m3_last_gap": 2.23,
+   "m3_share_random_subsets_with_larger_gap": 0.453,
+   "m6_last_gap": 1.45,
+   "m6_share_random_subsets_with_larger_gap": 0.461
+  }
+ },
+ "fire": {
+  "splits": 20,
+  "k": 5,
+  "median_log_fire_label": 4.83,
+  "median_log_fire_test": 1.79,
+  "share_test_rows_below_label_median": 0.969,
+  "correction_at_test_median": -3.6,
+  "correction_at_label_median": -2.39,
+  "mean_correction_test_rows": -2.9493,
+  "mean_correction_label_rows": -0.11
+ },
+ "window_scan": {
+  "yrd": {
+   "Source-affine": {
+    "windows": 22,
+    "last": 6.72,
+    "rank_last": 1,
+    "min": 6.72,
+    "min_end": "2020-12",
+    "max": 18.69,
+    "max_end": "2019-03",
+    "median": 9.31,
+    "spearman_rho": -0.29,
+    "spearman_p": 0.195
+   },
+   "ECA-R": {
+    "windows": 22,
+    "last": 7.3,
+    "rank_last": 4,
+    "min": 6.97,
+    "min_end": "2020-07",
+    "max": 17.71,
+    "max_end": "2019-03",
+    "median": 8.83,
+    "spearman_rho": -0.32,
+    "spearman_p": 0.142
+   },
+   "ECA-S": {
+    "windows": 22,
+    "last": 6.61,
+    "rank_last": 12,
+    "min": 5.76,
+    "min_end": "2020-11",
+    "max": 8.13,
+    "max_end": "2019-04",
+    "median": 6.57,
+    "spearman_rho": -0.56,
+    "spearman_p": 0.007
+   },
+   "Direct": 6.25
+  },
+  "locked": {
+   "Source-affine": {
+    "windows": 22,
+    "last": 12.62,
+    "rank_last": 2,
+    "min": 12.49,
+    "min_end": "2020-11",
+    "max": 21.81,
+    "max_end": "2019-08",
+    "median": 13.89,
+    "spearman_rho": -0.18,
+    "spearman_p": 0.431
+   },
+   "ECA-R": {
+    "windows": 22,
+    "last": 12.18,
+    "rank_last": 1,
+    "min": 12.18,
+    "min_end": "2020-12",
+    "max": 21.83,
+    "max_end": "2019-08",
+    "median": 13.64,
+    "spearman_rho": -0.29,
+    "spearman_p": 0.196
+   },
+   "ECA-S": {
+    "windows": 22,
+    "last": 12.12,
+    "rank_last": 1,
+    "min": 12.12,
+    "min_end": "2020-12",
+    "max": 13.73,
+    "max_end": "2019-07",
+    "median": 13.14,
+    "spearman_rho": -0.22,
+    "spearman_p": 0.323
+   },
+   "Direct": 13.55
+  },
+  "aus": {
+   "Source-affine": {
+    "windows": 22,
+    "last": 1.45,
+    "rank_last": 3,
+    "min": 1.34,
+    "min_end": "2020-05",
+    "max": 9.57,
+    "max_end": "2020-01",
+    "median": 2.06,
+    "spearman_rho": -0.49,
+    "spearman_p": 0.021
+   },
+   "ECA-R": {
+    "windows": 22,
+    "last": 1.46,
+    "rank_last": 3,
+    "min": 1.36,
+    "min_end": "2020-10",
+    "max": 8.35,
+    "max_end": "2020-02",
+    "median": 2.03,
+    "spearman_rho": -0.45,
+    "spearman_p": 0.035
+   },
+   "ECA-S": {
+    "windows": 22,
+    "last": 9.75,
+    "rank_last": 15,
+    "min": 5.85,
+    "min_end": "2020-08",
+    "max": 12.8,
+    "max_end": "2020-02",
+    "median": 8.96,
+    "spearman_rho": -0.17,
+    "spearman_p": 0.44
+   },
+   "Direct": 14.4
+  }
+ }
+}
