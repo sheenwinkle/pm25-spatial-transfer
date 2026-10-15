@@ -8,5 +8,12 @@ taken before T3 was run. After T3, only reporting code changed:
   such draws, so their intervals are unchanged; (2) descriptive ECA-R comparisons were added to the output.
 - `make_adapt_report.py` and `check_adapt_claims.py` were written after T3 to build the thesis tables and figure and
   to check every number quoted in the thesis.
+- `aoa/distance_check.py` (exploratory) was added after T3. It sets the covariate-only distance of each development
+  region from the other eight against the gain from recalibration in that region's 24 pseudo-transfers, using
+  `meta/meta2_tasks.csv`; it fits nothing.
+- `explore/` (exploratory) was added after T3: a condition-group ablation that re-learns the ECA-S prior on the
+  development pseudo-transfers, a hybrid label strategy, a label-window scan and a mechanism figure. Each check was
+  specified before its results were seen (`explore/README.md`); the window scan was added after the bias plot, as
+  recorded there.
 
 No estimation code, setting or prior changed after T3.

@@ -19,7 +19,7 @@ source for 30 YRD target FUAs, and all Chinese FUAs for nine Australian FUAs.
 | `research/thesis_completion_20260912/` | Observed-label panel: station archives, polygon assignment, eligibility rules and audits | Chapter 3 |
 | `research/common_monthly_transfer_20260912/` | Recovery of genuine monthly NASA POWER meteorology | Section 3.2 |
 | `research/conditional_transfer_20260912/` and later dated folders | Conditional applicability audit and its extensions, each with its own README or PROTOCOL | Chapter 6, Appendix B |
-| `research/adaptation_scope_20261015/` | How much and where to adapt the source model with a few target labels, and which months to label: protocol and amendments, checksums frozen before the locked confirmation run, meta-learnt priors, row-level predictions, summary tables and the scripts that rebuild the tables and figure | Chapter 7, Appendix C |
+| `research/adaptation_scope_20261015/` | How much and where to adapt the source model with a few target labels, and which months to label: protocol and amendments, checksums frozen before the locked confirmation run, meta-learnt priors, row-level predictions, summary tables and the scripts that rebuild the tables and figures | Chapter 7, Appendix C |
 | `upstream_info5993/` | Data-acquisition and panel-building scripts and download records (with checksums) from the preceding project, including SatPM2.5 V6.GL.03, GHS-FUA, EDGAR and NASA POWER | Chapter 3 |
 | `research/manuscript_revision_20261004/submission/build_thesis.py` | Wraps the manuscript in the School thesis template | – |
 

@@ -1,0 +1,97 @@
+{
+ "note": "exploratory, computed after the T3 run",
+ "regions": [
+  {
+   "region": 9,
+   "label": "North China Plain (Beijing, Jinan, Qingdao)",
+   "eligible_fuas": 40,
+   "outside_pct": 1.6,
+   "median_di": 0.17,
+   "gain_pct": -0.4,
+   "wins": 12,
+   "tasks": 24
+  },
+  {
+   "region": 5,
+   "label": "Shanxi, Henan and Shaanxi (Taiyuan, Xi'an)",
+   "eligible_fuas": 45,
+   "outside_pct": 2.7,
+   "median_di": 0.19,
+   "gain_pct": -19.1,
+   "wins": 1,
+   "tasks": 24
+  },
+  {
+   "region": 0,
+   "label": "Central China and Fujian (Wuhan, Changsha, Xiamen)",
+   "eligible_fuas": 44,
+   "outside_pct": 4.8,
+   "median_di": 0.17,
+   "gain_pct": -14.9,
+   "wins": 2,
+   "tasks": 24
+  },
+  {
+   "region": 2,
+   "label": "Sichuan Basin and Guizhou (Chengdu, Chongqing)",
+   "eligible_fuas": 38,
+   "outside_pct": 8.7,
+   "median_di": 0.21,
+   "gain_pct": -21.3,
+   "wins": 1,
+   "tasks": 24
+  },
+  {
+   "region": 4,
+   "label": "South China (Guangzhou, Nanning, Haikou)",
+   "eligible_fuas": 42,
+   "outside_pct": 10.9,
+   "median_di": 0.2,
+   "gain_pct": -4.3,
+   "wins": 11,
+   "tasks": 24
+  },
+  {
+   "region": 3,
+   "label": "Liaoning and north Hebei (Shenyang, Tangshan)",
+   "eligible_fuas": 27,
+   "outside_pct": 11.2,
+   "median_di": 0.22,
+   "gain_pct": -13.6,
+   "wins": 1,
+   "tasks": 24
+  },
+  {
+   "region": 6,
+   "label": "Yunnan and Tibet (Kunming, Lhasa)",
+   "eligible_fuas": 17,
+   "outside_pct": 14.8,
+   "median_di": 0.22,
+   "gain_pct": 26.4,
+   "wins": 23,
+   "tasks": 24
+  },
+  {
+   "region": 7,
+   "label": "North-east (Harbin, Changchun)",
+   "eligible_fuas": 27,
+   "outside_pct": 17.4,
+   "median_di": 0.23,
+   "gain_pct": -42.3,
+   "wins": 0,
+   "tasks": 24
+  },
+  {
+   "region": 1,
+   "label": "Xinjiang (Urumqi, Karamay)",
+   "eligible_fuas": 14,
+   "outside_pct": 100.0,
+   "median_di": 0.99,
+   "gain_pct": 18.5,
+   "wins": 23,
+   "tasks": 24
+  }
+ ],
+ "spearman_rho": 0.18,
+ "spearman_p": 0.64
+}

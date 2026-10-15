@@ -1,0 +1,24 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Position of a three-month label window (exploratory). For the 22 windows ending between March 2019 and December 2020 ($k=5$, 20 splits): the range of mean 2021--2022 RMSE ($\mu$g/m$^3$), the rank of the most recent window (October--December 2020) and the rank correlation between window position and RMSE (negative: later windows are more accurate).}
+\label{tab:explore-windows}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Target & Estimator & Best & Worst & Rank of latest & Rank correlation \\
+\midrule
+T1 YRD & Source-affine & 6.72 & 18.69 & 1/22 & $-$0.29 \\
+ & ECA-R & 6.97 & 17.71 & 4/22 & $-$0.32 \\
+ & ECA-S & 5.76 & 8.13 & 12/22 & $-$0.56 \\
+\addlinespace
+T3 north-west China & Source-affine & 12.49 & 21.81 & 2/22 & $-$0.18 \\
+ & ECA-R & 12.18 & 21.83 & 1/22 & $-$0.29 \\
+ & ECA-S & 12.12 & 13.73 & 1/22 & $-$0.22 \\
+\addlinespace
+T2 Australia & Source-affine & 1.34 & 9.57 & 3/22 & $-$0.49 \\
+ & ECA-R & 1.36 & 8.35 & 3/22 & $-$0.45 \\
+ & ECA-S & 5.85 & 12.80 & 15/22 & $-$0.17 \\
+\bottomrule
+\end{tabular}
+\end{table}

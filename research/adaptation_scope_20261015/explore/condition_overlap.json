@@ -1,0 +1,10 @@
+{
+ "monthly_power_temperature_c": 0.682,
+ "temp_range": 0.199,
+ "monthly_power_humidity_pct": 0.047,
+ "monthly_power_wind_mps": 0.091,
+ "monthly_power_precip_mm_day": 0.298,
+ "log_fire_count_100km": 0.199,
+ "local_season_sin": 0.153,
+ "local_season_cos": 0.716
+}
