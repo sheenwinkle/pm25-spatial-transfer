@@ -13,9 +13,10 @@ those labels cover? Protocol and its two amendments: `PROTOCOL.md`; checksums fr
 | `run_q1.py` | how much and where to adapt: designs `history`, `historyN` (source up to 2020), `window` |
 | `run_q2.py` | which months to label: strategies S0-S4 |
 | `summarise.py` | means, paired gains and crossed FUA-by-quarter bootstrap intervals (`summary/`) |
-| `make_adapt_report.py` | thesis Tables 7.1-7.4 and Figure 7.1 (`report/`) |
+| `make_adapt_report.py` | thesis Tables 7.1, 7.2, 7.4 and 7.5 and Figure 7.1 (`report/`) |
 | `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/` |
 | `aoa/di_probe.py` | covariate-only area-of-applicability shares (no PM2.5 read) |
+| `aoa/distance_check.py` | exploratory, after T3: distance from the source data against the gain from recalibration in the nine development regions (thesis Table 7.3) |
 | `results/` | per-split metrics and row-level predictions for T1 (yrd), T2 (aus) and T3 (locked) |
 
 Run order (paths in `env.sh.example`; the benchmark harness is `research/manuscript_revision_20261004/benchmark_replication_20261008/
@@ -30,6 +31,7 @@ python run_q1.py <yrd|aus|locked> <history|historyN|window> meta/theta.json meta
 python run_q2.py <yrd|aus|locked> meta/theta.json meta/theta2.json results
 python summarise.py results yrd,aus,locked summary
 python make_adapt_report.py results summary report
+python aoa/distance_check.py <panel> regions.json meta/meta2_tasks.csv aoa/distance_check.json report/tab_adapt_distance.tex
 python check_adapt_claims.py . <main.tex>
 ```
 

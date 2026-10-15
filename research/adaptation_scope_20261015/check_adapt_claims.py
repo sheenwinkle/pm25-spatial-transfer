@@ -174,8 +174,23 @@ for task in ("yrd", "locked", "aus"):
     P = P.drop_duplicates(["eFUA_ID", "t"])
     lev[task] = (P.Direct.mean() - P.observed.mean(), P.observed.mean())
 check("levels", f"by {lev['yrd'][0]:.1f}~\\(\\mu\\)g/m\\(^3\\) in the YRD, {lev['locked'][0]:.1f} in north-west China and {lev['aus'][0]:.1f} in Australia (observed means {lev['yrd'][1]:.1f}, {lev['locked'][1]:.1f} and {lev['aus'][1]:.1f})")
+# ---- exploratory distance check over the nine development regions (aoa/distance_check.json, added after T3)
+dist = json.loads((A / "aoa/distance_check.json").read_text())
+dr = {x["region"]: x for x in dist["regions"]}
+xj, yt = dr[1], dr[6]
+rest = [x for k_, x in dr.items() if k_ not in (1, 6)]
+results.append(("dist Xinjiang only region wholly outside",
+                xj["outside_pct"] == 100 and all(x["outside_pct"] < 100 for k_, x in dr.items() if k_ != 1), ""))
+results.append(("dist other seven lose", all(x["gain_pct"] < 0 for x in rest) and xj["gain_pct"] > 0 and yt["gain_pct"] > 0,
+                str([x["gain_pct"] for x in rest])))
+check("dist Xinjiang", f"regions' area of applicability ({xj['gain_pct']:.1f}\\%, {xj['wins']} of {xj['tasks']} pseudo-transfers)")
+check("dist Yunnan-Tibet", f"in Yunnan and Tibet ({yt['gain_pct']:.1f}\\%, {yt['wins']}/{yt['tasks']}, with {yt['outside_pct']:.1f}\\% outside)")
+check("dist other seven", f"with {min(x['outside_pct'] for x in rest):.1f}--{max(x['outside_pct'] for x in rest):.1f}\\% outside, its mean gain ranged from {f1(min(x['gain_pct'] for x in rest))}\\% to {f1(max(x['gain_pct'] for x in rest))}\\%")
+check("dist rank correlation", f"is {dist['spearman_rho']:.2f} (\\(p={dist['spearman_p']:.2f}\\))")
+for x in dist["regions"]:
+    check(f"dist table {x['region']}", f"{x['label']} & {x['eligible_fuas']} & {x['outside_pct']:.1f} & {x['median_di']:.2f} & {f1(x['gain_pct'])} & {x['wins']}/{x['tasks']} \\\\")
 # ---- appendix counts
-conf = [("history", "ECA2 vs Direct"), ("history", "ECA2 vs Source-affine"), ("history", "Source-affine vs Direct"),
+conf =[("history", "ECA2 vs Direct"), ("history", "ECA2 vs Source-affine"), ("history", "Source-affine vs Direct"),
         ("historyN", "ECA-fixed vs Source-affine"), ("historyN", "ECA-fixed vs Direct"), ("historyN", "ECA2 vs Direct")]
 rows = [G(L, d_, c, k, comp) for d_, comp in conf for c in ("M3", "M6", "M12") for k in (5, 11)]
 imp = sum(r.lo > 0 for r in rows); loss = sum(r.hi < 0 for r in rows)
