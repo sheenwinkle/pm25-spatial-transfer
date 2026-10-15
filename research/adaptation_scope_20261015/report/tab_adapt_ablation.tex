@@ -1,0 +1,35 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Where and how much to adapt: ablations. Entries as in Table~\ref{tab:adapt-confirm}; positive values favour the full estimator. T3 columns are confirmation results; the last column gives the development result on T1 at $k=5$.}
+\label{tab:adapt-ablation}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrlll@{}}
+\toprule
+ & & \multicolumn{2}{c}{T3 (confirmation)} & T1 (development) \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-5}
+Comparison & $m$ & $k=5$ & $k=11$ & $k=5$ \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Current source model}} \\
+\quad ECA-S vs no condition term & 3 & 5.0 [1.6, 10.6] (20) & 5.7 [1.8, 11.7] (20) & $-$2.5 [$-$5.4, 0.9] (2) \\
+\quad  & 6 & 3.2 [1.2, 7.2] (20) & 3.8 [1.5, 7.6] (20) & 1.7 [$-$1.9, 6.0] (16) \\
+\quad ECA-S vs one length-scale & 3 & 0.8 [$-$0.7, 3.1] (19) & 0.8 [$-$0.4, 3.3] (20) & $-$1.0 [$-$4.0, 0.6] (0) \\
+\quad  & 6 & $-$0.1 [$-$2.5, 2.7] (10) & $-$0.5 [$-$3.4, 2.1] (6) & $-$0.1 [$-$1.4, 1.0] (11) \\
+\quad ECA-S vs no meta-learning & 3 & 8.0 [2.7, 16.9] (19) & 10.1 [4.3, 20.9] (20) & 11.7 [6.7, 15.1] (19) \\
+\quad  & 6 & 5.8 [1.7, 12.9] (16) & 6.1 [2.4, 12.1] (20) & 11.8 [4.3, 16.0] (19) \\
+\quad ECA-S vs prior SDs $\times 10$ & 3 & 7.1 [2.2, 15.8] (17) & 11.0 [5.3, 21.4] (20) & 25.2 [16.4, 33.3] (20) \\
+\quad  & 6 & 4.6 [0.02, 13.0] (16) & 4.3 [$-$1.4, 14.6] (17) & 21.9 [12.4, 31.6] (20) \\
+\quad ECA-S vs amount set on target labels & 3 & $-$1.1 [$-$5.2, 2.0] (4) & 0.1 [$-$1.8, 2.4] (9) & 11.8 [7.5, 16.3] (19) \\
+\quad  & 6 & $-$0.7 [$-$4.1, 2.5] (6) & 0.03 [$-$1.4, 2.5] (7) & 12.3 [5.5, 18.3] (18) \\
+\multicolumn{5}{@{}l}{\emph{Source model fitted up to 2020}} \\
+\quad ECA-R vs no meta-learning & 3 & 6.2 [1.8, 16.0] (20) & 5.4 [1.4, 16.1] (20) & 12.0 [3.0, 25.2] (19) \\
+\quad  & 6 & 2.3 [$-$2.0, 5.0] (14) & 3.7 [0.4, 7.2] (19) & 6.8 [2.5, 11.8] (19) \\
+\quad ECA-R vs amplitude $\times 10$ & 3 & 53.5 [44.3, 64.1] (20) & 49.4 [35.4, 64.9] (20) & 63.8 [52.7, 73.0] (20) \\
+\quad  & 6 & 43.8 [35.3, 54.5] (20) & 39.1 [31.0, 51.0] (20) & 50.9 [42.6, 57.4] (20) \\
+\quad ECA-R vs amount set on target labels & 3 & 5.4 [1.4, 14.4] (20) & 3.9 [0.6, 12.0] (17) & 13.3 [7.5, 19.1] (18) \\
+\quad  & 6 & 1.4 [$-$1.9, 3.2] (14) & 2.5 [0.9, 4.5] (19) & 9.1 [$-$0.2, 16.0] (16) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

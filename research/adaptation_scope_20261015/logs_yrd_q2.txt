@@ -1,0 +1,4 @@
+yrd q2 m=3 k=5 done (38s)
+yrd q2 m=3 k=11 done (88s)
+yrd q2 m=6 k=5 done (135s)
+yrd q2 m=6 k=11 done (202s)

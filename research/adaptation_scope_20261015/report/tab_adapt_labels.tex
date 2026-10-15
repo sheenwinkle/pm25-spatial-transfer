@@ -1,0 +1,40 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Which months to label: mean 2021--2022 RMSE ($\mu$g/m$^3$) when each labelled FUA receives $m$ labelled months chosen from 2019--2020 by each strategy. Random and season-spread values average five draws. Condition coverage maximises the spread of each FUA's labelled conditions; target-aware coverage chooses the months that most reduce the correction's uncertainty over the conditions to be predicted.}
+\label{tab:adapt-labels}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Strategy & Source-affine & ECA-R & ECA-S & Best local \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{T1 YRD (development), $m=3$, $k=5$; direct transfer 6.25}} \\
+\quad Last $m$ months of 2020 & 6.72 & 7.30 & 6.61 & 11.01 \\
+\quad Random months & 8.81 & 7.79 & 6.28 & 8.54 \\
+\quad Spread over seasons & 8.84 & 7.82 & 6.33 & 8.41 \\
+\quad Condition coverage & 9.76 & 9.45 & 7.12 & 8.58 \\
+\quad Target-aware coverage & 8.27 & 7.19 & 6.13 & 8.07 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\emph{T2 Australia (development), $m=3$, $k=3$; direct transfer 14.46}} \\
+\quad Last $m$ months of 2020 & 1.47 & 1.51 & 10.81 & 1.35 \\
+\quad Random months & 2.68 & 2.21 & 9.73 & 2.36 \\
+\quad Spread over seasons & 2.71 & 2.28 & 9.72 & 2.35 \\
+\quad Condition coverage & 4.09 & 2.03 & 10.20 & 3.14 \\
+\quad Target-aware coverage & 2.34 & 2.48 & 9.38 & 2.08 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\emph{T3 north-west China (confirmation), $m=3$, $k=5$; direct transfer 13.55}} \\
+\quad Last $m$ months of 2020 & 12.62 & 12.18 & 12.12 & 15.10 \\
+\quad Random months & 13.52 & 13.23 & 12.59 & 13.88 \\
+\quad Spread over seasons & 13.40 & 12.97 & 12.48 & 13.60 \\
+\quad Condition coverage & 13.35 & 12.98 & 12.22 & 13.53 \\
+\quad Target-aware coverage & 13.57 & 13.20 & 12.46 & 13.77 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\emph{T3 north-west China (confirmation), $m=6$, $k=5$; direct transfer 13.55}} \\
+\quad Last $m$ months of 2020 & 12.63 & 12.28 & 12.19 & 13.27 \\
+\quad Random months & 13.05 & 12.94 & 12.52 & 13.72 \\
+\quad Spread over seasons & 12.99 & 12.80 & 12.46 & 13.55 \\
+\quad Condition coverage & 12.94 & 12.61 & 12.31 & 13.21 \\
+\quad Target-aware coverage & 13.10 & 12.75 & 12.41 & 13.45 \\
+\bottomrule
+\end{tabular}
+\end{table}

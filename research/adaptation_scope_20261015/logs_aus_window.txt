@@ -1,0 +1,8 @@
+aus window 2020Q4 k=3 done (6s)
+aus window 2020Q4 k=5 done (16s)
+aus window 2020Q2 k=3 done (21s)
+aus window 2020Q2 k=5 done (26s)
+aus window 2020Q3 k=3 done (30s)
+aus window 2020Q3 k=5 done (34s)
+aus window 2019Q4 k=3 done (38s)
+aus window 2019Q4 k=5 done (43s)

@@ -1,0 +1,967 @@
+task,design,cell,k,model,mean_rmse
+yrd,history,M12,5,Direct,6.2505
+yrd,history,M12,5,Source-affine,6.4985
+yrd,history,M12,5,Source-residual,6.9677
+yrd,history,M12,5,ECA,7.3089
+yrd,history,M12,5,ECA-fixed,6.1594
+yrd,history,M12,5,ECA-no-meta,7.0662
+yrd,history,M12,5,ECA-unbounded,11.6218
+yrd,history,M12,5,ECA-isotropic,7.1260
+yrd,history,M12,5,ECA2,5.9819
+yrd,history,M12,5,ECA2-MAP,6.2660
+yrd,history,M12,5,ECA2-affine,6.0118
+yrd,history,M12,5,ECA2-isotropic,6.0344
+yrd,history,M12,5,ECA2-no-meta,7.1622
+yrd,history,M12,5,ECA2-unbounded,7.5556
+yrd,history,M12,5,Local mean,13.3392
+yrd,history,M12,5,Local ridge,8.8898
+yrd,history,M12,5,Local RBF,13.1131
+yrd,history,M12,5,Local RF,7.8637
+yrd,history,M12,5,Local Extra Trees,7.4896
+yrd,history,M12,5,Local LightGBM,8.1626
+yrd,history,M12,5,Best local six,7.4059
+yrd,history,M12,11,Direct,6.2302
+yrd,history,M12,11,Source-affine,6.1929
+yrd,history,M12,11,Source-residual,6.7025
+yrd,history,M12,11,ECA,7.4102
+yrd,history,M12,11,ECA-fixed,5.9803
+yrd,history,M12,11,ECA-no-meta,6.7424
+yrd,history,M12,11,ECA-unbounded,9.6280
+yrd,history,M12,11,ECA-isotropic,7.3404
+yrd,history,M12,11,ECA2,5.9255
+yrd,history,M12,11,ECA2-MAP,7.3246
+yrd,history,M12,11,ECA2-affine,5.9928
+yrd,history,M12,11,ECA2-isotropic,6.0555
+yrd,history,M12,11,ECA2-no-meta,7.6603
+yrd,history,M12,11,ECA2-unbounded,7.4552
+yrd,history,M12,11,Local mean,13.3810
+yrd,history,M12,11,Local ridge,8.1539
+yrd,history,M12,11,Local RBF,12.5324
+yrd,history,M12,11,Local RF,8.0562
+yrd,history,M12,11,Local Extra Trees,7.1788
+yrd,history,M12,11,Local LightGBM,7.8790
+yrd,history,M12,11,Best local six,7.1300
+yrd,history,M3,5,Direct,6.2505
+yrd,history,M3,5,Source-affine,6.7233
+yrd,history,M3,5,Source-residual,8.7228
+yrd,history,M3,5,ECA,8.5481
+yrd,history,M3,5,ECA-fixed,7.2957
+yrd,history,M3,5,ECA-no-meta,7.4007
+yrd,history,M3,5,ECA-unbounded,29.0697
+yrd,history,M3,5,ECA-isotropic,8.3355
+yrd,history,M3,5,ECA2,6.6079
+yrd,history,M3,5,ECA2-MAP,7.5891
+yrd,history,M3,5,ECA2-affine,6.4440
+yrd,history,M3,5,ECA2-isotropic,6.5424
+yrd,history,M3,5,ECA2-no-meta,7.5625
+yrd,history,M3,5,ECA2-unbounded,8.9275
+yrd,history,M3,5,Local mean,15.9460
+yrd,history,M3,5,Local ridge,26.2400
+yrd,history,M3,5,Local RBF,16.8892
+yrd,history,M3,5,Local RF,11.4015
+yrd,history,M3,5,Local Extra Trees,12.5688
+yrd,history,M3,5,Local LightGBM,20.2559
+yrd,history,M3,5,Best local six,11.0080
+yrd,history,M3,11,Direct,6.2302
+yrd,history,M3,11,Source-affine,6.4643
+yrd,history,M3,11,Source-residual,7.9582
+yrd,history,M3,11,ECA,8.0988
+yrd,history,M3,11,ECA-fixed,7.9119
+yrd,history,M3,11,ECA-no-meta,7.2527
+yrd,history,M3,11,ECA-unbounded,21.7347
+yrd,history,M3,11,ECA-isotropic,8.2822
+yrd,history,M3,11,ECA2,6.9222
+yrd,history,M3,11,ECA2-MAP,8.0437
+yrd,history,M3,11,ECA2-affine,6.6941
+yrd,history,M3,11,ECA2-isotropic,6.7886
+yrd,history,M3,11,ECA2-no-meta,7.1828
+yrd,history,M3,11,ECA2-unbounded,8.8055
+yrd,history,M3,11,Local mean,16.1633
+yrd,history,M3,11,Local ridge,24.4567
+yrd,history,M3,11,Local RBF,16.7814
+yrd,history,M3,11,Local RF,8.8437
+yrd,history,M3,11,Local Extra Trees,10.0251
+yrd,history,M3,11,Local LightGBM,10.9027
+yrd,history,M3,11,Best local six,8.5579
+yrd,history,M6,5,Direct,6.2505
+yrd,history,M6,5,Source-affine,6.7058
+yrd,history,M6,5,Source-residual,7.6518
+yrd,history,M6,5,ECA,7.9815
+yrd,history,M6,5,ECA-fixed,6.7070
+yrd,history,M6,5,ECA-no-meta,7.4111
+yrd,history,M6,5,ECA-unbounded,17.0543
+yrd,history,M6,5,ECA-isotropic,8.4538
+yrd,history,M6,5,ECA2,6.4970
+yrd,history,M6,5,ECA2-MAP,7.4719
+yrd,history,M6,5,ECA2-affine,6.6125
+yrd,history,M6,5,ECA2-isotropic,6.4890
+yrd,history,M6,5,ECA2-no-meta,7.4038
+yrd,history,M6,5,ECA2-unbounded,8.3643
+yrd,history,M6,5,Local mean,13.2017
+yrd,history,M6,5,Local ridge,20.2389
+yrd,history,M6,5,Local RBF,13.3056
+yrd,history,M6,5,Local RF,10.0461
+yrd,history,M6,5,Local Extra Trees,8.7707
+yrd,history,M6,5,Local LightGBM,9.2778
+yrd,history,M6,5,Best local six,8.6297
+yrd,history,M6,11,Direct,6.2302
+yrd,history,M6,11,Source-affine,6.5354
+yrd,history,M6,11,Source-residual,7.1107
+yrd,history,M6,11,ECA,8.0404
+yrd,history,M6,11,ECA-fixed,6.6178
+yrd,history,M6,11,ECA-no-meta,7.5991
+yrd,history,M6,11,ECA-unbounded,16.1577
+yrd,history,M6,11,ECA-isotropic,8.7438
+yrd,history,M6,11,ECA2,6.5768
+yrd,history,M6,11,ECA2-MAP,7.8744
+yrd,history,M6,11,ECA2-affine,6.7458
+yrd,history,M6,11,ECA2-isotropic,6.6312
+yrd,history,M6,11,ECA2-no-meta,7.4789
+yrd,history,M6,11,ECA2-unbounded,8.4857
+yrd,history,M6,11,Local mean,13.1109
+yrd,history,M6,11,Local ridge,22.7807
+yrd,history,M6,11,Local RBF,13.1918
+yrd,history,M6,11,Local RF,7.8278
+yrd,history,M6,11,Local Extra Trees,7.5491
+yrd,history,M6,11,Local LightGBM,7.9405
+yrd,history,M6,11,Best local six,7.3150
+yrd,historyN,M12,5,Direct,8.5971
+yrd,historyN,M12,5,Source-affine,7.0149
+yrd,historyN,M12,5,Source-residual,8.0292
+yrd,historyN,M12,5,ECA,7.8842
+yrd,historyN,M12,5,ECA-fixed,6.9874
+yrd,historyN,M12,5,ECA-no-meta,7.6614
+yrd,historyN,M12,5,ECA-unbounded,12.0996
+yrd,historyN,M12,5,ECA-isotropic,7.8783
+yrd,historyN,M12,5,ECA2,7.4123
+yrd,historyN,M12,5,ECA2-MAP,7.7235
+yrd,historyN,M12,5,ECA2-affine,7.2971
+yrd,historyN,M12,5,ECA2-isotropic,7.5230
+yrd,historyN,M12,5,ECA2-no-meta,7.9297
+yrd,historyN,M12,5,ECA2-unbounded,8.3412
+yrd,historyN,M12,5,Local mean,13.3392
+yrd,historyN,M12,5,Local ridge,8.8898
+yrd,historyN,M12,5,Local RBF,13.1131
+yrd,historyN,M12,5,Local RF,7.8637
+yrd,historyN,M12,5,Local Extra Trees,7.4896
+yrd,historyN,M12,5,Local LightGBM,8.1626
+yrd,historyN,M12,5,Best local six,7.4059
+yrd,historyN,M12,11,Direct,8.5862
+yrd,historyN,M12,11,Source-affine,6.9962
+yrd,historyN,M12,11,Source-residual,8.0149
+yrd,historyN,M12,11,ECA,8.3184
+yrd,historyN,M12,11,ECA-fixed,7.1243
+yrd,historyN,M12,11,ECA-no-meta,7.4495
+yrd,historyN,M12,11,ECA-unbounded,10.0990
+yrd,historyN,M12,11,ECA-isotropic,8.0915
+yrd,historyN,M12,11,ECA2,7.4067
+yrd,historyN,M12,11,ECA2-MAP,7.7817
+yrd,historyN,M12,11,ECA2-affine,7.2116
+yrd,historyN,M12,11,ECA2-isotropic,7.5884
+yrd,historyN,M12,11,ECA2-no-meta,7.8555
+yrd,historyN,M12,11,ECA2-unbounded,7.8951
+yrd,historyN,M12,11,Local mean,13.3810
+yrd,historyN,M12,11,Local ridge,8.1539
+yrd,historyN,M12,11,Local RBF,12.5324
+yrd,historyN,M12,11,Local RF,8.0562
+yrd,historyN,M12,11,Local Extra Trees,7.1788
+yrd,historyN,M12,11,Local LightGBM,7.8790
+yrd,historyN,M12,11,Best local six,7.1300
+yrd,historyN,M3,5,Direct,8.5971
+yrd,historyN,M3,5,Source-affine,7.7480
+yrd,historyN,M3,5,Source-residual,8.7678
+yrd,historyN,M3,5,ECA,8.6204
+yrd,historyN,M3,5,ECA-fixed,7.2737
+yrd,historyN,M3,5,ECA-no-meta,8.3394
+yrd,historyN,M3,5,ECA-unbounded,26.8865
+yrd,historyN,M3,5,ECA-isotropic,9.1085
+yrd,historyN,M3,5,ECA2,7.9351
+yrd,historyN,M3,5,ECA2-MAP,8.1710
+yrd,historyN,M3,5,ECA2-affine,7.9501
+yrd,historyN,M3,5,ECA2-isotropic,8.0028
+yrd,historyN,M3,5,ECA2-no-meta,8.2795
+yrd,historyN,M3,5,ECA2-unbounded,9.0207
+yrd,historyN,M3,5,Local mean,15.9460
+yrd,historyN,M3,5,Local ridge,26.2400
+yrd,historyN,M3,5,Local RBF,16.8892
+yrd,historyN,M3,5,Local RF,11.4015
+yrd,historyN,M3,5,Local Extra Trees,12.5688
+yrd,historyN,M3,5,Local LightGBM,20.2559
+yrd,historyN,M3,5,Best local six,11.0080
+yrd,historyN,M3,11,Direct,8.5862
+yrd,historyN,M3,11,Source-affine,7.0870
+yrd,historyN,M3,11,Source-residual,8.4921
+yrd,historyN,M3,11,ECA,8.2011
+yrd,historyN,M3,11,ECA-fixed,7.6199
+yrd,historyN,M3,11,ECA-no-meta,7.7069
+yrd,historyN,M3,11,ECA-unbounded,21.5569
+yrd,historyN,M3,11,ECA-isotropic,8.4744
+yrd,historyN,M3,11,ECA2,7.9448
+yrd,historyN,M3,11,ECA2-MAP,8.1336
+yrd,historyN,M3,11,ECA2-affine,7.8651
+yrd,historyN,M3,11,ECA2-isotropic,8.0318
+yrd,historyN,M3,11,ECA2-no-meta,7.9857
+yrd,historyN,M3,11,ECA2-unbounded,8.8709
+yrd,historyN,M3,11,Local mean,16.1633
+yrd,historyN,M3,11,Local ridge,24.4567
+yrd,historyN,M3,11,Local RBF,16.7814
+yrd,historyN,M3,11,Local RF,8.8437
+yrd,historyN,M3,11,Local Extra Trees,10.0251
+yrd,historyN,M3,11,Local LightGBM,10.9027
+yrd,historyN,M3,11,Best local six,8.5579
+yrd,historyN,M6,5,Direct,8.5971
+yrd,historyN,M6,5,Source-affine,7.3781
+yrd,historyN,M6,5,Source-residual,8.5877
+yrd,historyN,M6,5,ECA,8.1494
+yrd,historyN,M6,5,ECA-fixed,7.3794
+yrd,historyN,M6,5,ECA-no-meta,7.9205
+yrd,historyN,M6,5,ECA-unbounded,16.3562
+yrd,historyN,M6,5,ECA-isotropic,8.9719
+yrd,historyN,M6,5,ECA2,8.1377
+yrd,historyN,M6,5,ECA2-MAP,8.3901
+yrd,historyN,M6,5,ECA2-affine,8.2771
+yrd,historyN,M6,5,ECA2-isotropic,8.2008
+yrd,historyN,M6,5,ECA2-no-meta,8.4433
+yrd,historyN,M6,5,ECA2-unbounded,8.7127
+yrd,historyN,M6,5,Local mean,13.2017
+yrd,historyN,M6,5,Local ridge,20.2389
+yrd,historyN,M6,5,Local RBF,13.3056
+yrd,historyN,M6,5,Local RF,10.0461
+yrd,historyN,M6,5,Local Extra Trees,8.7707
+yrd,historyN,M6,5,Local LightGBM,9.2778
+yrd,historyN,M6,5,Best local six,8.6297
+yrd,historyN,M6,11,Direct,8.5862
+yrd,historyN,M6,11,Source-affine,7.5196
+yrd,historyN,M6,11,Source-residual,8.5514
+yrd,historyN,M6,11,ECA,8.1194
+yrd,historyN,M6,11,ECA-fixed,7.5363
+yrd,historyN,M6,11,ECA-no-meta,8.2323
+yrd,historyN,M6,11,ECA-unbounded,15.5232
+yrd,historyN,M6,11,ECA-isotropic,9.0630
+yrd,historyN,M6,11,ECA2,8.1471
+yrd,historyN,M6,11,ECA2-MAP,8.4625
+yrd,historyN,M6,11,ECA2-affine,8.2889
+yrd,historyN,M6,11,ECA2-isotropic,8.2824
+yrd,historyN,M6,11,ECA2-no-meta,8.3677
+yrd,historyN,M6,11,ECA2-unbounded,8.7192
+yrd,historyN,M6,11,Local mean,13.1109
+yrd,historyN,M6,11,Local ridge,22.7807
+yrd,historyN,M6,11,Local RBF,13.1918
+yrd,historyN,M6,11,Local RF,7.8278
+yrd,historyN,M6,11,Local Extra Trees,7.5491
+yrd,historyN,M6,11,Local LightGBM,7.9405
+yrd,historyN,M6,11,Best local six,7.3150
+yrd,window,2019Q4,5,Direct,6.2505
+yrd,window,2019Q4,5,Source-affine,12.1153
+yrd,window,2019Q4,5,Source-residual,6.9373
+yrd,window,2019Q4,5,ECA,11.6734
+yrd,window,2019Q4,5,ECA-fixed,11.1804
+yrd,window,2019Q4,5,ECA-no-meta,11.8892
+yrd,window,2019Q4,5,ECA-unbounded,28.9398
+yrd,window,2019Q4,5,ECA-isotropic,11.4719
+yrd,window,2019Q4,5,ECA2,6.1928
+yrd,window,2019Q4,5,ECA2-MAP,7.9727
+yrd,window,2019Q4,5,ECA2-affine,6.2463
+yrd,window,2019Q4,5,ECA2-isotropic,6.1392
+yrd,window,2019Q4,5,ECA2-no-meta,9.2709
+yrd,window,2019Q4,5,ECA2-unbounded,10.2629
+yrd,window,2019Q4,5,Local mean,17.9272
+yrd,window,2019Q4,5,Local ridge,35.3888
+yrd,window,2019Q4,5,Local RBF,18.0730
+yrd,window,2019Q4,5,Local RF,15.5985
+yrd,window,2019Q4,5,Local Extra Trees,17.0653
+yrd,window,2019Q4,5,Local LightGBM,18.0426
+yrd,window,2019Q4,5,Best local six,15.5471
+yrd,window,2019Q4,11,Direct,6.2302
+yrd,window,2019Q4,11,Source-affine,10.6147
+yrd,window,2019Q4,11,Source-residual,7.1939
+yrd,window,2019Q4,11,ECA,10.7096
+yrd,window,2019Q4,11,ECA-fixed,10.1409
+yrd,window,2019Q4,11,ECA-no-meta,10.5225
+yrd,window,2019Q4,11,ECA-unbounded,30.8727
+yrd,window,2019Q4,11,ECA-isotropic,10.2797
+yrd,window,2019Q4,11,ECA2,6.3306
+yrd,window,2019Q4,11,ECA2-MAP,8.3465
+yrd,window,2019Q4,11,ECA2-affine,6.4249
+yrd,window,2019Q4,11,ECA2-isotropic,6.2967
+yrd,window,2019Q4,11,ECA2-no-meta,10.8133
+yrd,window,2019Q4,11,ECA2-unbounded,11.9218
+yrd,window,2019Q4,11,Local mean,18.3511
+yrd,window,2019Q4,11,Local ridge,39.3599
+yrd,window,2019Q4,11,Local RBF,17.8086
+yrd,window,2019Q4,11,Local RF,14.3233
+yrd,window,2019Q4,11,Local Extra Trees,15.9679
+yrd,window,2019Q4,11,Local LightGBM,15.8316
+yrd,window,2019Q4,11,Best local six,14.2536
+yrd,window,2020Q2,5,Direct,6.2505
+yrd,window,2020Q2,5,Source-affine,7.3381
+yrd,window,2020Q2,5,Source-residual,8.2271
+yrd,window,2020Q2,5,ECA,7.4615
+yrd,window,2020Q2,5,ECA-fixed,7.3508
+yrd,window,2020Q2,5,ECA-no-meta,7.3270
+yrd,window,2020Q2,5,ECA-unbounded,21.9836
+yrd,window,2020Q2,5,ECA-isotropic,7.3702
+yrd,window,2020Q2,5,ECA2,6.8699
+yrd,window,2020Q2,5,ECA2-MAP,7.1184
+yrd,window,2020Q2,5,ECA2-affine,6.8107
+yrd,window,2020Q2,5,ECA2-isotropic,6.7055
+yrd,window,2020Q2,5,ECA2-no-meta,7.4495
+yrd,window,2020Q2,5,ECA2-unbounded,7.5757
+yrd,window,2020Q2,5,Local mean,13.1747
+yrd,window,2020Q2,5,Local ridge,21.7211
+yrd,window,2020Q2,5,Local RBF,13.2400
+yrd,window,2020Q2,5,Local RF,11.4383
+yrd,window,2020Q2,5,Local Extra Trees,12.1639
+yrd,window,2020Q2,5,Local LightGBM,11.7226
+yrd,window,2020Q2,5,Best local six,11.2328
+yrd,window,2020Q2,11,Direct,6.2302
+yrd,window,2020Q2,11,Source-affine,7.0977
+yrd,window,2020Q2,11,Source-residual,8.4729
+yrd,window,2020Q2,11,ECA,7.3820
+yrd,window,2020Q2,11,ECA-fixed,7.3651
+yrd,window,2020Q2,11,ECA-no-meta,7.0788
+yrd,window,2020Q2,11,ECA-unbounded,25.0287
+yrd,window,2020Q2,11,ECA-isotropic,7.4008
+yrd,window,2020Q2,11,ECA2,7.0374
+yrd,window,2020Q2,11,ECA2-MAP,7.3629
+yrd,window,2020Q2,11,ECA2-affine,7.1828
+yrd,window,2020Q2,11,ECA2-isotropic,6.8360
+yrd,window,2020Q2,11,ECA2-no-meta,8.1082
+yrd,window,2020Q2,11,ECA2-unbounded,8.6799
+yrd,window,2020Q2,11,Local mean,13.0703
+yrd,window,2020Q2,11,Local ridge,22.9586
+yrd,window,2020Q2,11,Local RBF,13.1832
+yrd,window,2020Q2,11,Local RF,10.8301
+yrd,window,2020Q2,11,Local Extra Trees,11.6528
+yrd,window,2020Q2,11,Local LightGBM,11.0730
+yrd,window,2020Q2,11,Best local six,10.7340
+yrd,window,2020Q3,5,Direct,6.2505
+yrd,window,2020Q3,5,Source-affine,7.5326
+yrd,window,2020Q3,5,Source-residual,8.5684
+yrd,window,2020Q3,5,ECA,7.6046
+yrd,window,2020Q3,5,ECA-fixed,7.2838
+yrd,window,2020Q3,5,ECA-no-meta,7.5416
+yrd,window,2020Q3,5,ECA-unbounded,21.3370
+yrd,window,2020Q3,5,ECA-isotropic,7.4521
+yrd,window,2020Q3,5,ECA2,6.7421
+yrd,window,2020Q3,5,ECA2-MAP,7.1106
+yrd,window,2020Q3,5,ECA2-affine,6.8855
+yrd,window,2020Q3,5,ECA2-isotropic,6.5782
+yrd,window,2020Q3,5,ECA2-no-meta,8.0830
+yrd,window,2020Q3,5,ECA2-unbounded,6.8155
+yrd,window,2020Q3,5,Local mean,15.4803
+yrd,window,2020Q3,5,Local ridge,10.3482
+yrd,window,2020Q3,5,Local RBF,15.4125
+yrd,window,2020Q3,5,Local RF,13.9553
+yrd,window,2020Q3,5,Local Extra Trees,13.8918
+yrd,window,2020Q3,5,Local LightGBM,14.2185
+yrd,window,2020Q3,5,Best local six,10.2902
+yrd,window,2020Q3,11,Direct,6.2302
+yrd,window,2020Q3,11,Source-affine,6.9919
+yrd,window,2020Q3,11,Source-residual,8.8738
+yrd,window,2020Q3,11,ECA,7.0607
+yrd,window,2020Q3,11,ECA-fixed,7.0792
+yrd,window,2020Q3,11,ECA-no-meta,6.9569
+yrd,window,2020Q3,11,ECA-unbounded,28.7797
+yrd,window,2020Q3,11,ECA-isotropic,6.9380
+yrd,window,2020Q3,11,ECA2,6.8707
+yrd,window,2020Q3,11,ECA2-MAP,7.1036
+yrd,window,2020Q3,11,ECA2-affine,7.2994
+yrd,window,2020Q3,11,ECA2-isotropic,6.6842
+yrd,window,2020Q3,11,ECA2-no-meta,15.4596
+yrd,window,2020Q3,11,ECA2-unbounded,6.8123
+yrd,window,2020Q3,11,Local mean,15.2376
+yrd,window,2020Q3,11,Local ridge,9.4738
+yrd,window,2020Q3,11,Local RBF,15.4181
+yrd,window,2020Q3,11,Local RF,13.0529
+yrd,window,2020Q3,11,Local Extra Trees,13.5495
+yrd,window,2020Q3,11,Local LightGBM,13.8661
+yrd,window,2020Q3,11,Best local six,9.4738
+yrd,window,2020Q4,5,Direct,6.2505
+yrd,window,2020Q4,5,Source-affine,6.7233
+yrd,window,2020Q4,5,Source-residual,8.7228
+yrd,window,2020Q4,5,ECA,8.5481
+yrd,window,2020Q4,5,ECA-fixed,7.2957
+yrd,window,2020Q4,5,ECA-no-meta,7.4007
+yrd,window,2020Q4,5,ECA-unbounded,29.0697
+yrd,window,2020Q4,5,ECA-isotropic,8.3355
+yrd,window,2020Q4,5,ECA2,6.6079
+yrd,window,2020Q4,5,ECA2-MAP,7.5891
+yrd,window,2020Q4,5,ECA2-affine,6.4440
+yrd,window,2020Q4,5,ECA2-isotropic,6.5424
+yrd,window,2020Q4,5,ECA2-no-meta,7.5625
+yrd,window,2020Q4,5,ECA2-unbounded,8.9275
+yrd,window,2020Q4,5,Local mean,15.9460
+yrd,window,2020Q4,5,Local ridge,26.2400
+yrd,window,2020Q4,5,Local RBF,16.8892
+yrd,window,2020Q4,5,Local RF,11.4015
+yrd,window,2020Q4,5,Local Extra Trees,12.5688
+yrd,window,2020Q4,5,Local LightGBM,20.2559
+yrd,window,2020Q4,5,Best local six,11.0080
+yrd,window,2020Q4,11,Direct,6.2302
+yrd,window,2020Q4,11,Source-affine,6.4643
+yrd,window,2020Q4,11,Source-residual,7.9582
+yrd,window,2020Q4,11,ECA,8.0988
+yrd,window,2020Q4,11,ECA-fixed,7.9119
+yrd,window,2020Q4,11,ECA-no-meta,7.2527
+yrd,window,2020Q4,11,ECA-unbounded,21.7347
+yrd,window,2020Q4,11,ECA-isotropic,8.2822
+yrd,window,2020Q4,11,ECA2,6.9222
+yrd,window,2020Q4,11,ECA2-MAP,8.0437
+yrd,window,2020Q4,11,ECA2-affine,6.6941
+yrd,window,2020Q4,11,ECA2-isotropic,6.7886
+yrd,window,2020Q4,11,ECA2-no-meta,7.1828
+yrd,window,2020Q4,11,ECA2-unbounded,8.8055
+yrd,window,2020Q4,11,Local mean,16.1633
+yrd,window,2020Q4,11,Local ridge,24.4567
+yrd,window,2020Q4,11,Local RBF,16.7814
+yrd,window,2020Q4,11,Local RF,8.8437
+yrd,window,2020Q4,11,Local Extra Trees,10.0251
+yrd,window,2020Q4,11,Local LightGBM,10.9027
+yrd,window,2020Q4,11,Best local six,8.5579
+aus,history,M12,3,Direct,14.4564
+aus,history,M12,3,Source-affine,1.9221
+aus,history,M12,3,Source-residual,2.6275
+aus,history,M12,3,ECA,2.2206
+aus,history,M12,3,ECA-fixed,1.9185
+aus,history,M12,3,ECA-no-meta,2.7632
+aus,history,M12,3,ECA-unbounded,5.5816
+aus,history,M12,3,ECA-isotropic,2.1445
+aus,history,M12,3,ECA2,6.7674
+aus,history,M12,3,ECA2-MAP,4.5457
+aus,history,M12,3,ECA2-affine,7.2671
+aus,history,M12,3,ECA2-isotropic,6.4665
+aus,history,M12,3,ECA2-no-meta,3.3438
+aus,history,M12,3,ECA2-unbounded,4.5297
+aus,history,M12,3,Local mean,1.9924
+aus,history,M12,3,Local ridge,4.4358
+aus,history,M12,3,Local RBF,2.6751
+aus,history,M12,3,Local RF,2.1666
+aus,history,M12,3,Local Extra Trees,2.0609
+aus,history,M12,3,Local LightGBM,2.2996
+aus,history,M12,3,Best local six,1.8819
+aus,history,M12,5,Direct,14.4003
+aus,history,M12,5,Source-affine,1.8976
+aus,history,M12,5,Source-residual,2.3326
+aus,history,M12,5,ECA,1.9981
+aus,history,M12,5,ECA-fixed,1.7581
+aus,history,M12,5,ECA-no-meta,2.7824
+aus,history,M12,5,ECA-unbounded,4.0338
+aus,history,M12,5,ECA-isotropic,2.0449
+aus,history,M12,5,ECA2,5.4303
+aus,history,M12,5,ECA2-MAP,2.7141
+aus,history,M12,5,ECA2-affine,6.0251
+aus,history,M12,5,ECA2-isotropic,5.0391
+aus,history,M12,5,ECA2-no-meta,2.9228
+aus,history,M12,5,ECA2-unbounded,2.9625
+aus,history,M12,5,Local mean,1.9970
+aus,history,M12,5,Local ridge,4.1159
+aus,history,M12,5,Local RBF,2.7080
+aus,history,M12,5,Local RF,2.0163
+aus,history,M12,5,Local Extra Trees,2.0233
+aus,history,M12,5,Local LightGBM,2.4870
+aus,history,M12,5,Best local six,1.8700
+aus,history,M3,3,Direct,14.4564
+aus,history,M3,3,Source-affine,1.4691
+aus,history,M3,3,Source-residual,5.5690
+aus,history,M3,3,ECA,1.4782
+aus,history,M3,3,ECA-fixed,1.5054
+aus,history,M3,3,ECA-no-meta,1.4847
+aus,history,M3,3,ECA-unbounded,2.6774
+aus,history,M3,3,ECA-isotropic,1.4735
+aus,history,M3,3,ECA2,10.8066
+aus,history,M3,3,ECA2-MAP,8.5104
+aus,history,M3,3,ECA2-affine,11.5129
+aus,history,M3,3,ECA2-isotropic,11.5044
+aus,history,M3,3,ECA2-no-meta,1.8833
+aus,history,M3,3,ECA2-unbounded,8.2074
+aus,history,M3,3,Local mean,1.4548
+aus,history,M3,3,Local ridge,1.6050
+aus,history,M3,3,Local RBF,1.4223
+aus,history,M3,3,Local RF,1.4334
+aus,history,M3,3,Local Extra Trees,1.4652
+aus,history,M3,3,Local LightGBM,1.4548
+aus,history,M3,3,Best local six,1.3546
+aus,history,M3,5,Direct,14.4003
+aus,history,M3,5,Source-affine,1.4493
+aus,history,M3,5,Source-residual,5.4460
+aus,history,M3,5,ECA,1.4537
+aus,history,M3,5,ECA-fixed,1.4631
+aus,history,M3,5,ECA-no-meta,1.4898
+aus,history,M3,5,ECA-unbounded,3.5404
+aus,history,M3,5,ECA-isotropic,1.4503
+aus,history,M3,5,ECA2,9.7456
+aus,history,M3,5,ECA2-MAP,7.8279
+aus,history,M3,5,ECA2-affine,10.3160
+aus,history,M3,5,ECA2-isotropic,10.6543
+aus,history,M3,5,ECA2-no-meta,1.5251
+aus,history,M3,5,ECA2-unbounded,7.3812
+aus,history,M3,5,Local mean,1.4450
+aus,history,M3,5,Local ridge,1.6285
+aus,history,M3,5,Local RBF,1.3931
+aus,history,M3,5,Local RF,1.4102
+aus,history,M3,5,Local Extra Trees,1.4517
+aus,history,M3,5,Local LightGBM,1.4590
+aus,history,M3,5,Best local six,1.3395
+aus,history,M6,3,Direct,14.4564
+aus,history,M6,3,Source-affine,1.4672
+aus,history,M6,3,Source-residual,3.0415
+aus,history,M6,3,ECA,1.5133
+aus,history,M6,3,ECA-fixed,1.5630
+aus,history,M6,3,ECA-no-meta,1.4921
+aus,history,M6,3,ECA-unbounded,2.9493
+aus,history,M6,3,ECA-isotropic,1.5207
+aus,history,M6,3,ECA2,7.7521
+aus,history,M6,3,ECA2-MAP,4.5606
+aus,history,M6,3,ECA2-affine,8.5247
+aus,history,M6,3,ECA2-isotropic,7.8925
+aus,history,M6,3,ECA2-no-meta,1.4902
+aus,history,M6,3,ECA2-unbounded,4.2967
+aus,history,M6,3,Local mean,1.4998
+aus,history,M6,3,Local ridge,1.9749
+aus,history,M6,3,Local RBF,1.4873
+aus,history,M6,3,Local RF,1.5466
+aus,history,M6,3,Local Extra Trees,1.5824
+aus,history,M6,3,Local LightGBM,1.5566
+aus,history,M6,3,Best local six,1.4250
+aus,history,M6,5,Direct,14.4003
+aus,history,M6,5,Source-affine,1.4246
+aus,history,M6,5,Source-residual,2.7431
+aus,history,M6,5,ECA,1.4351
+aus,history,M6,5,ECA-fixed,1.4967
+aus,history,M6,5,ECA-no-meta,1.4622
+aus,history,M6,5,ECA-unbounded,2.9875
+aus,history,M6,5,ECA-isotropic,1.4523
+aus,history,M6,5,ECA2,6.1740
+aus,history,M6,5,ECA2-MAP,3.5161
+aus,history,M6,5,ECA2-affine,6.9586
+aus,history,M6,5,ECA2-isotropic,6.2547
+aus,history,M6,5,ECA2-no-meta,1.4332
+aus,history,M6,5,ECA2-unbounded,2.9673
+aus,history,M6,5,Local mean,1.4853
+aus,history,M6,5,Local ridge,1.5976
+aus,history,M6,5,Local RBF,1.4595
+aus,history,M6,5,Local RF,1.5463
+aus,history,M6,5,Local Extra Trees,1.5275
+aus,history,M6,5,Local LightGBM,1.4954
+aus,history,M6,5,Best local six,1.3917
+aus,window,2019Q4,3,Direct,14.4564
+aus,window,2019Q4,3,Source-affine,6.7033
+aus,window,2019Q4,3,Source-residual,6.3287
+aus,window,2019Q4,3,ECA,5.4264
+aus,window,2019Q4,3,ECA-fixed,4.1597
+aus,window,2019Q4,3,ECA-no-meta,6.6032
+aus,window,2019Q4,3,ECA-unbounded,9.4936
+aus,window,2019Q4,3,ECA-isotropic,6.1160
+aus,window,2019Q4,3,ECA2,11.6976
+aus,window,2019Q4,3,ECA2-MAP,9.5278
+aus,window,2019Q4,3,ECA2-affine,11.7609
+aus,window,2019Q4,3,ECA2-isotropic,12.2639
+aus,window,2019Q4,3,ECA2-no-meta,7.5257
+aus,window,2019Q4,3,ECA2-unbounded,9.5509
+aus,window,2019Q4,3,Local mean,8.4620
+aus,window,2019Q4,3,Local ridge,19.2789
+aus,window,2019Q4,3,Local RBF,8.5189
+aus,window,2019Q4,3,Local RF,7.0077
+aus,window,2019Q4,3,Local Extra Trees,8.0772
+aus,window,2019Q4,3,Local LightGBM,8.4621
+aus,window,2019Q4,3,Best local six,6.6330
+aus,window,2019Q4,5,Direct,14.4003
+aus,window,2019Q4,5,Source-affine,6.3220
+aus,window,2019Q4,5,Source-residual,6.0837
+aus,window,2019Q4,5,ECA,4.3809
+aus,window,2019Q4,5,ECA-fixed,3.5554
+aus,window,2019Q4,5,ECA-no-meta,6.1443
+aus,window,2019Q4,5,ECA-unbounded,8.9153
+aus,window,2019Q4,5,ECA-isotropic,5.5103
+aus,window,2019Q4,5,ECA2,10.5576
+aus,window,2019Q4,5,ECA2-MAP,8.3255
+aus,window,2019Q4,5,ECA2-affine,10.7175
+aus,window,2019Q4,5,ECA2-isotropic,11.4951
+aus,window,2019Q4,5,ECA2-no-meta,8.0809
+aus,window,2019Q4,5,ECA2-unbounded,8.8583
+aus,window,2019Q4,5,Local mean,8.3712
+aus,window,2019Q4,5,Local ridge,20.3909
+aus,window,2019Q4,5,Local RBF,8.2933
+aus,window,2019Q4,5,Local RF,5.7851
+aus,window,2019Q4,5,Local Extra Trees,7.7142
+aus,window,2019Q4,5,Local LightGBM,6.2644
+aus,window,2019Q4,5,Best local six,5.5223
+aus,window,2020Q2,3,Direct,14.4564
+aus,window,2020Q2,3,Source-affine,1.6327
+aus,window,2020Q2,3,Source-residual,4.1463
+aus,window,2020Q2,3,ECA,1.7549
+aus,window,2020Q2,3,ECA-fixed,1.8105
+aus,window,2020Q2,3,ECA-no-meta,1.6904
+aus,window,2020Q2,3,ECA-unbounded,4.1824
+aus,window,2020Q2,3,ECA-isotropic,1.6735
+aus,window,2020Q2,3,ECA2,8.9074
+aus,window,2020Q2,3,ECA2-MAP,5.4274
+aus,window,2020Q2,3,ECA2-affine,10.0404
+aus,window,2020Q2,3,ECA2-isotropic,9.4723
+aus,window,2020Q2,3,ECA2-no-meta,1.8407
+aus,window,2020Q2,3,ECA2-unbounded,5.0600
+aus,window,2020Q2,3,Local mean,1.6633
+aus,window,2020Q2,3,Local ridge,2.7450
+aus,window,2020Q2,3,Local RBF,1.6659
+aus,window,2020Q2,3,Local RF,1.7935
+aus,window,2020Q2,3,Local Extra Trees,1.7871
+aus,window,2020Q2,3,Local LightGBM,1.6633
+aus,window,2020Q2,3,Best local six,1.6206
+aus,window,2020Q2,5,Direct,14.4003
+aus,window,2020Q2,5,Source-affine,1.5606
+aus,window,2020Q2,5,Source-residual,3.8495
+aus,window,2020Q2,5,ECA,1.7357
+aus,window,2020Q2,5,ECA-fixed,1.8181
+aus,window,2020Q2,5,ECA-no-meta,1.6425
+aus,window,2020Q2,5,ECA-unbounded,6.3989
+aus,window,2020Q2,5,ECA-isotropic,1.6522
+aus,window,2020Q2,5,ECA2,7.5516
+aus,window,2020Q2,5,ECA2-MAP,4.2085
+aus,window,2020Q2,5,ECA2-affine,8.3791
+aus,window,2020Q2,5,ECA2-isotropic,8.1956
+aus,window,2020Q2,5,ECA2-no-meta,1.6106
+aus,window,2020Q2,5,ECA2-unbounded,3.9084
+aus,window,2020Q2,5,Local mean,1.6407
+aus,window,2020Q2,5,Local ridge,2.2326
+aus,window,2020Q2,5,Local RBF,1.6717
+aus,window,2020Q2,5,Local RF,1.8378
+aus,window,2020Q2,5,Local Extra Trees,1.7695
+aus,window,2020Q2,5,Local LightGBM,1.7644
+aus,window,2020Q2,5,Best local six,1.5843
+aus,window,2020Q3,3,Direct,14.4564
+aus,window,2020Q3,3,Source-affine,1.7810
+aus,window,2020Q3,3,Source-residual,4.2329
+aus,window,2020Q3,3,ECA,1.8083
+aus,window,2020Q3,3,ECA-fixed,1.8412
+aus,window,2020Q3,3,ECA-no-meta,1.8013
+aus,window,2020Q3,3,ECA-unbounded,2.8677
+aus,window,2020Q3,3,ECA-isotropic,1.8224
+aus,window,2020Q3,3,ECA2,8.1484
+aus,window,2020Q3,3,ECA2-MAP,5.0055
+aus,window,2020Q3,3,ECA2-affine,9.6431
+aus,window,2020Q3,3,ECA2-isotropic,8.6695
+aus,window,2020Q3,3,ECA2-no-meta,2.3708
+aus,window,2020Q3,3,ECA2-unbounded,4.8838
+aus,window,2020Q3,3,Local mean,1.5654
+aus,window,2020Q3,3,Local ridge,2.3039
+aus,window,2020Q3,3,Local RBF,1.5573
+aus,window,2020Q3,3,Local RF,1.5564
+aus,window,2020Q3,3,Local Extra Trees,1.5997
+aus,window,2020Q3,3,Local LightGBM,1.5654
+aus,window,2020Q3,3,Best local six,1.4859
+aus,window,2020Q3,5,Direct,14.4003
+aus,window,2020Q3,5,Source-affine,1.4778
+aus,window,2020Q3,5,Source-residual,4.1793
+aus,window,2020Q3,5,ECA,1.4847
+aus,window,2020Q3,5,ECA-fixed,1.5222
+aus,window,2020Q3,5,ECA-no-meta,1.4923
+aus,window,2020Q3,5,ECA-unbounded,3.0470
+aus,window,2020Q3,5,ECA-isotropic,1.4953
+aus,window,2020Q3,5,ECA2,6.3140
+aus,window,2020Q3,5,ECA2-MAP,3.7761
+aus,window,2020Q3,5,ECA2-affine,7.8452
+aus,window,2020Q3,5,ECA2-isotropic,6.8764
+aus,window,2020Q3,5,ECA2-no-meta,1.6976
+aus,window,2020Q3,5,ECA2-unbounded,3.5587
+aus,window,2020Q3,5,Local mean,1.5333
+aus,window,2020Q3,5,Local ridge,1.8151
+aus,window,2020Q3,5,Local RBF,1.5127
+aus,window,2020Q3,5,Local RF,1.5454
+aus,window,2020Q3,5,Local Extra Trees,1.5753
+aus,window,2020Q3,5,Local LightGBM,1.5348
+aus,window,2020Q3,5,Best local six,1.3800
+aus,window,2020Q4,3,Direct,14.4564
+aus,window,2020Q4,3,Source-affine,1.4691
+aus,window,2020Q4,3,Source-residual,5.5690
+aus,window,2020Q4,3,ECA,1.4782
+aus,window,2020Q4,3,ECA-fixed,1.5054
+aus,window,2020Q4,3,ECA-no-meta,1.4847
+aus,window,2020Q4,3,ECA-unbounded,2.6774
+aus,window,2020Q4,3,ECA-isotropic,1.4735
+aus,window,2020Q4,3,ECA2,10.8066
+aus,window,2020Q4,3,ECA2-MAP,8.5104
+aus,window,2020Q4,3,ECA2-affine,11.5129
+aus,window,2020Q4,3,ECA2-isotropic,11.5044
+aus,window,2020Q4,3,ECA2-no-meta,1.8833
+aus,window,2020Q4,3,ECA2-unbounded,8.2074
+aus,window,2020Q4,3,Local mean,1.4548
+aus,window,2020Q4,3,Local ridge,1.6050
+aus,window,2020Q4,3,Local RBF,1.4223
+aus,window,2020Q4,3,Local RF,1.4334
+aus,window,2020Q4,3,Local Extra Trees,1.4652
+aus,window,2020Q4,3,Local LightGBM,1.4548
+aus,window,2020Q4,3,Best local six,1.3546
+aus,window,2020Q4,5,Direct,14.4003
+aus,window,2020Q4,5,Source-affine,1.4493
+aus,window,2020Q4,5,Source-residual,5.4460
+aus,window,2020Q4,5,ECA,1.4537
+aus,window,2020Q4,5,ECA-fixed,1.4631
+aus,window,2020Q4,5,ECA-no-meta,1.4898
+aus,window,2020Q4,5,ECA-unbounded,3.5404
+aus,window,2020Q4,5,ECA-isotropic,1.4503
+aus,window,2020Q4,5,ECA2,9.7456
+aus,window,2020Q4,5,ECA2-MAP,7.8279
+aus,window,2020Q4,5,ECA2-affine,10.3160
+aus,window,2020Q4,5,ECA2-isotropic,10.6543
+aus,window,2020Q4,5,ECA2-no-meta,1.5251
+aus,window,2020Q4,5,ECA2-unbounded,7.3812
+aus,window,2020Q4,5,Local mean,1.4450
+aus,window,2020Q4,5,Local ridge,1.6285
+aus,window,2020Q4,5,Local RBF,1.3931
+aus,window,2020Q4,5,Local RF,1.4102
+aus,window,2020Q4,5,Local Extra Trees,1.4517
+aus,window,2020Q4,5,Local LightGBM,1.4590
+aus,window,2020Q4,5,Best local six,1.3395
+locked,history,M12,5,Direct,13.5472
+locked,history,M12,5,Source-affine,12.7039
+locked,history,M12,5,Source-residual,14.6622
+locked,history,M12,5,ECA,12.6797
+locked,history,M12,5,ECA-fixed,12.9613
+locked,history,M12,5,ECA-no-meta,13.2009
+locked,history,M12,5,ECA-unbounded,20.6330
+locked,history,M12,5,ECA-isotropic,12.8068
+locked,history,M12,5,ECA2,12.7570
+locked,history,M12,5,ECA2-MAP,12.9986
+locked,history,M12,5,ECA2-affine,12.4498
+locked,history,M12,5,ECA2-isotropic,12.6899
+locked,history,M12,5,ECA2-no-meta,13.5718
+locked,history,M12,5,ECA2-unbounded,14.9870
+locked,history,M12,5,Local mean,15.9745
+locked,history,M12,5,Local ridge,20.6892
+locked,history,M12,5,Local RBF,15.5840
+locked,history,M12,5,Local RF,13.8204
+locked,history,M12,5,Local Extra Trees,13.6796
+locked,history,M12,5,Local LightGBM,14.0317
+locked,history,M12,5,Best local six,13.3900
+locked,history,M12,11,Direct,13.4803
+locked,history,M12,11,Source-affine,12.6832
+locked,history,M12,11,Source-residual,14.3051
+locked,history,M12,11,ECA,12.7136
+locked,history,M12,11,ECA-fixed,13.0339
+locked,history,M12,11,ECA-no-meta,12.9397
+locked,history,M12,11,ECA-unbounded,17.9363
+locked,history,M12,11,ECA-isotropic,12.7549
+locked,history,M12,11,ECA2,12.9120
+locked,history,M12,11,ECA2-MAP,13.0281
+locked,history,M12,11,ECA2-affine,12.5076
+locked,history,M12,11,ECA2-isotropic,12.8702
+locked,history,M12,11,ECA2-no-meta,13.0629
+locked,history,M12,11,ECA2-unbounded,14.6611
+locked,history,M12,11,Local mean,15.8814
+locked,history,M12,11,Local ridge,19.6344
+locked,history,M12,11,Local RBF,15.4193
+locked,history,M12,11,Local RF,13.3929
+locked,history,M12,11,Local Extra Trees,13.1558
+locked,history,M12,11,Local LightGBM,13.5207
+locked,history,M12,11,Best local six,13.0965
+locked,history,M3,5,Direct,13.5472
+locked,history,M3,5,Source-affine,12.6225
+locked,history,M3,5,Source-residual,13.3941
+locked,history,M3,5,ECA,12.5570
+locked,history,M3,5,ECA-fixed,12.1784
+locked,history,M3,5,ECA-no-meta,12.6573
+locked,history,M3,5,ECA-unbounded,31.0231
+locked,history,M3,5,ECA-isotropic,12.5870
+locked,history,M3,5,ECA2,12.1235
+locked,history,M3,5,ECA2-MAP,11.9942
+locked,history,M3,5,ECA2-affine,12.7592
+locked,history,M3,5,ECA2-isotropic,12.2219
+locked,history,M3,5,ECA2-no-meta,13.2182
+locked,history,M3,5,ECA2-unbounded,13.1160
+locked,history,M3,5,Local mean,17.0063
+locked,history,M3,5,Local ridge,32.5417
+locked,history,M3,5,Local RBF,16.5047
+locked,history,M3,5,Local RF,15.4677
+locked,history,M3,5,Local Extra Trees,15.4381
+locked,history,M3,5,Local LightGBM,17.6098
+locked,history,M3,5,Best local six,15.1046
+locked,history,M3,11,Direct,13.4803
+locked,history,M3,11,Source-affine,12.3220
+locked,history,M3,11,Source-residual,13.1757
+locked,history,M3,11,ECA,12.2574
+locked,history,M3,11,ECA-fixed,12.0380
+locked,history,M3,11,ECA-no-meta,12.4015
+locked,history,M3,11,ECA-unbounded,26.5381
+locked,history,M3,11,ECA-isotropic,12.2941
+locked,history,M3,11,ECA2,11.9768
+locked,history,M3,11,ECA2-MAP,11.9910
+locked,history,M3,11,ECA2-affine,12.7053
+locked,history,M3,11,ECA2-isotropic,12.0786
+locked,history,M3,11,ECA2-no-meta,13.3633
+locked,history,M3,11,ECA2-unbounded,13.4922
+locked,history,M3,11,Local mean,16.8793
+locked,history,M3,11,Local ridge,39.7188
+locked,history,M3,11,Local RBF,16.2462
+locked,history,M3,11,Local RF,14.9612
+locked,history,M3,11,Local Extra Trees,15.4652
+locked,history,M3,11,Local LightGBM,17.6676
+locked,history,M3,11,Best local six,14.9004
+locked,history,M6,5,Direct,13.5472
+locked,history,M6,5,Source-affine,12.6257
+locked,history,M6,5,Source-residual,12.7306
+locked,history,M6,5,ECA,12.5028
+locked,history,M6,5,ECA-fixed,12.2790
+locked,history,M6,5,ECA-no-meta,12.6556
+locked,history,M6,5,ECA-unbounded,24.1507
+locked,history,M6,5,ECA-isotropic,12.3877
+locked,history,M6,5,ECA2,12.1898
+locked,history,M6,5,ECA2-MAP,12.1060
+locked,history,M6,5,ECA2-affine,12.5877
+locked,history,M6,5,ECA2-isotropic,12.1812
+locked,history,M6,5,ECA2-no-meta,12.9881
+locked,history,M6,5,ECA2-unbounded,12.8219
+locked,history,M6,5,Local mean,16.3564
+locked,history,M6,5,Local ridge,23.1940
+locked,history,M6,5,Local RBF,16.2120
+locked,history,M6,5,Local RF,14.0232
+locked,history,M6,5,Local Extra Trees,13.6105
+locked,history,M6,5,Local LightGBM,13.7273
+locked,history,M6,5,Best local six,13.2694
+locked,history,M6,11,Direct,13.4803
+locked,history,M6,11,Source-affine,12.6487
+locked,history,M6,11,Source-residual,12.6653
+locked,history,M6,11,ECA,12.5271
+locked,history,M6,11,ECA-fixed,12.1890
+locked,history,M6,11,ECA-no-meta,12.8023
+locked,history,M6,11,ECA-unbounded,22.2964
+locked,history,M6,11,ECA-isotropic,12.4467
+locked,history,M6,11,ECA2,12.1202
+locked,history,M6,11,ECA2-MAP,12.1262
+locked,history,M6,11,ECA2-affine,12.5980
+locked,history,M6,11,ECA2-isotropic,12.0638
+locked,history,M6,11,ECA2-no-meta,12.9327
+locked,history,M6,11,ECA2-unbounded,12.6967
+locked,history,M6,11,Local mean,16.4021
+locked,history,M6,11,Local ridge,27.5445
+locked,history,M6,11,Local RBF,16.2602
+locked,history,M6,11,Local RF,13.6609
+locked,history,M6,11,Local Extra Trees,13.4463
+locked,history,M6,11,Local LightGBM,13.2189
+locked,history,M6,11,Best local six,13.0262
+locked,historyN,M12,5,Direct,16.6465
+locked,historyN,M12,5,Source-affine,13.2523
+locked,historyN,M12,5,Source-residual,14.7085
+locked,historyN,M12,5,ECA,13.2009
+locked,historyN,M12,5,ECA-fixed,13.3864
+locked,historyN,M12,5,ECA-no-meta,13.6354
+locked,historyN,M12,5,ECA-unbounded,20.4004
+locked,historyN,M12,5,ECA-isotropic,13.5642
+locked,historyN,M12,5,ECA2,13.6744
+locked,historyN,M12,5,ECA2-MAP,13.7421
+locked,historyN,M12,5,ECA2-affine,13.6000
+locked,historyN,M12,5,ECA2-isotropic,13.6540
+locked,historyN,M12,5,ECA2-no-meta,14.0729
+locked,historyN,M12,5,ECA2-unbounded,15.2471
+locked,historyN,M12,5,Local mean,15.9745
+locked,historyN,M12,5,Local ridge,20.6892
+locked,historyN,M12,5,Local RBF,15.5840
+locked,historyN,M12,5,Local RF,13.8204
+locked,historyN,M12,5,Local Extra Trees,13.6796
+locked,historyN,M12,5,Local LightGBM,14.0317
+locked,historyN,M12,5,Best local six,13.3900
+locked,historyN,M12,11,Direct,16.5039
+locked,historyN,M12,11,Source-affine,13.1541
+locked,historyN,M12,11,Source-residual,14.0840
+locked,historyN,M12,11,ECA,13.1736
+locked,historyN,M12,11,ECA-fixed,13.3029
+locked,historyN,M12,11,ECA-no-meta,13.3683
+locked,historyN,M12,11,ECA-unbounded,17.6826
+locked,historyN,M12,11,ECA-isotropic,13.2060
+locked,historyN,M12,11,ECA2,13.4386
+locked,historyN,M12,11,ECA2-MAP,13.4549
+locked,historyN,M12,11,ECA2-affine,13.2866
+locked,historyN,M12,11,ECA2-isotropic,13.4404
+locked,historyN,M12,11,ECA2-no-meta,13.4442
+locked,historyN,M12,11,ECA2-unbounded,14.7165
+locked,historyN,M12,11,Local mean,15.8814
+locked,historyN,M12,11,Local ridge,19.6344
+locked,historyN,M12,11,Local RBF,15.4193
+locked,historyN,M12,11,Local RF,13.3929
+locked,historyN,M12,11,Local Extra Trees,13.1558
+locked,historyN,M12,11,Local LightGBM,13.5207
+locked,historyN,M12,11,Best local six,13.0965
+locked,historyN,M3,5,Direct,16.6465
+locked,historyN,M3,5,Source-affine,13.6653
+locked,historyN,M3,5,Source-residual,14.8728
+locked,historyN,M3,5,ECA,13.5504
+locked,historyN,M3,5,ECA-fixed,12.8111
+locked,historyN,M3,5,ECA-no-meta,13.6879
+locked,historyN,M3,5,ECA-unbounded,29.8125
+locked,historyN,M3,5,ECA-isotropic,13.5908
+locked,historyN,M3,5,ECA2,14.4295
+locked,historyN,M3,5,ECA2-MAP,14.0527
+locked,historyN,M3,5,ECA2-affine,14.9517
+locked,historyN,M3,5,ECA2-isotropic,14.5111
+locked,historyN,M3,5,ECA2-no-meta,14.1644
+locked,historyN,M3,5,ECA2-unbounded,14.8731
+locked,historyN,M3,5,Local mean,17.0063
+locked,historyN,M3,5,Local ridge,32.5417
+locked,historyN,M3,5,Local RBF,16.5047
+locked,historyN,M3,5,Local RF,15.4677
+locked,historyN,M3,5,Local Extra Trees,15.4381
+locked,historyN,M3,5,Local LightGBM,17.6098
+locked,historyN,M3,5,Best local six,15.1046
+locked,historyN,M3,11,Direct,16.5039
+locked,historyN,M3,11,Source-affine,13.1732
+locked,historyN,M3,11,Source-residual,14.5080
+locked,historyN,M3,11,ECA,13.0365
+locked,historyN,M3,11,ECA-fixed,12.5323
+locked,historyN,M3,11,ECA-no-meta,13.2446
+locked,historyN,M3,11,ECA-unbounded,25.5979
+locked,historyN,M3,11,ECA-isotropic,13.0428
+locked,historyN,M3,11,ECA2,14.0056
+locked,historyN,M3,11,ECA2-MAP,13.8516
+locked,historyN,M3,11,ECA2-affine,14.2585
+locked,historyN,M3,11,ECA2-isotropic,14.0715
+locked,historyN,M3,11,ECA2-no-meta,14.3395
+locked,historyN,M3,11,ECA2-unbounded,15.1965
+locked,historyN,M3,11,Local mean,16.8793
+locked,historyN,M3,11,Local ridge,39.7188
+locked,historyN,M3,11,Local RBF,16.2462
+locked,historyN,M3,11,Local RF,14.9612
+locked,historyN,M3,11,Local Extra Trees,15.4652
+locked,historyN,M3,11,Local LightGBM,17.6676
+locked,historyN,M3,11,Best local six,14.9004
+locked,historyN,M6,5,Direct,16.6465
+locked,historyN,M6,5,Source-affine,13.0511
+locked,historyN,M6,5,Source-residual,13.6929
+locked,historyN,M6,5,ECA,12.9287
+locked,historyN,M6,5,ECA-fixed,12.7455
+locked,historyN,M6,5,ECA-no-meta,13.0588
+locked,historyN,M6,5,ECA-unbounded,23.6830
+locked,historyN,M6,5,ECA-isotropic,12.8488
+locked,historyN,M6,5,ECA2,14.0988
+locked,historyN,M6,5,ECA2-MAP,13.7309
+locked,historyN,M6,5,ECA2-affine,14.5012
+locked,historyN,M6,5,ECA2-isotropic,14.1621
+locked,historyN,M6,5,ECA2-no-meta,13.8357
+locked,historyN,M6,5,ECA2-unbounded,14.5952
+locked,historyN,M6,5,Local mean,16.3564
+locked,historyN,M6,5,Local ridge,23.1940
+locked,historyN,M6,5,Local RBF,16.2120
+locked,historyN,M6,5,Local RF,14.0232
+locked,historyN,M6,5,Local Extra Trees,13.6105
+locked,historyN,M6,5,Local LightGBM,13.7273
+locked,historyN,M6,5,Best local six,13.2694
+locked,historyN,M6,11,Direct,16.5039
+locked,historyN,M6,11,Source-affine,13.2139
+locked,historyN,M6,11,Source-residual,13.8570
+locked,historyN,M6,11,ECA,13.1983
+locked,historyN,M6,11,ECA-fixed,12.8560
+locked,historyN,M6,11,ECA-no-meta,13.3558
+locked,historyN,M6,11,ECA-unbounded,22.0458
+locked,historyN,M6,11,ECA-isotropic,12.9469
+locked,historyN,M6,11,ECA2,13.7254
+locked,historyN,M6,11,ECA2-MAP,13.7196
+locked,historyN,M6,11,ECA2-affine,14.0429
+locked,historyN,M6,11,ECA2-isotropic,13.7130
+locked,historyN,M6,11,ECA2-no-meta,13.9716
+locked,historyN,M6,11,ECA2-unbounded,14.3018
+locked,historyN,M6,11,Local mean,16.4021
+locked,historyN,M6,11,Local ridge,27.5445
+locked,historyN,M6,11,Local RBF,16.2602
+locked,historyN,M6,11,Local RF,13.6609
+locked,historyN,M6,11,Local Extra Trees,13.4463
+locked,historyN,M6,11,Local LightGBM,13.2189
+locked,historyN,M6,11,Best local six,13.0262

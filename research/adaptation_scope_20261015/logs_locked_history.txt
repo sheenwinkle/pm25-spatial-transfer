@@ -1,0 +1,6 @@
+locked history M3 k=5 done (9s)
+locked history M3 k=11 done (20s)
+locked history M6 k=5 done (29s)
+locked history M6 k=11 done (42s)
+locked history M12 k=5 done (56s)
+locked history M12 k=11 done (82s)

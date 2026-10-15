@@ -1,0 +1,8 @@
+yrd window 2020Q4 k=5 done (5s)
+yrd window 2020Q4 k=11 done (11s)
+yrd window 2020Q2 k=5 done (16s)
+yrd window 2020Q2 k=11 done (22s)
+yrd window 2020Q3 k=5 done (28s)
+yrd window 2020Q3 k=11 done (35s)
+yrd window 2019Q4 k=5 done (41s)
+yrd window 2019Q4 k=11 done (49s)

@@ -1,0 +1,7 @@
+yrd historyN M3 k=5 done (7s)
+yrd historyN M3 k=11 done (18s)
+yrd historyN M6 k=5 done (28s)
+yrd historyN M6 k=11 done (44s)
+yrd historyN M12 k=5 done (58s)
+yrd historyN M12 k=11 done (82s)
+reproduction: 120 source-affine RMSEs, max |difference| 1.78e-15
