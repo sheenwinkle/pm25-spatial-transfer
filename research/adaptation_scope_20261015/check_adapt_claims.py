@@ -220,8 +220,8 @@ check("explore ECA-S window ranges", f"({ws['yrd']['ECA-S']['min']:.2f}--{ws['yr
 h0 = hyb[hyb.comparison == "H vs S0"]; h1 = hyb[hyb.comparison == "H vs S1"]
 n_pos0, n_neg0 = int((h0.lo > 0).sum()), int((h0.hi < 0).sum())
 n_pos1, n_neg1 = int((h1.lo > 0).sum()), int((h1.hi < 0).sum())
-check("explore hybrid counts text", f"improved on random months in {n_pos1} of {len(h1)} comparisons, but on the latest "
-      f"months only in {n_pos0}")
+results.append(("explore hybrid beats random months in most cells", n_pos1 > len(h1) / 2 and n_neg1 < n_pos1,
+                f"{n_pos1}/{len(h1)} better, {n_neg1} worse"))
 check("explore hybrid counts appendix", f"improves on the latest months with an interval above zero in {n_pos0} and "
       f"loses in {n_neg0}, and improves on random months in {n_pos1} and loses in {n_neg1}")
 pos = h0[h0.lo > 0]
@@ -229,9 +229,11 @@ results.append(("explore hybrid positive cells", set(map(tuple, pos[["task", "m"
                 <= {("yrd", 6), ("aus", 3), ("aus", 6)} and set(pos[pos.task == "aus"].method) == {"ECA-S"}
                 and set(pos[pos.task == "yrd"].method) <= {"Source-affine", "ECA-R"}, pos.to_string()))
 yp = pos[pos.task == "yrd"].gain
-check("explore hybrid YRD six months", f"with six months, by {yp.min():.1f}--{yp.max():.1f}\\% for source-affine and ECA-R")
-check("explore hybrid YRD three months", f"It lost up to {abs(h0[(h0.task == 'yrd') & (h0.m == 3)].gain.min()):.1f}\\% in "
-      f"the YRD with three months")
+NUM = "zero one two three four five six seven eight nine".split()
+check("explore hybrid YRD six months", f"The {NUM[n_pos0]} improvements are for source-affine and ECA-R in the YRD with "
+      f"six months, by {yp.min():.1f}--{yp.max():.1f}\\%")
+check("explore hybrid YRD three months", f"The losses reach {abs(h0[(h0.task == 'yrd') & (h0.m == 3)].gain.min()):.1f}\\% "
+      f"in the YRD with three months")
 aus_sa = h0[(h0.task == "aus") & (h0.method == "Source-affine")]
 results.append(("explore hybrid AUS source-affine losses resolved", bool((aus_sa.hi < 0).all()), ""))
 check("explore hybrid AUS", f"{abs(aus_sa.gain.max()):.1f}--{abs(aus_sa.gain.min()):.1f}\\% for source-affine in "
