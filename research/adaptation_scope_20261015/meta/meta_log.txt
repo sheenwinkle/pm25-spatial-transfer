@@ -1,0 +1,15 @@
+region 0: 44 eligible FUAs, source rows 23964, tasks so far 24
+region 1: 14 eligible FUAs, source rows 26710, tasks so far 48
+region 2: 38 eligible FUAs, source rows 24470, tasks so far 72
+region 3: 27 eligible FUAs, source rows 25431, tasks so far 96
+region 4: 42 eligible FUAs, source rows 24172, tasks so far 120
+region 5: 45 eligible FUAs, source rows 23802, tasks so far 144
+region 6: 17 eligible FUAs, source rows 26532, tasks so far 168
+region 7: 27 eligible FUAs, source rows 25551, tasks so far 192
+region 9: 40 eligible FUAs, source rows 24152, tasks so far 216
+216 pseudo-transfer tasks; affine-only objective is 0 by definition
+held-out regions [0, 3, 6]: train objective -0.1194, held-out objective -0.1619
+held-out regions [1, 4, 7]: train objective -0.1518, held-out objective -0.1022
+held-out regions [2, 5, 9]: train objective -0.1712, held-out objective -0.0614
+ARD length-scales: {'monthly_power_temperature_c': np.float64(3.2), 'temp_range': np.float64(21.6), 'monthly_power_humidity_pct': np.float64(148.41), 'monthly_power_wind_mps': np.float64(8.95), 'monthly_power_precip_mm_day': np.float64(11.62), 'log_fire_count_100km': np.float64(3.64), 'local_season_sin': np.float64(11.27), 'local_season_cos': np.float64(2.82)}
+a_f 0.117, a_n 0.085, objective -0.1411 (mean MSE ratio 0.868); isotropic objective -0.1024, ls 3.08

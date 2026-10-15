@@ -1,0 +1,4 @@
+aus q2 m=3 k=3 done (34s)
+aus q2 m=3 k=5 done (73s)
+aus q2 m=6 k=3 done (113s)
+aus q2 m=6 k=5 done (159s)

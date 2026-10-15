@@ -1,0 +1,4 @@
+locked q2 m=3 k=5 done (63s)
+locked q2 m=3 k=11 done (126s)
+locked q2 m=6 k=5 done (178s)
+locked q2 m=6 k=11 done (247s)

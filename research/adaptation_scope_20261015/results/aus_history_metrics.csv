@@ -1,0 +1,2401 @@
+task,design,cell,k,split,model,rmse,n_train_rows,n_test
+aus,history,M3,3,0,Direct,14.51269202087687,8,138
+aus,history,M3,3,0,Source-affine,1.6569551020728996,8,138
+aus,history,M3,3,0,Source-residual,5.733527304366301,8,138
+aus,history,M3,3,0,Local mean,1.6512856492118875,8,138
+aus,history,M3,3,0,Local ridge,1.5071153470241063,8,138
+aus,history,M3,3,0,Local RBF,1.6037981652748854,8,138
+aus,history,M3,3,0,Local RF,1.6233791445076757,8,138
+aus,history,M3,3,0,Local Extra Trees,1.6076651788468141,8,138
+aus,history,M3,3,0,Local LightGBM,1.6512856782290044,8,138
+aus,history,M3,3,0,ECA,1.677081176249848,8,138
+aus,history,M3,3,0,ECA-fixed,1.7413702149954842,8,138
+aus,history,M3,3,0,ECA-no-meta,1.664686925324073,8,138
+aus,history,M3,3,0,ECA-unbounded,2.452536757705629,8,138
+aus,history,M3,3,0,ECA-isotropic,1.6694521867364382,8,138
+aus,history,M3,3,0,ECA2,11.186083261162832,8,138
+aus,history,M3,3,0,ECA2-MAP,9.220757974983037,8,138
+aus,history,M3,3,0,ECA2-affine,11.812789158247572,8,138
+aus,history,M3,3,0,ECA2-isotropic,11.766603151978856,8,138
+aus,history,M3,3,0,ECA2-no-meta,1.866368114691682,8,138
+aus,history,M3,3,0,ECA2-unbounded,9.022891929496057,8,138
+aus,history,M3,3,1,Direct,14.427291290961335,9,140
+aus,history,M3,3,1,Source-affine,1.3976871806716633,9,140
+aus,history,M3,3,1,Source-residual,5.573207633873268,9,140
+aus,history,M3,3,1,Local mean,1.382963678957837,9,140
+aus,history,M3,3,1,Local ridge,1.899393893101458,9,140
+aus,history,M3,3,1,Local RBF,1.3487244654245205,9,140
+aus,history,M3,3,1,Local RF,1.3139444992245524,9,140
+aus,history,M3,3,1,Local Extra Trees,1.4094638160994009,9,140
+aus,history,M3,3,1,Local LightGBM,1.3829636938084218,9,140
+aus,history,M3,3,1,ECA,1.4062727868536478,9,140
+aus,history,M3,3,1,ECA-fixed,1.4552765522891948,9,140
+aus,history,M3,3,1,ECA-no-meta,1.4037686153769977,9,140
+aus,history,M3,3,1,ECA-unbounded,3.6704943311139586,9,140
+aus,history,M3,3,1,ECA-isotropic,1.397275870399892,9,140
+aus,history,M3,3,1,ECA2,10.603533433679948,9,140
+aus,history,M3,3,1,ECA2-MAP,8.761528254915529,9,140
+aus,history,M3,3,1,ECA2-affine,11.425625131902025,9,140
+aus,history,M3,3,1,ECA2-isotropic,11.223630770749386,9,140
+aus,history,M3,3,1,ECA2-no-meta,1.3814648847823767,9,140
+aus,history,M3,3,1,ECA2-unbounded,8.533122969930838,9,140
+aus,history,M3,3,2,Direct,14.417667024766269,9,140
+aus,history,M3,3,2,Source-affine,1.3781234083416438,9,140
+aus,history,M3,3,2,Source-residual,5.4827511855276105,9,140
+aus,history,M3,3,2,Local mean,1.3668888170050801,9,140
+aus,history,M3,3,2,Local ridge,3.7355920604112938,9,140
+aus,history,M3,3,2,Local RBF,1.3116706004811785,9,140
+aus,history,M3,3,2,Local RF,1.3123740906499717,9,140
+aus,history,M3,3,2,Local Extra Trees,1.3284958342897863,9,140
+aus,history,M3,3,2,Local LightGBM,1.3668888295504278,9,140
+aus,history,M3,3,2,ECA,1.3861138491984315,9,140
+aus,history,M3,3,2,ECA-fixed,1.4275295989241734,9,140
+aus,history,M3,3,2,ECA-no-meta,1.4211205782183627,9,140
+aus,history,M3,3,2,ECA-unbounded,3.3599583171022864,9,140
+aus,history,M3,3,2,ECA-isotropic,1.3794704108378222,9,140
+aus,history,M3,3,2,ECA2,10.616253446768214,9,140
+aus,history,M3,3,2,ECA2-MAP,8.905591606568866,9,140
+aus,history,M3,3,2,ECA2-affine,11.3561491815216,9,140
+aus,history,M3,3,2,ECA2-isotropic,11.266120755748776,9,140
+aus,history,M3,3,2,ECA2-no-meta,1.3737766399884033,9,140
+aus,history,M3,3,2,ECA2-unbounded,8.594064029581702,9,140
+aus,history,M3,3,3,Direct,14.336147003965566,9,142
+aus,history,M3,3,3,Source-affine,1.355977130529801,9,142
+aus,history,M3,3,3,Source-residual,5.685567897157285,9,142
+aus,history,M3,3,3,Local mean,1.2627037748937175,9,142
+aus,history,M3,3,3,Local ridge,1.3068356958736917,9,142
+aus,history,M3,3,3,Local RBF,1.2476913851031808,9,142
+aus,history,M3,3,3,Local RF,1.3175754944714728,9,142
+aus,history,M3,3,3,Local Extra Trees,1.2728119973030725,9,142
+aus,history,M3,3,3,Local LightGBM,1.2627037638393097,9,142
+aus,history,M3,3,3,ECA,1.3613356805654877,9,142
+aus,history,M3,3,3,ECA-fixed,1.3772903638991982,9,142
+aus,history,M3,3,3,ECA-no-meta,1.3703956961130452,9,142
+aus,history,M3,3,3,ECA-unbounded,1.6782969809947477,9,142
+aus,history,M3,3,3,ECA-isotropic,1.3584231233890143,9,142
+aus,history,M3,3,3,ECA2,10.512618469695568,9,142
+aus,history,M3,3,3,ECA2-MAP,8.552942723197804,9,142
+aus,history,M3,3,3,ECA2-affine,11.375684089872545,9,142
+aus,history,M3,3,3,ECA2-isotropic,11.627250049858965,9,142
+aus,history,M3,3,3,ECA2-no-meta,2.374615172661647,9,142
+aus,history,M3,3,3,ECA2-unbounded,8.438166908860575,9,142
+aus,history,M3,3,4,Direct,14.58200262019753,9,138
+aus,history,M3,3,4,Source-affine,1.4442180878650068,9,138
+aus,history,M3,3,4,Source-residual,5.701029169391286,9,138
+aus,history,M3,3,4,Local mean,1.4554581243847238,9,138
+aus,history,M3,3,4,Local ridge,1.5308074192832355,9,138
+aus,history,M3,3,4,Local RBF,1.4259414764501943,9,138
+aus,history,M3,3,4,Local RF,1.4228455036965264,9,138
+aus,history,M3,3,4,Local Extra Trees,1.4657794350290183,9,138
+aus,history,M3,3,4,Local LightGBM,1.4554581402731221,9,138
+aus,history,M3,3,4,ECA,1.4454235806935036,9,138
+aus,history,M3,3,4,ECA-fixed,1.4413110475334463,9,138
+aus,history,M3,3,4,ECA-no-meta,1.4420901688026906,9,138
+aus,history,M3,3,4,ECA-unbounded,2.641455941616154,9,138
+aus,history,M3,3,4,ECA-isotropic,1.4346830836370474,9,138
+aus,history,M3,3,4,ECA2,10.413484585633878,9,138
+aus,history,M3,3,4,ECA2-MAP,7.301679868429118,9,138
+aus,history,M3,3,4,ECA2-affine,11.562894469398472,9,138
+aus,history,M3,3,4,ECA2-isotropic,11.270127977001914,9,138
+aus,history,M3,3,4,ECA2-no-meta,1.6732117783991187,9,138
+aus,history,M3,3,4,ECA2-unbounded,6.9081744784173775,9,138
+aus,history,M3,3,5,Direct,14.496067697029895,9,140
+aus,history,M3,3,5,Source-affine,1.3222513919191792,9,140
+aus,history,M3,3,5,Source-residual,5.466802220840451,9,140
+aus,history,M3,3,5,Local mean,1.3384122235626832,9,140
+aus,history,M3,3,5,Local ridge,1.5837652851389912,9,140
+aus,history,M3,3,5,Local RBF,1.3232419947513336,9,140
+aus,history,M3,3,5,Local RF,1.3098139445390409,9,140
+aus,history,M3,3,5,Local Extra Trees,1.3784987709969088,9,140
+aus,history,M3,3,5,Local LightGBM,1.338412230679517,9,140
+aus,history,M3,3,5,ECA,1.319889831707321,9,140
+aus,history,M3,3,5,ECA-fixed,1.3014455854759244,9,140
+aus,history,M3,3,5,ECA-no-meta,1.3565879209012126,9,140
+aus,history,M3,3,5,ECA-unbounded,4.264454486928741,9,140
+aus,history,M3,3,5,ECA-isotropic,1.317679121962185,9,140
+aus,history,M3,3,5,ECA2,10.965368924334156,9,140
+aus,history,M3,3,5,ECA2-MAP,8.589645045383044,9,140
+aus,history,M3,3,5,ECA2-affine,11.303121259680982,9,140
+aus,history,M3,3,5,ECA2-isotropic,11.519706740449376,9,140
+aus,history,M3,3,5,ECA2-no-meta,5.3927778103025386,9,140
+aus,history,M3,3,5,ECA2-unbounded,8.23433361605505,9,140
+aus,history,M3,3,6,Direct,14.688958510849893,8,138
+aus,history,M3,3,6,Source-affine,1.7402549592913152,8,138
+aus,history,M3,3,6,Source-residual,5.875217507661946,8,138
+aus,history,M3,3,6,Local mean,1.713254856724768,8,138
+aus,history,M3,3,6,Local ridge,1.4926158658181974,8,138
+aus,history,M3,3,6,Local RBF,1.6635623120554366,8,138
+aus,history,M3,3,6,Local RF,1.6853553144921047,8,138
+aus,history,M3,3,6,Local Extra Trees,1.6633633050168692,8,138
+aus,history,M3,3,6,Local LightGBM,1.7132548932302987,8,138
+aus,history,M3,3,6,ECA,1.7667507818769421,8,138
+aus,history,M3,3,6,ECA-fixed,1.8242078864170945,8,138
+aus,history,M3,3,6,ECA-no-meta,1.7581204765051253,8,138
+aus,history,M3,3,6,ECA-unbounded,2.391035243138649,8,138
+aus,history,M3,3,6,ECA-isotropic,1.7577798733991061,8,138
+aus,history,M3,3,6,ECA2,11.384624072467945,8,138
+aus,history,M3,3,6,ECA2-MAP,9.49295372610186,8,138
+aus,history,M3,3,6,ECA2-affine,11.940448390680347,8,138
+aus,history,M3,3,6,ECA2-isotropic,11.941083415924961,8,138
+aus,history,M3,3,6,ECA2-no-meta,1.9287811379955344,8,138
+aus,history,M3,3,6,ECA2-unbounded,9.062767104522779,8,138
+aus,history,M3,3,7,Direct,14.403974217830418,8,138
+aus,history,M3,3,7,Source-affine,1.5311589548141336,8,138
+aus,history,M3,3,7,Source-residual,5.4093597864637015,8,138
+aus,history,M3,3,7,Local mean,1.518951864315673,8,138
+aus,history,M3,3,7,Local ridge,1.2710670544518945,8,138
+aus,history,M3,3,7,Local RBF,1.4869106494273194,8,138
+aus,history,M3,3,7,Local RF,1.4748682998514244,8,138
+aus,history,M3,3,7,Local Extra Trees,1.4796849911125713,8,138
+aus,history,M3,3,7,Local LightGBM,1.5189518885711792,8,138
+aus,history,M3,3,7,ECA,1.552337497582504,8,138
+aus,history,M3,3,7,ECA-fixed,1.5958302949395928,8,138
+aus,history,M3,3,7,ECA-no-meta,1.5314904710484496,8,138
+aus,history,M3,3,7,ECA-unbounded,1.7747371496062296,8,138
+aus,history,M3,3,7,ECA-isotropic,1.5343897274343654,8,138
+aus,history,M3,3,7,ECA2,10.661141274914183,8,138
+aus,history,M3,3,7,ECA2-MAP,8.073537189058964,8,138
+aus,history,M3,3,7,ECA2-affine,11.586467394405528,8,138
+aus,history,M3,3,7,ECA2-isotropic,11.367809675853465,8,138
+aus,history,M3,3,7,ECA2-no-meta,1.8130117899633555,8,138
+aus,history,M3,3,7,ECA2-unbounded,7.954955345292858,8,138
+aus,history,M3,3,8,Direct,14.394194605979369,8,138
+aus,history,M3,3,8,Source-affine,1.5238475996692267,8,138
+aus,history,M3,3,8,Source-residual,5.310799783568402,8,138
+aus,history,M3,3,8,Local mean,1.5044325706678785,8,138
+aus,history,M3,3,8,Local ridge,1.1857514910646187,8,138
+aus,history,M3,3,8,Local RBF,1.4726640857746245,8,138
+aus,history,M3,3,8,Local RF,1.4709852243166233,8,138
+aus,history,M3,3,8,Local Extra Trees,1.4670274355825992,8,138
+aus,history,M3,3,8,Local LightGBM,1.5044325890472179,8,138
+aus,history,M3,3,8,ECA,1.5497839089707064,8,138
+aus,history,M3,3,8,ECA-fixed,1.589428520202624,8,138
+aus,history,M3,3,8,ECA-no-meta,1.5676190857690206,8,138
+aus,history,M3,3,8,ECA-unbounded,1.661102896865267,8,138
+aus,history,M3,3,8,ECA-isotropic,1.531351620602315,8,138
+aus,history,M3,3,8,ECA2,10.620961380607715,8,138
+aus,history,M3,3,8,ECA2-MAP,8.245284268060905,8,138
+aus,history,M3,3,8,ECA2-affine,11.512922371850626,8,138
+aus,history,M3,3,8,ECA2-isotropic,11.377581901199353,8,138
+aus,history,M3,3,8,ECA2-no-meta,1.739484595516668,8,138
+aus,history,M3,3,8,ECA2-unbounded,8.063091601135561,8,138
+aus,history,M3,3,9,Direct,14.360777302309822,9,140
+aus,history,M3,3,9,Source-affine,1.2886516184042502,9,140
+aus,history,M3,3,9,Source-residual,5.4763885733268705,9,140
+aus,history,M3,3,9,Local mean,1.2831064050364651,9,140
+aus,history,M3,3,9,Local ridge,1.5881983359096021,9,140
+aus,history,M3,3,9,Local RBF,1.2705987934017535,9,140
+aus,history,M3,3,9,Local RF,1.2685528556937629,9,140
+aus,history,M3,3,9,Local Extra Trees,1.2984172694317868,9,140
+aus,history,M3,3,9,Local LightGBM,1.283106405468717,9,140
+aus,history,M3,3,9,ECA,1.2956592041726396,9,140
+aus,history,M3,3,9,ECA-fixed,1.3418436800925517,9,140
+aus,history,M3,3,9,ECA-no-meta,1.2905687956703789,9,140
+aus,history,M3,3,9,ECA-unbounded,3.7181922086970784,9,140
+aus,history,M3,3,9,ECA-isotropic,1.2860121426056053,9,140
+aus,history,M3,3,9,ECA2,10.169484215411327,9,140
+aus,history,M3,3,9,ECA2-MAP,7.228719994555026,9,140
+aus,history,M3,3,9,ECA2-affine,11.312588032142772,9,140
+aus,history,M3,3,9,ECA2-isotropic,11.053030895638408,9,140
+aus,history,M3,3,9,ECA2-no-meta,1.2298899890414334,9,140
+aus,history,M3,3,9,ECA2-unbounded,6.567692916389152,9,140
+aus,history,M3,3,10,Direct,14.823111447424191,9,138
+aus,history,M3,3,10,Source-affine,1.6803239876282634,9,138
+aus,history,M3,3,10,Source-residual,5.9561514015794605,9,138
+aus,history,M3,3,10,Local mean,1.6573244053247715,9,138
+aus,history,M3,3,10,Local ridge,1.9858145676009573,9,138
+aus,history,M3,3,10,Local RBF,1.6127335176990536,9,138
+aus,history,M3,3,10,Local RF,1.6466330810130116,9,138
+aus,history,M3,3,10,Local Extra Trees,1.6332548060103989,9,138
+aus,history,M3,3,10,Local LightGBM,1.6573244584272888,9,138
+aus,history,M3,3,10,ECA,1.6872189423775408,9,138
+aus,history,M3,3,10,ECA-fixed,1.7088280996571292,9,138
+aus,history,M3,3,10,ECA-no-meta,1.7138918228599718,9,138
+aus,history,M3,3,10,ECA-unbounded,2.8545212580755797,9,138
+aus,history,M3,3,10,ECA-isotropic,1.690257307054608,9,138
+aus,history,M3,3,10,ECA2,11.298803067235285,9,138
+aus,history,M3,3,10,ECA2-MAP,9.57349686886827,9,138
+aus,history,M3,3,10,ECA2-affine,11.806904666289007,9,138
+aus,history,M3,3,10,ECA2-isotropic,11.86797341546237,9,138
+aus,history,M3,3,10,ECA2-no-meta,1.7713120566371,9,138
+aus,history,M3,3,10,ECA2-unbounded,9.245060287355946,9,138
+aus,history,M3,3,11,Direct,14.43885452336098,9,142
+aus,history,M3,3,11,Source-affine,1.3818075090928108,9,142
+aus,history,M3,3,11,Source-residual,5.57452982620822,9,142
+aus,history,M3,3,11,Local mean,1.35821094468638,9,142
+aus,history,M3,3,11,Local ridge,1.3350416698493643,9,142
+aus,history,M3,3,11,Local RBF,1.3136662008897386,9,142
+aus,history,M3,3,11,Local RF,1.3789689405429582,9,142
+aus,history,M3,3,11,Local Extra Trees,1.4061289736176352,9,142
+aus,history,M3,3,11,Local LightGBM,1.3582109619096296,9,142
+aus,history,M3,3,11,ECA,1.3782260267866862,9,142
+aus,history,M3,3,11,ECA-fixed,1.3503398293054896,9,142
+aus,history,M3,3,11,ECA-no-meta,1.4150866609568409,9,142
+aus,history,M3,3,11,ECA-unbounded,2.296995216703934,9,142
+aus,history,M3,3,11,ECA-isotropic,1.388825809162337,9,142
+aus,history,M3,3,11,ECA2,10.749890288514381,9,142
+aus,history,M3,3,11,ECA2-MAP,8.503035748245455,9,142
+aus,history,M3,3,11,ECA2-affine,11.326937579511593,9,142
+aus,history,M3,3,11,ECA2-isotropic,11.426142746359377,9,142
+aus,history,M3,3,11,ECA2-no-meta,1.7013610069574734,9,142
+aus,history,M3,3,11,ECA2-unbounded,8.30017799719002,9,142
+aus,history,M3,3,12,Direct,14.04921341214944,9,144
+aus,history,M3,3,12,Source-affine,1.2241049250987615,9,144
+aus,history,M3,3,12,Source-residual,5.187582528842788,9,144
+aus,history,M3,3,12,Local mean,1.2172061851862843,9,144
+aus,history,M3,3,12,Local ridge,1.7400456371598503,9,144
+aus,history,M3,3,12,Local RBF,1.22388888717853,9,144
+aus,history,M3,3,12,Local RF,1.221456647861829,9,144
+aus,history,M3,3,12,Local Extra Trees,1.2542344119368898,9,144
+aus,history,M3,3,12,Local LightGBM,1.2172061851605271,9,144
+aus,history,M3,3,12,ECA,1.2291056040970587,9,144
+aus,history,M3,3,12,ECA-fixed,1.2724508628474445,9,144
+aus,history,M3,3,12,ECA-no-meta,1.227812681391839,9,144
+aus,history,M3,3,12,ECA-unbounded,3.5416710426877573,9,144
+aus,history,M3,3,12,ECA-isotropic,1.224621760069293,9,144
+aus,history,M3,3,12,ECA2,9.756390886043317,9,144
+aus,history,M3,3,12,ECA2-MAP,6.262879915513093,9,144
+aus,history,M3,3,12,ECA2-affine,10.947716230075313,9,144
+aus,history,M3,3,12,ECA2-isotropic,10.735684741819822,9,144
+aus,history,M3,3,12,ECA2-no-meta,1.1270923216231559,9,144
+aus,history,M3,3,12,ECA2-unbounded,5.6723816830565585,9,144
+aus,history,M3,3,13,Direct,14.362723810950607,8,138
+aus,history,M3,3,13,Source-affine,1.5107944387294503,8,138
+aus,history,M3,3,13,Source-residual,5.206286240639355,8,138
+aus,history,M3,3,13,Local mean,1.529712734228675,8,138
+aus,history,M3,3,13,Local ridge,1.4371811902898726,8,138
+aus,history,M3,3,13,Local RBF,1.49969500199479,8,138
+aus,history,M3,3,13,Local RF,1.4656108207416971,8,138
+aus,history,M3,3,13,Local Extra Trees,1.4910707105595475,8,138
+aus,history,M3,3,13,Local LightGBM,1.5297127679803593,8,138
+aus,history,M3,3,13,ECA,1.5194962466159225,8,138
+aus,history,M3,3,13,ECA-fixed,1.5477482889094125,8,138
+aus,history,M3,3,13,ECA-no-meta,1.5039198561012463,8,138
+aus,history,M3,3,13,ECA-unbounded,2.407460200915762,8,138
+aus,history,M3,3,13,ECA-isotropic,1.504184192339204,8,138
+aus,history,M3,3,13,ECA2,11.051619889314528,8,138
+aus,history,M3,3,13,ECA2-MAP,8.503236796978975,8,138
+aus,history,M3,3,13,ECA2-affine,11.43552022077316,8,138
+aus,history,M3,3,13,ECA2-isotropic,11.537940614349083,8,138
+aus,history,M3,3,13,ECA2-no-meta,1.6316061960167687,8,138
+aus,history,M3,3,13,ECA2-unbounded,8.391846515488266,8,138
+aus,history,M3,3,14,Direct,14.352916092436745,8,138
+aus,history,M3,3,14,Source-affine,1.5010588194488594,8,138
+aus,history,M3,3,14,Source-residual,5.118493565433093,8,138
+aus,history,M3,3,14,Local mean,1.5096556854109677,8,138
+aus,history,M3,3,14,Local ridge,1.3550922454788943,8,138
+aus,history,M3,3,14,Local RBF,1.4759045431673163,8,138
+aus,history,M3,3,14,Local RF,1.4686824664483762,8,138
+aus,history,M3,3,14,Local Extra Trees,1.483421020244338,8,138
+aus,history,M3,3,14,Local LightGBM,1.5096557176972556,8,138
+aus,history,M3,3,14,ECA,1.5084842942443255,8,138
+aus,history,M3,3,14,ECA-fixed,1.527181187648721,8,138
+aus,history,M3,3,14,ECA-no-meta,1.493971837042805,8,138
+aus,history,M3,3,14,ECA-unbounded,2.1702823128982063,8,138
+aus,history,M3,3,14,ECA-isotropic,1.4958096376567696,8,138
+aus,history,M3,3,14,ECA2,10.9405450735875,8,138
+aus,history,M3,3,14,ECA2-MAP,8.533459284099207,8,138
+aus,history,M3,3,14,ECA2-affine,11.36394102279853,8,138
+aus,history,M3,3,14,ECA2-isotropic,11.529730655386286,8,138
+aus,history,M3,3,14,ECA2-no-meta,1.6163040228013665,8,138
+aus,history,M3,3,14,ECA2-unbounded,8.309549655058033,8,138
+aus,history,M3,3,15,Direct,14.502985719489118,8,138
+aus,history,M3,3,15,Source-affine,1.6521368939046333,8,138
+aus,history,M3,3,15,Source-residual,5.619794195435089,8,138
+aus,history,M3,3,15,Local mean,1.6445223366020119,8,138
+aus,history,M3,3,15,Local ridge,1.4805999380559527,8,138
+aus,history,M3,3,15,Local RBF,1.582812359618459,8,138
+aus,history,M3,3,15,Local RF,1.6219675494855632,8,138
+aus,history,M3,3,15,Local Extra Trees,1.6113819680567447,8,138
+aus,history,M3,3,15,Local LightGBM,1.6445223596841965,8,138
+aus,history,M3,3,15,ECA,1.6729090628606504,8,138
+aus,history,M3,3,15,ECA-fixed,1.7287282762258016,8,138
+aus,history,M3,3,15,ECA-no-meta,1.6611087464207472,8,138
+aus,history,M3,3,15,ECA-unbounded,2.3682639272707595,8,138
+aus,history,M3,3,15,ECA-isotropic,1.6655291933161365,8,138
+aus,history,M3,3,15,ECA2,11.11074228998816,8,138
+aus,history,M3,3,15,ECA2-MAP,9.303566862391857,8,138
+aus,history,M3,3,15,ECA2-affine,11.737964980018587,8,138
+aus,history,M3,3,15,ECA2-isotropic,11.751976123428049,8,138
+aus,history,M3,3,15,ECA2-no-meta,1.7983248701550714,8,138
+aus,history,M3,3,15,ECA2-unbounded,9.046311032837044,8,138
+aus,history,M3,3,16,Direct,14.582054176573665,8,138
+aus,history,M3,3,16,Source-affine,1.5212440266868827,8,138
+aus,history,M3,3,16,Source-residual,5.557758212967245,8,138
+aus,history,M3,3,16,Local mean,1.5073596925483523,8,138
+aus,history,M3,3,16,Local ridge,1.4035545090793877,8,138
+aus,history,M3,3,16,Local RBF,1.4798114161675524,8,138
+aus,history,M3,3,16,Local RF,1.4728652476896698,8,138
+aus,history,M3,3,16,Local Extra Trees,1.4866169381891063,8,138
+aus,history,M3,3,16,Local LightGBM,1.507359712430877,8,138
+aus,history,M3,3,16,ECA,1.5207970576039067,8,138
+aus,history,M3,3,16,ECA-fixed,1.5126422012886158,8,138
+aus,history,M3,3,16,ECA-no-meta,1.5159367325269855,8,138
+aus,history,M3,3,16,ECA-unbounded,2.311152582344721,8,138
+aus,history,M3,3,16,ECA-isotropic,1.5177077645984087,8,138
+aus,history,M3,3,16,ECA2,11.490390217608875,8,138
+aus,history,M3,3,16,ECA2-MAP,9.172384741174582,8,138
+aus,history,M3,3,16,ECA2-affine,11.674402232779258,8,138
+aus,history,M3,3,16,ECA2-isotropic,12.014885538357525,8,138
+aus,history,M3,3,16,ECA2-no-meta,1.8291190363999728,8,138
+aus,history,M3,3,16,ECA2-unbounded,8.931258661249702,8,138
+aus,history,M3,3,17,Direct,14.360777302309822,9,140
+aus,history,M3,3,17,Source-affine,1.2886516184042502,9,140
+aus,history,M3,3,17,Source-residual,5.4763885733268705,9,140
+aus,history,M3,3,17,Local mean,1.2831064050364651,9,140
+aus,history,M3,3,17,Local ridge,1.5881983359096021,9,140
+aus,history,M3,3,17,Local RBF,1.2705987934017535,9,140
+aus,history,M3,3,17,Local RF,1.2685528556937629,9,140
+aus,history,M3,3,17,Local Extra Trees,1.2984172694317868,9,140
+aus,history,M3,3,17,Local LightGBM,1.283106405468717,9,140
+aus,history,M3,3,17,ECA,1.2956592041726396,9,140
+aus,history,M3,3,17,ECA-fixed,1.3418436800925517,9,140
+aus,history,M3,3,17,ECA-no-meta,1.2905687956703789,9,140
+aus,history,M3,3,17,ECA-unbounded,3.7181922086970784,9,140
+aus,history,M3,3,17,ECA-isotropic,1.2860121426056053,9,140
+aus,history,M3,3,17,ECA2,10.169484215411327,9,140
+aus,history,M3,3,17,ECA2-MAP,7.228719994555026,9,140
+aus,history,M3,3,17,ECA2-affine,11.312588032142772,9,140
+aus,history,M3,3,17,ECA2-isotropic,11.053030895638408,9,140
+aus,history,M3,3,17,ECA2-no-meta,1.2298899890414334,9,140
+aus,history,M3,3,17,ECA2-unbounded,6.567692916389152,9,140
+aus,history,M3,3,18,Direct,14.623826148147819,9,142
+aus,history,M3,3,18,Source-affine,1.4756390023887018,9,142
+aus,history,M3,3,18,Source-residual,6.218735732349201,9,142
+aus,history,M3,3,18,Local mean,1.4163446565761009,9,142
+aus,history,M3,3,18,Local ridge,1.299202107205312,9,142
+aus,history,M3,3,18,Local RBF,1.3862216854425244,9,142
+aus,history,M3,3,18,Local RF,1.4569229916785784,9,142
+aus,history,M3,3,18,Local Extra Trees,1.6711608485502212,9,142
+aus,history,M3,3,18,Local LightGBM,1.4163446503612345,9,142
+aus,history,M3,3,18,ECA,1.4805577716985288,9,142
+aus,history,M3,3,18,ECA-fixed,1.5096242608587722,9,142
+aus,history,M3,3,18,ECA-no-meta,1.5394745262716798,9,142
+aus,history,M3,3,18,ECA-unbounded,2.1087484821426865,9,142
+aus,history,M3,3,18,ECA-isotropic,1.504290941598141,9,142
+aus,history,M3,3,18,ECA2,11.310996816536978,9,142
+aus,history,M3,3,18,ECA2-MAP,9.623892375229314,9,142
+aus,history,M3,3,18,ECA2-affine,11.791618367913033,9,142
+aus,history,M3,3,18,ECA2-isotropic,11.979246578490896,9,142
+aus,history,M3,3,18,ECA2-no-meta,2.220163319222679,9,142
+aus,history,M3,3,18,ECA2-unbounded,9.397635037722072,9,142
+aus,history,M3,3,19,Direct,14.411388337562686,8,142
+aus,history,M3,3,19,Source-affine,1.5077897856691105,8,142
+aus,history,M3,3,19,Source-residual,5.750508876660869,8,142
+aus,history,M3,3,19,Local mean,1.4945007163771302,8,142
+aus,history,M3,3,19,Local ridge,1.3740125015804838,8,142
+aus,history,M3,3,19,Local RBF,1.4453619739128525,8,142
+aus,history,M3,3,19,Local RF,1.4668656987946989,8,142
+aus,history,M3,3,19,Local Extra Trees,1.5963654411941506,8,142
+aus,history,M3,3,19,Local LightGBM,1.4945007236571437,8,142
+aus,history,M3,3,19,ECA,1.510718924245805,8,142
+aus,history,M3,3,19,ECA-fixed,1.5128083000124282,8,142
+aus,history,M3,3,19,ECA-no-meta,1.5266247675735338,8,142
+aus,history,M3,3,19,ECA-unbounded,2.1586000502417533,8,142
+aus,history,M3,3,19,ECA-isotropic,1.5255573976625383,8,142
+aus,history,M3,3,19,ECA2,11.118786647651905,8,142
+aus,history,M3,3,19,ECA2-MAP,9.131391665251133,8,142
+aus,history,M3,3,19,ECA2-affine,11.672186778827927,8,142
+aus,history,M3,3,19,ECA2-isotropic,11.77945808581775,8,142
+aus,history,M3,3,19,ECA2-no-meta,1.9681987150180082,8,142
+aus,history,M3,3,19,ECA2-unbounded,8.90755371581745,8,142
+aus,history,M3,5,0,Direct,14.94358812136048,14,90
+aus,history,M3,5,0,Source-affine,1.7690697420814734,14,90
+aus,history,M3,5,0,Source-residual,5.945802528225447,14,90
+aus,history,M3,5,0,Local mean,1.682883970131694,14,90
+aus,history,M3,5,0,Local ridge,1.4230997605977278,14,90
+aus,history,M3,5,0,Local RBF,1.6059091664358176,14,90
+aus,history,M3,5,0,Local RF,1.6422439020280435,14,90
+aus,history,M3,5,0,Local Extra Trees,1.6295099516735287,14,90
+aus,history,M3,5,0,Local LightGBM,1.6823733586614509,14,90
+aus,history,M3,5,0,ECA,1.7772551331259034,14,90
+aus,history,M3,5,0,ECA-fixed,1.7823462819320555,14,90
+aus,history,M3,5,0,ECA-no-meta,1.777311288428052,14,90
+aus,history,M3,5,0,ECA-unbounded,3.3266130657347612,14,90
+aus,history,M3,5,0,ECA-isotropic,1.7694385232450072,14,90
+aus,history,M3,5,0,ECA2,10.264098814593016,14,90
+aus,history,M3,5,0,ECA2-MAP,8.239083394824037,14,90
+aus,history,M3,5,0,ECA2-affine,11.03312926049093,14,90
+aus,history,M3,5,0,ECA2-isotropic,11.137905276889544,14,90
+aus,history,M3,5,0,ECA2-no-meta,1.8127083194025357,14,90
+aus,history,M3,5,0,ECA2-unbounded,7.7267119337850705,14,90
+aus,history,M3,5,1,Direct,14.07324333087487,14,96
+aus,history,M3,5,1,Source-affine,1.330496914557209,14,96
+aus,history,M3,5,1,Source-residual,5.119726322023937,14,96
+aus,history,M3,5,1,Local mean,1.3553041358308835,14,96
+aus,history,M3,5,1,Local ridge,1.7629018025164587,14,96
+aus,history,M3,5,1,Local RBF,1.330424537976303,14,96
+aus,history,M3,5,1,Local RF,1.2913929936645792,14,96
+aus,history,M3,5,1,Local Extra Trees,1.4007697489222308,14,96
+aus,history,M3,5,1,Local LightGBM,1.3649626194539672,14,96
+aus,history,M3,5,1,ECA,1.3341080793799085,14,96
+aus,history,M3,5,1,ECA-fixed,1.3530507040557642,14,96
+aus,history,M3,5,1,ECA-no-meta,1.398440117957166,14,96
+aus,history,M3,5,1,ECA-unbounded,4.253832619459419,14,96
+aus,history,M3,5,1,ECA-isotropic,1.3304717547480536,14,96
+aus,history,M3,5,1,ECA2,9.315169676846986,14,96
+aus,history,M3,5,1,ECA2-MAP,7.423073749022857,14,96
+aus,history,M3,5,1,ECA2-affine,10.021962408202256,14,96
+aus,history,M3,5,1,ECA2-isotropic,10.220127292821081,14,96
+aus,history,M3,5,1,ECA2-no-meta,1.2922645637791088,14,96
+aus,history,M3,5,1,ECA2-unbounded,6.995763228454244,14,96
+aus,history,M3,5,2,Direct,14.05885228823488,14,96
+aus,history,M3,5,2,Source-affine,1.3021725135750757,14,96
+aus,history,M3,5,2,Source-residual,4.954572536372916,14,96
+aus,history,M3,5,2,Local mean,1.318413814050543,14,96
+aus,history,M3,5,2,Local ridge,1.6113815823527373,14,96
+aus,history,M3,5,2,Local RBF,1.2630903278096575,14,96
+aus,history,M3,5,2,Local RF,1.2187674799779864,14,96
+aus,history,M3,5,2,Local Extra Trees,1.2942725747589405,14,96
+aus,history,M3,5,2,Local LightGBM,1.2770662793784089,14,96
+aus,history,M3,5,2,ECA,1.3046231607748902,14,96
+aus,history,M3,5,2,ECA-fixed,1.3097064783084074,14,96
+aus,history,M3,5,2,ECA-no-meta,1.3609065813574595,14,96
+aus,history,M3,5,2,ECA-unbounded,3.90729819532697,14,96
+aus,history,M3,5,2,ECA-isotropic,1.3063421311182104,14,96
+aus,history,M3,5,2,ECA2,9.508692178702523,14,96
+aus,history,M3,5,2,ECA2-MAP,7.708725567920979,14,96
+aus,history,M3,5,2,ECA2-affine,9.972328612364208,14,96
+aus,history,M3,5,2,ECA2-isotropic,10.409814251514257,14,96
+aus,history,M3,5,2,ECA2-no-meta,1.3180140229897943,14,96
+aus,history,M3,5,2,ECA2-unbounded,7.249987362238355,14,96
+aus,history,M3,5,3,Direct,13.95918684882208,14,96
+aus,history,M3,5,3,Source-affine,1.178308338786053,14,96
+aus,history,M3,5,3,Source-residual,4.808955177975063,14,96
+aus,history,M3,5,3,Local mean,1.2261425389842138,14,96
+aus,history,M3,5,3,Local ridge,1.6139945384739829,14,96
+aus,history,M3,5,3,Local RBF,1.2035539632514034,14,96
+aus,history,M3,5,3,Local RF,1.2155399839157999,14,96
+aus,history,M3,5,3,Local Extra Trees,1.301825864719572,14,96
+aus,history,M3,5,3,Local LightGBM,1.208465921665814,14,96
+aus,history,M3,5,3,ECA,1.1791456392450494,14,96
+aus,history,M3,5,3,ECA-fixed,1.189100794527491,14,96
+aus,history,M3,5,3,ECA-no-meta,1.2588437564147192,14,96
+aus,history,M3,5,3,ECA-unbounded,3.6767834450454666,14,96
+aus,history,M3,5,3,ECA-isotropic,1.1786280457825855,14,96
+aus,history,M3,5,3,ECA2,9.258724697599675,14,96
+aus,history,M3,5,3,ECA2-MAP,7.120039036090751,14,96
+aus,history,M3,5,3,ECA2-affine,9.857090173531248,14,96
+aus,history,M3,5,3,ECA2-isotropic,10.410323937238893,14,96
+aus,history,M3,5,3,ECA2-no-meta,1.2502096515298633,14,96
+aus,history,M3,5,3,ECA2-unbounded,6.71308209875194,14,96
+aus,history,M3,5,4,Direct,14.297914135828123,14,94
+aus,history,M3,5,4,Source-affine,1.4728374549982335,14,94
+aus,history,M3,5,4,Source-residual,5.476597253892854,14,94
+aus,history,M3,5,4,Local mean,1.4885215993412304,14,94
+aus,history,M3,5,4,Local ridge,1.812125129293129,14,94
+aus,history,M3,5,4,Local RBF,1.45509641893958,14,94
+aus,history,M3,5,4,Local RF,1.449806642248458,14,94
+aus,history,M3,5,4,Local Extra Trees,1.5189941784174625,14,94
+aus,history,M3,5,4,Local LightGBM,1.551679247937546,14,94
+aus,history,M3,5,4,ECA,1.472768590065199,14,94
+aus,history,M3,5,4,ECA-fixed,1.4646851983202847,14,94
+aus,history,M3,5,4,ECA-no-meta,1.4806342019906715,14,94
+aus,history,M3,5,4,ECA-unbounded,2.497957124206074,14,94
+aus,history,M3,5,4,ECA-isotropic,1.470296931109409,14,94
+aus,history,M3,5,4,ECA2,9.443932656865892,14,94
+aus,history,M3,5,4,ECA2-MAP,7.549036466334213,14,94
+aus,history,M3,5,4,ECA2-affine,10.256496718895464,14,94
+aus,history,M3,5,4,ECA2-isotropic,10.548620317625637,14,94
+aus,history,M3,5,4,ECA2-no-meta,1.6700426035096159,14,94
+aus,history,M3,5,4,ECA2-unbounded,7.228760974950628,14,94
+aus,history,M3,5,5,Direct,14.30514700883794,14,92
+aus,history,M3,5,5,Source-affine,1.3826734015114286,14,92
+aus,history,M3,5,5,Source-residual,5.415138924478918,14,92
+aus,history,M3,5,5,Local mean,1.3974598135842622,14,92
+aus,history,M3,5,5,Local ridge,1.6619978395770016,14,92
+aus,history,M3,5,5,Local RBF,1.3637332576810488,14,92
+aus,history,M3,5,5,Local RF,1.3267998430870787,14,92
+aus,history,M3,5,5,Local Extra Trees,1.4360163162515442,14,92
+aus,history,M3,5,5,Local LightGBM,1.3740983186735185,14,92
+aus,history,M3,5,5,ECA,1.3839277394798017,14,92
+aus,history,M3,5,5,ECA-fixed,1.3842179197474807,14,92
+aus,history,M3,5,5,ECA-no-meta,1.4167481150683878,14,92
+aus,history,M3,5,5,ECA-unbounded,3.705613803007053,14,92
+aus,history,M3,5,5,ECA-isotropic,1.378035477342518,14,92
+aus,history,M3,5,5,ECA2,10.030897583875024,14,92
+aus,history,M3,5,5,ECA2-MAP,7.865235711804893,14,92
+aus,history,M3,5,5,ECA2-affine,10.089794095038021,14,92
+aus,history,M3,5,5,ECA2-isotropic,10.794176149244464,14,92
+aus,history,M3,5,5,ECA2-no-meta,1.4169027616652914,14,92
+aus,history,M3,5,5,ECA2-unbounded,7.359172629144009,14,92
+aus,history,M3,5,6,Direct,14.820576237769854,14,90
+aus,history,M3,5,6,Source-affine,1.7543647828021787,14,90
+aus,history,M3,5,6,Source-residual,5.870114130017438,14,90
+aus,history,M3,5,6,Local mean,1.7210924732344155,14,90
+aus,history,M3,5,6,Local ridge,1.665343706645727,14,90
+aus,history,M3,5,6,Local RBF,1.6522759761660089,14,90
+aus,history,M3,5,6,Local RF,1.7194309261340652,14,90
+aus,history,M3,5,6,Local Extra Trees,1.702455856665404,14,90
+aus,history,M3,5,6,Local LightGBM,1.8284412673797332,14,90
+aus,history,M3,5,6,ECA,1.7710846264329214,14,90
+aus,history,M3,5,6,ECA-fixed,1.8188257707634181,14,90
+aus,history,M3,5,6,ECA-no-meta,1.8010725974186155,14,90
+aus,history,M3,5,6,ECA-unbounded,3.764148200149156,14,90
+aus,history,M3,5,6,ECA-isotropic,1.7659331467011357,14,90
+aus,history,M3,5,6,ECA2,10.469208766932796,14,90
+aus,history,M3,5,6,ECA2-MAP,8.618440459814801,14,90
+aus,history,M3,5,6,ECA2-affine,10.759210439369888,14,90
+aus,history,M3,5,6,ECA2-isotropic,11.143706324366772,14,90
+aus,history,M3,5,6,ECA2-no-meta,1.7257254170350647,14,90
+aus,history,M3,5,6,ECA2-unbounded,8.06244457669989,14,90
+aus,history,M3,5,7,Direct,14.015665442003607,14,94
+aus,history,M3,5,7,Source-affine,1.3288491699260807,14,94
+aus,history,M3,5,7,Source-residual,4.848660039681356,14,94
+aus,history,M3,5,7,Local mean,1.31307065959671,14,94
+aus,history,M3,5,7,Local ridge,1.6029481925461462,14,94
+aus,history,M3,5,7,Local RBF,1.2561845882874059,14,94
+aus,history,M3,5,7,Local RF,1.2908136890393065,14,94
+aus,history,M3,5,7,Local Extra Trees,1.3130837149612942,14,94
+aus,history,M3,5,7,Local LightGBM,1.3026811165930419,14,94
+aus,history,M3,5,7,ECA,1.3238911499286927,14,94
+aus,history,M3,5,7,ECA-fixed,1.2879123892553546,14,94
+aus,history,M3,5,7,ECA-no-meta,1.3440189174362045,14,94
+aus,history,M3,5,7,ECA-unbounded,2.5740082846470482,14,94
+aus,history,M3,5,7,ECA-isotropic,1.3102644602572262,14,94
+aus,history,M3,5,7,ECA2,8.764356193923147,14,94
+aus,history,M3,5,7,ECA2-MAP,7.054621573826834,14,94
+aus,history,M3,5,7,ECA2-affine,9.954602181366027,14,94
+aus,history,M3,5,7,ECA2-isotropic,9.990276772317559,14,94
+aus,history,M3,5,7,ECA2-no-meta,1.6722540922819373,14,94
+aus,history,M3,5,7,ECA2-unbounded,6.557621785742507,14,94
+aus,history,M3,5,8,Direct,14.92913211612624,14,90
+aus,history,M3,5,8,Source-affine,1.7754107905727365,14,90
+aus,history,M3,5,8,Source-residual,5.858998165515316,14,90
+aus,history,M3,5,8,Local mean,1.6682048325013052,14,90
+aus,history,M3,5,8,Local ridge,1.2347169987728082,14,90
+aus,history,M3,5,8,Local RBF,1.5699597668472762,14,90
+aus,history,M3,5,8,Local RF,1.6636950103529375,14,90
+aus,history,M3,5,8,Local Extra Trees,1.6230173466083302,14,90
+aus,history,M3,5,8,Local LightGBM,1.6735386135839692,14,90
+aus,history,M3,5,8,ECA,1.7861574876120034,14,90
+aus,history,M3,5,8,ECA-fixed,1.7962179212291611,14,90
+aus,history,M3,5,8,ECA-no-meta,1.7835487520824258,14,90
+aus,history,M3,5,8,ECA-unbounded,3.4831870415136756,14,90
+aus,history,M3,5,8,ECA-isotropic,1.780545812911189,14,90
+aus,history,M3,5,8,ECA2,10.426675778611587,14,90
+aus,history,M3,5,8,ECA2-MAP,8.300088261406414,14,90
+aus,history,M3,5,8,ECA2-affine,10.97953240596541,14,90
+aus,history,M3,5,8,ECA2-isotropic,11.278081435820972,14,90
+aus,history,M3,5,8,ECA2-no-meta,1.833091144934427,14,90
+aus,history,M3,5,8,ECA2-unbounded,7.799671521999836,14,90
+aus,history,M3,5,9,Direct,14.235897948015367,15,96
+aus,history,M3,5,9,Source-affine,1.1026074796134029,15,96
+aus,history,M3,5,9,Source-residual,5.587860382368626,15,96
+aus,history,M3,5,9,Local mean,1.1494010089973121,15,96
+aus,history,M3,5,9,Local ridge,1.663167222888594,15,96
+aus,history,M3,5,9,Local RBF,1.13495218193571,15,96
+aus,history,M3,5,9,Local RF,1.1778518791451111,15,96
+aus,history,M3,5,9,Local Extra Trees,1.179897912429235,15,96
+aus,history,M3,5,9,Local LightGBM,1.2389014949525607,15,96
+aus,history,M3,5,9,ECA,1.1097872021554152,15,96
+aus,history,M3,5,9,ECA-fixed,1.1569270617201002,15,96
+aus,history,M3,5,9,ECA-no-meta,1.1968580509663436,15,96
+aus,history,M3,5,9,ECA-unbounded,3.5997927539995036,15,96
+aus,history,M3,5,9,ECA-isotropic,1.1083423125763012,15,96
+aus,history,M3,5,9,ECA2,9.275081802865227,15,96
+aus,history,M3,5,9,ECA2-MAP,7.303257356385681,15,96
+aus,history,M3,5,9,ECA2-affine,10.07713182513428,15,96
+aus,history,M3,5,9,ECA2-isotropic,10.193652063780569,15,96
+aus,history,M3,5,9,ECA2-no-meta,1.1575890882610722,15,96
+aus,history,M3,5,9,ECA2-unbounded,6.812373136974401,15,96
+aus,history,M3,5,10,Direct,14.805922271511562,15,90
+aus,history,M3,5,10,Source-affine,1.5864541336652829,15,90
+aus,history,M3,5,10,Source-residual,5.446826527857899,15,90
+aus,history,M3,5,10,Local mean,1.556516426059522,15,90
+aus,history,M3,5,10,Local ridge,1.4789821681016186,15,90
+aus,history,M3,5,10,Local RBF,1.484999748533263,15,90
+aus,history,M3,5,10,Local RF,1.6867273736015964,15,90
+aus,history,M3,5,10,Local Extra Trees,1.590993704161696,15,90
+aus,history,M3,5,10,Local LightGBM,1.6046593108035232,15,90
+aus,history,M3,5,10,ECA,1.5876259489623077,15,90
+aus,history,M3,5,10,ECA-fixed,1.5954238811541077,15,90
+aus,history,M3,5,10,ECA-no-meta,1.6242443165381242,15,90
+aus,history,M3,5,10,ECA-unbounded,3.4414175104868097,15,90
+aus,history,M3,5,10,ECA-isotropic,1.5876726747793417,15,90
+aus,history,M3,5,10,ECA2,10.077357560722088,15,90
+aus,history,M3,5,10,ECA2-MAP,8.025560798336995,15,90
+aus,history,M3,5,10,ECA2-affine,10.612642555213208,15,90
+aus,history,M3,5,10,ECA2-isotropic,10.824056675717959,15,90
+aus,history,M3,5,10,ECA2-no-meta,1.5766359310197071,15,90
+aus,history,M3,5,10,ECA2-unbounded,7.5685274489043906,15,90
+aus,history,M3,5,11,Direct,14.53088547127447,15,96
+aus,history,M3,5,11,Source-affine,1.342192621718336,15,96
+aus,history,M3,5,11,Source-residual,6.0337370606685,15,96
+aus,history,M3,5,11,Local mean,1.3406599908640222,15,96
+aus,history,M3,5,11,Local ridge,1.7120143375474561,15,96
+aus,history,M3,5,11,Local RBF,1.28770988462122,15,96
+aus,history,M3,5,11,Local RF,1.2846446758833805,15,96
+aus,history,M3,5,11,Local Extra Trees,1.3168842193326098,15,96
+aus,history,M3,5,11,Local LightGBM,1.2203345277562512,15,96
+aus,history,M3,5,11,ECA,1.3415305059942781,15,96
+aus,history,M3,5,11,ECA-fixed,1.3338288376898806,15,96
+aus,history,M3,5,11,ECA-no-meta,1.4298447946003636,15,96
+aus,history,M3,5,11,ECA-unbounded,4.325260354916853,15,96
+aus,history,M3,5,11,ECA-isotropic,1.3526513468055188,15,96
+aus,history,M3,5,11,ECA2,10.716982393323393,15,96
+aus,history,M3,5,11,ECA2-MAP,10.005021564241058,15,96
+aus,history,M3,5,11,ECA2-affine,10.305144438191833,15,96
+aus,history,M3,5,11,ECA2-isotropic,11.27240021971617,15,96
+aus,history,M3,5,11,ECA2-no-meta,1.3685336493154516,15,96
+aus,history,M3,5,11,ECA2-unbounded,9.60494640471374,15,96
+aus,history,M3,5,12,Direct,13.835614343571335,15,96
+aus,history,M3,5,12,Source-affine,1.109459302262972,15,96
+aus,history,M3,5,12,Source-residual,4.952635744364965,15,96
+aus,history,M3,5,12,Local mean,1.1643141911797046,15,96
+aus,history,M3,5,12,Local ridge,1.6935688855638287,15,96
+aus,history,M3,5,12,Local RBF,1.177880246879123,15,96
+aus,history,M3,5,12,Local RF,1.0556674339786831,15,96
+aus,history,M3,5,12,Local Extra Trees,1.2336975422456795,15,96
+aus,history,M3,5,12,Local LightGBM,1.2921281929632829,15,96
+aus,history,M3,5,12,ECA,1.1118673032272661,15,96
+aus,history,M3,5,12,ECA-fixed,1.13798633099171,15,96
+aus,history,M3,5,12,ECA-no-meta,1.1972943699078222,15,96
+aus,history,M3,5,12,ECA-unbounded,4.349572444636666,15,96
+aus,history,M3,5,12,ECA-isotropic,1.1015457391887773,15,96
+aus,history,M3,5,12,ECA2,8.410546939896516,15,96
+aus,history,M3,5,12,ECA2-MAP,5.793180174806706,15,96
+aus,history,M3,5,12,ECA2-affine,9.49414873198874,15,96
+aus,history,M3,5,12,ECA2-isotropic,9.539088843535591,15,96
+aus,history,M3,5,12,ECA2-no-meta,1.1029732659367233,15,96
+aus,history,M3,5,12,ECA2-unbounded,5.389263622001286,15,96
+aus,history,M3,5,13,Direct,14.319905143336037,14,92
+aus,history,M3,5,13,Source-affine,1.4093011311759172,14,92
+aus,history,M3,5,13,Source-residual,5.51692914978254,14,92
+aus,history,M3,5,13,Local mean,1.4424546053747396,14,92
+aus,history,M3,5,13,Local ridge,1.9549051397901813,14,92
+aus,history,M3,5,13,Local RBF,1.4202685122886336,14,92
+aus,history,M3,5,13,Local RF,1.355151147137801,14,92
+aus,history,M3,5,13,Local Extra Trees,1.47377095434527,14,92
+aus,history,M3,5,13,Local LightGBM,1.4601574061533222,14,92
+aus,history,M3,5,13,ECA,1.4125922397773947,14,92
+aus,history,M3,5,13,ECA-fixed,1.427466782671013,14,92
+aus,history,M3,5,13,ECA-no-meta,1.4574600044868862,14,92
+aus,history,M3,5,13,ECA-unbounded,4.131494652907957,14,92
+aus,history,M3,5,13,ECA-isotropic,1.4041171444128095,14,92
+aus,history,M3,5,13,ECA2,9.831172887631938,14,92
+aus,history,M3,5,13,ECA2-MAP,7.6105240147728495,14,92
+aus,history,M3,5,13,ECA2-affine,10.136950901282995,14,92
+aus,history,M3,5,13,ECA2-isotropic,10.593998035151898,14,92
+aus,history,M3,5,13,ECA2-no-meta,1.457771401719381,14,92
+aus,history,M3,5,13,ECA2-unbounded,7.15172383324223,14,92
+aus,history,M3,5,14,Direct,14.868068944667822,14,90
+aus,history,M3,5,14,Source-affine,1.7580574670997207,14,90
+aus,history,M3,5,14,Source-residual,6.138725235335887,14,90
+aus,history,M3,5,14,Local mean,1.7129929915913806,14,90
+aus,history,M3,5,14,Local ridge,1.5879780201582328,14,90
+aus,history,M3,5,14,Local RBF,1.616619049079921,14,90
+aus,history,M3,5,14,Local RF,1.6860122478934323,14,90
+aus,history,M3,5,14,Local Extra Trees,1.6808431477785704,14,90
+aus,history,M3,5,14,Local LightGBM,1.6914817539185871,14,90
+aus,history,M3,5,14,ECA,1.7669186896885494,14,90
+aus,history,M3,5,14,ECA-fixed,1.7773616258436398,14,90
+aus,history,M3,5,14,ECA-no-meta,1.7607212890056243,14,90
+aus,history,M3,5,14,ECA-unbounded,3.004647408995128,14,90
+aus,history,M3,5,14,ECA-isotropic,1.762344694280474,14,90
+aus,history,M3,5,14,ECA2,10.548969796638348,14,90
+aus,history,M3,5,14,ECA2-MAP,8.452520076158894,14,90
+aus,history,M3,5,14,ECA2-affine,10.834469827943197,14,90
+aus,history,M3,5,14,ECA2-isotropic,11.337156123896333,14,90
+aus,history,M3,5,14,ECA2-no-meta,1.885191987549363,14,90
+aus,history,M3,5,14,ECA2-unbounded,8.072074748560258,14,90
+aus,history,M3,5,15,Direct,14.179357523091987,14,94
+aus,history,M3,5,15,Source-affine,1.4361167465343556,14,94
+aus,history,M3,5,15,Source-residual,5.1662510968718225,14,94
+aus,history,M3,5,15,Local mean,1.4642455397185283,14,94
+aus,history,M3,5,15,Local ridge,1.6683535457283352,14,94
+aus,history,M3,5,15,Local RBF,1.3863820228244657,14,94
+aus,history,M3,5,15,Local RF,1.4225571319476253,14,94
+aus,history,M3,5,15,Local Extra Trees,1.441676131167004,14,94
+aus,history,M3,5,15,Local LightGBM,1.4366187192762605,14,94
+aus,history,M3,5,15,ECA,1.4356999368891903,14,94
+aus,history,M3,5,15,ECA-fixed,1.4054077618220469,14,94
+aus,history,M3,5,15,ECA-no-meta,1.4578503606413307,14,94
+aus,history,M3,5,15,ECA-unbounded,2.846449742236823,14,94
+aus,history,M3,5,15,ECA-isotropic,1.430013391156301,14,94
+aus,history,M3,5,15,ECA2,9.223947910776396,14,94
+aus,history,M3,5,15,ECA2-MAP,7.43017525865423,14,94
+aus,history,M3,5,15,ECA2-affine,10.204982759044173,14,94
+aus,history,M3,5,15,ECA2-isotropic,10.370902231159508,14,94
+aus,history,M3,5,15,ECA2-no-meta,1.5612226402077394,14,94
+aus,history,M3,5,15,ECA2-unbounded,6.946568372324773,14,94
+aus,history,M3,5,16,Direct,14.882584262940014,14,90
+aus,history,M3,5,16,Source-affine,1.7521332343095635,14,90
+aus,history,M3,5,16,Source-residual,5.9821404232322495,14,90
+aus,history,M3,5,16,Local mean,1.7322993105507107,14,90
+aus,history,M3,5,16,Local ridge,1.7682992794139392,14,90
+aus,history,M3,5,16,Local RBF,1.666908805626588,14,90
+aus,history,M3,5,16,Local RF,1.678407895535619,14,90
+aus,history,M3,5,16,Local Extra Trees,1.7054576514835633,14,90
+aus,history,M3,5,16,Local LightGBM,1.7264069777084556,14,90
+aus,history,M3,5,16,ECA,1.7606158570385306,14,90
+aus,history,M3,5,16,ECA-fixed,1.7715629838674014,14,90
+aus,history,M3,5,16,ECA-no-meta,1.753094729537411,14,90
+aus,history,M3,5,16,ECA-unbounded,3.1819963469073826,14,90
+aus,history,M3,5,16,ECA-isotropic,1.7528729024113736,14,90
+aus,history,M3,5,16,ECA2,10.385539400050595,14,90
+aus,history,M3,5,16,ECA2-MAP,8.358879386262537,14,90
+aus,history,M3,5,16,ECA2-affine,10.885931950224764,14,90
+aus,history,M3,5,16,ECA2-isotropic,11.188151641990768,14,90
+aus,history,M3,5,16,ECA2-no-meta,1.8759459682976116,14,90
+aus,history,M3,5,16,ECA2-unbounded,8.002346585132631,14,90
+aus,history,M3,5,17,Direct,14.38192060580073,14,92
+aus,history,M3,5,17,Source-affine,1.3215011622373545,14,92
+aus,history,M3,5,17,Source-residual,5.223636007219802,14,92
+aus,history,M3,5,17,Local mean,1.3389601204467956,14,92
+aus,history,M3,5,17,Local ridge,1.7046309314608898,14,92
+aus,history,M3,5,17,Local RBF,1.3030585767197582,14,92
+aus,history,M3,5,17,Local RF,1.2882843878581332,14,92
+aus,history,M3,5,17,Local Extra Trees,1.397397499219785,14,92
+aus,history,M3,5,17,Local LightGBM,1.3575831068085675,14,92
+aus,history,M3,5,17,ECA,1.331123323755305,14,92
+aus,history,M3,5,17,ECA-fixed,1.3730222075134635,14,92
+aus,history,M3,5,17,ECA-no-meta,1.3212295934559264,14,92
+aus,history,M3,5,17,ECA-unbounded,3.9579883245084515,14,92
+aus,history,M3,5,17,ECA-isotropic,1.3203649378890379,14,92
+aus,history,M3,5,17,ECA2,9.553139943073777,14,92
+aus,history,M3,5,17,ECA2-MAP,7.743057841563734,14,92
+aus,history,M3,5,17,ECA2-affine,10.280814057948527,14,92
+aus,history,M3,5,17,ECA2-isotropic,10.444026327294674,14,92
+aus,history,M3,5,17,ECA2-no-meta,1.343464286572589,14,92
+aus,history,M3,5,17,ECA2-unbounded,7.32105692525839,14,92
+aus,history,M3,5,18,Direct,14.504284614263327,14,94
+aus,history,M3,5,18,Source-affine,1.5725281463685787,14,94
+aus,history,M3,5,18,Source-residual,5.618929241724477,14,94
+aus,history,M3,5,18,Local mean,1.50819220222826,14,94
+aus,history,M3,5,18,Local ridge,1.3391976886399228,14,94
+aus,history,M3,5,18,Local RBF,1.4197937138354284,14,94
+aus,history,M3,5,18,Local RF,1.5311882370380814,14,94
+aus,history,M3,5,18,Local Extra Trees,1.5000470475208167,14,94
+aus,history,M3,5,18,Local LightGBM,1.6107967991216054,14,94
+aus,history,M3,5,18,ECA,1.578661220272059,14,94
+aus,history,M3,5,18,ECA-fixed,1.5881899296874975,14,94
+aus,history,M3,5,18,ECA-no-meta,1.6141126947045463,14,94
+aus,history,M3,5,18,ECA-unbounded,2.872215317210714,14,94
+aus,history,M3,5,18,ECA-isotropic,1.5892902751532785,14,94
+aus,history,M3,5,18,ECA2,9.899282798412917,14,94
+aus,history,M3,5,18,ECA2-MAP,8.248909915904328,14,94
+aus,history,M3,5,18,ECA2-affine,10.591119888032305,14,94
+aus,history,M3,5,18,ECA2-isotropic,10.97898961594486,14,94
+aus,history,M3,5,18,ECA2-no-meta,1.8627525142844776,14,94
+aus,history,M3,5,18,ECA2-unbounded,7.812290563871571,14,94
+aus,history,M3,5,19,Direct,14.05885228823488,14,96
+aus,history,M3,5,19,Source-affine,1.3021725135750757,14,96
+aus,history,M3,5,19,Source-residual,4.954572536372916,14,96
+aus,history,M3,5,19,Local mean,1.318413814050543,14,96
+aus,history,M3,5,19,Local ridge,1.6113815823527373,14,96
+aus,history,M3,5,19,Local RBF,1.2630903278096575,14,96
+aus,history,M3,5,19,Local RF,1.2187674799779864,14,96
+aus,history,M3,5,19,Local Extra Trees,1.2942725747589405,14,96
+aus,history,M3,5,19,Local LightGBM,1.2770662793784089,14,96
+aus,history,M3,5,19,ECA,1.3046231607748902,14,96
+aus,history,M3,5,19,ECA-fixed,1.3097064783084074,14,96
+aus,history,M3,5,19,ECA-no-meta,1.3609065813574595,14,96
+aus,history,M3,5,19,ECA-unbounded,3.90729819532697,14,96
+aus,history,M3,5,19,ECA-isotropic,1.3063421311182104,14,96
+aus,history,M3,5,19,ECA2,9.508692178702523,14,96
+aus,history,M3,5,19,ECA2-MAP,7.708725567920979,14,96
+aus,history,M3,5,19,ECA2-affine,9.972328612364208,14,96
+aus,history,M3,5,19,ECA2-isotropic,10.409814251514257,14,96
+aus,history,M3,5,19,ECA2-no-meta,1.3180140229897943,14,96
+aus,history,M3,5,19,ECA2-unbounded,7.249987362238355,14,96
+aus,history,M6,3,0,Direct,14.51269202087687,16,138
+aus,history,M6,3,0,Source-affine,1.6520891628909808,16,138
+aus,history,M6,3,0,Source-residual,2.9514896858761346,16,138
+aus,history,M6,3,0,Local mean,1.5832216030925972,16,138
+aus,history,M6,3,0,Local ridge,1.9223262042071736,16,138
+aus,history,M6,3,0,Local RBF,1.5195829093877251,16,138
+aus,history,M6,3,0,Local RF,1.724842110257398,16,138
+aus,history,M6,3,0,Local Extra Trees,1.7967596488566182,16,138
+aus,history,M6,3,0,Local LightGBM,1.6443324759870115,16,138
+aus,history,M6,3,0,ECA,1.669476177744013,16,138
+aus,history,M6,3,0,ECA-fixed,1.7897923583526434,16,138
+aus,history,M6,3,0,ECA-no-meta,1.6856140185356425,16,138
+aus,history,M6,3,0,ECA-unbounded,3.2625240844733763,16,138
+aus,history,M6,3,0,ECA-isotropic,1.6832039929684897,16,138
+aus,history,M6,3,0,ECA2,7.999344014766757,16,138
+aus,history,M6,3,0,ECA2-MAP,5.285161263127491,16,138
+aus,history,M6,3,0,ECA2-affine,8.858055729178925,16,138
+aus,history,M6,3,0,ECA2-isotropic,8.152443226146799,16,138
+aus,history,M6,3,0,ECA2-no-meta,1.6620652174561952,16,138
+aus,history,M6,3,0,ECA2-unbounded,5.001235602679279,16,138
+aus,history,M6,3,1,Direct,14.427291290961335,18,140
+aus,history,M6,3,1,Source-affine,1.4103325070008903,18,140
+aus,history,M6,3,1,Source-residual,2.790463708750919,18,140
+aus,history,M6,3,1,Local mean,1.3572217863959715,18,140
+aus,history,M6,3,1,Local ridge,2.52111202546066,18,140
+aus,history,M6,3,1,Local RBF,1.3282672454593847,18,140
+aus,history,M6,3,1,Local RF,1.3956190223829277,18,140
+aus,history,M6,3,1,Local Extra Trees,1.414468535106988,18,140
+aus,history,M6,3,1,Local LightGBM,1.4373272036812943,18,140
+aus,history,M6,3,1,ECA,1.4143488230866519,18,140
+aus,history,M6,3,1,ECA-fixed,1.4391334604917678,18,140
+aus,history,M6,3,1,ECA-no-meta,1.4393224015242942,18,140
+aus,history,M6,3,1,ECA-unbounded,4.80080312085419,18,140
+aus,history,M6,3,1,ECA-isotropic,1.4131758461178041,18,140
+aus,history,M6,3,1,ECA2,7.6780068836765185,18,140
+aus,history,M6,3,1,ECA2-MAP,4.874610338734065,18,140
+aus,history,M6,3,1,ECA2-affine,8.440657486072217,18,140
+aus,history,M6,3,1,ECA2-isotropic,7.735600048304363,18,140
+aus,history,M6,3,1,ECA2-no-meta,1.4105293599138438,18,140
+aus,history,M6,3,1,ECA2-unbounded,4.4772916898926045,18,140
+aus,history,M6,3,2,Direct,14.417667024766269,18,140
+aus,history,M6,3,2,Source-affine,1.4107420006364755,18,140
+aus,history,M6,3,2,Source-residual,2.9671081885823507,18,140
+aus,history,M6,3,2,Local mean,1.4075827725551822,18,140
+aus,history,M6,3,2,Local ridge,6.429745353913724,18,140
+aus,history,M6,3,2,Local RBF,1.3359921938902668,18,140
+aus,history,M6,3,2,Local RF,1.300887088195514,18,140
+aus,history,M6,3,2,Local Extra Trees,1.312927231504127,18,140
+aus,history,M6,3,2,Local LightGBM,1.3925132133291027,18,140
+aus,history,M6,3,2,ECA,1.4125558316483224,18,140
+aus,history,M6,3,2,ECA-fixed,1.4316273966165036,18,140
+aus,history,M6,3,2,ECA-no-meta,1.412186365790627,18,140
+aus,history,M6,3,2,ECA-unbounded,4.282114437051559,18,140
+aus,history,M6,3,2,ECA-isotropic,1.412050330199493,18,140
+aus,history,M6,3,2,ECA2,7.709469805567102,18,140
+aus,history,M6,3,2,ECA2-MAP,4.59099461304757,18,140
+aus,history,M6,3,2,ECA2-affine,8.425407097227058,18,140
+aus,history,M6,3,2,ECA2-isotropic,7.806669666653416,18,140
+aus,history,M6,3,2,ECA2-no-meta,1.4007546646511528,18,140
+aus,history,M6,3,2,ECA2-unbounded,4.218615483276181,18,140
+aus,history,M6,3,3,Direct,14.336147003965566,18,142
+aus,history,M6,3,3,Source-affine,1.2337439248908206,18,142
+aus,history,M6,3,3,Source-residual,3.598046451887794,18,142
+aus,history,M6,3,3,Local mean,1.37360669527348,18,142
+aus,history,M6,3,3,Local ridge,1.3188921093431216,18,142
+aus,history,M6,3,3,Local RBF,1.4184573922127406,18,142
+aus,history,M6,3,3,Local RF,1.4900680860751547,18,142
+aus,history,M6,3,3,Local Extra Trees,1.6451860624753145,18,142
+aus,history,M6,3,3,Local LightGBM,1.5389725266533185,18,142
+aus,history,M6,3,3,ECA,1.237162928357237,18,142
+aus,history,M6,3,3,ECA-fixed,1.273940638436067,18,142
+aus,history,M6,3,3,ECA-no-meta,1.2791322510367187,18,142
+aus,history,M6,3,3,ECA-unbounded,3.6042647821343663,18,142
+aus,history,M6,3,3,ECA-isotropic,1.2503691829412213,18,142
+aus,history,M6,3,3,ECA2,7.8415694799780775,18,142
+aus,history,M6,3,3,ECA2-MAP,5.653074810195622,18,142
+aus,history,M6,3,3,ECA2-affine,8.333891961579308,18,142
+aus,history,M6,3,3,ECA2-isotropic,7.737664021197596,18,142
+aus,history,M6,3,3,ECA2-no-meta,1.3252715318626547,18,142
+aus,history,M6,3,3,ECA2-unbounded,4.837770375931103,18,142
+aus,history,M6,3,4,Direct,14.58200262019753,18,138
+aus,history,M6,3,4,Source-affine,1.3667410628615597,18,138
+aus,history,M6,3,4,Source-residual,2.5794894216178523,18,138
+aus,history,M6,3,4,Local mean,1.4190249199707856,18,138
+aus,history,M6,3,4,Local ridge,1.4689066519329117,18,138
+aus,history,M6,3,4,Local RBF,1.4257202308135286,18,138
+aus,history,M6,3,4,Local RF,1.3667421333699057,18,138
+aus,history,M6,3,4,Local Extra Trees,1.355078926949976,18,138
+aus,history,M6,3,4,Local LightGBM,1.408373458537485,18,138
+aus,history,M6,3,4,ECA,1.369489483426912,18,138
+aus,history,M6,3,4,ECA-fixed,1.3731414573838534,18,138
+aus,history,M6,3,4,ECA-no-meta,1.3648192163891357,18,138
+aus,history,M6,3,4,ECA-unbounded,1.8589793191160724,18,138
+aus,history,M6,3,4,ECA-isotropic,1.3641551026506344,18,138
+aus,history,M6,3,4,ECA2,6.754954070775097,18,138
+aus,history,M6,3,4,ECA2-MAP,3.2031546677590144,18,138
+aus,history,M6,3,4,ECA2-affine,8.420568386341033,18,138
+aus,history,M6,3,4,ECA2-isotropic,6.9601376844381555,18,138
+aus,history,M6,3,4,ECA2-no-meta,1.3290475422508712,18,138
+aus,history,M6,3,4,ECA2-unbounded,2.5954012909960853,18,138
+aus,history,M6,3,5,Direct,14.496067697029895,18,140
+aus,history,M6,3,5,Source-affine,1.2890201845295697,18,140
+aus,history,M6,3,5,Source-residual,3.369938104091164,18,140
+aus,history,M6,3,5,Local mean,1.3405525054879401,18,140
+aus,history,M6,3,5,Local ridge,2.1039896695550326,18,140
+aus,history,M6,3,5,Local RBF,1.363712433234674,18,140
+aus,history,M6,3,5,Local RF,1.257715049480115,18,140
+aus,history,M6,3,5,Local Extra Trees,1.3447164048909415,18,140
+aus,history,M6,3,5,Local LightGBM,1.3079728759832576,18,140
+aus,history,M6,3,5,ECA,1.2916659148747551,18,140
+aus,history,M6,3,5,ECA-fixed,1.3208397309807431,18,140
+aus,history,M6,3,5,ECA-no-meta,1.3202809875680843,18,140
+aus,history,M6,3,5,ECA-unbounded,3.414084674015609,18,140
+aus,history,M6,3,5,ECA-isotropic,1.2923532807795006,18,140
+aus,history,M6,3,5,ECA2,7.9252346493038335,18,140
+aus,history,M6,3,5,ECA2-MAP,4.807115293911676,18,140
+aus,history,M6,3,5,ECA2-affine,8.258665739259769,18,140
+aus,history,M6,3,5,ECA2-isotropic,8.096946051303092,18,140
+aus,history,M6,3,5,ECA2-no-meta,1.3319052865574557,18,140
+aus,history,M6,3,5,ECA2-unbounded,4.687270639273986,18,140
+aus,history,M6,3,6,Direct,14.688958510849893,16,138
+aus,history,M6,3,6,Source-affine,1.8856637531350986,16,138
+aus,history,M6,3,6,Source-residual,3.6256628614491717,16,138
+aus,history,M6,3,6,Local mean,1.9476438946758472,16,138
+aus,history,M6,3,6,Local ridge,1.812039757984322,16,138
+aus,history,M6,3,6,Local RBF,1.879958023939077,16,138
+aus,history,M6,3,6,Local RF,2.1428583148388225,16,138
+aus,history,M6,3,6,Local Extra Trees,2.1101750603684213,16,138
+aus,history,M6,3,6,Local LightGBM,2.244813968514676,16,138
+aus,history,M6,3,6,ECA,2.170433856631322,16,138
+aus,history,M6,3,6,ECA-fixed,2.1558007300663977,16,138
+aus,history,M6,3,6,ECA-no-meta,1.8530794143430325,16,138
+aus,history,M6,3,6,ECA-unbounded,2.8856335207978594,16,138
+aus,history,M6,3,6,ECA-isotropic,2.0754493815428616,16,138
+aus,history,M6,3,6,ECA2,8.675695625484778,16,138
+aus,history,M6,3,6,ECA2-MAP,4.835888865772658,16,138
+aus,history,M6,3,6,ECA2-affine,9.13965010039744,16,138
+aus,history,M6,3,6,ECA2-isotropic,8.923622708559813,16,138
+aus,history,M6,3,6,ECA2-no-meta,1.9366277343921405,16,138
+aus,history,M6,3,6,ECA2-unbounded,5.005249403363184,16,138
+aus,history,M6,3,7,Direct,14.403974217830418,16,138
+aus,history,M6,3,7,Source-affine,1.4999988920348921,16,138
+aus,history,M6,3,7,Source-residual,2.5610258202943106,16,138
+aus,history,M6,3,7,Local mean,1.4987235962044576,16,138
+aus,history,M6,3,7,Local ridge,1.3280247324093293,16,138
+aus,history,M6,3,7,Local RBF,1.4511343052195365,16,138
+aus,history,M6,3,7,Local RF,1.5107553135991318,16,138
+aus,history,M6,3,7,Local Extra Trees,1.4257738849903934,16,138
+aus,history,M6,3,7,Local LightGBM,1.4392380331218684,16,138
+aus,history,M6,3,7,ECA,1.5249925669480853,16,138
+aus,history,M6,3,7,ECA-fixed,1.7056191546127186,16,138
+aus,history,M6,3,7,ECA-no-meta,1.5738670102364438,16,138
+aus,history,M6,3,7,ECA-unbounded,2.580055949795655,16,138
+aus,history,M6,3,7,ECA-isotropic,1.5464522738648214,16,138
+aus,history,M6,3,7,ECA2,7.1805770741065,16,138
+aus,history,M6,3,7,ECA2-MAP,3.916877642164279,16,138
+aus,history,M6,3,7,ECA2-affine,8.557789523733188,16,138
+aus,history,M6,3,7,ECA2-isotropic,7.444134974819215,16,138
+aus,history,M6,3,7,ECA2-no-meta,1.551459599379038,16,138
+aus,history,M6,3,7,ECA2-unbounded,3.619066861371274,16,138
+aus,history,M6,3,8,Direct,14.394194605979369,16,138
+aus,history,M6,3,8,Source-affine,1.567509590797876,16,138
+aus,history,M6,3,8,Source-residual,2.9605830438589265,16,138
+aus,history,M6,3,8,Local mean,1.603644198356946,16,138
+aus,history,M6,3,8,Local ridge,1.2616657360166559,16,138
+aus,history,M6,3,8,Local RBF,1.5302079439823246,16,138
+aus,history,M6,3,8,Local RF,1.618020317766923,16,138
+aus,history,M6,3,8,Local Extra Trees,1.4636428193513655,16,138
+aus,history,M6,3,8,Local LightGBM,1.6130999497107146,16,138
+aus,history,M6,3,8,ECA,1.5979091062553454,16,138
+aus,history,M6,3,8,ECA-fixed,1.7222661255346021,16,138
+aus,history,M6,3,8,ECA-no-meta,1.63164428960951,16,138
+aus,history,M6,3,8,ECA-unbounded,2.4620542956996565,16,138
+aus,history,M6,3,8,ECA-isotropic,1.6005773269371513,16,138
+aus,history,M6,3,8,ECA2,7.234700353148676,16,138
+aus,history,M6,3,8,ECA2-MAP,3.977180498429501,16,138
+aus,history,M6,3,8,ECA2-affine,8.540013352569966,16,138
+aus,history,M6,3,8,ECA2-isotropic,7.491991541470734,16,138
+aus,history,M6,3,8,ECA2-no-meta,1.5555408619008846,16,138
+aus,history,M6,3,8,ECA2-unbounded,3.7141640051022518,16,138
+aus,history,M6,3,9,Direct,14.360777302309822,18,140
+aus,history,M6,3,9,Source-affine,1.2378065496564947,18,140
+aus,history,M6,3,9,Source-residual,2.6296305185622506,18,140
+aus,history,M6,3,9,Local mean,1.2699207472744425,18,140
+aus,history,M6,3,9,Local ridge,1.3311319962670345,18,140
+aus,history,M6,3,9,Local RBF,1.2713828460284935,18,140
+aus,history,M6,3,9,Local RF,1.200502914933339,18,140
+aus,history,M6,3,9,Local Extra Trees,1.2340401738639797,18,140
+aus,history,M6,3,9,Local LightGBM,1.1766003401413585,18,140
+aus,history,M6,3,9,ECA,1.2459295492960827,18,140
+aus,history,M6,3,9,ECA-fixed,1.3019170656920567,18,140
+aus,history,M6,3,9,ECA-no-meta,1.2392452226609034,18,140
+aus,history,M6,3,9,ECA-unbounded,2.3816068810077997,18,140
+aus,history,M6,3,9,ECA-isotropic,1.240052011797409,18,140
+aus,history,M6,3,9,ECA2,6.752459972350317,18,140
+aus,history,M6,3,9,ECA2-MAP,3.5716972880826297,18,140
+aus,history,M6,3,9,ECA2-affine,8.169052603522243,18,140
+aus,history,M6,3,9,ECA2-isotropic,6.844664122037065,18,140
+aus,history,M6,3,9,ECA2-no-meta,1.2027820607121638,18,140
+aus,history,M6,3,9,ECA2-unbounded,2.8809782877628587,18,140
+aus,history,M6,3,10,Direct,14.823111447424191,18,138
+aus,history,M6,3,10,Source-affine,1.79826135746684,18,138
+aus,history,M6,3,10,Source-residual,3.999080710830363,18,138
+aus,history,M6,3,10,Local mean,1.8739415937371822,18,138
+aus,history,M6,3,10,Local ridge,2.560176594559086,18,138
+aus,history,M6,3,10,Local RBF,1.9064033203825161,18,138
+aus,history,M6,3,10,Local RF,1.9896740232632852,18,138
+aus,history,M6,3,10,Local Extra Trees,2.035201915330342,18,138
+aus,history,M6,3,10,Local LightGBM,2.050189582063317,18,138
+aus,history,M6,3,10,ECA,1.8436274613860244,18,138
+aus,history,M6,3,10,ECA-fixed,2.0388221343226487,18,138
+aus,history,M6,3,10,ECA-no-meta,1.7627873177172544,18,138
+aus,history,M6,3,10,ECA-unbounded,3.851625593614731,18,138
+aus,history,M6,3,10,ECA-isotropic,1.8306329117734788,18,138
+aus,history,M6,3,10,ECA2,8.787411089476551,18,138
+aus,history,M6,3,10,ECA2-MAP,5.254224172797781,18,138
+aus,history,M6,3,10,ECA2-affine,8.972675309735783,18,138
+aus,history,M6,3,10,ECA2-isotropic,9.06605959955194,18,138
+aus,history,M6,3,10,ECA2-no-meta,1.8155103592509445,18,138
+aus,history,M6,3,10,ECA2-unbounded,5.275458661185442,18,138
+aus,history,M6,3,11,Direct,14.43885452336098,18,142
+aus,history,M6,3,11,Source-affine,1.4130564731862973,18,142
+aus,history,M6,3,11,Source-residual,3.0209837750118353,18,142
+aus,history,M6,3,11,Local mean,1.5195320333318851,18,142
+aus,history,M6,3,11,Local ridge,1.7098535924839728,18,142
+aus,history,M6,3,11,Local RBF,1.5621664440388028,18,142
+aus,history,M6,3,11,Local RF,1.5941324839483568,18,142
+aus,history,M6,3,11,Local Extra Trees,1.636543324112325,18,142
+aus,history,M6,3,11,Local LightGBM,1.780819166654272,18,142
+aus,history,M6,3,11,ECA,1.4243367187142768,18,142
+aus,history,M6,3,11,ECA-fixed,1.5540982185219592,18,142
+aus,history,M6,3,11,ECA-no-meta,1.4295681345146745,18,142
+aus,history,M6,3,11,ECA-unbounded,3.1113975919858983,18,142
+aus,history,M6,3,11,ECA-isotropic,1.4475085351508967,18,142
+aus,history,M6,3,11,ECA2,8.035785648140678,18,142
+aus,history,M6,3,11,ECA2-MAP,5.081233767293862,18,142
+aus,history,M6,3,11,ECA2-affine,8.41896677483101,18,142
+aus,history,M6,3,11,ECA2-isotropic,8.295690770733232,18,142
+aus,history,M6,3,11,ECA2-no-meta,1.5323517615370792,18,142
+aus,history,M6,3,11,ECA2-unbounded,5.180299134952076,18,142
+aus,history,M6,3,12,Direct,14.04921341214944,18,144
+aus,history,M6,3,12,Source-affine,1.1870513332546784,18,144
+aus,history,M6,3,12,Source-residual,2.7965002035825224,18,144
+aus,history,M6,3,12,Local mean,1.2197993367296935,18,144
+aus,history,M6,3,12,Local ridge,1.1858806263109731,18,144
+aus,history,M6,3,12,Local RBF,1.2179321292791565,18,144
+aus,history,M6,3,12,Local RF,1.1569547171814754,18,144
+aus,history,M6,3,12,Local Extra Trees,1.1655188588113443,18,144
+aus,history,M6,3,12,Local LightGBM,1.1639070699365226,18,144
+aus,history,M6,3,12,ECA,1.1924663862169238,18,144
+aus,history,M6,3,12,ECA-fixed,1.2252637250589629,18,144
+aus,history,M6,3,12,ECA-no-meta,1.1873007359156416,18,144
+aus,history,M6,3,12,ECA-unbounded,2.2948202391667514,18,144
+aus,history,M6,3,12,ECA-isotropic,1.1881586033538478,18,144
+aus,history,M6,3,12,ECA2,6.326943326568474,18,144
+aus,history,M6,3,12,ECA2-MAP,3.4595195424637173,18,144
+aus,history,M6,3,12,ECA2-affine,7.887290069062735,18,144
+aus,history,M6,3,12,ECA2-isotropic,6.477731240271315,18,144
+aus,history,M6,3,12,ECA2-no-meta,1.149985539955612,18,144
+aus,history,M6,3,12,ECA2-unbounded,2.8641029566774856,18,144
+aus,history,M6,3,13,Direct,14.362723810950607,16,138
+aus,history,M6,3,13,Source-affine,1.4915699021924023,16,138
+aus,history,M6,3,13,Source-residual,3.0998598255923064,16,138
+aus,history,M6,3,13,Local mean,1.420667551965206,16,138
+aus,history,M6,3,13,Local ridge,1.5923400520221753,16,138
+aus,history,M6,3,13,Local RBF,1.408359908278032,16,138
+aus,history,M6,3,13,Local RF,1.4194704804830032,16,138
+aus,history,M6,3,13,Local Extra Trees,1.5617389150075738,16,138
+aus,history,M6,3,13,Local LightGBM,1.4115388428077766,16,138
+aus,history,M6,3,13,ECA,1.498426166099014,16,138
+aus,history,M6,3,13,ECA-fixed,1.4959851520045946,16,138
+aus,history,M6,3,13,ECA-no-meta,1.485415612540666,16,138
+aus,history,M6,3,13,ECA-unbounded,2.2660497828410677,16,138
+aus,history,M6,3,13,ECA-isotropic,1.4844579566939504,16,138
+aus,history,M6,3,13,ECA2,7.939580415425286,16,138
+aus,history,M6,3,13,ECA2-MAP,4.8777763766619335,16,138
+aus,history,M6,3,13,ECA2-affine,8.341523282853505,16,138
+aus,history,M6,3,13,ECA2-isotropic,7.880072770353258,16,138
+aus,history,M6,3,13,ECA2-no-meta,1.5015804128211716,16,138
+aus,history,M6,3,13,ECA2-unbounded,4.432199834084168,16,138
+aus,history,M6,3,14,Direct,14.352916092436745,16,138
+aus,history,M6,3,14,Source-affine,1.4679987143320674,16,138
+aus,history,M6,3,14,Source-residual,3.0017706291601476,16,138
+aus,history,M6,3,14,Local mean,1.4378977835982336,16,138
+aus,history,M6,3,14,Local ridge,1.63685694645098,16,138
+aus,history,M6,3,14,Local RBF,1.4125916679584527,16,138
+aus,history,M6,3,14,Local RF,1.4211040281602376,16,138
+aus,history,M6,3,14,Local Extra Trees,1.4955068364019686,16,138
+aus,history,M6,3,14,Local LightGBM,1.4337559486284934,16,138
+aus,history,M6,3,14,ECA,1.4747261495378883,16,138
+aus,history,M6,3,14,ECA-fixed,1.4707688222464255,16,138
+aus,history,M6,3,14,ECA-no-meta,1.4614295178641858,16,138
+aus,history,M6,3,14,ECA-unbounded,1.8130312860400024,16,138
+aus,history,M6,3,14,ECA-isotropic,1.4621705202637783,16,138
+aus,history,M6,3,14,ECA2,7.895352109423583,16,138
+aus,history,M6,3,14,ECA2-MAP,4.373311631784441,16,138
+aus,history,M6,3,14,ECA2-affine,8.326283569395466,16,138
+aus,history,M6,3,14,ECA2-isotropic,7.933264750011033,16,138
+aus,history,M6,3,14,ECA2-no-meta,1.4566061563189228,16,138
+aus,history,M6,3,14,ECA2-unbounded,3.9448878019941853,16,138
+aus,history,M6,3,15,Direct,14.502985719489118,16,138
+aus,history,M6,3,15,Source-affine,1.7061162035951605,16,138
+aus,history,M6,3,15,Source-residual,2.8448732196836946,16,138
+aus,history,M6,3,15,Local mean,1.6849461962393255,16,138
+aus,history,M6,3,15,Local ridge,2.125314025043364,16,138
+aus,history,M6,3,15,Local RBF,1.5692627741532013,16,138
+aus,history,M6,3,15,Local RF,1.7687837516349658,16,138
+aus,history,M6,3,15,Local Extra Trees,1.656929289159887,16,138
+aus,history,M6,3,15,Local LightGBM,1.748980978504808,16,138
+aus,history,M6,3,15,ECA,1.7249439202396426,16,138
+aus,history,M6,3,15,ECA-fixed,1.8035246471086468,16,138
+aus,history,M6,3,15,ECA-no-meta,1.7743472479999147,16,138
+aus,history,M6,3,15,ECA-unbounded,3.1459600625566373,16,138
+aus,history,M6,3,15,ECA-isotropic,1.7269272176003696,16,138
+aus,history,M6,3,15,ECA2,7.9504755459579775,16,138
+aus,history,M6,3,15,ECA2-MAP,5.0481500088104445,16,138
+aus,history,M6,3,15,ECA2-affine,8.837893031138508,16,138
+aus,history,M6,3,15,ECA2-isotropic,8.130520916326027,16,138
+aus,history,M6,3,15,ECA2-no-meta,1.7063503916412661,16,138
+aus,history,M6,3,15,ECA2-unbounded,4.808296810761505,16,138
+aus,history,M6,3,16,Direct,14.582054176573665,16,138
+aus,history,M6,3,16,Source-affine,1.4327807986660557,16,138
+aus,history,M6,3,16,Source-residual,3.0610994717598197,16,138
+aus,history,M6,3,16,Local mean,1.4964813042726146,16,138
+aus,history,M6,3,16,Local ridge,1.975249483746162,16,138
+aus,history,M6,3,16,Local RBF,1.5307997152373778,16,138
+aus,history,M6,3,16,Local RF,1.470626962086063,16,138
+aus,history,M6,3,16,Local Extra Trees,1.5237712590504802,16,138
+aus,history,M6,3,16,Local LightGBM,1.5093007636129674,16,138
+aus,history,M6,3,16,ECA,1.4398386988051126,16,138
+aus,history,M6,3,16,ECA-fixed,1.4850920496375166,16,138
+aus,history,M6,3,16,ECA-no-meta,1.4546029284539006,16,138
+aus,history,M6,3,16,ECA-unbounded,3.383052887080183,16,138
+aus,history,M6,3,16,ECA-isotropic,1.4403402319165757,16,138
+aus,history,M6,3,16,ECA2,8.26163805677845,16,138
+aus,history,M6,3,16,ECA2-MAP,4.449339133794028,16,138
+aus,history,M6,3,16,ECA2-affine,8.641383612545177,16,138
+aus,history,M6,3,16,ECA2-isotropic,8.466345140562659,16,138
+aus,history,M6,3,16,ECA2-no-meta,1.4246674308871854,16,138
+aus,history,M6,3,16,ECA2-unbounded,4.564599910660542,16,138
+aus,history,M6,3,17,Direct,14.360777302309822,18,140
+aus,history,M6,3,17,Source-affine,1.2378065496564947,18,140
+aus,history,M6,3,17,Source-residual,2.6296305185622506,18,140
+aus,history,M6,3,17,Local mean,1.2699207472744425,18,140
+aus,history,M6,3,17,Local ridge,1.3311319962670345,18,140
+aus,history,M6,3,17,Local RBF,1.2713828460284935,18,140
+aus,history,M6,3,17,Local RF,1.200502914933339,18,140
+aus,history,M6,3,17,Local Extra Trees,1.2340401738639797,18,140
+aus,history,M6,3,17,Local LightGBM,1.1766003401413585,18,140
+aus,history,M6,3,17,ECA,1.2459295492960827,18,140
+aus,history,M6,3,17,ECA-fixed,1.3019170656920567,18,140
+aus,history,M6,3,17,ECA-no-meta,1.2392452226609034,18,140
+aus,history,M6,3,17,ECA-unbounded,2.3816068810077997,18,140
+aus,history,M6,3,17,ECA-isotropic,1.240052011797409,18,140
+aus,history,M6,3,17,ECA2,6.752459972350317,18,140
+aus,history,M6,3,17,ECA2-MAP,3.5716972880826297,18,140
+aus,history,M6,3,17,ECA2-affine,8.169052603522243,18,140
+aus,history,M6,3,17,ECA2-isotropic,6.844664122037065,18,140
+aus,history,M6,3,17,ECA2-no-meta,1.2027820607121638,18,140
+aus,history,M6,3,17,ECA2-unbounded,2.8809782877628587,18,140
+aus,history,M6,3,18,Direct,14.623826148147819,18,142
+aus,history,M6,3,18,Source-affine,1.5158201189775264,18,142
+aus,history,M6,3,18,Source-residual,3.0945377697031815,18,142
+aus,history,M6,3,18,Local mean,1.6453820321446182,18,142
+aus,history,M6,3,18,Local ridge,2.0030775039311663,18,142
+aus,history,M6,3,18,Local RBF,1.7342222220210513,18,142
+aus,history,M6,3,18,Local RF,2.0542469949801436,18,142
+aus,history,M6,3,18,Local Extra Trees,2.2855534925505965,18,142
+aus,history,M6,3,18,Local LightGBM,1.920773300498888,18,142
+aus,history,M6,3,18,ECA,1.9352898287451943,18,142
+aus,history,M6,3,18,ECA-fixed,1.7102351276849534,18,142
+aus,history,M6,3,18,ECA-no-meta,1.6278637743220172,18,142
+aus,history,M6,3,18,ECA-unbounded,2.650217625405404,18,142
+aus,history,M6,3,18,ECA-isotropic,2.12671060247536,18,142
+aus,history,M6,3,18,ECA2,9.099648981853834,18,142
+aus,history,M6,3,18,ECA2-MAP,5.320873505557866,18,142
+aus,history,M6,3,18,ECA2-affine,8.902033205701613,18,142
+aus,history,M6,3,18,ECA2-isotropic,9.096991647522177,18,142
+aus,history,M6,3,18,ECA2-no-meta,1.7022696464164833,18,142
+aus,history,M6,3,18,ECA2-unbounded,5.726261994896317,18,142
+aus,history,M6,3,19,Direct,14.411388337562686,16,142
+aus,history,M6,3,19,Source-affine,1.5390342779281492,16,142
+aus,history,M6,3,19,Source-residual,3.2491155784859274,16,142
+aus,history,M6,3,19,Local mean,1.6270530077755447,16,142
+aus,history,M6,3,19,Local ridge,1.8794872183924556,16,142
+aus,history,M6,3,19,Local RBF,1.6084209486527727,16,142
+aus,history,M6,3,19,Local RF,1.8493155591448325,16,142
+aus,history,M6,3,19,Local Extra Trees,1.9509429573543033,16,142
+aus,history,M6,3,19,Local LightGBM,1.73389036637017,16,142
+aus,history,M6,3,19,ECA,1.5529015832423347,16,142
+aus,history,M6,3,19,ECA-fixed,1.6597090524638385,16,142
+aus,history,M6,3,19,ECA-no-meta,1.620137072320383,16,142
+aus,history,M6,3,19,ECA-unbounded,2.5567754197050223,16,142
+aus,history,M6,3,19,ECA-isotropic,1.5885800293364374,16,142
+aus,history,M6,3,19,ECA2,8.240067955421214,16,142
+aus,history,M6,3,19,ECA2-MAP,5.05958272540072,16,142
+aus,history,M6,3,19,ECA2-affine,8.852321164167364,16,142
+aus,history,M6,3,19,ECA2-isotropic,8.4639722985674,16,142
+aus,history,M6,3,19,ECA2-no-meta,1.6067947158850175,16,142
+aus,history,M6,3,19,ECA2-unbounded,5.219806680727535,16,142
+aus,history,M6,5,0,Direct,14.94358812136048,28,90
+aus,history,M6,5,0,Source-affine,1.699981370378446,28,90
+aus,history,M6,5,0,Source-residual,2.605874988111955,28,90
+aus,history,M6,5,0,Local mean,1.7834805236470928,28,90
+aus,history,M6,5,0,Local ridge,1.5280722281319583,28,90
+aus,history,M6,5,0,Local RBF,1.7315730784947816,28,90
+aus,history,M6,5,0,Local RF,1.8421495211026782,28,90
+aus,history,M6,5,0,Local Extra Trees,1.9145957661009283,28,90
+aus,history,M6,5,0,Local LightGBM,1.7897770217705544,28,90
+aus,history,M6,5,0,ECA,1.712959300927292,28,90
+aus,history,M6,5,0,ECA-fixed,1.7721868109380077,28,90
+aus,history,M6,5,0,ECA-no-meta,1.5580971426591088,28,90
+aus,history,M6,5,0,ECA-unbounded,2.419233798560451,28,90
+aus,history,M6,5,0,ECA-isotropic,1.7205879201359284,28,90
+aus,history,M6,5,0,ECA2,6.495715710927653,28,90
+aus,history,M6,5,0,ECA2-MAP,3.649937225878656,28,90
+aus,history,M6,5,0,ECA2-affine,7.597067077218015,28,90
+aus,history,M6,5,0,ECA2-isotropic,6.660024768842912,28,90
+aus,history,M6,5,0,ECA2-no-meta,1.4918144552791608,28,90
+aus,history,M6,5,0,ECA2-unbounded,3.2138712363561157,28,90
+aus,history,M6,5,1,Direct,14.07324333087487,28,96
+aus,history,M6,5,1,Source-affine,1.331369300811873,28,96
+aus,history,M6,5,1,Source-residual,2.6484753840776993,28,96
+aus,history,M6,5,1,Local mean,1.354766620060423,28,96
+aus,history,M6,5,1,Local ridge,2.049839780182386,28,96
+aus,history,M6,5,1,Local RBF,1.3419859809608112,28,96
+aus,history,M6,5,1,Local RF,1.5502857716519938,28,96
+aus,history,M6,5,1,Local Extra Trees,1.4373181951470106,28,96
+aus,history,M6,5,1,Local LightGBM,1.4676388173914094,28,96
+aus,history,M6,5,1,ECA,1.3369169614143148,28,96
+aus,history,M6,5,1,ECA-fixed,1.360716019090883,28,96
+aus,history,M6,5,1,ECA-no-meta,1.3622964396628194,28,96
+aus,history,M6,5,1,ECA-unbounded,3.708142556156677,28,96
+aus,history,M6,5,1,ECA-isotropic,1.3360870338576523,28,96
+aus,history,M6,5,1,ECA2,5.699986539775632,28,96
+aus,history,M6,5,1,ECA2-MAP,3.143064049517728,28,96
+aus,history,M6,5,1,ECA2-affine,6.697865504878804,28,96
+aus,history,M6,5,1,ECA2-isotropic,5.773167457944755,28,96
+aus,history,M6,5,1,ECA2-no-meta,1.302733322454255,28,96
+aus,history,M6,5,1,ECA2-unbounded,2.5844460960520705,28,96
+aus,history,M6,5,2,Direct,14.05885228823488,28,96
+aus,history,M6,5,2,Source-affine,1.3061994601683042,28,96
+aus,history,M6,5,2,Source-residual,2.8908958667464684,28,96
+aus,history,M6,5,2,Local mean,1.3568401331252575,28,96
+aus,history,M6,5,2,Local ridge,1.287569923048838,28,96
+aus,history,M6,5,2,Local RBF,1.3021097937505681,28,96
+aus,history,M6,5,2,Local RF,1.3495334328584814,28,96
+aus,history,M6,5,2,Local Extra Trees,1.2785837079661369,28,96
+aus,history,M6,5,2,Local LightGBM,1.24973993737148,28,96
+aus,history,M6,5,2,ECA,1.3141214749334917,28,96
+aus,history,M6,5,2,ECA-fixed,1.3688853244016161,28,96
+aus,history,M6,5,2,ECA-no-meta,1.3821802122535056,28,96
+aus,history,M6,5,2,ECA-unbounded,3.3986190852005533,28,96
+aus,history,M6,5,2,ECA-isotropic,1.3208198528286756,28,96
+aus,history,M6,5,2,ECA2,6.094055831509541,28,96
+aus,history,M6,5,2,ECA2-MAP,3.1138143279920674,28,96
+aus,history,M6,5,2,ECA2-affine,6.726597759678558,28,96
+aus,history,M6,5,2,ECA2-isotropic,6.23816531718111,28,96
+aus,history,M6,5,2,ECA2-no-meta,1.3310569028566133,28,96
+aus,history,M6,5,2,ECA2-unbounded,2.5884904485799543,28,96
+aus,history,M6,5,3,Direct,13.95918684882208,28,96
+aus,history,M6,5,3,Source-affine,1.1520881085450005,28,96
+aus,history,M6,5,3,Source-residual,2.918323671938542,28,96
+aus,history,M6,5,3,Local mean,1.249692384110792,28,96
+aus,history,M6,5,3,Local ridge,1.3360565112986214,28,96
+aus,history,M6,5,3,Local RBF,1.2821861736032278,28,96
+aus,history,M6,5,3,Local RF,1.249139837552974,28,96
+aus,history,M6,5,3,Local Extra Trees,1.2745945284106581,28,96
+aus,history,M6,5,3,Local LightGBM,1.1906202555790404,28,96
+aus,history,M6,5,3,ECA,1.1611908228937635,28,96
+aus,history,M6,5,3,ECA-fixed,1.2401863570394076,28,96
+aus,history,M6,5,3,ECA-no-meta,1.2445921369208495,28,96
+aus,history,M6,5,3,ECA-unbounded,2.3740277430997763,28,96
+aus,history,M6,5,3,ECA-isotropic,1.1667038004053831,28,96
+aus,history,M6,5,3,ECA2,5.594776396510322,28,96
+aus,history,M6,5,3,ECA2-MAP,3.2063311813958983,28,96
+aus,history,M6,5,3,ECA2-affine,6.5530581542290705,28,96
+aus,history,M6,5,3,ECA2-isotropic,5.796716328231802,28,96
+aus,history,M6,5,3,ECA2-no-meta,1.2397537148889988,28,96
+aus,history,M6,5,3,ECA2-unbounded,2.1790933424529246,28,96
+aus,history,M6,5,4,Direct,14.297914135828123,28,94
+aus,history,M6,5,4,Source-affine,1.3945123061856648,28,94
+aus,history,M6,5,4,Source-residual,2.6838217502550767,28,94
+aus,history,M6,5,4,Local mean,1.4815539714819443,28,94
+aus,history,M6,5,4,Local ridge,1.4269646681737134,28,94
+aus,history,M6,5,4,Local RBF,1.4931410533851295,28,94
+aus,history,M6,5,4,Local RF,1.442133451708176,28,94
+aus,history,M6,5,4,Local Extra Trees,1.4685761358875267,28,94
+aus,history,M6,5,4,Local LightGBM,1.4236437405797104,28,94
+aus,history,M6,5,4,ECA,1.4001491453706785,28,94
+aus,history,M6,5,4,ECA-fixed,1.4148115811095032,28,94
+aus,history,M6,5,4,ECA-no-meta,1.4500573258864908,28,94
+aus,history,M6,5,4,ECA-unbounded,1.9952080168353055,28,94
+aus,history,M6,5,4,ECA-isotropic,1.397734930398946,28,94
+aus,history,M6,5,4,ECA2,5.325901813463211,28,94
+aus,history,M6,5,4,ECA2-MAP,2.813493659859588,28,94
+aus,history,M6,5,4,ECA2-affine,6.854327261986892,28,94
+aus,history,M6,5,4,ECA2-isotropic,5.481534492377774,28,94
+aus,history,M6,5,4,ECA2-no-meta,1.4125783191766617,28,94
+aus,history,M6,5,4,ECA2-unbounded,2.1847762322588706,28,94
+aus,history,M6,5,5,Direct,14.30514700883794,28,92
+aus,history,M6,5,5,Source-affine,1.3464311264198687,28,92
+aus,history,M6,5,5,Source-residual,2.862946638099633,28,92
+aus,history,M6,5,5,Local mean,1.3809481098796093,28,92
+aus,history,M6,5,5,Local ridge,1.59658754864068,28,92
+aus,history,M6,5,5,Local RBF,1.406353164347365,28,92
+aus,history,M6,5,5,Local RF,1.3831371804719068,28,92
+aus,history,M6,5,5,Local Extra Trees,1.379788577760236,28,92
+aus,history,M6,5,5,Local LightGBM,1.3743185349644147,28,92
+aus,history,M6,5,5,ECA,1.3541404299576527,28,92
+aus,history,M6,5,5,ECA-fixed,1.3948767126467332,28,92
+aus,history,M6,5,5,ECA-no-meta,1.3462919504458317,28,92
+aus,history,M6,5,5,ECA-unbounded,2.892321739592859,28,92
+aus,history,M6,5,5,ECA-isotropic,1.352293859747907,28,92
+aus,history,M6,5,5,ECA2,6.417851390707039,28,92
+aus,history,M6,5,5,ECA2-MAP,3.7884155316698447,28,92
+aus,history,M6,5,5,ECA2-affine,6.726396682126451,28,92
+aus,history,M6,5,5,ECA2-isotropic,6.544285250661412,28,92
+aus,history,M6,5,5,ECA2-no-meta,1.3423029744121804,28,92
+aus,history,M6,5,5,ECA2-unbounded,2.8252597035666223,28,92
+aus,history,M6,5,6,Direct,14.820576237769854,28,90
+aus,history,M6,5,6,Source-affine,1.7281163959333465,28,90
+aus,history,M6,5,6,Source-residual,3.043047174392112,28,90
+aus,history,M6,5,6,Local mean,1.7435225908251557,28,90
+aus,history,M6,5,6,Local ridge,1.9335798205839352,28,90
+aus,history,M6,5,6,Local RBF,1.6828620029434258,28,90
+aus,history,M6,5,6,Local RF,1.814235687473806,28,90
+aus,history,M6,5,6,Local Extra Trees,1.838387342092725,28,90
+aus,history,M6,5,6,Local LightGBM,1.7165719295161448,28,90
+aus,history,M6,5,6,ECA,1.754300147066165,28,90
+aus,history,M6,5,6,ECA-fixed,1.9331663952996379,28,90
+aus,history,M6,5,6,ECA-no-meta,1.6764368346377956,28,90
+aus,history,M6,5,6,ECA-unbounded,4.048992165062833,28,90
+aus,history,M6,5,6,ECA-isotropic,1.9709224143907558,28,90
+aus,history,M6,5,6,ECA2,7.164826071987908,28,90
+aus,history,M6,5,6,ECA2-MAP,3.989754625932012,28,90
+aus,history,M6,5,6,ECA2-affine,7.376232233204714,28,90
+aus,history,M6,5,6,ECA2-isotropic,7.2467073020215915,28,90
+aus,history,M6,5,6,ECA2-no-meta,1.6494615447662957,28,90
+aus,history,M6,5,6,ECA2-unbounded,3.6008124489052378,28,90
+aus,history,M6,5,7,Direct,14.015665442003607,28,94
+aus,history,M6,5,7,Source-affine,1.2674003577495898,28,94
+aus,history,M6,5,7,Source-residual,2.4941768779064346,28,94
+aus,history,M6,5,7,Local mean,1.3521304448523963,28,94
+aus,history,M6,5,7,Local ridge,1.1408988437113723,28,94
+aus,history,M6,5,7,Local RBF,1.3261411133211896,28,94
+aus,history,M6,5,7,Local RF,1.3695145661571684,28,94
+aus,history,M6,5,7,Local Extra Trees,1.2574212314856241,28,94
+aus,history,M6,5,7,Local LightGBM,1.324886672736527,28,94
+aus,history,M6,5,7,ECA,1.2779259393345703,28,94
+aus,history,M6,5,7,ECA-fixed,1.3259232618378631,28,94
+aus,history,M6,5,7,ECA-no-meta,1.5625632770055857,28,94
+aus,history,M6,5,7,ECA-unbounded,2.4497306997483537,28,94
+aus,history,M6,5,7,ECA-isotropic,1.2855475333222313,28,94
+aus,history,M6,5,7,ECA2,4.811988310982279,28,94
+aus,history,M6,5,7,ECA2-MAP,3.2607925754325904,28,94
+aus,history,M6,5,7,ECA2-affine,6.538207049175689,28,94
+aus,history,M6,5,7,ECA2-isotropic,4.802830936233396,28,94
+aus,history,M6,5,7,ECA2-no-meta,1.5116255271200398,28,94
+aus,history,M6,5,7,ECA2-unbounded,2.840866462068478,28,94
+aus,history,M6,5,8,Direct,14.92913211612624,28,90
+aus,history,M6,5,8,Source-affine,1.7738388578383533,28,90
+aus,history,M6,5,8,Source-residual,2.7252045248298575,28,90
+aus,history,M6,5,8,Local mean,1.87153541807301,28,90
+aus,history,M6,5,8,Local ridge,1.5632267054061613,28,90
+aus,history,M6,5,8,Local RBF,1.7811076929063177,28,90
+aus,history,M6,5,8,Local RF,1.9919266543495227,28,90
+aus,history,M6,5,8,Local Extra Trees,1.858723297309317,28,90
+aus,history,M6,5,8,Local LightGBM,2.0485917636803905,28,90
+aus,history,M6,5,8,ECA,1.7875894852572218,28,90
+aus,history,M6,5,8,ECA-fixed,1.8239866916744092,28,90
+aus,history,M6,5,8,ECA-no-meta,1.6224194527982414,28,90
+aus,history,M6,5,8,ECA-unbounded,2.3150449522526433,28,90
+aus,history,M6,5,8,ECA-isotropic,1.791047256711539,28,90
+aus,history,M6,5,8,ECA2,6.809181579928049,28,90
+aus,history,M6,5,8,ECA2-MAP,3.877023914509121,28,90
+aus,history,M6,5,8,ECA2-affine,7.619442199111713,28,90
+aus,history,M6,5,8,ECA2-isotropic,6.941301691927978,28,90
+aus,history,M6,5,8,ECA2-no-meta,1.5420045267166906,28,90
+aus,history,M6,5,8,ECA2-unbounded,3.4029153730822532,28,90
+aus,history,M6,5,9,Direct,14.235897948015367,30,96
+aus,history,M6,5,9,Source-affine,1.0649483154737838,30,96
+aus,history,M6,5,9,Source-residual,2.652713690193304,30,96
+aus,history,M6,5,9,Local mean,1.190271200579919,30,96
+aus,history,M6,5,9,Local ridge,1.4257102052595725,30,96
+aus,history,M6,5,9,Local RBF,1.2273247730166879,30,96
+aus,history,M6,5,9,Local RF,1.1716579333153279,30,96
+aus,history,M6,5,9,Local Extra Trees,1.2511292969618317,30,96
+aus,history,M6,5,9,Local LightGBM,1.1329548195977972,30,96
+aus,history,M6,5,9,ECA,1.0699203148347034,30,96
+aus,history,M6,5,9,ECA-fixed,1.129120805125399,30,96
+aus,history,M6,5,9,ECA-no-meta,1.1690182730877583,30,96
+aus,history,M6,5,9,ECA-unbounded,2.818788321423619,30,96
+aus,history,M6,5,9,ECA-isotropic,1.0732343326909848,30,96
+aus,history,M6,5,9,ECA2,6.122098654966388,30,96
+aus,history,M6,5,9,ECA2-MAP,2.905659519297522,30,96
+aus,history,M6,5,9,ECA2-affine,6.747537674869463,30,96
+aus,history,M6,5,9,ECA2-isotropic,5.802005752114506,30,96
+aus,history,M6,5,9,ECA2-no-meta,1.0793564535873579,30,96
+aus,history,M6,5,9,ECA2-unbounded,2.211823707662264,30,96
+aus,history,M6,5,10,Direct,14.805922271511562,30,90
+aus,history,M6,5,10,Source-affine,1.5712591029839449,30,90
+aus,history,M6,5,10,Source-residual,2.7730439741482624,30,90
+aus,history,M6,5,10,Local mean,1.6062447254065566,30,90
+aus,history,M6,5,10,Local ridge,1.9666151249381716,30,90
+aus,history,M6,5,10,Local RBF,1.5301582523702617,30,90
+aus,history,M6,5,10,Local RF,1.620180774503562,30,90
+aus,history,M6,5,10,Local Extra Trees,1.4685724167685428,30,90
+aus,history,M6,5,10,Local LightGBM,1.5595505080453498,30,90
+aus,history,M6,5,10,ECA,1.583941609121351,30,90
+aus,history,M6,5,10,ECA-fixed,1.696546487257662,30,90
+aus,history,M6,5,10,ECA-no-meta,1.5463723779964276,30,90
+aus,history,M6,5,10,ECA-unbounded,3.5043700996030784,30,90
+aus,history,M6,5,10,ECA-isotropic,1.632134650938082,30,90
+aus,history,M6,5,10,ECA2,6.866753159077944,30,90
+aus,history,M6,5,10,ECA2-MAP,4.100549202790749,30,90
+aus,history,M6,5,10,ECA2-affine,7.196358698852479,30,90
+aus,history,M6,5,10,ECA2-isotropic,6.891739576936713,30,90
+aus,history,M6,5,10,ECA2-no-meta,1.5300077298259092,30,90
+aus,history,M6,5,10,ECA2-unbounded,3.673297116604423,30,90
+aus,history,M6,5,11,Direct,14.53088547127447,30,96
+aus,history,M6,5,11,Source-affine,1.3891564941444632,30,96
+aus,history,M6,5,11,Source-residual,3.25947616694961,30,96
+aus,history,M6,5,11,Local mean,1.4479855040920102,30,96
+aus,history,M6,5,11,Local ridge,1.9781970084435967,30,96
+aus,history,M6,5,11,Local RBF,1.4640603961926966,30,96
+aus,history,M6,5,11,Local RF,1.7213513746692704,30,96
+aus,history,M6,5,11,Local Extra Trees,1.7496079009189034,30,96
+aus,history,M6,5,11,Local LightGBM,1.6427940627863282,30,96
+aus,history,M6,5,11,ECA,1.407154708265555,30,96
+aus,history,M6,5,11,ECA-fixed,1.632027083616789,30,96
+aus,history,M6,5,11,ECA-no-meta,1.5271586537557909,30,96
+aus,history,M6,5,11,ECA-unbounded,5.261496394366634,30,96
+aus,history,M6,5,11,ECA-isotropic,1.4328477253122998,30,96
+aus,history,M6,5,11,ECA2,8.228606193649226,30,96
+aus,history,M6,5,11,ECA2-MAP,5.836048310769199,30,96
+aus,history,M6,5,11,ECA2-affine,7.185594750912292,30,96
+aus,history,M6,5,11,ECA2-isotropic,8.348042700299068,30,96
+aus,history,M6,5,11,ECA2-no-meta,1.4911443075904358,30,96
+aus,history,M6,5,11,ECA2-unbounded,6.094291999902193,30,96
+aus,history,M6,5,12,Direct,13.835614343571335,30,96
+aus,history,M6,5,12,Source-affine,1.1403728837972813,30,96
+aus,history,M6,5,12,Source-residual,2.8419853642349246,30,96
+aus,history,M6,5,12,Local mean,1.169025391422739,30,96
+aus,history,M6,5,12,Local ridge,1.1339285081455277,30,96
+aus,history,M6,5,12,Local RBF,1.164051427673004,30,96
+aus,history,M6,5,12,Local RF,1.095221424280896,30,96
+aus,history,M6,5,12,Local Extra Trees,1.1492375457002755,30,96
+aus,history,M6,5,12,Local LightGBM,1.0830615346673385,30,96
+aus,history,M6,5,12,ECA,1.1430333601786773,30,96
+aus,history,M6,5,12,ECA-fixed,1.1374037288822803,30,96
+aus,history,M6,5,12,ECA-no-meta,1.18757175821008,30,96
+aus,history,M6,5,12,ECA-unbounded,2.0761556760818474,30,96
+aus,history,M6,5,12,ECA-isotropic,1.138357514930574,30,96
+aus,history,M6,5,12,ECA2,4.968732408110543,30,96
+aus,history,M6,5,12,ECA2-MAP,3.792012557908488,30,96
+aus,history,M6,5,12,ECA2-affine,6.1363848943934105,30,96
+aus,history,M6,5,12,ECA2-isotropic,4.8622527234655495,30,96
+aus,history,M6,5,12,ECA2-no-meta,1.443991044732866,30,96
+aus,history,M6,5,12,ECA2-unbounded,2.8661416237268686,30,96
+aus,history,M6,5,13,Direct,14.319905143336037,28,92
+aus,history,M6,5,13,Source-affine,1.4029509132634506,28,92
+aus,history,M6,5,13,Source-residual,2.7874125626179365,28,92
+aus,history,M6,5,13,Local mean,1.4167917071963576,28,92
+aus,history,M6,5,13,Local ridge,1.5228384867758857,28,92
+aus,history,M6,5,13,Local RBF,1.4219806181539618,28,92
+aus,history,M6,5,13,Local RF,1.3812932959843398,28,92
+aus,history,M6,5,13,Local Extra Trees,1.4212704921163277,28,92
+aus,history,M6,5,13,Local LightGBM,1.4072632289691038,28,92
+aus,history,M6,5,13,ECA,1.4104456728282473,28,92
+aus,history,M6,5,13,ECA-fixed,1.4298066222857648,28,92
+aus,history,M6,5,13,ECA-no-meta,1.414017391484232,28,92
+aus,history,M6,5,13,ECA-unbounded,3.4909516879126525,28,92
+aus,history,M6,5,13,ECA-isotropic,1.404476787584673,28,92
+aus,history,M6,5,13,ECA2,6.026126787110138,28,92
+aus,history,M6,5,13,ECA2-MAP,3.701156097524058,28,92
+aus,history,M6,5,13,ECA2-affine,6.69081584859275,28,92
+aus,history,M6,5,13,ECA2-isotropic,6.0825097553717,28,92
+aus,history,M6,5,13,ECA2-no-meta,1.3823233180188708,28,92
+aus,history,M6,5,13,ECA2-unbounded,2.6948955607343965,28,92
+aus,history,M6,5,14,Direct,14.868068944667822,28,90
+aus,history,M6,5,14,Source-affine,1.705227841755713,28,90
+aus,history,M6,5,14,Source-residual,2.5200085590892587,28,90
+aus,history,M6,5,14,Local mean,1.7625091455060684,28,90
+aus,history,M6,5,14,Local ridge,2.042590270544303,28,90
+aus,history,M6,5,14,Local RBF,1.6973324706486794,28,90
+aus,history,M6,5,14,Local RF,1.8682153269408193,28,90
+aus,history,M6,5,14,Local Extra Trees,1.8638129172227438,28,90
+aus,history,M6,5,14,Local LightGBM,1.816244872889021,28,90
+aus,history,M6,5,14,ECA,1.718004061350032,28,90
+aus,history,M6,5,14,ECA-fixed,1.7540116251689912,28,90
+aus,history,M6,5,14,ECA-no-meta,1.6637513471315886,28,90
+aus,history,M6,5,14,ECA-unbounded,3.030897108910733,28,90
+aus,history,M6,5,14,ECA-isotropic,1.7165725328113552,28,90
+aus,history,M6,5,14,ECA2,6.851498348675584,28,90
+aus,history,M6,5,14,ECA2-MAP,3.2847343214957276,28,90
+aus,history,M6,5,14,ECA2-affine,7.457457220923193,28,90
+aus,history,M6,5,14,ECA2-isotropic,7.006387129022138,28,90
+aus,history,M6,5,14,ECA2-no-meta,1.6065127713322689,28,90
+aus,history,M6,5,14,ECA2-unbounded,2.7963407127093736,28,90
+aus,history,M6,5,15,Direct,14.179357523091987,28,94
+aus,history,M6,5,15,Source-affine,1.432806454231456,28,94
+aus,history,M6,5,15,Source-residual,2.2548076645093094,28,94
+aus,history,M6,5,15,Local mean,1.4772904313392328,28,94
+aus,history,M6,5,15,Local ridge,1.5815201356574127,28,94
+aus,history,M6,5,15,Local RBF,1.388811809266016,28,94
+aus,history,M6,5,15,Local RF,1.605807612094976,28,94
+aus,history,M6,5,15,Local Extra Trees,1.5300850335385117,28,94
+aus,history,M6,5,15,Local LightGBM,1.582808226110133,28,94
+aus,history,M6,5,15,ECA,1.4404232399024204,28,94
+aus,history,M6,5,15,ECA-fixed,1.4541250778596098,28,94
+aus,history,M6,5,15,ECA-no-meta,1.5904351070346545,28,94
+aus,history,M6,5,15,ECA-unbounded,2.152029652534691,28,94
+aus,history,M6,5,15,ECA-isotropic,1.447237093912089,28,94
+aus,history,M6,5,15,ECA2,5.304818094033208,28,94
+aus,history,M6,5,15,ECA2-MAP,3.329804210862759,28,94
+aus,history,M6,5,15,ECA2-affine,6.792130900931651,28,94
+aus,history,M6,5,15,ECA2-isotropic,5.421479819406038,28,94
+aus,history,M6,5,15,ECA2-no-meta,1.6172975422333682,28,94
+aus,history,M6,5,15,ECA2-unbounded,3.048007256503341,28,94
+aus,history,M6,5,16,Direct,14.882584262940014,28,90
+aus,history,M6,5,16,Source-affine,1.6790227867268148,28,90
+aus,history,M6,5,16,Source-residual,2.5874723872791847,28,90
+aus,history,M6,5,16,Local mean,1.7159209759124687,28,90
+aus,history,M6,5,16,Local ridge,2.2595330835672325,28,90
+aus,history,M6,5,16,Local RBF,1.6923572406331295,28,90
+aus,history,M6,5,16,Local RF,1.940316143477475,28,90
+aus,history,M6,5,16,Local Extra Trees,2.0222878395415225,28,90
+aus,history,M6,5,16,Local LightGBM,1.8418912511588723,28,90
+aus,history,M6,5,16,ECA,1.6888182001956404,28,90
+aus,history,M6,5,16,ECA-fixed,1.7177676489920413,28,90
+aus,history,M6,5,16,ECA-no-meta,1.6437382107654877,28,90
+aus,history,M6,5,16,ECA-unbounded,3.241391668832459,28,90
+aus,history,M6,5,16,ECA-isotropic,1.6866730472060352,28,90
+aus,history,M6,5,16,ECA2,6.519555463798119,28,90
+aus,history,M6,5,16,ECA2-MAP,3.1380355233024972,28,90
+aus,history,M6,5,16,ECA2-affine,7.431764397398391,28,90
+aus,history,M6,5,16,ECA2-isotropic,6.676388108826796,28,90
+aus,history,M6,5,16,ECA2-no-meta,1.5693090398207583,28,90
+aus,history,M6,5,16,ECA2-unbounded,2.6919101731950037,28,90
+aus,history,M6,5,17,Direct,14.38192060580073,28,92
+aus,history,M6,5,17,Source-affine,1.288873959171078,28,92
+aus,history,M6,5,17,Source-residual,2.6623302110735914,28,92
+aus,history,M6,5,17,Local mean,1.3466716540848291,28,92
+aus,history,M6,5,17,Local ridge,1.2239495396421365,28,92
+aus,history,M6,5,17,Local RBF,1.3809279832875296,28,92
+aus,history,M6,5,17,Local RF,1.4071423280331896,28,92
+aus,history,M6,5,17,Local Extra Trees,1.318800890829707,28,92
+aus,history,M6,5,17,Local LightGBM,1.2843222313179998,28,92
+aus,history,M6,5,17,ECA,1.304588511356818,28,92
+aus,history,M6,5,17,ECA-fixed,1.4055752317540895,28,92
+aus,history,M6,5,17,ECA-no-meta,1.2826554240640045,28,92
+aus,history,M6,5,17,ECA-unbounded,3.146743466242649,28,92
+aus,history,M6,5,17,ECA-isotropic,1.3017524374242448,28,92
+aus,history,M6,5,17,ECA2,5.832035544910143,28,92
+aus,history,M6,5,17,ECA2-MAP,3.195633934366258,28,92
+aus,history,M6,5,17,ECA2-affine,6.843500036389161,28,92
+aus,history,M6,5,17,ECA2-isotropic,5.889118282522226,28,92
+aus,history,M6,5,17,ECA2-no-meta,1.246102684773043,28,92
+aus,history,M6,5,17,ECA2-unbounded,2.4706778198019412,28,92
+aus,history,M6,5,18,Direct,14.504284614263327,28,94
+aus,history,M6,5,18,Source-affine,1.5122459569152258,28,94
+aus,history,M6,5,18,Source-residual,2.7597423727476924,28,94
+aus,history,M6,5,18,Local mean,1.6425498865594605,28,94
+aus,history,M6,5,18,Local ridge,1.6663090322015541,28,94
+aus,history,M6,5,18,Local RBF,1.5727319312793022,28,94
+aus,history,M6,5,18,Local RF,1.7738694307252436,28,94
+aus,history,M6,5,18,Local Extra Trees,1.7896104288411037,28,94
+aus,history,M6,5,18,Local LightGBM,1.7216995823441041,28,94
+aus,history,M6,5,18,ECA,1.5223081339166145,28,94
+aus,history,M6,5,18,ECA-fixed,1.5744085808220587,28,94
+aus,history,M6,5,18,ECA-no-meta,1.6319836286671376,28,94
+aus,history,M6,5,18,ECA-unbounded,2.027388637901219,28,94
+aus,history,M6,5,18,ECA-isotropic,1.5502280435473355,28,94
+aus,history,M6,5,18,ECA2,6.2506883954832775,28,94
+aus,history,M6,5,18,ECA2-MAP,3.08096160059684,28,94
+aus,history,M6,5,18,ECA2-affine,7.274628529432611,28,94
+aus,history,M6,5,18,ECA2-isotropic,6.390909587850876,28,94
+aus,history,M6,5,18,ECA2-no-meta,1.5441840704412189,28,94
+aus,history,M6,5,18,ECA2-unbounded,2.7903028198231317,28,94
+aus,history,M6,5,19,Direct,14.05885228823488,28,96
+aus,history,M6,5,19,Source-affine,1.3061994601683042,28,96
+aus,history,M6,5,19,Source-residual,2.8908958667464684,28,96
+aus,history,M6,5,19,Local mean,1.3568401331252575,28,96
+aus,history,M6,5,19,Local ridge,1.287569923048838,28,96
+aus,history,M6,5,19,Local RBF,1.3021097937505681,28,96
+aus,history,M6,5,19,Local RF,1.3495334328584814,28,96
+aus,history,M6,5,19,Local Extra Trees,1.2785837079661369,28,96
+aus,history,M6,5,19,Local LightGBM,1.24973993737148,28,96
+aus,history,M6,5,19,ECA,1.3141214749334917,28,96
+aus,history,M6,5,19,ECA-fixed,1.3688853244016161,28,96
+aus,history,M6,5,19,ECA-no-meta,1.3821802122535056,28,96
+aus,history,M6,5,19,ECA-unbounded,3.3986190852005533,28,96
+aus,history,M6,5,19,ECA-isotropic,1.3208198528286756,28,96
+aus,history,M6,5,19,ECA2,6.094055831509541,28,96
+aus,history,M6,5,19,ECA2-MAP,3.1138143279920674,28,96
+aus,history,M6,5,19,ECA2-affine,6.726597759678558,28,96
+aus,history,M6,5,19,ECA2-isotropic,6.23816531718111,28,96
+aus,history,M6,5,19,ECA2-no-meta,1.3310569028566133,28,96
+aus,history,M6,5,19,ECA2-unbounded,2.5884904485799543,28,96
+aus,history,M12,3,0,Direct,14.51269202087687,34,138
+aus,history,M12,3,0,Source-affine,2.0389039221497915,34,138
+aus,history,M12,3,0,Source-residual,2.6626793690988255,34,138
+aus,history,M12,3,0,Local mean,2.13403707661139,34,138
+aus,history,M12,3,0,Local ridge,4.035435364499267,34,138
+aus,history,M12,3,0,Local RBF,2.886761064598953,34,138
+aus,history,M12,3,0,Local RF,2.0076517237758886,34,138
+aus,history,M12,3,0,Local Extra Trees,2.180351480877286,34,138
+aus,history,M12,3,0,Local LightGBM,2.8126981763221,34,138
+aus,history,M12,3,0,ECA,2.7458811897754476,34,138
+aus,history,M12,3,0,ECA-fixed,1.63061916222874,34,138
+aus,history,M12,3,0,ECA-no-meta,1.9607955792143958,34,138
+aus,history,M12,3,0,ECA-unbounded,3.743561035959216,34,138
+aus,history,M12,3,0,ECA-isotropic,2.584301182256711,34,138
+aus,history,M12,3,0,ECA2,6.646114707990641,34,138
+aus,history,M12,3,0,ECA2-MAP,3.8579257421304005,34,138
+aus,history,M12,3,0,ECA2-affine,7.497664867938768,34,138
+aus,history,M12,3,0,ECA2-isotropic,6.453499240787522,34,138
+aus,history,M12,3,0,ECA2-no-meta,2.136865376288488,34,138
+aus,history,M12,3,0,ECA2-unbounded,4.0371816247437184,34,138
+aus,history,M12,3,1,Direct,14.427291290961335,36,140
+aus,history,M12,3,1,Source-affine,1.6824353984515152,36,140
+aus,history,M12,3,1,Source-residual,2.6270974266653058,36,140
+aus,history,M12,3,1,Local mean,1.7691190083379715,36,140
+aus,history,M12,3,1,Local ridge,3.737326675221088,36,140
+aus,history,M12,3,1,Local RBF,2.8605304105532166,36,140
+aus,history,M12,3,1,Local RF,1.9804150215042473,36,140
+aus,history,M12,3,1,Local Extra Trees,1.8500038076720802,36,140
+aus,history,M12,3,1,Local LightGBM,2.0868365356321585,36,140
+aus,history,M12,3,1,ECA,2.0938983355792953,36,140
+aus,history,M12,3,1,ECA-fixed,1.6746182523411666,36,140
+aus,history,M12,3,1,ECA-no-meta,2.0288436657387554,36,140
+aus,history,M12,3,1,ECA-unbounded,3.6853840723332882,36,140
+aus,history,M12,3,1,ECA-isotropic,2.0893218483791687,36,140
+aus,history,M12,3,1,ECA2,6.637479534379022,36,140
+aus,history,M12,3,1,ECA2-MAP,4.642724999285811,36,140
+aus,history,M12,3,1,ECA2-affine,7.227301681090289,36,140
+aus,history,M12,3,1,ECA2-isotropic,6.261723293446885,36,140
+aus,history,M12,3,1,ECA2-no-meta,2.462602854771332,36,140
+aus,history,M12,3,1,ECA2-unbounded,4.069471212168607,36,140
+aus,history,M12,3,2,Direct,14.417667024766269,36,140
+aus,history,M12,3,2,Source-affine,1.8331380460347357,36,140
+aus,history,M12,3,2,Source-residual,2.3886559733554953,36,140
+aus,history,M12,3,2,Local mean,1.9236647792433395,36,140
+aus,history,M12,3,2,Local ridge,9.968941645682873,36,140
+aus,history,M12,3,2,Local RBF,2.8484691988027038,36,140
+aus,history,M12,3,2,Local RF,1.859715675211549,36,140
+aus,history,M12,3,2,Local Extra Trees,1.6423604052524996,36,140
+aus,history,M12,3,2,Local LightGBM,1.8156056006409804,36,140
+aus,history,M12,3,2,ECA,1.9840427400236034,36,140
+aus,history,M12,3,2,ECA-fixed,1.6976949111712731,36,140
+aus,history,M12,3,2,ECA-no-meta,2.08747560912452,36,140
+aus,history,M12,3,2,ECA-unbounded,3.5071939698834207,36,140
+aus,history,M12,3,2,ECA-isotropic,2.2562233914317664,36,140
+aus,history,M12,3,2,ECA2,6.648950517206368,36,140
+aus,history,M12,3,2,ECA2-MAP,3.7471864059681836,36,140
+aus,history,M12,3,2,ECA2-affine,7.218129012907857,36,140
+aus,history,M12,3,2,ECA2-isotropic,6.340112710526294,36,140
+aus,history,M12,3,2,ECA2-no-meta,2.3262692251032173,36,140
+aus,history,M12,3,2,ECA2-unbounded,4.001747151326739,36,140
+aus,history,M12,3,3,Direct,14.336147003965566,34,142
+aus,history,M12,3,3,Source-affine,2.246931656837664,34,142
+aus,history,M12,3,3,Source-residual,5.417317272379654,34,142
+aus,history,M12,3,3,Local mean,2.3683284954543673,34,142
+aus,history,M12,3,3,Local ridge,3.9728946643392575,34,142
+aus,history,M12,3,3,Local RBF,3.5853516546751694,34,142
+aus,history,M12,3,3,Local RF,3.7147083346383876,34,142
+aus,history,M12,3,3,Local Extra Trees,2.8625970321874106,34,142
+aus,history,M12,3,3,Local LightGBM,3.1666366715602994,34,142
+aus,history,M12,3,3,ECA,2.179235188265157,34,142
+aus,history,M12,3,3,ECA-fixed,2.48442450079094,34,142
+aus,history,M12,3,3,ECA-no-meta,5.124074724041173,34,142
+aus,history,M12,3,3,ECA-unbounded,9.964374245887548,34,142
+aus,history,M12,3,3,ECA-isotropic,2.1960587390815327,34,142
+aus,history,M12,3,3,ECA2,6.709176181701423,34,142
+aus,history,M12,3,3,ECA2-MAP,7.061552229478934,34,142
+aus,history,M12,3,3,ECA2-affine,7.335874919131561,34,142
+aus,history,M12,3,3,ECA2-isotropic,6.15219248984353,34,142
+aus,history,M12,3,3,ECA2-no-meta,5.356986662514874,34,142
+aus,history,M12,3,3,ECA2-unbounded,6.092123880900961,34,142
+aus,history,M12,3,4,Direct,14.58200262019753,36,138
+aus,history,M12,3,4,Source-affine,2.0426626438420943,36,138
+aus,history,M12,3,4,Source-residual,2.623796375263217,36,138
+aus,history,M12,3,4,Local mean,2.089578962797554,36,138
+aus,history,M12,3,4,Local ridge,11.668562138180965,36,138
+aus,history,M12,3,4,Local RBF,3.307711938239047,36,138
+aus,history,M12,3,4,Local RF,2.1997921477243256,36,138
+aus,history,M12,3,4,Local Extra Trees,2.297203887420732,36,138
+aus,history,M12,3,4,Local LightGBM,2.773278684007623,36,138
+aus,history,M12,3,4,ECA,1.9724066243172051,36,138
+aus,history,M12,3,4,ECA-fixed,2.00074346357813,36,138
+aus,history,M12,3,4,ECA-no-meta,3.3485060680654,36,138
+aus,history,M12,3,4,ECA-unbounded,5.219783370993179,36,138
+aus,history,M12,3,4,ECA-isotropic,1.99004494921429,36,138
+aus,history,M12,3,4,ECA2,6.252718619448035,36,138
+aus,history,M12,3,4,ECA2-MAP,4.100354859168258,36,138
+aus,history,M12,3,4,ECA2-affine,7.418412592234927,36,138
+aus,history,M12,3,4,ECA2-isotropic,5.699496504773831,36,138
+aus,history,M12,3,4,ECA2-no-meta,3.6825107794176226,36,138
+aus,history,M12,3,4,ECA2-unbounded,4.272323098026614,36,138
+aus,history,M12,3,5,Direct,14.496067697029895,36,140
+aus,history,M12,3,5,Source-affine,1.7159864730382188,36,140
+aus,history,M12,3,5,Source-residual,2.5569342036299987,36,140
+aus,history,M12,3,5,Local mean,1.605632549897331,36,140
+aus,history,M12,3,5,Local ridge,3.240909462967987,36,140
+aus,history,M12,3,5,Local RBF,1.9222096149218226,36,140
+aus,history,M12,3,5,Local RF,2.0406074500172062,36,140
+aus,history,M12,3,5,Local Extra Trees,1.754451573770318,36,140
+aus,history,M12,3,5,Local LightGBM,2.051307567872878,36,140
+aus,history,M12,3,5,ECA,1.7349871293176158,36,140
+aus,history,M12,3,5,ECA-fixed,2.525447961196684,36,140
+aus,history,M12,3,5,ECA-no-meta,3.84956153740828,36,140
+aus,history,M12,3,5,ECA-unbounded,13.7111944052193,36,140
+aus,history,M12,3,5,ECA-isotropic,1.7283459064929485,36,140
+aus,history,M12,3,5,ECA2,7.5252338880196294,36,140
+aus,history,M12,3,5,ECA2-MAP,6.048841310957508,36,140
+aus,history,M12,3,5,ECA2-affine,7.12056254512004,36,140
+aus,history,M12,3,5,ECA2-isotropic,7.077673044580543,36,140
+aus,history,M12,3,5,ECA2-no-meta,5.164373740746932,36,140
+aus,history,M12,3,5,ECA2-unbounded,6.650891814171866,36,140
+aus,history,M12,3,6,Direct,14.688958510849893,34,138
+aus,history,M12,3,6,Source-affine,2.402766057620117,34,138
+aus,history,M12,3,6,Source-residual,3.339264238239851,34,138
+aus,history,M12,3,6,Local mean,2.490951329926559,34,138
+aus,history,M12,3,6,Local ridge,2.6618201611765353,34,138
+aus,history,M12,3,6,Local RBF,2.8039902840321465,34,138
+aus,history,M12,3,6,Local RF,2.6753341695880706,34,138
+aus,history,M12,3,6,Local Extra Trees,2.3647918268607264,34,138
+aus,history,M12,3,6,Local LightGBM,2.297050441184418,34,138
+aus,history,M12,3,6,ECA,3.456983932864091,34,138
+aus,history,M12,3,6,ECA-fixed,2.240799695227055,34,138
+aus,history,M12,3,6,ECA-no-meta,2.9600845330798182,34,138
+aus,history,M12,3,6,ECA-unbounded,3.589103259579454,34,138
+aus,history,M12,3,6,ECA-isotropic,3.2134886405589986,34,138
+aus,history,M12,3,6,ECA2,7.5285575646372624,34,138
+aus,history,M12,3,6,ECA2-MAP,4.483712880319204,34,138
+aus,history,M12,3,6,ECA2-affine,7.721149487578409,34,138
+aus,history,M12,3,6,ECA2-isotropic,7.5511433746498415,34,138
+aus,history,M12,3,6,ECA2-no-meta,3.285198753830662,34,138
+aus,history,M12,3,6,ECA2-unbounded,4.774312824855141,34,138
+aus,history,M12,3,7,Direct,14.403974217830418,34,138
+aus,history,M12,3,7,Source-affine,1.9519797091526063,34,138
+aus,history,M12,3,7,Source-residual,2.0418790758376906,34,138
+aus,history,M12,3,7,Local mean,2.1093351936915066,34,138
+aus,history,M12,3,7,Local ridge,4.259898538827038,34,138
+aus,history,M12,3,7,Local RBF,2.656316456855604,34,138
+aus,history,M12,3,7,Local RF,1.7556985023596057,34,138
+aus,history,M12,3,7,Local Extra Trees,1.9647804840794891,34,138
+aus,history,M12,3,7,Local LightGBM,2.0089854991778795,34,138
+aus,history,M12,3,7,ECA,2.3300193985359607,34,138
+aus,history,M12,3,7,ECA-fixed,1.4789692142508113,34,138
+aus,history,M12,3,7,ECA-no-meta,1.784093811555112,34,138
+aus,history,M12,3,7,ECA-unbounded,3.559744988331017,34,138
+aus,history,M12,3,7,ECA-isotropic,2.4481951189498243,34,138
+aus,history,M12,3,7,ECA2,5.83533903481138,34,138
+aus,history,M12,3,7,ECA2-MAP,4.220350720126069,34,138
+aus,history,M12,3,7,ECA2-affine,7.120098672822906,34,138
+aus,history,M12,3,7,ECA2-isotropic,5.6386032698065645,34,138
+aus,history,M12,3,7,ECA2-no-meta,3.410132342717334,34,138
+aus,history,M12,3,7,ECA2-unbounded,3.6627387155741338,34,138
+aus,history,M12,3,8,Direct,14.394194605979369,34,138
+aus,history,M12,3,8,Source-affine,2.1033540986183126,34,138
+aus,history,M12,3,8,Source-residual,1.9326595514203913,34,138
+aus,history,M12,3,8,Local mean,2.291773811807998,34,138
+aus,history,M12,3,8,Local ridge,4.234725215246039,34,138
+aus,history,M12,3,8,Local RBF,2.8671687432631945,34,138
+aus,history,M12,3,8,Local RF,1.8672652849936378,34,138
+aus,history,M12,3,8,Local Extra Trees,2.0221980548275496,34,138
+aus,history,M12,3,8,Local LightGBM,2.2877391404236347,34,138
+aus,history,M12,3,8,ECA,2.229488366972182,34,138
+aus,history,M12,3,8,ECA-fixed,1.5423230801742818,34,138
+aus,history,M12,3,8,ECA-no-meta,1.6629030912272478,34,138
+aus,history,M12,3,8,ECA-unbounded,3.274920574894011,34,138
+aus,history,M12,3,8,ECA-isotropic,2.416437896789547,34,138
+aus,history,M12,3,8,ECA2,5.90904092010347,34,138
+aus,history,M12,3,8,ECA2-MAP,4.164284150881984,34,138
+aus,history,M12,3,8,ECA2-affine,7.112495557559023,34,138
+aus,history,M12,3,8,ECA2-isotropic,5.725999660401667,34,138
+aus,history,M12,3,8,ECA2-no-meta,3.1278454909369917,34,138
+aus,history,M12,3,8,ECA2-unbounded,3.718138024563599,34,138
+aus,history,M12,3,9,Direct,14.360777302309822,36,140
+aus,history,M12,3,9,Source-affine,1.8005573956274534,36,140
+aus,history,M12,3,9,Source-residual,2.133303454971428,36,140
+aus,history,M12,3,9,Local mean,1.8227471064690082,36,140
+aus,history,M12,3,9,Local ridge,4.377329748865929,36,140
+aus,history,M12,3,9,Local RBF,2.8574593516190645,36,140
+aus,history,M12,3,9,Local RF,1.86910001706643,36,140
+aus,history,M12,3,9,Local Extra Trees,2.127796897624036,36,140
+aus,history,M12,3,9,Local LightGBM,2.542776755270692,36,140
+aus,history,M12,3,9,ECA,1.7431863326726065,36,140
+aus,history,M12,3,9,ECA-fixed,1.9764266818038454,36,140
+aus,history,M12,3,9,ECA-no-meta,3.3207431143500807,36,140
+aus,history,M12,3,9,ECA-unbounded,5.315252069459762,36,140
+aus,history,M12,3,9,ECA-isotropic,1.7516886012168582,36,140
+aus,history,M12,3,9,ECA2,6.110228060325693,36,140
+aus,history,M12,3,9,ECA2-MAP,3.0336338139404413,36,140
+aus,history,M12,3,9,ECA2-affine,7.137475777307624,36,140
+aus,history,M12,3,9,ECA2-isotropic,5.5140950735382885,36,140
+aus,history,M12,3,9,ECA2-no-meta,3.71269397120781,36,140
+aus,history,M12,3,9,ECA2-unbounded,3.742350789344376,36,140
+aus,history,M12,3,10,Direct,14.823111447424191,36,138
+aus,history,M12,3,10,Source-affine,2.3308598114802566,36,138
+aus,history,M12,3,10,Source-residual,3.072786813679377,36,138
+aus,history,M12,3,10,Local mean,2.3633930674802524,36,138
+aus,history,M12,3,10,Local ridge,3.744407877597621,36,138
+aus,history,M12,3,10,Local RBF,3.0517294282480223,36,138
+aus,history,M12,3,10,Local RF,2.6422270887831725,36,138
+aus,history,M12,3,10,Local Extra Trees,2.3089771094513885,36,138
+aus,history,M12,3,10,Local LightGBM,2.845062874131295,36,138
+aus,history,M12,3,10,ECA,3.7896563650332147,36,138
+aus,history,M12,3,10,ECA-fixed,2.1507209272118466,36,138
+aus,history,M12,3,10,ECA-no-meta,2.467806484968662,36,138
+aus,history,M12,3,10,ECA-unbounded,3.747363690562777,36,138
+aus,history,M12,3,10,ECA-isotropic,2.864572521845027,36,138
+aus,history,M12,3,10,ECA2,7.644142433048603,36,138
+aus,history,M12,3,10,ECA2-MAP,4.542484965655382,36,138
+aus,history,M12,3,10,ECA2-affine,7.731017818273774,36,138
+aus,history,M12,3,10,ECA2-isotropic,7.76461142805952,36,138
+aus,history,M12,3,10,ECA2-no-meta,3.7386031497314285,36,138
+aus,history,M12,3,10,ECA2-unbounded,4.630565702961508,36,138
+aus,history,M12,3,11,Direct,14.43885452336098,34,142
+aus,history,M12,3,11,Source-affine,1.7000631068271985,34,142
+aus,history,M12,3,11,Source-residual,2.2257667705627577,34,142
+aus,history,M12,3,11,Local mean,1.7908499624332488,34,142
+aus,history,M12,3,11,Local ridge,2.0123622262254868,34,142
+aus,history,M12,3,11,Local RBF,2.0421455067104834,34,142
+aus,history,M12,3,11,Local RF,2.2875196945615524,34,142
+aus,history,M12,3,11,Local Extra Trees,1.6752831351978377,34,142
+aus,history,M12,3,11,Local LightGBM,1.9779556380722219,34,142
+aus,history,M12,3,11,ECA,2.674363035542462,34,142
+aus,history,M12,3,11,ECA-fixed,1.5802670379850075,34,142
+aus,history,M12,3,11,ECA-no-meta,2.2000187628057146,34,142
+aus,history,M12,3,11,ECA-unbounded,3.62075504854886,34,142
+aus,history,M12,3,11,ECA-isotropic,2.0346387355037914,34,142
+aus,history,M12,3,11,ECA2,7.003107813895895,34,142
+aus,history,M12,3,11,ECA2-MAP,4.448520448149349,34,142
+aus,history,M12,3,11,ECA2-affine,7.065942872074137,34,142
+aus,history,M12,3,11,ECA2-isotropic,7.023570427744353,34,142
+aus,history,M12,3,11,ECA2-no-meta,2.299227736381139,34,142
+aus,history,M12,3,11,ECA2-unbounded,4.448387321782377,34,142
+aus,history,M12,3,12,Direct,14.04921341214944,34,144
+aus,history,M12,3,12,Source-affine,1.1633989536414964,34,144
+aus,history,M12,3,12,Source-residual,1.8872082339148935,34,144
+aus,history,M12,3,12,Local mean,1.3148077302586676,34,144
+aus,history,M12,3,12,Local ridge,4.505440208047894,34,144
+aus,history,M12,3,12,Local RBF,1.9318385306416677,34,144
+aus,history,M12,3,12,Local RF,1.3688132804653101,34,144
+aus,history,M12,3,12,Local Extra Trees,1.2997442013090361,34,144
+aus,history,M12,3,12,Local LightGBM,1.3825867193513837,34,144
+aus,history,M12,3,12,ECA,1.4068227902031654,34,144
+aus,history,M12,3,12,ECA-fixed,1.1551856135980918,34,144
+aus,history,M12,3,12,ECA-no-meta,1.6251790213776567,34,144
+aus,history,M12,3,12,ECA-unbounded,2.016227790287519,34,144
+aus,history,M12,3,12,ECA-isotropic,1.4410468391093023,34,144
+aus,history,M12,3,12,ECA2,5.24029741992815,34,144
+aus,history,M12,3,12,ECA2-MAP,3.426651875320028,34,144
+aus,history,M12,3,12,ECA2-affine,6.5574102884314,34,144
+aus,history,M12,3,12,ECA2-isotropic,4.790833137750105,34,144
+aus,history,M12,3,12,ECA2-no-meta,1.761170670009527,34,144
+aus,history,M12,3,12,ECA2-unbounded,2.7006488841608216,34,144
+aus,history,M12,3,13,Direct,14.362723810950607,34,138
+aus,history,M12,3,13,Source-affine,1.4972818838702524,34,138
+aus,history,M12,3,13,Source-residual,2.3676726131769867,34,138
+aus,history,M12,3,13,Local mean,1.5854627566756256,34,138
+aus,history,M12,3,13,Local ridge,4.169225942364178,34,138
+aus,history,M12,3,13,Local RBF,2.1382383492955555,34,138
+aus,history,M12,3,13,Local RF,1.3990789188762376,34,138
+aus,history,M12,3,13,Local Extra Trees,1.6219614931868587,34,138
+aus,history,M12,3,13,Local LightGBM,1.583836842377588,34,138
+aus,history,M12,3,13,ECA,1.7226697574707401,34,138
+aus,history,M12,3,13,ECA-fixed,1.3842927606294484,34,138
+aus,history,M12,3,13,ECA-no-meta,1.575142575576132,34,138
+aus,history,M12,3,13,ECA-unbounded,2.5250065534216484,34,138
+aus,history,M12,3,13,ECA-isotropic,1.5271841474224765,34,138
+aus,history,M12,3,13,ECA2,6.693517771344773,34,138
+aus,history,M12,3,13,ECA2-MAP,4.0258636471906515,34,138
+aus,history,M12,3,13,ECA2-affine,6.875093578981387,34,138
+aus,history,M12,3,13,ECA2-isotropic,6.165560747861608,34,138
+aus,history,M12,3,13,ECA2-no-meta,1.6262156158833452,34,138
+aus,history,M12,3,13,ECA2-unbounded,3.353026980912903,34,138
+aus,history,M12,3,14,Direct,14.352916092436745,34,138
+aus,history,M12,3,14,Source-affine,1.588241619322486,34,138
+aus,history,M12,3,14,Source-residual,2.1283211816971837,34,138
+aus,history,M12,3,14,Local mean,1.6797938139975697,34,138
+aus,history,M12,3,14,Local ridge,4.194242694573797,34,138
+aus,history,M12,3,14,Local RBF,2.302678321094469,34,138
+aus,history,M12,3,14,Local RF,1.4218137019693986,34,138
+aus,history,M12,3,14,Local Extra Trees,1.6571686674259787,34,138
+aus,history,M12,3,14,Local LightGBM,1.6216458520659622,34,138
+aus,history,M12,3,14,ECA,1.7866963472671296,34,138
+aus,history,M12,3,14,ECA-fixed,1.3275205733905957,34,138
+aus,history,M12,3,14,ECA-no-meta,1.5228448592191244,34,138
+aus,history,M12,3,14,ECA-unbounded,2.4488779242144565,34,138
+aus,history,M12,3,14,ECA-isotropic,1.6689260348680044,34,138
+aus,history,M12,3,14,ECA2,6.660128562754831,34,138
+aus,history,M12,3,14,ECA2-MAP,2.6948067844925054,34,138
+aus,history,M12,3,14,ECA2-affine,6.874009772967982,34,138
+aus,history,M12,3,14,ECA2-isotropic,6.282696384779575,34,138
+aus,history,M12,3,14,ECA2-no-meta,1.5021231556382435,34,138
+aus,history,M12,3,14,ECA2-unbounded,3.144061696676716,34,138
+aus,history,M12,3,15,Direct,14.502985719489118,34,138
+aus,history,M12,3,15,Source-affine,2.200775200858775,34,138
+aus,history,M12,3,15,Source-residual,2.347225370349208,34,138
+aus,history,M12,3,15,Local mean,2.309914354474245,34,138
+aus,history,M12,3,15,Local ridge,4.851290259127477,34,138
+aus,history,M12,3,15,Local RBF,2.9951695294199077,34,138
+aus,history,M12,3,15,Local RF,2.132286512937834,34,138
+aus,history,M12,3,15,Local Extra Trees,2.107822337255765,34,138
+aus,history,M12,3,15,Local LightGBM,2.374657402168786,34,138
+aus,history,M12,3,15,ECA,2.5174927231918756,34,138
+aus,history,M12,3,15,ECA-fixed,1.6927504664708943,34,138
+aus,history,M12,3,15,ECA-no-meta,1.914766327761838,34,138
+aus,history,M12,3,15,ECA-unbounded,3.481775875531798,34,138
+aus,history,M12,3,15,ECA-isotropic,2.5708431771510694,34,138
+aus,history,M12,3,15,ECA2,6.618518691218556,34,138
+aus,history,M12,3,15,ECA2-MAP,3.8964656909372266,34,138
+aus,history,M12,3,15,ECA2-affine,7.484029410294344,34,138
+aus,history,M12,3,15,ECA2-isotropic,6.470800090691513,34,138
+aus,history,M12,3,15,ECA2-no-meta,3.9978594500607545,34,138
+aus,history,M12,3,15,ECA2-unbounded,4.0360816092942295,34,138
+aus,history,M12,3,16,Direct,14.582054176573665,34,138
+aus,history,M12,3,16,Source-affine,1.9998567338310749,34,138
+aus,history,M12,3,16,Source-residual,2.5196405014940457,34,138
+aus,history,M12,3,16,Local mean,1.9032870697401976,34,138
+aus,history,M12,3,16,Local ridge,2.853741476099287,34,138
+aus,history,M12,3,16,Local RBF,2.095256712994686,34,138
+aus,history,M12,3,16,Local RF,2.312079158127518,34,138
+aus,history,M12,3,16,Local Extra Trees,2.0587508808819717,34,138
+aus,history,M12,3,16,Local LightGBM,2.258949306392338,34,138
+aus,history,M12,3,16,ECA,2.024489717306276,34,138
+aus,history,M12,3,16,ECA-fixed,2.9710385026086175,34,138
+aus,history,M12,3,16,ECA-no-meta,4.4766004504772505,34,138
+aus,history,M12,3,16,ECA-unbounded,13.288333434283127,34,138
+aus,history,M12,3,16,ECA-isotropic,2.0178492909654904,34,138
+aus,history,M12,3,16,ECA2,7.97761857704481,34,138
+aus,history,M12,3,16,ECA2-MAP,7.950212312711601,34,138
+aus,history,M12,3,16,ECA2-affine,7.3807690646155235,34,138
+aus,history,M12,3,16,ECA2-isotropic,7.532232965895173,34,138
+aus,history,M12,3,16,ECA2-no-meta,5.514485214236379,34,138
+aus,history,M12,3,16,ECA2-unbounded,8.18213942479716,34,138
+aus,history,M12,3,17,Direct,14.360777302309822,36,140
+aus,history,M12,3,17,Source-affine,1.8005573956274534,36,140
+aus,history,M12,3,17,Source-residual,2.133303454971428,36,140
+aus,history,M12,3,17,Local mean,1.8227471064690082,36,140
+aus,history,M12,3,17,Local ridge,4.377329748865929,36,140
+aus,history,M12,3,17,Local RBF,2.8574593516190645,36,140
+aus,history,M12,3,17,Local RF,1.86910001706643,36,140
+aus,history,M12,3,17,Local Extra Trees,2.127796897624036,36,140
+aus,history,M12,3,17,Local LightGBM,2.542776755270692,36,140
+aus,history,M12,3,17,ECA,1.7431863326726065,36,140
+aus,history,M12,3,17,ECA-fixed,1.9764266818038454,36,140
+aus,history,M12,3,17,ECA-no-meta,3.3207431143500807,36,140
+aus,history,M12,3,17,ECA-unbounded,5.315252069459762,36,140
+aus,history,M12,3,17,ECA-isotropic,1.7516886012168582,36,140
+aus,history,M12,3,17,ECA2,6.110228060325693,36,140
+aus,history,M12,3,17,ECA2-MAP,3.0336338139404413,36,140
+aus,history,M12,3,17,ECA2-affine,7.137475777307624,36,140
+aus,history,M12,3,17,ECA2-isotropic,5.5140950735382885,36,140
+aus,history,M12,3,17,ECA2-no-meta,3.71269397120781,36,140
+aus,history,M12,3,17,ECA2-unbounded,3.742350789344376,36,140
+aus,history,M12,3,18,Direct,14.623826148147819,34,142
+aus,history,M12,3,18,Source-affine,2.5342623152665626,34,142
+aus,history,M12,3,18,Source-residual,3.8548484480987972,34,142
+aus,history,M12,3,18,Local mean,2.5674428643566354,34,142
+aus,history,M12,3,18,Local ridge,3.676447391050841,34,142
+aus,history,M12,3,18,Local RBF,3.401637782720778,34,142
+aus,history,M12,3,18,Local RF,3.1478814311631655,34,142
+aus,history,M12,3,18,Local Extra Trees,3.0568720319557174,34,142
+aus,history,M12,3,18,Local LightGBM,3.4707722825034018,34,142
+aus,history,M12,3,18,ECA,2.5106045017046985,34,142
+aus,history,M12,3,18,ECA-fixed,3.051037113975179,34,142
+aus,history,M12,3,18,ECA-no-meta,5.6325547626257935,34,142
+aus,history,M12,3,18,ECA-unbounded,15.817840127497453,34,142
+aus,history,M12,3,18,ECA-isotropic,2.5393327541896054,34,142
+aus,history,M12,3,18,ECA2,8.347291506712795,34,142
+aus,history,M12,3,18,ECA2-MAP,6.798846404291649,34,142
+aus,history,M12,3,18,ECA2-affine,7.9323223718148865,34,142
+aus,history,M12,3,18,ECA2-isotropic,8.161581192146528,34,142
+aus,history,M12,3,18,ECA2-no-meta,5.49995499929904,34,142
+aus,history,M12,3,18,ECA2-unbounded,6.791102783861885,34,142
+aus,history,M12,3,19,Direct,14.411388337562686,32,142
+aus,history,M12,3,19,Source-affine,1.8089414745413714,32,142
+aus,history,M12,3,19,Source-residual,2.290373881050796,32,142
+aus,history,M12,3,19,Local mean,1.9059627711133247,32,142
+aus,history,M12,3,19,Local ridge,2.174014087737458,32,142
+aus,history,M12,3,19,Local RBF,2.089688381838974,32,142
+aus,history,M12,3,19,Local RF,2.7807208715965377,32,142
+aus,history,M12,3,19,Local Extra Trees,2.2376049501316517,32,142
+aus,history,M12,3,19,Local LightGBM,2.0908264620948325,32,142
+aus,history,M12,3,19,ECA,1.7658873102941508,32,142
+aus,history,M12,3,19,ECA-fixed,1.828201413316212,32,142
+aus,history,M12,3,19,ECA-no-meta,2.400929995391528,32,142
+aus,history,M12,3,19,ECA-unbounded,3.8001840843856987,32,142
+aus,history,M12,3,19,ECA-isotropic,1.799525052160171,32,142
+aus,history,M12,3,19,ECA2,7.249483884770204,32,142
+aus,history,M12,3,19,ECA2-MAP,4.735318706553657,32,142
+aus,history,M12,3,19,ECA2-affine,7.394780197802256,32,142
+aus,history,M12,3,19,ECA2-isotropic,7.2093804991699875,32,142
+aus,history,M12,3,19,ECA2-no-meta,2.5573380455385473,32,142
+aus,history,M12,3,19,ECA2-unbounded,4.5444760034065474,32,142
+aus,history,M12,5,0,Direct,14.94358812136048,58,90
+aus,history,M12,5,0,Source-affine,2.633653795242551,58,90
+aus,history,M12,5,0,Source-residual,3.1858294862690326,58,90
+aus,history,M12,5,0,Local mean,2.7203223749672283,58,90
+aus,history,M12,5,0,Local ridge,3.9919543945893747,58,90
+aus,history,M12,5,0,Local RBF,3.4419059340758498,58,90
+aus,history,M12,5,0,Local RF,2.5034871309949565,58,90
+aus,history,M12,5,0,Local Extra Trees,2.4997008903366935,58,90
+aus,history,M12,5,0,Local LightGBM,4.003682409134524,58,90
+aus,history,M12,5,0,ECA,2.4147135703236957,58,90
+aus,history,M12,5,0,ECA-fixed,2.340538696597438,58,90
+aus,history,M12,5,0,ECA-no-meta,4.811081298818323,58,90
+aus,history,M12,5,0,ECA-unbounded,5.103936017771239,58,90
+aus,history,M12,5,0,ECA-isotropic,2.6738691265910104,58,90
+aus,history,M12,5,0,ECA2,5.765845114653896,58,90
+aus,history,M12,5,0,ECA2-MAP,3.2064992953137375,58,90
+aus,history,M12,5,0,ECA2-affine,6.757463964495475,58,90
+aus,history,M12,5,0,ECA2-isotropic,5.535930930790702,58,90
+aus,history,M12,5,0,ECA2-no-meta,3.509178625597396,58,90
+aus,history,M12,5,0,ECA2-unbounded,3.3643377257487406,58,90
+aus,history,M12,5,1,Direct,14.07324333087487,56,96
+aus,history,M12,5,1,Source-affine,1.4143070630990362,56,96
+aus,history,M12,5,1,Source-residual,2.0109575457410673,56,96
+aus,history,M12,5,1,Local mean,1.5637056204991384,56,96
+aus,history,M12,5,1,Local ridge,2.7109850441117422,56,96
+aus,history,M12,5,1,Local RBF,2.3028548242858107,56,96
+aus,history,M12,5,1,Local RF,1.8405740386788934,56,96
+aus,history,M12,5,1,Local Extra Trees,1.811999308891075,56,96
+aus,history,M12,5,1,Local LightGBM,1.9057873139156627,56,96
+aus,history,M12,5,1,ECA,1.3941588025621716,56,96
+aus,history,M12,5,1,ECA-fixed,1.1781975140297538,56,96
+aus,history,M12,5,1,ECA-no-meta,1.6912739605598943,56,96
+aus,history,M12,5,1,ECA-unbounded,2.6208385607459257,56,96
+aus,history,M12,5,1,ECA-isotropic,1.6275504252777881,56,96
+aus,history,M12,5,1,ECA2,4.919306821689177,56,96
+aus,history,M12,5,1,ECA2-MAP,2.005645886236337,56,96
+aus,history,M12,5,1,ECA2-affine,5.637523742505624,56,96
+aus,history,M12,5,1,ECA2-isotropic,4.478763231042128,56,96
+aus,history,M12,5,1,ECA2-no-meta,1.8186155416521153,56,96
+aus,history,M12,5,1,ECA2-unbounded,2.3388285368095763,56,96
+aus,history,M12,5,2,Direct,14.05885228823488,56,96
+aus,history,M12,5,2,Source-affine,1.5217422070608548,56,96
+aus,history,M12,5,2,Source-residual,1.946518245161336,56,96
+aus,history,M12,5,2,Local mean,1.6572021774932595,56,96
+aus,history,M12,5,2,Local ridge,5.101683090606395,56,96
+aus,history,M12,5,2,Local RBF,2.1188254911875344,56,96
+aus,history,M12,5,2,Local RF,1.504968957030905,56,96
+aus,history,M12,5,2,Local Extra Trees,1.4334947724683818,56,96
+aus,history,M12,5,2,Local LightGBM,1.371742772911985,56,96
+aus,history,M12,5,2,ECA,1.5413036189170763,56,96
+aus,history,M12,5,2,ECA-fixed,1.296749766388509,56,96
+aus,history,M12,5,2,ECA-no-meta,2.004902496008427,56,96
+aus,history,M12,5,2,ECA-unbounded,3.1446498836476353,56,96
+aus,history,M12,5,2,ECA-isotropic,1.797334521955489,56,96
+aus,history,M12,5,2,ECA2,5.273979258831347,56,96
+aus,history,M12,5,2,ECA2-MAP,2.2088244117535227,56,96
+aus,history,M12,5,2,ECA2-affine,5.6892876919300255,56,96
+aus,history,M12,5,2,ECA2-isotropic,4.9986897430145625,56,96
+aus,history,M12,5,2,ECA2-no-meta,1.7116934677802262,56,96
+aus,history,M12,5,2,ECA2-unbounded,2.4516832603040486,56,96
+aus,history,M12,5,3,Direct,13.95918684882208,56,96
+aus,history,M12,5,3,Source-affine,1.6131742895017889,56,96
+aus,history,M12,5,3,Source-residual,1.9036955229920267,56,96
+aus,history,M12,5,3,Local mean,1.6870471328761445,56,96
+aus,history,M12,5,3,Local ridge,4.17260384954616,56,96
+aus,history,M12,5,3,Local RBF,2.447330589532053,56,96
+aus,history,M12,5,3,Local RF,1.8052691621205916,56,96
+aus,history,M12,5,3,Local Extra Trees,1.8658207469991153,56,96
+aus,history,M12,5,3,Local LightGBM,1.9459288391359755,56,96
+aus,history,M12,5,3,ECA,1.567611707642381,56,96
+aus,history,M12,5,3,ECA-fixed,1.6465864154167482,56,96
+aus,history,M12,5,3,ECA-no-meta,1.6977986744800888,56,96
+aus,history,M12,5,3,ECA-unbounded,4.082524579541336,56,96
+aus,history,M12,5,3,ECA-isotropic,1.5678353076751985,56,96
+aus,history,M12,5,3,ECA2,4.941886712296935,56,96
+aus,history,M12,5,3,ECA2-MAP,1.6741109162350367,56,96
+aus,history,M12,5,3,ECA2-affine,5.638236600172404,56,96
+aus,history,M12,5,3,ECA2-isotropic,4.643886883436114,56,96
+aus,history,M12,5,3,ECA2-no-meta,2.9503032744764606,56,96
+aus,history,M12,5,3,ECA2-unbounded,2.36637249891184,56,96
+aus,history,M12,5,4,Direct,14.297914135828123,56,94
+aus,history,M12,5,4,Source-affine,1.8010141098875847,56,94
+aus,history,M12,5,4,Source-residual,2.077709620954722,56,94
+aus,history,M12,5,4,Local mean,1.8827589237479019,56,94
+aus,history,M12,5,4,Local ridge,4.412698945212014,56,94
+aus,history,M12,5,4,Local RBF,2.425454596484004,56,94
+aus,history,M12,5,4,Local RF,1.953065621255634,56,94
+aus,history,M12,5,4,Local Extra Trees,2.0134237743483046,56,94
+aus,history,M12,5,4,Local LightGBM,1.9413292593053868,56,94
+aus,history,M12,5,4,ECA,1.7514947257433795,56,94
+aus,history,M12,5,4,ECA-fixed,1.7129704270197175,56,94
+aus,history,M12,5,4,ECA-no-meta,2.430568588650413,56,94
+aus,history,M12,5,4,ECA-unbounded,4.730769080946336,56,94
+aus,history,M12,5,4,ECA-isotropic,2.085200026674321,56,94
+aus,history,M12,5,4,ECA2,4.884818155959649,56,94
+aus,history,M12,5,4,ECA2-MAP,3.359882049462501,56,94
+aus,history,M12,5,4,ECA2-affine,5.92510524417537,56,94
+aus,history,M12,5,4,ECA2-isotropic,4.38298615426117,56,94
+aus,history,M12,5,4,ECA2-no-meta,3.2112072213834035,56,94
+aus,history,M12,5,4,ECA2-unbounded,3.3448171456269806,56,94
+aus,history,M12,5,5,Direct,14.30514700883794,58,92
+aus,history,M12,5,5,Source-affine,1.7195629901629434,58,92
+aus,history,M12,5,5,Source-residual,2.1819099269147997,58,92
+aus,history,M12,5,5,Local mean,1.7400221793231285,58,92
+aus,history,M12,5,5,Local ridge,3.917067871801283,58,92
+aus,history,M12,5,5,Local RBF,2.6695158692598446,58,92
+aus,history,M12,5,5,Local RF,1.6922979560736053,58,92
+aus,history,M12,5,5,Local Extra Trees,1.8303717117143028,58,92
+aus,history,M12,5,5,Local LightGBM,2.114433387599024,58,92
+aus,history,M12,5,5,ECA,1.6670812070956857,58,92
+aus,history,M12,5,5,ECA-fixed,1.8590632532305196,58,92
+aus,history,M12,5,5,ECA-no-meta,3.6410876000261285,58,92
+aus,history,M12,5,5,ECA-unbounded,4.3031137186188015,58,92
+aus,history,M12,5,5,ECA-isotropic,1.824478090477592,58,92
+aus,history,M12,5,5,ECA2,5.894762510941613,58,92
+aus,history,M12,5,5,ECA2-MAP,2.157816031986055,58,92
+aus,history,M12,5,5,ECA2-affine,5.807328191720441,58,92
+aus,history,M12,5,5,ECA2-isotropic,5.415485085986544,58,92
+aus,history,M12,5,5,ECA2-no-meta,4.035003984018898,58,92
+aus,history,M12,5,5,ECA2-unbounded,2.5250325316144733,58,92
+aus,history,M12,5,6,Direct,14.820576237769854,58,90
+aus,history,M12,5,6,Source-affine,2.170730179657755,58,90
+aus,history,M12,5,6,Source-residual,2.7516567125196993,58,90
+aus,history,M12,5,6,Local mean,2.2165039757564693,58,90
+aus,history,M12,5,6,Local ridge,3.2024044665644795,58,90
+aus,history,M12,5,6,Local RBF,2.9695677268053937,58,90
+aus,history,M12,5,6,Local RF,2.1019245447536203,58,90
+aus,history,M12,5,6,Local Extra Trees,1.9871580193519804,58,90
+aus,history,M12,5,6,Local LightGBM,2.540331962870398,58,90
+aus,history,M12,5,6,ECA,2.734791097102707,58,90
+aus,history,M12,5,6,ECA-fixed,1.8748115123921405,58,90
+aus,history,M12,5,6,ECA-no-meta,2.0969307616016284,58,90
+aus,history,M12,5,6,ECA-unbounded,3.5308714495099607,58,90
+aus,history,M12,5,6,ECA-isotropic,2.5098536701263146,58,90
+aus,history,M12,5,6,ECA2,6.003036916639576,58,90
+aus,history,M12,5,6,ECA2-MAP,3.3060334808510654,58,90
+aus,history,M12,5,6,ECA2-affine,6.348417590146787,58,90
+aus,history,M12,5,6,ECA2-isotropic,5.7532004953711136,58,90
+aus,history,M12,5,6,ECA2-no-meta,2.5148316515998856,58,90
+aus,history,M12,5,6,ECA2-unbounded,3.386754948047147,58,90
+aus,history,M12,5,7,Direct,14.015665442003607,56,94
+aus,history,M12,5,7,Source-affine,1.7325297048173338,56,94
+aus,history,M12,5,7,Source-residual,1.5493892923446515,56,94
+aus,history,M12,5,7,Local mean,1.9832152107194476,56,94
+aus,history,M12,5,7,Local ridge,4.29549881886981,56,94
+aus,history,M12,5,7,Local RBF,2.4846808415460506,56,94
+aus,history,M12,5,7,Local RF,1.60885867092373,56,94
+aus,history,M12,5,7,Local Extra Trees,1.8829884463294342,56,94
+aus,history,M12,5,7,Local LightGBM,2.0434643593229045,56,94
+aus,history,M12,5,7,ECA,1.4096149869718404,56,94
+aus,history,M12,5,7,ECA-fixed,1.2439195127335254,56,94
+aus,history,M12,5,7,ECA-no-meta,1.766055648700949,56,94
+aus,history,M12,5,7,ECA-unbounded,2.8116381814648777,56,94
+aus,history,M12,5,7,ECA-isotropic,1.57119957447098,56,94
+aus,history,M12,5,7,ECA2,3.980315164861466,56,94
+aus,history,M12,5,7,ECA2-MAP,2.481251353546347,56,94
+aus,history,M12,5,7,ECA2-affine,5.541931350328564,56,94
+aus,history,M12,5,7,ECA2-isotropic,3.3687955786886383,56,94
+aus,history,M12,5,7,ECA2-no-meta,1.511350026408989,56,94
+aus,history,M12,5,7,ECA2-unbounded,2.790453511600452,56,94
+aus,history,M12,5,8,Direct,14.92913211612624,58,90
+aus,history,M12,5,8,Source-affine,2.7965262500011137,58,90
+aus,history,M12,5,8,Source-residual,2.8137621457361446,58,90
+aus,history,M12,5,8,Local mean,2.888656676028731,58,90
+aus,history,M12,5,8,Local ridge,3.927455707817644,58,90
+aus,history,M12,5,8,Local RBF,3.5519912167722087,58,90
+aus,history,M12,5,8,Local RF,2.787812859986586,58,90
+aus,history,M12,5,8,Local Extra Trees,2.4170040972692677,58,90
+aus,history,M12,5,8,Local LightGBM,3.501294887935374,58,90
+aus,history,M12,5,8,ECA,2.4132851475075583,58,90
+aus,history,M12,5,8,ECA-fixed,2.391884193496712,58,90
+aus,history,M12,5,8,ECA-no-meta,4.465622840026462,58,90
+aus,history,M12,5,8,ECA-unbounded,4.4427416797913395,58,90
+aus,history,M12,5,8,ECA-isotropic,2.303507321752435,58,90
+aus,history,M12,5,8,ECA2,5.989694550083395,58,90
+aus,history,M12,5,8,ECA2-MAP,3.050417102470323,58,90
+aus,history,M12,5,8,ECA2-affine,6.793840780315076,58,90
+aus,history,M12,5,8,ECA2-isotropic,5.754876970467294,58,90
+aus,history,M12,5,8,ECA2-no-meta,3.907702787173046,58,90
+aus,history,M12,5,8,ECA2-unbounded,3.074251604570059,58,90
+aus,history,M12,5,9,Direct,14.235897948015367,58,96
+aus,history,M12,5,9,Source-affine,1.6364893771232347,58,96
+aus,history,M12,5,9,Source-residual,2.0837543696667233,58,96
+aus,history,M12,5,9,Local mean,1.7928082206993903,58,96
+aus,history,M12,5,9,Local ridge,4.811850240452667,58,96
+aus,history,M12,5,9,Local RBF,2.6144993031275994,58,96
+aus,history,M12,5,9,Local RF,2.188189548410442,58,96
+aus,history,M12,5,9,Local Extra Trees,2.2918729622481226,58,96
+aus,history,M12,5,9,Local LightGBM,2.6184752924083265,58,96
+aus,history,M12,5,9,ECA,1.7524839509719892,58,96
+aus,history,M12,5,9,ECA-fixed,1.6825591643974753,58,96
+aus,history,M12,5,9,ECA-no-meta,2.3223578826638205,58,96
+aus,history,M12,5,9,ECA-unbounded,4.517264816030841,58,96
+aus,history,M12,5,9,ECA-isotropic,1.7663403727035718,58,96
+aus,history,M12,5,9,ECA2,5.225591833579692,58,96
+aus,history,M12,5,9,ECA2-MAP,2.8303724228706906,58,96
+aus,history,M12,5,9,ECA2-affine,5.911333248714455,58,96
+aus,history,M12,5,9,ECA2-isotropic,4.540480376667795,58,96
+aus,history,M12,5,9,ECA2-no-meta,2.7434685360530566,58,96
+aus,history,M12,5,9,ECA2-unbounded,3.2582906348429734,58,96
+aus,history,M12,5,10,Direct,14.805922271511562,60,90
+aus,history,M12,5,10,Source-affine,2.291129506411415,60,90
+aus,history,M12,5,10,Source-residual,2.797727964993768,60,90
+aus,history,M12,5,10,Local mean,2.3263434528149505,60,90
+aus,history,M12,5,10,Local ridge,4.754126988508896,60,90
+aus,history,M12,5,10,Local RBF,3.3853052366901304,60,90
+aus,history,M12,5,10,Local RF,2.4279106478229036,60,90
+aus,history,M12,5,10,Local Extra Trees,1.9518601628859547,60,90
+aus,history,M12,5,10,Local LightGBM,3.0426950754352036,60,90
+aus,history,M12,5,10,ECA,2.6776755064086535,60,90
+aus,history,M12,5,10,ECA-fixed,2.1210730462157694,60,90
+aus,history,M12,5,10,ECA-no-meta,2.6427019961848,60,90
+aus,history,M12,5,10,ECA-unbounded,3.2850201688320184,60,90
+aus,history,M12,5,10,ECA-isotropic,2.2236754087317507,60,90
+aus,history,M12,5,10,ECA2,5.972245992513688,60,90
+aus,history,M12,5,10,ECA2-MAP,3.698922788546144,60,90
+aus,history,M12,5,10,ECA2-affine,6.329935724347998,60,90
+aus,history,M12,5,10,ECA2-isotropic,5.5963840293708715,60,90
+aus,history,M12,5,10,ECA2-no-meta,2.688834502594526,60,90
+aus,history,M12,5,10,ECA2-unbounded,3.703637238457669,60,90
+aus,history,M12,5,11,Direct,14.53088547127447,58,96
+aus,history,M12,5,11,Source-affine,1.6740782876787905,58,96
+aus,history,M12,5,11,Source-residual,2.665142209314138,58,96
+aus,history,M12,5,11,Local mean,1.7023488838817897,58,96
+aus,history,M12,5,11,Local ridge,2.5226091341159727,58,96
+aus,history,M12,5,11,Local RBF,2.2469613673037725,58,96
+aus,history,M12,5,11,Local RF,2.0351388095268823,58,96
+aus,history,M12,5,11,Local Extra Trees,1.941009547508782,58,96
+aus,history,M12,5,11,Local LightGBM,2.423157633664507,58,96
+aus,history,M12,5,11,ECA,3.083122459883554,58,96
+aus,history,M12,5,11,ECA-fixed,1.8203344516058453,58,96
+aus,history,M12,5,11,ECA-no-meta,2.177935059772779,58,96
+aus,history,M12,5,11,ECA-unbounded,5.908332531411738,58,96
+aus,history,M12,5,11,ECA-isotropic,2.1932865049171735,58,96
+aus,history,M12,5,11,ECA2,7.313991140108779,58,96
+aus,history,M12,5,11,ECA2-MAP,4.99638592610765,58,96
+aus,history,M12,5,11,ECA2-affine,6.173252483416345,58,96
+aus,history,M12,5,11,ECA2-isotropic,7.268879687116918,58,96
+aus,history,M12,5,11,ECA2-no-meta,2.4586646548912134,58,96
+aus,history,M12,5,11,ECA2-unbounded,4.919409319649532,58,96
+aus,history,M12,5,12,Direct,13.835614343571335,58,96
+aus,history,M12,5,12,Source-affine,1.1068260138700867,58,96
+aus,history,M12,5,12,Source-residual,1.9124733527665163,58,96
+aus,history,M12,5,12,Local mean,1.2722348758041244,58,96
+aus,history,M12,5,12,Local ridge,4.383789797037544,58,96
+aus,history,M12,5,12,Local RBF,2.063881363652191,58,96
+aus,history,M12,5,12,Local RF,1.2114783021583473,58,96
+aus,history,M12,5,12,Local Extra Trees,1.45729753912693,58,96
+aus,history,M12,5,12,Local LightGBM,1.8570234345569165,58,96
+aus,history,M12,5,12,ECA,1.4292683628095835,58,96
+aus,history,M12,5,12,ECA-fixed,1.3029071879163971,58,96
+aus,history,M12,5,12,ECA-no-meta,2.106016864781875,58,96
+aus,history,M12,5,12,ECA-unbounded,2.4520786172429645,58,96
+aus,history,M12,5,12,ECA-isotropic,1.6078723354584432,58,96
+aus,history,M12,5,12,ECA2,4.389634646080219,58,96
+aus,history,M12,5,12,ECA2-MAP,1.841746807304196,58,96
+aus,history,M12,5,12,ECA2-affine,5.198187001446814,58,96
+aus,history,M12,5,12,ECA2-isotropic,3.6474918657788002,58,96
+aus,history,M12,5,12,ECA2-no-meta,1.8284690522107527,58,96
+aus,history,M12,5,12,ECA2-unbounded,2.4933805061158747,58,96
+aus,history,M12,5,13,Direct,14.319905143336037,58,92
+aus,history,M12,5,13,Source-affine,1.642237136724943,58,92
+aus,history,M12,5,13,Source-residual,2.290435668711067,58,92
+aus,history,M12,5,13,Local mean,1.655975579662455,58,92
+aus,history,M12,5,13,Local ridge,4.233237574158297,58,92
+aus,history,M12,5,13,Local RBF,2.474793261836635,58,92
+aus,history,M12,5,13,Local RF,1.7255861396707113,58,92
+aus,history,M12,5,13,Local Extra Trees,1.874097072712294,58,92
+aus,history,M12,5,13,Local LightGBM,2.445088777430361,58,92
+aus,history,M12,5,13,ECA,2.113358378593948,58,92
+aus,history,M12,5,13,ECA-fixed,1.8047101953443911,58,92
+aus,history,M12,5,13,ECA-no-meta,4.280925485525493,58,92
+aus,history,M12,5,13,ECA-unbounded,4.694106559230572,58,92
+aus,history,M12,5,13,ECA-isotropic,2.191928041241924,58,92
+aus,history,M12,5,13,ECA2,5.641567241476639,58,92
+aus,history,M12,5,13,ECA2-MAP,2.484413053595481,58,92
+aus,history,M12,5,13,ECA2-affine,5.750450131178457,58,92
+aus,history,M12,5,13,ECA2-isotropic,5.006090011307094,58,92
+aus,history,M12,5,13,ECA2-no-meta,4.567777931176063,58,92
+aus,history,M12,5,13,ECA2-unbounded,2.9948461022317754,58,92
+aus,history,M12,5,14,Direct,14.868068944667822,58,90
+aus,history,M12,5,14,Source-affine,2.404312589985065,58,90
+aus,history,M12,5,14,Source-residual,2.5480266300095082,58,90
+aus,history,M12,5,14,Local mean,2.451954800363974,58,90
+aus,history,M12,5,14,Local ridge,3.9031532544028655,58,90
+aus,history,M12,5,14,Local RBF,3.258791470222015,58,90
+aus,history,M12,5,14,Local RF,2.3649726064490553,58,90
+aus,history,M12,5,14,Local Extra Trees,2.4393819828148304,58,90
+aus,history,M12,5,14,Local LightGBM,3.2264659078093056,58,90
+aus,history,M12,5,14,ECA,2.3199057675551535,58,90
+aus,history,M12,5,14,ECA-fixed,2.2316481859753594,58,90
+aus,history,M12,5,14,ECA-no-meta,3.1392331315632314,58,90
+aus,history,M12,5,14,ECA-unbounded,4.47825276515908,58,90
+aus,history,M12,5,14,ECA-isotropic,2.264117263343417,58,90
+aus,history,M12,5,14,ECA2,6.171655076499635,58,90
+aus,history,M12,5,14,ECA2-MAP,2.691208643956314,58,90
+aus,history,M12,5,14,ECA2-affine,6.5965877584132695,58,90
+aus,history,M12,5,14,ECA2-isotropic,5.839591845504707,58,90
+aus,history,M12,5,14,ECA2-no-meta,3.8226177552595044,58,90
+aus,history,M12,5,14,ECA2-unbounded,2.7293292592473044,58,90
+aus,history,M12,5,15,Direct,14.179357523091987,56,94
+aus,history,M12,5,15,Source-affine,1.8222974896943702,56,94
+aus,history,M12,5,15,Source-residual,2.3106067325557027,56,94
+aus,history,M12,5,15,Local mean,2.0438560002385935,56,94
+aus,history,M12,5,15,Local ridge,4.487005540662538,56,94
+aus,history,M12,5,15,Local RBF,2.5381406157985187,56,94
+aus,history,M12,5,15,Local RF,1.9699527094924352,56,94
+aus,history,M12,5,15,Local Extra Trees,2.0334437423943186,56,94
+aus,history,M12,5,15,Local LightGBM,2.5193695132302927,56,94
+aus,history,M12,5,15,ECA,1.6160973893630486,56,94
+aus,history,M12,5,15,ECA-fixed,1.3176058350797022,56,94
+aus,history,M12,5,15,ECA-no-meta,1.7503280436849165,56,94
+aus,history,M12,5,15,ECA-unbounded,2.4193250473341656,56,94
+aus,history,M12,5,15,ECA-isotropic,1.8448950466531333,56,94
+aus,history,M12,5,15,ECA2,4.398632967967512,56,94
+aus,history,M12,5,15,ECA2-MAP,2.1826181293196107,56,94
+aus,history,M12,5,15,ECA2-affine,5.807626441870443,56,94
+aus,history,M12,5,15,ECA2-isotropic,4.036464334026635,56,94
+aus,history,M12,5,15,ECA2-no-meta,1.7718424348521715,56,94
+aus,history,M12,5,15,ECA2-unbounded,2.4895913242511227,56,94
+aus,history,M12,5,16,Direct,14.882584262940014,58,90
+aus,history,M12,5,16,Source-affine,2.267565651907987,58,90
+aus,history,M12,5,16,Source-residual,3.0995613061690337,58,90
+aus,history,M12,5,16,Local mean,2.3151121326668296,58,90
+aus,history,M12,5,16,Local ridge,4.037332101599871,58,90
+aus,history,M12,5,16,Local RBF,3.2047500273191862,58,90
+aus,history,M12,5,16,Local RF,2.5916019888316466,58,90
+aus,history,M12,5,16,Local Extra Trees,2.5727908601809344,58,90
+aus,history,M12,5,16,Local LightGBM,3.4301802341788927,58,90
+aus,history,M12,5,16,ECA,2.3541121379664727,58,90
+aus,history,M12,5,16,ECA-fixed,2.1467575777123833,58,90
+aus,history,M12,5,16,ECA-no-meta,3.4531244971711286,58,90
+aus,history,M12,5,16,ECA-unbounded,5.240812617358126,58,90
+aus,history,M12,5,16,ECA-isotropic,2.611389648924923,58,90
+aus,history,M12,5,16,ECA2,5.9511165005766085,58,90
+aus,history,M12,5,16,ECA2-MAP,2.9433160322749563,58,90
+aus,history,M12,5,16,ECA2-affine,6.555085570234569,58,90
+aus,history,M12,5,16,ECA2-isotropic,5.565277072613357,58,90
+aus,history,M12,5,16,ECA2-no-meta,4.391183352015251,58,90
+aus,history,M12,5,16,ECA2-unbounded,3.1822384572820046,58,90
+aus,history,M12,5,17,Direct,14.38192060580073,58,92
+aus,history,M12,5,17,Source-affine,1.8450253661591898,58,92
+aus,history,M12,5,17,Source-residual,2.1789896911527644,58,92
+aus,history,M12,5,17,Local mean,1.9380458043386446,58,92
+aus,history,M12,5,17,Local ridge,4.559307313505301,58,92
+aus,history,M12,5,17,Local RBF,2.790908212644354,58,92
+aus,history,M12,5,17,Local RF,1.9079319414701021,58,92
+aus,history,M12,5,17,Local Extra Trees,2.0838459691865383,58,92
+aus,history,M12,5,17,Local LightGBM,2.8772186771233352,58,92
+aus,history,M12,5,17,ECA,2.0126730316308463,58,92
+aus,history,M12,5,17,ECA-fixed,1.8374087431151955,58,92
+aus,history,M12,5,17,ECA-no-meta,3.340087285050258,58,92
+aus,history,M12,5,17,ECA-unbounded,4.718896985385529,58,92
+aus,history,M12,5,17,ECA-isotropic,2.182621200430226,58,92
+aus,history,M12,5,17,ECA2,5.176906310417931,58,92
+aus,history,M12,5,17,ECA2-MAP,2.620730829123842,58,92
+aus,history,M12,5,17,ECA2-affine,5.939964458354644,58,92
+aus,history,M12,5,17,ECA2-isotropic,4.767709612825554,58,92
+aus,history,M12,5,17,ECA2-no-meta,3.768513918841039,58,92
+aus,history,M12,5,17,ECA2-unbounded,2.959318471366848,58,92
+aus,history,M12,5,18,Direct,14.504284614263327,56,94
+aus,history,M12,5,18,Source-affine,2.337621132526089,56,94
+aus,history,M12,5,18,Source-residual,2.397960011376738,56,94
+aus,history,M12,5,18,Local mean,2.4450703001954857,56,94
+aus,history,M12,5,18,Local ridge,3.792394891997564,56,94
+aus,history,M12,5,18,Local RBF,3.0513433149502966,56,94
+aus,history,M12,5,18,Local RF,2.5992222010651127,56,94
+aus,history,M12,5,18,Local Extra Trees,2.6444883037837896,56,94
+aus,history,M12,5,18,Local LightGBM,2.560233775354961,56,94
+aus,history,M12,5,18,ECA,2.1681875519690377,56,94
+aus,history,M12,5,18,ECA-fixed,2.0562672004891023,56,94
+aus,history,M12,5,18,ECA-no-meta,3.824789199459951,56,94
+aus,history,M12,5,18,ECA-unbounded,5.045684437625031,56,94
+aus,history,M12,5,18,ECA-isotropic,2.254667642082293,56,94
+aus,history,M12,5,18,ECA2,5.437074185326287,56,94
+aus,history,M12,5,18,ECA2-MAP,2.3326653641384167,56,94
+aus,history,M12,5,18,ECA2-affine,6.4114655154768325,56,94
+aus,history,M12,5,18,ECA2-isotropic,5.183209055054288,56,94
+aus,history,M12,5,18,ECA2-no-meta,3.5323070526883567,56,94
+aus,history,M12,5,18,ECA2-unbounded,2.4253112632216993,56,94
+aus,history,M12,5,19,Direct,14.05885228823488,56,96
+aus,history,M12,5,19,Source-affine,1.5217422070608548,56,96
+aus,history,M12,5,19,Source-residual,1.946518245161336,56,96
+aus,history,M12,5,19,Local mean,1.6572021774932595,56,96
+aus,history,M12,5,19,Local ridge,5.101683090606395,56,96
+aus,history,M12,5,19,Local RBF,2.1188254911875344,56,96
+aus,history,M12,5,19,Local RF,1.504968957030905,56,96
+aus,history,M12,5,19,Local Extra Trees,1.4334947724683818,56,96
+aus,history,M12,5,19,Local LightGBM,1.371742772911985,56,96
+aus,history,M12,5,19,ECA,1.5413036189170763,56,96
+aus,history,M12,5,19,ECA-fixed,1.296749766388509,56,96
+aus,history,M12,5,19,ECA-no-meta,2.004902496008427,56,96
+aus,history,M12,5,19,ECA-unbounded,3.1446498836476353,56,96
+aus,history,M12,5,19,ECA-isotropic,1.797334521955489,56,96
+aus,history,M12,5,19,ECA2,5.273979258831347,56,96
+aus,history,M12,5,19,ECA2-MAP,2.2088244117535227,56,96
+aus,history,M12,5,19,ECA2-affine,5.6892876919300255,56,96
+aus,history,M12,5,19,ECA2-isotropic,4.9986897430145625,56,96
+aus,history,M12,5,19,ECA2-no-meta,1.7116934677802262,56,96
+aus,history,M12,5,19,ECA2-unbounded,2.4516832603040486,56,96

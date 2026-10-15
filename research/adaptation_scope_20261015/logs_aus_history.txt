@@ -1,0 +1,7 @@
+aus history M3 k=3 done (7s)
+aus history M3 k=5 done (15s)
+aus history M6 k=3 done (25s)
+aus history M6 k=5 done (35s)
+aus history M12 k=3 done (46s)
+aus history M12 k=5 done (62s)
+reproduction: 120 source-affine RMSEs, max |difference| 2.22e-15

@@ -1,0 +1,49 @@
+task,cell,k,comparison,gain,wins,n,mean_a,mean_b
+yrd,M12,5,ECA2 vs NNW[LDF] (archived),3.4826,12,20,5.9819,6.2544
+yrd,M12,5,ECA2 vs Best eight (archived),18.8490,20,20,5.9819,7.4276
+yrd,M12,5,Direct vs NNW[LDF] (archived),-0.8697,10,20,6.2505,6.2544
+yrd,M12,5,Direct vs Best eight (archived),14.8704,20,20,6.2505,7.4276
+yrd,M12,11,ECA2 vs NNW[LDF] (archived),-8.8521,1,20,5.9255,5.4516
+yrd,M12,11,ECA2 vs Best eight (archived),16.5720,20,20,5.9255,7.1333
+yrd,M12,11,Direct vs NNW[LDF] (archived),-14.5926,1,20,6.2302,5.4516
+yrd,M12,11,Direct vs Best eight (archived),12.1566,20,20,6.2302,7.1333
+yrd,M3,5,ECA2 vs NNW[LDF] (archived),13.8023,19,20,6.6079,7.7629
+yrd,M3,5,ECA2 vs Best eight (archived),30.1371,20,20,6.6079,9.9766
+yrd,M3,5,Direct vs NNW[LDF] (archived),18.4259,20,20,6.2505,7.7629
+yrd,M3,5,Direct vs Best eight (archived),33.5794,20,20,6.2505,9.9766
+yrd,M3,11,ECA2 vs NNW[LDF] (archived),6.1489,15,20,6.9222,7.4787
+yrd,M3,11,ECA2 vs Best eight (archived),7.5532,14,20,6.9222,7.6001
+yrd,M3,11,Direct vs NNW[LDF] (archived),15.2607,18,20,6.2302,7.4787
+yrd,M3,11,Direct vs Best eight (archived),16.7647,20,20,6.2302,7.6001
+yrd,M6,5,ECA2 vs NNW[LDF] (archived),5.3089,14,20,6.4970,6.9111
+yrd,M6,5,ECA2 vs Best eight (archived),17.1345,20,20,6.4970,7.9032
+yrd,M6,5,Direct vs NNW[LDF] (archived),8.5994,17,20,6.2505,6.9111
+yrd,M6,5,Direct vs Best eight (archived),19.7638,20,20,6.2505,7.9032
+yrd,M6,11,ECA2 vs NNW[LDF] (archived),-3.5614,6,20,6.5768,6.3798
+yrd,M6,11,ECA2 vs Best eight (archived),4.1783,12,20,6.5768,6.9327
+yrd,M6,11,Direct vs NNW[LDF] (archived),1.6811,11,20,6.2302,6.3798
+yrd,M6,11,Direct vs Best eight (archived),8.8822,16,20,6.2302,6.9327
+aus,M12,3,ECA2 vs NNW[LDF] (archived),-57.5431,2,20,6.7674,4.7724
+aus,M12,3,ECA2 vs Best eight (archived),-275.3725,0,20,6.7674,1.8434
+aus,M12,3,Direct vs NNW[LDF] (archived),-236.5249,0,20,14.4564,4.7724
+aus,M12,3,Direct vs Best eight (archived),-709.6572,0,20,14.4564,1.8434
+aus,M12,5,ECA2 vs NNW[LDF] (archived),-35.3159,8,20,5.4303,4.9867
+aus,M12,5,ECA2 vs Best eight (archived),-205.0070,0,20,5.4303,1.8392
+aus,M12,5,Direct vs NNW[LDF] (archived),-264.3035,0,20,14.4003,4.9867
+aus,M12,5,Direct vs Best eight (archived),-715.0570,0,20,14.4003,1.8392
+aus,M3,3,ECA2 vs NNW[LDF] (archived),-38.8137,5,20,10.8066,8.8350
+aus,M3,3,ECA2 vs Best eight (archived),-702.5531,0,20,10.8066,1.3520
+aus,M3,3,Direct vs NNW[LDF] (archived),-87.1128,0,20,14.4564,8.8350
+aus,M3,3,Direct vs Best eight (archived),-975.3016,0,20,14.4564,1.3520
+aus,M3,5,ECA2 vs NNW[LDF] (archived),-62.5022,2,20,9.7456,7.1014
+aus,M3,5,ECA2 vs Best eight (archived),-637.5914,0,20,9.7456,1.3345
+aus,M3,5,Direct vs NNW[LDF] (archived),-140.4201,0,20,14.4003,7.1014
+aus,M3,5,Direct vs Best eight (archived),-992.7132,0,20,14.4003,1.3345
+aus,M6,3,ECA2 vs NNW[LDF] (archived),-115.5980,1,20,7.7521,3.9939
+aus,M6,3,ECA2 vs Best eight (archived),-451.7225,0,20,7.7521,1.4160
+aus,M6,3,Direct vs NNW[LDF] (archived),-309.5006,0,20,14.4564,3.9939
+aus,M6,3,Direct vs Best eight (archived),-938.5327,0,20,14.4564,1.4160
+aus,M6,5,ECA2 vs NNW[LDF] (archived),-143.5654,0,20,6.1740,2.7057
+aus,M6,5,ECA2 vs Best eight (archived),-351.6981,0,20,6.1740,1.3814
+aus,M6,5,Direct vs NNW[LDF] (archived),-478.3331,0,20,14.4003,2.7057
+aus,M6,5,Direct vs Best eight (archived),-962.4296,0,20,14.4003,1.3814

@@ -1,0 +1,2401 @@
+task,design,cell,k,split,model,rmse,n_train_rows,n_test
+locked,history,M3,5,0,Direct,13.712809636537974,15,456
+locked,history,M3,5,0,Source-affine,12.298392328113518,15,456
+locked,history,M3,5,0,Source-residual,14.753536127407786,15,456
+locked,history,M3,5,0,Local mean,17.77326043885611,15,456
+locked,history,M3,5,0,Local ridge,33.56511202811694,15,456
+locked,history,M3,5,0,Local RBF,16.56384377504112,15,456
+locked,history,M3,5,0,Local RF,15.76704967270868,15,456
+locked,history,M3,5,0,Local Extra Trees,15.81490901058755,15,456
+locked,history,M3,5,0,Local LightGBM,19.241201082957684,15,456
+locked,history,M3,5,0,ECA,12.299654443748134,15,456
+locked,history,M3,5,0,ECA-fixed,12.107018009144976,15,456
+locked,history,M3,5,0,ECA-no-meta,12.277666440304019,15,456
+locked,history,M3,5,0,ECA-unbounded,20.439103581253093,15,456
+locked,history,M3,5,0,ECA-isotropic,12.320104147360427,15,456
+locked,history,M3,5,0,ECA2,12.424809512951093,15,456
+locked,history,M3,5,0,ECA2-MAP,12.251816080721705,15,456
+locked,history,M3,5,0,ECA2-affine,13.002040883270046,15,456
+locked,history,M3,5,0,ECA2-isotropic,12.43750045624046,15,456
+locked,history,M3,5,0,ECA2-no-meta,13.122982618879677,15,456
+locked,history,M3,5,0,ECA2-unbounded,14.59182782923648,15,456
+locked,history,M3,5,1,Direct,13.534164952385709,15,455
+locked,history,M3,5,1,Source-affine,12.06368051615651,15,455
+locked,history,M3,5,1,Source-residual,12.977614808603066,15,455
+locked,history,M3,5,1,Local mean,16.983089872464127,15,455
+locked,history,M3,5,1,Local ridge,36.111503347797,15,455
+locked,history,M3,5,1,Local RBF,16.203000812587085,15,455
+locked,history,M3,5,1,Local RF,14.786102784151405,15,455
+locked,history,M3,5,1,Local Extra Trees,16.4141813146455,15,455
+locked,history,M3,5,1,Local LightGBM,19.516331601439642,15,455
+locked,history,M3,5,1,ECA,12.06646534312651,15,455
+locked,history,M3,5,1,ECA-fixed,12.095928096766546,15,455
+locked,history,M3,5,1,ECA-no-meta,12.306716716449056,15,455
+locked,history,M3,5,1,ECA-unbounded,20.873574116985484,15,455
+locked,history,M3,5,1,ECA-isotropic,12.16451741475084,15,455
+locked,history,M3,5,1,ECA2,12.028798346901134,15,455
+locked,history,M3,5,1,ECA2-MAP,11.964620047823782,15,455
+locked,history,M3,5,1,ECA2-affine,12.686803517303554,15,455
+locked,history,M3,5,1,ECA2-isotropic,12.057169983109397,15,455
+locked,history,M3,5,1,ECA2-no-meta,13.432096415050063,15,455
+locked,history,M3,5,1,ECA2-unbounded,13.329835939032439,15,455
+locked,history,M3,5,2,Direct,12.766570620075223,15,455
+locked,history,M3,5,2,Source-affine,12.365470875729127,15,455
+locked,history,M3,5,2,Source-residual,15.86610825041855,15,455
+locked,history,M3,5,2,Local mean,16.02576945315074,15,455
+locked,history,M3,5,2,Local ridge,25.73452489948356,15,455
+locked,history,M3,5,2,Local RBF,15.737740327534887,15,455
+locked,history,M3,5,2,Local RF,15.834502722992882,15,455
+locked,history,M3,5,2,Local Extra Trees,14.95479913223555,15,455
+locked,history,M3,5,2,Local LightGBM,17.617709743808728,15,455
+locked,history,M3,5,2,ECA,12.295849685565047,15,455
+locked,history,M3,5,2,ECA-fixed,11.60969995692864,15,455
+locked,history,M3,5,2,ECA-no-meta,12.196742520936429,15,455
+locked,history,M3,5,2,ECA-unbounded,22.884550933407613,15,455
+locked,history,M3,5,2,ECA-isotropic,12.324820941106895,15,455
+locked,history,M3,5,2,ECA2,11.13506643717396,15,455
+locked,history,M3,5,2,ECA2-MAP,11.248140971484348,15,455
+locked,history,M3,5,2,ECA2-affine,11.846820112780472,15,455
+locked,history,M3,5,2,ECA2-isotropic,11.183750466593825,15,455
+locked,history,M3,5,2,ECA2-no-meta,12.664145799219055,15,455
+locked,history,M3,5,2,ECA2-unbounded,13.736174079264796,15,455
+locked,history,M3,5,3,Direct,13.453399431962094,15,455
+locked,history,M3,5,3,Source-affine,12.522091146491753,15,455
+locked,history,M3,5,3,Source-residual,11.745338989413034,15,455
+locked,history,M3,5,3,Local mean,18.63261899058156,15,455
+locked,history,M3,5,3,Local ridge,41.58517490574721,15,455
+locked,history,M3,5,3,Local RBF,17.551154744822824,15,455
+locked,history,M3,5,3,Local RF,15.166724780966714,15,455
+locked,history,M3,5,3,Local Extra Trees,16.069441156369315,15,455
+locked,history,M3,5,3,Local LightGBM,17.900042960129817,15,455
+locked,history,M3,5,3,ECA,12.477624310359223,15,455
+locked,history,M3,5,3,ECA-fixed,11.808220042434137,15,455
+locked,history,M3,5,3,ECA-no-meta,12.495901198302592,15,455
+locked,history,M3,5,3,ECA-unbounded,44.584590450166395,15,455
+locked,history,M3,5,3,ECA-isotropic,12.484138218460709,15,455
+locked,history,M3,5,3,ECA2,11.912967709475158,15,455
+locked,history,M3,5,3,ECA2-MAP,11.545957704889684,15,455
+locked,history,M3,5,3,ECA2-affine,12.614423160812883,15,455
+locked,history,M3,5,3,ECA2-isotropic,12.04807554534851,15,455
+locked,history,M3,5,3,ECA2-no-meta,11.823400612263937,15,455
+locked,history,M3,5,3,ECA2-unbounded,12.648389528391723,15,455
+locked,history,M3,5,4,Direct,13.786613922725664,15,455
+locked,history,M3,5,4,Source-affine,12.667635950546773,15,455
+locked,history,M3,5,4,Source-residual,13.12846441059851,15,455
+locked,history,M3,5,4,Local mean,16.730614675075252,15,455
+locked,history,M3,5,4,Local ridge,26.63357860296932,15,455
+locked,history,M3,5,4,Local RBF,16.207366917871884,15,455
+locked,history,M3,5,4,Local RF,15.055750251101886,15,455
+locked,history,M3,5,4,Local Extra Trees,15.162371874133433,15,455
+locked,history,M3,5,4,Local LightGBM,17.64180165915224,15,455
+locked,history,M3,5,4,ECA,12.591832099424684,15,455
+locked,history,M3,5,4,ECA-fixed,12.27719928481641,15,455
+locked,history,M3,5,4,ECA-no-meta,12.895514802195274,15,455
+locked,history,M3,5,4,ECA-unbounded,31.23091737088753,15,455
+locked,history,M3,5,4,ECA-isotropic,12.587807729955058,15,455
+locked,history,M3,5,4,ECA2,12.490193542650392,15,455
+locked,history,M3,5,4,ECA2-MAP,12.28740964028814,15,455
+locked,history,M3,5,4,ECA2-affine,13.12444370750216,15,455
+locked,history,M3,5,4,ECA2-isotropic,12.691416341049436,15,455
+locked,history,M3,5,4,ECA2-no-meta,13.878015210805833,15,455
+locked,history,M3,5,4,ECA2-unbounded,12.38749704252156,15,455
+locked,history,M3,5,5,Direct,13.277483544293917,15,455
+locked,history,M3,5,5,Source-affine,13.116688711217952,15,455
+locked,history,M3,5,5,Source-residual,14.070480294532787,15,455
+locked,history,M3,5,5,Local mean,16.224958979020528,15,455
+locked,history,M3,5,5,Local ridge,30.96255169235952,15,455
+locked,history,M3,5,5,Local RBF,16.143602465406687,15,455
+locked,history,M3,5,5,Local RF,15.023253033245354,15,455
+locked,history,M3,5,5,Local Extra Trees,14.57311599470524,15,455
+locked,history,M3,5,5,Local LightGBM,16.14368077581543,15,455
+locked,history,M3,5,5,ECA,13.039792061104764,15,455
+locked,history,M3,5,5,ECA-fixed,12.351364808707219,15,455
+locked,history,M3,5,5,ECA-no-meta,13.012290245672075,15,455
+locked,history,M3,5,5,ECA-unbounded,21.491846515170682,15,455
+locked,history,M3,5,5,ECA-isotropic,13.040536640518885,15,455
+locked,history,M3,5,5,ECA2,11.834033338758696,15,455
+locked,history,M3,5,5,ECA2-MAP,11.889302881136269,15,455
+locked,history,M3,5,5,ECA2-affine,12.458286396571312,15,455
+locked,history,M3,5,5,ECA2-isotropic,11.917620502158973,15,455
+locked,history,M3,5,5,ECA2-no-meta,12.60702382148421,15,455
+locked,history,M3,5,5,ECA2-unbounded,12.71281414086734,15,455
+locked,history,M3,5,6,Direct,13.754904850437287,15,455
+locked,history,M3,5,6,Source-affine,12.685604221308083,15,455
+locked,history,M3,5,6,Source-residual,12.146142208618457,15,455
+locked,history,M3,5,6,Local mean,16.840372487983082,15,455
+locked,history,M3,5,6,Local ridge,33.792567447776385,15,455
+locked,history,M3,5,6,Local RBF,16.261775145855832,15,455
+locked,history,M3,5,6,Local RF,15.423310894690335,15,455
+locked,history,M3,5,6,Local Extra Trees,15.395035554548016,15,455
+locked,history,M3,5,6,Local LightGBM,18.462222949038903,15,455
+locked,history,M3,5,6,ECA,12.582030168770233,15,455
+locked,history,M3,5,6,ECA-fixed,12.099623991490057,15,455
+locked,history,M3,5,6,ECA-no-meta,12.552580553063596,15,455
+locked,history,M3,5,6,ECA-unbounded,27.340022738435778,15,455
+locked,history,M3,5,6,ECA-isotropic,12.640730292436617,15,455
+locked,history,M3,5,6,ECA2,12.296913328818365,15,455
+locked,history,M3,5,6,ECA2-MAP,11.928509121881374,15,455
+locked,history,M3,5,6,ECA2-affine,12.92326913362757,15,455
+locked,history,M3,5,6,ECA2-isotropic,12.584464989594805,15,455
+locked,history,M3,5,6,ECA2-no-meta,12.603286061478997,15,455
+locked,history,M3,5,6,ECA2-unbounded,11.753366275729205,15,455
+locked,history,M3,5,7,Direct,13.918908998896887,15,456
+locked,history,M3,5,7,Source-affine,12.722349074469463,15,456
+locked,history,M3,5,7,Source-residual,13.427986284221097,15,456
+locked,history,M3,5,7,Local mean,18.460701650767156,15,456
+locked,history,M3,5,7,Local ridge,35.97758465306655,15,456
+locked,history,M3,5,7,Local RBF,17.45016349306333,15,456
+locked,history,M3,5,7,Local RF,16.508356908252306,15,456
+locked,history,M3,5,7,Local Extra Trees,16.02624752434768,15,456
+locked,history,M3,5,7,Local LightGBM,16.01090003704146,15,456
+locked,history,M3,5,7,ECA,12.661117019665706,15,456
+locked,history,M3,5,7,ECA-fixed,12.177197739836204,15,456
+locked,history,M3,5,7,ECA-no-meta,12.708630130717188,15,456
+locked,history,M3,5,7,ECA-unbounded,33.231244693796036,15,456
+locked,history,M3,5,7,ECA-isotropic,12.677748882305549,15,456
+locked,history,M3,5,7,ECA2,12.588778418718638,15,456
+locked,history,M3,5,7,ECA2-MAP,12.49541308691717,15,456
+locked,history,M3,5,7,ECA2-affine,13.135079433269782,15,456
+locked,history,M3,5,7,ECA2-isotropic,12.708410635044823,15,456
+locked,history,M3,5,7,ECA2-no-meta,12.998697298418216,15,456
+locked,history,M3,5,7,ECA2-unbounded,13.687657778729692,15,456
+locked,history,M3,5,8,Direct,12.680750091169326,15,455
+locked,history,M3,5,8,Source-affine,13.150752544877882,15,455
+locked,history,M3,5,8,Source-residual,15.497110132313857,15,455
+locked,history,M3,5,8,Local mean,16.08859137130768,15,455
+locked,history,M3,5,8,Local ridge,23.15561361377225,15,455
+locked,history,M3,5,8,Local RBF,15.955095598976154,15,455
+locked,history,M3,5,8,Local RF,14.878305700222583,15,455
+locked,history,M3,5,8,Local Extra Trees,14.418586704934352,15,455
+locked,history,M3,5,8,Local LightGBM,15.711382561800075,15,455
+locked,history,M3,5,8,ECA,13.093091042668235,15,455
+locked,history,M3,5,8,ECA-fixed,12.356469301899164,15,455
+locked,history,M3,5,8,ECA-no-meta,13.153265460496735,15,455
+locked,history,M3,5,8,ECA-unbounded,27.269135120860582,15,455
+locked,history,M3,5,8,ECA-isotropic,13.11849234539277,15,455
+locked,history,M3,5,8,ECA2,11.157654347749144,15,455
+locked,history,M3,5,8,ECA2-MAP,11.602418428942338,15,455
+locked,history,M3,5,8,ECA2-affine,11.788352023592452,15,455
+locked,history,M3,5,8,ECA2-isotropic,11.155919416669105,15,455
+locked,history,M3,5,8,ECA2-no-meta,12.325812369219788,15,455
+locked,history,M3,5,8,ECA2-unbounded,15.127486344290677,15,455
+locked,history,M3,5,9,Direct,14.113543024732557,15,455
+locked,history,M3,5,9,Source-affine,12.436985182478457,15,455
+locked,history,M3,5,9,Source-residual,13.447703537894197,15,455
+locked,history,M3,5,9,Local mean,16.6868996732503,15,455
+locked,history,M3,5,9,Local ridge,35.83776280731936,15,455
+locked,history,M3,5,9,Local RBF,16.12025293191587,15,455
+locked,history,M3,5,9,Local RF,14.872463709778335,15,455
+locked,history,M3,5,9,Local Extra Trees,14.848775316329068,15,455
+locked,history,M3,5,9,Local LightGBM,15.897370638758302,15,455
+locked,history,M3,5,9,ECA,12.429932794620138,15,455
+locked,history,M3,5,9,ECA-fixed,12.284583909026772,15,455
+locked,history,M3,5,9,ECA-no-meta,12.48524319691004,15,455
+locked,history,M3,5,9,ECA-unbounded,22.680406065963535,15,455
+locked,history,M3,5,9,ECA-isotropic,12.438722501563868,15,455
+locked,history,M3,5,9,ECA2,12.549270581821206,15,455
+locked,history,M3,5,9,ECA2-MAP,12.316852961497487,15,455
+locked,history,M3,5,9,ECA2-affine,13.21424994867429,15,455
+locked,history,M3,5,9,ECA2-isotropic,12.687727388627879,15,455
+locked,history,M3,5,9,ECA2-no-meta,12.774875062706377,15,455
+locked,history,M3,5,9,ECA2-unbounded,13.580675616392826,15,455
+locked,history,M3,5,10,Direct,13.652190301561768,15,456
+locked,history,M3,5,10,Source-affine,13.49328125107306,15,456
+locked,history,M3,5,10,Source-residual,13.328226734189371,15,456
+locked,history,M3,5,10,Local mean,21.31575621207257,15,456
+locked,history,M3,5,10,Local ridge,36.144633712353574,15,456
+locked,history,M3,5,10,Local RBF,19.922903913451385,15,456
+locked,history,M3,5,10,Local RF,19.065010614501507,15,456
+locked,history,M3,5,10,Local Extra Trees,17.793812197372564,15,456
+locked,history,M3,5,10,Local LightGBM,25.436325951235506,15,456
+locked,history,M3,5,10,ECA,13.381321276711919,15,456
+locked,history,M3,5,10,ECA-fixed,13.066650811650488,15,456
+locked,history,M3,5,10,ECA-no-meta,14.8219874471618,15,456
+locked,history,M3,5,10,ECA-unbounded,58.904304413830886,15,456
+locked,history,M3,5,10,ECA-isotropic,13.449995187554755,15,456
+locked,history,M3,5,10,ECA2,13.166461779961564,15,456
+locked,history,M3,5,10,ECA2-MAP,13.27902659213844,15,456
+locked,history,M3,5,10,ECA2-affine,13.364245237255767,15,456
+locked,history,M3,5,10,ECA2-isotropic,13.291942099049768,15,456
+locked,history,M3,5,10,ECA2-no-meta,14.54681279632991,15,456
+locked,history,M3,5,10,ECA2-unbounded,15.361069246777948,15,456
+locked,history,M3,5,11,Direct,14.138267004384637,15,455
+locked,history,M3,5,11,Source-affine,12.25923085884692,15,455
+locked,history,M3,5,11,Source-residual,12.574732543301431,15,455
+locked,history,M3,5,11,Local mean,16.897459708947302,15,455
+locked,history,M3,5,11,Local ridge,39.03642023160279,15,455
+locked,history,M3,5,11,Local RBF,16.2721168180329,15,455
+locked,history,M3,5,11,Local RF,14.95282696771712,15,455
+locked,history,M3,5,11,Local Extra Trees,18.14637862478237,15,455
+locked,history,M3,5,11,Local LightGBM,16.23248740764379,15,455
+locked,history,M3,5,11,ECA,12.264961597493636,15,455
+locked,history,M3,5,11,ECA-fixed,12.195827252405314,15,455
+locked,history,M3,5,11,ECA-no-meta,12.234777073155026,15,455
+locked,history,M3,5,11,ECA-unbounded,19.727318689214904,15,455
+locked,history,M3,5,11,ECA-isotropic,12.2718158928283,15,455
+locked,history,M3,5,11,ECA2,12.84309692943723,15,455
+locked,history,M3,5,11,ECA2-MAP,12.546101322994708,15,455
+locked,history,M3,5,11,ECA2-affine,13.416568335255604,15,455
+locked,history,M3,5,11,ECA2-isotropic,12.964272683201168,15,455
+locked,history,M3,5,11,ECA2-no-meta,15.254000570483422,15,455
+locked,history,M3,5,11,ECA2-unbounded,12.976662906609437,15,455
+locked,history,M3,5,12,Direct,13.518847957065827,15,455
+locked,history,M3,5,12,Source-affine,12.082357261511754,15,455
+locked,history,M3,5,12,Source-residual,11.996021994412414,15,455
+locked,history,M3,5,12,Local mean,16.2427452936771,15,455
+locked,history,M3,5,12,Local ridge,43.783811634356326,15,455
+locked,history,M3,5,12,Local RBF,15.785578767627815,15,455
+locked,history,M3,5,12,Local RF,15.206871614775226,15,455
+locked,history,M3,5,12,Local Extra Trees,14.520989230189707,15,455
+locked,history,M3,5,12,Local LightGBM,17.201302743970825,15,455
+locked,history,M3,5,12,ECA,12.08923164305531,15,455
+locked,history,M3,5,12,ECA-fixed,12.391318275647585,15,455
+locked,history,M3,5,12,ECA-no-meta,12.093065896822797,15,455
+locked,history,M3,5,12,ECA-unbounded,31.211674486964178,15,455
+locked,history,M3,5,12,ECA-isotropic,12.155936644672355,15,455
+locked,history,M3,5,12,ECA2,11.873563768176222,15,455
+locked,history,M3,5,12,ECA2-MAP,11.720831293390754,15,455
+locked,history,M3,5,12,ECA2-affine,12.600511345467023,15,455
+locked,history,M3,5,12,ECA2-isotropic,11.922285511989692,15,455
+locked,history,M3,5,12,ECA2-no-meta,14.604820824976034,15,455
+locked,history,M3,5,12,ECA2-unbounded,12.83103352058901,15,455
+locked,history,M3,5,13,Direct,13.322039041592003,15,455
+locked,history,M3,5,13,Source-affine,12.054249812342158,15,455
+locked,history,M3,5,13,Source-residual,13.126602955246904,15,455
+locked,history,M3,5,13,Local mean,16.78305487383154,15,455
+locked,history,M3,5,13,Local ridge,28.83705655177751,15,455
+locked,history,M3,5,13,Local RBF,16.65331746964979,15,455
+locked,history,M3,5,13,Local RF,15.417929304033057,15,455
+locked,history,M3,5,13,Local Extra Trees,15.684884223273206,15,455
+locked,history,M3,5,13,Local LightGBM,19.4519873002468,15,455
+locked,history,M3,5,13,ECA,11.755057993442726,15,455
+locked,history,M3,5,13,ECA-fixed,11.434027777833238,15,455
+locked,history,M3,5,13,ECA-no-meta,12.161851263887966,15,455
+locked,history,M3,5,13,ECA-unbounded,22.922404626829806,15,455
+locked,history,M3,5,13,ECA-isotropic,11.778699156422395,15,455
+locked,history,M3,5,13,ECA2,11.906182068411143,15,455
+locked,history,M3,5,13,ECA2-MAP,11.48087466877095,15,455
+locked,history,M3,5,13,ECA2-affine,12.629208064942654,15,455
+locked,history,M3,5,13,ECA2-isotropic,12.16226170071753,15,455
+locked,history,M3,5,13,ECA2-no-meta,12.543175189905726,15,455
+locked,history,M3,5,13,ECA2-unbounded,11.511075319734966,15,455
+locked,history,M3,5,14,Direct,13.601236916400289,15,455
+locked,history,M3,5,14,Source-affine,13.020228068990592,15,455
+locked,history,M3,5,14,Source-residual,13.225734869446734,15,455
+locked,history,M3,5,14,Local mean,16.335198176402013,15,455
+locked,history,M3,5,14,Local ridge,23.256435185152238,15,455
+locked,history,M3,5,14,Local RBF,16.230725130916394,15,455
+locked,history,M3,5,14,Local RF,15.18946571009308,15,455
+locked,history,M3,5,14,Local Extra Trees,14.748974681909594,15,455
+locked,history,M3,5,14,Local LightGBM,16.904238780944922,15,455
+locked,history,M3,5,14,ECA,12.932545649309942,15,455
+locked,history,M3,5,14,ECA-fixed,12.267327631812142,15,455
+locked,history,M3,5,14,ECA-no-meta,12.555941639547264,15,455
+locked,history,M3,5,14,ECA-unbounded,22.614378708030877,15,455
+locked,history,M3,5,14,ECA-isotropic,12.962226930336529,15,455
+locked,history,M3,5,14,ECA2,12.026404074864004,15,455
+locked,history,M3,5,14,ECA2-MAP,11.950759528932837,15,455
+locked,history,M3,5,14,ECA2-affine,12.701445847812348,15,455
+locked,history,M3,5,14,ECA2-isotropic,12.106129224178332,15,455
+locked,history,M3,5,14,ECA2-no-meta,12.722254390214946,15,455
+locked,history,M3,5,14,ECA2-unbounded,12.48887892188985,15,455
+locked,history,M3,5,15,Direct,13.89070196567971,15,455
+locked,history,M3,5,15,Source-affine,11.860228445518937,15,455
+locked,history,M3,5,15,Source-residual,12.821231223249963,15,455
+locked,history,M3,5,15,Local mean,16.360290096999858,15,455
+locked,history,M3,5,15,Local ridge,42.653610956516054,15,455
+locked,history,M3,5,15,Local RBF,16.184901243970575,15,455
+locked,history,M3,5,15,Local RF,15.932444442047899,15,455
+locked,history,M3,5,15,Local Extra Trees,14.978581965134952,15,455
+locked,history,M3,5,15,Local LightGBM,17.175671936772776,15,455
+locked,history,M3,5,15,ECA,11.857765288026602,15,455
+locked,history,M3,5,15,ECA-fixed,11.75953865047605,15,455
+locked,history,M3,5,15,ECA-no-meta,11.856860222464823,15,455
+locked,history,M3,5,15,ECA-unbounded,28.56731194538991,15,455
+locked,history,M3,5,15,ECA-isotropic,11.889546398193716,15,455
+locked,history,M3,5,15,ECA2,12.448998796576705,15,455
+locked,history,M3,5,15,ECA2-MAP,12.202214750278713,15,455
+locked,history,M3,5,15,ECA2-affine,13.069838485990651,15,455
+locked,history,M3,5,15,ECA2-isotropic,12.508538306665589,15,455
+locked,history,M3,5,15,ECA2-no-meta,12.97585282057454,15,455
+locked,history,M3,5,15,ECA2-unbounded,13.387364898647538,15,455
+locked,history,M3,5,16,Direct,13.478085866329934,15,455
+locked,history,M3,5,16,Source-affine,13.025677866812337,15,455
+locked,history,M3,5,16,Source-residual,13.600097512420735,15,455
+locked,history,M3,5,16,Local mean,16.541911206665453,15,455
+locked,history,M3,5,16,Local ridge,31.66061923992083,15,455
+locked,history,M3,5,16,Local RBF,16.395243088795233,15,455
+locked,history,M3,5,16,Local RF,15.189113896507864,15,455
+locked,history,M3,5,16,Local Extra Trees,15.060351486142862,15,455
+locked,history,M3,5,16,Local LightGBM,15.881096077761185,15,455
+locked,history,M3,5,16,ECA,12.968643258307,15,455
+locked,history,M3,5,16,ECA-fixed,12.918793167649962,15,455
+locked,history,M3,5,16,ECA-no-meta,12.878952683113898,15,455
+locked,history,M3,5,16,ECA-unbounded,58.605511735722374,15,455
+locked,history,M3,5,16,ECA-isotropic,12.985959825358103,15,455
+locked,history,M3,5,16,ECA2,12.016057128169567,15,455
+locked,history,M3,5,16,ECA2-MAP,11.928873401289636,15,455
+locked,history,M3,5,16,ECA2-affine,12.684271764762466,15,455
+locked,history,M3,5,16,ECA2-isotropic,12.03852411937616,15,455
+locked,history,M3,5,16,ECA2-no-meta,13.759623858476393,15,455
+locked,history,M3,5,16,ECA2-unbounded,13.377040698319574,15,455
+locked,history,M3,5,17,Direct,13.313899518481215,15,455
+locked,history,M3,5,17,Source-affine,13.308352269780752,15,455
+locked,history,M3,5,17,Source-residual,14.34311458284317,15,455
+locked,history,M3,5,17,Local mean,16.325123052442255,15,455
+locked,history,M3,5,17,Local ridge,23.98676564626341,15,455
+locked,history,M3,5,17,Local RBF,16.21665124485515,15,455
+locked,history,M3,5,17,Local RF,14.460524292596766,15,455
+locked,history,M3,5,17,Local Extra Trees,14.879407355288372,15,455
+locked,history,M3,5,17,Local LightGBM,17.062421692812933,15,455
+locked,history,M3,5,17,ECA,13.196050075363198,15,455
+locked,history,M3,5,17,ECA-fixed,12.343019082705872,15,455
+locked,history,M3,5,17,ECA-no-meta,13.263591790179012,15,455
+locked,history,M3,5,17,ECA-unbounded,33.125074713264056,15,455
+locked,history,M3,5,17,ECA-isotropic,13.230174842901697,15,455
+locked,history,M3,5,17,ECA2,11.682259073315478,15,455
+locked,history,M3,5,17,ECA2-MAP,11.510081837053098,15,455
+locked,history,M3,5,17,ECA2-affine,12.433221633184585,15,455
+locked,history,M3,5,17,ECA2-isotropic,11.72445977096899,15,455
+locked,history,M3,5,17,ECA2-no-meta,12.387979110132513,15,455
+locked,history,M3,5,17,ECA2-unbounded,12.10561685161656,15,455
+locked,history,M3,5,18,Direct,14.006337827808212,15,455
+locked,history,M3,5,18,Source-affine,12.459111552839449,15,455
+locked,history,M3,5,18,Source-residual,13.102708017240154,15,455
+locked,history,M3,5,18,Local mean,16.72614985579008,15,455
+locked,history,M3,5,18,Local ridge,31.405500798081825,15,455
+locked,history,M3,5,18,Local RBF,16.26773162075247,15,455
+locked,history,M3,5,18,Local RF,16.434726256503676,15,455
+locked,history,M3,5,18,Local Extra Trees,14.992298975137333,15,455
+locked,history,M3,5,18,Local LightGBM,15.273224613314301,15,455
+locked,history,M3,5,18,ECA,12.40969943261079,15,455
+locked,history,M3,5,18,ECA-fixed,11.95714943890949,15,455
+locked,history,M3,5,18,ECA-no-meta,12.355206040589897,15,455
+locked,history,M3,5,18,ECA-unbounded,43.79534245977598,15,455
+locked,history,M3,5,18,ECA-isotropic,12.430416658419714,15,455
+locked,history,M3,5,18,ECA2,12.519958031057362,15,455
+locked,history,M3,5,18,ECA2-MAP,12.253660979940813,15,455
+locked,history,M3,5,18,ECA2-affine,13.226612191122348,15,455
+locked,history,M3,5,18,ECA2-isotropic,12.632611127148794,15,455
+locked,history,M3,5,18,ECA2-no-meta,12.963218774508201,15,455
+locked,history,M3,5,18,ECA2-unbounded,12.770993967848309,15,455
+locked,history,M3,5,19,Direct,13.023190582381517,15,456
+locked,history,M3,5,19,Source-affine,12.858517574651891,15,456
+locked,history,M3,5,19,Source-residual,12.702551234285309,15,456
+locked,history,M3,5,19,Local mean,16.150499527588032,15,456
+locked,history,M3,5,19,Local ridge,26.712850877188007,15,456
+locked,history,M3,5,19,Local RBF,15.97019449190963,15,456
+locked,history,M3,5,19,Local RF,14.188364330146685,15,456
+locked,history,M3,5,19,Local Extra Trees,14.279729142439006,15,456
+locked,history,M3,5,19,Local LightGBM,17.434220792932837,15,456
+locked,history,M3,5,19,ECA,12.74742309867023,15,456
+locked,history,M3,5,19,ECA-fixed,12.067240558609303,15,456
+locked,history,M3,5,19,ECA-no-meta,12.840006459530782,15,456
+locked,history,M3,5,19,ECA-unbounded,28.963481118611504,15,456
+locked,history,M3,5,19,ECA-isotropic,12.788592647818215,15,456
+locked,history,M3,5,19,ECA2,11.569043274733467,15,456
+locked,history,M3,5,19,ECA2-MAP,11.481594969572077,15,456
+locked,history,M3,5,19,ECA2-affine,12.263599288482139,15,456
+locked,history,M3,5,19,ECA2-isotropic,11.61428256678801,15,456
+locked,history,M3,5,19,ECA2-no-meta,14.376094771634078,15,456
+locked,history,M3,5,19,ECA2-unbounded,11.954603144128027,15,456
+locked,history,M3,11,0,Direct,13.928683300076463,33,312
+locked,history,M3,11,0,Source-affine,12.124588151582303,33,312
+locked,history,M3,11,0,Source-residual,14.157879759868132,33,312
+locked,history,M3,11,0,Local mean,17.5610395629147,33,312
+locked,history,M3,11,0,Local ridge,42.73219033177202,33,312
+locked,history,M3,11,0,Local RBF,15.614853354018505,33,312
+locked,history,M3,11,0,Local RF,15.553851164617162,33,312
+locked,history,M3,11,0,Local Extra Trees,15.108965636034254,33,312
+locked,history,M3,11,0,Local LightGBM,16.906205792496475,33,312
+locked,history,M3,11,0,ECA,12.106418696991156,33,312
+locked,history,M3,11,0,ECA-fixed,11.98629394757576,33,312
+locked,history,M3,11,0,ECA-no-meta,12.278630992858881,33,312
+locked,history,M3,11,0,ECA-unbounded,30.08074840029389,33,312
+locked,history,M3,11,0,ECA-isotropic,12.13322991466384,33,312
+locked,history,M3,11,0,ECA2,12.301408100104409,33,312
+locked,history,M3,11,0,ECA2-MAP,12.15197373983378,33,312
+locked,history,M3,11,0,ECA2-affine,12.97627775712201,33,312
+locked,history,M3,11,0,ECA2-isotropic,12.42734425945907,33,312
+locked,history,M3,11,0,ECA2-no-meta,13.82400242649737,33,312
+locked,history,M3,11,0,ECA2-unbounded,13.188645269663303,33,312
+locked,history,M3,11,1,Direct,13.564805669440066,33,312
+locked,history,M3,11,1,Source-affine,12.79737416884841,33,312
+locked,history,M3,11,1,Source-residual,13.899064932419096,33,312
+locked,history,M3,11,1,Local mean,16.616364696101027,33,312
+locked,history,M3,11,1,Local ridge,39.42494361427697,33,312
+locked,history,M3,11,1,Local RBF,16.228707774509306,33,312
+locked,history,M3,11,1,Local RF,14.612584319854998,33,312
+locked,history,M3,11,1,Local Extra Trees,15.419019272172505,33,312
+locked,history,M3,11,1,Local LightGBM,17.13048890559624,33,312
+locked,history,M3,11,1,ECA,12.761227358000477,33,312
+locked,history,M3,11,1,ECA-fixed,12.499485612051938,33,312
+locked,history,M3,11,1,ECA-no-meta,13.004257828564041,33,312
+locked,history,M3,11,1,ECA-unbounded,21.018956792037095,33,312
+locked,history,M3,11,1,ECA-isotropic,12.879741191870254,33,312
+locked,history,M3,11,1,ECA2,12.097912598063136,33,312
+locked,history,M3,11,1,ECA2-MAP,12.102698361563801,33,312
+locked,history,M3,11,1,ECA2-affine,13.050978465130063,33,312
+locked,history,M3,11,1,ECA2-isotropic,12.234989530492722,33,312
+locked,history,M3,11,1,ECA2-no-meta,15.248413642344195,33,312
+locked,history,M3,11,1,ECA2-unbounded,14.609267588645613,33,312
+locked,history,M3,11,2,Direct,12.388385666454845,33,311
+locked,history,M3,11,2,Source-affine,12.365873196128216,33,311
+locked,history,M3,11,2,Source-residual,12.109258272199765,33,311
+locked,history,M3,11,2,Local mean,16.687588021456772,33,311
+locked,history,M3,11,2,Local ridge,30.10660053358533,33,311
+locked,history,M3,11,2,Local RBF,16.44093142194761,33,311
+locked,history,M3,11,2,Local RF,13.776461400404445,33,311
+locked,history,M3,11,2,Local Extra Trees,15.107123068168935,33,311
+locked,history,M3,11,2,Local LightGBM,17.695537214948278,33,311
+locked,history,M3,11,2,ECA,12.254962610672287,33,311
+locked,history,M3,11,2,ECA-fixed,11.47898946795891,33,311
+locked,history,M3,11,2,ECA-no-meta,12.2568287589562,33,311
+locked,history,M3,11,2,ECA-unbounded,19.8969583410778,33,311
+locked,history,M3,11,2,ECA-isotropic,12.310783918146738,33,311
+locked,history,M3,11,2,ECA2,10.900058139721237,33,311
+locked,history,M3,11,2,ECA2-MAP,10.959390075167168,33,311
+locked,history,M3,11,2,ECA2-affine,11.56221417843285,33,311
+locked,history,M3,11,2,ECA2-isotropic,10.976766188127801,33,311
+locked,history,M3,11,2,ECA2-no-meta,11.733751371804987,33,311
+locked,history,M3,11,2,ECA2-unbounded,12.439097843881907,33,311
+locked,history,M3,11,3,Direct,13.798217448893858,33,312
+locked,history,M3,11,3,Source-affine,11.850512573138568,33,312
+locked,history,M3,11,3,Source-residual,12.57159534814822,33,312
+locked,history,M3,11,3,Local mean,17.113326137834388,33,312
+locked,history,M3,11,3,Local ridge,40.36687913273866,33,312
+locked,history,M3,11,3,Local RBF,16.13483813491586,33,312
+locked,history,M3,11,3,Local RF,15.176520955609215,33,312
+locked,history,M3,11,3,Local Extra Trees,16.08387056559249,33,312
+locked,history,M3,11,3,Local LightGBM,19.079177307259755,33,312
+locked,history,M3,11,3,ECA,11.787212306038649,33,312
+locked,history,M3,11,3,ECA-fixed,11.93911457217119,33,312
+locked,history,M3,11,3,ECA-no-meta,11.810063896983467,33,312
+locked,history,M3,11,3,ECA-unbounded,21.849361740325648,33,312
+locked,history,M3,11,3,ECA-isotropic,11.82180372406894,33,312
+locked,history,M3,11,3,ECA2,12.2651084045115,33,312
+locked,history,M3,11,3,ECA2-MAP,12.282911734240962,33,312
+locked,history,M3,11,3,ECA2-affine,12.870663739653908,33,312
+locked,history,M3,11,3,ECA2-isotropic,12.573524470887378,33,312
+locked,history,M3,11,3,ECA2-no-meta,12.929714331868851,33,312
+locked,history,M3,11,3,ECA2-unbounded,14.00124787371332,33,312
+locked,history,M3,11,4,Direct,14.575791932868958,33,311
+locked,history,M3,11,4,Source-affine,12.627308536603051,33,311
+locked,history,M3,11,4,Source-residual,12.836941109971175,33,311
+locked,history,M3,11,4,Local mean,17.01910662851404,33,311
+locked,history,M3,11,4,Local ridge,43.98505293934591,33,311
+locked,history,M3,11,4,Local RBF,15.449374008558136,33,311
+locked,history,M3,11,4,Local RF,14.488428488501572,33,311
+locked,history,M3,11,4,Local Extra Trees,14.929115785984932,33,311
+locked,history,M3,11,4,Local LightGBM,18.239820196583835,33,311
+locked,history,M3,11,4,ECA,12.590934803833886,33,311
+locked,history,M3,11,4,ECA-fixed,12.615592521591623,33,311
+locked,history,M3,11,4,ECA-no-meta,12.672537560352001,33,311
+locked,history,M3,11,4,ECA-unbounded,26.18460716082319,33,311
+locked,history,M3,11,4,ECA-isotropic,12.630271136664376,33,311
+locked,history,M3,11,4,ECA2,13.010374892746302,33,311
+locked,history,M3,11,4,ECA2-MAP,12.947333527988121,33,311
+locked,history,M3,11,4,ECA2-affine,13.758317109872394,33,311
+locked,history,M3,11,4,ECA2-isotropic,13.18658905736358,33,311
+locked,history,M3,11,4,ECA2-no-meta,14.227388491372402,33,311
+locked,history,M3,11,4,ECA2-unbounded,14.024738228563633,33,311
+locked,history,M3,11,5,Direct,13.410398955662556,33,312
+locked,history,M3,11,5,Source-affine,13.520740014016454,33,312
+locked,history,M3,11,5,Source-residual,15.751968372423942,33,312
+locked,history,M3,11,5,Local mean,16.35888151319544,33,312
+locked,history,M3,11,5,Local ridge,42.966764171770286,33,312
+locked,history,M3,11,5,Local RBF,16.366811735498995,33,312
+locked,history,M3,11,5,Local RF,15.277383410070664,33,312
+locked,history,M3,11,5,Local Extra Trees,15.378603252495544,33,312
+locked,history,M3,11,5,Local LightGBM,16.188421704199666,33,312
+locked,history,M3,11,5,ECA,13.506122785028827,33,312
+locked,history,M3,11,5,ECA-fixed,13.347952532855976,33,312
+locked,history,M3,11,5,ECA-no-meta,13.81956265788392,33,312
+locked,history,M3,11,5,ECA-unbounded,26.355954796213904,33,312
+locked,history,M3,11,5,ECA-isotropic,13.568045259569747,33,312
+locked,history,M3,11,5,ECA2,12.39017873932492,33,312
+locked,history,M3,11,5,ECA2-MAP,12.444413337722624,33,312
+locked,history,M3,11,5,ECA2-affine,13.327369083062743,33,312
+locked,history,M3,11,5,ECA2-isotropic,12.432047844990816,33,312
+locked,history,M3,11,5,ECA2-no-meta,15.229611000052733,33,312
+locked,history,M3,11,5,ECA2-unbounded,13.711099035425685,33,312
+locked,history,M3,11,6,Direct,14.824116817518547,33,311
+locked,history,M3,11,6,Source-affine,13.306646393346602,33,311
+locked,history,M3,11,6,Source-residual,14.603851159280604,33,311
+locked,history,M3,11,6,Local mean,17.568228271767826,33,311
+locked,history,M3,11,6,Local ridge,40.092570289619324,33,311
+locked,history,M3,11,6,Local RBF,17.07995340601257,33,311
+locked,history,M3,11,6,Local RF,15.691840386945021,33,311
+locked,history,M3,11,6,Local Extra Trees,16.2956984831606,33,311
+locked,history,M3,11,6,Local LightGBM,17.619337558469386,33,311
+locked,history,M3,11,6,ECA,12.974471135956888,33,311
+locked,history,M3,11,6,ECA-fixed,12.984857886851941,33,311
+locked,history,M3,11,6,ECA-no-meta,13.25052017492793,33,311
+locked,history,M3,11,6,ECA-unbounded,35.20250901684199,33,311
+locked,history,M3,11,6,ECA-isotropic,13.257257402780356,33,311
+locked,history,M3,11,6,ECA2,13.28675434071962,33,311
+locked,history,M3,11,6,ECA2-MAP,13.1693197078099,33,311
+locked,history,M3,11,6,ECA2-affine,13.938289032441842,33,311
+locked,history,M3,11,6,ECA2-isotropic,13.418798069594956,33,311
+locked,history,M3,11,6,ECA2-no-meta,13.904699251338215,33,311
+locked,history,M3,11,6,ECA2-unbounded,13.984544798106551,33,311
+locked,history,M3,11,7,Direct,13.495627419346974,33,312
+locked,history,M3,11,7,Source-affine,11.746366213363125,33,312
+locked,history,M3,11,7,Source-residual,13.016100710183068,33,312
+locked,history,M3,11,7,Local mean,17.55397406148839,33,312
+locked,history,M3,11,7,Local ridge,39.94211274854789,33,312
+locked,history,M3,11,7,Local RBF,17.362578439635993,33,312
+locked,history,M3,11,7,Local RF,15.804974883970836,33,312
+locked,history,M3,11,7,Local Extra Trees,15.144809389465822,33,312
+locked,history,M3,11,7,Local LightGBM,20.676224677877173,33,312
+locked,history,M3,11,7,ECA,11.725050032949586,33,312
+locked,history,M3,11,7,ECA-fixed,11.654611579568206,33,312
+locked,history,M3,11,7,ECA-no-meta,11.7405146134704,33,312
+locked,history,M3,11,7,ECA-unbounded,24.398637523168674,33,312
+locked,history,M3,11,7,ECA-isotropic,11.754440879116578,33,312
+locked,history,M3,11,7,ECA2,11.874658090047227,33,312
+locked,history,M3,11,7,ECA2-MAP,11.82022945711217,33,312
+locked,history,M3,11,7,ECA2-affine,12.490842015069186,33,312
+locked,history,M3,11,7,ECA2-isotropic,11.977455410058191,33,312
+locked,history,M3,11,7,ECA2-no-meta,12.558701457464492,33,312
+locked,history,M3,11,7,ECA2-unbounded,13.732781121999224,33,312
+locked,history,M3,11,8,Direct,12.68632647321199,33,312
+locked,history,M3,11,8,Source-affine,11.618442582906349,33,312
+locked,history,M3,11,8,Source-residual,11.34844972963349,33,312
+locked,history,M3,11,8,Local mean,17.35999251133211,33,312
+locked,history,M3,11,8,Local ridge,33.38434413359742,33,312
+locked,history,M3,11,8,Local RBF,16.86448149974866,33,312
+locked,history,M3,11,8,Local RF,14.25143940847416,33,312
+locked,history,M3,11,8,Local Extra Trees,15.687853402767637,33,312
+locked,history,M3,11,8,Local LightGBM,14.863641351106008,33,312
+locked,history,M3,11,8,ECA,11.511763334165787,33,312
+locked,history,M3,11,8,ECA-fixed,11.137498822865092,33,312
+locked,history,M3,11,8,ECA-no-meta,11.920856867147242,33,312
+locked,history,M3,11,8,ECA-unbounded,29.46576055675632,33,312
+locked,history,M3,11,8,ECA-isotropic,11.551185871165323,33,312
+locked,history,M3,11,8,ECA2,11.145736821707583,33,312
+locked,history,M3,11,8,ECA2-MAP,11.118417205576597,33,312
+locked,history,M3,11,8,ECA2-affine,11.844156461532119,33,312
+locked,history,M3,11,8,ECA2-isotropic,11.272074315865186,33,312
+locked,history,M3,11,8,ECA2-no-meta,12.533956515054548,33,312
+locked,history,M3,11,8,ECA2-unbounded,12.346894976449365,33,312
+locked,history,M3,11,9,Direct,13.757621675286797,33,311
+locked,history,M3,11,9,Source-affine,12.11062902746421,33,311
+locked,history,M3,11,9,Source-residual,12.096094545112091,33,311
+locked,history,M3,11,9,Local mean,16.539470830604593,33,311
+locked,history,M3,11,9,Local ridge,47.96358949818241,33,311
+locked,history,M3,11,9,Local RBF,16.161939523524794,33,311
+locked,history,M3,11,9,Local RF,15.047279222331856,33,311
+locked,history,M3,11,9,Local Extra Trees,15.39977016712893,33,311
+locked,history,M3,11,9,Local LightGBM,17.058300531540404,33,311
+locked,history,M3,11,9,ECA,12.079317775302226,33,311
+locked,history,M3,11,9,ECA-fixed,11.741883025897733,33,311
+locked,history,M3,11,9,ECA-no-meta,12.102961576424873,33,311
+locked,history,M3,11,9,ECA-unbounded,35.464205732795776,33,311
+locked,history,M3,11,9,ECA-isotropic,12.098060263863093,33,311
+locked,history,M3,11,9,ECA2,11.935840169598801,33,311
+locked,history,M3,11,9,ECA2-MAP,11.898061673585447,33,311
+locked,history,M3,11,9,ECA2-affine,12.501748735473463,33,311
+locked,history,M3,11,9,ECA2-isotropic,12.000768807028901,33,311
+locked,history,M3,11,9,ECA2-no-meta,12.281339987588192,33,311
+locked,history,M3,11,9,ECA2-unbounded,12.658293660789205,33,311
+locked,history,M3,11,10,Direct,12.795757482570664,33,312
+locked,history,M3,11,10,Source-affine,11.29826207543535,33,312
+locked,history,M3,11,10,Source-residual,14.328446840807525,33,312
+locked,history,M3,11,10,Local mean,16.11966949069594,33,312
+locked,history,M3,11,10,Local ridge,36.27100451398186,33,312
+locked,history,M3,11,10,Local RBF,15.474105954925811,33,312
+locked,history,M3,11,10,Local RF,14.815503787467803,33,312
+locked,history,M3,11,10,Local Extra Trees,15.7396339919729,33,312
+locked,history,M3,11,10,Local LightGBM,22.5340603641621,33,312
+locked,history,M3,11,10,ECA,11.245247163739988,33,312
+locked,history,M3,11,10,ECA-fixed,11.2172656883324,33,312
+locked,history,M3,11,10,ECA-no-meta,11.631603882844999,33,312
+locked,history,M3,11,10,ECA-unbounded,20.504713464842403,33,312
+locked,history,M3,11,10,ECA-isotropic,11.255112783319841,33,312
+locked,history,M3,11,10,ECA2,11.293052761847175,33,312
+locked,history,M3,11,10,ECA2-MAP,11.382139982242295,33,312
+locked,history,M3,11,10,ECA2-affine,12.099902217125662,33,312
+locked,history,M3,11,10,ECA2-isotropic,11.322358930416849,33,312
+locked,history,M3,11,10,ECA2-no-meta,12.92775390272895,33,312
+locked,history,M3,11,10,ECA2-unbounded,15.172434968739196,33,312
+locked,history,M3,11,11,Direct,14.134747550458192,33,312
+locked,history,M3,11,11,Source-affine,12.25647481976958,33,312
+locked,history,M3,11,11,Source-residual,12.193119485927582,33,312
+locked,history,M3,11,11,Local mean,16.969533222858114,33,312
+locked,history,M3,11,11,Local ridge,43.933983132760815,33,312
+locked,history,M3,11,11,Local RBF,16.56538245433401,33,312
+locked,history,M3,11,11,Local RF,15.246274454506196,33,312
+locked,history,M3,11,11,Local Extra Trees,15.545699047441683,33,312
+locked,history,M3,11,11,Local LightGBM,17.54383899879806,33,312
+locked,history,M3,11,11,ECA,12.226574805200295,33,312
+locked,history,M3,11,11,ECA-fixed,11.961692652927168,33,312
+locked,history,M3,11,11,ECA-no-meta,12.40911482936552,33,312
+locked,history,M3,11,11,ECA-unbounded,23.971915045065774,33,312
+locked,history,M3,11,11,ECA-isotropic,12.261224297153655,33,312
+locked,history,M3,11,11,ECA2,12.383508000982163,33,312
+locked,history,M3,11,11,ECA2-MAP,12.236922570596809,33,312
+locked,history,M3,11,11,ECA2-affine,12.93453977690519,33,312
+locked,history,M3,11,11,ECA2-isotropic,12.403059331825734,33,312
+locked,history,M3,11,11,ECA2-no-meta,13.310118098254716,33,312
+locked,history,M3,11,11,ECA2-unbounded,12.89389790393142,33,312
+locked,history,M3,11,12,Direct,12.461927103164575,33,312
+locked,history,M3,11,12,Source-affine,12.40765435431676,33,312
+locked,history,M3,11,12,Source-residual,13.689285140926637,33,312
+locked,history,M3,11,12,Local mean,16.022550601064133,33,312
+locked,history,M3,11,12,Local ridge,44.117525708625394,33,312
+locked,history,M3,11,12,Local RBF,15.631179977421603,33,312
+locked,history,M3,11,12,Local RF,13.848185519539657,33,312
+locked,history,M3,11,12,Local Extra Trees,14.212713947889057,33,312
+locked,history,M3,11,12,Local LightGBM,15.307301368553903,33,312
+locked,history,M3,11,12,ECA,12.363944057511592,33,312
+locked,history,M3,11,12,ECA-fixed,12.096790952463351,33,312
+locked,history,M3,11,12,ECA-no-meta,12.597497686775961,33,312
+locked,history,M3,11,12,ECA-unbounded,27.685208185767642,33,312
+locked,history,M3,11,12,ECA-isotropic,12.453626882870186,33,312
+locked,history,M3,11,12,ECA2,11.323010653741868,33,312
+locked,history,M3,11,12,ECA2-MAP,11.617292279815565,33,312
+locked,history,M3,11,12,ECA2-affine,12.282290317846977,33,312
+locked,history,M3,11,12,ECA2-isotropic,11.404818574450744,33,312
+locked,history,M3,11,12,ECA2-no-meta,13.907470075656411,33,312
+locked,history,M3,11,12,ECA2-unbounded,13.482962919138654,33,312
+locked,history,M3,11,13,Direct,12.884631694512356,33,311
+locked,history,M3,11,13,Source-affine,12.53858672555014,33,311
+locked,history,M3,11,13,Source-residual,13.50756559416627,33,311
+locked,history,M3,11,13,Local mean,16.921496760711523,33,311
+locked,history,M3,11,13,Local ridge,35.919744232436216,33,311
+locked,history,M3,11,13,Local RBF,16.46800357322285,33,311
+locked,history,M3,11,13,Local RF,14.79825402971327,33,311
+locked,history,M3,11,13,Local Extra Trees,14.949102125693784,33,311
+locked,history,M3,11,13,Local LightGBM,15.477632685779994,33,311
+locked,history,M3,11,13,ECA,12.398977374264625,33,311
+locked,history,M3,11,13,ECA-fixed,11.64582864079938,33,311
+locked,history,M3,11,13,ECA-no-meta,12.395981108778512,33,311
+locked,history,M3,11,13,ECA-unbounded,29.166842236610066,33,311
+locked,history,M3,11,13,ECA-isotropic,12.441623477253898,33,311
+locked,history,M3,11,13,ECA2,11.453942459775133,33,311
+locked,history,M3,11,13,ECA2-MAP,11.321281127317896,33,311
+locked,history,M3,11,13,ECA2-affine,12.390425154186563,33,311
+locked,history,M3,11,13,ECA2-isotropic,11.591997572795782,33,311
+locked,history,M3,11,13,ECA2-no-meta,12.43012264175511,33,311
+locked,history,M3,11,13,ECA2-unbounded,12.358464607988815,33,311
+locked,history,M3,11,14,Direct,13.409021189096771,33,311
+locked,history,M3,11,14,Source-affine,11.840807164311329,33,311
+locked,history,M3,11,14,Source-residual,11.510877885295445,33,311
+locked,history,M3,11,14,Local mean,17.587095771057662,33,311
+locked,history,M3,11,14,Local ridge,33.539395716689874,33,311
+locked,history,M3,11,14,Local RBF,16.493575360266618,33,311
+locked,history,M3,11,14,Local RF,15.073689711652495,33,311
+locked,history,M3,11,14,Local Extra Trees,16.57890499565841,33,311
+locked,history,M3,11,14,Local LightGBM,17.365373424724424,33,311
+locked,history,M3,11,14,ECA,11.865072333822678,33,311
+locked,history,M3,11,14,ECA-fixed,11.53844014938977,33,311
+locked,history,M3,11,14,ECA-no-meta,11.775902112313018,33,311
+locked,history,M3,11,14,ECA-unbounded,22.259734710936232,33,311
+locked,history,M3,11,14,ECA-isotropic,11.58124097905618,33,311
+locked,history,M3,11,14,ECA2,11.722162575095057,33,311
+locked,history,M3,11,14,ECA2-MAP,11.737592617385003,33,311
+locked,history,M3,11,14,ECA2-affine,12.239030664493916,33,311
+locked,history,M3,11,14,ECA2-isotropic,11.831703729999996,33,311
+locked,history,M3,11,14,ECA2-no-meta,12.670809297982672,33,311
+locked,history,M3,11,14,ECA2-unbounded,12.234138549703141,33,311
+locked,history,M3,11,15,Direct,13.501417021462197,33,311
+locked,history,M3,11,15,Source-affine,11.49205601250947,33,311
+locked,history,M3,11,15,Source-residual,11.812142637933713,33,311
+locked,history,M3,11,15,Local mean,16.9336254613519,33,311
+locked,history,M3,11,15,Local ridge,45.36790469129465,33,311
+locked,history,M3,11,15,Local RBF,15.978294205514661,33,311
+locked,history,M3,11,15,Local RF,15.582989186704834,33,311
+locked,history,M3,11,15,Local Extra Trees,16.0373627321675,33,311
+locked,history,M3,11,15,Local LightGBM,18.516549501532506,33,311
+locked,history,M3,11,15,ECA,11.458928235276048,33,311
+locked,history,M3,11,15,ECA-fixed,11.351953366016922,33,311
+locked,history,M3,11,15,ECA-no-meta,11.517965674983735,33,311
+locked,history,M3,11,15,ECA-unbounded,20.986409166387222,33,311
+locked,history,M3,11,15,ECA-isotropic,11.483925763326086,33,311
+locked,history,M3,11,15,ECA2,11.781730563075929,33,311
+locked,history,M3,11,15,ECA2-MAP,11.742964655299042,33,311
+locked,history,M3,11,15,ECA2-affine,12.313656563139322,33,311
+locked,history,M3,11,15,ECA2-isotropic,11.900528126992407,33,311
+locked,history,M3,11,15,ECA2-no-meta,12.597764827619406,33,311
+locked,history,M3,11,15,ECA2-unbounded,13.22415567354207,33,311
+locked,history,M3,11,16,Direct,13.881477875132083,33,311
+locked,history,M3,11,16,Source-affine,14.142967906281017,33,311
+locked,history,M3,11,16,Source-residual,14.967376799579528,33,311
+locked,history,M3,11,16,Local mean,17.316879750609523,33,311
+locked,history,M3,11,16,Local ridge,35.30492752164473,33,311
+locked,history,M3,11,16,Local RBF,17.354659789995328,33,311
+locked,history,M3,11,16,Local RF,16.07686998423837,33,311
+locked,history,M3,11,16,Local Extra Trees,15.990099235911142,33,311
+locked,history,M3,11,16,Local LightGBM,16.110671838307365,33,311
+locked,history,M3,11,16,ECA,14.07830068918627,33,311
+locked,history,M3,11,16,ECA-fixed,13.499297263555194,33,311
+locked,history,M3,11,16,ECA-no-meta,14.019258308470588,33,311
+locked,history,M3,11,16,ECA-unbounded,47.01458082145911,33,311
+locked,history,M3,11,16,ECA-isotropic,14.117902874550085,33,311
+locked,history,M3,11,16,ECA2,12.66452882568271,33,311
+locked,history,M3,11,16,ECA2-MAP,12.64135796860945,33,311
+locked,history,M3,11,16,ECA2-affine,13.47365880620348,33,311
+locked,history,M3,11,16,ECA2-isotropic,12.66704126058596,33,311
+locked,history,M3,11,16,ECA2-no-meta,13.828175064983862,33,311
+locked,history,M3,11,16,ECA2-unbounded,12.940649856131344,33,311
+locked,history,M3,11,17,Direct,13.228481237450207,33,311
+locked,history,M3,11,17,Source-affine,11.74570678134579,33,311
+locked,history,M3,11,17,Source-residual,12.491667680912665,33,311
+locked,history,M3,11,17,Local mean,16.491988183591033,33,311
+locked,history,M3,11,17,Local ridge,42.1714644982187,33,311
+locked,history,M3,11,17,Local RBF,15.542837556363454,33,311
+locked,history,M3,11,17,Local RF,13.338882210156067,33,311
+locked,history,M3,11,17,Local Extra Trees,14.193604430170131,33,311
+locked,history,M3,11,17,Local LightGBM,14.206758511396265,33,311
+locked,history,M3,11,17,ECA,11.705972851169028,33,311
+locked,history,M3,11,17,ECA-fixed,11.495748647110178,33,311
+locked,history,M3,11,17,ECA-no-meta,11.78021069386288,33,311
+locked,history,M3,11,17,ECA-unbounded,18.562271210537254,33,311
+locked,history,M3,11,17,ECA-isotropic,11.773075248566187,33,311
+locked,history,M3,11,17,ECA2,11.495700791855405,33,311
+locked,history,M3,11,17,ECA2-MAP,11.465897139687728,33,311
+locked,history,M3,11,17,ECA2-affine,12.301057107063402,33,311
+locked,history,M3,11,17,ECA2-isotropic,11.583871259369262,33,311
+locked,history,M3,11,17,ECA2-no-meta,13.346755941441025,33,311
+locked,history,M3,11,17,ECA2-unbounded,14.621036590347686,33,311
+locked,history,M3,11,18,Direct,14.3355916848297,33,311
+locked,history,M3,11,18,Source-affine,12.310608661480963,33,311
+locked,history,M3,11,18,Source-residual,14.013762104083115,33,311
+locked,history,M3,11,18,Local mean,16.539122723668722,33,311
+locked,history,M3,11,18,Local ridge,51.608324206413286,33,311
+locked,history,M3,11,18,Local RBF,15.600481171192678,33,311
+locked,history,M3,11,18,Local RF,15.62526370671451,33,311
+locked,history,M3,11,18,Local Extra Trees,16.115361309937057,33,311
+locked,history,M3,11,18,Local LightGBM,21.07554648583834,33,311
+locked,history,M3,11,18,ECA,12.262908846359657,33,311
+locked,history,M3,11,18,ECA-fixed,12.332828241791223,33,311
+locked,history,M3,11,18,ECA-no-meta,12.524995501512278,33,311
+locked,history,M3,11,18,ECA-unbounded,22.14310891101206,33,311
+locked,history,M3,11,18,ECA-isotropic,12.295390118550602,33,311
+locked,history,M3,11,18,ECA2,12.775618814579946,33,311
+locked,history,M3,11,18,ECA2-MAP,12.859555625238677,33,311
+locked,history,M3,11,18,ECA2-affine,13.385499120473433,33,311
+locked,history,M3,11,18,ECA2-isotropic,12.807691442336429,33,311
+locked,history,M3,11,18,ECA2-no-meta,13.376036024022536,33,311
+locked,history,M3,11,18,ECA2-unbounded,14.780262626912384,33,311
+locked,history,M3,11,19,Direct,12.542733156377047,33,312
+locked,history,M3,11,19,Source-affine,12.337969429531862,33,312
+locked,history,M3,11,19,Source-residual,12.607645556276257,33,312
+locked,history,M3,11,19,Local mean,16.30692580986475,33,312
+locked,history,M3,11,19,Local ridge,25.17620534763427,33,312
+locked,history,M3,11,19,Local RBF,16.110263431614822,33,312
+locked,history,M3,11,19,Local RF,15.137588731657278,33,312
+locked,history,M3,11,19,Local Extra Trees,15.386371407668152,33,312
+locked,history,M3,11,19,Local LightGBM,19.756993780281135,33,312
+locked,history,M3,11,19,ECA,12.243870913821414,33,312
+locked,history,M3,11,19,ECA-fixed,12.234104488954726,33,312
+locked,history,M3,11,19,ECA-no-meta,12.521087330924825,33,312
+locked,history,M3,11,19,ECA-unbounded,28.549082018765056,33,312
+locked,history,M3,11,19,ECA-isotropic,12.214997486321833,33,312
+locked,history,M3,11,19,ECA2,11.435596124936483,33,312
+locked,history,M3,11,19,ECA2-MAP,11.92008489601323,33,312
+locked,history,M3,11,19,ECA2-affine,12.36414560621366,33,312
+locked,history,M3,11,19,ECA2-isotropic,11.559021908910964,33,312
+locked,history,M3,11,19,ECA2-no-meta,14.399398237981742,33,312
+locked,history,M3,11,19,ECA2-unbounded,13.44020960174414,33,312
+locked,history,M6,5,0,Direct,13.712809636537974,30,456
+locked,history,M6,5,0,Source-affine,12.082655390090581,30,456
+locked,history,M6,5,0,Source-residual,12.948129393791595,30,456
+locked,history,M6,5,0,Local mean,15.491609348212364,30,456
+locked,history,M6,5,0,Local ridge,24.462461754515868,30,456
+locked,history,M6,5,0,Local RBF,15.60303007277431,30,456
+locked,history,M6,5,0,Local RF,14.3161153894482,30,456
+locked,history,M6,5,0,Local Extra Trees,13.421480703700409,30,456
+locked,history,M6,5,0,Local LightGBM,12.942342282147582,30,456
+locked,history,M6,5,0,ECA,12.071150045247759,30,456
+locked,history,M6,5,0,ECA-fixed,12.279767149147855,30,456
+locked,history,M6,5,0,ECA-no-meta,12.175715751868335,30,456
+locked,history,M6,5,0,ECA-unbounded,19.385283728504216,30,456
+locked,history,M6,5,0,ECA-isotropic,12.42270745063775,30,456
+locked,history,M6,5,0,ECA2,12.49056909478946,30,456
+locked,history,M6,5,0,ECA2-MAP,12.442793491774768,30,456
+locked,history,M6,5,0,ECA2-affine,12.761261865106379,30,456
+locked,history,M6,5,0,ECA2-isotropic,12.455932035662656,30,456
+locked,history,M6,5,0,ECA2-no-meta,12.690352337950507,30,456
+locked,history,M6,5,0,ECA2-unbounded,12.545990850950734,30,456
+locked,history,M6,5,1,Direct,13.534164952385709,30,455
+locked,history,M6,5,1,Source-affine,12.158487236465914,30,455
+locked,history,M6,5,1,Source-residual,12.196086111820824,30,455
+locked,history,M6,5,1,Local mean,15.605481312200423,30,455
+locked,history,M6,5,1,Local ridge,22.182644046613074,30,455
+locked,history,M6,5,1,Local RBF,15.475922503507523,30,455
+locked,history,M6,5,1,Local RF,13.129217939390886,30,455
+locked,history,M6,5,1,Local Extra Trees,13.654396030613627,30,455
+locked,history,M6,5,1,Local LightGBM,13.057326846815217,30,455
+locked,history,M6,5,1,ECA,12.132658166986136,30,455
+locked,history,M6,5,1,ECA-fixed,12.365805023733593,30,455
+locked,history,M6,5,1,ECA-no-meta,12.689515057465691,30,455
+locked,history,M6,5,1,ECA-unbounded,14.580622362744695,30,455
+locked,history,M6,5,1,ECA-isotropic,12.327950318292023,30,455
+locked,history,M6,5,1,ECA2,12.090891037286006,30,455
+locked,history,M6,5,1,ECA2-MAP,12.270765658869692,30,455
+locked,history,M6,5,1,ECA2-affine,12.434048223108682,30,455
+locked,history,M6,5,1,ECA2-isotropic,11.989236861308537,30,455
+locked,history,M6,5,1,ECA2-no-meta,14.010860504582928,30,455
+locked,history,M6,5,1,ECA2-unbounded,12.600446205004289,30,455
+locked,history,M6,5,2,Direct,12.766570620075223,30,455
+locked,history,M6,5,2,Source-affine,12.601897295934645,30,455
+locked,history,M6,5,2,Source-residual,12.913510486951944,30,455
+locked,history,M6,5,2,Local mean,16.551252887941743,30,455
+locked,history,M6,5,2,Local ridge,16.765011280253162,30,455
+locked,history,M6,5,2,Local RBF,16.5428152054657,30,455
+locked,history,M6,5,2,Local RF,13.92105079006703,30,455
+locked,history,M6,5,2,Local Extra Trees,13.588164631784505,30,455
+locked,history,M6,5,2,Local LightGBM,14.865611805445416,30,455
+locked,history,M6,5,2,ECA,12.467926995000735,30,455
+locked,history,M6,5,2,ECA-fixed,11.649781266144846,30,455
+locked,history,M6,5,2,ECA-no-meta,12.379858580382377,30,455
+locked,history,M6,5,2,ECA-unbounded,23.68868374074329,30,455
+locked,history,M6,5,2,ECA-isotropic,12.48539329655563,30,455
+locked,history,M6,5,2,ECA2,11.146068619620067,30,455
+locked,history,M6,5,2,ECA2-MAP,11.10035621955042,30,455
+locked,history,M6,5,2,ECA2-affine,11.611828257145008,30,455
+locked,history,M6,5,2,ECA2-isotropic,11.089565256151621,30,455
+locked,history,M6,5,2,ECA2-no-meta,11.84834187977271,30,455
+locked,history,M6,5,2,ECA2-unbounded,11.649213839618463,30,455
+locked,history,M6,5,3,Direct,13.453399431962094,30,455
+locked,history,M6,5,3,Source-affine,11.477686806466796,30,455
+locked,history,M6,5,3,Source-residual,11.297232465900343,30,455
+locked,history,M6,5,3,Local mean,14.83771085502275,30,455
+locked,history,M6,5,3,Local ridge,27.236106664114406,30,455
+locked,history,M6,5,3,Local RBF,14.836237829579192,30,455
+locked,history,M6,5,3,Local RF,12.751221430649881,30,455
+locked,history,M6,5,3,Local Extra Trees,12.80693142524104,30,455
+locked,history,M6,5,3,Local LightGBM,12.236965433119908,30,455
+locked,history,M6,5,3,ECA,11.444195157514905,30,455
+locked,history,M6,5,3,ECA-fixed,11.369328664944035,30,455
+locked,history,M6,5,3,ECA-no-meta,11.454600306373672,30,455
+locked,history,M6,5,3,ECA-unbounded,25.081102971801894,30,455
+locked,history,M6,5,3,ECA-isotropic,11.474860066072997,30,455
+locked,history,M6,5,3,ECA2,11.87774885166859,30,455
+locked,history,M6,5,3,ECA2-MAP,11.548988763090696,30,455
+locked,history,M6,5,3,ECA2-affine,12.37664158986749,30,455
+locked,history,M6,5,3,ECA2-isotropic,11.944999272111028,30,455
+locked,history,M6,5,3,ECA2-no-meta,11.820753388346793,30,455
+locked,history,M6,5,3,ECA2-unbounded,12.644925653451015,30,455
+locked,history,M6,5,4,Direct,13.786613922725664,30,455
+locked,history,M6,5,4,Source-affine,13.069269398142934,30,455
+locked,history,M6,5,4,Source-residual,13.053708510624652,30,455
+locked,history,M6,5,4,Local mean,17.077958030438392,30,455
+locked,history,M6,5,4,Local ridge,21.38970764162174,30,455
+locked,history,M6,5,4,Local RBF,17.59491080296547,30,455
+locked,history,M6,5,4,Local RF,13.888934488770984,30,455
+locked,history,M6,5,4,Local Extra Trees,13.996280039756977,30,455
+locked,history,M6,5,4,Local LightGBM,13.202003424075393,30,455
+locked,history,M6,5,4,ECA,12.924160592240202,30,455
+locked,history,M6,5,4,ECA-fixed,12.672716278087933,30,455
+locked,history,M6,5,4,ECA-no-meta,13.256392417664046,30,455
+locked,history,M6,5,4,ECA-unbounded,24.348719783361936,30,455
+locked,history,M6,5,4,ECA-isotropic,12.51372159306167,30,455
+locked,history,M6,5,4,ECA2,12.716565280517814,30,455
+locked,history,M6,5,4,ECA2-MAP,12.59381855799856,30,455
+locked,history,M6,5,4,ECA2-affine,13.037126907971945,30,455
+locked,history,M6,5,4,ECA2-isotropic,12.721417988958398,30,455
+locked,history,M6,5,4,ECA2-no-meta,13.748953085069997,30,455
+locked,history,M6,5,4,ECA2-unbounded,13.039224173810192,30,455
+locked,history,M6,5,5,Direct,13.277483544293917,30,455
+locked,history,M6,5,5,Source-affine,13.880363199664982,30,455
+locked,history,M6,5,5,Source-residual,13.43251393269368,30,455
+locked,history,M6,5,5,Local mean,17.933278883719918,30,455
+locked,history,M6,5,5,Local ridge,20.323481007310217,30,455
+locked,history,M6,5,5,Local RBF,17.266231174007935,30,455
+locked,history,M6,5,5,Local RF,15.456077116875898,30,455
+locked,history,M6,5,5,Local Extra Trees,13.83419249081045,30,455
+locked,history,M6,5,5,Local LightGBM,15.435089426109903,30,455
+locked,history,M6,5,5,ECA,13.632789534462795,30,455
+locked,history,M6,5,5,ECA-fixed,12.726189057296795,30,455
+locked,history,M6,5,5,ECA-no-meta,13.50361072691852,30,455
+locked,history,M6,5,5,ECA-unbounded,18.50861590389021,30,455
+locked,history,M6,5,5,ECA-isotropic,12.811002522131492,30,455
+locked,history,M6,5,5,ECA2,11.93296875006197,30,455
+locked,history,M6,5,5,ECA2-MAP,11.94716024374942,30,455
+locked,history,M6,5,5,ECA2-affine,12.454969155014748,30,455
+locked,history,M6,5,5,ECA2-isotropic,11.907252775352097,30,455
+locked,history,M6,5,5,ECA2-no-meta,12.816899308441307,30,455
+locked,history,M6,5,5,ECA2-unbounded,12.596178861437666,30,455
+locked,history,M6,5,6,Direct,13.754904850437287,30,455
+locked,history,M6,5,6,Source-affine,12.595889423371057,30,455
+locked,history,M6,5,6,Source-residual,12.612360119658112,30,455
+locked,history,M6,5,6,Local mean,16.594169265946302,30,455
+locked,history,M6,5,6,Local ridge,23.805156938397168,30,455
+locked,history,M6,5,6,Local RBF,16.62206382029555,30,455
+locked,history,M6,5,6,Local RF,14.041637216352267,30,455
+locked,history,M6,5,6,Local Extra Trees,13.402893172384442,30,455
+locked,history,M6,5,6,Local LightGBM,12.781014258244312,30,455
+locked,history,M6,5,6,ECA,11.885961946518826,30,455
+locked,history,M6,5,6,ECA-fixed,11.95910634619325,30,455
+locked,history,M6,5,6,ECA-no-meta,11.984609646299353,30,455
+locked,history,M6,5,6,ECA-unbounded,27.272319339943145,30,455
+locked,history,M6,5,6,ECA-isotropic,12.094289869187307,30,455
+locked,history,M6,5,6,ECA2,12.290460381329043,30,455
+locked,history,M6,5,6,ECA2-MAP,11.918560045646947,30,455
+locked,history,M6,5,6,ECA2-affine,12.760914465338553,30,455
+locked,history,M6,5,6,ECA2-isotropic,12.507764153763121,30,455
+locked,history,M6,5,6,ECA2-no-meta,12.345825055959844,30,455
+locked,history,M6,5,6,ECA2-unbounded,11.637346570637119,30,455
+locked,history,M6,5,7,Direct,13.918908998896887,30,456
+locked,history,M6,5,7,Source-affine,12.027675519285047,30,456
+locked,history,M6,5,7,Source-residual,13.221519598864285,30,456
+locked,history,M6,5,7,Local mean,15.413466486357501,30,456
+locked,history,M6,5,7,Local ridge,26.55349324900469,30,456
+locked,history,M6,5,7,Local RBF,15.399083659748888,30,456
+locked,history,M6,5,7,Local RF,14.90806702696808,30,456
+locked,history,M6,5,7,Local Extra Trees,13.484921165573777,30,456
+locked,history,M6,5,7,Local LightGBM,14.986496189596036,30,456
+locked,history,M6,5,7,ECA,12.024812705880052,30,456
+locked,history,M6,5,7,ECA-fixed,12.055511969112064,30,456
+locked,history,M6,5,7,ECA-no-meta,12.037146330681358,30,456
+locked,history,M6,5,7,ECA-unbounded,23.84279414367331,30,456
+locked,history,M6,5,7,ECA-isotropic,12.01301177076404,30,456
+locked,history,M6,5,7,ECA2,12.546270605081613,30,456
+locked,history,M6,5,7,ECA2-MAP,12.455291588168631,30,456
+locked,history,M6,5,7,ECA2-affine,12.930541869725616,30,456
+locked,history,M6,5,7,ECA2-isotropic,12.607258571875345,30,456
+locked,history,M6,5,7,ECA2-no-meta,12.820448936694033,30,456
+locked,history,M6,5,7,ECA2-unbounded,13.818340823717453,30,456
+locked,history,M6,5,8,Direct,12.680750091169326,30,455
+locked,history,M6,5,8,Source-affine,13.272171459650378,30,455
+locked,history,M6,5,8,Source-residual,13.919120428460236,30,455
+locked,history,M6,5,8,Local mean,16.63353300186369,30,455
+locked,history,M6,5,8,Local ridge,16.595380588072338,30,455
+locked,history,M6,5,8,Local RBF,16.39505071120245,30,455
+locked,history,M6,5,8,Local RF,13.442159940854204,30,455
+locked,history,M6,5,8,Local Extra Trees,13.1271614699102,30,455
+locked,history,M6,5,8,Local LightGBM,13.814963572451518,30,455
+locked,history,M6,5,8,ECA,13.086129421323417,30,455
+locked,history,M6,5,8,ECA-fixed,12.292336016874433,30,455
+locked,history,M6,5,8,ECA-no-meta,13.411494035440718,30,455
+locked,history,M6,5,8,ECA-unbounded,25.74176690071763,30,455
+locked,history,M6,5,8,ECA-isotropic,13.12772865807461,30,455
+locked,history,M6,5,8,ECA2,11.249147563427934,30,455
+locked,history,M6,5,8,ECA2-MAP,11.475674404603437,30,455
+locked,history,M6,5,8,ECA2-affine,11.667637844176955,30,455
+locked,history,M6,5,8,ECA2-isotropic,11.17436143945757,30,455
+locked,history,M6,5,8,ECA2-no-meta,12.827584595068242,30,455
+locked,history,M6,5,8,ECA2-unbounded,13.420509992097852,30,455
+locked,history,M6,5,9,Direct,14.113543024732557,30,455
+locked,history,M6,5,9,Source-affine,12.538164191130235,30,455
+locked,history,M6,5,9,Source-residual,13.568439913928028,30,455
+locked,history,M6,5,9,Local mean,16.210251861409386,30,455
+locked,history,M6,5,9,Local ridge,24.285634769424806,30,455
+locked,history,M6,5,9,Local RBF,16.322702392108862,30,455
+locked,history,M6,5,9,Local RF,13.842624673470349,30,455
+locked,history,M6,5,9,Local Extra Trees,14.075718571329945,30,455
+locked,history,M6,5,9,Local LightGBM,13.274107563359596,30,455
+locked,history,M6,5,9,ECA,12.498600062550167,30,455
+locked,history,M6,5,9,ECA-fixed,12.134755040017069,30,455
+locked,history,M6,5,9,ECA-no-meta,12.655221071219328,30,455
+locked,history,M6,5,9,ECA-unbounded,21.361735469633512,30,455
+locked,history,M6,5,9,ECA-isotropic,12.498682660765155,30,455
+locked,history,M6,5,9,ECA2,12.483064279614014,30,455
+locked,history,M6,5,9,ECA2-MAP,12.310584364721443,30,455
+locked,history,M6,5,9,ECA2-affine,12.972664963974431,30,455
+locked,history,M6,5,9,ECA2-isotropic,12.589321788533733,30,455
+locked,history,M6,5,9,ECA2-no-meta,12.671428155164659,30,455
+locked,history,M6,5,9,ECA2-unbounded,13.438398622794528,30,455
+locked,history,M6,5,10,Direct,13.652190301561768,30,456
+locked,history,M6,5,10,Source-affine,11.826234747114203,30,456
+locked,history,M6,5,10,Source-residual,13.828319681097808,30,456
+locked,history,M6,5,10,Local mean,14.683400002387414,30,456
+locked,history,M6,5,10,Local ridge,25.12728248525493,30,456
+locked,history,M6,5,10,Local RBF,14.597178177755179,30,456
+locked,history,M6,5,10,Local RF,14.740782310717131,30,456
+locked,history,M6,5,10,Local Extra Trees,14.602980142517605,30,456
+locked,history,M6,5,10,Local LightGBM,14.781807753722537,30,456
+locked,history,M6,5,10,ECA,12.380421741586074,30,456
+locked,history,M6,5,10,ECA-fixed,12.973540879034262,30,456
+locked,history,M6,5,10,ECA-no-meta,12.514370332152087,30,456
+locked,history,M6,5,10,ECA-unbounded,32.464529980259705,30,456
+locked,history,M6,5,10,ECA-isotropic,12.08097598675525,30,456
+locked,history,M6,5,10,ECA2,13.220497575538747,30,456
+locked,history,M6,5,10,ECA2-MAP,13.244130990895286,30,456
+locked,history,M6,5,10,ECA2-affine,13.271470168696572,30,456
+locked,history,M6,5,10,ECA2-isotropic,13.29801462722646,30,456
+locked,history,M6,5,10,ECA2-no-meta,14.663290829155873,30,456
+locked,history,M6,5,10,ECA2-unbounded,15.139014543223228,30,456
+locked,history,M6,5,11,Direct,14.138267004384637,30,455
+locked,history,M6,5,11,Source-affine,12.334335793998354,30,455
+locked,history,M6,5,11,Source-residual,12.296717873939984,30,455
+locked,history,M6,5,11,Local mean,15.804910705081198,30,455
+locked,history,M6,5,11,Local ridge,25.553781414482657,30,455
+locked,history,M6,5,11,Local RBF,15.694472308738975,30,455
+locked,history,M6,5,11,Local RF,13.707246410124291,30,455
+locked,history,M6,5,11,Local Extra Trees,13.275556929182754,30,455
+locked,history,M6,5,11,Local LightGBM,12.37865127315713,30,455
+locked,history,M6,5,11,ECA,12.311579023543915,30,455
+locked,history,M6,5,11,ECA-fixed,12.186826994704214,30,455
+locked,history,M6,5,11,ECA-no-meta,12.311721261973346,30,455
+locked,history,M6,5,11,ECA-unbounded,16.737006604964286,30,455
+locked,history,M6,5,11,ECA-isotropic,12.345169141839143,30,455
+locked,history,M6,5,11,ECA2,12.814515762569222,30,455
+locked,history,M6,5,11,ECA2-MAP,12.723606804451261,30,455
+locked,history,M6,5,11,ECA2-affine,13.214629483236315,30,455
+locked,history,M6,5,11,ECA2-isotropic,12.889452096351967,30,455
+locked,history,M6,5,11,ECA2-no-meta,12.578789302288259,30,455
+locked,history,M6,5,11,ECA2-unbounded,13.258412829890482,30,455
+locked,history,M6,5,12,Direct,13.518847957065827,30,455
+locked,history,M6,5,12,Source-affine,12.276255673306254,30,455
+locked,history,M6,5,12,Source-residual,11.36604966165989,30,455
+locked,history,M6,5,12,Local mean,16.075413959824424,30,455
+locked,history,M6,5,12,Local ridge,30.48695102019683,30,455
+locked,history,M6,5,12,Local RBF,15.78927751464277,30,455
+locked,history,M6,5,12,Local RF,14.018837867029026,30,455
+locked,history,M6,5,12,Local Extra Trees,13.465623010369505,30,455
+locked,history,M6,5,12,Local LightGBM,12.750655513936785,30,455
+locked,history,M6,5,12,ECA,12.278483651768129,30,455
+locked,history,M6,5,12,ECA-fixed,12.419104042258912,30,455
+locked,history,M6,5,12,ECA-no-meta,12.88511326970797,30,455
+locked,history,M6,5,12,ECA-unbounded,25.306049456216428,30,455
+locked,history,M6,5,12,ECA-isotropic,12.273880801306419,30,455
+locked,history,M6,5,12,ECA2,11.833977449990956,30,455
+locked,history,M6,5,12,ECA2-MAP,11.806417289047037,30,455
+locked,history,M6,5,12,ECA2-affine,12.287717257110799,30,455
+locked,history,M6,5,12,ECA2-isotropic,11.72393406837756,30,455
+locked,history,M6,5,12,ECA2-no-meta,14.635851520426009,30,455
+locked,history,M6,5,12,ECA2-unbounded,12.832984582113943,30,455
+locked,history,M6,5,13,Direct,13.322039041592003,30,455
+locked,history,M6,5,13,Source-affine,12.271379585887454,30,455
+locked,history,M6,5,13,Source-residual,12.091255210920119,30,455
+locked,history,M6,5,13,Local mean,16.51386798428349,30,455
+locked,history,M6,5,13,Local ridge,24.04037318813276,30,455
+locked,history,M6,5,13,Local RBF,16.23010767543166,30,455
+locked,history,M6,5,13,Local RF,14.138597516691455,30,455
+locked,history,M6,5,13,Local Extra Trees,13.362234988380088,30,455
+locked,history,M6,5,13,Local LightGBM,13.403399666359148,30,455
+locked,history,M6,5,13,ECA,12.125520331899901,30,455
+locked,history,M6,5,13,ECA-fixed,11.941214161140167,30,455
+locked,history,M6,5,13,ECA-no-meta,11.799412497441537,30,455
+locked,history,M6,5,13,ECA-unbounded,16.166974624954545,30,455
+locked,history,M6,5,13,ECA-isotropic,11.716968673492614,30,455
+locked,history,M6,5,13,ECA2,12.130941274273757,30,455
+locked,history,M6,5,13,ECA2-MAP,11.738985899712576,30,455
+locked,history,M6,5,13,ECA2-affine,12.492722093325092,30,455
+locked,history,M6,5,13,ECA2-isotropic,12.17032693368367,30,455
+locked,history,M6,5,13,ECA2-no-meta,12.02097445179218,30,455
+locked,history,M6,5,13,ECA2-unbounded,11.422377975936158,30,455
+locked,history,M6,5,14,Direct,13.601236916400289,30,455
+locked,history,M6,5,14,Source-affine,13.14498457894457,30,455
+locked,history,M6,5,14,Source-residual,12.545315753217476,30,455
+locked,history,M6,5,14,Local mean,17.265836916716935,30,455
+locked,history,M6,5,14,Local ridge,18.425501852646637,30,455
+locked,history,M6,5,14,Local RBF,16.938794844161357,30,455
+locked,history,M6,5,14,Local RF,14.083132474596187,30,455
+locked,history,M6,5,14,Local Extra Trees,13.944749705967794,30,455
+locked,history,M6,5,14,Local LightGBM,15.020455336034079,30,455
+locked,history,M6,5,14,ECA,13.03858579586077,30,455
+locked,history,M6,5,14,ECA-fixed,12.26275845175475,30,455
+locked,history,M6,5,14,ECA-no-meta,13.108946933093192,30,455
+locked,history,M6,5,14,ECA-unbounded,18.55581074065669,30,455
+locked,history,M6,5,14,ECA-isotropic,12.355095528831669,30,455
+locked,history,M6,5,14,ECA2,12.095703223609105,30,455
+locked,history,M6,5,14,ECA2-MAP,12.17179407788354,30,455
+locked,history,M6,5,14,ECA2-affine,12.517151584182637,30,455
+locked,history,M6,5,14,ECA2-isotropic,12.042494479971408,30,455
+locked,history,M6,5,14,ECA2-no-meta,12.624765426645835,30,455
+locked,history,M6,5,14,ECA2-unbounded,13.030088554617532,30,455
+locked,history,M6,5,15,Direct,13.89070196567971,30,455
+locked,history,M6,5,15,Source-affine,11.851436384001527,30,455
+locked,history,M6,5,15,Source-residual,12.074580630175486,30,455
+locked,history,M6,5,15,Local mean,15.625896017501509,30,455
+locked,history,M6,5,15,Local ridge,26.985734782937577,30,455
+locked,history,M6,5,15,Local RBF,15.494169191362193,30,455
+locked,history,M6,5,15,Local RF,13.643022959236584,30,455
+locked,history,M6,5,15,Local Extra Trees,13.547909689652016,30,455
+locked,history,M6,5,15,Local LightGBM,12.779863411907893,30,455
+locked,history,M6,5,15,ECA,11.834412642104,30,455
+locked,history,M6,5,15,ECA-fixed,11.635220887431315,30,455
+locked,history,M6,5,15,ECA-no-meta,11.848332032127523,30,455
+locked,history,M6,5,15,ECA-unbounded,24.246328679961938,30,455
+locked,history,M6,5,15,ECA-isotropic,11.839809788661508,30,455
+locked,history,M6,5,15,ECA2,12.346004272493342,30,455
+locked,history,M6,5,15,ECA2-MAP,12.16645090863802,30,455
+locked,history,M6,5,15,ECA2-affine,12.777640320301495,30,455
+locked,history,M6,5,15,ECA2-isotropic,12.369922998596993,30,455
+locked,history,M6,5,15,ECA2-no-meta,12.557432757805469,30,455
+locked,history,M6,5,15,ECA2-unbounded,13.167752875539028,30,455
+locked,history,M6,5,16,Direct,13.478085866329934,30,455
+locked,history,M6,5,16,Source-affine,13.686650724642165,30,455
+locked,history,M6,5,16,Source-residual,13.01669187140498,30,455
+locked,history,M6,5,16,Local mean,17.32977688655346,30,455
+locked,history,M6,5,16,Local ridge,27.280659353601486,30,455
+locked,history,M6,5,16,Local RBF,16.499207600433316,30,455
+locked,history,M6,5,16,Local RF,15.007387521809871,30,455
+locked,history,M6,5,16,Local Extra Trees,14.089458928906007,30,455
+locked,history,M6,5,16,Local LightGBM,15.195444146785379,30,455
+locked,history,M6,5,16,ECA,13.568139387287626,30,455
+locked,history,M6,5,16,ECA-fixed,13.423708136877318,30,455
+locked,history,M6,5,16,ECA-no-meta,13.602046015680646,30,455
+locked,history,M6,5,16,ECA-unbounded,37.541526922021504,30,455
+locked,history,M6,5,16,ECA-isotropic,13.197275747276784,30,455
+locked,history,M6,5,16,ECA2,12.166082293338274,30,455
+locked,history,M6,5,16,ECA2-MAP,12.17334694370012,30,455
+locked,history,M6,5,16,ECA2-affine,12.633824103074886,30,455
+locked,history,M6,5,16,ECA2-isotropic,11.982636245465876,30,455
+locked,history,M6,5,16,ECA2-no-meta,13.769575604216822,30,455
+locked,history,M6,5,16,ECA2-unbounded,13.444476922679065,30,455
+locked,history,M6,5,17,Direct,13.313899518481215,30,455
+locked,history,M6,5,17,Source-affine,13.41477320600071,30,455
+locked,history,M6,5,17,Source-residual,12.51396177544721,30,455
+locked,history,M6,5,17,Local mean,17.339758579744164,30,455
+locked,history,M6,5,17,Local ridge,19.367973089288107,30,455
+locked,history,M6,5,17,Local RBF,16.929261994229876,30,455
+locked,history,M6,5,17,Local RF,13.611936190413815,30,455
+locked,history,M6,5,17,Local Extra Trees,13.826162677384486,30,455
+locked,history,M6,5,17,Local LightGBM,14.420233689015458,30,455
+locked,history,M6,5,17,ECA,12.984823036232012,30,455
+locked,history,M6,5,17,ECA-fixed,12.389508110583057,30,455
+locked,history,M6,5,17,ECA-no-meta,13.491165058089862,30,455
+locked,history,M6,5,17,ECA-unbounded,29.241064475827994,30,455
+locked,history,M6,5,17,ECA-isotropic,12.802013541575628,30,455
+locked,history,M6,5,17,ECA2,11.808458911914853,30,455
+locked,history,M6,5,17,ECA2-MAP,11.616246036156546,30,455
+locked,history,M6,5,17,ECA2-affine,12.30678372125356,30,455
+locked,history,M6,5,17,ECA2-isotropic,11.699073612298713,30,455
+locked,history,M6,5,17,ECA2-no-meta,12.976019597563013,30,455
+locked,history,M6,5,17,ECA2-unbounded,11.767387178836255,30,455
+locked,history,M6,5,18,Direct,14.006337827808212,30,455
+locked,history,M6,5,18,Source-affine,12.649529384965426,30,455
+locked,history,M6,5,18,Source-residual,12.592455860571908,30,455
+locked,history,M6,5,18,Local mean,16.697497590672242,30,455
+locked,history,M6,5,18,Local ridge,23.48985843299109,30,455
+locked,history,M6,5,18,Local RBF,16.713748739527045,30,455
+locked,history,M6,5,18,Local RF,14.070694805365594,30,455
+locked,history,M6,5,18,Local Extra Trees,13.278085220470029,30,455
+locked,history,M6,5,18,Local LightGBM,14.152672388208535,30,455
+locked,history,M6,5,18,ECA,12.478188089060508,30,455
+locked,history,M6,5,18,ECA-fixed,12.279662572932597,30,455
+locked,history,M6,5,18,ECA-no-meta,12.505412864450463,30,455
+locked,history,M6,5,18,ECA-unbounded,34.61957403810681,30,455
+locked,history,M6,5,18,ECA-isotropic,12.60621712724766,30,455
+locked,history,M6,5,18,ECA2,12.590363504978638,30,455
+locked,history,M6,5,18,ECA2-MAP,12.564753578621927,30,455
+locked,history,M6,5,18,ECA2-affine,12.965690343203047,30,455
+locked,history,M6,5,18,ECA2-isotropic,12.618678268032848,30,455
+locked,history,M6,5,18,ECA2-no-meta,12.424842886167793,30,455
+locked,history,M6,5,18,ECA2-unbounded,13.064155901529446,30,455
+locked,history,M6,5,19,Direct,13.023190582381517,30,456
+locked,history,M6,5,19,Source-affine,13.354251840402293,30,456
+locked,history,M6,5,19,Source-residual,13.123809927235923,30,456
+locked,history,M6,5,19,Local mean,17.443367240091327,30,456
+locked,history,M6,5,19,Local ridge,19.522046785304763,30,456
+locked,history,M6,5,19,Local RBF,17.29595001663124,30,456
+locked,history,M6,5,19,Local RF,13.744346376658514,30,456
+locked,history,M6,5,19,Local Extra Trees,13.425291368979117,30,456
+locked,history,M6,5,19,Local LightGBM,13.06780053135133,30,456
+locked,history,M6,5,19,ECA,12.887429810253353,30,456
+locked,history,M6,5,19,ECA-fixed,12.562574642532216,30,456
+locked,history,M6,5,19,ECA-no-meta,13.49775470920193,30,456
+locked,history,M6,5,19,ECA-unbounded,24.32281962830314,30,456
+locked,history,M6,5,19,ECA-isotropic,12.76741500584176,30,456
+locked,history,M6,5,19,ECA2,11.965942614256962,30,456
+locked,history,M6,5,19,ECA2-MAP,11.85039875042921,30,456
+locked,history,M6,5,19,ECA2-affine,12.27795762621121,30,456
+locked,history,M6,5,19,ECA2-isotropic,11.841929195308765,30,456
+locked,history,M6,5,19,ECA2-no-meta,13.908678276232319,30,456
+locked,history,M6,5,19,ECA2-unbounded,11.920504218817218,30,456
+locked,history,M6,11,0,Direct,13.928683300076463,66,312
+locked,history,M6,11,0,Source-affine,12.364857093766842,66,312
+locked,history,M6,11,0,Source-residual,13.13259031576116,66,312
+locked,history,M6,11,0,Local mean,14.90544053014556,66,312
+locked,history,M6,11,0,Local ridge,27.221764583841388,66,312
+locked,history,M6,11,0,Local RBF,15.066850096420005,66,312
+locked,history,M6,11,0,Local RF,12.831912823381955,66,312
+locked,history,M6,11,0,Local Extra Trees,13.003169772101256,66,312
+locked,history,M6,11,0,Local LightGBM,12.139720557748591,66,312
+locked,history,M6,11,0,ECA,12.43688942194497,66,312
+locked,history,M6,11,0,ECA-fixed,12.398398501139837,66,312
+locked,history,M6,11,0,ECA-no-meta,12.561068766089367,66,312
+locked,history,M6,11,0,ECA-unbounded,22.98760638788016,66,312
+locked,history,M6,11,0,ECA-isotropic,12.46214696370758,66,312
+locked,history,M6,11,0,ECA2,12.598949596980113,66,312
+locked,history,M6,11,0,ECA2-MAP,12.541767925941683,66,312
+locked,history,M6,11,0,ECA2-affine,12.911191505538273,66,312
+locked,history,M6,11,0,ECA2-isotropic,12.521515268609674,66,312
+locked,history,M6,11,0,ECA2-no-meta,13.039167049407896,66,312
+locked,history,M6,11,0,ECA2-unbounded,12.913422402724105,66,312
+locked,history,M6,11,1,Direct,13.564805669440066,66,312
+locked,history,M6,11,1,Source-affine,13.441104312399956,66,312
+locked,history,M6,11,1,Source-residual,13.025278246717622,66,312
+locked,history,M6,11,1,Local mean,17.08340588413732,66,312
+locked,history,M6,11,1,Local ridge,27.65860184137143,66,312
+locked,history,M6,11,1,Local RBF,16.636069874785463,66,312
+locked,history,M6,11,1,Local RF,13.63541493026963,66,312
+locked,history,M6,11,1,Local Extra Trees,14.071365707004055,66,312
+locked,history,M6,11,1,Local LightGBM,13.045389592182744,66,312
+locked,history,M6,11,1,ECA,13.382527174773534,66,312
+locked,history,M6,11,1,ECA-fixed,12.921645066505377,66,312
+locked,history,M6,11,1,ECA-no-meta,13.77293397471515,66,312
+locked,history,M6,11,1,ECA-unbounded,24.40773002890859,66,312
+locked,history,M6,11,1,ECA-isotropic,13.45121255842829,66,312
+locked,history,M6,11,1,ECA2,12.460954212639118,66,312
+locked,history,M6,11,1,ECA2-MAP,12.440502099376928,66,312
+locked,history,M6,11,1,ECA2-affine,13.034737174607919,66,312
+locked,history,M6,11,1,ECA2-isotropic,12.330560523041088,66,312
+locked,history,M6,11,1,ECA2-no-meta,14.345513285020695,66,312
+locked,history,M6,11,1,ECA2-unbounded,11.66761536741919,66,312
+locked,history,M6,11,2,Direct,12.388385666454845,66,311
+locked,history,M6,11,2,Source-affine,12.516063974461135,66,311
+locked,history,M6,11,2,Source-residual,11.013312116793667,66,311
+locked,history,M6,11,2,Local mean,17.24978641182035,66,311
+locked,history,M6,11,2,Local ridge,22.94094986759478,66,311
+locked,history,M6,11,2,Local RBF,16.873819201436433,66,311
+locked,history,M6,11,2,Local RF,13.115031102580328,66,311
+locked,history,M6,11,2,Local Extra Trees,13.282538623485557,66,311
+locked,history,M6,11,2,Local LightGBM,12.542258785272654,66,311
+locked,history,M6,11,2,ECA,12.360554263149448,66,311
+locked,history,M6,11,2,ECA-fixed,11.392317160727332,66,311
+locked,history,M6,11,2,ECA-no-meta,12.498647078437683,66,311
+locked,history,M6,11,2,ECA-unbounded,14.803425992204104,66,311
+locked,history,M6,11,2,ECA-isotropic,12.14244210924479,66,311
+locked,history,M6,11,2,ECA2,10.9587265396026,66,311
+locked,history,M6,11,2,ECA2-MAP,10.91299679154822,66,311
+locked,history,M6,11,2,ECA2-affine,11.522746752782659,66,311
+locked,history,M6,11,2,ECA2-isotropic,10.884312330440354,66,311
+locked,history,M6,11,2,ECA2-no-meta,12.04009758316123,66,311
+locked,history,M6,11,2,ECA2-unbounded,10.919826574508797,66,311
+locked,history,M6,11,3,Direct,13.798217448893858,66,312
+locked,history,M6,11,3,Source-affine,12.086397627865818,66,312
+locked,history,M6,11,3,Source-residual,12.21457771383993,66,312
+locked,history,M6,11,3,Local mean,15.090557990076059,66,312
+locked,history,M6,11,3,Local ridge,28.22229338473544,66,312
+locked,history,M6,11,3,Local RBF,15.018019401808472,66,312
+locked,history,M6,11,3,Local RF,12.951176461791635,66,312
+locked,history,M6,11,3,Local Extra Trees,12.84337040404902,66,312
+locked,history,M6,11,3,Local LightGBM,13.25504604414434,66,312
+locked,history,M6,11,3,ECA,12.083883973670845,66,312
+locked,history,M6,11,3,ECA-fixed,12.136469772118499,66,312
+locked,history,M6,11,3,ECA-no-meta,12.067975561941939,66,312
+locked,history,M6,11,3,ECA-unbounded,25.79429940045705,66,312
+locked,history,M6,11,3,ECA-isotropic,11.966906226052453,66,312
+locked,history,M6,11,3,ECA2,12.339541679886871,66,312
+locked,history,M6,11,3,ECA2-MAP,12.419543608215738,66,312
+locked,history,M6,11,3,ECA2-affine,12.712892494109578,66,312
+locked,history,M6,11,3,ECA2-isotropic,12.549661130868408,66,312
+locked,history,M6,11,3,ECA2-no-meta,12.69866290049094,66,312
+locked,history,M6,11,3,ECA2-unbounded,14.048560145651596,66,312
+locked,history,M6,11,4,Direct,14.575791932868958,66,311
+locked,history,M6,11,4,Source-affine,12.91428015304969,66,311
+locked,history,M6,11,4,Source-residual,12.74106200864664,66,311
+locked,history,M6,11,4,Local mean,15.575266554281958,66,311
+locked,history,M6,11,4,Local ridge,30.080124928487205,66,311
+locked,history,M6,11,4,Local RBF,15.884255486074123,66,311
+locked,history,M6,11,4,Local RF,13.451317560562874,66,311
+locked,history,M6,11,4,Local Extra Trees,13.252415158145729,66,311
+locked,history,M6,11,4,Local LightGBM,12.613449897602143,66,311
+locked,history,M6,11,4,ECA,12.926768160664317,66,311
+locked,history,M6,11,4,ECA-fixed,12.834009459039574,66,311
+locked,history,M6,11,4,ECA-no-meta,13.101616443582992,66,311
+locked,history,M6,11,4,ECA-unbounded,18.77485627026826,66,311
+locked,history,M6,11,4,ECA-isotropic,12.90391881156079,66,311
+locked,history,M6,11,4,ECA2,13.149699893380921,66,311
+locked,history,M6,11,4,ECA2-MAP,13.142269222934159,66,311
+locked,history,M6,11,4,ECA2-affine,13.53328420264232,66,311
+locked,history,M6,11,4,ECA2-isotropic,13.136404598682951,66,311
+locked,history,M6,11,4,ECA2-no-meta,13.536707283606205,66,311
+locked,history,M6,11,4,ECA2-unbounded,13.878935409929179,66,311
+locked,history,M6,11,5,Direct,13.410398955662556,66,312
+locked,history,M6,11,5,Source-affine,14.325107169945525,66,312
+locked,history,M6,11,5,Source-residual,14.041080039455046,66,312
+locked,history,M6,11,5,Local mean,18.10017712016265,66,312
+locked,history,M6,11,5,Local ridge,25.95810062792959,66,312
+locked,history,M6,11,5,Local RBF,17.97287024784931,66,312
+locked,history,M6,11,5,Local RF,14.53856167653451,66,312
+locked,history,M6,11,5,Local Extra Trees,14.974315738496827,66,312
+locked,history,M6,11,5,Local LightGBM,14.673412352494738,66,312
+locked,history,M6,11,5,ECA,14.273921960172444,66,312
+locked,history,M6,11,5,ECA-fixed,13.751309829005194,66,312
+locked,history,M6,11,5,ECA-no-meta,14.643431377962598,66,312
+locked,history,M6,11,5,ECA-unbounded,19.15766622779435,66,312
+locked,history,M6,11,5,ECA-isotropic,14.289519260975892,66,312
+locked,history,M6,11,5,ECA2,12.88654355078567,66,312
+locked,history,M6,11,5,ECA2-MAP,12.94906403510464,66,312
+locked,history,M6,11,5,ECA2-affine,13.446560236285817,66,312
+locked,history,M6,11,5,ECA2-isotropic,12.663364810357146,66,312
+locked,history,M6,11,5,ECA2-no-meta,14.561972767991021,66,312
+locked,history,M6,11,5,ECA2-unbounded,13.086917927650564,66,312
+locked,history,M6,11,6,Direct,14.824116817518547,66,311
+locked,history,M6,11,6,Source-affine,13.581630341980437,66,311
+locked,history,M6,11,6,Source-residual,13.618054593176252,66,311
+locked,history,M6,11,6,Local mean,17.885339855542757,66,311
+locked,history,M6,11,6,Local ridge,26.304648983453948,66,311
+locked,history,M6,11,6,Local RBF,18.421832224251542,66,311
+locked,history,M6,11,6,Local RF,14.663913901186907,66,311
+locked,history,M6,11,6,Local Extra Trees,14.246196262308311,66,311
+locked,history,M6,11,6,Local LightGBM,13.816176415942811,66,311
+locked,history,M6,11,6,ECA,13.118295520867227,66,311
+locked,history,M6,11,6,ECA-fixed,13.100727838585271,66,311
+locked,history,M6,11,6,ECA-no-meta,13.435256801381207,66,311
+locked,history,M6,11,6,ECA-unbounded,38.0041522475087,66,311
+locked,history,M6,11,6,ECA-isotropic,13.333292442186682,66,311
+locked,history,M6,11,6,ECA2,13.29325041169342,66,311
+locked,history,M6,11,6,ECA2-MAP,13.150153744198121,66,311
+locked,history,M6,11,6,ECA2-affine,13.75725564962613,66,311
+locked,history,M6,11,6,ECA2-isotropic,13.349385325275115,66,311
+locked,history,M6,11,6,ECA2-no-meta,13.588258900029889,66,311
+locked,history,M6,11,6,ECA2-unbounded,13.552006467841057,66,311
+locked,history,M6,11,7,Direct,13.495627419346974,66,312
+locked,history,M6,11,7,Source-affine,11.867624748664166,66,312
+locked,history,M6,11,7,Source-residual,12.900303778903478,66,312
+locked,history,M6,11,7,Local mean,15.2874339421614,66,312
+locked,history,M6,11,7,Local ridge,31.13636893790039,66,312
+locked,history,M6,11,7,Local RBF,15.188604826937976,66,312
+locked,history,M6,11,7,Local RF,13.254482779586544,66,312
+locked,history,M6,11,7,Local Extra Trees,12.69399479074368,66,312
+locked,history,M6,11,7,Local LightGBM,12.639216972563071,66,312
+locked,history,M6,11,7,ECA,11.843366015520152,66,312
+locked,history,M6,11,7,ECA-fixed,11.780335300547762,66,312
+locked,history,M6,11,7,ECA-no-meta,11.864930922531624,66,312
+locked,history,M6,11,7,ECA-unbounded,16.779528131588933,66,312
+locked,history,M6,11,7,ECA-isotropic,11.892961571768742,66,312
+locked,history,M6,11,7,ECA2,11.898329344045072,66,312
+locked,history,M6,11,7,ECA2-MAP,11.88537403803011,66,312
+locked,history,M6,11,7,ECA2-affine,12.252388988249374,66,312
+locked,history,M6,11,7,ECA2-isotropic,11.928369761141873,66,312
+locked,history,M6,11,7,ECA2-no-meta,12.156155418578669,66,312
+locked,history,M6,11,7,ECA2-unbounded,12.694487076592075,66,312
+locked,history,M6,11,8,Direct,12.68632647321199,66,312
+locked,history,M6,11,8,Source-affine,11.653154839104271,66,312
+locked,history,M6,11,8,Source-residual,11.257777067307115,66,312
+locked,history,M6,11,8,Local mean,15.574032904588117,66,312
+locked,history,M6,11,8,Local ridge,23.772496696749613,66,312
+locked,history,M6,11,8,Local RBF,15.410514961208875,66,312
+locked,history,M6,11,8,Local RF,12.589544556165144,66,312
+locked,history,M6,11,8,Local Extra Trees,12.545491620547544,66,312
+locked,history,M6,11,8,Local LightGBM,12.739280330040364,66,312
+locked,history,M6,11,8,ECA,11.442043913573363,66,312
+locked,history,M6,11,8,ECA-fixed,11.169964727252763,66,312
+locked,history,M6,11,8,ECA-no-meta,11.468804853995751,66,312
+locked,history,M6,11,8,ECA-unbounded,22.363193939981997,66,312
+locked,history,M6,11,8,ECA-isotropic,11.466038337828381,66,312
+locked,history,M6,11,8,ECA2,11.186027684426286,66,312
+locked,history,M6,11,8,ECA2-MAP,10.985641229900054,66,312
+locked,history,M6,11,8,ECA2-affine,11.703478884115613,66,312
+locked,history,M6,11,8,ECA2-isotropic,11.235121980500676,66,312
+locked,history,M6,11,8,ECA2-no-meta,11.597960143830871,66,312
+locked,history,M6,11,8,ECA2-unbounded,11.870376992608833,66,312
+locked,history,M6,11,9,Direct,13.757621675286797,66,311
+locked,history,M6,11,9,Source-affine,12.297813046472363,66,311
+locked,history,M6,11,9,Source-residual,11.79802751269659,66,311
+locked,history,M6,11,9,Local mean,16.539140479449202,66,311
+locked,history,M6,11,9,Local ridge,29.586966744874655,66,311
+locked,history,M6,11,9,Local RBF,16.288862801853156,66,311
+locked,history,M6,11,9,Local RF,12.99357920971374,66,311
+locked,history,M6,11,9,Local Extra Trees,13.659670326111835,66,311
+locked,history,M6,11,9,Local LightGBM,12.357694716169782,66,311
+locked,history,M6,11,9,ECA,12.21043456206355,66,311
+locked,history,M6,11,9,ECA-fixed,11.739119918261279,66,311
+locked,history,M6,11,9,ECA-no-meta,12.161875549234416,66,311
+locked,history,M6,11,9,ECA-unbounded,23.873420056284658,66,311
+locked,history,M6,11,9,ECA-isotropic,12.18108093894096,66,311
+locked,history,M6,11,9,ECA2,11.861336678124713,66,311
+locked,history,M6,11,9,ECA2-MAP,11.771744198694893,66,311
+locked,history,M6,11,9,ECA2-affine,12.290031761143492,66,311
+locked,history,M6,11,9,ECA2-isotropic,11.848584638231511,66,311
+locked,history,M6,11,9,ECA2-no-meta,12.158954056567346,66,311
+locked,history,M6,11,9,ECA2-unbounded,12.447685163684312,66,311
+locked,history,M6,11,10,Direct,12.795757482570664,66,312
+locked,history,M6,11,10,Source-affine,11.77602074999714,66,312
+locked,history,M6,11,10,Source-residual,13.94016879187939,66,312
+locked,history,M6,11,10,Local mean,15.167005930097675,66,312
+locked,history,M6,11,10,Local ridge,21.37425497077837,66,312
+locked,history,M6,11,10,Local RBF,15.04429314915731,66,312
+locked,history,M6,11,10,Local RF,12.93582661401367,66,312
+locked,history,M6,11,10,Local Extra Trees,13.336814039454273,66,312
+locked,history,M6,11,10,Local LightGBM,13.295838128779769,66,312
+locked,history,M6,11,10,ECA,11.71597703470697,66,312
+locked,history,M6,11,10,ECA-fixed,11.322750007079717,66,312
+locked,history,M6,11,10,ECA-no-meta,12.465725941776908,66,312
+locked,history,M6,11,10,ECA-unbounded,25.314658350450223,66,312
+locked,history,M6,11,10,ECA-isotropic,11.66007338399579,66,312
+locked,history,M6,11,10,ECA2,11.414583078845387,66,312
+locked,history,M6,11,10,ECA2-MAP,11.446187836643022,66,312
+locked,history,M6,11,10,ECA2-affine,11.949570903549507,66,312
+locked,history,M6,11,10,ECA2-isotropic,11.272356553230455,66,312
+locked,history,M6,11,10,ECA2-no-meta,12.754700799466322,66,312
+locked,history,M6,11,10,ECA2-unbounded,12.844089621123585,66,312
+locked,history,M6,11,11,Direct,14.134747550458192,66,312
+locked,history,M6,11,11,Source-affine,12.285010170579454,66,312
+locked,history,M6,11,11,Source-residual,12.040160797908797,66,312
+locked,history,M6,11,11,Local mean,15.963462378476184,66,312
+locked,history,M6,11,11,Local ridge,31.439702564070945,66,312
+locked,history,M6,11,11,Local RBF,15.831379198520908,66,312
+locked,history,M6,11,11,Local RF,13.693816792167693,66,312
+locked,history,M6,11,11,Local Extra Trees,13.225950525841398,66,312
+locked,history,M6,11,11,Local LightGBM,12.300887426728446,66,312
+locked,history,M6,11,11,ECA,12.030650530601417,66,312
+locked,history,M6,11,11,ECA-fixed,11.900079400503724,66,312
+locked,history,M6,11,11,ECA-no-meta,12.379139333699445,66,312
+locked,history,M6,11,11,ECA-unbounded,20.357371820674324,66,312
+locked,history,M6,11,11,ECA-isotropic,12.04825604788138,66,312
+locked,history,M6,11,11,ECA2,12.290819710125307,66,312
+locked,history,M6,11,11,ECA2-MAP,12.197491227925806,66,312
+locked,history,M6,11,11,ECA2-affine,12.680982817183802,66,312
+locked,history,M6,11,11,ECA2-isotropic,12.267305056852472,66,312
+locked,history,M6,11,11,ECA2-no-meta,13.09013009336878,66,312
+locked,history,M6,11,11,ECA2-unbounded,12.924075745860716,66,312
+locked,history,M6,11,12,Direct,12.461927103164575,66,312
+locked,history,M6,11,12,Source-affine,13.003555386322402,66,312
+locked,history,M6,11,12,Source-residual,13.010557822044204,66,312
+locked,history,M6,11,12,Local mean,16.662631245481258,66,312
+locked,history,M6,11,12,Local ridge,28.024779667842026,66,312
+locked,history,M6,11,12,Local RBF,16.43192316223477,66,312
+locked,history,M6,11,12,Local RF,13.238516859500262,66,312
+locked,history,M6,11,12,Local Extra Trees,12.797035018108899,66,312
+locked,history,M6,11,12,Local LightGBM,12.44789757206041,66,312
+locked,history,M6,11,12,ECA,12.962898440494085,66,312
+locked,history,M6,11,12,ECA-fixed,12.524683266111222,66,312
+locked,history,M6,11,12,ECA-no-meta,13.267618420662465,66,312
+locked,history,M6,11,12,ECA-unbounded,18.87820106738464,66,312
+locked,history,M6,11,12,ECA-isotropic,12.906508503609636,66,312
+locked,history,M6,11,12,ECA2,11.754881157495928,66,312
+locked,history,M6,11,12,ECA2-MAP,11.976657182116366,66,312
+locked,history,M6,11,12,ECA2-affine,12.277610357840983,66,312
+locked,history,M6,11,12,ECA2-isotropic,11.540192075784773,66,312
+locked,history,M6,11,12,ECA2-no-meta,13.085444055878163,66,312
+locked,history,M6,11,12,ECA2-unbounded,11.950889764176836,66,312
+locked,history,M6,11,13,Direct,12.884631694512356,66,311
+locked,history,M6,11,13,Source-affine,13.045095077776153,66,311
+locked,history,M6,11,13,Source-residual,12.581851415651077,66,311
+locked,history,M6,11,13,Local mean,17.443848331286585,66,311
+locked,history,M6,11,13,Local ridge,26.170676793304075,66,311
+locked,history,M6,11,13,Local RBF,17.415194652252744,66,311
+locked,history,M6,11,13,Local RF,14.736234224197766,66,311
+locked,history,M6,11,13,Local Extra Trees,13.48268714949491,66,311
+locked,history,M6,11,13,Local LightGBM,15.622630022577138,66,311
+locked,history,M6,11,13,ECA,12.850143756936784,66,311
+locked,history,M6,11,13,ECA-fixed,12.03243876692278,66,311
+locked,history,M6,11,13,ECA-no-meta,13.044381718517831,66,311
+locked,history,M6,11,13,ECA-unbounded,29.95990837536408,66,311
+locked,history,M6,11,13,ECA-isotropic,12.489729908872553,66,311
+locked,history,M6,11,13,ECA2,11.744277750962112,66,311
+locked,history,M6,11,13,ECA2-MAP,11.620723471763926,66,311
+locked,history,M6,11,13,ECA2-affine,12.464046512554072,66,311
+locked,history,M6,11,13,ECA2-isotropic,11.67576953984562,66,311
+locked,history,M6,11,13,ECA2-no-meta,12.431861531790158,66,311
+locked,history,M6,11,13,ECA2-unbounded,12.21838571507592,66,311
+locked,history,M6,11,14,Direct,13.409021189096771,66,311
+locked,history,M6,11,14,Source-affine,11.730336110097534,66,311
+locked,history,M6,11,14,Source-residual,11.741603766362687,66,311
+locked,history,M6,11,14,Local mean,16.367681623218687,66,311
+locked,history,M6,11,14,Local ridge,25.112026891625963,66,311
+locked,history,M6,11,14,Local RBF,16.31340348337984,66,311
+locked,history,M6,11,14,Local RF,14.791730545491847,66,311
+locked,history,M6,11,14,Local Extra Trees,13.616155991789737,66,311
+locked,history,M6,11,14,Local LightGBM,13.436375682475045,66,311
+locked,history,M6,11,14,ECA,11.72330698942401,66,311
+locked,history,M6,11,14,ECA-fixed,11.470173692906847,66,311
+locked,history,M6,11,14,ECA-no-meta,11.778215180815515,66,311
+locked,history,M6,11,14,ECA-unbounded,15.560269589132488,66,311
+locked,history,M6,11,14,ECA-isotropic,11.315751029991617,66,311
+locked,history,M6,11,14,ECA2,11.641640710518118,66,311
+locked,history,M6,11,14,ECA2-MAP,11.59753573558227,66,311
+locked,history,M6,11,14,ECA2-affine,12.03130055812939,66,311
+locked,history,M6,11,14,ECA2-isotropic,11.706259390845592,66,311
+locked,history,M6,11,14,ECA2-no-meta,11.907185172850777,66,311
+locked,history,M6,11,14,ECA2-unbounded,11.930759295540513,66,311
+locked,history,M6,11,15,Direct,13.501417021462197,66,311
+locked,history,M6,11,15,Source-affine,11.59487835721724,66,311
+locked,history,M6,11,15,Source-residual,11.346479434178507,66,311
+locked,history,M6,11,15,Local mean,15.178236885412186,66,311
+locked,history,M6,11,15,Local ridge,33.412401436095536,66,311
+locked,history,M6,11,15,Local RBF,15.037992562910064,66,311
+locked,history,M6,11,15,Local RF,13.179479149205013,66,311
+locked,history,M6,11,15,Local Extra Trees,12.533605685623225,66,311
+locked,history,M6,11,15,Local LightGBM,12.209769544217334,66,311
+locked,history,M6,11,15,ECA,11.556073742958242,66,311
+locked,history,M6,11,15,ECA-fixed,11.388561340130234,66,311
+locked,history,M6,11,15,ECA-no-meta,11.689088103603233,66,311
+locked,history,M6,11,15,ECA-unbounded,15.159982491637352,66,311
+locked,history,M6,11,15,ECA-isotropic,11.498789274710113,66,311
+locked,history,M6,11,15,ECA2,11.704703296404864,66,311
+locked,history,M6,11,15,ECA2-MAP,11.683812459544601,66,311
+locked,history,M6,11,15,ECA2-affine,12.060643918543313,66,311
+locked,history,M6,11,15,ECA2-isotropic,11.730075664112777,66,311
+locked,history,M6,11,15,ECA2-no-meta,12.061326383682996,66,311
+locked,history,M6,11,15,ECA2-unbounded,12.519476705736846,66,311
+locked,history,M6,11,16,Direct,13.881477875132083,66,311
+locked,history,M6,11,16,Source-affine,14.486965121707392,66,311
+locked,history,M6,11,16,Source-residual,13.976759983858662,66,311
+locked,history,M6,11,16,Local mean,19.174766017927062,66,311
+locked,history,M6,11,16,Local ridge,26.923069704286178,66,311
+locked,history,M6,11,16,Local RBF,18.31807491225067,66,311
+locked,history,M6,11,16,Local RF,16.349214214381984,66,311
+locked,history,M6,11,16,Local Extra Trees,15.492126868812923,66,311
+locked,history,M6,11,16,Local LightGBM,15.745196421950078,66,311
+locked,history,M6,11,16,ECA,14.405863437345701,66,311
+locked,history,M6,11,16,ECA-fixed,13.466186733830737,66,311
+locked,history,M6,11,16,ECA-no-meta,14.537732035915718,66,311
+locked,history,M6,11,16,ECA-unbounded,18.320842348612917,66,311
+locked,history,M6,11,16,ECA-isotropic,13.84615831477526,66,311
+locked,history,M6,11,16,ECA2,12.845008994468815,66,311
+locked,history,M6,11,16,ECA2-MAP,12.87384277589765,66,311
+locked,history,M6,11,16,ECA2-affine,13.42346954140552,66,311
+locked,history,M6,11,16,ECA2-isotropic,12.68231897220528,66,311
+locked,history,M6,11,16,ECA2-no-meta,14.087584111136376,66,311
+locked,history,M6,11,16,ECA2-unbounded,13.13953042344413,66,311
+locked,history,M6,11,17,Direct,13.228481237450207,66,311
+locked,history,M6,11,17,Source-affine,12.152504335380998,66,311
+locked,history,M6,11,17,Source-residual,11.574201919241784,66,311
+locked,history,M6,11,17,Local mean,15.470860783938205,66,311
+locked,history,M6,11,17,Local ridge,31.749554222936407,66,311
+locked,history,M6,11,17,Local RBF,15.13485986548492,66,311
+locked,history,M6,11,17,Local RF,12.236190934243195,66,311
+locked,history,M6,11,17,Local Extra Trees,12.417835897218245,66,311
+locked,history,M6,11,17,Local LightGBM,11.859880136406867,66,311
+locked,history,M6,11,17,ECA,12.096618763031612,66,311
+locked,history,M6,11,17,ECA-fixed,11.604330541380989,66,311
+locked,history,M6,11,17,ECA-no-meta,12.699644587597618,66,311
+locked,history,M6,11,17,ECA-unbounded,22.557536384890135,66,311
+locked,history,M6,11,17,ECA-isotropic,12.072215948727758,66,311
+locked,history,M6,11,17,ECA2,11.601995674533095,66,311
+locked,history,M6,11,17,ECA2-MAP,11.528837065908776,66,311
+locked,history,M6,11,17,ECA2-affine,12.174165688969302,66,311
+locked,history,M6,11,17,ECA2-isotropic,11.46014174685826,66,311
+locked,history,M6,11,17,ECA2-no-meta,12.635407866225277,66,311
+locked,history,M6,11,17,ECA2-unbounded,11.278384433847636,66,311
+locked,history,M6,11,18,Direct,14.3355916848297,66,311
+locked,history,M6,11,18,Source-affine,12.433608078536498,66,311
+locked,history,M6,11,18,Source-residual,13.386841542130469,66,311
+locked,history,M6,11,18,Local mean,15.761314291046876,66,311
+locked,history,M6,11,18,Local ridge,31.14726240603576,66,311
+locked,history,M6,11,18,Local RBF,15.85340851263237,66,311
+locked,history,M6,11,18,Local RF,14.038105397928508,66,311
+locked,history,M6,11,18,Local Extra Trees,13.778215977806859,66,311
+locked,history,M6,11,18,Local LightGBM,14.13766584258598,66,311
+locked,history,M6,11,18,ECA,12.403200789676696,66,311
+locked,history,M6,11,18,ECA-fixed,12.363704879235732,66,311
+locked,history,M6,11,18,ECA-no-meta,12.887023818175528,66,311
+locked,history,M6,11,18,ECA-unbounded,24.67714111193888,66,311
+locked,history,M6,11,18,ECA-isotropic,12.388333777316564,66,311
+locked,history,M6,11,18,ECA2,12.730849448235258,66,311
+locked,history,M6,11,18,ECA2-MAP,12.936614418699781,66,311
+locked,history,M6,11,18,ECA2-affine,13.019711812396597,66,311
+locked,history,M6,11,18,ECA2-isotropic,12.659154031727406,66,311
+locked,history,M6,11,18,ECA2-no-meta,13.176854857011019,66,311
+locked,history,M6,11,18,ECA2-unbounded,14.76268110428374,66,311
+locked,history,M6,11,19,Direct,12.542733156377047,66,312
+locked,history,M6,11,19,Source-affine,13.417256997332611,66,312
+locked,history,M6,11,19,Source-residual,13.966342229346493,66,312
+locked,history,M6,11,19,Local mean,17.56076034312175,66,312
+locked,history,M6,11,19,Local ridge,22.653040672945277,66,312
+locked,history,M6,11,19,Local RBF,17.062447384316368,66,312
+locked,history,M6,11,19,Local RF,13.993900864986397,66,312
+locked,history,M6,11,19,Local Extra Trees,13.673847897055733,66,312
+locked,history,M6,11,19,Local LightGBM,13.499382940978471,66,312
+locked,history,M6,11,19,ECA,12.71861113487451,66,312
+locked,history,M6,11,19,ECA-fixed,12.483226148008965,66,312
+locked,history,M6,11,19,ECA-no-meta,13.720909819328622,66,312
+locked,history,M6,11,19,ECA-unbounded,28.196645932962838,66,312
+locked,history,M6,11,19,ECA-isotropic,12.61872494939804,66,312
+locked,history,M6,11,19,ECA2,12.041497928093365,66,312
+locked,history,M6,11,19,ECA2-MAP,12.462468918978523,66,312
+locked,history,M6,11,19,ECA2-affine,12.714753997042697,66,312
+locked,history,M6,11,19,ECA2-isotropic,11.835302321205399,66,312
+locked,history,M6,11,19,ECA2-no-meta,13.699511665547217,66,312
+locked,history,M6,11,19,ECA2-unbounded,13.28612888068832,66,312
+locked,history,M12,5,0,Direct,13.712809636537974,60,456
+locked,history,M12,5,0,Source-affine,12.054732856295503,60,456
+locked,history,M12,5,0,Source-residual,15.270685054398196,60,456
+locked,history,M12,5,0,Local mean,15.565809960009865,60,456
+locked,history,M12,5,0,Local ridge,22.2686419084097,60,456
+locked,history,M12,5,0,Local RBF,15.651376184326372,60,456
+locked,history,M12,5,0,Local RF,14.444058777783448,60,456
+locked,history,M12,5,0,Local Extra Trees,13.780709917441968,60,456
+locked,history,M12,5,0,Local LightGBM,13.120654209976573,60,456
+locked,history,M12,5,0,ECA,12.214036698971139,60,456
+locked,history,M12,5,0,ECA-fixed,13.30315147132499,60,456
+locked,history,M12,5,0,ECA-no-meta,12.422320381216831,60,456
+locked,history,M12,5,0,ECA-unbounded,26.400063337175386,60,456
+locked,history,M12,5,0,ECA-isotropic,12.548934173025454,60,456
+locked,history,M12,5,0,ECA2,13.203233508003446,60,456
+locked,history,M12,5,0,ECA2-MAP,13.070541020708301,60,456
+locked,history,M12,5,0,ECA2-affine,12.447965933478006,60,456
+locked,history,M12,5,0,ECA2-isotropic,13.160918942484924,60,456
+locked,history,M12,5,0,ECA2-no-meta,12.816437391378921,60,456
+locked,history,M12,5,0,ECA2-unbounded,16.274251196862256,60,456
+locked,history,M12,5,1,Direct,13.534164952385709,60,455
+locked,history,M12,5,1,Source-affine,12.185454047716098,60,455
+locked,history,M12,5,1,Source-residual,14.6965707971452,60,455
+locked,history,M12,5,1,Local mean,15.369214040192576,60,455
+locked,history,M12,5,1,Local ridge,20.470120027277297,60,455
+locked,history,M12,5,1,Local RBF,15.06112700207291,60,455
+locked,history,M12,5,1,Local RF,12.879148667120203,60,455
+locked,history,M12,5,1,Local Extra Trees,13.390391847081492,60,455
+locked,history,M12,5,1,Local LightGBM,12.113756943886932,60,455
+locked,history,M12,5,1,ECA,12.189643702634084,60,455
+locked,history,M12,5,1,ECA-fixed,12.796249505850978,60,455
+locked,history,M12,5,1,ECA-no-meta,14.933397477407542,60,455
+locked,history,M12,5,1,ECA-unbounded,17.698887755427965,60,455
+locked,history,M12,5,1,ECA-isotropic,13.704208889924335,60,455
+locked,history,M12,5,1,ECA2,12.372705738652328,60,455
+locked,history,M12,5,1,ECA2-MAP,13.771347657978458,60,455
+locked,history,M12,5,1,ECA2-affine,11.974316432334156,60,455
+locked,history,M12,5,1,ECA2-isotropic,12.496026792071891,60,455
+locked,history,M12,5,1,ECA2-no-meta,15.092664270281212,60,455
+locked,history,M12,5,1,ECA2-unbounded,16.651517115973636,60,455
+locked,history,M12,5,2,Direct,12.766570620075223,60,455
+locked,history,M12,5,2,Source-affine,13.023491299021588,60,455
+locked,history,M12,5,2,Source-residual,17.44934363941428,60,455
+locked,history,M12,5,2,Local mean,15.889562359634525,60,455
+locked,history,M12,5,2,Local ridge,16.76366471243229,60,455
+locked,history,M12,5,2,Local RBF,14.863826859230988,60,455
+locked,history,M12,5,2,Local RF,13.815071284010243,60,455
+locked,history,M12,5,2,Local Extra Trees,13.342817821324362,60,455
+locked,history,M12,5,2,Local LightGBM,15.513748775437325,60,455
+locked,history,M12,5,2,ECA,12.897518426809173,60,455
+locked,history,M12,5,2,ECA-fixed,12.55917387215166,60,455
+locked,history,M12,5,2,ECA-no-meta,12.798916505562516,60,455
+locked,history,M12,5,2,ECA-unbounded,20.69081183032733,60,455
+locked,history,M12,5,2,ECA-isotropic,12.902183615206384,60,455
+locked,history,M12,5,2,ECA2,12.230497201290087,60,455
+locked,history,M12,5,2,ECA2-MAP,12.36451425708863,60,455
+locked,history,M12,5,2,ECA2-affine,11.661240775654065,60,455
+locked,history,M12,5,2,ECA2-isotropic,12.27874977944372,60,455
+locked,history,M12,5,2,ECA2-no-meta,12.585480578700018,60,455
+locked,history,M12,5,2,ECA2-unbounded,13.40682737936173,60,455
+locked,history,M12,5,3,Direct,13.453399431962094,60,455
+locked,history,M12,5,3,Source-affine,11.495868524546548,60,455
+locked,history,M12,5,3,Source-residual,13.61251571299267,60,455
+locked,history,M12,5,3,Local mean,15.227922627847505,60,455
+locked,history,M12,5,3,Local ridge,21.91129575665464,60,455
+locked,history,M12,5,3,Local RBF,15.856035050576775,60,455
+locked,history,M12,5,3,Local RF,12.359494116242205,60,455
+locked,history,M12,5,3,Local Extra Trees,13.339774100503774,60,455
+locked,history,M12,5,3,Local LightGBM,12.876217824088469,60,455
+locked,history,M12,5,3,ECA,11.49286409845257,60,455
+locked,history,M12,5,3,ECA-fixed,11.622390052388754,60,455
+locked,history,M12,5,3,ECA-no-meta,11.46654815814834,60,455
+locked,history,M12,5,3,ECA-unbounded,18.497790065567372,60,455
+locked,history,M12,5,3,ECA-isotropic,11.528056988387082,60,455
+locked,history,M12,5,3,ECA2,11.771644210196916,60,455
+locked,history,M12,5,3,ECA2-MAP,11.9285229383678,60,455
+locked,history,M12,5,3,ECA2-affine,11.731751599089794,60,455
+locked,history,M12,5,3,ECA2-isotropic,11.723933901271149,60,455
+locked,history,M12,5,3,ECA2-no-meta,11.611298086873155,60,455
+locked,history,M12,5,3,ECA2-unbounded,13.541430896914251,60,455
+locked,history,M12,5,4,Direct,13.786613922725664,60,455
+locked,history,M12,5,4,Source-affine,13.470194694841826,60,455
+locked,history,M12,5,4,Source-residual,15.971267947617116,60,455
+locked,history,M12,5,4,Local mean,16.34300779895923,60,455
+locked,history,M12,5,4,Local ridge,19.97063880282066,60,455
+locked,history,M12,5,4,Local RBF,15.502262140906883,60,455
+locked,history,M12,5,4,Local RF,14.89368813858563,60,455
+locked,history,M12,5,4,Local Extra Trees,14.858880303733661,60,455
+locked,history,M12,5,4,Local LightGBM,15.599288819982437,60,455
+locked,history,M12,5,4,ECA,13.546900120899668,60,455
+locked,history,M12,5,4,ECA-fixed,13.949958981998059,60,455
+locked,history,M12,5,4,ECA-no-meta,14.129117410479994,60,455
+locked,history,M12,5,4,ECA-unbounded,19.02650301458603,60,455
+locked,history,M12,5,4,ECA-isotropic,13.863428456146307,60,455
+locked,history,M12,5,4,ECA2,13.694224782139932,60,455
+locked,history,M12,5,4,ECA2-MAP,14.049296672877407,60,455
+locked,history,M12,5,4,ECA2-affine,12.930984011810168,60,455
+locked,history,M12,5,4,ECA2-isotropic,13.623278964513194,60,455
+locked,history,M12,5,4,ECA2-no-meta,14.256007037180549,60,455
+locked,history,M12,5,4,ECA2-unbounded,15.53606490221891,60,455
+locked,history,M12,5,5,Direct,13.277483544293917,60,455
+locked,history,M12,5,5,Source-affine,13.61360386789544,60,455
+locked,history,M12,5,5,Source-residual,13.285711846071257,60,455
+locked,history,M12,5,5,Local mean,16.60775282574843,60,455
+locked,history,M12,5,5,Local ridge,17.500445966493064,60,455
+locked,history,M12,5,5,Local RBF,15.245550419706161,60,455
+locked,history,M12,5,5,Local RF,13.960980391022511,60,455
+locked,history,M12,5,5,Local Extra Trees,12.869851020895126,60,455
+locked,history,M12,5,5,Local LightGBM,14.187452923079276,60,455
+locked,history,M12,5,5,ECA,13.507707377063095,60,455
+locked,history,M12,5,5,ECA-fixed,12.952161932187645,60,455
+locked,history,M12,5,5,ECA-no-meta,13.037858629717599,60,455
+locked,history,M12,5,5,ECA-unbounded,18.28840029691078,60,455
+locked,history,M12,5,5,ECA-isotropic,12.83872855927492,60,455
+locked,history,M12,5,5,ECA2,12.486786273975882,60,455
+locked,history,M12,5,5,ECA2-MAP,12.965500275206162,60,455
+locked,history,M12,5,5,ECA2-affine,12.539742999911587,60,455
+locked,history,M12,5,5,ECA2-isotropic,12.398515519496382,60,455
+locked,history,M12,5,5,ECA2-no-meta,12.816508408009211,60,455
+locked,history,M12,5,5,ECA2-unbounded,14.411602690313595,60,455
+locked,history,M12,5,6,Direct,13.754904850437287,60,455
+locked,history,M12,5,6,Source-affine,12.711749875791124,60,455
+locked,history,M12,5,6,Source-residual,13.423932518582193,60,455
+locked,history,M12,5,6,Local mean,15.962822927396797,60,455
+locked,history,M12,5,6,Local ridge,16.29868670107268,60,455
+locked,history,M12,5,6,Local RBF,15.005102378957725,60,455
+locked,history,M12,5,6,Local RF,13.443732183604768,60,455
+locked,history,M12,5,6,Local Extra Trees,13.000659906153112,60,455
+locked,history,M12,5,6,Local LightGBM,13.249206518286075,60,455
+locked,history,M12,5,6,ECA,12.601773882424103,60,455
+locked,history,M12,5,6,ECA-fixed,12.475087608828924,60,455
+locked,history,M12,5,6,ECA-no-meta,12.3851894616562,60,455
+locked,history,M12,5,6,ECA-unbounded,16.348638215167284,60,455
+locked,history,M12,5,6,ECA-isotropic,12.49023411778574,60,455
+locked,history,M12,5,6,ECA2,12.45452806027175,60,455
+locked,history,M12,5,6,ECA2-MAP,12.627909054788905,60,455
+locked,history,M12,5,6,ECA2-affine,12.356238569250696,60,455
+locked,history,M12,5,6,ECA2-isotropic,12.471153846953612,60,455
+locked,history,M12,5,6,ECA2-no-meta,12.508050266791356,60,455
+locked,history,M12,5,6,ECA2-unbounded,13.029986607384199,60,455
+locked,history,M12,5,7,Direct,13.918908998896887,60,456
+locked,history,M12,5,7,Source-affine,12.437203629194553,60,456
+locked,history,M12,5,7,Source-residual,15.064737782447436,60,456
+locked,history,M12,5,7,Local mean,16.396376195789934,60,456
+locked,history,M12,5,7,Local ridge,26.538460720937167,60,456
+locked,history,M12,5,7,Local RBF,16.983702797910258,60,456
+locked,history,M12,5,7,Local RF,15.353317381811355,60,456
+locked,history,M12,5,7,Local Extra Trees,16.156507626627103,60,456
+locked,history,M12,5,7,Local LightGBM,15.301362926573816,60,456
+locked,history,M12,5,7,ECA,12.566942650253145,60,456
+locked,history,M12,5,7,ECA-fixed,13.429574225784851,60,456
+locked,history,M12,5,7,ECA-no-meta,12.499345111753808,60,456
+locked,history,M12,5,7,ECA-unbounded,21.79220588103488,60,456
+locked,history,M12,5,7,ECA-isotropic,12.513438890919272,60,456
+locked,history,M12,5,7,ECA2,13.301556206927485,60,456
+locked,history,M12,5,7,ECA2-MAP,13.269896409871846,60,456
+locked,history,M12,5,7,ECA2-affine,13.156893585190565,60,456
+locked,history,M12,5,7,ECA2-isotropic,13.158168719272021,60,456
+locked,history,M12,5,7,ECA2-no-meta,14.007092705402334,60,456
+locked,history,M12,5,7,ECA2-unbounded,16.034000643653517,60,456
+locked,history,M12,5,8,Direct,12.680750091169326,60,455
+locked,history,M12,5,8,Source-affine,13.423233045864777,60,455
+locked,history,M12,5,8,Source-residual,19.05965206472041,60,455
+locked,history,M12,5,8,Local mean,15.916284353751,60,455
+locked,history,M12,5,8,Local ridge,20.876272187978206,60,455
+locked,history,M12,5,8,Local RBF,15.21754354567206,60,455
+locked,history,M12,5,8,Local RF,12.839457383389682,60,455
+locked,history,M12,5,8,Local Extra Trees,13.117793415571851,60,455
+locked,history,M12,5,8,Local LightGBM,13.975863036792774,60,455
+locked,history,M12,5,8,ECA,13.290075128122245,60,455
+locked,history,M12,5,8,ECA-fixed,13.052219572697444,60,455
+locked,history,M12,5,8,ECA-no-meta,13.400265241325187,60,455
+locked,history,M12,5,8,ECA-unbounded,22.95599092031633,60,455
+locked,history,M12,5,8,ECA-isotropic,13.294719340803224,60,455
+locked,history,M12,5,8,ECA2,12.80939751323547,60,455
+locked,history,M12,5,8,ECA2-MAP,13.09631104538149,60,455
+locked,history,M12,5,8,ECA2-affine,12.00322615080257,60,455
+locked,history,M12,5,8,ECA2-isotropic,12.746372790744196,60,455
+locked,history,M12,5,8,ECA2-no-meta,13.208004596511708,60,455
+locked,history,M12,5,8,ECA2-unbounded,15.349181237366317,60,455
+locked,history,M12,5,9,Direct,14.113543024732557,60,455
+locked,history,M12,5,9,Source-affine,12.683098006312905,60,455
+locked,history,M12,5,9,Source-residual,13.772288995392294,60,455
+locked,history,M12,5,9,Local mean,15.708073979019483,60,455
+locked,history,M12,5,9,Local ridge,27.36299329770985,60,455
+locked,history,M12,5,9,Local RBF,15.541031190725228,60,455
+locked,history,M12,5,9,Local RF,13.203467103766185,60,455
+locked,history,M12,5,9,Local Extra Trees,14.336882681498201,60,455
+locked,history,M12,5,9,Local LightGBM,14.099436680636181,60,455
+locked,history,M12,5,9,ECA,12.72448069444321,60,455
+locked,history,M12,5,9,ECA-fixed,13.176859491340858,60,455
+locked,history,M12,5,9,ECA-no-meta,12.689415759476146,60,455
+locked,history,M12,5,9,ECA-unbounded,19.95797943041866,60,455
+locked,history,M12,5,9,ECA-isotropic,12.718067047837883,60,455
+locked,history,M12,5,9,ECA2,13.16999693872004,60,455
+locked,history,M12,5,9,ECA2-MAP,13.152443609868476,60,455
+locked,history,M12,5,9,ECA2-affine,13.359049198122053,60,455
+locked,history,M12,5,9,ECA2-isotropic,13.202705869681827,60,455
+locked,history,M12,5,9,ECA2-no-meta,13.288731838664857,60,455
+locked,history,M12,5,9,ECA2-unbounded,15.032005496084949,60,455
+locked,history,M12,5,10,Direct,13.652190301561768,60,456
+locked,history,M12,5,10,Source-affine,11.7348459084437,60,456
+locked,history,M12,5,10,Source-residual,13.629743970851331,60,456
+locked,history,M12,5,10,Local mean,16.0956776727843,60,456
+locked,history,M12,5,10,Local ridge,20.119641621475168,60,456
+locked,history,M12,5,10,Local RBF,16.656806626413534,60,456
+locked,history,M12,5,10,Local RF,15.87848431439158,60,456
+locked,history,M12,5,10,Local Extra Trees,16.12481389273362,60,456
+locked,history,M12,5,10,Local LightGBM,16.718879026770942,60,456
+locked,history,M12,5,10,ECA,12.045617164119848,60,456
+locked,history,M12,5,10,ECA-fixed,13.540303078486373,60,456
+locked,history,M12,5,10,ECA-no-meta,12.34875178178156,60,456
+locked,history,M12,5,10,ECA-unbounded,25.613815283909926,60,456
+locked,history,M12,5,10,ECA-isotropic,12.210312164224435,60,456
+locked,history,M12,5,10,ECA2,13.417474732623157,60,456
+locked,history,M12,5,10,ECA2-MAP,13.472093684717596,60,456
+locked,history,M12,5,10,ECA2-affine,12.52825707553776,60,456
+locked,history,M12,5,10,ECA2-isotropic,13.33212918479985,60,456
+locked,history,M12,5,10,ECA2-no-meta,13.217023946460332,60,456
+locked,history,M12,5,10,ECA2-unbounded,16.664945636818963,60,456
+locked,history,M12,5,11,Direct,14.138267004384637,60,455
+locked,history,M12,5,11,Source-affine,12.40513187096102,60,455
+locked,history,M12,5,11,Source-residual,13.436659930058385,60,455
+locked,history,M12,5,11,Local mean,15.389012452275379,60,455
+locked,history,M12,5,11,Local ridge,22.87558391899611,60,455
+locked,history,M12,5,11,Local RBF,15.740206062512952,60,455
+locked,history,M12,5,11,Local RF,12.98537778290736,60,455
+locked,history,M12,5,11,Local Extra Trees,12.843526674055765,60,455
+locked,history,M12,5,11,Local LightGBM,12.930575970599305,60,455
+locked,history,M12,5,11,ECA,12.435994816362692,60,455
+locked,history,M12,5,11,ECA-fixed,12.761065654857958,60,455
+locked,history,M12,5,11,ECA-no-meta,12.582682701144808,60,455
+locked,history,M12,5,11,ECA-unbounded,24.523270277447736,60,455
+locked,history,M12,5,11,ECA-isotropic,12.434774362000159,60,455
+locked,history,M12,5,11,ECA2,12.804023119317154,60,455
+locked,history,M12,5,11,ECA2-MAP,12.816713841633138,60,455
+locked,history,M12,5,11,ECA2-affine,13.032174967373848,60,455
+locked,history,M12,5,11,ECA2-isotropic,12.884877157117046,60,455
+locked,history,M12,5,11,ECA2-no-meta,13.032572622559591,60,455
+locked,history,M12,5,11,ECA2-unbounded,15.607163994801105,60,455
+locked,history,M12,5,12,Direct,13.518847957065827,60,455
+locked,history,M12,5,12,Source-affine,11.948138244599111,60,455
+locked,history,M12,5,12,Source-residual,12.905272298232525,60,455
+locked,history,M12,5,12,Local mean,15.61197897762724,60,455
+locked,history,M12,5,12,Local ridge,17.054310111111363,60,455
+locked,history,M12,5,12,Local RBF,15.068694938710166,60,455
+locked,history,M12,5,12,Local RF,12.75930501881852,60,455
+locked,history,M12,5,12,Local Extra Trees,12.532570955958041,60,455
+locked,history,M12,5,12,Local LightGBM,12.745748252423798,60,455
+locked,history,M12,5,12,ECA,11.960888317963931,60,455
+locked,history,M12,5,12,ECA-fixed,12.07487149194963,60,455
+locked,history,M12,5,12,ECA-no-meta,13.836657635184986,60,455
+locked,history,M12,5,12,ECA-unbounded,15.838688484831957,60,455
+locked,history,M12,5,12,ECA-isotropic,12.671555661988146,60,455
+locked,history,M12,5,12,ECA2,11.728456354945127,60,455
+locked,history,M12,5,12,ECA2-MAP,12.037776600820372,60,455
+locked,history,M12,5,12,ECA2-affine,11.936799457312082,60,455
+locked,history,M12,5,12,ECA2-isotropic,11.63506972963558,60,455
+locked,history,M12,5,12,ECA2-no-meta,14.498064122170701,60,455
+locked,history,M12,5,12,ECA2-unbounded,13.905205123748335,60,455
+locked,history,M12,5,13,Direct,13.322039041592003,60,455
+locked,history,M12,5,13,Source-affine,12.788315841855646,60,455
+locked,history,M12,5,13,Source-residual,13.30335100640026,60,455
+locked,history,M12,5,13,Local mean,15.969208179608637,60,455
+locked,history,M12,5,13,Local ridge,15.84040439092212,60,455
+locked,history,M12,5,13,Local RBF,15.056331398014551,60,455
+locked,history,M12,5,13,Local RF,13.37754344055638,60,455
+locked,history,M12,5,13,Local Extra Trees,13.739940965711979,60,455
+locked,history,M12,5,13,Local LightGBM,14.179756079088115,60,455
+locked,history,M12,5,13,ECA,12.590557128204738,60,455
+locked,history,M12,5,13,ECA-fixed,12.697353409357387,60,455
+locked,history,M12,5,13,ECA-no-meta,13.13660918479524,60,455
+locked,history,M12,5,13,ECA-unbounded,16.62565168245912,60,455
+locked,history,M12,5,13,ECA-isotropic,13.334299177218101,60,455
+locked,history,M12,5,13,ECA2,12.160882382725998,60,455
+locked,history,M12,5,13,ECA2-MAP,12.613785366680835,60,455
+locked,history,M12,5,13,ECA2-affine,12.01686523962227,60,455
+locked,history,M12,5,13,ECA2-isotropic,12.16408806427825,60,455
+locked,history,M12,5,13,ECA2-no-meta,13.610529164642065,60,455
+locked,history,M12,5,13,ECA2-unbounded,13.133765333872875,60,455
+locked,history,M12,5,14,Direct,13.601236916400289,60,455
+locked,history,M12,5,14,Source-affine,12.445902521346497,60,455
+locked,history,M12,5,14,Source-residual,15.259658971930781,60,455
+locked,history,M12,5,14,Local mean,16.22542482587938,60,455
+locked,history,M12,5,14,Local ridge,25.66096479021045,60,455
+locked,history,M12,5,14,Local RBF,15.809417599634694,60,455
+locked,history,M12,5,14,Local RF,15.690623334934662,60,455
+locked,history,M12,5,14,Local Extra Trees,13.508323432771721,60,455
+locked,history,M12,5,14,Local LightGBM,14.46935162755625,60,455
+locked,history,M12,5,14,ECA,12.459146380774254,60,455
+locked,history,M12,5,14,ECA-fixed,12.977482108254103,60,455
+locked,history,M12,5,14,ECA-no-meta,15.523539334683532,60,455
+locked,history,M12,5,14,ECA-unbounded,23.752115933026978,60,455
+locked,history,M12,5,14,ECA-isotropic,12.412338588950993,60,455
+locked,history,M12,5,14,ECA2,12.89688289984716,60,455
+locked,history,M12,5,14,ECA2-MAP,13.0039603822278,60,455
+locked,history,M12,5,14,ECA2-affine,12.274914802713807,60,455
+locked,history,M12,5,14,ECA2-isotropic,12.71696389496211,60,455
+locked,history,M12,5,14,ECA2-no-meta,17.103143178266162,60,455
+locked,history,M12,5,14,ECA2-unbounded,17.527090833944456,60,455
+locked,history,M12,5,15,Direct,13.89070196567971,60,455
+locked,history,M12,5,15,Source-affine,12.18183794888812,60,455
+locked,history,M12,5,15,Source-residual,12.047026280198214,60,455
+locked,history,M12,5,15,Local mean,15.815751850664,60,455
+locked,history,M12,5,15,Local ridge,22.791010407660476,60,455
+locked,history,M12,5,15,Local RBF,16.40973990910956,60,455
+locked,history,M12,5,15,Local RF,13.501884400447222,60,455
+locked,history,M12,5,15,Local Extra Trees,12.641609067720681,60,455
+locked,history,M12,5,15,Local LightGBM,13.654168856586523,60,455
+locked,history,M12,5,15,ECA,12.16213929780297,60,455
+locked,history,M12,5,15,ECA-fixed,12.486691295226393,60,455
+locked,history,M12,5,15,ECA-no-meta,13.724980989984372,60,455
+locked,history,M12,5,15,ECA-unbounded,20.364990744848512,60,455
+locked,history,M12,5,15,ECA-isotropic,12.140320964472284,60,455
+locked,history,M12,5,15,ECA2,12.632666243389485,60,455
+locked,history,M12,5,15,ECA2-MAP,12.63246520431795,60,455
+locked,history,M12,5,15,ECA2-affine,12.953893299168776,60,455
+locked,history,M12,5,15,ECA2-isotropic,12.470269919330471,60,455
+locked,history,M12,5,15,ECA2-no-meta,14.120645397339329,60,455
+locked,history,M12,5,15,ECA2-unbounded,14.996982898761482,60,455
+locked,history,M12,5,16,Direct,13.478085866329934,60,455
+locked,history,M12,5,16,Source-affine,13.37267781918737,60,455
+locked,history,M12,5,16,Source-residual,14.895764948773285,60,455
+locked,history,M12,5,16,Local mean,16.229763276426567,60,455
+locked,history,M12,5,16,Local ridge,18.121322360242065,60,455
+locked,history,M12,5,16,Local RBF,15.674145821882313,60,455
+locked,history,M12,5,16,Local RF,13.721729710012088,60,455
+locked,history,M12,5,16,Local Extra Trees,13.470371080211631,60,455
+locked,history,M12,5,16,Local LightGBM,13.705626126493431,60,455
+locked,history,M12,5,16,ECA,13.274866408738436,60,455
+locked,history,M12,5,16,ECA-fixed,13.105945102571138,60,455
+locked,history,M12,5,16,ECA-no-meta,12.625200412600448,60,455
+locked,history,M12,5,16,ECA-unbounded,23.854687276879822,60,455
+locked,history,M12,5,16,ECA-isotropic,12.653342940282098,60,455
+locked,history,M12,5,16,ECA2,12.554551619109278,60,455
+locked,history,M12,5,16,ECA2-MAP,12.76039760134937,60,455
+locked,history,M12,5,16,ECA2-affine,12.587462862660738,60,455
+locked,history,M12,5,16,ECA2-isotropic,12.246223643117679,60,455
+locked,history,M12,5,16,ECA2-no-meta,12.59491978637756,60,455
+locked,history,M12,5,16,ECA2-unbounded,13.866151469757467,60,455
+locked,history,M12,5,17,Direct,13.313899518481215,60,455
+locked,history,M12,5,17,Source-affine,13.85961790225487,60,455
+locked,history,M12,5,17,Source-residual,15.427817509944294,60,455
+locked,history,M12,5,17,Local mean,16.672713057378136,60,455
+locked,history,M12,5,17,Local ridge,19.861010105550562,60,455
+locked,history,M12,5,17,Local RBF,15.48199008169703,60,455
+locked,history,M12,5,17,Local RF,13.938373105041034,60,455
+locked,history,M12,5,17,Local Extra Trees,13.743564545240952,60,455
+locked,history,M12,5,17,Local LightGBM,14.623801722400623,60,455
+locked,history,M12,5,17,ECA,13.693320293225428,60,455
+locked,history,M12,5,17,ECA-fixed,13.646483152043333,60,455
+locked,history,M12,5,17,ECA-no-meta,13.80275070094433,60,455
+locked,history,M12,5,17,ECA-unbounded,19.812937915162433,60,455
+locked,history,M12,5,17,ECA-isotropic,13.725362194422914,60,455
+locked,history,M12,5,17,ECA2,13.13775397986323,60,455
+locked,history,M12,5,17,ECA2-MAP,13.542027163492282,60,455
+locked,history,M12,5,17,ECA2-affine,12.496918996060385,60,455
+locked,history,M12,5,17,ECA2-isotropic,13.052882072747753,60,455
+locked,history,M12,5,17,ECA2-no-meta,13.800972752425832,60,455
+locked,history,M12,5,17,ECA2-unbounded,14.788955463151424,60,455
+locked,history,M12,5,18,Direct,14.006337827808212,60,455
+locked,history,M12,5,18,Source-affine,12.485171273870856,60,455
+locked,history,M12,5,18,Source-residual,14.651558666080017,60,455
+locked,history,M12,5,18,Local mean,16.03237338943077,60,455
+locked,history,M12,5,18,Local ridge,23.63972704299226,60,455
+locked,history,M12,5,18,Local RBF,15.616342613382143,60,455
+locked,history,M12,5,18,Local RF,13.99905271236148,60,455
+locked,history,M12,5,18,Local Extra Trees,13.815027463548395,60,455
+locked,history,M12,5,18,Local LightGBM,14.440224897987003,60,455
+locked,history,M12,5,18,ECA,12.550872854034424,60,455
+locked,history,M12,5,18,ECA-fixed,13.36558051240611,60,455
+locked,history,M12,5,18,ECA-no-meta,12.530332521423992,60,455
+locked,history,M12,5,18,ECA-unbounded,22.398102706611482,60,455
+locked,history,M12,5,18,ECA-isotropic,12.601219712346207,60,455
+locked,history,M12,5,18,ECA2,13.433214173257953,60,455
+locked,history,M12,5,18,ECA2-MAP,13.457815236534753,60,455
+locked,history,M12,5,18,ECA2-affine,12.638392717522716,60,455
+locked,history,M12,5,18,ECA2-isotropic,13.244578501740369,60,455
+locked,history,M12,5,18,ECA2-no-meta,12.930038999369566,60,455
+locked,history,M12,5,18,ECA2-unbounded,15.941804184901281,60,455
+locked,history,M12,5,19,Direct,13.023190582381517,60,456
+locked,history,M12,5,19,Source-affine,13.758394832199329,60,456
+locked,history,M12,5,19,Source-residual,16.080254148054152,60,456
+locked,history,M12,5,19,Local mean,16.46166858064433,60,456
+locked,history,M12,5,19,Local ridge,17.858491672463877,60,456
+locked,history,M12,5,19,Local RBF,15.238606557149101,60,456
+locked,history,M12,5,19,Local RF,13.363438375817415,60,456
+locked,history,M12,5,19,Local Extra Trees,12.978879222555497,60,456
+locked,history,M12,5,19,Local LightGBM,13.12800072347461,60,456
+locked,history,M12,5,19,ECA,13.388769970010218,60,456
+locked,history,M12,5,19,ECA-fixed,13.252709171307414,60,456
+locked,history,M12,5,19,ECA-no-meta,14.144403257375394,60,456
+locked,history,M12,5,19,ECA-unbounded,18.218434003885026,60,456
+locked,history,M12,5,19,ECA-isotropic,13.551131142457242,60,456
+locked,history,M12,5,19,ECA2,12.87884492996559,60,456
+locked,history,M12,5,19,ECA2-MAP,13.338532540723762,60,456
+locked,history,M12,5,19,ECA2-affine,12.368685453901172,60,456
+locked,history,M12,5,19,ECA2-isotropic,12.792075263302925,60,456
+locked,history,M12,5,19,ECA2-no-meta,14.337658190962712,60,456
+locked,history,M12,5,19,ECA2-unbounded,14.041817436566147,60,456
+locked,history,M12,11,0,Direct,13.928683300076463,132,312
+locked,history,M12,11,0,Source-affine,12.224720212471961,132,312
+locked,history,M12,11,0,Source-residual,14.78976005635051,132,312
+locked,history,M12,11,0,Local mean,14.995828779066967,132,312
+locked,history,M12,11,0,Local ridge,19.638117177811594,132,312
+locked,history,M12,11,0,Local RBF,15.030347201826512,132,312
+locked,history,M12,11,0,Local RF,13.655828422862522,132,312
+locked,history,M12,11,0,Local Extra Trees,13.355246195530372,132,312
+locked,history,M12,11,0,Local LightGBM,14.045277971269567,132,312
+locked,history,M12,11,0,ECA,12.436035618724148,132,312
+locked,history,M12,11,0,ECA-fixed,13.0552912769959,132,312
+locked,history,M12,11,0,ECA-no-meta,12.59910335115407,132,312
+locked,history,M12,11,0,ECA-unbounded,21.735854819941054,132,312
+locked,history,M12,11,0,ECA-isotropic,12.527155295700283,132,312
+locked,history,M12,11,0,ECA2,13.025955948204285,132,312
+locked,history,M12,11,0,ECA2-MAP,13.022691618835013,132,312
+locked,history,M12,11,0,ECA2-affine,12.37441186869859,132,312
+locked,history,M12,11,0,ECA2-isotropic,12.92071100859266,132,312
+locked,history,M12,11,0,ECA2-no-meta,12.676159170078614,132,312
+locked,history,M12,11,0,ECA2-unbounded,16.449155207698258,132,312
+locked,history,M12,11,1,Direct,13.564805669440066,132,312
+locked,history,M12,11,1,Source-affine,13.397184347965306,132,312
+locked,history,M12,11,1,Source-residual,14.388233080701657,132,312
+locked,history,M12,11,1,Local mean,16.190427353058915,132,312
+locked,history,M12,11,1,Local ridge,22.233075831706312,132,312
+locked,history,M12,11,1,Local RBF,15.661712049227855,132,312
+locked,history,M12,11,1,Local RF,13.189541314547464,132,312
+locked,history,M12,11,1,Local Extra Trees,12.791039001122542,132,312
+locked,history,M12,11,1,Local LightGBM,13.051951451562351,132,312
+locked,history,M12,11,1,ECA,13.434476260173728,132,312
+locked,history,M12,11,1,ECA-fixed,13.940063365183295,132,312
+locked,history,M12,11,1,ECA-no-meta,13.55319890249464,132,312
+locked,history,M12,11,1,ECA-unbounded,19.642643634780814,132,312
+locked,history,M12,11,1,ECA-isotropic,13.531790965410158,132,312
+locked,history,M12,11,1,ECA2,13.800970709124206,132,312
+locked,history,M12,11,1,ECA2-MAP,13.836344129885623,132,312
+locked,history,M12,11,1,ECA2-affine,13.099253759676765,132,312
+locked,history,M12,11,1,ECA2-isotropic,13.86356826684172,132,312
+locked,history,M12,11,1,ECA2-no-meta,13.721133826364898,132,312
+locked,history,M12,11,1,ECA2-unbounded,15.563938341430841,132,312
+locked,history,M12,11,2,Direct,12.388385666454845,132,311
+locked,history,M12,11,2,Source-affine,12.798225922115133,132,311
+locked,history,M12,11,2,Source-residual,12.798525962263957,132,311
+locked,history,M12,11,2,Local mean,16.52252812660917,132,311
+locked,history,M12,11,2,Local ridge,18.093585461585292,132,311
+locked,history,M12,11,2,Local RBF,15.188890224837733,132,311
+locked,history,M12,11,2,Local RF,13.34056621153811,132,311
+locked,history,M12,11,2,Local Extra Trees,12.635549302278243,132,311
+locked,history,M12,11,2,Local LightGBM,13.24683920019772,132,311
+locked,history,M12,11,2,ECA,12.71707440591912,132,311
+locked,history,M12,11,2,ECA-fixed,12.517991227317232,132,311
+locked,history,M12,11,2,ECA-no-meta,12.442536437141968,132,311
+locked,history,M12,11,2,ECA-unbounded,16.395315993351968,132,311
+locked,history,M12,11,2,ECA-isotropic,12.44466053409498,132,311
+locked,history,M12,11,2,ECA2,12.274275863393653,132,311
+locked,history,M12,11,2,ECA2-MAP,12.372472655197626,132,311
+locked,history,M12,11,2,ECA2-affine,12.02511831284903,132,311
+locked,history,M12,11,2,ECA2-isotropic,12.284657589075367,132,311
+locked,history,M12,11,2,ECA2-no-meta,12.481443643924171,132,311
+locked,history,M12,11,2,ECA2-unbounded,13.012605114391093,132,311
+locked,history,M12,11,3,Direct,13.798217448893858,132,312
+locked,history,M12,11,3,Source-affine,12.096888634214372,132,312
+locked,history,M12,11,3,Source-residual,15.302700489284089,132,312
+locked,history,M12,11,3,Local mean,14.924550887278556,132,312
+locked,history,M12,11,3,Local ridge,21.698274034649625,132,312
+locked,history,M12,11,3,Local RBF,15.106587202538782,132,312
+locked,history,M12,11,3,Local RF,12.97103109150386,132,312
+locked,history,M12,11,3,Local Extra Trees,12.890233050150956,132,312
+locked,history,M12,11,3,Local LightGBM,13.194690636741791,132,312
+locked,history,M12,11,3,ECA,12.144377377750656,132,312
+locked,history,M12,11,3,ECA-fixed,12.730437469329255,132,312
+locked,history,M12,11,3,ECA-no-meta,12.14022236243414,132,312
+locked,history,M12,11,3,ECA-unbounded,18.507754334309613,132,312
+locked,history,M12,11,3,ECA-isotropic,12.162144127858335,132,312
+locked,history,M12,11,3,ECA2,12.801255960749428,132,312
+locked,history,M12,11,3,ECA2-MAP,12.771020406766919,132,312
+locked,history,M12,11,3,ECA2-affine,12.296141243984968,132,312
+locked,history,M12,11,3,ECA2-isotropic,12.882595939155967,132,312
+locked,history,M12,11,3,ECA2-no-meta,12.461405710729847,132,312
+locked,history,M12,11,3,ECA2-unbounded,14.89039099118505,132,312
+locked,history,M12,11,4,Direct,14.575791932868958,132,311
+locked,history,M12,11,4,Source-affine,12.829953314536015,132,311
+locked,history,M12,11,4,Source-residual,14.184608987586753,132,311
+locked,history,M12,11,4,Local mean,15.31756807389685,132,311
+locked,history,M12,11,4,Local ridge,20.096354375434952,132,311
+locked,history,M12,11,4,Local RBF,14.909082662293127,132,311
+locked,history,M12,11,4,Local RF,13.797768691608084,132,311
+locked,history,M12,11,4,Local Extra Trees,13.702328862421108,132,311
+locked,history,M12,11,4,Local LightGBM,13.94545997904273,132,311
+locked,history,M12,11,4,ECA,12.970020617412748,132,311
+locked,history,M12,11,4,ECA-fixed,13.699196182813104,132,311
+locked,history,M12,11,4,ECA-no-meta,13.756315977847184,132,311
+locked,history,M12,11,4,ECA-unbounded,19.989882234707277,132,311
+locked,history,M12,11,4,ECA-isotropic,13.236197495632618,132,311
+locked,history,M12,11,4,ECA2,13.765923983423281,132,311
+locked,history,M12,11,4,ECA2-MAP,13.914604314958142,132,311
+locked,history,M12,11,4,ECA2-affine,13.037015299346137,132,311
+locked,history,M12,11,4,ECA2-isotropic,13.716845907174052,132,311
+locked,history,M12,11,4,ECA2-no-meta,15.122673758966505,132,311
+locked,history,M12,11,4,ECA2-unbounded,16.81317005457831,132,311
+locked,history,M12,11,5,Direct,13.410398955662556,132,312
+locked,history,M12,11,5,Source-affine,14.135687906941245,132,312
+locked,history,M12,11,5,Source-residual,15.447020160947767,132,312
+locked,history,M12,11,5,Local mean,16.66522133927882,132,312
+locked,history,M12,11,5,Local ridge,24.673237667430357,132,312
+locked,history,M12,11,5,Local RBF,15.613812143956046,132,312
+locked,history,M12,11,5,Local RF,14.34421445802169,132,312
+locked,history,M12,11,5,Local Extra Trees,13.897531225364443,132,312
+locked,history,M12,11,5,Local LightGBM,14.85075219257739,132,312
+locked,history,M12,11,5,ECA,14.180959602234957,132,312
+locked,history,M12,11,5,ECA-fixed,14.460007147598212,132,312
+locked,history,M12,11,5,ECA-no-meta,14.205376360640809,132,312
+locked,history,M12,11,5,ECA-unbounded,19.54825616730491,132,312
+locked,history,M12,11,5,ECA-isotropic,14.176164659484517,132,312
+locked,history,M12,11,5,ECA2,14.31879134852037,132,312
+locked,history,M12,11,5,ECA2-MAP,14.49692721098377,132,312
+locked,history,M12,11,5,ECA2-affine,13.680756116749059,132,312
+locked,history,M12,11,5,ECA2-isotropic,14.196663254034528,132,312
+locked,history,M12,11,5,ECA2-no-meta,13.881189670553756,132,312
+locked,history,M12,11,5,ECA2-unbounded,16.58683669967026,132,312
+locked,history,M12,11,6,Direct,14.824116817518547,132,311
+locked,history,M12,11,6,Source-affine,13.654343715255687,132,311
+locked,history,M12,11,6,Source-residual,14.8510587977365,132,311
+locked,history,M12,11,6,Local mean,17.172077682957134,132,311
+locked,history,M12,11,6,Local ridge,21.580835749356183,132,311
+locked,history,M12,11,6,Local RBF,16.017935786118844,132,311
+locked,history,M12,11,6,Local RF,14.429717888953185,132,311
+locked,history,M12,11,6,Local Extra Trees,13.799624548035355,132,311
+locked,history,M12,11,6,Local LightGBM,14.216660962804312,132,311
+locked,history,M12,11,6,ECA,13.670641505352194,132,311
+locked,history,M12,11,6,ECA-fixed,13.980804070752729,132,311
+locked,history,M12,11,6,ECA-no-meta,13.735257494040946,132,311
+locked,history,M12,11,6,ECA-unbounded,18.155279733853423,132,311
+locked,history,M12,11,6,ECA-isotropic,13.671501578615441,132,311
+locked,history,M12,11,6,ECA2,13.902228271613438,132,311
+locked,history,M12,11,6,ECA2-MAP,13.968920269826597,132,311
+locked,history,M12,11,6,ECA2-affine,13.500473605115905,132,311
+locked,history,M12,11,6,ECA2-isotropic,13.82441658739735,132,311
+locked,history,M12,11,6,ECA2-no-meta,13.806920530453505,132,311
+locked,history,M12,11,6,ECA2-unbounded,15.094058902342441,132,311
+locked,history,M12,11,7,Direct,13.495627419346974,132,312
+locked,history,M12,11,7,Source-affine,11.878447168257239,132,312
+locked,history,M12,11,7,Source-residual,14.373046362027463,132,312
+locked,history,M12,11,7,Local mean,15.409115116725552,132,312
+locked,history,M12,11,7,Local ridge,20.926653229774445,132,312
+locked,history,M12,11,7,Local RBF,16.811947940568775,132,312
+locked,history,M12,11,7,Local RF,12.912497376308679,132,312
+locked,history,M12,11,7,Local Extra Trees,12.448485086273248,132,312
+locked,history,M12,11,7,Local LightGBM,12.801879145263648,132,312
+locked,history,M12,11,7,ECA,12.05815511066052,132,312
+locked,history,M12,11,7,ECA-fixed,12.840666366068488,132,312
+locked,history,M12,11,7,ECA-no-meta,12.126567168380468,132,312
+locked,history,M12,11,7,ECA-unbounded,18.899224765410313,132,312
+locked,history,M12,11,7,ECA-isotropic,12.325850131324017,132,312
+locked,history,M12,11,7,ECA2,12.752577771474483,132,312
+locked,history,M12,11,7,ECA2-MAP,12.74694573093855,132,312
+locked,history,M12,11,7,ECA2-affine,11.993945172648173,132,312
+locked,history,M12,11,7,ECA2-isotropic,12.645820049274276,132,312
+locked,history,M12,11,7,ECA2-no-meta,12.09275053402829,132,312
+locked,history,M12,11,7,ECA2-unbounded,15.140798456054103,132,312
+locked,history,M12,11,8,Direct,12.68632647321199,132,312
+locked,history,M12,11,8,Source-affine,11.902129570874425,132,312
+locked,history,M12,11,8,Source-residual,12.970786796364546,132,312
+locked,history,M12,11,8,Local mean,15.474212199637027,132,312
+locked,history,M12,11,8,Local ridge,15.084726640931843,132,312
+locked,history,M12,11,8,Local RBF,15.454809943612918,132,312
+locked,history,M12,11,8,Local RF,12.74993752039154,132,312
+locked,history,M12,11,8,Local Extra Trees,12.652199749324561,132,312
+locked,history,M12,11,8,Local LightGBM,13.18859918277374,132,312
+locked,history,M12,11,8,ECA,11.88240169782572,132,312
+locked,history,M12,11,8,ECA-fixed,12.211986585125922,132,312
+locked,history,M12,11,8,ECA-no-meta,11.828996672623001,132,312
+locked,history,M12,11,8,ECA-unbounded,16.66379150143261,132,312
+locked,history,M12,11,8,ECA-isotropic,11.938767610038415,132,312
+locked,history,M12,11,8,ECA2,11.994877455658845,132,312
+locked,history,M12,11,8,ECA2-MAP,12.009846507071481,132,312
+locked,history,M12,11,8,ECA2-affine,11.62796818080286,132,312
+locked,history,M12,11,8,ECA2-isotropic,11.952272869784542,132,312
+locked,history,M12,11,8,ECA2-no-meta,11.960569616034318,132,312
+locked,history,M12,11,8,ECA2-unbounded,12.681240831323523,132,312
+locked,history,M12,11,9,Direct,13.757621675286797,132,311
+locked,history,M12,11,9,Source-affine,12.17207203766515,132,311
+locked,history,M12,11,9,Source-residual,12.49033229535902,132,311
+locked,history,M12,11,9,Local mean,15.906952815568186,132,311
+locked,history,M12,11,9,Local ridge,22.063191403702707,132,311
+locked,history,M12,11,9,Local RBF,15.46640567717943,132,311
+locked,history,M12,11,9,Local RF,12.568996352276027,132,311
+locked,history,M12,11,9,Local Extra Trees,12.59561548357135,132,311
+locked,history,M12,11,9,Local LightGBM,12.371546771359789,132,311
+locked,history,M12,11,9,ECA,12.194470376310505,132,311
+locked,history,M12,11,9,ECA-fixed,12.419398290389745,132,311
+locked,history,M12,11,9,ECA-no-meta,12.380875087100007,132,311
+locked,history,M12,11,9,ECA-unbounded,17.478121644419783,132,311
+locked,history,M12,11,9,ECA-isotropic,12.167230771685484,132,311
+locked,history,M12,11,9,ECA2,12.410736840690232,132,311
+locked,history,M12,11,9,ECA2-MAP,12.66113474936905,132,311
+locked,history,M12,11,9,ECA2-affine,12.151026924707326,132,311
+locked,history,M12,11,9,ECA2-isotropic,12.226664044823556,132,311
+locked,history,M12,11,9,ECA2-no-meta,12.556984146881979,132,311
+locked,history,M12,11,9,ECA2-unbounded,14.49783365141904,132,311
+locked,history,M12,11,10,Direct,12.795757482570664,132,312
+locked,history,M12,11,10,Source-affine,11.988160972044861,132,312
+locked,history,M12,11,10,Source-residual,15.747797303754709,132,312
+locked,history,M12,11,10,Local mean,14.703169416293425,132,312
+locked,history,M12,11,10,Local ridge,19.99309124876546,132,312
+locked,history,M12,11,10,Local RBF,14.093789344037402,132,312
+locked,history,M12,11,10,Local RF,12.760288058264127,132,312
+locked,history,M12,11,10,Local Extra Trees,13.026602770787761,132,312
+locked,history,M12,11,10,Local LightGBM,12.737549333631419,132,312
+locked,history,M12,11,10,ECA,12.000888054015777,132,312
+locked,history,M12,11,10,ECA-fixed,12.255758695017567,132,312
+locked,history,M12,11,10,ECA-no-meta,12.4358810801677,132,312
+locked,history,M12,11,10,ECA-unbounded,17.455294625654172,132,312
+locked,history,M12,11,10,ECA-isotropic,12.017601524078783,132,312
+locked,history,M12,11,10,ECA2,12.265942687857503,132,312
+locked,history,M12,11,10,ECA2-MAP,12.40768891701847,132,312
+locked,history,M12,11,10,ECA2-affine,11.856329420531909,132,312
+locked,history,M12,11,10,ECA2-isotropic,12.25543605290508,132,312
+locked,history,M12,11,10,ECA2-no-meta,12.700460412207965,132,312
+locked,history,M12,11,10,ECA2-unbounded,14.097030184896198,132,312
+locked,history,M12,11,11,Direct,14.134747550458192,132,312
+locked,history,M12,11,11,Source-affine,12.239448016274745,132,312
+locked,history,M12,11,11,Source-residual,11.88023434990303,132,312
+locked,history,M12,11,11,Local mean,15.870597690697807,132,312
+locked,history,M12,11,11,Local ridge,20.658283776503286,132,312
+locked,history,M12,11,11,Local RBF,16.03828727723263,132,312
+locked,history,M12,11,11,Local RF,12.893096585034444,132,312
+locked,history,M12,11,11,Local Extra Trees,12.506072120552858,132,312
+locked,history,M12,11,11,Local LightGBM,12.95968252637164,132,312
+locked,history,M12,11,11,ECA,12.258685748362474,132,312
+locked,history,M12,11,11,ECA-fixed,12.455201897779096,132,312
+locked,history,M12,11,11,ECA-no-meta,12.522040464775731,132,312
+locked,history,M12,11,11,ECA-unbounded,16.561351287840694,132,312
+locked,history,M12,11,11,ECA-isotropic,12.217290977007858,132,312
+locked,history,M12,11,11,ECA2,12.398767002960097,132,312
+locked,history,M12,11,11,ECA2-MAP,12.400055895901284,132,312
+locked,history,M12,11,11,ECA2-affine,12.362069248445927,132,312
+locked,history,M12,11,11,ECA2-isotropic,12.316973852140627,132,312
+locked,history,M12,11,11,ECA2-no-meta,12.528995458514167,132,312
+locked,history,M12,11,11,ECA2-unbounded,13.78977485115055,132,312
+locked,history,M12,11,12,Direct,12.461927103164575,132,312
+locked,history,M12,11,12,Source-affine,13.018912399530093,132,312
+locked,history,M12,11,12,Source-residual,15.722525623494814,132,312
+locked,history,M12,11,12,Local mean,15.737416929776547,132,312
+locked,history,M12,11,12,Local ridge,17.86242689057245,132,312
+locked,history,M12,11,12,Local RBF,14.793185811141154,132,312
+locked,history,M12,11,12,Local RF,13.012592087877659,132,312
+locked,history,M12,11,12,Local Extra Trees,12.633857191807916,132,312
+locked,history,M12,11,12,Local LightGBM,13.037172828693606,132,312
+locked,history,M12,11,12,ECA,13.030963423081491,132,312
+locked,history,M12,11,12,ECA-fixed,13.37838608305271,132,312
+locked,history,M12,11,12,ECA-no-meta,13.543126131895978,132,312
+locked,history,M12,11,12,ECA-unbounded,15.32107205433246,132,312
+locked,history,M12,11,12,ECA-isotropic,13.434917006631771,132,312
+locked,history,M12,11,12,ECA2,12.983190277617956,132,312
+locked,history,M12,11,12,ECA2-MAP,13.514389255912754,132,312
+locked,history,M12,11,12,ECA2-affine,12.501786919665658,132,312
+locked,history,M12,11,12,ECA2-isotropic,13.161280585059794,132,312
+locked,history,M12,11,12,ECA2-no-meta,13.619369986486872,132,312
+locked,history,M12,11,12,ECA2-unbounded,14.86462012224863,132,312
+locked,history,M12,11,13,Direct,12.884631694512356,132,311
+locked,history,M12,11,13,Source-affine,13.4378764120878,132,311
+locked,history,M12,11,13,Source-residual,14.692688240553856,132,311
+locked,history,M12,11,13,Local mean,16.637939593867625,132,311
+locked,history,M12,11,13,Local ridge,16.207012649562852,132,311
+locked,history,M12,11,13,Local RBF,15.36423461345742,132,311
+locked,history,M12,11,13,Local RF,13.931960677700072,132,311
+locked,history,M12,11,13,Local Extra Trees,13.34829095271024,132,311
+locked,history,M12,11,13,Local LightGBM,14.288953116950244,132,311
+locked,history,M12,11,13,ECA,13.366854684327079,132,311
+locked,history,M12,11,13,ECA-fixed,13.448753215813257,132,311
+locked,history,M12,11,13,ECA-no-meta,13.067906175704982,132,311
+locked,history,M12,11,13,ECA-unbounded,16.713398546617206,132,311
+locked,history,M12,11,13,ECA-isotropic,13.174716436722095,132,311
+locked,history,M12,11,13,ECA2,12.895081771958287,132,311
+locked,history,M12,11,13,ECA2-MAP,13.02805043126462,132,311
+locked,history,M12,11,13,ECA2-affine,12.826915142639248,132,311
+locked,history,M12,11,13,ECA2-isotropic,12.927927828755932,132,311
+locked,history,M12,11,13,ECA2-no-meta,13.144614259326115,132,311
+locked,history,M12,11,13,ECA2-unbounded,13.340483003822664,132,311
+locked,history,M12,11,14,Direct,13.409021189096771,132,311
+locked,history,M12,11,14,Source-affine,11.840511450505595,132,311
+locked,history,M12,11,14,Source-residual,12.889015814775226,132,311
+locked,history,M12,11,14,Local mean,16.241480690792393,132,311
+locked,history,M12,11,14,Local ridge,17.788980320769664,132,311
+locked,history,M12,11,14,Local RBF,15.543316073520238,132,311
+locked,history,M12,11,14,Local RF,14.068284830465133,132,311
+locked,history,M12,11,14,Local Extra Trees,14.12660364546346,132,311
+locked,history,M12,11,14,Local LightGBM,14.54765996051798,132,311
+locked,history,M12,11,14,ECA,11.840203292594833,132,311
+locked,history,M12,11,14,ECA-fixed,12.379870100476825,132,311
+locked,history,M12,11,14,ECA-no-meta,12.836890037790196,132,311
+locked,history,M12,11,14,ECA-unbounded,19.256662031105733,132,311
+locked,history,M12,11,14,ECA-isotropic,12.26640111794845,132,311
+locked,history,M12,11,14,ECA2,12.122439362502504,132,311
+locked,history,M12,11,14,ECA2-MAP,12.437406483932442,132,311
+locked,history,M12,11,14,ECA2-affine,11.702479486797689,132,311
+locked,history,M12,11,14,ECA2-isotropic,12.086446278739533,132,311
+locked,history,M12,11,14,ECA2-no-meta,12.872469463323654,132,311
+locked,history,M12,11,14,ECA2-unbounded,14.640954224027222,132,311
+locked,history,M12,11,15,Direct,13.501417021462197,132,311
+locked,history,M12,11,15,Source-affine,11.551955256346883,132,311
+locked,history,M12,11,15,Source-residual,12.785535893497963,132,311
+locked,history,M12,11,15,Local mean,15.181261638798237,132,311
+locked,history,M12,11,15,Local ridge,17.936436433075112,132,311
+locked,history,M12,11,15,Local RBF,15.368932574092709,132,311
+locked,history,M12,11,15,Local RF,12.187405820078448,132,311
+locked,history,M12,11,15,Local Extra Trees,12.116395482812626,132,311
+locked,history,M12,11,15,Local LightGBM,11.7905956422116,132,311
+locked,history,M12,11,15,ECA,11.57943470287559,132,311
+locked,history,M12,11,15,ECA-fixed,11.892319229704151,132,311
+locked,history,M12,11,15,ECA-no-meta,12.962044017631596,132,311
+locked,history,M12,11,15,ECA-unbounded,17.498841316789463,132,311
+locked,history,M12,11,15,ECA-isotropic,11.543725350730274,132,311
+locked,history,M12,11,15,ECA2,11.88653705095715,132,311
+locked,history,M12,11,15,ECA2-MAP,11.893960237295586,132,311
+locked,history,M12,11,15,ECA2-affine,11.717549084808567,132,311
+locked,history,M12,11,15,ECA2-isotropic,11.782531853389225,132,311
+locked,history,M12,11,15,ECA2-no-meta,12.990642819188494,132,311
+locked,history,M12,11,15,ECA2-unbounded,13.463936904592053,132,311
+locked,history,M12,11,16,Direct,13.881477875132083,132,311
+locked,history,M12,11,16,Source-affine,14.031650536928664,132,311
+locked,history,M12,11,16,Source-residual,15.561784499424999,132,311
+locked,history,M12,11,16,Local mean,17.709138209294572,132,311
+locked,history,M12,11,16,Local ridge,23.531136835837273,132,311
+locked,history,M12,11,16,Local RBF,16.832699971115442,132,311
+locked,history,M12,11,16,Local RF,14.921161653970765,132,311
+locked,history,M12,11,16,Local Extra Trees,14.229926444340693,132,311
+locked,history,M12,11,16,Local LightGBM,15.25871390440233,132,311
+locked,history,M12,11,16,ECA,14.047215376411355,132,311
+locked,history,M12,11,16,ECA-fixed,14.000084504471154,132,311
+locked,history,M12,11,16,ECA-no-meta,14.060931258801723,132,311
+locked,history,M12,11,16,ECA-unbounded,18.00375738574345,132,311
+locked,history,M12,11,16,ECA-isotropic,13.86852550868523,132,311
+locked,history,M12,11,16,ECA2,13.853908854616067,132,311
+locked,history,M12,11,16,ECA2-MAP,14.014415769183042,132,311
+locked,history,M12,11,16,ECA2-affine,13.514637252012255,132,311
+locked,history,M12,11,16,ECA2-isotropic,13.715650474566045,132,311
+locked,history,M12,11,16,ECA2-no-meta,13.586130070091874,132,311
+locked,history,M12,11,16,ECA2-unbounded,15.12813439329525,132,311
+locked,history,M12,11,17,Direct,13.228481237450207,132,311
+locked,history,M12,11,17,Source-affine,12.20228213453115,132,311
+locked,history,M12,11,17,Source-residual,13.731946260796677,132,311
+locked,history,M12,11,17,Local mean,15.052454429233672,132,311
+locked,history,M12,11,17,Local ridge,15.959992215059687,132,311
+locked,history,M12,11,17,Local RBF,14.92531402996872,132,311
+locked,history,M12,11,17,Local RF,11.866684491611316,132,311
+locked,history,M12,11,17,Local Extra Trees,11.815127927114654,132,311
+locked,history,M12,11,17,Local LightGBM,11.938858910752792,132,311
+locked,history,M12,11,17,ECA,12.200069904171356,132,311
+locked,history,M12,11,17,ECA-fixed,12.24483676810298,132,311
+locked,history,M12,11,17,ECA-no-meta,12.384358789206374,132,311
+locked,history,M12,11,17,ECA-unbounded,15.170476141656016,132,311
+locked,history,M12,11,17,ECA-isotropic,12.2049622017174,132,311
+locked,history,M12,11,17,ECA2,12.197715673902659,132,311
+locked,history,M12,11,17,ECA2-MAP,12.23024262931222,132,311
+locked,history,M12,11,17,ECA2-affine,12.027243750003485,132,311
+locked,history,M12,11,17,ECA2-isotropic,12.28275125855438,132,311
+locked,history,M12,11,17,ECA2-no-meta,12.484507319692105,132,311
+locked,history,M12,11,17,ECA2-unbounded,12.838250030063264,132,311
+locked,history,M12,11,18,Direct,14.3355916848297,132,311
+locked,history,M12,11,18,Source-affine,12.401241597354872,132,311
+locked,history,M12,11,18,Source-residual,15.29668014201717,132,311
+locked,history,M12,11,18,Local mean,15.4339486918208,132,311
+locked,history,M12,11,18,Local ridge,19.935692580736365,132,311
+locked,history,M12,11,18,Local RBF,15.036575347601692,132,311
+locked,history,M12,11,18,Local RF,14.053100568066258,132,311
+locked,history,M12,11,18,Local Extra Trees,14.063719457698044,132,311
+locked,history,M12,11,18,Local LightGBM,14.518674649369688,132,311
+locked,history,M12,11,18,ECA,12.425658100168993,132,311
+locked,history,M12,11,18,ECA-fixed,13.015183615758506,132,311
+locked,history,M12,11,18,ECA-no-meta,12.546532071553896,132,311
+locked,history,M12,11,18,ECA-unbounded,18.773395609647682,132,311
+locked,history,M12,11,18,ECA-isotropic,12.443281848403304,132,311
+locked,history,M12,11,18,ECA2,13.184383368746033,132,311
+locked,history,M12,11,18,ECA2-MAP,13.273479660823261,132,311
+locked,history,M12,11,18,ECA2-affine,12.614912538682992,132,311
+locked,history,M12,11,18,ECA2-isotropic,13.042739860726329,132,311
+locked,history,M12,11,18,ECA2-no-meta,12.75522226617476,132,311
+locked,history,M12,11,18,ECA2-unbounded,15.508727489080156,132,311
+locked,history,M12,11,19,Direct,12.542733156377047,132,312
+locked,history,M12,11,19,Source-affine,13.863326964420457,132,312
+locked,history,M12,11,19,Source-residual,16.19693636439747,132,312
+locked,history,M12,11,19,Local mean,16.481301739377052,132,312
+locked,history,M12,11,19,Local ridge,16.72618032250622,132,312
+locked,history,M12,11,19,Local RBF,15.127259482486975,132,312
+locked,history,M12,11,19,Local RF,14.203029083979581,132,312
+locked,history,M12,11,19,Local Extra Trees,14.482319636440973,132,312
+locked,history,M12,11,19,Local LightGBM,14.422578297850778,132,312
+locked,history,M12,11,19,ECA,13.832679134144946,132,312
+locked,history,M12,11,19,ECA-fixed,13.751126310436566,132,312
+locked,history,M12,11,19,ECA-no-meta,13.666539288935152,132,312
+locked,history,M12,11,19,ECA-unbounded,16.95467543836247,132,312
+locked,history,M12,11,19,ECA-isotropic,13.744622225773206,132,312
+locked,history,M12,11,19,ECA2,13.405163019180153,132,312
+locked,history,M12,11,19,ECA2-MAP,13.560920869379077,132,312
+locked,history,M12,11,19,ECA2-affine,13.24289770688355,132,312
+locked,history,M12,11,19,ECA2-isotropic,13.318920585935365,132,312
+locked,history,M12,11,19,ECA2-no-meta,13.815065885527037,132,312
+locked,history,M12,11,19,ECA2-unbounded,14.820577760971346,132,312

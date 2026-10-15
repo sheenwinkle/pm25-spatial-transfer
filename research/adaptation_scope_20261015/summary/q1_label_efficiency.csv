@@ -1,0 +1,61 @@
+task,design,k,comparison,gain,lo,hi,wins,n,mean_a,mean_b,draws,partial_draws
+yrd,history,5,ECA2 at M3 vs Source-affine at M6,0.7922,-16.5825,17.1351,10,20,6.6079,6.7058,1000,0
+yrd,history,5,ECA2 at M3 vs Best local six at M6,21.5501,2.0896,31.3719,20,20,6.6079,8.6297,1000,0
+yrd,history,5,ECA2 at M3 vs ECA2 at M6,-2.0634,-12.1578,4.0921,6,20,6.6079,6.4970,1000,0
+yrd,history,5,ECA2 at M6 vs Source-affine at M12,-0.2116,-18.7214,16.2700,8,20,6.4970,6.4985,1000,0
+yrd,history,5,ECA2 at M6 vs Best local six at M12,11.9579,-4.4576,20.8686,20,20,6.4970,7.4059,1000,0
+yrd,history,5,ECA2 at M6 vs ECA2 at M12,-8.4831,-18.0075,2.7387,1,20,6.4970,5.9819,1000,0
+yrd,history,11,ECA2 at M3 vs Source-affine at M6,-6.8606,-26.3660,9.5668,5,20,6.9222,6.5354,1000,0
+yrd,history,11,ECA2 at M3 vs Best local six at M6,3.9402,-19.7911,16.7454,11,20,6.9222,7.3150,1000,0
+yrd,history,11,ECA2 at M3 vs ECA2 at M6,-5.6558,-22.7914,2.0020,2,20,6.9222,6.5768,1000,0
+yrd,history,11,ECA2 at M6 vs Source-affine at M12,-6.2212,-26.0350,11.3400,4,20,6.5768,6.1929,1000,0
+yrd,history,11,ECA2 at M6 vs Best local six at M12,7.5652,-13.8864,21.6108,18,20,6.5768,7.1300,1000,0
+yrd,history,11,ECA2 at M6 vs ECA2 at M12,-10.9188,-23.4840,4.5357,0,20,6.5768,5.9255,1000,0
+yrd,historyN,5,ECA2 at M3 vs Source-affine at M6,-7.9921,-23.4482,10.9681,2,20,7.9351,7.3781,1000,0
+yrd,historyN,5,ECA2 at M3 vs Best local six at M6,5.7523,-14.9185,17.3104,13,20,7.9351,8.6297,1000,0
+yrd,historyN,5,ECA2 at M3 vs ECA2 at M6,2.2970,-1.1000,8.2888,17,20,7.9351,8.1377,1000,0
+yrd,historyN,5,ECA2 at M6 vs Source-affine at M12,-16.2758,-29.2616,-1.1565,2,20,8.1377,7.0149,1000,0
+yrd,historyN,5,ECA2 at M6 vs Best local six at M12,-10.3866,-28.0083,-0.1229,4,20,8.1377,7.4059,1000,0
+yrd,historyN,5,ECA2 at M6 vs ECA2 at M12,-9.7575,-17.0320,-0.3321,0,20,8.1377,7.4123,1000,0
+yrd,historyN,11,ECA2 at M3 vs Source-affine at M6,-6.3399,-19.5621,11.3366,4,20,7.9448,7.5196,1000,0
+yrd,historyN,11,ECA2 at M3 vs Best local six at M6,-10.0136,-29.5847,3.0935,5,20,7.9448,7.3150,1000,0
+yrd,historyN,11,ECA2 at M3 vs ECA2 at M6,2.3604,-2.1197,10.1803,17,20,7.9448,8.1471,1000,0
+yrd,historyN,11,ECA2 at M6 vs Source-affine at M12,-16.6432,-28.4365,-2.9745,0,20,8.1471,6.9962,1000,0
+yrd,historyN,11,ECA2 at M6 vs Best local six at M12,-14.5391,-36.2665,-3.0382,1,20,8.1471,7.1300,1000,0
+yrd,historyN,11,ECA2 at M6 vs ECA2 at M12,-9.9625,-19.6191,1.4880,0,20,8.1471,7.4067,1000,0
+aus,history,3,ECA2 at M3 vs Source-affine at M6,-645.0195,-847.7646,-462.3999,0,20,10.8066,1.4672,1000,1
+aus,history,3,ECA2 at M3 vs Best local six at M6,-668.5193,-906.9382,-485.4616,0,20,10.8066,1.4250,1000,1
+aus,history,3,ECA2 at M3 vs ECA2 at M6,-40.1165,-55.2693,-32.5834,0,20,10.8066,7.7521,1000,1
+aus,history,3,ECA2 at M6 vs Source-affine at M12,-312.1785,-414.4170,-198.7836,0,20,7.7521,1.9221,1000,1
+aus,history,3,ECA2 at M6 vs Best local six at M12,-321.6343,-503.7525,-192.7501,0,20,7.7521,1.8819,1000,1
+aus,history,3,ECA2 at M6 vs ECA2 at M12,-14.8962,-22.8408,-9.5203,0,20,7.7521,6.7674,1000,1
+aus,history,5,ECA2 at M3 vs Source-affine at M6,-593.4597,-788.3817,-414.3855,0,20,9.7456,1.4246,1000,68
+aus,history,5,ECA2 at M3 vs Best local six at M6,-607.9155,-856.8746,-434.6452,0,20,9.7456,1.3917,1000,68
+aus,history,5,ECA2 at M3 vs ECA2 at M6,-59.2110,-76.6275,-49.9890,0,20,9.7456,6.1740,1000,68
+aus,history,5,ECA2 at M6 vs Source-affine at M12,-237.2968,-313.5421,-145.9246,0,20,6.1740,1.8976,1000,68
+aus,history,5,ECA2 at M6 vs Best local six at M12,-240.0312,-398.8693,-128.3323,0,20,6.1740,1.8700,1000,68
+aus,history,5,ECA2 at M6 vs ECA2 at M12,-13.9054,-22.7574,-5.3192,0,20,6.1740,5.4303,1000,68
+locked,history,5,ECA2 at M3 vs Source-affine at M6,3.6294,-11.4704,12.2516,13,20,12.1235,12.6257,1000,0
+locked,history,5,ECA2 at M3 vs Best local six at M6,8.4782,-2.1359,19.5534,19,20,12.1235,13.2694,1000,0
+locked,history,5,ECA2 at M3 vs ECA2 at M6,0.5482,-2.5167,2.7538,13,20,12.1235,12.1898,1000,0
+locked,history,5,ECA2 at M6 vs Source-affine at M12,3.7007,-6.6042,10.6203,13,20,12.1898,12.7039,1000,0
+locked,history,5,ECA2 at M6 vs Best local six at M12,8.6723,-4.2552,14.3393,20,20,12.1898,13.3900,1000,0
+locked,history,5,ECA2 at M6 vs ECA2 at M12,4.3698,-3.1681,9.3127,17,20,12.1898,12.7570,1000,0
+locked,history,11,ECA2 at M3 vs Source-affine at M6,5.0497,-6.0068,11.8123,14,20,11.9768,12.6487,1000,0
+locked,history,11,ECA2 at M3 vs Best local six at M6,7.7936,-1.4227,18.4815,17,20,11.9768,13.0262,1000,0
+locked,history,11,ECA2 at M3 vs ECA2 at M6,1.1707,-1.7533,3.7831,15,20,11.9768,12.1202,1000,0
+locked,history,11,ECA2 at M6 vs Source-affine at M12,4.2290,-4.9177,10.1442,13,20,12.1202,12.6832,1000,0
+locked,history,11,ECA2 at M6 vs Best local six at M12,7.3059,-9.5273,12.4737,20,20,12.1202,13.0965,1000,0
+locked,history,11,ECA2 at M6 vs ECA2 at M12,6.0756,-1.7884,11.0952,20,20,12.1202,12.9120,1000,0
+locked,historyN,5,ECA2 at M3 vs Source-affine at M6,-10.6918,-41.1119,3.3924,3,20,14.4295,13.0511,1000,0
+locked,historyN,5,ECA2 at M3 vs Best local six at M6,-8.9782,-36.7963,3.6673,3,20,14.4295,13.2694,1000,0
+locked,historyN,5,ECA2 at M3 vs ECA2 at M6,-2.3473,-11.1831,0.7004,0,20,14.4295,14.0988,1000,0
+locked,historyN,5,ECA2 at M6 vs Source-affine at M12,-6.5082,-28.7720,4.3087,5,20,14.0988,13.2523,1000,0
+locked,historyN,5,ECA2 at M6 vs Best local six at M12,-5.6435,-32.6043,4.1630,6,20,14.0988,13.3900,1000,0
+locked,historyN,5,ECA2 at M6 vs ECA2 at M12,-3.2455,-17.9346,4.5165,6,20,14.0988,13.6744,1000,0
+locked,historyN,11,ECA2 at M3 vs Source-affine at M6,-6.0906,-29.0281,4.3384,5,20,14.0056,13.2139,1000,0
+locked,historyN,11,ECA2 at M3 vs Best local six at M6,-7.8964,-30.3183,2.1488,5,20,14.0056,13.0262,1000,0
+locked,historyN,11,ECA2 at M3 vs ECA2 at M6,-2.0282,-12.7694,1.2004,2,20,14.0056,13.7254,1000,0
+locked,historyN,11,ECA2 at M6 vs Source-affine at M12,-4.4357,-24.2840,5.6044,7,20,13.7254,13.1541,1000,0
+locked,historyN,11,ECA2 at M6 vs Best local six at M12,-5.0410,-35.4666,4.3133,8,20,13.7254,13.0965,1000,0
+locked,historyN,11,ECA2 at M6 vs ECA2 at M12,-2.1305,-17.1889,5.6952,6,20,13.7254,13.4386,1000,0

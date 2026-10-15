@@ -1,0 +1,253 @@
+task,m,k,method,strategy,mean_rmse
+yrd,3,5,Direct,(no labels),6.2505
+yrd,3,5,ECA-S,S0 last consecutive,6.6079
+yrd,3,5,ECA-S,S1 random,6.2798
+yrd,3,5,ECA-S,S2 season-spread,6.3288
+yrd,3,5,ECA-S,S3 condition coverage,7.1244
+yrd,3,5,ECA-S,S4 target-aware,6.1265
+yrd,3,5,ECA-R,S0 last consecutive,7.2957
+yrd,3,5,ECA-R,S1 random,7.7874
+yrd,3,5,ECA-R,S2 season-spread,7.8217
+yrd,3,5,ECA-R,S3 condition coverage,9.4478
+yrd,3,5,ECA-R,S4 target-aware,7.1948
+yrd,3,5,Source-affine,S0 last consecutive,6.7233
+yrd,3,5,Source-affine,S1 random,8.8124
+yrd,3,5,Source-affine,S2 season-spread,8.8375
+yrd,3,5,Source-affine,S3 condition coverage,9.7615
+yrd,3,5,Source-affine,S4 target-aware,8.2692
+yrd,3,5,Best local six,S0 last consecutive,11.0080
+yrd,3,5,Best local six,S1 random,8.5367
+yrd,3,5,Best local six,S2 season-spread,8.4145
+yrd,3,5,Best local six,S3 condition coverage,8.5765
+yrd,3,5,Best local six,S4 target-aware,8.0725
+yrd,3,11,Direct,(no labels),6.2302
+yrd,3,11,ECA-S,S0 last consecutive,6.9222
+yrd,3,11,ECA-S,S1 random,6.3471
+yrd,3,11,ECA-S,S2 season-spread,6.3525
+yrd,3,11,ECA-S,S3 condition coverage,7.6118
+yrd,3,11,ECA-S,S4 target-aware,6.3442
+yrd,3,11,ECA-R,S0 last consecutive,7.9119
+yrd,3,11,ECA-R,S1 random,7.1162
+yrd,3,11,ECA-R,S2 season-spread,7.1133
+yrd,3,11,ECA-R,S3 condition coverage,9.2305
+yrd,3,11,ECA-R,S4 target-aware,7.1331
+yrd,3,11,Source-affine,S0 last consecutive,6.4643
+yrd,3,11,Source-affine,S1 random,7.6485
+yrd,3,11,Source-affine,S2 season-spread,7.6878
+yrd,3,11,Source-affine,S3 condition coverage,9.0441
+yrd,3,11,Source-affine,S4 target-aware,7.4951
+yrd,3,11,Best local six,S0 last consecutive,8.5579
+yrd,3,11,Best local six,S1 random,7.6655
+yrd,3,11,Best local six,S2 season-spread,7.4329
+yrd,3,11,Best local six,S3 condition coverage,8.8571
+yrd,3,11,Best local six,S4 target-aware,7.3262
+yrd,6,5,Direct,(no labels),6.2505
+yrd,6,5,ECA-S,S0 last consecutive,6.4970
+yrd,6,5,ECA-S,S1 random,6.3298
+yrd,6,5,ECA-S,S2 season-spread,6.3966
+yrd,6,5,ECA-S,S3 condition coverage,6.5373
+yrd,6,5,ECA-S,S4 target-aware,6.1351
+yrd,6,5,ECA-R,S0 last consecutive,6.7070
+yrd,6,5,ECA-R,S1 random,7.1443
+yrd,6,5,ECA-R,S2 season-spread,7.2628
+yrd,6,5,ECA-R,S3 condition coverage,7.5105
+yrd,6,5,ECA-R,S4 target-aware,6.7552
+yrd,6,5,Source-affine,S0 last consecutive,6.7058
+yrd,6,5,Source-affine,S1 random,7.7153
+yrd,6,5,Source-affine,S2 season-spread,7.7116
+yrd,6,5,Source-affine,S3 condition coverage,7.8906
+yrd,6,5,Source-affine,S4 target-aware,7.2348
+yrd,6,5,Best local six,S0 last consecutive,8.6297
+yrd,6,5,Best local six,S1 random,7.6853
+yrd,6,5,Best local six,S2 season-spread,7.8264
+yrd,6,5,Best local six,S3 condition coverage,7.7392
+yrd,6,5,Best local six,S4 target-aware,7.5008
+yrd,6,11,Direct,(no labels),6.2302
+yrd,6,11,ECA-S,S0 last consecutive,6.5768
+yrd,6,11,ECA-S,S1 random,6.3074
+yrd,6,11,ECA-S,S2 season-spread,6.3265
+yrd,6,11,ECA-S,S3 condition coverage,6.7391
+yrd,6,11,ECA-S,S4 target-aware,6.3177
+yrd,6,11,ECA-R,S0 last consecutive,6.6178
+yrd,6,11,ECA-R,S1 random,6.6802
+yrd,6,11,ECA-R,S2 season-spread,6.7204
+yrd,6,11,ECA-R,S3 condition coverage,7.2720
+yrd,6,11,ECA-R,S4 target-aware,6.6346
+yrd,6,11,Source-affine,S0 last consecutive,6.5354
+yrd,6,11,Source-affine,S1 random,7.1160
+yrd,6,11,Source-affine,S2 season-spread,7.1115
+yrd,6,11,Source-affine,S3 condition coverage,7.4784
+yrd,6,11,Source-affine,S4 target-aware,6.8295
+yrd,6,11,Best local six,S0 last consecutive,7.3150
+yrd,6,11,Best local six,S1 random,7.2345
+yrd,6,11,Best local six,S2 season-spread,7.2723
+yrd,6,11,Best local six,S3 condition coverage,7.0721
+yrd,6,11,Best local six,S4 target-aware,7.1628
+aus,3,3,Direct,(no labels),14.4564
+aus,3,3,ECA-S,S0 last consecutive,10.8066
+aus,3,3,ECA-S,S1 random,9.7290
+aus,3,3,ECA-S,S2 season-spread,9.7153
+aus,3,3,ECA-S,S3 condition coverage,10.2027
+aus,3,3,ECA-S,S4 target-aware,9.3788
+aus,3,3,ECA-R,S0 last consecutive,1.5054
+aus,3,3,ECA-R,S1 random,2.2132
+aus,3,3,ECA-R,S2 season-spread,2.2825
+aus,3,3,ECA-R,S3 condition coverage,2.0327
+aus,3,3,ECA-R,S4 target-aware,2.4821
+aus,3,3,Source-affine,S0 last consecutive,1.4691
+aus,3,3,Source-affine,S1 random,2.6820
+aus,3,3,Source-affine,S2 season-spread,2.7063
+aus,3,3,Source-affine,S3 condition coverage,4.0929
+aus,3,3,Source-affine,S4 target-aware,2.3388
+aus,3,3,Best local six,S0 last consecutive,1.3546
+aus,3,3,Best local six,S1 random,2.3628
+aus,3,3,Best local six,S2 season-spread,2.3496
+aus,3,3,Best local six,S3 condition coverage,3.1438
+aus,3,3,Best local six,S4 target-aware,2.0786
+aus,3,5,Direct,(no labels),14.4003
+aus,3,5,ECA-S,S0 last consecutive,9.7456
+aus,3,5,ECA-S,S1 random,8.1936
+aus,3,5,ECA-S,S2 season-spread,8.0901
+aus,3,5,ECA-S,S3 condition coverage,8.4469
+aus,3,5,ECA-S,S4 target-aware,7.8102
+aus,3,5,ECA-R,S0 last consecutive,1.4631
+aus,3,5,ECA-R,S1 random,2.1263
+aus,3,5,ECA-R,S2 season-spread,2.0238
+aus,3,5,ECA-R,S3 condition coverage,1.7831
+aus,3,5,ECA-R,S4 target-aware,2.6805
+aus,3,5,Source-affine,S0 last consecutive,1.4493
+aus,3,5,Source-affine,S1 random,2.5822
+aus,3,5,Source-affine,S2 season-spread,2.5598
+aus,3,5,Source-affine,S3 condition coverage,3.9875
+aus,3,5,Source-affine,S4 target-aware,2.5235
+aus,3,5,Best local six,S0 last consecutive,1.3395
+aus,3,5,Best local six,S1 random,2.1288
+aus,3,5,Best local six,S2 season-spread,2.1877
+aus,3,5,Best local six,S3 condition coverage,2.4702
+aus,3,5,Best local six,S4 target-aware,2.1455
+aus,6,3,Direct,(no labels),14.4564
+aus,6,3,ECA-S,S0 last consecutive,7.7521
+aus,6,3,ECA-S,S1 random,8.1682
+aus,6,3,ECA-S,S2 season-spread,8.0884
+aus,6,3,ECA-S,S3 condition coverage,8.3928
+aus,6,3,ECA-S,S4 target-aware,7.8200
+aus,6,3,ECA-R,S0 last consecutive,1.5630
+aus,6,3,ECA-R,S1 random,2.2094
+aus,6,3,ECA-R,S2 season-spread,2.0999
+aus,6,3,ECA-R,S3 condition coverage,2.6607
+aus,6,3,ECA-R,S4 target-aware,2.7079
+aus,6,3,Source-affine,S0 last consecutive,1.4672
+aus,6,3,Source-affine,S1 random,2.7224
+aus,6,3,Source-affine,S2 season-spread,2.5926
+aus,6,3,Source-affine,S3 condition coverage,4.0476
+aus,6,3,Source-affine,S4 target-aware,2.6568
+aus,6,3,Best local six,S0 last consecutive,1.4250
+aus,6,3,Best local six,S1 random,2.2670
+aus,6,3,Best local six,S2 season-spread,2.1322
+aus,6,3,Best local six,S3 condition coverage,2.7612
+aus,6,3,Best local six,S4 target-aware,2.2718
+aus,6,5,Direct,(no labels),14.4003
+aus,6,5,ECA-S,S0 last consecutive,6.1740
+aus,6,5,ECA-S,S1 random,6.6780
+aus,6,5,ECA-S,S2 season-spread,6.5740
+aus,6,5,ECA-S,S3 condition coverage,6.7957
+aus,6,5,ECA-S,S4 target-aware,6.0528
+aus,6,5,ECA-R,S0 last consecutive,1.4967
+aus,6,5,ECA-R,S1 random,2.0255
+aus,6,5,ECA-R,S2 season-spread,1.9606
+aus,6,5,ECA-R,S3 condition coverage,2.4196
+aus,6,5,ECA-R,S4 target-aware,2.2812
+aus,6,5,Source-affine,S0 last consecutive,1.4246
+aus,6,5,Source-affine,S1 random,2.5665
+aus,6,5,Source-affine,S2 season-spread,2.4834
+aus,6,5,Source-affine,S3 condition coverage,3.8584
+aus,6,5,Source-affine,S4 target-aware,2.2713
+aus,6,5,Best local six,S0 last consecutive,1.3917
+aus,6,5,Best local six,S1 random,2.0192
+aus,6,5,Best local six,S2 season-spread,1.9917
+aus,6,5,Best local six,S3 condition coverage,2.4618
+aus,6,5,Best local six,S4 target-aware,1.8555
+locked,3,5,Direct,(no labels),13.5472
+locked,3,5,ECA-S,S0 last consecutive,12.1235
+locked,3,5,ECA-S,S1 random,12.5855
+locked,3,5,ECA-S,S2 season-spread,12.4752
+locked,3,5,ECA-S,S3 condition coverage,12.2224
+locked,3,5,ECA-S,S4 target-aware,12.4617
+locked,3,5,ECA-R,S0 last consecutive,12.1784
+locked,3,5,ECA-R,S1 random,13.2335
+locked,3,5,ECA-R,S2 season-spread,12.9737
+locked,3,5,ECA-R,S3 condition coverage,12.9775
+locked,3,5,ECA-R,S4 target-aware,13.1968
+locked,3,5,Source-affine,S0 last consecutive,12.6225
+locked,3,5,Source-affine,S1 random,13.5207
+locked,3,5,Source-affine,S2 season-spread,13.3990
+locked,3,5,Source-affine,S3 condition coverage,13.3542
+locked,3,5,Source-affine,S4 target-aware,13.5727
+locked,3,5,Best local six,S0 last consecutive,15.1046
+locked,3,5,Best local six,S1 random,13.8813
+locked,3,5,Best local six,S2 season-spread,13.5952
+locked,3,5,Best local six,S3 condition coverage,13.5318
+locked,3,5,Best local six,S4 target-aware,13.7711
+locked,3,11,Direct,(no labels),13.4803
+locked,3,11,ECA-S,S0 last consecutive,11.9768
+locked,3,11,ECA-S,S1 random,12.5382
+locked,3,11,ECA-S,S2 season-spread,12.5598
+locked,3,11,ECA-S,S3 condition coverage,12.5181
+locked,3,11,ECA-S,S4 target-aware,12.7377
+locked,3,11,ECA-R,S0 last consecutive,12.0380
+locked,3,11,ECA-R,S1 random,12.8145
+locked,3,11,ECA-R,S2 season-spread,12.8382
+locked,3,11,ECA-R,S3 condition coverage,13.1171
+locked,3,11,ECA-R,S4 target-aware,12.9937
+locked,3,11,Source-affine,S0 last consecutive,12.3220
+locked,3,11,Source-affine,S1 random,13.0911
+locked,3,11,Source-affine,S2 season-spread,13.0737
+locked,3,11,Source-affine,S3 condition coverage,13.1194
+locked,3,11,Source-affine,S4 target-aware,13.2956
+locked,3,11,Best local six,S0 last consecutive,14.9004
+locked,3,11,Best local six,S1 random,13.3251
+locked,3,11,Best local six,S2 season-spread,13.3443
+locked,3,11,Best local six,S3 condition coverage,13.1605
+locked,3,11,Best local six,S4 target-aware,13.2578
+locked,6,5,Direct,(no labels),13.5472
+locked,6,5,ECA-S,S0 last consecutive,12.1898
+locked,6,5,ECA-S,S1 random,12.5185
+locked,6,5,ECA-S,S2 season-spread,12.4643
+locked,6,5,ECA-S,S3 condition coverage,12.3101
+locked,6,5,ECA-S,S4 target-aware,12.4086
+locked,6,5,ECA-R,S0 last consecutive,12.2790
+locked,6,5,ECA-R,S1 random,12.9408
+locked,6,5,ECA-R,S2 season-spread,12.7952
+locked,6,5,ECA-R,S3 condition coverage,12.6141
+locked,6,5,ECA-R,S4 target-aware,12.7517
+locked,6,5,Source-affine,S0 last consecutive,12.6257
+locked,6,5,Source-affine,S1 random,13.0544
+locked,6,5,Source-affine,S2 season-spread,12.9941
+locked,6,5,Source-affine,S3 condition coverage,12.9401
+locked,6,5,Source-affine,S4 target-aware,13.0955
+locked,6,5,Best local six,S0 last consecutive,13.2694
+locked,6,5,Best local six,S1 random,13.7213
+locked,6,5,Best local six,S2 season-spread,13.5540
+locked,6,5,Best local six,S3 condition coverage,13.2123
+locked,6,5,Best local six,S4 target-aware,13.4479
+locked,6,11,Direct,(no labels),13.4803
+locked,6,11,ECA-S,S0 last consecutive,12.1202
+locked,6,11,ECA-S,S1 random,12.6666
+locked,6,11,ECA-S,S2 season-spread,12.6731
+locked,6,11,ECA-S,S3 condition coverage,12.3410
+locked,6,11,ECA-S,S4 target-aware,12.8316
+locked,6,11,ECA-R,S0 last consecutive,12.1890
+locked,6,11,ECA-R,S1 random,12.8063
+locked,6,11,ECA-R,S2 season-spread,12.7987
+locked,6,11,ECA-R,S3 condition coverage,12.4674
+locked,6,11,ECA-R,S4 target-aware,12.8642
+locked,6,11,Source-affine,S0 last consecutive,12.6487
+locked,6,11,Source-affine,S1 random,12.9527
+locked,6,11,Source-affine,S2 season-spread,12.9256
+locked,6,11,Source-affine,S3 condition coverage,12.8383
+locked,6,11,Source-affine,S4 target-aware,13.0302
+locked,6,11,Best local six,S0 last consecutive,13.0262
+locked,6,11,Best local six,S1 random,13.0493
+locked,6,11,Best local six,S2 season-spread,13.0186
+locked,6,11,Best local six,S3 condition coverage,12.6347
+locked,6,11,Best local six,S4 target-aware,12.7607

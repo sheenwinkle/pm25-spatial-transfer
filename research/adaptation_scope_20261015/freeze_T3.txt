@@ -1,0 +1,11 @@
+2026-10-14T19:56:51Z
+0243e1bce9c9ed57cbcd0890ba7ae8e9  PROTOCOL.md
+3ad7eb55385e55f95bfbe07a245216cc  regions.json
+b77a8610afdc0a69ea1962e5c721e746  adapt_lib.py
+a2a0e7ad0734c076ac1c2dfbae3d1206  meta_learn.py
+9e66ba9da162c153c6c1a23e98890040  meta_learn2.py
+d1ec053e491739bd95e4b727df0bb23f  run_q1.py
+d7de28eb5f7e739841fa1ffe2bf625a3  run_q2.py
+9b6f599f79c6772de613d14b8d9b0419  summarise.py
+b64a4b90ac5bb50e954da4867fcc428a  meta/theta.json
+c69d8342f642b239d28157b92ac37a54  meta/theta2.json

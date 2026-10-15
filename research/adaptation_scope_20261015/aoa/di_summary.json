@@ -1,0 +1,26 @@
+{
+ "T1 rest of China -> YRD": {
+  "threshold": 0.315,
+  "source_outside": 0.0376,
+  "target_median_di": 0.161,
+  "target_outside": 0.042,
+  "target_rows": 3453,
+  "target_fuas": 43
+ },
+ "T2 China -> Australia": {
+  "threshold": 0.316,
+  "source_outside": 0.038,
+  "target_median_di": 0.543,
+  "target_outside": 0.7987,
+  "target_rows": 780,
+  "target_fuas": 11
+ },
+ "T3 China without region 8 -> region 8": {
+  "threshold": 0.317,
+  "source_outside": 0.0364,
+  "target_median_di": 0.274,
+  "target_outside": 0.3141,
+  "target_rows": 2308,
+  "target_fuas": 25
+ }
+}

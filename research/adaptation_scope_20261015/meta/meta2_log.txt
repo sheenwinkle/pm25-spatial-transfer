@@ -1,0 +1,17 @@
+region 0: 44 eligible FUAs, source rows 23964, tasks so far 24
+region 1: 14 eligible FUAs, source rows 26710, tasks so far 48
+region 2: 38 eligible FUAs, source rows 24470, tasks so far 72
+region 3: 27 eligible FUAs, source rows 25431, tasks so far 96
+region 4: 42 eligible FUAs, source rows 24172, tasks so far 120
+region 5: 45 eligible FUAs, source rows 23802, tasks so far 144
+region 6: 17 eligible FUAs, source rows 26532, tasks so far 168
+region 7: 27 eligible FUAs, source rows 25551, tasks so far 192
+region 9: 40 eligible FUAs, source rows 24152, tasks so far 216
+216 pseudo-transfer tasks; direct transfer has objective 0 by definition
+source-affine (thesis) objective: 0.0853
+held-out regions [0, 3, 6]: train -0.1595, held-out -0.1137
+held-out regions [1, 4, 7]: train -0.1626, held-out -0.1536
+held-out regions [2, 5, 9]: train -0.2050, held-out -0.0388
+ARD: objective -0.1646 (mean MSE ratio to direct 0.848); aa 0.002 ab 2.303 ag 5.357 an 11.439; length-scales {'monthly_power_temperature_c': np.float64(1.4), 'temp_range': np.float64(4.45), 'monthly_power_humidity_pct': np.float64(148.41), 'monthly_power_wind_mps': np.float64(2.25), 'monthly_power_precip_mm_day': np.float64(4.22), 'log_fire_count_100km': np.float64(1.57), 'local_season_sin': np.float64(2.89), 'local_season_cos': np.float64(148.41)}
+isotropic: objective -0.1421 (mean MSE ratio to direct 0.868); aa 0.002 ab 0.245 ag 0.587 an 1.246; length-scales {'monthly_power_temperature_c': np.float64(2.2), 'temp_range': np.float64(2.2), 'monthly_power_humidity_pct': np.float64(2.2), 'monthly_power_wind_mps': np.float64(2.2), 'monthly_power_precip_mm_day': np.float64(2.2), 'log_fire_count_100km': np.float64(2.2), 'local_season_sin': np.float64(2.2), 'local_season_cos': np.float64(2.2)}
+affine: objective -0.0991 (mean MSE ratio to direct 0.906); aa 0.091 ab 0.084 ag 0.000 an 0.419
