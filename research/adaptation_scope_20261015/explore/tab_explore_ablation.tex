@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Where to adapt by condition group (exploratory). The ECA-S prior is re-learnt without one group of conditions and compared with the full prior on the 216 within-China pseudo-transfers, each region held out in turn as in the region cross-validation of Section~\ref{eca-method}. Entries are the mean paired RMSE reduction (\%) of the full prior over the reduced prior on the held-out tasks, with a 95\% interval from 1,000 bootstrap draws of the nine regions, and the number of regions in which the full prior is more accurate; positive values mean that the removed group carries useful correction.}
+\label{tab:explore-ablation}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{0.52\linewidth}rr@{}}
+\toprule
+Removed group & Full prior better by (\%) & Regions \\
+\midrule
+Meteorology (temperature, diurnal range, humidity, wind, precipitation) & 0.1 [$-$1.1, 1.5] & 4/9 \\
+Fire (log fire count within 100 km) & $-$0.2 [$-$2.2, 1.7] & 5/9 \\
+Season (local-season sine and cosine) & $-$0.5 [$-$1.5, 0.3] & 4/9 \\
+All conditions (level and scale only) & 0.5 [$-$1.2, 2.3] & 4/9 \\
+\bottomrule
+\end{tabular}
+\end{table}

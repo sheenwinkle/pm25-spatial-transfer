@@ -1,0 +1,31 @@
+region 0: tasks so far 24
+region 1: tasks so far 48
+region 2: tasks so far 72
+region 3: tasks so far 96
+region 4: tasks so far 120
+region 5: tasks so far 144
+region 6: tasks so far 168
+region 7: tasks so far 192
+region 9: tasks so far 216
+tasks identical to meta/meta2_tasks.csv: True
+full           held-out [0, 3, 6]: -0.1139  (182s)
+full           held-out [1, 4, 7]: -0.1536  (330s)
+full           held-out [2, 5, 9]: -0.0388  (436s)
+no meteorology held-out [0, 3, 6]: -0.1494  (490s)
+no meteorology held-out [1, 4, 7]: -0.1361  (548s)
+no meteorology held-out [2, 5, 9]: -0.0086  (594s)
+no fire        held-out [0, 3, 6]: -0.0970  (732s)
+no fire        held-out [1, 4, 7]: -0.1116  (835s)
+no fire        held-out [2, 5, 9]: -0.1027  (918s)
+no season      held-out [0, 3, 6]: -0.1467  (1011s)
+no season      held-out [1, 4, 7]: -0.1574  (1092s)
+no season      held-out [2, 5, 9]: -0.0305  (1199s)
+no conditions  held-out [0, 3, 6]: -0.1069  (1204s)
+no conditions  held-out [1, 4, 7]: -0.0817  (1207s)
+no conditions  held-out [2, 5, 9]: -0.0728  (1210s)
+full {"held_out_objective_by_fold": [-0.1139, -0.1536, -0.0388], "mean_gain_vs_direct": 3.79}
+no meteorology {"held_out_objective_by_fold": [-0.1494, -0.1361, -0.0086], "mean_gain_vs_direct": 3.4, "full_vs_variant_gain": 0.09, "lo": -1.14, "hi": 1.49, "tasks_full_better": 104, "tasks": 216, "regions_full_better": 4, "regions": 9, "by_region": {"0": -1.53, "1": 0.03, "2": 0.99, "3": -2.02, "4": -1.18, "5": 3.29, "6": -2.32, "7": 3.56, "9": -0.01}}
+no fire {"held_out_objective_by_fold": [-0.097, -0.1116, -0.1027], "mean_gain_vs_direct": 4.1, "full_vs_variant_gain": -0.2, "lo": -2.22, "hi": 1.67, "tasks_full_better": 116, "tasks": 216, "regions_full_better": 5, "regions": 9, "by_region": {"0": -0.72, "1": 0.51, "2": -5.71, "3": 1.55, "4": 4.09, "5": -4.03, "6": 1.62, "7": 1.41, "9": -0.54}}
+no season {"held_out_objective_by_fold": [-0.1467, -0.1574, -0.0305], "mean_gain_vs_direct": 4.3, "full_vs_variant_gain": -0.49, "lo": -1.51, "hi": 0.33, "tasks_full_better": 111, "tasks": 216, "regions_full_better": 4, "regions": 9, "by_region": {"0": -0.32, "1": 0.37, "2": -0.07, "3": -0.92, "4": 0.89, "5": 0.26, "6": -3.82, "7": -1.88, "9": 1.05}}
+no conditions {"held_out_objective_by_fold": [-0.1069, -0.0817, -0.0728], "mean_gain_vs_direct": 3.48, "full_vs_variant_gain": 0.52, "lo": -1.18, "hi": 2.33, "tasks_full_better": 126, "tasks": 216, "regions_full_better": 4, "regions": 9, "by_region": {"0": -1.81, "1": 5.5, "2": -2.53, "3": 1.37, "4": 4.61, "5": -0.56, "6": 1.01, "7": -0.39, "9": -2.5}}
+full CV reproduces theta2 region_cv: False

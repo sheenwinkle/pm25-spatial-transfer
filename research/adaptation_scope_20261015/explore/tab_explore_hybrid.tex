@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Which months to label: the hybrid strategy (exploratory). Each labelled FUA receives its $\lfloor m/2\rfloor$ most recent months of 2020 and the remaining months by target-aware coverage. Entries are mean paired RMSE reductions (\%) of the hybrid over the last $m$ months (S0) and over random months (S1), with 95\% crossed bootstrap intervals; positive values favour the hybrid.}
+\label{tab:explore-hybrid}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llllll@{}}
+\toprule
+ & & \multicolumn{2}{c}{Hybrid vs last months} & \multicolumn{2}{c}{Hybrid vs random months} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Target & Estimator & $m=3$ & $m=6$ & $m=3$ & $m=6$ \\
+\midrule
+T1 YRD, $k=5$ & Source-affine & $-$34.7 [$-$60.4, $-$17.8] & 2.3 [1.3, 3.0] & $-$2.0 [$-$8.1, 4.9] & 15.1 [8.3, 23.3] \\
+ & ECA-R & $-$18.4 [$-$39.9, 0.3] & 5.4 [0.9, 7.9] & $-$10.4 [$-$21.1, 1.7] & 11.5 [4.0, 19.9] \\
+ & ECA-S & $-$8.5 [$-$20.8, 5.8] & 3.1 [$-$0.8, 5.3] & $-$14.2 [$-$21.4, $-$4.8] & 0.4 [$-$4.9, 7.1] \\
+\addlinespace
+T3 north-west China, $k=5$ & Source-affine & $-$3.9 [$-$8.6, 6.3] & $-$0.4 [$-$5.2, 2.9] & 3.0 [1.2, 7.6] & 2.8 [1.4, 5.5] \\
+ & ECA-R & $-$5.9 [$-$10.6, 0.6] & $-$2.5 [$-$6.4, 0.6] & 2.6 [$-$0.2, 8.5] & 2.6 [0.3, 6.1] \\
+ & ECA-S & $-$2.4 [$-$6.8, 2.8] & $-$2.1 [$-$5.7, 3.0] & 1.4 [$-$0.4, 4.7] & 0.6 [$-$2.7, 3.5] \\
+\addlinespace
+T2 Australia, $k=3$ & Source-affine & $-$7.9 [$-$15.4, $-$2.5] & $-$18.0 [$-$34.9, $-$3.6] & 36.9 [31.9, 42.3] & 35.7 [30.8, 40.5] \\
+ & ECA-R & $-$10.7 [$-$23.5, 0.0] & $-$9.6 [$-$24.2, 1.8] & 22.5 [10.7, 35.7] & 21.4 [9.8, 31.9] \\
+ & ECA-S & 16.4 [12.9, 21.0] & 2.0 [$-$0.8, 4.5] & 7.0 [4.9, 9.4] & 7.0 [4.6, 9.9] \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
