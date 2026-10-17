@@ -88,7 +88,7 @@ assert all(x.lo > 0 for x in v)
 v = [G(L, "historyN", c, k, "ECA2 vs Direct").gain for c in ("M3", "M6", "M12") for k in (5, 11)]
 check("T3 ECA-S vs direct stale range", f"by {rng(v)}\\%, but has")
 r = G(L, "historyN", "M3", 5, "ECA2 vs Source-affine")
-check("T3 ECA-S vs affine stale", f"has {abs(r.gain):.1f}\\% higher RMSE than source-affine with three months at five FUAs (interval {f1(r.lo)} to {f1(r.hi)})")
+check("T3 ECA-S vs affine stale", f"has {abs(r.gain):.1f}\\% higher RMSE than source-affine with three months at five FUAs (interval {f1(-r.hi)} to {f1(-r.lo)})")
 # ---- YRD development
 check("T1 direct", f"({M('yrd', 'history', 'M3', 5, 'Direct'):.2f} at \\(k=5\\))")
 a = arch[(arch.task == "yrd") & (arch.cell == "M3") & (arch.comparison == "Direct vs NNW[LDF] (archived)")]
@@ -97,7 +97,7 @@ check("T1 direct vs NNW k5", f"by {a5.gain:.1f}\\% (20 of 20 splits)"); assert a
 check("T1 direct vs NNW k11", f"{a11.gain:.1f}\\% ({int(a11.wins)}/20)")
 check("abstract direct vs NNW", f"relative to NNW[LDF] by {a5.gain:.1f}\\% (20 of 20 splits)")
 r = G("yrd", "history", "M3", 5, "Source-affine vs Direct")
-check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(r.lo)} to {f1(r.hi)})")
+check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(-r.hi)} to {f1(-r.lo)})")
 check("T1 ECA-S m3", f"transfer ({M('yrd', 'history', 'M3', 5, 'ECA2'):.2f}) and is lower with twelve months ({M('yrd', 'history', 'M12', 5, 'ECA2'):.2f})")
 check("T1 2019 window", f"source-affine has RMSE {M('yrd', 'window', '2019Q4', 5, 'Source-affine'):.2f}, ECA-S has {M('yrd', 'window', '2019Q4', 5, 'ECA2'):.2f}, a reduction of " + gi(G("yrd", "window", "2019Q4", 5, "ECA2 vs Source-affine")).replace("\\%", "\\%"))
 # ---- Australia
@@ -126,7 +126,7 @@ check("abl MAP", f"({rng(v)}\\%)")
 check("abl ECA-R meta", f"by {rng([G(L, 'historyN', 'M3', k, 'ECA-fixed vs ECA-no-meta').gain for k in (5, 11)])}\\% with three")
 v = [G(L, "historyN", "M3", k, "ECA-fixed vs ECA-unbounded").gain for k in (5, 11)]
 results.append(("abl ECA-R bound doubles", all(1.8 < 1 / (1 - x / 100) < 2.3 for x in v), str(v)))
-check("abl T1", f"({f1(G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-affine').gain)}\\%), while meta-learning and the bound do ({G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-no-meta').gain:.1f}\\% and {G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-unbounded').gain:.1f}\\%)")
+check("abl T1", f"({f1(G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-affine').gain)}\\%), while meta-learning and strong shrinkage do ({G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-no-meta').gain:.1f}\\% and {G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-unbounded').gain:.1f}\\%)")
 # ---- label selection
 d = q2m[(q2m.task == "aus") & (q2m.m == 3) & (q2m.k == 3) & (q2m.method == "Source-affine")].set_index("strategy").mean_rmse
 others = [d[s] for s in d.index if not s.startswith("S0")]
@@ -174,8 +174,91 @@ for task in ("yrd", "locked", "aus"):
     P = P.drop_duplicates(["eFUA_ID", "t"])
     lev[task] = (P.Direct.mean() - P.observed.mean(), P.observed.mean())
 check("levels", f"by {lev['yrd'][0]:.1f}~\\(\\mu\\)g/m\\(^3\\) in the YRD, {lev['locked'][0]:.1f} in north-west China and {lev['aus'][0]:.1f} in Australia (observed means {lev['yrd'][1]:.1f}, {lev['locked'][1]:.1f} and {lev['aus'][1]:.1f})")
+# ---- exploratory distance check over the nine development regions (aoa/distance_check.json, added after T3)
+dist = json.loads((A / "aoa/distance_check.json").read_text())
+dr = {x["region"]: x for x in dist["regions"]}
+xj, yt = dr[1], dr[6]
+rest = [x for k_, x in dr.items() if k_ not in (1, 6)]
+results.append(("dist Xinjiang only region wholly outside",
+                xj["outside_pct"] == 100 and all(x["outside_pct"] < 100 for k_, x in dr.items() if k_ != 1), ""))
+results.append(("dist other seven lose", all(x["gain_pct"] < 0 for x in rest) and xj["gain_pct"] > 0 and yt["gain_pct"] > 0,
+                str([x["gain_pct"] for x in rest])))
+check("dist Xinjiang", f"regions' area of applicability ({xj['gain_pct']:.1f}\\%, {xj['wins']} of {xj['tasks']} pseudo-transfers)")
+check("dist Yunnan-Tibet", f"in Yunnan and Tibet ({yt['gain_pct']:.1f}\\%, {yt['wins']}/{yt['tasks']}, with {yt['outside_pct']:.1f}\\% outside)")
+check("dist other seven", f"with {min(x['outside_pct'] for x in rest):.1f}--{max(x['outside_pct'] for x in rest):.1f}\\% outside, its mean gain ranged from {f1(min(x['gain_pct'] for x in rest))}\\% to {f1(max(x['gain_pct'] for x in rest))}\\%")
+check("dist rank correlation", f"is {dist['spearman_rho']:.2f} (\\(p={dist['spearman_p']:.2f}\\))")
+for x in dist["regions"]:
+    check(f"dist table {x['region']}", f"{x['label']} & {x['eligible_fuas']} & {x['outside_pct']:.1f} & {x['median_di']:.2f} & {f1(x['gain_pct'])} & {x['wins']}/{x['tasks']} \\\\")
+# ---- exploratory checks after T3 (explore/)
+E = A / "explore"
+abl = json.loads((E / "ablation_summary.json").read_text())["variants"]
+mech = json.loads((E / "mechanism.json").read_text())
+ovl = json.loads((E / "condition_overlap.json").read_text())
+hyb = pd.read_csv(E / "hybrid_gains.csv")
+groups = [abl[v]["full_vs_variant_gain"] for v in ("no meteorology", "no fire", "no season")]
+results.append(("explore groups within 0.5", max(abs(round(x, 1)) for x in groups) <= 0.5, str(groups)))
+results.append(("explore all intervals include zero",
+                all(abl[v]["lo"] < 0 < abl[v]["hi"] for v in abl if v != "full"), ""))
+nc = abl["no conditions"]
+check("explore no conditions", f"condition term by {f1(nc['full_vs_variant_gain'])}\\% [{f1(nc['lo'])}, {f1(nc['hi'])}]")
+W = pd.read_csv(A / "results/aus_window_predictions.csv.gz")
+W = W[(W.cell == "2019Q4") & (W.k == 5)]
+check("explore fire excess", f"by {(W['Source-affine'] - W.observed).mean():.1f}~\\(\\mu\\)g/m\\(^3\\) on average; the "
+      f"correction lowers this excess to {(W['ECA-fixed'] - W.observed).mean():.1f}")
+ws = mech["window_scan"]
+check("explore window ranges", f"from {ws['yrd']['Source-affine']['min']:.2f} to {ws['yrd']['Source-affine']['max']:.2f}"
+      f"~\\(\\mu\\)g/m\\(^3\\) in the YRD, from {ws['locked']['Source-affine']['min']:.2f} to "
+      f"{ws['locked']['Source-affine']['max']:.2f} in north-west China and from {ws['aus']['Source-affine']['min']:.2f}"
+      f" to {ws['aus']['Source-affine']['max']:.2f} in Australia")
+rk = [ws[t][mm]["rank_last"] for t in ("yrd", "locked", "aus") for mm in ("Source-affine", "ECA-R")]
+results.append(("explore latest window among four best", max(rk) <= 4, str(rk)))
+rhos = [ws[t][mm]["spearman_rho"] for t in ("yrd", "locked", "aus") for mm in ("Source-affine", "ECA-R")]
+results.append(("explore rank correlations negative", max(rhos) < 0, str(rhos)))
+check("explore rank correlations", f"rank correlations $-${abs(max(rhos)):.2f} to $-${abs(min(rhos)):.2f}")
+check("explore ECA-S window ranges", f"({ws['yrd']['ECA-S']['min']:.2f}--{ws['yrd']['ECA-S']['max']:.2f} in the YRD, "
+      f"{ws['locked']['ECA-S']['min']:.2f}--{ws['locked']['ECA-S']['max']:.2f} in north-west China)")
+h0 = hyb[hyb.comparison == "H vs S0"]; h1 = hyb[hyb.comparison == "H vs S1"]
+n_pos0, n_neg0 = int((h0.lo > 0).sum()), int((h0.hi < 0).sum())
+n_pos1, n_neg1 = int((h1.lo > 0).sum()), int((h1.hi < 0).sum())
+results.append(("explore hybrid beats random months in most cells", n_pos1 > len(h1) / 2 and n_neg1 < n_pos1,
+                f"{n_pos1}/{len(h1)} better, {n_neg1} worse"))
+check("explore hybrid counts appendix", f"improves on the latest months with an interval above zero in {n_pos0} and "
+      f"loses in {n_neg0}, and improves on random months in {n_pos1} and loses in {n_neg1}")
+pos = h0[h0.lo > 0]
+results.append(("explore hybrid positive cells", set(map(tuple, pos[["task", "m"]].drop_duplicates().to_numpy()))
+                <= {("yrd", 6), ("aus", 3), ("aus", 6)} and set(pos[pos.task == "aus"].method) == {"ECA-S"}
+                and set(pos[pos.task == "yrd"].method) <= {"Source-affine", "ECA-R"}, pos.to_string()))
+yp = pos[pos.task == "yrd"].gain
+NUM = "zero one two three four five six seven eight nine".split()
+check("explore hybrid YRD six months", f"The {NUM[n_pos0]} improvements are for source-affine and ECA-R in the YRD with "
+      f"six months, by {yp.min():.1f}--{yp.max():.1f}\\%")
+check("explore hybrid YRD three months", f"The losses reach {abs(h0[(h0.task == 'yrd') & (h0.m == 3)].gain.min()):.1f}\\% "
+      f"in the YRD with three months")
+aus_sa = h0[(h0.task == "aus") & (h0.method == "Source-affine")]
+results.append(("explore hybrid AUS source-affine losses resolved", bool((aus_sa.hi < 0).all()), ""))
+check("explore hybrid AUS", f"{abs(aus_sa.gain.max()):.1f}--{abs(aus_sa.gain.min()):.1f}\\% for source-affine in "
+      f"Australia")
+b = mech["bias"]
+check("explore bias by year", "".join([
+    f"was {f1(b['yrd']['mean_bias_2019'])}, {f1(b['yrd']['mean_bias_2020'])} and {f1(b['yrd']['test_mean_bias'])}",
+    f"~\\(\\mu\\)g/m\\(^3\\) in 2019, 2020 and 2021--2022 in the YRD, {f1(b['locked']['mean_bias_2019'])}, ",
+    f"{f1(b['locked']['mean_bias_2020'])} and {f1(b['locked']['test_mean_bias'])} in north-west China, and ",
+    f"{f1(b['aus']['mean_bias_2019'])}, {f1(b['aus']['mean_bias_2020'])} and {f1(b['aus']['test_mean_bias'])} in "
+    f"Australia"]))
+check("explore bias subsets", f"than that of {100 * b['yrd']['m3_share_random_subsets_with_larger_gap']:.0f}\\%, "
+      f"{100 * b['locked']['m3_share_random_subsets_with_larger_gap']:.0f}\\% and "
+      f"{100 * b['aus']['m3_share_random_subsets_with_larger_gap']:.0f}\\%")
+fr = mech["fire"]
+check("explore fire medians", f"median log fire count is {fr['median_log_fire_label']:.2f} in the label months and "
+      f"{fr['median_log_fire_test']:.2f} in the test months, and {100 * fr['share_test_rows_below_label_median']:.1f}\\% "
+      f"of test rows")
+check("explore overlap", f"\\(R^2\\) of {ovl['monthly_power_temperature_c']:.2f} and {ovl['local_season_cos']:.2f}")
+for name in ("ablation", "windows", "hybrid"):
+    for line in (E / f"tab_explore_{name}.tex").read_text(encoding="utf-8").splitlines():
+        if "&" in line:
+            check(f"explore table {name}", line)
 # ---- appendix counts
-conf = [("history", "ECA2 vs Direct"), ("history", "ECA2 vs Source-affine"), ("history", "Source-affine vs Direct"),
+conf =[("history", "ECA2 vs Direct"), ("history", "ECA2 vs Source-affine"), ("history", "Source-affine vs Direct"),
         ("historyN", "ECA-fixed vs Source-affine"), ("historyN", "ECA-fixed vs Direct"), ("historyN", "ECA2 vs Direct")]
 rows = [G(L, d_, c, k, comp) for d_, comp in conf for c in ("M3", "M6", "M12") for k in (5, 11)]
 imp = sum(r.lo > 0 for r in rows); loss = sum(r.hi < 0 for r in rows)
@@ -185,8 +268,27 @@ lab = [Q2(L, mm, k, meth, comp) for mm in (3, 6) for k in (5, 11) for meth in ("
        for comp in ("S4 target-aware vs S0 last consecutive", "S4 target-aware vs S1 random")]
 results.append(("appendix label counts", sum(r.lo > 0 for r in lab) == 0 and sum(r.hi < 0 for r in lab) == 2,
                 f"{sum(r.lo > 0 for r in lab)} / {sum(r.hi < 0 for r in lab)}"))
+# --- review fixes (17 October 2026): Australian label budget and matched-budget sensitivity
+sel = pd.read_csv(A / "results" / "aus_q2_selected.csv")
+s0 = sel[sel.strategy.str.startswith("S0")].assign(target=lambda d: d.m * d.k)
+check("aus S0 short cells", f"in {int((s0.n < s0.target).sum())} of the {len(s0)} split-by-budget cells")
+mn = s0.groupby(["m", "k"]).n.mean()
+check("aus S0 mean labels", f"on average {mn[(3, 3)]:.2f} of 9, {mn[(3, 5)]:.2f} of 15, {mn[(6, 3)]:.2f} of 18 and {mn[(6, 5)]:.2f} of 30 labels")
+others = sel[~sel.strategy.str.startswith("S0")]
+check("aus others full", "The other four" if bool((others.n == others.m * others.k).all()) else "<<budget not full>>")
+mm = pd.read_csv(A / "results" / "aus_q2matched_metrics.csv")
+c33 = mm[(mm.m == 3) & (mm.k == 3)].groupby(["strategy", "model"]).rmse.mean()
+def rng2(model):
+    v = [c33[(st, model)] for st in c33.index.get_level_values(0).unique() if not st.startswith("S0")]
+    return f"{min(v):.2f}--{max(v):.2f}"
+check("aus matched affine", f"source-affine has RMSE {c33[('S0 last consecutive', 'Source-affine')]:.2f} with the latest months and {rng2('Source-affine')} with")
+check("aus matched ECA-R", f"ECA-R has {c33[('S0 last consecutive', 'ECA-R')]:.2f} against {rng2('ECA-R')}")
+cells = mm[mm.model.isin(["Source-affine", "ECA-R"])].groupby(["m", "k", "model", "strategy"]).rmse.mean()
+best = all(cells[(m, k, md)].idxmin().startswith("S0") for m in (3, 6) for k in (3, 5) for md in ("Source-affine", "ECA-R"))
+check("aus matched S0 best", "remain the best labels for\nrecalibration and ECA-R" if best else "<<S0 not best>>")
 fails = [r for r in results if not r[1]]
 for name, ok, needle in results:
     print("PASS" if ok else "FAIL", name, "" if ok else "| " + needle)
 print(f"{len(results) - len(fails)}/{len(results)} checks pass")
 sys.exit(1 if fails else 0)
+

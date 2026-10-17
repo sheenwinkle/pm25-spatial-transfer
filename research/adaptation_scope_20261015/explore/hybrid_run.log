@@ -1,0 +1,15 @@
+locked hybrid m=3 k=5 done (1s)
+locked hybrid m=3 k=11 done (2s)
+locked hybrid m=6 k=5 done (2s)
+locked hybrid m=6 k=11 done (4s)
+S0 reproduces run_q2: rows 30668/30668, max relative deviation 4.52e-06
+yrd hybrid m=3 k=5 done (1s)
+yrd hybrid m=3 k=11 done (2s)
+yrd hybrid m=6 k=5 done (3s)
+yrd hybrid m=6 k=11 done (5s)
+S0 reproduces run_q2: rows 37820/37820, max relative deviation 4.94e-06
+aus hybrid m=3 k=3 done (0s)
+aus hybrid m=3 k=5 done (1s)
+aus hybrid m=6 k=3 done (1s)
+aus hybrid m=6 k=5 done (1s)
+S0 reproduces run_q2: rows 9312/9312, max relative deviation 4.93e-06
