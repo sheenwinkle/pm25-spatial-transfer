@@ -25,3 +25,11 @@ No estimation code, setting or prior changed after T3.
 - The ECA-R weak-shrinkage variant (`ECA-unbounded` in `adapt_lib.eca_predict`) multiplies the signal amplitude by
   10 and divides the noise SD by 10, so its signal-to-noise ratio grows 100-fold; `ECA2-unbounded` (ECA-S)
   multiplies the ratios by 10. The thesis reports both factors.
+- 19 October 2026, after a review of the sixth draft: `make_adapt_report.py` and `explore/make_explore_report.py`
+  now write the thesis's corrected captions and row labels (the weak-shrinkage factors, and "is assigned" with the
+  actual Australian label counts, read from `results/aus_q2_selected.csv` and `explore/aus_hybrid_predictions.csv.gz`).
+  No model was refitted; the regenerated `tab_adapt_rmse.tex` and `tab_adapt_confirm.tex` are byte-identical to the
+  previous ones. `check_adapt_claims.py` now also requires every generated table to appear verbatim in the thesis.
+- `explore/hybrid_matched.py` (post hoc, 19 October 2026) applies the matched-budget check to the hybrid strategy of
+  thesis Table C.4; see `explore/README.md`.
+

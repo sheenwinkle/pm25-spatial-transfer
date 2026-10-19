@@ -2,7 +2,8 @@
 
 Usage: python make_adapt_report.py <results_dir> <summary_dir> <out_dir>
 Writes tab_adapt_rmse.tex, tab_adapt_confirm.tex, tab_adapt_ablation.tex, tab_adapt_labels.tex,
-fig_adapt_budget.png and adapt_numbers.json.
+fig_adapt_budget.png and adapt_numbers.json. The label-selection caption reads the Australian label counts from
+<results_dir>/aus_q2_selected.csv; no model is refitted.
 """
 import json
 import sys
@@ -127,10 +128,10 @@ Comparison & $m$ & $k=5$ & $k=11$ \\
 ABL = [("history", "ECA2 vs ECA2-affine", "ECA-S vs no condition term"),
        ("history", "ECA2 vs ECA2-isotropic", "ECA-S vs one length-scale"),
        ("history", "ECA2 vs ECA2-no-meta", "ECA-S vs no meta-learning"),
-       ("history", "ECA2 vs ECA2-unbounded", "ECA-S vs prior SDs $\\times 10$"),
+       ("history", "ECA2 vs ECA2-unbounded", "ECA-S vs prior/noise ratio $\\times 10$"),
        ("history", "ECA2 vs ECA2-MAP", "ECA-S vs amount set on target labels"),
        ("historyN", "ECA-fixed vs ECA-no-meta", "ECA-R vs no meta-learning"),
-       ("historyN", "ECA-fixed vs ECA-unbounded", "ECA-R vs amplitude $\\times 10$"),
+       ("historyN", "ECA-fixed vs ECA-unbounded", "ECA-R vs prior/noise ratio $\\times 100$"),
        ("historyN", "ECA-fixed vs ECA", "ECA-R vs amount set on target labels")]
 lines = []
 prev = None
@@ -152,7 +153,7 @@ for design, comp, label in ABL:
 tab = r"""\begin{table}[H]
 \centering
 \footnotesize
-\caption{Where and how much to adapt: ablations. Entries as in Table~\ref{tab:adapt-confirm}; positive values favour the full estimator. T3 columns are confirmation results; the last column gives the development result on T1 at $k=5$.}
+\caption{Where and how much to adapt: ablations. Entries as in Table~\ref{tab:adapt-confirm}; positive values favour the full estimator. The weak-shrinkage rows multiply the ratio of the prior to the noise standard deviation by 10 for ECA-S and by 100 for ECA-R (amplitude $\times 10$, noise SD $\div 10$). T3 columns are confirmation results; the last column gives the development result on T1 at $k=5$.}
 \label{tab:adapt-ablation}
 \setlength{\tabcolsep}{3.5pt}
 \begin{adjustbox}{max width=\linewidth}
@@ -171,6 +172,17 @@ Comparison & $m$ & $k=5$ & $k=11$ & $k=5$ \\
 (OUT / "tab_adapt_ablation.tex").write_text(tab)
 
 # ------------------------------------------------------------------ Table D: label selection
+# Some Australian FUAs miss part of late 2020, so the last-months design (S0) can receive fewer labels than its
+# budget; every other strategy is full. The caption reports this for the Australian cell shown in the table.
+sel = pd.read_csv(RES / "aus_q2_selected.csv")
+s0 = sel[(sel.strategy == "S0 last consecutive") & (sel.m == 3) & (sel.k == 3)]
+assert len(s0) == 20
+others = sel[sel.strategy != "S0 last consecutive"]
+assert bool((others.n == others.m * others.k).all())
+n_short, n_mean = int((s0.n < 9).sum()), float(s0.n.mean())
+num["q2labels|aus|m3|k3|S0"] = [n_short, round(n_mean, 2)]
+AUS_NOTE = (f"In Australia, the last-months design received fewer labels than its budget in {n_short} of the 20 "
+            f"splits shown ({n_mean:.2f} of 9 on average); see the text for a matched-budget check. ")
 STRAT = ["S0 last consecutive", "S1 random", "S2 season-spread", "S3 condition coverage", "S4 target-aware"]
 SLAB = {"S0 last consecutive": "Last $m$ months of 2020", "S1 random": "Random months",
         "S2 season-spread": "Spread over seasons", "S3 condition coverage": "Condition coverage",
@@ -198,7 +210,7 @@ lines = lines[:-1]
 tab = r"""\begin{table}[H]
 \centering
 \footnotesize
-\caption{Which months to label: mean 2021--2022 RMSE ($\mu$g/m$^3$) when each labelled FUA receives $m$ labelled months chosen from 2019--2020 by each strategy. Random and season-spread values average five draws. Condition coverage maximises the spread of each FUA's labelled conditions; target-aware coverage chooses the months that most reduce the correction's uncertainty over the conditions to be predicted.}
+\caption{Which months to label: mean 2021--2022 RMSE ($\mu$g/m$^3$) when each labelled FUA is assigned $m$ labelled months chosen from 2019--2020 by each strategy. """ + AUS_NOTE + r"""Random and season-spread values average five draws. Condition coverage maximises the spread of each FUA's labelled conditions; target-aware coverage chooses the months that most reduce the correction's uncertainty over the conditions to be predicted.}
 \label{tab:adapt-labels}
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{@{}lrrrr@{}}

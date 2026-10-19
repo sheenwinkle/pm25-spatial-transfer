@@ -14,10 +14,11 @@ those labels cover? Protocol and its two amendments: `PROTOCOL.md`; checksums fr
 | `run_q2.py` | which months to label: strategies S0-S4 |
 | `summarise.py` | means, paired gains and crossed FUA-by-quarter bootstrap intervals (`summary/`) |
 | `make_adapt_report.py` | thesis Tables 7.1-7.4 and Figure 7.1 (`report/`) |
-| `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/` |
+| `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/`, and that every generated table (`report/`, `explore/`) appears verbatim in the thesis |
 | `aoa/di_probe.py` | covariate-only area-of-applicability shares (no PM2.5 read) |
 | `aoa/distance_check.py` | exploratory, after T3: distance from the source data against the gain from recalibration in the nine development regions (thesis Table C.1) |
 | `run_q2_matched.py` | post hoc, after the fifth draft: Q2 in Australia with every strategy cut to the labels the latest-months design actually received (matched budget) |
+| `explore/hybrid_matched.py`, `explore/hybrid_matched_summary.py` | post hoc, after the sixth draft: the hybrid of thesis Table C.4 cut to the labels the latest-months design received in Australia (matched budget) |
 | `explore/` | exploratory, after T3: condition groups, a hybrid label strategy, a label-window scan and the mechanism figure (thesis Figure C.1 and Tables C.2-C.4); see `explore/README.md` |
 | `results/` | per-split metrics and row-level predictions for T1 (yrd), T2 (aus) and T3 (locked) |
 
@@ -38,6 +39,8 @@ python run_q2_matched.py aus meta/theta.json meta/theta2.json results
 python explore/ablate_groups.py explore
 python explore/hybrid_labels.py <yrd|aus|locked> meta/theta.json meta/theta2.json explore
 python explore/hybrid_summary.py . explore
+python explore/hybrid_matched.py aus meta/theta.json meta/theta2.json explore
+python explore/hybrid_matched_summary.py . explore aus
 python explore/window_scan.py meta/theta.json meta/theta2.json explore
 python explore/mechanism_figures.py meta/theta.json explore
 python explore/condition_overlap.py explore
