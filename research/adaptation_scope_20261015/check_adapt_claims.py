@@ -3,7 +3,9 @@
 Usage: python check_adapt_claims.py <adapt_dir> <main.tex>
 Each check recomputes a value from summary/*.csv, meta/*.json, aoa/di_summary.json or results/*.csv.gz, formats
 it as the text does and requires that string (with the stated context) to occur in main.tex. It also requires every
-generated table (report/tab_*.tex, explore/tab_*.tex) to appear verbatim in main.tex.
+generated table (report/tab_*.tex, explore/tab_*.tex) to appear verbatim in main.tex. The abstract's comparison with
+local learning is recomputed from the per-split results of the benchmark experiment
+(../manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/results), as in its check_claims.py.
 """
 import json
 import re
@@ -96,7 +98,6 @@ a = arch[(arch.task == "yrd") & (arch.cell == "M3") & (arch.comparison == "Direc
 a5, a11 = a[a.k == 5].iloc[0], a[a.k == 11].iloc[0]
 check("T1 direct vs NNW k5", f"by {a5.gain:.1f}\\% (20 of 20 splits)"); assert a5.wins == 20
 check("T1 direct vs NNW k11", f"{a11.gain:.1f}\\% ({int(a11.wins)}/20)")
-check("abstract direct vs NNW", f"relative to NNW[LDF] by {a5.gain:.1f}\\% (20 of 20 splits)")
 r = G("yrd", "history", "M3", 5, "Source-affine vs Direct")
 check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(-r.hi)} to {f1(-r.lo)})")
 check("T1 ECA-S m3", f"transfer ({M('yrd', 'history', 'M3', 5, 'ECA2'):.2f}) and is lower with twelve months ({M('yrd', 'history', 'M12', 5, 'ECA2'):.2f})")
@@ -327,6 +328,38 @@ for tf in sorted(list((A / "report").glob("tab_*.tex")) + list((A / "explore").g
     for lab, body in _tables(tf.read_text(encoding="utf-8")).items():
         results.append((f"table in sync {lab}", thesis_tabs.get(lab) == body,
                         f"{tf.relative_to(A)} differs from the table in the thesis"))
+# --- abstract: RQ1 is answered with a comparison against local learning (added 23 October 2026). The 18.4% gain of
+# direct transfer over NNW[LDF] is still checked in the body ("T1 direct vs NNW k5/k11"); the abstract now reports the
+# gain of source-affine over the per-split post-hoc best of eight target-only learners when the source model has not
+# seen the test years (benchmark protocols N3 and M3, computed as in the benchmark's check_claims.py).
+_abs = TEX.read_text(encoding="utf-8").split("\\addcontentsline{toc}{section}{Abstract}", 1)[1]
+_abs = re.sub(r"\s+", " ", _abs.split("\\section{Introduction}", 1)[0])
+BENCH = A.resolve().parent / "manuscript_revision_20261004" / "benchmark_replication_20261008" / "benchmark_experiment"
+sys.path.insert(0, str(BENCH))
+import make_tables as _mt  # noqa: E402  (benchmark per-split results and the eight-learner post-hoc best)
+
+_bd = _mt.with_best(_mt.load())
+
+
+def _no_contemporaneous(k):
+    aff = _bd[(_bd.task == "yrd") & (_bd.protocol == "N3") & (_bd.k == k) & (_bd.model == "Source-affine (ours)")]
+    ref = _bd[(_bd.task == "yrd") & (_bd.protocol == "M3") & (_bd.k == k) & (_bd.model == "Best local")]
+    j = aff.set_index("split")[["rmse", "n"]].join(ref.set_index("split")[["rmse", "n"]], lsuffix="_c", rsuffix="_r",
+                                                   how="inner")
+    assert len(j) == 20 and (j.n_c == j.n_r).all()
+    return 100 * (1 - j.rmse_c / j.rmse_r).mean(), int((j.rmse_c < j.rmse_r).sum()), len(j)
+
+
+def check_abstract(name, needle):
+    results.append((name, re.sub(r"\s+", " ", needle) in _abs, needle))
+
+
+g5, w5, n5 = _no_contemporaneous(5)
+g11 = _no_contemporaneous(11)[0]
+check_abstract("abstract local comparison k5", f"reduces mean paired RMSE by {g5:.1f}\\% ({w5} of {n5} splits) relative "
+               f"to the best of eight target-only learners")
+check_abstract("abstract local comparison k11", f"({g11:.1f}\\% at eleven FUAs)")
+
 fails = [r for r in results if not r[1]]
 for name, ok, needle in results:
     print("PASS" if ok else "FAIL", name, "" if ok else "| " + needle)

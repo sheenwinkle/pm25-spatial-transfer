@@ -1,8 +1,13 @@
-# Adaptation scope and label selection (thesis Section 7, Appendix C)
+# Adaptation scope and label selection (thesis Sections 4.5–4.8, Chapters 6 and 7, Appendix F)
 
 How much and where should a source PM2.5 model be adapted with a few scattered target labels, and which months should
 those labels cover? Protocol and its two amendments: `PROTOCOL.md`; checksums frozen before the confirmation run:
 `freeze_T3.txt`; changes after it: `POST_T3_NOTES.md`.
+
+Thesis numbers below refer to the tenth draft (23 October 2026). Docstrings and notes written earlier keep the
+numbering of the draft they were written for: Section 7 and Appendix C became Sections 4.5–4.8, Chapters 6 and 7 and
+Appendix F; Tables 7.1–7.4 became Tables 7.1–7.3 and F.1; Figure 7.1 became Figure 6.1; Tables C.1–C.4 became
+Tables F.2–F.5; Figure C.1 became Figure F.1.
 
 | File | Role |
 |---|---|
@@ -13,13 +18,13 @@ those labels cover? Protocol and its two amendments: `PROTOCOL.md`; checksums fr
 | `run_q1.py` | how much and where to adapt: designs `history`, `historyN` (source up to 2020), `window` |
 | `run_q2.py` | which months to label: strategies S0-S4 |
 | `summarise.py` | means, paired gains and crossed FUA-by-quarter bootstrap intervals (`summary/`) |
-| `make_adapt_report.py` | thesis Tables 7.1-7.4 and Figure 7.1 (`report/`) |
-| `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/`, and that every generated table (`report/`, `explore/`) appears verbatim in the thesis |
+| `make_adapt_report.py` | thesis Tables 7.1-7.3 and F.1 and Figure 6.1 (`report/`) |
+| `check_adapt_claims.py` | checks every number of the study quoted in the thesis against `summary/`, `meta/`, `aoa/`, that every generated table (`report/`, `explore/`) appears verbatim in the thesis, and the abstract's comparison with local learning against the per-split results of the benchmark experiment |
 | `aoa/di_probe.py` | covariate-only area-of-applicability shares (no PM2.5 read) |
-| `aoa/distance_check.py` | exploratory, after T3: distance from the source data against the gain from recalibration in the nine development regions (thesis Table C.1) |
+| `aoa/distance_check.py` | exploratory, after T3: distance from the source data against the gain from recalibration in the nine development regions (thesis Table F.2) |
 | `run_q2_matched.py` | post hoc, after the fifth draft: Q2 in Australia with every strategy cut to the labels the latest-months design actually received (matched budget) |
-| `explore/hybrid_matched.py`, `explore/hybrid_matched_summary.py` | post hoc, after the sixth draft: the hybrid of thesis Table C.4 cut to the labels the latest-months design received in Australia (matched budget) |
-| `explore/` | exploratory, after T3: condition groups, a hybrid label strategy, a label-window scan and the mechanism figure (thesis Figure C.1 and Tables C.2-C.4); see `explore/README.md` |
+| `explore/hybrid_matched.py`, `explore/hybrid_matched_summary.py` | post hoc, after the sixth draft: the hybrid of thesis Table F.5 cut to the labels the latest-months design received in Australia (matched budget) |
+| `explore/` | exploratory, after T3: condition groups, a hybrid label strategy, a label-window scan and the mechanism figure (thesis Figure F.1 and Tables F.3-F.5); see `explore/README.md` |
 | `results/` | per-split metrics and row-level predictions for T1 (yrd), T2 (aus) and T3 (locked) |
 
 Run order (paths in `env.sh.example`; the benchmark harness is `research/manuscript_revision_20261004/benchmark_replication_20261008/

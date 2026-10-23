@@ -34,8 +34,9 @@ NAMES = {"no meteorology": "Meteorology (temperature, diurnal range, humidity, w
          "no conditions": "All conditions (level and scale only)"}
 lines = [r"\begin{table}[H]", r"\centering", r"\footnotesize",
          r"\caption{Where to adapt by condition group (exploratory). The ECA-S prior is re-learnt without one group "
-         r"of conditions and compared with the full prior on the 216 within-China pseudo-transfers, each region "
-         r"held out in turn as in the region cross-validation of Section~\ref{eca-method}. Entries are the mean paired "
+         r"of conditions and compared with the full prior on the 216 within-China pseudo-transfers, in the three-fold "
+         r"region cross-validation of Section~\ref{eca-method} (learnt on six development regions and evaluated on the "
+         r"other three). Entries are the mean paired "
          r"RMSE reduction (\%) of the full prior over the reduced prior on the held-out tasks, with a 95\% interval "
          r"from 1,000 bootstrap draws of the nine regions, and the number of regions in which the full prior is "
          r"more accurate; positive values mean that the removed group carries useful correction.}",
