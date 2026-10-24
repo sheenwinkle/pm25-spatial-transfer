@@ -32,3 +32,16 @@ cross-validation reproduces the held-out objectives in `meta/theta2.json` to wit
 against -0.1137; the other two folds agree to four decimals), so the exact-match flag in `ablation_summary.json`,
 which uses a tolerance of 1e-6, reads false. `hybrid_labels.py` recomputes S0 and reproduces the S0 predictions of
 `results/<task>_q2_predictions.csv.gz` to the six significant digits stored there.
+
+## Post-hoc addition (19 October 2026)
+
+`hybrid_matched.py` and `hybrid_matched_summary.py` were added after a review of the sixth draft. In Australia some
+labelled FUAs miss part of late 2020, so the latest-months design (S0) falls short of its budget while H fills its
+coverage part; H therefore held one label more than S0 in 50 of the 80 Australian splits (columns `*|n_rows` of
+`aus_hybrid_predictions.csv.gz`). The matched run repeats the hybrid selection exactly and cuts each FUA's labels to
+the number S0 received (recent months first, then the coverage months in selection order); the splits in which
+nothing is cut reproduce `aus_hybrid_predictions.csv.gz` exactly. In `hybrid_matched_gains.csv`, the two ECA-S gains
+over S0 with three months remain (15.4% [12.0, 19.8] and 22.3% [18.2, 28.0]), the four source-affine losses remain,
+and the ECA-R loss with three months at five FUAs is no longer resolved (-8.6% [-22.2, 1.2]), so H loses to S0 in 6
+rather than 7 of the 36 cells. Item 2 above describes the strategy as it was specified; the caption of
+`tab_explore_hybrid.tex` states the actual Australian label counts.

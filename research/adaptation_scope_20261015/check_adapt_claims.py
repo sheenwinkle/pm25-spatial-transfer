@@ -2,7 +2,10 @@
 
 Usage: python check_adapt_claims.py <adapt_dir> <main.tex>
 Each check recomputes a value from summary/*.csv, meta/*.json, aoa/di_summary.json or results/*.csv.gz, formats
-it as the text does and requires that string (with the stated context) to occur in main.tex.
+it as the text does and requires that string (with the stated context) to occur in main.tex. It also requires every
+generated table (report/tab_*.tex, explore/tab_*.tex) to appear verbatim in main.tex. The abstract's comparison with
+local learning is recomputed from the per-split results of the benchmark experiment
+(../manuscript_revision_20261004/benchmark_replication_20261008/benchmark_experiment/results), as in its check_claims.py.
 """
 import json
 import re
@@ -64,7 +67,7 @@ r = G(L, "history", "M3", 5, "ECA2 vs Direct"); check("T3 ECA-S vs direct m3 k5"
 r = G(L, "history", "M3", 11, "ECA2 vs Direct"); check("T3 ECA-S vs direct m3 k11", gi(r))
 r = G(L, "history", "M6", 5, "ECA2 vs Direct"); check("T3 ECA-S vs direct m6 k5", gi(r))
 r = G(L, "history", "M6", 11, "ECA2 vs Direct"); check("T3 ECA-S vs direct m6 k11", gi(r))
-r = G(L, "history", "M3", 5, "ECA2 vs Source-affine"); check("T3 ECA-S vs affine m3 k5 (abstract)", f"its {f1(r.gain)}\\% gain over recalibration")
+r = G(L, "history", "M3", 5, "ECA2 vs Source-affine"); check("T3 ECA-S vs affine m3 k5 (abstract)", f"its {f1(r.gain)}\\% gain over source-affine")
 v = [G(L, "history", c, k, "Source-affine vs Direct").gain for c in ("M3", "M6", "M12") for k in (5, 11)]
 check("T3 affine vs direct range", f"by {rng(v)}\\%, with every interval")
 assert all(G(L, "history", c, k, "Source-affine vs Direct").lo < 0 for c in ("M3", "M6", "M12") for k in (5, 11))
@@ -95,7 +98,6 @@ a = arch[(arch.task == "yrd") & (arch.cell == "M3") & (arch.comparison == "Direc
 a5, a11 = a[a.k == 5].iloc[0], a[a.k == 11].iloc[0]
 check("T1 direct vs NNW k5", f"by {a5.gain:.1f}\\% (20 of 20 splits)"); assert a5.wins == 20
 check("T1 direct vs NNW k11", f"{a11.gain:.1f}\\% ({int(a11.wins)}/20)")
-check("abstract direct vs NNW", f"relative to NNW[LDF] by {a5.gain:.1f}\\% (20 of 20 splits)")
 r = G("yrd", "history", "M3", 5, "Source-affine vs Direct")
 check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(-r.hi)} to {f1(-r.lo)})")
 check("T1 ECA-S m3", f"transfer ({M('yrd', 'history', 'M3', 5, 'ECA2'):.2f}) and is lower with twelve months ({M('yrd', 'history', 'M12', 5, 'ECA2'):.2f})")
@@ -285,7 +287,79 @@ check("aus matched affine", f"source-affine has RMSE {c33[('S0 last consecutive'
 check("aus matched ECA-R", f"ECA-R has {c33[('S0 last consecutive', 'ECA-R')]:.2f} against {rng2('ECA-R')}")
 cells = mm[mm.model.isin(["Source-affine", "ECA-R"])].groupby(["m", "k", "model", "strategy"]).rmse.mean()
 best = all(cells[(m, k, md)].idxmin().startswith("S0") for m in (3, 6) for k in (3, 5) for md in ("Source-affine", "ECA-R"))
-check("aus matched S0 best", "remain the best labels for\nrecalibration and ECA-R" if best else "<<S0 not best>>")
+check("aus matched S0 best", "remain the best labels for source-affine and\nECA-R" if best else "<<S0 not best>>")
+# --- hybrid labels in Australia: actual counts and the matched-budget check (added 19 October 2026)
+hp = pd.read_csv(A / "explore/aus_hybrid_predictions.csv.gz").groupby(["m", "k", "split"]).first()
+extra = int((hp["H recent + target-aware|0|n_rows"] > hp["S0 last consecutive|0|n_rows"]).sum())
+check("aus hybrid extra label", f"had one label more in {extra} of the {len(hp)} Australian splits")
+hm = pd.read_csv(A / "explore/hybrid_matched_gains.csv")
+
+
+def HM(mm, kk, method):
+    r = hm[(hm.m == mm) & (hm.k == kk) & (hm.method == method)]
+    assert len(r) == 1, (mm, kk, method)
+    return r.iloc[0]
+
+
+check("aus hybrid matched ECA-S", f"ECA-S gains remained ({gi(HM(3, 3, 'ECA-S'))} and {gi(HM(3, 5, 'ECA-S'))} with three months)")
+sa = [HM(mm, kk, "Source-affine") for mm in (3, 6) for kk in (3, 5)]
+check("aus hybrid matched SA", f"four source-affine losses ({min(-r.gain for r in sa):.1f}--{max(-r.gain for r in sa):.1f}\\%)"
+      if all(r.hi < 0 for r in sa) else "<<a source-affine loss is no longer resolved>>")
+er = HM(3, 5, "ECA-R")
+check("aus hybrid matched ECA-R", f"was no longer resolved ({gi(er)})" if er.lo < 0 < er.hi else "<<ECA-R resolved>>")
+hg = pd.read_csv(A / "explore/hybrid_gains.csv")
+h0 = hg[hg.comparison == "H vs S0"]
+comb = pd.concat([h0[h0.task != "aus"], hm])
+check("hybrid matched loss count", f"the hybrid loses to the latest months in {int((comb.hi < 0).sum())} of the {len(comb)} cells")
+
+# --- every generated table must appear verbatim in the thesis, so that regenerating the tables cannot bring back
+# text that the thesis has since corrected (added 19 October 2026)
+def _tables(src):
+    out = {}
+    for mt in re.finditer(r"\\begin\{table\}.*?\\end\{table\}", src, flags=re.S):
+        lab = re.search(r"\\label\{(tab:[^}]*)\}", mt.group(0))
+        if lab:
+            out[lab.group(1)] = re.sub(r"\s+", " ", mt.group(0)).strip()
+    return out
+
+
+thesis_tabs = _tables(TEX.read_text(encoding="utf-8"))
+for tf in sorted(list((A / "report").glob("tab_*.tex")) + list((A / "explore").glob("tab_*.tex"))):
+    for lab, body in _tables(tf.read_text(encoding="utf-8")).items():
+        results.append((f"table in sync {lab}", thesis_tabs.get(lab) == body,
+                        f"{tf.relative_to(A)} differs from the table in the thesis"))
+# --- abstract: RQ1 is answered with a comparison against local learning (added 23 October 2026). The 18.4% gain of
+# direct transfer over NNW[LDF] is still checked in the body ("T1 direct vs NNW k5/k11"); the abstract now reports the
+# gain of source-affine over the per-split post-hoc best of eight target-only learners when the source model has not
+# seen the test years (benchmark protocols N3 and M3, computed as in the benchmark's check_claims.py).
+_abs = TEX.read_text(encoding="utf-8").split("\\addcontentsline{toc}{section}{Abstract}", 1)[1]
+_abs = re.sub(r"\s+", " ", _abs.split("\\section{Introduction}", 1)[0])
+BENCH = A.resolve().parent / "manuscript_revision_20261004" / "benchmark_replication_20261008" / "benchmark_experiment"
+sys.path.insert(0, str(BENCH))
+import make_tables as _mt  # noqa: E402  (benchmark per-split results and the eight-learner post-hoc best)
+
+_bd = _mt.with_best(_mt.load())
+
+
+def _no_contemporaneous(k):
+    aff = _bd[(_bd.task == "yrd") & (_bd.protocol == "N3") & (_bd.k == k) & (_bd.model == "Source-affine (ours)")]
+    ref = _bd[(_bd.task == "yrd") & (_bd.protocol == "M3") & (_bd.k == k) & (_bd.model == "Best local")]
+    j = aff.set_index("split")[["rmse", "n"]].join(ref.set_index("split")[["rmse", "n"]], lsuffix="_c", rsuffix="_r",
+                                                   how="inner")
+    assert len(j) == 20 and (j.n_c == j.n_r).all()
+    return 100 * (1 - j.rmse_c / j.rmse_r).mean(), int((j.rmse_c < j.rmse_r).sum()), len(j)
+
+
+def check_abstract(name, needle):
+    results.append((name, re.sub(r"\s+", " ", needle) in _abs, needle))
+
+
+g5, w5, n5 = _no_contemporaneous(5)
+g11 = _no_contemporaneous(11)[0]
+check_abstract("abstract local comparison k5", f"reduces mean paired RMSE by {g5:.1f}\\% ({w5} of {n5} splits) relative "
+               f"to the best of eight target-only learners")
+check_abstract("abstract local comparison k11", f"({g11:.1f}\\% at eleven FUAs)")
+
 fails = [r for r in results if not r[1]]
 for name, ok, needle in results:
     print("PASS" if ok else "FAIL", name, "" if ok else "| " + needle)

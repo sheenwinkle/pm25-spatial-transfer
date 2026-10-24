@@ -9863,6 +9863,10 @@
 11.6,
 18
 ],
+"q2labels|aus|m3|k3|S0": [
+9,
+8.55
+],
 "q2rmse|aus|m3|k3|Best local|S0": 1.35,
 "q2rmse|aus|m3|k3|Best local|S1": 2.36,
 "q2rmse|aus|m3|k3|Best local|S2": 2.35,
