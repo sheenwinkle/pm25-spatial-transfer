@@ -67,7 +67,7 @@ r = G(L, "history", "M3", 5, "ECA2 vs Direct"); check("T3 ECA-S vs direct m3 k5"
 r = G(L, "history", "M3", 11, "ECA2 vs Direct"); check("T3 ECA-S vs direct m3 k11", gi(r))
 r = G(L, "history", "M6", 5, "ECA2 vs Direct"); check("T3 ECA-S vs direct m6 k5", gi(r))
 r = G(L, "history", "M6", 11, "ECA2 vs Direct"); check("T3 ECA-S vs direct m6 k11", gi(r))
-r = G(L, "history", "M3", 5, "ECA2 vs Source-affine"); check("T3 ECA-S vs affine m3 k5 (abstract)", f"its {f1(r.gain)}\\% gain over recalibration")
+r = G(L, "history", "M3", 5, "ECA2 vs Source-affine"); check("T3 ECA-S vs affine m3 k5 (abstract)", f"its {f1(r.gain)}\\% gain over source-affine")
 v = [G(L, "history", c, k, "Source-affine vs Direct").gain for c in ("M3", "M6", "M12") for k in (5, 11)]
 check("T3 affine vs direct range", f"by {rng(v)}\\%, with every interval")
 assert all(G(L, "history", c, k, "Source-affine vs Direct").lo < 0 for c in ("M3", "M6", "M12") for k in (5, 11))
@@ -287,7 +287,7 @@ check("aus matched affine", f"source-affine has RMSE {c33[('S0 last consecutive'
 check("aus matched ECA-R", f"ECA-R has {c33[('S0 last consecutive', 'ECA-R')]:.2f} against {rng2('ECA-R')}")
 cells = mm[mm.model.isin(["Source-affine", "ECA-R"])].groupby(["m", "k", "model", "strategy"]).rmse.mean()
 best = all(cells[(m, k, md)].idxmin().startswith("S0") for m in (3, 6) for k in (3, 5) for md in ("Source-affine", "ECA-R"))
-check("aus matched S0 best", "remain the best labels for\nrecalibration and ECA-R" if best else "<<S0 not best>>")
+check("aus matched S0 best", "remain the best labels for source-affine and\nECA-R" if best else "<<S0 not best>>")
 # --- hybrid labels in Australia: actual counts and the matched-budget check (added 19 October 2026)
 hp = pd.read_csv(A / "explore/aus_hybrid_predictions.csv.gz").groupby(["m", "k", "split"]).first()
 extra = int((hp["H recent + target-aware|0|n_rows"] > hp["S0 last consecutive|0|n_rows"]).sum())
