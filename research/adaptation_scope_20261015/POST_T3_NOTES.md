@@ -17,3 +17,11 @@ taken before T3 was run. After T3, only reporting code changed:
   recorded there.
 
 No estimation code, setting or prior changed after T3.
+- `run_q2_matched.py` (post hoc, 17 October 2026) was added after a review of the fifth draft. In Australia the
+  latest-months design (S0) received fewer labels than its budget in 50 of 80 split-by-budget cells, because some
+  labelled FUAs miss part of late 2020; every other strategy, and every strategy in the YRD and the locked region,
+  received the full budget. The script cuts S1-S4, FUA by FUA, to the labels S0 received and refits; S0 reproduces
+  `results/aus_q2_metrics.csv` exactly and remains the best for source-affine and ECA-R in all four cells.
+- The ECA-R weak-shrinkage variant (`ECA-unbounded` in `adapt_lib.eca_predict`) multiplies the signal amplitude by
+  10 and divides the noise SD by 10, so its signal-to-noise ratio grows 100-fold; `ECA2-unbounded` (ECA-S)
+  multiplies the ratios by 10. The thesis reports both factors.

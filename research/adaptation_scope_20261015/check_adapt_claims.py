@@ -88,7 +88,7 @@ assert all(x.lo > 0 for x in v)
 v = [G(L, "historyN", c, k, "ECA2 vs Direct").gain for c in ("M3", "M6", "M12") for k in (5, 11)]
 check("T3 ECA-S vs direct stale range", f"by {rng(v)}\\%, but has")
 r = G(L, "historyN", "M3", 5, "ECA2 vs Source-affine")
-check("T3 ECA-S vs affine stale", f"has {abs(r.gain):.1f}\\% higher RMSE than source-affine with three months at five FUAs (interval {f1(r.lo)} to {f1(r.hi)})")
+check("T3 ECA-S vs affine stale", f"has {abs(r.gain):.1f}\\% higher RMSE than source-affine with three months at five FUAs (interval {f1(-r.hi)} to {f1(-r.lo)})")
 # ---- YRD development
 check("T1 direct", f"({M('yrd', 'history', 'M3', 5, 'Direct'):.2f} at \\(k=5\\))")
 a = arch[(arch.task == "yrd") & (arch.cell == "M3") & (arch.comparison == "Direct vs NNW[LDF] (archived)")]
@@ -97,7 +97,7 @@ check("T1 direct vs NNW k5", f"by {a5.gain:.1f}\\% (20 of 20 splits)"); assert a
 check("T1 direct vs NNW k11", f"{a11.gain:.1f}\\% ({int(a11.wins)}/20)")
 check("abstract direct vs NNW", f"relative to NNW[LDF] by {a5.gain:.1f}\\% (20 of 20 splits)")
 r = G("yrd", "history", "M3", 5, "Source-affine vs Direct")
-check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(r.lo)} to {f1(r.hi)})")
+check("T1 affine vs direct", f"has {abs(r.gain):.1f}\\% higher RMSE than direct transfer at \\(k=5\\) (interval {f1(-r.hi)} to {f1(-r.lo)})")
 check("T1 ECA-S m3", f"transfer ({M('yrd', 'history', 'M3', 5, 'ECA2'):.2f}) and is lower with twelve months ({M('yrd', 'history', 'M12', 5, 'ECA2'):.2f})")
 check("T1 2019 window", f"source-affine has RMSE {M('yrd', 'window', '2019Q4', 5, 'Source-affine'):.2f}, ECA-S has {M('yrd', 'window', '2019Q4', 5, 'ECA2'):.2f}, a reduction of " + gi(G("yrd", "window", "2019Q4", 5, "ECA2 vs Source-affine")).replace("\\%", "\\%"))
 # ---- Australia
@@ -126,7 +126,7 @@ check("abl MAP", f"({rng(v)}\\%)")
 check("abl ECA-R meta", f"by {rng([G(L, 'historyN', 'M3', k, 'ECA-fixed vs ECA-no-meta').gain for k in (5, 11)])}\\% with three")
 v = [G(L, "historyN", "M3", k, "ECA-fixed vs ECA-unbounded").gain for k in (5, 11)]
 results.append(("abl ECA-R bound doubles", all(1.8 < 1 / (1 - x / 100) < 2.3 for x in v), str(v)))
-check("abl T1", f"({f1(G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-affine').gain)}\\%), while meta-learning and the bound do ({G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-no-meta').gain:.1f}\\% and {G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-unbounded').gain:.1f}\\%)")
+check("abl T1", f"({f1(G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-affine').gain)}\\%), while meta-learning and strong shrinkage do ({G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-no-meta').gain:.1f}\\% and {G('yrd', 'history', 'M3', 5, 'ECA2 vs ECA2-unbounded').gain:.1f}\\%)")
 # ---- label selection
 d = q2m[(q2m.task == "aus") & (q2m.m == 3) & (q2m.k == 3) & (q2m.method == "Source-affine")].set_index("strategy").mean_rmse
 others = [d[s] for s in d.index if not s.startswith("S0")]
@@ -268,8 +268,27 @@ lab = [Q2(L, mm, k, meth, comp) for mm in (3, 6) for k in (5, 11) for meth in ("
        for comp in ("S4 target-aware vs S0 last consecutive", "S4 target-aware vs S1 random")]
 results.append(("appendix label counts", sum(r.lo > 0 for r in lab) == 0 and sum(r.hi < 0 for r in lab) == 2,
                 f"{sum(r.lo > 0 for r in lab)} / {sum(r.hi < 0 for r in lab)}"))
+# --- review fixes (17 October 2026): Australian label budget and matched-budget sensitivity
+sel = pd.read_csv(A / "results" / "aus_q2_selected.csv")
+s0 = sel[sel.strategy.str.startswith("S0")].assign(target=lambda d: d.m * d.k)
+check("aus S0 short cells", f"in {int((s0.n < s0.target).sum())} of the {len(s0)} split-by-budget cells")
+mn = s0.groupby(["m", "k"]).n.mean()
+check("aus S0 mean labels", f"on average {mn[(3, 3)]:.2f} of 9, {mn[(3, 5)]:.2f} of 15, {mn[(6, 3)]:.2f} of 18 and {mn[(6, 5)]:.2f} of 30 labels")
+others = sel[~sel.strategy.str.startswith("S0")]
+check("aus others full", "The other four" if bool((others.n == others.m * others.k).all()) else "<<budget not full>>")
+mm = pd.read_csv(A / "results" / "aus_q2matched_metrics.csv")
+c33 = mm[(mm.m == 3) & (mm.k == 3)].groupby(["strategy", "model"]).rmse.mean()
+def rng2(model):
+    v = [c33[(st, model)] for st in c33.index.get_level_values(0).unique() if not st.startswith("S0")]
+    return f"{min(v):.2f}--{max(v):.2f}"
+check("aus matched affine", f"source-affine has RMSE {c33[('S0 last consecutive', 'Source-affine')]:.2f} with the latest months and {rng2('Source-affine')} with")
+check("aus matched ECA-R", f"ECA-R has {c33[('S0 last consecutive', 'ECA-R')]:.2f} against {rng2('ECA-R')}")
+cells = mm[mm.model.isin(["Source-affine", "ECA-R"])].groupby(["m", "k", "model", "strategy"]).rmse.mean()
+best = all(cells[(m, k, md)].idxmin().startswith("S0") for m in (3, 6) for k in (3, 5) for md in ("Source-affine", "ECA-R"))
+check("aus matched S0 best", "remain the best labels for\nrecalibration and ECA-R" if best else "<<S0 not best>>")
 fails = [r for r in results if not r[1]]
 for name, ok, needle in results:
     print("PASS" if ok else "FAIL", name, "" if ok else "| " + needle)
 print(f"{len(results) - len(fails)}/{len(results)} checks pass")
 sys.exit(1 if fails else 0)
+
